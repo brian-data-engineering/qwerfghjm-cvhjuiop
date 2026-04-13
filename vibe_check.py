@@ -15,41 +15,38 @@ def clean_text(text):
     return str(text).replace('"', '').replace("'", "").strip()
 
 def fetch_heroes(sport_id):
+    # Using a session to keep the connection open
     session = requests.Session()
-    
-    # Reverted to your specified endpoint
     url = f"https://ke.sportpesa.com/api/upcoming/games?sportId={sport_id}"
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "Referer": "https://ke.sportpesa.com/",
         "X-Requested-With": "XMLHttpRequest"
     }
 
     try:
-        # Pacing requests to avoid 400 errors
-        time.sleep(random.uniform(1.5, 3.0))
+        # Give the server a moment between sports
+        time.sleep(random.uniform(2, 4))
         
         res = session.get(url, headers=headers, timeout=30)
         
-        # Clean logging output
         print(f"📡 Scout hitting: {url}")
         print(f"📊 Status: {res.status_code}")
-        
+
+        # Check if the response is actually there before parsing
         if res.status_code == 200:
-            content = res.text.strip()
-            if not content:
-                print("🕵️ Result: Empty response body.")
+            raw_content = res.text.strip()
+            if not raw_content:
+                print(f"🕵️ Empty response body for ID {sport_id}. GitHub IP likely restricted.")
                 return []
             
             data = res.json()
             return data if isinstance(data, list) else data.get('games', [])
             
     except Exception as e:
-        # Separate error message from the URL to avoid formatting issues
-        print(f"⚠️ Error encountered for ID {sport_id}")
-        print(f"📝 {str(e)}")
+        print(f"⚠️ Scout Error on ID {sport_id}: {str(e)}")
             
     return []
 
@@ -71,6 +68,7 @@ def vibe_check():
             markets = item.get('markets', [])
             h_odd, d_odd, a_odd = 0.0, 0.0, 0.0
             
+            # Extract 1X2 from the first market if it's '3 Way'
             if markets and markets[0].get('name') == '3 Way':
                 selections = markets[0].get('selections', [])
                 try:
@@ -99,13 +97,14 @@ def vibe_check():
             supabase.table("sp_prematch_master").upsert(batch, on_conflict="game_id").execute()
             print(f"✅ Success! {len(batch)} heroes are now in Lucra.")
             
+            # Cleanup older than 5 hours
             cutoff = (datetime.now() - timedelta(hours=5)).isoformat()
             supabase.table("sp_prematch_master").delete().lt("match_date", cutoff).execute()
             print("🧹 Cleanup: Old match data pruned.")
         except Exception as e:
             print(f"🚨 Supabase Error: {e}")
     else:
-        print("🕵️ Scout report: No heroes found. Verify endpoint availability.")
+        print("🕵️ Scout report: No data captured. The URL is correct, but the server is sending empty responses to this IP.")
 
 if __name__ == "__main__":
     vibe_check()
