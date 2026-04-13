@@ -1,0 +1,21 @@
+name: Daily Vibe Sync
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs at the start of every hour
+  workflow_dispatch: # Allows you to run it manually from GitHub for testing
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install Dependencies
+        run: pip install requests psycopg2-binary
+      - name: Run Vibe Check
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python vibe_check.py
