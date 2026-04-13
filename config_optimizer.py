@@ -1,32 +1,46 @@
-name: System Optimization Sync
+import requests
+import yaml
+from datetime import datetime
 
-on:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch:   # Allows manual trigger from the Actions tab
+def run_sync():
+    # Target URL
+    u = "https://www.ke.sportpesa.com/api/results/search"
+    
+    h = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Referer": "https://www.ke.sportpesa.com/results"
+    }
 
-jobs:
-  maintenance:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    try:
+        # Fetching the data via POST
+        r = requests.post(u, json={}, headers=h)
+        r.raise_for_status()
+        raw = r.json()
+        
+        processed = []
+        for entry in raw:
+            # Converting timestamp to readable format
+            ms = entry.get('start_date', 0)
+            dt = datetime.fromtimestamp(ms / 1000.0).strftime('%Y-%m-%d %H:%M:%S')
+            
+            processed.append({
+                "uid": entry.get("game_id"),
+                "cat": entry.get("sport_name"),
+                "grp": entry.get("league"),
+                "val": f"{entry.get('team1')} vs {entry.get('team2')}",
+                "stat": entry.get("result"),
+                "ts": dt
+            })
 
-      - name: Init Environment
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+        # Saving as metadata.yaml
+        with open("metadata.yaml", "w") as f:
+            yaml.dump(processed, f, default_flow_style=False, sort_keys=False)
+            
+        print(f"Sync complete. {len(processed)} items processed.")
 
-      - name: Install Dependencies
-        run: pip install requests pyyaml
+    except Exception as e:
+        print(f"Sync failed: {e}")
 
-      - name: Run Optimizer
-        run: python config_optimizer.py
-
-      - name: Update Metadata
-        run: |
-          git config --global user.name "system-bot"
-          git config --global user.email "bot@lucra.io"
-          git add metadata.yaml
-          git commit -m "chore: update system metadata [skip ci]" || exit 0
-          git push
+if __name__ == "__main__":
+    run_sync()
