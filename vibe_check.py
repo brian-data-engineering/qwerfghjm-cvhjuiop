@@ -1,5 +1,7 @@
 import os
 import requests
+import time
+import random
 from supabase import create_client
 from datetime import datetime, timedelta
 
@@ -13,33 +15,49 @@ def clean_text(text):
     return str(text).replace('"', '').replace("'", "").strip()
 
 def fetch_heroes(sport_id):
-    # Try multiple endpoints as fallback to bypass empty responses
+    # Using a session to manage cookies like a real browser
+    session = requests.Session()
+    
     endpoints = [
         f"https://ke.sportpesa.com/api/upcoming/games?sportId={sport_id}",
         f"https://ke.sportpesa.com/api/highlights/games?sportId={sport_id}"
     ]
     
+    # Mobile headers are less likely to be blocked by aggressive WAFs
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
         "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-GB,en;q=0.9",
         "Referer": "https://ke.sportpesa.com/",
-        "X-Requested-With": "XMLHttpRequest"
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
     }
 
     for url in endpoints:
         try:
-            res = requests.get(url, headers=headers, timeout=25)
-            # Log status for GitHub Actions debugging
-            print(f"📡 Scout hitting {url.split('/')[-1]} | Status: {res.status_code}")
+            # Random delay to mimic human behavior
+            time.sleep(random.uniform(1.0, 2.0))
             
-            if res.status_code == 200:
-                data = res.json()
-                # Handle both list and dict-wrapped responses
-                games = data if isinstance(data, list) else data.get('games', data.get('data', []))
-                if games:
-                    return games
+            res = session.get(url, headers=headers, timeout=30)
+            
+            # Print status for transparency
+            endpoint_name = url.split('/')[-1].split('?')[0]
+            print(f"📡 Scout hitting {endpoint_name} (ID: {sport_id}) | Status: {res.status_code}")
+            
+            # Check if body is empty before parsing JSON (prevents char 0 error)
+            if not res.text.strip():
+                print(f"🕵️ Shadow Blocked: {endpoint_name} returned an empty response.")
+                continue
+
+            data = res.json()
+            games = data if isinstance(data, list) else data.get('games', data.get('data', []))
+            if games:
+                return games
+                
         except Exception as e:
-            print(f"⚠️ Scout Error: {e}")
+            print(f"⚠️ Scout Error on {url}: {e}")
             
     return []
 
@@ -58,10 +76,10 @@ def vibe_check():
             game_id = str(item.get('id'))
             if game_id in seen_ids: continue
             
-            # Extract Odds (Safely navigating the '3 Way' market)
             markets = item.get('markets', [])
             h_odd, d_odd, a_odd = 0.0, 0.0, 0.0
             
+            # Specific 3-Way market extraction
             if markets and markets[0].get('name') == '3 Way':
                 selections = markets[0].get('selections', [])
                 try:
@@ -86,18 +104,18 @@ def vibe_check():
             seen_ids.add(game_id)
 
     if batch:
-        supabase.table("sp_prematch_master").upsert(batch, on_conflict="game_id").execute()
-        print(f"✅ Success! {len(batch)} heroes are now in Lucra.")
-        
-        # Cleanup: Remove heroes that are 5 hours old
-        cutoff = (datetime.now() - timedelta(hours=5)).isoformat()
         try:
+            supabase.table("sp_prematch_master").upsert(batch, on_conflict="game_id").execute()
+            print(f"✅ Success! {len(batch)} heroes are now in Lucra.")
+            
+            # Maintain db health
+            cutoff = (datetime.now() - timedelta(hours=5)).isoformat()
             supabase.table("sp_prematch_master").delete().lt("match_date", cutoff).execute()
             print("🧹 Cleanup: Old match data pruned.")
         except Exception as e:
-            print(f"⚠️ Cleanup note: {e}")
+            print(f"🚨 Supabase Error: {e}")
     else:
-        print("🕵️ Scout report: No data found across all endpoints. Possible IP block.")
+        print("🕵️ Scout report: All endpoints returned empty. GitHub IP is likely blacklisted.")
 
 if __name__ == "__main__":
     vibe_check()
