@@ -17,41 +17,39 @@ def clean_text(text):
 def fetch_heroes(sport_id):
     session = requests.Session()
     
-    # Switched to the mobile API which is often more lenient with data-center IPs
-    url = f"https://m.ke.sportpesa.com/api/upcoming/games?sportId={sport_id}"
+    # Reverted to your specified endpoint
+    url = f"https://ke.sportpesa.com/api/upcoming/games?sportId={sport_id}"
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
-        "Referer": "https://m.ke.sportpesa.com/",
+        "Referer": "https://ke.sportpesa.com/",
         "X-Requested-With": "XMLHttpRequest"
     }
 
     try:
-        # Increased delay range to mimic human browsing and prevent rate-limiting (400 errors)
-        time.sleep(random.uniform(2.5, 4.5))
+        # Pacing requests to avoid 400 errors
+        time.sleep(random.uniform(1.5, 3.0))
         
         res = session.get(url, headers=headers, timeout=30)
         
-        # Clean logging: No extra characters or confusing splits
-        print(f"📡 Scout Request -> Sport ID: {sport_id} | Status: {res.status_code}")
+        # Clean logging output
+        print(f"📡 Scout hitting: {url}")
+        print(f"📊 Status: {res.status_code}")
         
         if res.status_code == 200:
-            if not res.text.strip():
-                print(f"🕵️ Empty response body for Sport {sport_id} (Possible IP Block)")
+            content = res.text.strip()
+            if not content:
+                print("🕵️ Result: Empty response body.")
                 return []
             
             data = res.json()
-            # The mobile API structure usually mirrors the web API
-            games = data if isinstance(data, list) else data.get('games', data.get('data', []))
-            return games
-        else:
-            print(f"⚠️ Unexpected Response: {res.status_code}")
+            return data if isinstance(data, list) else data.get('games', [])
             
     except Exception as e:
-        # Log error clearly without appending it directly to the URL string
-        print(f"🚨 Scout Error on Sport {sport_id}")
-        print(f"📝 Details: {str(e)}")
+        # Separate error message from the URL to avoid formatting issues
+        print(f"⚠️ Error encountered for ID {sport_id}")
+        print(f"📝 {str(e)}")
             
     return []
 
@@ -73,7 +71,6 @@ def vibe_check():
             markets = item.get('markets', [])
             h_odd, d_odd, a_odd = 0.0, 0.0, 0.0
             
-            # Extract 1X2 odds
             if markets and markets[0].get('name') == '3 Way':
                 selections = markets[0].get('selections', [])
                 try:
@@ -102,14 +99,13 @@ def vibe_check():
             supabase.table("sp_prematch_master").upsert(batch, on_conflict="game_id").execute()
             print(f"✅ Success! {len(batch)} heroes are now in Lucra.")
             
-            # Prune data older than 5 hours
             cutoff = (datetime.now() - timedelta(hours=5)).isoformat()
             supabase.table("sp_prematch_master").delete().lt("match_date", cutoff).execute()
             print("🧹 Cleanup: Old match data pruned.")
         except Exception as e:
             print(f"🚨 Supabase Error: {e}")
     else:
-        print("🕵️ Scout report: All attempts returned empty or failed. Verify if GitHub Runners are blocked.")
+        print("🕵️ Scout report: No heroes found. Verify endpoint availability.")
 
 if __name__ == "__main__":
     vibe_check()
