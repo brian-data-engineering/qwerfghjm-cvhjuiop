@@ -3,57 +3,55 @@ import yaml
 from datetime import datetime
 
 def run_sync():
-    # The API endpoint
+    # 1. The URL we found in the Network tab
     u = "https://www.ke.sportpesa.com/api/results/search"
     
-    # Standard headers to look like a real browser
+    # 2. The "ID Card" (Headers) - Mimics your browser exactly
     h = {
+        "Accept": "application/json, text/plain, */*",
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Referer": "https://www.ke.sportpesa.com/results",
         "X-Requested-With": "XMLHttpRequest"
     }
 
-    # IMPORTANT: We add the filter here so the API actually returns data
+    # 3. The "Key" (Payload) - The specific search data
     payload = {
-        "sportId": 0,       # 0 = All Sports
-        "today": True,      # Only today's results
-        "textSearch": ""    # Leave empty to get everything for today
+        "sportId": 0,
+        "today": True,
+        "textSearch": ""
     }
 
     try:
-        # Sending the POST request with the payload
+        # We send the request just like the Network tab does
         r = requests.post(u, json=payload, headers=h)
         r.raise_for_status()
         
-        # Sportpesa usually returns a list or an object with a 'data' key
+        # The JSON output you saw in the browser
         raw_data = r.json()
-        results = raw_data if isinstance(raw_data, list) else raw_data.get('data', [])
         
+        # Sportpesa data is often inside a list directly
         processed = []
-        for entry in results:
-            # Check if there is actually a score/result
+        for entry in raw_data:
+            # We only want it if it has a result (Arsenal 2:1 etc)
             if entry.get("result"):
-                ms = entry.get('start_date', 0)
-                dt = datetime.fromtimestamp(ms / 1000.0).strftime('%Y-%m-%d %H:%M:%S')
-                
                 processed.append({
                     "uid": entry.get("game_id"),
                     "cat": entry.get("sport_name"),
                     "grp": entry.get("league"),
                     "val": f"{entry.get('team1')} vs {entry.get('team2')}",
                     "stat": entry.get("result"),
-                    "ts": dt
+                    "ts": datetime.fromtimestamp(entry.get('start_date', 0) / 1000.0).strftime('%Y-%m-%d %H:%M:%S')
                 })
 
-        # Save the results
+        # Save to your "stealth" file
         with open("metadata.yaml", "w") as f:
             yaml.dump(processed, f, default_flow_style=False, sort_keys=False)
             
-        print(f"Success: Processed {len(processed)} matches.")
+        print(f"Success! Captured {len(processed)} matches.")
 
     except Exception as e:
-        print(f"Sync failed: {e}")
+        print(f"Failed to talk to the search endpoint: {e}")
 
 if __name__ == "__main__":
     run_sync()
