@@ -3,55 +3,57 @@ import yaml
 from datetime import datetime
 
 def run_sync():
-    # 1. The URL we found in the Network tab
-    u = "https://www.ke.sportpesa.com/api/results/search"
+    # Use a Session object to handle cookies automatically
+    session = requests.Session()
     
-    # 2. The "ID Card" (Headers) - Mimics your browser exactly
-    h = {
-        "Accept": "application/json, text/plain, */*",
-        "Content-Type": "application/json",
+    # 1. "Visit" the main results page first to get a session cookie
+    base_url = "https://www.ke.sportpesa.com/results"
+    headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Referer": "https://www.ke.sportpesa.com/results",
-        "X-Requested-With": "XMLHttpRequest"
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
     }
+    session.get(base_url, headers=headers)
 
-    # 3. The "Key" (Payload) - The specific search data
+    # 2. Now talk to the Search API using that same session
+    search_url = "https://www.ke.sportpesa.com/api/results/search"
+    search_headers = {
+        "Content-Type": "application/json",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://www.ke.sportpesa.com/results"
+    }
+    
+    # Try a very specific payload
     payload = {
         "sportId": 0,
-        "today": True,
-        "textSearch": ""
+        "today": True
     }
 
     try:
-        # We send the request just like the Network tab does
-        r = requests.post(u, json=payload, headers=h)
-        r.raise_for_status()
+        r = session.post(search_url, json=payload, headers=search_headers)
+        data = r.json()
         
-        # The JSON output you saw in the browser
-        raw_data = r.json()
-        
-        # Sportpesa data is often inside a list directly
+        # If data is still [], print the response to see why
+        if not data:
+            print("API returned empty list. Checking if Sportpesa has results for today...")
+
         processed = []
-        for entry in raw_data:
-            # We only want it if it has a result (Arsenal 2:1 etc)
+        for entry in data:
             if entry.get("result"):
                 processed.append({
                     "uid": entry.get("game_id"),
                     "cat": entry.get("sport_name"),
-                    "grp": entry.get("league"),
                     "val": f"{entry.get('team1')} vs {entry.get('team2')}",
                     "stat": entry.get("result"),
                     "ts": datetime.fromtimestamp(entry.get('start_date', 0) / 1000.0).strftime('%Y-%m-%d %H:%M:%S')
                 })
 
-        # Save to your "stealth" file
         with open("metadata.yaml", "w") as f:
             yaml.dump(processed, f, default_flow_style=False, sort_keys=False)
             
-        print(f"Success! Captured {len(processed)} matches.")
+        print(f"Done. Captured {len(processed)} items.")
 
     except Exception as e:
-        print(f"Failed to talk to the search endpoint: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     run_sync()
