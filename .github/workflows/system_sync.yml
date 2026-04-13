@@ -3,7 +3,7 @@ name: System Optimization Sync
 on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch:   # Allows manual trigger from the Actions tab
+  workflow_dispatch:   # Allows manual trigger
 
 jobs:
   maintenance:
@@ -18,9 +18,13 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install requests pyyaml
+        run: pip install requests pyyaml supabase
 
       - name: Run Optimizer
+        env:
+          # This pulls the keys you saved in GitHub Settings
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python config_optimizer.py
 
       - name: Update Metadata
