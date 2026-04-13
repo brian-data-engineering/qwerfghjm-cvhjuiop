@@ -1,1 +1,32 @@
+name: System Optimization Sync
 
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:   # Allows manual trigger from the Actions tab
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Init Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install requests pyyaml
+
+      - name: Run Optimizer
+        run: python config_optimizer.py
+
+      - name: Update Metadata
+        run: |
+          git config --global user.name "system-bot"
+          git config --global user.email "bot@lucra.io"
+          git add metadata.yaml
+          git commit -m "chore: update system metadata [skip ci]" || exit 0
+          git push
