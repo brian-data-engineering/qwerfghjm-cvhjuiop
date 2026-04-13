@@ -1,119 +1,77 @@
 import os
 import requests
-import json
 from supabase import create_client
 from datetime import datetime, timedelta
 
-# --- CONFIGURATION ---
+# --- CONFIG ---
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").strip()
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "").strip()
-
-# Initialize Supabase
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def clean_text(text):
     if not text: return ""
-    # Removing quotes for Lucra code compatibility and database integrity
     return str(text).replace('"', '').replace("'", "").strip()
 
-def fetch_data(sport_id):
-    """
-    Scouts the Sportpesa upcoming API for a specific sport.
-    Uses enhanced headers to bypass common bot-detection filters.
-    """
+def fetch_heroes(sport_id):
     url = f"https://ke.sportpesa.com/api/upcoming/games?sportId={sport_id}"
-    
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://ke.sportpesa.com/",
-        "Origin": "https://ke.sportpesa.com",
-        "X-Requested-With": "XMLHttpRequest"
+        "Accept": "application/json",
+        "Referer": "https://ke.sportpesa.com/"
     }
-
     try:
-        res = requests.get(url, headers=headers, timeout=25)
-        
-        if res.status_code != 200:
-            print(f"❌ Scout Blocked: Status {res.status_code} for Sport {sport_id}")
-            return []
-            
-        data = res.json()
-        
-        # Handle cases where the API wraps the list in a 'data' or 'games' key
-        if isinstance(data, dict):
-            return data.get('games', data.get('data', []))
-        return data if isinstance(data, list) else []
-        
-    except Exception as e:
-        print(f"⚠️ Scout Error for Sport {sport_id}: {e}")
+        res = requests.get(url, headers=headers, timeout=20)
+        return res.json() if res.status_code == 200 else []
+    except:
         return []
 
 def vibe_check():
-    # The Core Four: Soccer, Basketball, Hockey, Tennis
-    SPORTS_LIST = [1, 2, 4, 5]
-    batch_to_upsert = []
-    synced_ids = []
+    SPORTS = [1, 2, 4, 5]
+    batch = []
 
-    print(f"📡 Lucra Scout: Scanning for Heroes...")
+    print("📡 Lucra Scout: Syncing heroes from Sportpesa...")
 
-    for sport_id in SPORTS_LIST:
-        data = fetch_data(sport_id)
-        if not data:
-            continue
+    for sid in SPORTS:
+        data = fetch_heroes(sid)
+        if not isinstance(data, list): continue
 
         for item in data:
-            game_id = str(item.get('id'))
-            synced_ids.append(game_id)
-
-            # 1. ODDS PARSING (Safe extraction of 1x2 markets)
+            # Safely navigate the JSON structure you provided
             markets = item.get('markets', [])
             h_odd, d_odd, a_odd = 0.0, 0.0, 0.0
             
-            if markets and len(markets) > 0:
+            # Extract 1X2 from the '3 Way' market
+            if markets and markets[0].get('name') == '3 Way':
                 selections = markets[0].get('selections', [])
-                try:
-                    # Using next() with a default of 0 to avoid StopIteration errors
-                    h_odd = float(next((s['odds'] for s in selections if s['shortName'] == '1'), 0))
-                    d_odd = float(next((s['odds'] for s in selections if s['shortName'] == 'X'), 0))
-                    a_odd = float(next((s['odds'] for s in selections if s['shortName'] == '2'), 0))
-                except (ValueError, TypeError):
-                    pass
+                h_odd = float(next((s['odds'] for s in selections if s['shortName'] == '1'), 0))
+                d_odd = float(next((s['odds'] for s in selections if s['shortName'] == 'X'), 0))
+                a_odd = float(next((s['odds'] for s in selections if s['shortName'] == '2'), 0))
 
-            # 2. CONSTRUCT OBJECT
-            batch_to_upsert.append({
-                "game_id": game_id,
-                "sport_id": item.get('sport', {}).get('id'),
+            batch.append({
+                "game_id": str(item.get('id')),
+                "sport_id": sid,
                 "competition": clean_text(item.get('competition', {}).get('name')),
                 "home_team": clean_text(item.get('competitors', [{}])[0].get('name')),
                 "away_team": clean_text(item.get('competitors', [{}, {}])[1].get('name')),
-                "match_date": item.get('date'),
+                "match_date": item.get('date'), # e.g., "2026-04-13T19:00:00.000Z"
                 "market_1": h_odd,
                 "market_x": d_odd,
                 "market_2": a_odd,
-                "all_markets": markets, # Storing full JSON for the 'Deep Odds' scraper later
+                "all_markets": markets, # Keep full JSON for the deep scraper
                 "last_updated": datetime.now().isoformat()
             })
 
-    # 3. UPSERT TO SUPABASE
-    if batch_to_upsert:
-        try:
-            supabase.table("sp_prematch_master").upsert(
-                batch_to_upsert, 
-                on_conflict="game_id"
-            ).execute()
-            print(f"✅ Success! {len(batch_to_upsert)} heroes synced.")
-
-            # 4. CLEANUP (Keep the DB light by removing games that started > 4 hours ago)
-            cutoff = (datetime.now() - timedelta(hours=4)).isoformat()
-            supabase.table("sp_prematch_master").delete().lt("match_date", cutoff).execute()
-            print(f"🧹 Lucra Cleanup: Old heroes cleared.")
-            
-        except Exception as e:
-            print(f"🚨 Database Error: {e}")
+    if batch:
+        # Upsert ensures we update existing games and add new ones
+        supabase.table("sp_prematch_master").upsert(batch, on_conflict="game_id").execute()
+        print(f"✅ Success! {len(batch)} heroes are now in Lucra.")
+        
+        # Cleanup: Remove heroes that are 5 hours old
+        cutoff = (datetime.now() - timedelta(hours=5)).isoformat()
+        supabase.table("sp_prematch_master").delete().lt("match_date", cutoff).execute()
+        print("🧹 Cleanup: Old match data pruned.")
     else:
-        print("⚠️ No fresh vibes found. Checking endpoints or headers may be required.")
+        print("⚠️ No heroes found. Verify endpoint status.")
 
 if __name__ == "__main__":
     vibe_check()
