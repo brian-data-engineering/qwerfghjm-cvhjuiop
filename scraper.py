@@ -20,49 +20,68 @@ SPORTS = {
 }
 
 def get_token():
-    """Captures the T= token by listening to background network traffic (CDP)."""
+    """Captures the T= token by listening and interacting with the page."""
     print("🌐 Launching browser to capture network logs...")
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--window-size=1920,1080")
     
-    # Enable performance logging to sniff network requests
+    # Enable performance logging to sniff background API traffic
     chrome_options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
     
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     try:
-        # Navigate to the main stats page
         driver.get("https://statshub.sportradar.com/betika/en")
         
-        # Wait for the background XHR/Gismo calls to fire (12 seconds for slow runners)
-        time.sleep(12)
+        # 1. INTERACTION: Scroll to trigger calls
+        for i in range(3):
+            driver.execute_script(f"window.scrollTo(0, {i * 400});")
+            time.sleep(3)
         
-        # Pull performance logs
-        logs = driver.get_log('performance')
-        driver.quit()
-        
-        print(f"🔍 Analyzing {len(logs)} network events...")
-        
-        for entry in logs:
-            message = json.loads(entry['message'])['message']
+        # 2. RETRY LOOP: Check logs incrementally
+        max_attempts = 5
+        found_urls = [] # For debugging
+
+        for attempt in range(max_attempts):
+            print(f"🔍 Scan {attempt + 1}/{max_attempts} for background requests...")
+            logs = driver.get_log('performance')
             
-            # Filter for events where a request was sent
-            if message.get('method') == 'Network.requestWillBeSent':
-                url = message.get('params', {}).get('request', {}).get('url', '')
+            for entry in logs:
+                msg_json = json.loads(entry['message'])
+                message = msg_json.get('message', {})
                 
-                # Sniff for the Gismo endpoint containing the T parameter
-                if 'gismo' in url and 'T=' in url:
-                    match = re.search(r'T=([^&\s]+)', url)
-                    if match:
-                        token = match.group(1)
-                        # Clean up any potential encoding or quotes
-                        token = token.replace('\\', '').split('"')[0].split("'")[0]
-                        print(f"✅ Token Captured: {token[:40]}...")
-                        return token
-        
-        raise Exception("❌ Network logs checked, but no Gismo request with a token was found.")
+                if message.get('method') == 'Network.requestWillBeSent':
+                    url = message.get('params', {}).get('request', {}).get('url', '')
+                    
+                    # LOGGING: Print all background API/XHR calls found
+                    if any(x in url for x in ['gismo', 'sportradar', 'betika']):
+                        if url not in found_urls:
+                            # Show a shortened version of the URL in the console
+                            print(f"   📡 Found: {url[:80]}...")
+                            found_urls.append(url)
+
+                    # TARGET: Find the token
+                    if 'gismo' in url and 'T=' in url:
+                        match = re.search(r'T=([^&\s]+)', url)
+                        if match:
+                            token = match.group(1)
+                            token = token.replace('\\', '').split('"')[0].split("'")[0]
+                            driver.quit()
+                            print(f"\n✅ Token Captured: {token[:40]}...")
+                            return token
+            
+            time.sleep(5) 
+
+        driver.quit()
+        # If we get here, show what we found for debugging
+        print("\n❌ Failed. Summary of relevant requests found:")
+        for u in found_urls:
+            print(f"  - {u[:100]}")
+            
+        raise Exception("❌ No Gismo request with 'T=' appeared in network logs.")
             
     except Exception as e:
         if 'driver' in locals():
@@ -84,7 +103,7 @@ def fetch_gismo(name, s_id, token):
         return name, None
 
 def process_match(item):
-    """Safely extracts data from a match object, avoiding metadata strings."""
+    """Safely extracts match data, ignoring strings/metadata in the list."""
     if not isinstance(item, dict): return None
     m = item.get('match', {})
     if not isinstance(m, dict) or not m: return None
@@ -114,7 +133,6 @@ def main():
         return
 
     final_output = {}
-    # Use 5 threads to fetch all sports simultaneously
     with ThreadPoolExecutor(max_workers=5) as executor:
         raw_responses = list(executor.map(lambda p: fetch_gismo(p[0], p[1], token), SPORTS.items()))
         
@@ -126,12 +144,11 @@ def main():
         events = data['doc'][0].get('data', [])
         
         if isinstance(events, list):
-            # process_match will return None for non-match items, which we filter out here
             final_output[name] = [process_match(e) for e in events if process_match(e)]
         else:
             final_output[name] = []
 
-    # Write results to YAML (Lucra project format)
+    # Save as clean YAML
     with open("results.yaml", "w") as f:
         yaml.dump(final_output, f, default_flow_style=False, sort_keys=False)
     
