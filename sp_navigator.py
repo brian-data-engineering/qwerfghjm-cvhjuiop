@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from playwright.sync_api import sync_playwright
 from supabase import create_client
 
@@ -12,20 +13,37 @@ NAV_API = "https://ke.sportpesa.com/api/navigation"
 
 def sync_navigation():
     with sync_playwright() as p:
-        print("🌐 Launching Navigator...")
+        print("🌐 Launching Navigator with Stealth...")
         browser = p.chromium.launch(headless=True)
+        # Using a very specific, modern user agent
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
         )
         page = context.new_page()
         
         try:
-            page.goto(NAV_API, wait_until="networkidle")
-            raw_data = page.locator("body").inner_text()
+            # Step 1: Hit the home page first to establish cookies
+            print("🏠 Warming up session...")
+            page.goto("https://ke.sportpesa.com/", wait_until="networkidle")
+            time.sleep(5) 
+
+            # Step 2: Now hit the API
+            print(f"📡 Fetching: {NAV_API}")
+            page.goto(NAV_API)
+            time.sleep(3) # Give it a moment to render the JSON text
+
+            raw_data = page.locator("body").inner_text().strip()
+
+            # Debug: Check if we got the firewall instead of JSON
+            if not raw_data or "Challenge" in raw_data or "Access Denied" in raw_data:
+                print("🚨 BLOCKED: Hit a firewall/challenge page. Content:")
+                print(raw_data[:200]) # See the first 200 chars of the error
+                return
+
             sports_list = json.loads(raw_data)
 
             for sport in sports_list:
-                print(f"Syncing Sport: {sport['name']}")
+                print(f"🏆 Syncing: {sport['name']}")
                 supabase.table("sp_sports").upsert({
                     "id": sport["id"],
                     "name": sport["name"],
@@ -41,7 +59,6 @@ def sync_navigation():
                     }).execute()
 
                     for league in country.get("leagues", []):
-                        # Clean quotes as requested
                         clean_name = str(league["name"]).replace("'", "").replace('"', '')
                         supabase.table("sp_leagues").upsert({
                             "id": league["id"],
@@ -50,9 +67,11 @@ def sync_navigation():
                             "top_league_pos": league.get("top_league_pos", 0)
                         }).execute()
             
-            print("✅ Database hierarchy populated.")
+            print("✅ Lucra Navigation structure updated.")
+        except json.JSONDecodeError:
+            print("🚨 JSON Error: The API returned something that isn't JSON. Check the logs above.")
         except Exception as e:
-            print(f"🚨 Error: {e}")
+            print(f"🚨 Engine Error: {e}")
         finally:
             browser.close()
 
