@@ -114,7 +114,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 61491365
   teams:
@@ -123,7 +123,7 @@ soccer:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70008380
   teams:
@@ -132,7 +132,7 @@ soccer:
   score:
     home: 5
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 69887086
   teams:
@@ -141,7 +141,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 68305678
   teams:
@@ -150,7 +150,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 68162602
   teams:
@@ -159,7 +159,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 68306292
   teams:
@@ -168,7 +168,7 @@ soccer:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 68840648
   teams:
@@ -177,7 +177,7 @@ soccer:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 69140996
   teams:
@@ -186,7 +186,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 70165956
   teams:
@@ -195,7 +195,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 68189434
   teams:
@@ -204,7 +204,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 69252322
   teams:
@@ -213,7 +213,7 @@ soccer:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 69548706
   teams:
@@ -222,7 +222,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 69348122
   teams:
@@ -231,7 +231,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 69162596
   teams:
@@ -242,7 +242,16 @@ soccer:
     away: 0
   status: result
   time: '16:00'
-basketball: []
+basketball:
+- id: 66615614
+  teams:
+    home: Flamengo
+    away: Vasco Da Gama
+  score:
+    home: 45
+    away: 29
+  status: live
+  time: '21:00'
 tennis:
 - id: 70768008
   teams:
@@ -2062,16 +2071,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 70788558
   teams:
     home: Biolek, Martin
     away: Velebil, Lukas
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:30'
 - id: 70789808
   teams:
@@ -2080,7 +2089,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 70788694
   teams:
@@ -2089,7 +2098,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 70819322
   teams:
@@ -2098,7 +2107,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 70789820
   teams:
@@ -2107,5 +2116,5 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:30'
