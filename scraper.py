@@ -20,50 +20,49 @@ SPORTS = {
 }
 
 def get_token():
-    """Launch headless browser to harvest a fresh Gismo token from Local Storage or Cookies."""
-    print("🌐 Launching browser to harvest token...")
+    """Captures the T= token by listening to background network traffic (CDP)."""
+    print("🌐 Launching browser to capture network logs...")
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     
+    # Enable performance logging to sniff network requests
+    chrome_options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
+    
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     try:
-        # Head to the stats page
+        # Navigate to the main stats page
         driver.get("https://statshub.sportradar.com/betika/en")
         
-        # Give it a few seconds for the JavaScript to populate Local Storage/Cookies
-        time.sleep(10)
+        # Wait for the background XHR/Gismo calls to fire (12 seconds for slow runners)
+        time.sleep(12)
         
-        # 1. Search Local Storage (Most likely for Gismo)
-        storage_data = driver.execute_script("return JSON.stringify(window.localStorage);")
-        
-        # 2. Search Cookies (Backup)
-        cookies = driver.get_cookies()
-        cookie_text = "".join([str(c) for c in cookies])
-        
-        # 3. Search Page Source (Final Fallback)
-        html = driver.page_source
-        
-        combined_data = storage_data + cookie_text + html
+        # Pull performance logs
+        logs = driver.get_log('performance')
         driver.quit()
         
-        # Regex to find the token pattern: exp=...hmac=...
-        match = re.search(r'exp=[^"\'\s]+~acl=[^"\'\s]+~data=[^"\'\s]+~hmac=[^"\'\s]+', combined_data)
+        print(f"🔍 Analyzing {len(logs)} network events...")
         
-        # If the long format fails, try the shorter token format
-        if not match:
-            match = re.search(r'exp=[^"\'\s]+~hmac=[^"\'\s]+', combined_data)
-
-        if match:
-            token = match.group(0)
-            # Clean up potential JSON trailing characters
-            token = token.replace('\\', '').split('"')[0].split("'")[0]
-            print(f"✅ Token Harvested: {token[:40]}...")
-            return token
-        else:
-            raise Exception("❌ Could not find token in Storage, Cookies, or Source.")
+        for entry in logs:
+            message = json.loads(entry['message'])['message']
+            
+            # Filter for events where a request was sent
+            if message.get('method') == 'Network.requestWillBeSent':
+                url = message.get('params', {}).get('request', {}).get('url', '')
+                
+                # Sniff for the Gismo endpoint containing the T parameter
+                if 'gismo' in url and 'T=' in url:
+                    match = re.search(r'T=([^&\s]+)', url)
+                    if match:
+                        token = match.group(1)
+                        # Clean up any potential encoding or quotes
+                        token = token.replace('\\', '').split('"')[0].split("'")[0]
+                        print(f"✅ Token Captured: {token[:40]}...")
+                        return token
+        
+        raise Exception("❌ Network logs checked, but no Gismo request with a token was found.")
             
     except Exception as e:
         if 'driver' in locals():
@@ -85,7 +84,7 @@ def fetch_gismo(name, s_id, token):
         return name, None
 
 def process_match(item):
-    """Safely extracts data from a match object."""
+    """Safely extracts data from a match object, avoiding metadata strings."""
     if not isinstance(item, dict): return None
     m = item.get('match', {})
     if not isinstance(m, dict) or not m: return None
@@ -111,10 +110,11 @@ def main():
     try:
         token = get_token()
     except Exception as e:
-        print(e)
+        print(f"Failed to harvest token: {e}")
         return
 
     final_output = {}
+    # Use 5 threads to fetch all sports simultaneously
     with ThreadPoolExecutor(max_workers=5) as executor:
         raw_responses = list(executor.map(lambda p: fetch_gismo(p[0], p[1], token), SPORTS.items()))
         
@@ -124,15 +124,18 @@ def main():
             continue
             
         events = data['doc'][0].get('data', [])
-        # Only process if events is actually a list
+        
         if isinstance(events, list):
+            # process_match will return None for non-match items, which we filter out here
             final_output[name] = [process_match(e) for e in events if process_match(e)]
         else:
             final_output[name] = []
 
+    # Write results to YAML (Lucra project format)
     with open("results.yaml", "w") as f:
         yaml.dump(final_output, f, default_flow_style=False, sort_keys=False)
-    print("🚀 Auto-Sync Complete.")
+    
+    print("🚀 Auto-Sync Complete. results.yaml updated.")
 
 if __name__ == "__main__":
     main()
