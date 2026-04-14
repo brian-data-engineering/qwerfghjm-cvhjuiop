@@ -248,10 +248,19 @@ basketball:
     home: Flamengo
     away: Vasco Da Gama
   score:
-    home: 45
-    away: 29
+    home: 70
+    away: 57
   status: live
   time: '21:00'
+- id: 66615608
+  teams:
+    home: Minas
+    away: Cearense
+  score:
+    home: 49
+    away: 30
+  status: live
+  time: '22:00'
 tennis:
 - id: 70768008
   teams:
@@ -2118,3 +2127,57 @@ table_tennis:
     away: 0
   status: result
   time: '20:30'
+- id: 70789822
+  teams:
+    home: Hradecky, Jakub
+    away: Prokupek, Jaroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '22:00'
+- id: 70788586
+  teams:
+    home: Petracek, Vratislav
+    away: Volhejn, Dan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '22:00'
+- id: 70788612
+  teams:
+    home: Sobisek, Martin
+    away: Kadavy, Simon
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 70788610
+  teams:
+    home: Brozik, Karel
+    away: Skakal, Martin
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '22:30'
+- id: 70789782
+  teams:
+    home: Tuma, Daniel
+    away: Kouble, Daniel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:30'
+- id: 70788526
+  teams:
+    home: Vavrecka, Michal
+    away: Kycelt, Jakub
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:30'
