@@ -1,7 +1,7 @@
 import os
 import json
-import time
-from playwright.sync_api import sync_playwright
+import yaml
+import requests
 from supabase import create_client
 
 # --- CONFIG ---
@@ -11,69 +11,87 @@ supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 NAV_API = "https://ke.sportpesa.com/api/navigation"
 
-def sync_navigation():
-    with sync_playwright() as p:
-        print("🌐 Launching Navigator with Stealth...")
-        browser = p.chromium.launch(headless=True)
-        # Using a very specific, modern user agent
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-        )
-        page = context.new_page()
+def run_nav_sync():
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://ke.sportpesa.com/"
+    }
+
+    try:
+        print(f"📡 Requesting: {NAV_API}")
+        response = requests.get(NAV_API, headers=headers, timeout=15)
         
-        try:
-            # Step 1: Hit the home page first to establish cookies
-            print("🏠 Warming up session...")
-            page.goto("https://ke.sportpesa.com/", wait_until="networkidle")
-            time.sleep(5) 
+        if response.status_code != 200:
+            print(f"🚨 Failed with status: {response.status_code}")
+            return
 
-            # Step 2: Now hit the API
-            print(f"📡 Fetching: {NAV_API}")
-            page.goto(NAV_API)
-            time.sleep(3) # Give it a moment to render the JSON text
+        sports_data = response.json()
+        
+        yaml_output = []
+        batch_sports = []
+        batch_countries = []
+        batch_leagues = []
 
-            raw_data = page.locator("body").inner_text().strip()
-
-            # Debug: Check if we got the firewall instead of JSON
-            if not raw_data or "Challenge" in raw_data or "Access Denied" in raw_data:
-                print("🚨 BLOCKED: Hit a firewall/challenge page. Content:")
-                print(raw_data[:200]) # See the first 200 chars of the error
-                return
-
-            sports_list = json.loads(raw_data)
-
-            for sport in sports_list:
-                print(f"🏆 Syncing: {sport['name']}")
-                supabase.table("sp_sports").upsert({
-                    "id": sport["id"],
-                    "name": sport["name"],
-                    "sort_order": sport["order"]
-                }).execute()
-
-                for country in sport.get("countries", []):
-                    supabase.table("sp_countries").upsert({
-                        "id": country["id"],
-                        "sport_id": sport["id"],
-                        "name": country["name"],
-                        "iso_name": country["iso_name"]
-                    }).execute()
-
-                    for league in country.get("leagues", []):
-                        clean_name = str(league["name"]).replace("'", "").replace('"', '')
-                        supabase.table("sp_leagues").upsert({
-                            "id": league["id"],
-                            "country_id": country["id"],
-                            "name": clean_name,
-                            "top_league_pos": league.get("top_league_pos", 0)
-                        }).execute()
+        for sport in sports_data:
+            sid = sport.get("id")
+            sname = sport.get("name")
             
-            print("✅ Lucra Navigation structure updated.")
-        except json.JSONDecodeError:
-            print("🚨 JSON Error: The API returned something that isn't JSON. Check the logs above.")
-        except Exception as e:
-            print(f"🚨 Engine Error: {e}")
-        finally:
-            browser.close()
+            # 1. Prepare Sport
+            batch_sports.append({
+                "id": sid,
+                "name": sname,
+                "sort_order": sport.get("order")
+            })
+
+            # 2. Process Countries
+            for country in sport.get("countries", []):
+                cid = country.get("id")
+                batch_countries.append({
+                    "id": cid,
+                    "sport_id": sid,
+                    "name": country.get("name"),
+                    "iso_name": country.get("iso_name")
+                })
+
+                # 3. Process Leagues
+                for league in country.get("leagues", []):
+                    # Clean quotes for code safety
+                    clean_name = str(league["name"]).replace("'", "").replace('"', '')
+                    batch_leagues.append({
+                        "id": league.get("id"),
+                        "country_id": cid,
+                        "name": clean_name,
+                        "top_league_pos": league.get("top_league_pos", 0)
+                    })
+                    
+                    # 4. Add to YAML structure
+                    yaml_output.append({
+                        "sport": sname,
+                        "country": country.get("name"),
+                        "league": clean_name,
+                        "league_id": league.get("id")
+                    })
+
+        # --- SAVE YAML ---
+        with open("navigation_map.yaml", "w") as f:
+            yaml.dump(yaml_output, f, sort_keys=False, default_flow_style=False)
+        print("💾 navigation_map.yaml created.")
+
+        # --- SYNC SUPABASE ---
+        print("📤 Upserting to Supabase...")
+        if batch_sports:
+            supabase.table("sp_sports").upsert(batch_sports).execute()
+        if batch_countries:
+            supabase.table("sp_countries").upsert(batch_countries).execute()
+        if batch_leagues:
+            supabase.table("sp_leagues").upsert(batch_leagues).execute()
+            
+        print(f"✅ Success! Synced {len(batch_leagues)} leagues.")
+
+    except Exception as e:
+        print(f"🚨 Critical Failure: {e}")
 
 if __name__ == "__main__":
-    sync_navigation()
+    run_nav_sync()
