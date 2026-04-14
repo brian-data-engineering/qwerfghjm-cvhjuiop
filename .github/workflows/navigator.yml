@@ -2,23 +2,25 @@ name: Lucra Navigator Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs once a day at midnight
+    - cron: '0 1 * * *' # Run once a day at 1 AM
   workflow_dispatch:
 
 jobs:
-  sync:
+  build:
     runs-on: ubuntu-latest
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - name: Install Dependencies
-        run: |
-          pip install playwright supabase
-          playwright install chromium
-      - name: Run Navigator
+          
+      - name: Install dependencies
+        run: pip install requests pyyaml supabase
+        
+      - name: Run Sync
         run: python sp_navigator.py
