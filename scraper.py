@@ -20,95 +20,42 @@ SPORTS = {
 }
 
 def get_token():
-    """Captures the T= token by hitting a specific sport page and sniffing XHR traffic."""
-    print("🌐 Launching Stealth Browser...")
+    """Captures the T= token via stealth headless browser."""
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
-    
-    # Bypass simple bot detection
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option('useAutomationExtension', False)
-    
-    # Enable performance logging to capture the 'T=' token in background calls
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
     chrome_options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
     
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-    
     try:
-        # Navigate directly to Soccer stats to force data loading
-        print("📍 Navigating to: https://statshub.sportradar.com/betika/en/sport/1")
         driver.get("https://statshub.sportradar.com/betika/en/sport/1")
+        time.sleep(10) # Give it time to fire requests
         
-        found_urls = []
-        max_attempts = 6
-
-        for attempt in range(max_attempts):
-            print(f"🔍 Scan {attempt + 1}/{max_attempts} for Gismo requests...")
-            
-            # Small scroll to trigger lazy-loading
-            driver.execute_script(f"window.scrollTo(0, {attempt * 300});")
-            time.sleep(5)
-            
-            logs = driver.get_log('performance')
-            for entry in logs:
-                msg_json = json.loads(entry['message'])
-                message = msg_json.get('message', {})
-                
-                if message.get('method') == 'Network.requestWillBeSent':
-                    url = message.get('params', {}).get('request', {}).get('url', '')
-                    
-                    # Log all relevant sportradar calls
-                    if 'sportradar' in url or 'gismo' in url:
-                        if url not in found_urls:
-                            print(f"   📡 Detected: {url[:75]}...")
-                            found_urls.append(url)
-
-                        # Sniff for the token in the URL
-                        if 'T=' in url:
-                            match = re.search(r'T=([^&\s]+)', url)
-                            if match:
-                                token = match.group(1).replace('\\', '').split('"')[0].split("'")[0]
-                                driver.quit()
-                                print(f"\n✅ Token Captured: {token[:40]}...")
-                                return token
-            
+        logs = driver.get_log('performance')
+        for entry in logs:
+            msg = json.loads(entry['message'])['message']
+            if msg.get('method') == 'Network.requestWillBeSent':
+                url = msg.get('params', {}).get('request', {}).get('url', '')
+                if 'gismo' in url and 'T=' in url:
+                    token = re.search(r'T=([^&\s]+)', url).group(1)
+                    driver.quit()
+                    return token.replace('\\', '').split('"')[0].split("'")[0]
         driver.quit()
-        print("\n❌ Failed. Captured URLs:")
-        for u in found_urls: print(f"  - {u[:100]}")
-        raise Exception("❌ Could not find a request with 'T=' token.")
-            
+        raise Exception("Token capture failed.")
     except Exception as e:
-        if 'driver' in locals():
-            driver.quit()
+        if 'driver' in locals(): driver.quit()
         raise e
 
-def fetch_gismo(name, s_id, token):
-    """Hits the main stats endpoint for the day."""
-    date_str = datetime.datetime.now().strftime("%Y-%m-%d")
-    url = f"https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/stats_sport_matches_prevnext/{s_id}/{date_str}/0?T={token}"
-    headers = {
-        "Referer": "https://statshub.sportradar.com/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }
-    try:
-        r = requests.get(url, headers=headers, timeout=15)
-        return name, r.json()
-    except:
-        return name, None
-
-def process_match(item):
-    """Extracts match details while handling metadata strings in the data."""
-    if not isinstance(item, dict): return None
-    m = item.get('match', {})
-    if not isinstance(m, dict) or not m: return None
-    
+def process_match(m):
+    """Direct extraction of match results."""
     res = m.get('result', {})
     teams = m.get('teams', {})
-    
+    # Return None if names are missing (filters out ghost entries)
+    if not teams.get('home', {}).get('name'): return None
+
     return {
         'id': m.get('_id'),
         'teams': {
@@ -123,32 +70,47 @@ def process_match(item):
         'time': m.get('_dt', {}).get('time')
     }
 
-def main():
+def fetch_results(name, s_id, token):
+    """Fetches and flattens match data from the Gismo API."""
+    date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    url = f"https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/sport_matches/{s_id}/{date_str}?T={token}"
+    
     try:
-        token = get_token()
-    except Exception as e:
-        print(f"Failed to harvest token: {e}")
-        return
-
-    final_output = {}
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        raw_responses = list(executor.map(lambda p: fetch_gismo(p[0], p[1], token), SPORTS.items()))
+        r = requests.get(url, timeout=10)
+        data = r.json()
+        matches_found = []
         
-    for name, data in raw_responses:
-        if not data or 'doc' not in data or not data['doc']:
-            final_output[name] = []
-            continue
-            
-        events = data['doc'][0].get('data', [])
-        if isinstance(events, list):
-            final_output[name] = [process_match(e) for e in events if process_match(e)]
-        else:
-            final_output[name] = []
+        # Navigate the Gismo nesting: doc -> data -> categories -> realcategories -> tournaments -> matches
+        categories = data.get('doc', [{}])[0].get('data', {})
+        for cat_id in categories:
+            real_cats = categories[cat_id].get('realcategories', [])
+            for rc in real_cats:
+                for tourn in rc.get('tournaments', []):
+                    for match in tourn.get('matches', []):
+                        m_data = process_match(match)
+                        if m_data: matches_found.append(m_data)
+        
+        print(f"📊 {name.capitalize()}: {len(matches_found)} matches found.")
+        return name, matches_found
+    except:
+        return name, []
+
+def main():
+    print("🚀 Starting sync...")
+    token = get_token()
+    final_output = {}
+
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        results = list(executor.map(lambda p: fetch_results(p[0], p[1], token), SPORTS.items()))
+    
+    for name, matches in results:
+        final_output[name] = matches
 
     with open("results.yaml", "w") as f:
         yaml.dump(final_output, f, default_flow_style=False, sort_keys=False)
     
-    print("🚀 Auto-Sync Complete. results.yaml updated.")
+    total = sum(len(v) for v in final_output.values())
+    print(f"✅ Success! results.yaml updated with {total} matches.")
 
 if __name__ == "__main__":
     main()
