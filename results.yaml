@@ -33,7 +33,7 @@ soccer:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 67681816
   teams:
@@ -94,18 +94,18 @@ soccer:
     home: Al Ittihad Alex
     away: Zed FC
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 69880232
   teams:
     home: Kahrabaa Ismailia
     away: Ismaily SC
   score:
-    home: 0
+    home: 1
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 69844312
   teams:
@@ -114,8 +114,134 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '19:00'
+- id: 61491365
+  teams:
+    home: Southampton
+    away: Blackburn
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:00'
+- id: 70008380
+  teams:
+    home: Bolton
+    away: Stevenage
+  score:
+    home: 5
+    away: 1
+  status: recentlyended
+  time: '18:45'
+- id: 69887086
+  teams:
+    home: Huddersfield
+    away: Cardiff
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '18:45'
+- id: 68305678
+  teams:
+    home: Leyton Orient
+    away: Mansfield
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:45'
+- id: 68162602
+  teams:
+    home: Port Vale
+    away: Barnsley
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:45'
+- id: 68306292
+  teams:
+    home: Wigan
+    away: Rotherham
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:45'
+- id: 68840648
+  teams:
+    home: Barrow
+    away: Oldham
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:45'
+- id: 69140996
+  teams:
+    home: Cheltenham
+    away: Gillingham
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '18:45'
+- id: 70165956
+  teams:
+    home: Chesterfield
+    away: Grimsby Town
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '18:45'
+- id: 68189434
+  teams:
+    home: Colchester
+    away: Accrington
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '18:45'
+- id: 69252322
+  teams:
+    home: Aldershot
+    away: Southend
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '18:45'
+- id: 69548706
+  teams:
+    home: Wealdstone
+    away: Boston
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '18:45'
+- id: 69348122
+  teams:
+    home: Woking
+    away: Solihull Moors
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:45'
+- id: 69162596
+  teams:
+    home: Augsburg II
+    away: Burghausen
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '16:00'
 basketball: []
 tennis:
 - id: 70768008
@@ -195,9 +321,9 @@ tennis:
     home: Fils, Arthur
     away: Atmane, Terence
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:30'
 - id: 70797016
   teams:
@@ -315,7 +441,7 @@ ice_hockey:
   score:
     home: 5
     away: 1
-  status: live
+  status: result
   time: '17:30'
 - id: 69025068
   teams:
@@ -369,7 +495,7 @@ ice_hockey:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 62079162
   teams:
@@ -1810,7 +1936,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70789818
   teams:
@@ -1819,7 +1945,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70788688
   teams:
@@ -1828,7 +1954,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70788602
   teams:
@@ -1837,7 +1963,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70789842
   teams:
@@ -1854,8 +1980,8 @@ table_tennis:
     away: Dousa, Tomas
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 70789740
   teams:
@@ -1864,7 +1990,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 70789770
   teams:
@@ -1872,8 +1998,8 @@ table_tennis:
     away: Schneeberger, Antonin
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 70788570
   teams:
@@ -1882,7 +2008,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 70788634
   teams:
@@ -1890,6 +2016,96 @@ table_tennis:
     away: Dzida, Jan
   score:
     home: 2
+    away: 3
+  status: result
+  time: '19:30'
+- id: 70789796
+  teams:
+    home: Cmerda, Ondrej
+    away: Svacha, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 70788704
+  teams:
+    home: Didi, Julius
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 70788658
+  teams:
+    home: Dousa, Tomas
+    away: Pavelka, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:00'
+- id: 70788532
+  teams:
+    home: Dzida, Jan
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 70789798
+  teams:
+    home: Schneeberger, Antonin
+    away: Navrat, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 70788558
+  teams:
+    home: Biolek, Martin
+    away: Velebil, Lukas
+  score:
+    home: 2
     away: 2
   status: live
-  time: '19:30'
+  time: '20:30'
+- id: 70789808
+  teams:
+    home: Kanak, Alois
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
+- id: 70788694
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Tuma, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 70819322
+  teams:
+    home: Parhomenko, Dmitro
+    away: Fojt, Pavel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 70789820
+  teams:
+    home: Urbaniec, Radim
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:30'
