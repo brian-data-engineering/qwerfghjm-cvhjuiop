@@ -25,4 +25,12 @@ jobs:
 
       - name: Run Scraper
         run: python scraper.py
-        # We no longer need the SPORTRADAR_TOKEN secret!
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "Lucra Bot"
+          git config --global user.email "actions@github.com"
+          git add results.yaml
+          # '|| exit 0' ensures the workflow doesn't fail if no scores changed
+          git commit -m "Auto-update scores: $(date +'%Y-%m-%d %H:%M')" || exit 0
+          git push
