@@ -248,19 +248,199 @@ basketball:
     home: Flamengo
     away: Vasco Da Gama
   score:
-    home: 70
-    away: 57
-  status: live
+    home: 95
+    away: 75
+  status: result
   time: '21:00'
 - id: 66615608
   teams:
     home: Minas
     away: Cearense
   score:
-    home: 49
-    away: 30
-  status: live
+    home: 87
+    away: 56
+  status: recentlyended
   time: '22:00'
+- id: 66615612
+  teams:
+    home: Brasilia
+    away: Franca
+  score:
+    home: 33
+    away: 33
+  status: live
+  time: '23:00'
+- id: 66615610
+  teams:
+    home: Cruzeiro Basquete
+    away: Unifacisa
+  score:
+    home: 38
+    away: 44
+  status: live
+  time: '23:00'
+- id: 64981362
+  teams:
+    home: Beijing Ducks
+    away: Quingdao Eagles
+  score:
+    home: 87
+    away: 70
+  status: result
+  time: '11:35'
+- id: 64981360
+  teams:
+    home: Southern Tigers
+    away: Ningbo Rockets
+  score:
+    home: 77
+    away: 74
+  status: result
+  time: '11:35'
+- id: 69335316
+  teams:
+    home: Jena
+    away: Braunschweig
+  score:
+    home: 82
+    away: 93
+  status: result
+  time: '16:30'
+- id: 69587812
+  teams:
+    home: B. Munich
+    away: Ludwigsburg
+  score:
+    home: 93
+    away: 59
+  status: result
+  time: '18:00'
+- id: 70616712
+  teams:
+    home: UMFN Njardvik
+    away: UMF Grindavik
+  score:
+    home: 84
+    away: 91
+  status: result
+  time: '19:00'
+- id: 70616714
+  teams:
+    home: KR Reykjavik
+    away: Stjarnan
+  score:
+    home: 115
+    away: 118
+  status: result
+  time: '19:30'
+- id: 68660944
+  teams:
+    home: Zadar
+    away: FMP
+  score:
+    home: 76
+    away: 65
+  status: result
+  time: '18:00'
+- id: 69423152
+  teams:
+    home: New Taipei Kings
+    away: Taoyuan Pilots
+  score:
+    home: 85
+    away: 110
+  status: result
+  time: '11:00'
+- id: 62871305
+  teams:
+    home: BC Jonava
+    away: Zalgiris
+  score:
+    home: 84
+    away: 101
+  status: result
+  time: '15:30'
+- id: 69458720
+  teams:
+    home: Nlex Road Warriors
+    away: Macau Black Bears
+  score:
+    home: 106
+    away: 97
+  status: result
+  time: 09:15
+- id: 69458722
+  teams:
+    home: Blackwater Elite
+    away: Talk N Text
+  score:
+    home: 94
+    away: 99
+  status: result
+  time: '11:30'
+- id: 70666384
+  teams:
+    home: Knights
+    away: Orions
+  score:
+    home: 72
+    away: 80
+  status: result
+  time: '10:00'
+- id: 64047449
+  teams:
+    home: Atlassib Sibiu
+    away: Cso Voluntari
+  score:
+    home: 85
+    away: 64
+  status: result
+  time: '15:00'
+- id: 64047443
+  teams:
+    home: Targu Jiu
+    away: CSM Ploiesti
+  score:
+    home: 68
+    away: 83
+  status: result
+  time: '15:00'
+- id: 64047451
+  teams:
+    home: Csm Targu Mures
+    away: Csm Corona Brasov
+  score:
+    home: 123
+    away: 118
+  status: result
+  time: '16:00'
+- id: 64047445
+  teams:
+    home: Dinamo Bucuresti
+    away: Oradea
+  score:
+    home: 72
+    away: 78
+  status: result
+  time: '16:00'
+- id: 64047455
+  teams:
+    home: SCM Univ. Craiova
+    away: CS Rapid Bucuresti
+  score:
+    home: 97
+    away: 93
+  status: result
+  time: '16:00'
+- id: 70431772
+  teams:
+    home: Boraas
+    away: Jamtland
+  score:
+    home: 99
+    away: 75
+  status: result
+  time: '17:04'
 tennis:
 - id: 70768008
   teams:
@@ -2152,7 +2332,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 70788610
   teams:
@@ -2160,8 +2340,8 @@ table_tennis:
     away: Skakal, Martin
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '22:30'
 - id: 70789782
   teams:
@@ -2170,7 +2350,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '22:30'
 - id: 70788526
   teams:
@@ -2179,5 +2359,59 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '22:30'
+- id: 70788700
+  teams:
+    home: Kadavy, Simon
+    away: Bayer, Alesh
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '23:00'
+- id: 70789816
+  teams:
+    home: Prokupek, Jaroslav
+    away: Sopko, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 70788706
+  teams:
+    home: Volhejn, Dan
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:00'
+- id: 70789752
+  teams:
+    home: Hradecky, Jakub
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:30'
+- id: 70788674
+  teams:
+    home: Petracek, Vratislav
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '23:30'
+- id: 70788580
+  teams:
+    home: Sobisek, Martin
+    away: Brozik, Karel
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '23:30'
