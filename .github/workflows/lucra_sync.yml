@@ -1,0 +1,34 @@
+name: Lucra 30min Sync
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allows manual run for testing
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests pyyaml
+
+      - name: Run Scraper
+        run: python scraper.py
+        env:
+          SPORTRADAR_TOKEN: ${{ secrets.SPORTRADAR_TOKEN }}
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "LucraBot"
+          git config --global user.email "bot@lucra.com"
+          git add results.yaml
+          git commit -m "Update scores: $(date)" || exit 0
+          git push
