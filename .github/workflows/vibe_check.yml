@@ -1,27 +1,37 @@
-name: Daily Vibe Sync
+name: Lucra Scout Sync
+
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    # Runs every 10 minutes to keep odds fresh
+    - cron: '*/10 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
-  scout:
+  scrape_and_sync:
     runs-on: ubuntu-latest
+
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install Dependencies
         run: |
-          pip install supabase playwright
-          playwright install chromium --with-deps
+          pip install playwright supabase
+          playwright install chromium
 
-      - name: Run Vibe Check
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python vibe_check.py
+      - name: Run Scraper 1 (Navigator)
+        # This populates your Sports, Countries, and Leagues tables
+        run: vibe_check.py
+
+      - name: Run Scraper 2 & 3 (Matches & Markets)
+        # This uses the Playwright engine to get the deep odds
+        run: python sp_unified_scout.py
