@@ -32,7 +32,7 @@ def get_token():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     try:
         driver.get("https://statshub.sportradar.com/betika/en/sport/1")
-        time.sleep(10) # Give it time to fire requests
+        time.sleep(10) 
         
         logs = driver.get_log('performance')
         for entry in logs:
@@ -49,51 +49,65 @@ def get_token():
         if 'driver' in locals(): driver.quit()
         raise e
 
-def process_match(m):
-    """Direct extraction of match results."""
-    res = m.get('result', {})
-    teams = m.get('teams', {})
-    # Return None if names are missing (filters out ghost entries)
-    if not teams.get('home', {}).get('name'): return None
-
-    return {
-        'id': m.get('_id'),
-        'teams': {
-            'home': teams.get('home', {}).get('name'), 
-            'away': teams.get('away', {}).get('name')
-        },
-        'score': {
-            'home': res.get('home', 0), 
-            'away': res.get('away', 0)
-        },
-        'status': m.get('matchstatus'),
-        'time': m.get('_dt', {}).get('time')
-    }
-
 def fetch_results(name, s_id, token):
-    """Fetches and flattens match data from the Gismo API."""
-    date_str = datetime.datetime.now().strftime("%Y-%m-%d")
-    url = f"https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/sport_matches/{s_id}/{date_str}?T={token}"
+    """Explores JSON structure and extracts matches."""
+    # Try today, then fallback to yesterday if empty (for late-night runs)
+    dates_to_try = [
+        datetime.datetime.now().strftime("%Y-%m-%d"),
+        (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+    ]
     
-    try:
-        r = requests.get(url, timeout=10)
-        data = r.json()
-        matches_found = []
-        
-        # Navigate the Gismo nesting: doc -> data -> categories -> realcategories -> tournaments -> matches
-        categories = data.get('doc', [{}])[0].get('data', {})
-        for cat_id in categories:
-            real_cats = categories[cat_id].get('realcategories', [])
-            for rc in real_cats:
-                for tourn in rc.get('tournaments', []):
-                    for match in tourn.get('matches', []):
-                        m_data = process_match(match)
-                        if m_data: matches_found.append(m_data)
-        
-        print(f"📊 {name.capitalize()}: {len(matches_found)} matches found.")
-        return name, matches_found
-    except:
-        return name, []
+    matches_found = []
+
+    for date_str in dates_to_try:
+        url = f"https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/sport_matches/{s_id}/{date_str}?T={token}"
+        try:
+            r = requests.get(url, timeout=10)
+            data = r.json()
+            
+            # --- STRUCTURE ANALYSIS ---
+            if name == "soccer" and not matches_found:
+                print(f"\n--- 🔍 Structure Analysis ({date_str}) ---")
+                doc = data.get('doc', [{}])[0]
+                print(f"Root Keys: {list(doc.keys())}")
+                if 'data' in doc:
+                    print(f"Data type: {type(doc['data'])}")
+                    if isinstance(doc['data'], dict):
+                        print(f"Category IDs found: {list(doc['data'].keys())[:5]}")
+            # --------------------------
+
+            categories = data.get('doc', [{}])[0].get('data', {})
+            if isinstance(categories, dict):
+                for cat_id in categories:
+                    real_cats = categories[cat_id].get('realcategories', [])
+                    for rc in real_cats:
+                        for tourn in rc.get('tournaments', []):
+                            for match in tourn.get('matches', []):
+                                # Map the specific fields we want
+                                res = match.get('result', {})
+                                teams = match.get('teams', {})
+                                if teams.get('home'):
+                                    matches_found.append({
+                                        'id': match.get('_id'),
+                                        'teams': {
+                                            'home': teams.get('home', {}).get('name'),
+                                            'away': teams.get('away', {}).get('name')
+                                        },
+                                        'score': {
+                                            'home': res.get('home', 0),
+                                            'away': res.get('away', 0)
+                                        },
+                                        'status': match.get('matchstatus'),
+                                        'time': match.get('_dt', {}).get('time')
+                                    })
+            
+            if matches_found:
+                print(f"📊 {name.capitalize()} ({date_str}): {len(matches_found)} matches found.")
+                break # Stop if we found data for this date
+        except:
+            continue
+
+    return name, matches_found
 
 def main():
     print("🚀 Starting sync...")
@@ -110,7 +124,7 @@ def main():
         yaml.dump(final_output, f, default_flow_style=False, sort_keys=False)
     
     total = sum(len(v) for v in final_output.values())
-    print(f"✅ Success! results.yaml updated with {total} matches.")
+    print(f"\n✅ Final Count: {total} matches saved to results.yaml.")
 
 if __name__ == "__main__":
     main()
