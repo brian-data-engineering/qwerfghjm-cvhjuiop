@@ -32,8 +32,8 @@ soccer:
     away: Botev Plovdiv
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: recentlyended
   time: '17:30'
 - id: 67681816
   teams:
@@ -98,6 +98,24 @@ soccer:
     away: 1
   status: live
   time: '18:00'
+- id: 69880232
+  teams:
+    home: Kahrabaa Ismailia
+    away: Ismaily SC
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 69844312
+  teams:
+    home: Portsmouth
+    away: Ipswich
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
 basketball: []
 tennis:
 - id: 70768008
@@ -177,7 +195,7 @@ tennis:
     home: Fils, Arthur
     away: Atmane, Terence
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '17:30'
@@ -271,15 +289,6 @@ tennis:
     away: 0
   status: result
   time: '13:55'
-- id: 70742098
-  teams:
-    home: Marozsan, Fabian
-    away: Tsitsipas, Stefanos
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '14:55'
 - id: 70742434
   teams:
     home: Cerundolo F / Michelsen A
@@ -304,7 +313,7 @@ ice_hockey:
     home: Munich
     away: Mannheim
   score:
-    home: 1
+    home: 5
     away: 1
   status: live
   time: '17:30'
@@ -324,7 +333,7 @@ ice_hockey:
   score:
     home: 3
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 70771016
   teams:
@@ -359,8 +368,8 @@ ice_hockey:
     away: Vaxjo
   score:
     home: 4
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '17:00'
 - id: 62079162
   teams:
@@ -1747,7 +1756,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70789828
   teams:
@@ -1755,8 +1764,8 @@ table_tennis:
     away: Priesol, Daniel
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:30'
 - id: 70788524
   teams:
@@ -1764,8 +1773,8 @@ table_tennis:
     away: Velebil, Lukas
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:30'
 - id: 70819318
   teams:
@@ -1774,7 +1783,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70788618
   teams:
@@ -1783,7 +1792,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70789792
   teams:
@@ -1792,5 +1801,95 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
+- id: 70788528
+  teams:
+    home: Biolek, Martin
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 70789818
+  teams:
+    home: Kanak, Alois
+    away: Navrat, Tomas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:00'
+- id: 70788688
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 70788602
+  teams:
+    home: Parhomenko, Dmitro
+    away: Pavelka, Radim
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 70789842
+  teams:
+    home: Urbaniec, Radim
+    away: Svacha, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 70819320
+  teams:
+    home: Fojt, Pavel
+    away: Dousa, Tomas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:30'
+- id: 70789740
+  teams:
+    home: Kasnik, Sebastian
+    away: Cmerda, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:30'
+- id: 70789770
+  teams:
+    home: Priesol, Daniel
+    away: Schneeberger, Antonin
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:30'
+- id: 70788570
+  teams:
+    home: Tuma, Miroslav
+    away: Didi, Julius
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 70788634
+  teams:
+    home: Velebil, Lukas
+    away: Dzida, Jan
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:30'
