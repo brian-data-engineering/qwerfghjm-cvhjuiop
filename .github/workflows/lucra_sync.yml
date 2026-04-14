@@ -2,17 +2,16 @@ name: Lucra 30min Sync
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Runs every 30 minutes
-  workflow_dispatch:      # Allows you to click a button to run it manually
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Vital: Allows the bot to push the YAML back to your repo
-
+      contents: write
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -21,17 +20,9 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests pyyaml
+        run: |
+          pip install requests pyyaml selenium webdriver-manager
 
       - name: Run Scraper
         run: python scraper.py
-        env:
-          SPORTRADAR_TOKEN: ${{ secrets.SPORTRADAR_TOKEN }}
-
-      - name: Commit and Push Results
-        run: |
-          git config --global user.name "LucraBot"
-          git config --global user.email "bot@lucra.io"
-          git add results.yaml
-          git commit -m "Auto-update scores: $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
-          git push
+        # We no longer need the SPORTRADAR_TOKEN secret!
