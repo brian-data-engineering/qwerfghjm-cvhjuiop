@@ -1,6 +1,5 @@
 import os
 import json
-import time
 from playwright.sync_api import sync_playwright
 from supabase import create_client
 
@@ -13,9 +12,12 @@ NAV_API = "https://ke.sportpesa.com/api/navigation"
 
 def sync_navigation():
     with sync_playwright() as p:
-        print("🌐 Syncing Navigation Hierarchy...")
+        print("🌐 Launching Navigator...")
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
         
         try:
             page.goto(NAV_API, wait_until="networkidle")
@@ -23,7 +25,7 @@ def sync_navigation():
             sports_list = json.loads(raw_data)
 
             for sport in sports_list:
-                # 1. Upsert Sport
+                print(f"Syncing Sport: {sport['name']}")
                 supabase.table("sp_sports").upsert({
                     "id": sport["id"],
                     "name": sport["name"],
@@ -31,7 +33,6 @@ def sync_navigation():
                 }).execute()
 
                 for country in sport.get("countries", []):
-                    # 2. Upsert Country
                     supabase.table("sp_countries").upsert({
                         "id": country["id"],
                         "sport_id": sport["id"],
@@ -40,17 +41,18 @@ def sync_navigation():
                     }).execute()
 
                     for league in country.get("leagues", []):
-                        # 3. Upsert League
+                        # Clean quotes as requested
+                        clean_name = str(league["name"]).replace("'", "").replace('"', '')
                         supabase.table("sp_leagues").upsert({
                             "id": league["id"],
                             "country_id": country["id"],
-                            "name": league["name"].replace("'", ""), # Clean quotes
+                            "name": clean_name,
                             "top_league_pos": league.get("top_league_pos", 0)
                         }).execute()
             
-            print("✅ Navigation structure updated.")
+            print("✅ Database hierarchy populated.")
         except Exception as e:
-            print(f"🚨 Scraper Error: {e}")
+            print(f"🚨 Error: {e}")
         finally:
             browser.close()
 
