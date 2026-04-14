@@ -2,14 +2,17 @@ name: Lucra 30min Sync
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # Allows manual run for testing
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  workflow_dispatch:      # Allows you to click a button to run it manually
 
 jobs:
-  sync:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Vital: Allows the bot to push the YAML back to your repo
+
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -28,7 +31,7 @@ jobs:
       - name: Commit and Push Results
         run: |
           git config --global user.name "LucraBot"
-          git config --global user.email "bot@lucra.com"
+          git config --global user.email "bot@lucra.io"
           git add results.yaml
-          git commit -m "Update scores: $(date)" || exit 0
+          git commit -m "Auto-update scores: $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git push
