@@ -24,10 +24,37 @@ tennis:
     home: Jodar, Rafael
     away: Ugo Carabelli, Camilo
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '14:00'
+- id: 70669656
+  teams:
+    home: Norrie, Cameron
+    away: Quinn, Ethan
+  score:
+    home: 0
     away: 0
   status: live
-  time: '14:00'
+  time: '15:50'
+- id: 70764736
+  teams:
+    home: Cash J / Glasspool L
+    away: Frantzen C / Haase R
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 70764732
+  teams:
+    home: Gonzalez M / Molteni A
+    away: Granollers M / Martinez P
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
 ice_hockey: []
 table_tennis:
 - id: 70788632
@@ -1018,7 +1045,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70820108
   teams:
@@ -1027,7 +1054,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70820288
   teams:
@@ -1036,7 +1063,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70819658
   teams:
@@ -1045,7 +1072,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70819678
   teams:
@@ -1054,43 +1081,43 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70820116
   teams:
     home: Darin, Kyryl
     away: Plachy, Jiri
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '15:00'
 - id: 70819644
   teams:
     home: Kanera, Jan
     away: Postelt, Tomas
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:00'
 - id: 70820182
   teams:
     home: Kratochvil, Michal
     away: Skotnica, Martin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:00'
 - id: 70820150
   teams:
     home: Pavliska, Martin
     away: Petrek, Tomas
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 70819704
   teams:
@@ -1098,6 +1125,141 @@ table_tennis:
     away: Svechota, Vojtech
   score:
     home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 70820248
+  teams:
+    home: Briza, Frantisek
+    away: Bresky, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 70820160
+  teams:
+    home: Kypr, Tomas
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 70820164
+  teams:
+    home: Szotek, David
+    away: Navedla, Matyas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 70819674
+  teams:
+    home: Urbaniec, Radim
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 70819712
+  teams:
+    home: Vavrecka, Michal
+    away: Wolf, Filip
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 70820120
+  teams:
+    home: Bresky, Jaroslav
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 70820110
+  teams:
+    home: Navedla, Matyas
+    away: Skotnica, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 70820166
+  teams:
+    home: Neuwirth SR, Jaroslav
+    away: Petrek, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 70819630
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Svechota, Vojtech
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 70819688
+  teams:
+    home: Wolf, Filip
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 70820114
+  teams:
+    home: Darin, Kyryl
+    away: Briza, Frantisek
+  score:
+    home: 0
     away: 2
   status: live
-  time: '15:00'
+  time: '16:30'
+- id: 70819700
+  teams:
+    home: Kanera, Jan
+    away: Vavrecka, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
+- id: 70820168
+  teams:
+    home: Kratochvil, Michal
+    away: Szotek, David
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
+- id: 70820274
+  teams:
+    home: Pavliska, Martin
+    away: Kypr, Tomas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 70819684
+  teams:
+    home: Svacha, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
