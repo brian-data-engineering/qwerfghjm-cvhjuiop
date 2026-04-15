@@ -118,7 +118,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70788646
   teams:
@@ -127,7 +127,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70788666
   teams:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70788672
   teams:
@@ -144,8 +144,8 @@ table_tennis:
     away: Sobisek, Martin
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 02:30
 - id: 70788614
   teams:
@@ -154,14 +154,14 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 70789764
   teams:
     home: Sopko, Martin
     away: Hradecky, Jakub
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:30
