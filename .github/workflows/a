@@ -1,0 +1,31 @@
+name: Lucra Auto-Token Sync
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml playwright
+          playwright install chromium
+          
+      - name: Run Scraper
+        run: python lucra_auto_sync.py
+
+      - name: Commit Results
+        run: |
+          git config --global user.name "Lucra-Bot"
+          git add lucra_results.yml
+          git commit -m "Auto-update results" || exit 0
+          git push
