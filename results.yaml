@@ -4,9 +4,9 @@ soccer:
     home: Gimnasia y Esgrima Mendoza
     away: Gimnasia Y Tiro de Salta
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 4
+  status: recentlyended
   time: '17:10'
 - id: 69957232
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '17:00'
 - id: 70007184
   teams:
@@ -40,9 +40,9 @@ soccer:
     home: HSK Zrinjski Mostar
     away: FK Radnik Bijeljina
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 69904606
   teams:
@@ -87,9 +87,9 @@ tennis:
     home: Norrie, Cameron
     away: Quinn, Ethan
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '15:50'
 - id: 70764736
   teams:
@@ -109,7 +109,124 @@ tennis:
     away: 0
   status: result
   time: '12:00'
-ice_hockey: []
+ice_hockey:
+- id: 70665982
+  teams:
+    home: Graz 99ers
+    away: Pustertal
+  score:
+    home: 5
+    away: 1
+  status: live
+  time: '17:45'
+- id: 69826292
+  teams:
+    home: Pardubice
+    away: Sparta Prague
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '16:00'
+- id: 69757844
+  teams:
+    home: Cologne
+    away: Berlin
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '17:30'
+- id: 70806126
+  teams:
+    home: Frisk/Asker
+    away: Storhamar
+  score:
+    home: 1
+    away: 4
+  status: recentlyended
+  time: '17:00'
+- id: 69025020
+  teams:
+    home: Bars Kazan
+    away: Dinamo Minsk
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 70482258
+  teams:
+    home: Torpedo NN
+    away: Magnitogorsk
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 68932778
+  teams:
+    home: Bjorkloven
+    away: Karlskoga
+  score:
+    home: 4
+    away: 2
+  status: recentlyended
+  time: '17:00'
+- id: 68908878
+  teams:
+    home: Skelleftea
+    away: Lulea
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '17:00'
+- id: 62079180
+  teams:
+    home: Minnesota
+    away: Anaheim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:00
+- id: 62079184
+  teams:
+    home: Calgary
+    away: Colorado
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 62079182
+  teams:
+    home: Utah Mammoth
+    away: Winnipeg
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: 01:00
+- id: 62079186
+  teams:
+    home: St Louis
+    away: Pittsburgh
+  score:
+    home: 7
+    away: 5
+  status: result
+  time: 01:30
+- id: 62079188
+  teams:
+    home: Vancouver
+    away: Los Angeles Kings
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: 02:00
 table_tennis:
 - id: 70788632
   teams:
@@ -1369,7 +1486,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70852018
   teams:
@@ -1378,7 +1495,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70851990
   teams:
@@ -1387,7 +1504,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70852006
   teams:
@@ -1396,7 +1513,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70852002
   teams:
@@ -1405,16 +1522,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70820284
   teams:
     home: Chalupa, Michal
     away: Holub, Marek
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:00'
 - id: 70820282
   teams:
@@ -1422,26 +1539,26 @@ table_tennis:
     away: Bresky, Jaroslav
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '18:00'
 - id: 70820254
   teams:
     home: Kern, Lukas
     away: Vavrecka, Radomir
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:00'
 - id: 70819666
   teams:
     home: Mecl Jr, Jan
     away: Zahradka, Michal
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:00'
 - id: 70819640
   teams:
@@ -1449,6 +1566,24 @@ table_tennis:
     away: Nohejl, Matej
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:00'
+- id: 70849828
+  teams:
+    home: Brozik, Karel
+    away: Janata, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 70819676
+  teams:
+    home: Cmerda, Ondrej
+    away: Huk, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
