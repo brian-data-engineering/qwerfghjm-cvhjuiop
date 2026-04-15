@@ -8,9 +8,13 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Ensure the bot has permission to push
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for a clean rebase
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -30,11 +34,13 @@ jobs:
           git config --global user.name "Lucra-Bot"
           git config --global user.email "bot@lucra.internal"
           
-          # Check for any qw files (YAML or log)
+          # Pull latest changes to avoid "rejected" error
+          git pull origin main --rebase
+          
           if ls qw_* 1> /dev/null 2>&1; then
             git add qw_*
             git commit -m "Update Lucra results: $(date)"
-            git push
+            git push origin main
           else
             echo "No files found to commit."
           fi
