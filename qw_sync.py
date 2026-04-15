@@ -4,9 +4,8 @@ import time
 import requests
 from datetime import datetime
 from playwright.sync_api import sync_playwright
-# Import the specific sync function
-from playwright_stealth import stealth_sync
 
+# Parent IDs to scrape
 PARENT_IDS = ["70292228", "70292226"]
 BASE_URL = "https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/stats_match_get/"
 
@@ -18,11 +17,15 @@ def get_token():
         )
         page = context.new_page()
         
-        # CORRECT STEALTH CALL
+        # DYNAMIC STEALTH: Works regardless of library version
         try:
-            stealth_sync(page)
+            import playwright_stealth
+            # Try to find stealth_sync first, then stealth
+            stealth_func = getattr(playwright_stealth, "stealth_sync", getattr(playwright_stealth, "stealth", None))
+            if stealth_func:
+                stealth_func(page)
         except Exception as e:
-            print(f"Stealth warning: {e}")
+            print(f"Stealth bypass warning: {e}")
 
         token_container = {"value": None}
 
@@ -32,14 +35,14 @@ def get_token():
 
         page.on("request", capture_request)
 
-        print("Opening Betika for handshake...")
+        print("Opening Betika...")
         try:
-            # We target a direct league page to force the Sportradar widget
+            # Direct link to a league page to force Sportradar to load
             page.goto("https://www.betika.com/en-ke/s/soccer/england/league-one", wait_until="networkidle", timeout=60000)
-        except Exception as e:
-            print(f"Navigation info: {e}")
+        except:
+            print("Navigation timed out, checking if token was caught anyway...")
 
-        # Wait for token
+        # Poll for 20 seconds for the HMAC
         for _ in range(20):
             if token_container["value"]:
                 print("SUCCESS: Token acquired.")
@@ -54,7 +57,7 @@ def main():
     
     if not token:
         print("FAILED: No token found.")
-        # Create unique error log to avoid git conflicts
+        # Create unique error log so GitHub push doesn't conflict
         log_name = f"qw_error_{datetime.now().strftime('%H%M%S')}.log"
         with open(log_name, "w") as f:
             f.write(f"Token failure at {datetime.now()}")
