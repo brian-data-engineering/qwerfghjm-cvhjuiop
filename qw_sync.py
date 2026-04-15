@@ -1,95 +1,87 @@
 import os
 import yaml
-import time
 import requests
+import re
 from datetime import datetime
-from playwright.sync_api import sync_playwright
 
-# Your specific target tournament
-TOURNAMENT_URL = "https://statshub.sportradar.com/betika/en/sport/1/tournament/406?date=2026-04-14"
+# Configuration
 PARENT_IDS = ["70292228", "70292226"]
-BASE_API_URL = "https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/stats_match_get/"
+# This is the main URL that sets the session cookies
+START_URL = "https://statshub.sportradar.com/betika/en/sport/1/tournament/406"
+API_BASE = "https://sh.fn.sportradar.com/betika/en/Etc:UTC/gismo/stats_match_get/"
 
-def get_token():
-    with sync_playwright() as p:
-        # Launching with specific arguments to bypass basic headless detection
-        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        )
-        page = context.new_page()
+def get_token_manually():
+    session = requests.Session()
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Referer": "https://www.betika.com/",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,webp,*/*;q=0.8"
+    }
+
+    print("Attempting to handshake with Sportradar...")
+    try:
+        # Step 1: Visit the main page to get cookies
+        response = session.get(START_URL, headers=headers, timeout=20)
         
-        token_container = {"value": None}
-
-        # Listener: Specifically looking for the hmac in ANY Sportradar-related API call
-        def handle_request(request):
-            if "hmac=" in request.url:
-                try:
-                    # Extract the query string (the part after the ?)
-                    token_container["value"] = request.url.split('?')[1]
-                    print("SUCCESS: HMAC Token intercepted from network traffic.")
-                except Exception:
-                    pass
-
-        page.on("request", handle_request)
-
-        print(f"Navigating to Tournament 406 on StatsHub...")
-        try:
-            # We go to the exact page where the games are listed
-            page.goto(TOURNAMENT_URL, wait_until="networkidle", timeout=60000)
+        # Step 2: Look for the HMAC token in the page source
+        # Sportradar often embeds the configuration or the first API call in a <script> tag
+        html_content = response.text
+        
+        # Look for the pattern hmac= followed by alphanumeric characters
+        match = re.search(r'hmac=([a-zA-Z0-9]+)', html_content)
+        
+        if match:
+            token = f"hmac={match.group(1)}"
+            print(f"Token found in page source: {token[:20]}...")
+            return token, session
             
-            # Sometimes the handshake happens a few seconds after the page 'loads'
-            for _ in range(10):
-                if token_container["value"]:
-                    break
-                time.sleep(1)
-                
-        except Exception as e:
-            print(f"Navigation note: {e}")
+        # Step 3: If not in HTML, check if it's in a redirect URL
+        if "hmac=" in response.url:
+            token = response.url.split('?')[1]
+            return token, session
 
-        browser.close()
-        return token_container["value"]
+    except Exception as e:
+        print(f"Request error: {e}")
+    
+    return None, None
 
 def main():
-    token = get_token()
+    token, session = get_token_manually()
     
     if not token:
-        print("CRITICAL: No token found. Creating failure log.")
+        print("CRITICAL: Failed to acquire token via direct request.")
+        # Create unique error log for the GitHub Web UI
         log_name = f"qw_fail_{datetime.now().strftime('%H%M%S')}.log"
         with open(log_name, "w") as f:
-            f.write(f"Failed to find HMAC at {datetime.now()} for Tournament 406")
+            f.write(f"Direct request blocked at {datetime.now()}")
         return
 
-    # If we have the token, proceed to scrape the specific Match IDs
     for pid in PARENT_IDS:
-        full_url = f"{BASE_API_URL}{pid}?{token}"
-        headers = {
-            "User-Agent": "Mozilla/5.0",
-            "Referer": "https://statshub.sportradar.com/"
-        }
+        # Construct the specific API call
+        target_url = f"{API_BASE}{pid}?{token}"
         
         try:
-            response = requests.get(full_url, headers=headers, timeout=15)
-            if response.status_code == 200:
-                data = response.json()
+            # Reuse the session to keep cookies active
+            res = session.get(target_url, timeout=15)
+            if res.status_code == 200:
+                data = res.json()
                 if 'doc' in data and data['doc']:
-                    match_info = data['doc'][0]['data']['match']
+                    match = data['doc'][0]['data']['match']
                     
-                    qw_result = {
-                        'match_id': pid,
-                        'tournament': 'Tournament 406',
-                        'teams': f"{match_info['teams']['home']['name']} vs {match_info['teams']['away']['name']}",
-                        'score': f"{match_info['result']['home']}-{match_info['result']['away']}",
-                        'status': match_info['status']['name'],
-                        'updated_at': datetime.now().isoformat()
+                    qw_out = {
+                        'id': pid,
+                        'match': f"{match['teams']['home']['name']} vs {match['teams']['away']['name']}",
+                        'result': f"{match['result']['home']}-{match['result']['away']}",
+                        'status': match['status']['name'],
+                        'scraped_at': datetime.now().isoformat()
                     }
 
-                    filename = f"qw_data_{pid}.yml"
+                    filename = f"qw_{pid}.yml"
                     with open(filename, 'w') as f:
-                        yaml.dump(qw_result, f, default_flow_style=False)
-                    print(f"Scraped Match {pid}: {filename}")
+                        yaml.dump(qw_out, f)
+                    print(f"Saved: {filename}")
         except Exception as e:
-            print(f"Error scraping {pid}: {e}")
+            print(f"Error on match {pid}: {e}")
 
 if __name__ == "__main__":
     main()
