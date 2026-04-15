@@ -1,15 +1,15 @@
-name: QW Result Sync
+name: QW Scraper Sync
 
 on:
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # Automated hourly run
+    - cron: '0 * * * *'
 
 jobs:
-  run-sync:
+  scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -17,24 +17,24 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Install Tools
         run: |
-          pip install requests pyyaml playwright
+          pip install requests pyyaml playwright playwright-stealth
           playwright install chromium
 
-      - name: Execute Scraper
+      - name: Run QW Script
         run: python qw_sync.py
 
-      - name: Push to GitHub
+      - name: Save and Push qw files
         run: |
           git config --global user.name "Lucra-Bot"
           git config --global user.email "bot@lucra.internal"
           
-          # Add all files matching the 'qw' prefix
+          # Add all unique qw files
           if ls qw_*.yml 1> /dev/null 2>&1; then
             git add qw_*.yml
-            git commit -m "Add new results: $(date)"
+            git commit -m "Update results: $(date)"
             git push
           else
-            echo "No qw files found to commit."
+            echo "Nothing to commit."
           fi
