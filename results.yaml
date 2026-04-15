@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 70669658
+  teams:
+    home: Borges, Nuno
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 70788632
@@ -397,7 +406,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 70819670
   teams:
@@ -406,7 +415,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 70820232
   teams:
@@ -415,7 +424,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 70819652
   teams:
@@ -424,7 +433,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 70820122
   teams:
@@ -433,5 +442,95 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:30
+- id: 70820198
+  teams:
+    home: Adamczyk, Vladimir
+    away: Smetka, Pavel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 70819664
+  teams:
+    home: Cermak, Vladimir
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 70819668
+  teams:
+    home: Cetner, Milan
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 70825694
+  teams:
+    home: Hudeczek, Roman
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 70820214
+  teams:
+    home: Klement, Milan
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 70820226
+  teams:
+    home: Cabak, Josef
+    away: Blejchar, Marek
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:30'
+- id: 70819730
+  teams:
+    home: Grohsgott, Jiri
+    away: Drabek, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: live
+  time: '10:30'
+- id: 70819694
+  teams:
+    home: Postelt, Vladimir
+    away: Belovsky, Josef
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:30'
+- id: 70820220
+  teams:
+    home: Skacelik, Richard
+    away: Martinak, Lukas
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:30'
+- id: 70820196
+  teams:
+    home: Svechota, Vojtech
+    away: Regner, Michal
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:30'
