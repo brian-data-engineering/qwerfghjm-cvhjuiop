@@ -17,9 +17,8 @@ def get_active_leagues():
 def run():
     leagues = get_active_leagues()
     total_leagues = len(leagues)
-    print(f"Starting Fast Odds Sync for {total_leagues} leagues...")
+    print(f"Starting Fast Sync for {total_leagues} leagues (No JSON Bloat)...")
     
-    # We use a Session to reuse the connection, making it much faster
     session = requests.Session()
     session.headers.update({
         "Referer": "https://1xbet.co.ke/",
@@ -40,6 +39,7 @@ def run():
             if response.status_code == 200:
                 data = response.json()
                 for val in data.get("Value", []):
+                    # We ONLY collect the flat metadata now
                     all_matches.append({
                         "match_id": val.get("I"),
                         "league_id": l_id,
@@ -47,31 +47,30 @@ def run():
                         "home_team": val.get("O1E"),
                         "away_team": val.get("O2E"),
                         "start_time": datetime.fromtimestamp(val.get("S")).isoformat(),
-                        "odds_data": val.get("AE", []),
                         "last_sync": datetime.now().isoformat()
+                        # odds_data REMOVED - Keep it fast
                     })
             
-            # PROGRESS TRACKING: This prevents GitHub Actions from looking "stuck"
             if (index + 1) % 50 == 0 or (index + 1) == total_leagues:
                 print(f"Progress: {index + 1}/{total_leagues} leagues scanned. Collected {len(all_matches)} matches...")
-                sys.stdout.flush() # Force log to show in GitHub immediately
+                sys.stdout.flush() 
 
         except Exception as e:
-            # Skip failed leagues and keep going
             continue
 
-    # BULK UPSERT: Send to Supabase in chunks of 1000
+    # BULK UPSERT: Syncing clean metadata to xmatch_odds
     if all_matches:
-        print(f"Syncing {len(all_matches)} total matches to Supabase...")
+        print(f"Syncing {len(all_matches)} clean rows to xmatch_odds...")
         for i in range(0, len(all_matches), 1000):
             chunk = all_matches[i:i + 1000]
             try:
+                # This will now work perfectly with your updated SQL schema
                 supabase.table("xmatch_odds").upsert(chunk).execute()
                 print(f"Successfully uploaded chunk {i//1000 + 1}")
             except Exception as e:
                 print(f"Error uploading chunk: {e}")
     
-    print("Lucra Sync Finished.")
+    print("Lucra Fast-Sync Finished.")
 
 if __name__ == "__main__":
     run()
