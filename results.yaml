@@ -17,9 +17,117 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '14:05'
-ice_hockey: []
+- id: 70669668
+  teams:
+    home: Fils, Arthur
+    away: Nakashima, Brandon
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:30'
+- id: 70764730
+  teams:
+    home: Rincon D / Roca Batalla O
+    away: Krajicek A / Mektic N
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 70764734
+  teams:
+    home: Nys H / Roger-Vasselin E
+    away: Cabral F / Salisbury J
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:30'
+- id: 70764726
+  teams:
+    home: Andreozzi G / Guinard M
+    away: Cash R / Tracy J
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:35'
+ice_hockey:
+- id: 69829448
+  teams:
+    home: Tappara
+    away: Ilves
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: '15:30'
+- id: 70266612
+  teams:
+    home: Slovakia
+    away: Switzerland
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 69919794
+  teams:
+    home: Czech Republic
+    away: Germany
+  score:
+    home: 4
+    away: 3
+  status: live
+  time: '15:30'
+- id: 70789900
+  teams:
+    home: Hungary
+    away: Poland
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
+- id: 70482244
+  teams:
+    home: Avangard Omsk
+    away: CSKA Moscow
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '13:30'
+- id: 68908880
+  teams:
+    home: Vaxjo
+    away: Rogle
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '17:00'
+- id: 62079198
+  teams:
+    home: Chicago
+    away: San Jose
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: 00:30
+- id: 62079200
+  teams:
+    home: Vegas Golden Knights
+    away: Seattle Kraken
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: 02:00
 table_tennis:
 - id: 70820172
   teams:
