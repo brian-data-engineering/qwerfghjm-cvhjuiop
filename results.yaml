@@ -10,6 +10,15 @@ tennis:
     away: 2
   status: result
   time: '11:30'
+- id: 70669666
+  teams:
+    home: Moutet, Corentin
+    away: Musetti, Lorenzo
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '14:05'
 ice_hockey: []
 table_tennis:
 - id: 70820172
@@ -901,7 +910,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 70871870
   teams:
@@ -910,7 +919,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 70871884
   teams:
@@ -919,7 +928,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 70871888
   teams:
@@ -928,7 +937,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 70871880
   teams:
@@ -937,5 +946,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
