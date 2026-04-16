@@ -7,8 +7,8 @@ tennis:
     away: Rublev, Andrey
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '11:30'
 ice_hockey: []
 table_tennis:
@@ -721,7 +721,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 70844964
   teams:
@@ -730,7 +730,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 70844928
   teams:
@@ -739,7 +739,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 70844720
   teams:
@@ -748,7 +748,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 70844894
   teams:
@@ -757,5 +757,185 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
+- id: 70844676
+  teams:
+    home: Grohsgott, Jiri
+    away: Cetner, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 70844950
+  teams:
+    home: Hruda, Kamil
+    away: Srba, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 70844910
+  teams:
+    home: Postelt, Tomas
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 70844954
+  teams:
+    home: Schneeberger, Antonin
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:00'
+- id: 70844600
+  teams:
+    home: Sedlacek, Michael
+    away: Pokorny, Adam
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 70844710
+  teams:
+    home: Barton, Ales
+    away: Jindrak, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 70844944
+  teams:
+    home: Havel, Ladislav
+    away: Madle, Ludek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 70844892
+  teams:
+    home: Kolek, Matyas
+    away: Tyn, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 70844852
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 70844904
+  teams:
+    home: Svec, Jiri
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 70871890
+  teams:
+    home: Havel, Ladislav
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 70871878
+  teams:
+    home: Kolek, Matyas
+    away: Tyn, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 70871886
+  teams:
+    home: Srba, Jan
+    away: Hruda, Kamil
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 70871868
+  teams:
+    home: Vavrecka, Michal
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 70871882
+  teams:
+    home: Zika, Tadeas
+    away: Sedlacek, Michael
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 70871892
+  teams:
+    home: Cetner, Milan
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '13:30'
+- id: 70871870
+  teams:
+    home: Jindrak, Lukas
+    away: Postelt, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 70871884
+  teams:
+    home: Pokorny, Adam
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '13:30'
+- id: 70871888
+  teams:
+    home: Svec, Jiri
+    away: Cernik, Jaromir
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 70871880
+  teams:
+    home: Zurek, Filip
+    away: Schneeberger, Antonin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:30'
