@@ -12,16 +12,21 @@ KEY = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(URL, KEY)
 
 def fetch_and_upload(m_id):
+    # Use a fresh session for EVERY match to clear session tracking
     session = requests.Session()
-    # Harder browser fingerprint
+    
+    # Randomize User-Agents to prevent "Signature" fingerprinting
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+    ]
+
     session.headers.update({
         "Accept": "application/json, text/plain, */*",
-        "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Host": "1xbet.co.ke",
         "Referer": "https://1xbet.co.ke/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "User-Agent": random.choice(user_agents),
         "X-Requested-With": "XMLHttpRequest"
     })
 
@@ -33,31 +38,25 @@ def fetch_and_upload(m_id):
     }
     
     try:
-        time.sleep(random.uniform(1.0, 2.0))
-        resp = session.get(url, params=params, timeout=25)
+        # THE FIX: Longer, more varied jitter. 
+        # This makes it impossible for them to find a "pattern."
+        time.sleep(random.uniform(5.0, 12.0))
         
-        # DIAGNOSTIC PRINT: Let's see what we are actually getting
-        if resp.status_code != 200:
-            print(f"[HTTP {resp.status_code}] Match {m_id} failed connection.", flush=True)
+        resp = session.get(url, params=params, timeout=30)
+        
+        if not resp.text.strip():
+            print(f"[BLOCKED] Match {m_id} -> Empty Response (Throttled)", flush=True)
             return 0
             
         data = resp.json()
-        
-        # Check if 1xBet sent an empty success response (common bot block)
-        if not data or ("eventGroups" not in data and "subGamesForMainGame" not in data):
-            print(f"[EMPTY_JSON] Match {m_id} returned 200 but no data keys.", flush=True)
-            return 0
-
         rows = []
-        seen_in_batch = set()
+        seen_keys = set()
         
         def extract(groups, period, sub_id):
-            if not groups: return
-            for g in groups:
+            for g in groups or []:
                 gid = g.get("groupId")
                 key = (m_id, period, gid)
-                if key in seen_in_batch: continue
-                
+                if key in seen_keys: continue
                 for event_list in g.get("events", []):
                     for e in event_list:
                         if e and 'cf' in e:
@@ -65,7 +64,7 @@ def fetch_and_upload(m_id):
                                 "match_id": m_id, "sub_id": sub_id, "period": period,
                                 "group_id": gid, "raw_data": e, "scraped_at": datetime.now().isoformat()
                             })
-                            seen_in_batch.add(key)
+                            seen_keys.add(key)
                             break 
 
         extract(data.get("eventGroups", []), "Full Time", m_id)
@@ -73,37 +72,31 @@ def fetch_and_upload(m_id):
             extract(sub.get("eventGroups", []), sub.get("subGameName", "Unknown"), sub.get("id"))
 
         if rows:
-            # We use a try/except specifically for the DB push to see if Supabase is the bottleneck
-            try:
-                supabase.table("xmatch_odds_deep").upsert(rows).execute()
-                print(f"[SUCCESS] Match {m_id} -> {len(rows)} markets saved.", flush=True)
-                return len(rows)
-            except Exception as db_e:
-                print(f"[DB_ERROR] Match {m_id} -> {str(db_e)[:100]}", flush=True)
-        else:
-            print(f"[NO_MARKETS] Match {m_id} had JSON but no 'cf' odds found.", flush=True)
+            # upsert with ignore to handle the duplicates silently
+            supabase.table("xmatch_odds_deep").upsert(rows, on_conflict="match_id,period,group_id").execute()
+            print(f"[SUCCESS] Match {m_id} -> {len(rows)} markets saved.", flush=True)
+            return len(rows)
             
     except Exception as e:
-        print(f"[FATAL] Match {m_id} crash: {str(e)[:50]}", flush=True)
+        # This catches the "char 0" JSON error without crashing the script
+        print(f"[RETRY_NEEDED] Match {m_id} -> Invalid response format.", flush=True)
     return 0
 
 def run():
-    print("--- Lucra Diagnostic Start ---", flush=True)
+    print("--- Lucra Stealth-Mode 2.0 ---", flush=True)
     
-    # Check if IDs even exist
-    res = supabase.table("xmatch_odds").select("match_id").limit(1000).execute()
+    res = supabase.table("xmatch_odds").select("match_id").execute()
     ids = [r['match_id'] for r in res.data]
+    random.shuffle(ids) # Random order is CRITICAL to avoid detection
     
-    if not ids:
-        print("[CRITICAL] xmatch_odds table is empty! Nothing to sync.", flush=True)
-        return
+    print(f"Syncing {len(ids)} matches with 2 workers (Ultra-Stealth)...", flush=True)
 
-    print(f"Testing {len(ids)} matches with 4 workers...", flush=True)
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    # DROPPING TO 2 WORKERS. 
+    # This is the "Safety Zone" to keep the IP from getting flagged.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         results = list(executor.map(fetch_and_upload, ids))
 
-    print(f"\n--- Sync Result: {sum(results)} total rows ---", flush=True)
+    print(f"\n--- Sync Complete --- Total: {sum(results)}", flush=True)
 
 if __name__ == "__main__":
     run()
