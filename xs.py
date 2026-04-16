@@ -8,16 +8,18 @@ KEY = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(URL, KEY)
 
 def run_sync():
-    # Endpoints for Football(1), Ice Hockey(2), Basketball(3), Tennis(4), and Table Tennis(10)
+    # Base configuration
     base_url = "https://1xbet.co.ke/service-api/LineFeed/GetSportsShortZip"
-    params = "?lng=en&country=87&partner=61&virtualSports=true&gr=657&groupChamps=true"
+    # Note: Use & for subsequent params after the first ? in the loop
+    params = "lng=en&country=87&partner=61&virtualSports=true&gr=657&groupChamps=true"
     
+    # Endpoints for Football(1), Ice Hockey(2), Basketball(3), Tennis(4), and Table Tennis(10)
     endpoints = [
-        f"{base_url}{params}&sports=1",  # Football
-        f"{base_url}{params}&sports=2",  # Ice Hockey
-        f"{base_url}{params}&sports=3",  # Basketball
-        f"{base_url}{params}&sports=4",  # Tennis
-        f"{base_url}{params}&sports=10"  # Table Tennis
+        f"{base_url}?sports=1&{params}",
+        f"{base_url}?sports=2&{params}",
+        f"{base_url}?sports=3&{params}",
+        f"{base_url}?sports=4&{params}",
+        f"{base_url}?sports=10&{params}"
     ]
     
     headers = {
@@ -75,7 +77,6 @@ def run_sync():
             print(f"Error fetching {url}: {e}")
 
     # Remove duplicates and filter clutter
-    # Keeping it simple: filter if 'Statistics' or 'Cyber' is in the name
     unique_leagues = {}
     for l in all_leagues:
         name = l['league_name']
