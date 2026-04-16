@@ -127,7 +127,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70820212
   teams:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70820140
   teams:
@@ -145,7 +145,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 70820126
   teams:
@@ -154,7 +154,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 70820186
   teams:
@@ -163,5 +163,50 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:30
+- id: 70857626
+  teams:
+    home: Pavelka, Radim
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 70857496
+  teams:
+    home: Regner, Michal
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 70857642
+  teams:
+    home: Kucirek, Ondrej
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:04
+- id: 70857498
+  teams:
+    home: Kasnik, Sebastian
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:10
+- id: 70857628
+  teams:
+    home: Placek, Marek
+    away: Parhomenko, Dmitro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 04:10
