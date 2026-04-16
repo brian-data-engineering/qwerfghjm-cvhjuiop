@@ -2,60 +2,83 @@ import os
 import requests
 from supabase import create_client, Client
 
-# Initialize Supabase
-url: str = os.environ.get("SUPABASE_URL")
-key: str = os.environ.get("SUPABASE_KEY")
-supabase: Client = create_client(url, key)
+# Config
+URL = os.environ.get("SUPABASE_URL")
+KEY = os.environ.get("SUPABASE_KEY")
+supabase: Client = create_client(URL, KEY)
 
-def scrape_leagues():
-    # The endpoint from your discovery step
-    api_url = "https://1xbet.co.ke/service-api/LineFeed/GetSportsShortZip?sports=1&lng=en&country=87&partner=61&virtualSports=true&gr=657&groupChamps=true"
+def run_sync():
+    # List of endpoints to scrape (Football and Tennis)
+    endpoints = [
+        "https://1xbet.co.ke/service-api/LineFeed/GetSportsShortZip?sports=1&lng=en&country=87&partner=61&virtualSports=true&gr=657&groupChamps=true",
+        "https://1xbet.co.ke/service-api/LineFeed/GetSportsShortZip?sports=4&lng=en&country=87&partner=61&virtualSports=true&gr=657&groupChamps=true"
+    ]
     
     headers = {
         "Referer": "https://1xbet.co.ke/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
-    response = requests.get(api_url, headers=headers)
-    data = response.json()
+    all_leagues = []
 
-    league_list = []
-    
-    # Value[0] contains Football (Sport ID 1)
-    sport_data = data.get("Value", [])[0]
-    
-    # 1. Get Top-Level Leagues (Champions League, World Cup, etc.)
-    top_leagues = sport_data.get("L", [])
-    
-    # 2. Get Country-Specific Leagues (England, Spain, etc.)
-    country_groups = sport_data.get("SC", [])
+    for url in endpoints:
+        try:
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            
+            # Value is a list of sports
+            for sport in data.get("Value", []):
+                sport_id = sport.get("I")
+                
+                # 1. Process top-level list (L)
+                for top_league in sport.get("L", []):
+                    if top_league.get("LI"):
+                        all_leagues.append({
+                            "league_id": top_league["LI"],
+                            "league_name": top_league["L"],
+                            "sport_id": sport_id,
+                            "game_count": top_league.get("GC", 0),
+                            "tier_priority": top_league.get("T", 0)
+                        })
+                    
+                    # Some Tennis entries (like ATP/WTA) have sub-leagues inside 'SC'
+                    for sub in top_league.get("SC", []):
+                        if sub.get("LI"):
+                            all_leagues.append({
+                                "league_id": sub["LI"],
+                                "league_name": sub["L"],
+                                "sport_id": sport_id,
+                                "game_count": sub.get("GC", 0),
+                                "tier_priority": sub.get("T", 0)
+                            })
 
-    def format_item(item):
-        return {
-            "league_id": item.get("LI"),
-            "league_name": item.get("L"),
-            "sport_id": 1,
-            "game_count": item.get("GC", 0),
-            "tier_priority": item.get("T", 0)
-        }
+                # 2. Process nested country/category list (SC)
+                for category in sport.get("SC", []):
+                    for league in category.get("SC", []):
+                        if league.get("LI"):
+                            all_leagues.append({
+                                "league_id": league["LI"],
+                                "league_name": league["L"],
+                                "sport_id": sport_id,
+                                "game_count": league.get("GC", 0),
+                                "tier_priority": league.get("T", 0)
+                            })
 
-    # Process both lists
-    for item in top_leagues:
-        league_list.append(format_item(item))
-        
-    for country in country_groups:
-        for item in country.get("SC", []):
-            league_list.append(format_item(item))
+        except Exception as e:
+            print(f"Error fetching {url}: {e}")
 
-    # Clean data: Remove None IDs or "Statistics" leagues to keep Lucra lean
-    clean_list = [l for l in league_list if l['league_id'] and "Statistics" not in l['league_name']]
+    # Remove duplicates by ID and filter out unwanted strings
+    unique_leagues = {l['league_id']: l for l in all_leagues if "Statistics" not in l['league_name']}.values()
+    final_list = list(unique_leagues)
 
-    # Upsert to Supabase
-    try:
-        result = supabase.table("xsoccerleagues").upsert(clean_list).execute()
-        print(f"Successfully synced {len(clean_list)} leagues to xsoccerleagues.")
-    except Exception as e:
-        print(f"Error pushing to Supabase: {e}")
+    # Supabase Upsert
+    if final_list:
+        try:
+            supabase.table("xsoccerleagues").upsert(final_list).execute()
+            print(f"Successfully synced {len(final_list)} items (Football & Tennis).")
+        except Exception as e:
+            print(f"Database Error: {e}")
 
 if __name__ == "__main__":
-    scrape_leagues()
+    run_sync()
