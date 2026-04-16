@@ -1,27 +1,30 @@
-name: Lucra Deep Odds Sync
+name: Lucra Deep Sync
 
 on:
+  workflow_dispatch: # Allows manual trigger
   schedule:
-    - cron: '0 * * * *' # Every hour
-  workflow_dispatch: # Allow manual run
+    - cron: '0 */2 * * *' # Runs every 2 hours
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
+    env:
+      # THIS FORCES LIVE LOGS
+      PYTHONUNBUFFERED: "1" 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install requests supabase
 
-      - name: Run Deep Sync
+      - name: Run Stealth Sync
+        run: python xfinal_sync.py
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python xfinal_sync.py
