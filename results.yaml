@@ -24,9 +24,9 @@ tennis:
     home: Fils, Arthur
     away: Nakashima, Brandon
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '17:30'
 - id: 70764730
   teams:
@@ -55,6 +55,186 @@ tennis:
     away: 1
   status: result
   time: '14:35'
+- id: 70764728
+  teams:
+    home: Herbert P-H / Vavassori A
+    away: Arevalo M / Pavic M
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 70681996
+  teams:
+    home: Van de Zandschulp, Botic
+    away: Cerundolo, Francisco
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 70682004
+  teams:
+    home: Altmaier, Daniel
+    away: Molcan, Alex
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:25'
+- id: 70682014
+  teams:
+    home: Zverev, Alexander
+    away: Diallo, Gabriel
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:25'
+- id: 70681990
+  teams:
+    home: Shapovalov, Denis
+    away: Marozsan, Fabian
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:00'
+- id: 70682048
+  teams:
+    home: Nouza P / Stevens B
+    away: Schnaitter J / Wallner M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 70682046
+  teams:
+    home: Luz O / Matos R
+    away: Johnson L / Zielinski J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:05'
+- id: 70682050
+  teams:
+    home: Bhambri Y / Venus M
+    away: Darderi L / Gonzalez S
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:40'
+- id: 70742432
+  teams:
+    home: Melo M / Zverev A
+    away: Doumbia S / Reboul F
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:50'
+- id: 70673406
+  teams:
+    home: Kotov, Pavel
+    away: Riedi, Leandro
+  score:
+    home: null
+    away: null
+  status: result
+  time: 02:00
+- id: 70673408
+  teams:
+    home: Shimabukuro, Sho
+    away: Zhukayev, Beibit
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 02:10
+- id: 70673410
+  teams:
+    home: Broady, Liam
+    away: Ivashka, Ilya
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 04:05
+- id: 70673412
+  teams:
+    home: Holmgren, August
+    away: Galarneau, Alexis
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:05
+- id: 70673458
+  teams:
+    home: Bollipalli R C / Kadhe A
+    away: Isaro P / Kaliyanda Poonacha N
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 02:10
+- id: 70673456
+  teams:
+    home: Jones B / Paris J
+    away: Chandrasekar A / Yuzuki T
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 03:50
+- id: 70673462
+  teams:
+    home: Kiger M / Stalder R
+    away: Shimabukuro S / Uchida K
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:35
+- id: 70673460
+  teams:
+    home: Rojer J-J / Winegar T
+    away: Puttergill C / Sweeny D
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 06:35
+- id: 70673532
+  teams:
+    home: Llamas Ruiz, Pablo
+    away: Forejtek, Jonas
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '11:55'
+- id: 70673534
+  teams:
+    home: Rocha, Henrique
+    away: Sakamoto, Rei
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:15'
+- id: 70673520
+  teams:
+    home: Safiullin, Roman
+    away: Van Assche, Luca
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:20'
 ice_hockey:
 - id: 69829448
   teams:
@@ -63,7 +243,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '15:30'
 - id: 70266612
   teams:
@@ -79,9 +259,9 @@ ice_hockey:
     home: Czech Republic
     away: Germany
   score:
-    home: 4
+    home: 5
     away: 3
-  status: live
+  status: result
   time: '15:30'
 - id: 70789900
   teams:
@@ -89,8 +269,8 @@ ice_hockey:
     away: Poland
   score:
     home: 0
-    away: 0
-  status: live
+    away: 5
+  status: recentlyended
   time: '17:00'
 - id: 70482244
   teams:
@@ -106,8 +286,8 @@ ice_hockey:
     home: Vaxjo
     away: Rogle
   score:
-    home: 1
-    away: 2
+    home: 3
+    away: 3
   status: live
   time: '17:00'
 - id: 62079198
