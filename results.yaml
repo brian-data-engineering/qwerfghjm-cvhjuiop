@@ -334,7 +334,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 70844694
   teams:
@@ -351,17 +351,17 @@ table_tennis:
     away: Strnad, Jaroslav (1961)
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 70844938
   teams:
     home: Hruska, Vaclav Senior
     away: Sudek, Petr
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:30
 - id: 70844742
   teams:
@@ -370,23 +370,113 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 70844914
   teams:
     home: Taichman, Ivo
     away: Jemelka, Ivan
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 07:30
 - id: 70844616
   teams:
     home: Vavrecka, Michal
     away: Zeman, Lukas
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 07:30
+- id: 70844966
+  teams:
+    home: Jemelka, Ivan
+    away: Zidek, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 70844618
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Vrba, Jindrich
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 70844754
+  teams:
+    home: Sudek, Petr
+    away: Cetner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 70844908
+  teams:
+    home: Tobola, Daniel
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 70844876
+  teams:
+    home: Zeman, Lukas
+    away: Jindrak, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 70844844
+  teams:
+    home: Kubat, Vladimir
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:30
+- id: 70844608
+  teams:
+    home: Osvald, Petr
+    away: Taichman, Ivo
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 70844648
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Hruska, Vaclav Senior
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 70844724
+  teams:
+    home: Virag, Alexandr
+    away: Sionkala, Eduard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 70844756
+  teams:
+    home: Volhejn, Dan
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
