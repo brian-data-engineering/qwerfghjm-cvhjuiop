@@ -5,8 +5,8 @@ soccer:
     away: JS Kabylie
   score:
     home: 1
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '15:00'
 basketball: []
 tennis: []
@@ -1000,7 +1000,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 70866770
   teams:
@@ -1009,7 +1009,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 70866606
   teams:
@@ -1018,7 +1018,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 70866734
   teams:
@@ -1027,7 +1027,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 70866748
   teams:
@@ -1036,5 +1036,95 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
+- id: 70866846
+  teams:
+    home: Biolek, Martin
+    away: Polasek, Radovan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 70866528
+  teams:
+    home: Horak, David
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 70866730
+  teams:
+    home: Kasnik, Sebastian
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 70866602
+  teams:
+    home: Nguyen, BA Hoang Tai
+    away: Belovsky, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 70866872
+  teams:
+    home: Tuma, Miroslav
+    away: Drabek, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 70866754
+  teams:
+    home: Barta, Miroslav
+    away: Havel, Ladislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 70866536
+  teams:
+    home: Lauber, Jakub
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 70866768
+  teams:
+    home: Pagac, Zbynek
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 70866572
+  teams:
+    home: Regner, Tomas
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 70866818
+  teams:
+    home: Velebil, Lukas
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
