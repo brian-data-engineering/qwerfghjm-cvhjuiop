@@ -1,6 +1,5 @@
 import os
 import requests
-import sys
 import concurrent.futures
 from datetime import datetime
 from supabase import create_client, Client
@@ -24,7 +23,6 @@ def fetch_league_matches(league):
     l_id = league['league_id']
     s_id = league['sport_id']
     
-    # Keeping your original fast endpoint since we confirmed it has 'CI'
     base_url = "https://1xbet.co.ke/service-api/LineFeed/Get1x2_VZip"
     params = {
         "sports": s_id,
@@ -43,22 +41,28 @@ def fetch_league_matches(league):
         response = session.get(base_url, params=params, timeout=15)
         if response.status_code == 200:
             data = response.json()
-            # 1xbet returns matches in the 'Value' list
             for val in data.get("Value", []):
+                # We use .get() to avoid KeyErrors
                 match_id = val.get("I")
                 start_ts = val.get("S")
                 
                 if match_id and start_ts:
-                    # EXTRACTION FIX: Explicitly grabbing CI from the match object
-                    # Based on your JSON sample: "CI": 316263480
-                    deep_id = val.get("CI") 
+                    # FIX 1: Explicitly cast to int to satisfy PostgreSQL 'bigint'
+                    # We use val.get("CI") which you confirmed is in the JSON
+                    raw_ci = val.get("CI")
                     
-                    # If CI is missing for some reason, we use I as a safety fallback
-                    # so the database column is never truly NULL
-                    final_deep_id = deep_id if deep_id else match_id
+                    # FIX 2: Fallback logic that ensures we never send 'None'
+                    # If CI is 0, None, or missing, use the match_id (I)
+                    if raw_ci:
+                        try:
+                            final_deep_id = int(raw_ci)
+                        except (ValueError, TypeError):
+                            final_deep_id = int(match_id)
+                    else:
+                        final_deep_id = int(match_id)
                     
                     matches.append({
-                        "match_id": match_id,
+                        "match_id": int(match_id),
                         "deep_game_id": final_deep_id,
                         "league_id": l_id,
                         "sport_id": s_id,
@@ -90,7 +94,7 @@ def run():
         print("No matches collected.")
         return
 
-    # De-duplicate
+    # De-duplicate by match_id
     unique_matches = {m['match_id']: m for m in all_matches_raw}
     final_payload = list(unique_matches.values())
     
@@ -100,6 +104,7 @@ def run():
     for i in range(0, len(final_payload), 1000):
         chunk = final_payload[i:i + 1000]
         try:
+            # FIX 3: Ensure upsert doesn't fail on data type conflict
             supabase.table("xmatch_odds").upsert(chunk).execute()
             print(f"Chunk {i//1000 + 1} synced.")
         except Exception as e:
