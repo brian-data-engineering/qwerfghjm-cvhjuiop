@@ -11,8 +11,9 @@ supabase: Client = create_client(URL, KEY)
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0",
-    "Accept": "application/json"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "X-Requested-With": "XMLHttpRequest"
 })
 
 def vacuum_match(m_id):
@@ -25,50 +26,82 @@ def vacuum_match(m_id):
     
     try:
         resp = session.get(url, params=params, timeout=12)
-        if resp.status_code != 200: return 0
+        
+        # Check 1: Is the request actually working?
+        if resp.status_code != 200:
+            print(f"HTTP ERROR {resp.status_code} for match {m_id}")
+            return 0
             
-        data = resp.json().get("Value", {})
+        json_data = resp.json()
+        
+        # Check 2: Did we get a 'Success' field? (1xBet sometimes sends Success: False)
+        if not json_data.get("Success", True):
+            return 0
+
+        data = json_data.get("Value", {})
+        
+        # Check 3: Is 'Value' empty?
+        if not data:
+            # If Value is empty, 1xBet might be blocking this IP's API access
+            return 0
+            
         rows = []
         
         def collect(groups, period_name, s_id):
-            for g in groups or []:
+            if not groups: return
+            for g in groups:
                 gid = g.get("groupId")
-                for sublist in g.get("events", []):
-                    for e in sublist:
+                # 1xBet API usually wraps events in a nested list: [[event1, event2], [event3]]
+                events_container = g.get("events", [])
+                for sublist in events_container:
+                    # Handle both flat lists and nested lists
+                    items = sublist if isinstance(sublist, list) else [sublist]
+                    for e in items:
                         if e and e.get('cf'):
-                            # Mapping only to the 7 columns your table actually has
                             rows.append({
                                 "match_id": int(m_id),
                                 "sub_id": int(s_id or m_id),
                                 "period": str(period_name),
                                 "group_id": int(gid or 0),
-                                "raw_data": e, # This stores type, cf, and parameter together
+                                "raw_data": e,
                                 "scraped_at": datetime.now().isoformat()
                             })
 
-        # 1. Main Game
+        # Process Main Events
         collect(data.get("GE", []), "Full Time", m_id)
         
-        # 2. Sub Games
-        for sub in data.get("subGamesForMainGame", []):
-            collect(sub.get("eventGroups", []), sub.get("subGameName", "Unknown"), sub.get("id"))
+        # Process Sub Games
+        sub_games = data.get("subGamesForMainGame", [])
+        for sub in sub_games:
+            collect(
+                sub.get("eventGroups", []), 
+                sub.get("subGameName", "Unknown"), 
+                sub.get("id")
+            )
 
         if rows:
-            # Batch upsert
             supabase.table("xmatch_odds_deep").insert(rows).execute()
             return len(rows)
+        else:
+            # If we reached here, 'Value' was found but 'GE' and 'subGames' were empty
+            print(f"No markets found in JSON for match {m_id}")
             
     except Exception as e:
-        print(f"Error on {m_id}: {e}")
+        print(f"CRITICAL ERROR on {m_id}: {e}")
     return 0
 
 def run():
-    res = supabase.table("xmatch_odds").select("deep_game_id").not_.is_("deep_game_id", "null").limit(1000).execute()
+    # Let's test with just 5 games first to see the debug prints
+    res = supabase.table("xmatch_odds").select("deep_game_id").not_.is_("deep_game_id", "null").limit(5).execute()
     ids = [r['deep_game_id'] for r in res.data]
     
-    print(f"Vacuuming {len(ids)} games into Lucra...")
+    if not ids:
+        print("No deep_game_ids found in xmatch_odds table!")
+        return
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+    print(f"Testing Vacuum on {len(ids)} games...")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         results = list(executor.map(vacuum_match, ids))
 
     print(f"Finished. Total rows added: {sum(results)}")
