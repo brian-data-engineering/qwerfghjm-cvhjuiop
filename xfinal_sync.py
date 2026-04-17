@@ -1,37 +1,80 @@
+import os
 import requests
-from supabase import create_client
+import time
+from supabase import create_client, Client
 
-# Config
-url_supabase = "YOUR_SUPABASE_URL"
-key_supabase = "YOUR_SUPABASE_KEY"
-supabase = create_client(url_supabase, key_supabase)
+# 1. Setup Supabase Connection from Environment
+url: str = os.environ.get("SUPABASE_URL", "")
+key: str = os.environ.get("SUPABASE_KEY", "")
 
-# The target match info
-m_id = 710135735
-d_id = 320958746
+if not url or not key:
+    print("❌ ERROR: SUPABASE_URL or SUPABASE_KEY not found in environment!")
+    exit(1)
 
-def sync_deep_match(match_id, deep_id):
-    # Fetch from 1xBet
-    api_url = f"https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents?gameId={deep_id}&lng=en&marketType=1"
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    response = requests.get(api_url, headers=headers)
-    
-    if response.status_code == 200:
-        data = response.json()
+supabase: Client = create_client(url, key)
+
+def fetch_deep_odds():
+    # 2. Get matches from your main table that have a deep_game_id
+    # We limit to 50 at a time to stay within GitHub Action time limits
+    try:
+        response = supabase.table("xmatch_odds") \
+            .select("match_id, deep_game_id") \
+            .not_.is_("deep_game_id", "null") \
+            .order("last_sync", desc=False) \
+            .limit(50) \
+            .execute()
         
-        # Check if we actually got data or just a 204 shell
-        if "subGamesForMainGame" in data:
-            # Upsert into Supabase (Update if exists, else Insert)
-            supabase.table("xmatch_odds_deep").upsert({
-                "match_id": match_id,
-                "deep_game_id": deep_id,
-                "raw_json": data
-            }, on_conflict="match_id").execute()
-            print(f"✅ Success: {match_id} fully synced.")
-        else:
-            print(f"⚠️ Empty: 1xBet has no deep markets for {match_id} yet.")
-    else:
-        print(f"❌ Error: 1xBet returned status {response.status_code}")
+        matches = response.data
+    except Exception as e:
+        print(f"❌ Failed to fetch matches from Supabase: {e}")
+        return
 
-sync_deep_match(m_id, d_id)
+    print(f"🚀 Found {len(matches)} matches to sync.")
+
+    for match in matches:
+        m_id = match['match_id']
+        d_id = match['deep_game_id']
+        
+        print(f"🔍 Syncing Match {m_id} (1xBet ID: {d_id})...")
+        
+        # 3. Hit the 1xBet API
+        api_url = f"https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents?gameId={d_id}&lng=en&marketType=1"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+
+        try:
+            res = requests.get(api_url, headers=headers, timeout=15)
+            
+            if res.status_code == 200:
+                json_data = res.json()
+                
+                # Check for content (avoiding 204 "No Content" errors)
+                if "subGamesForMainGame" in json_data:
+                    # 4. Dump the WHOLE JSON into the new table
+                    # Using upsert so we don't duplicate rows for the same match
+                    supabase.table("xmatch_odds_deep").upsert({
+                        "match_id": m_id,
+                        "deep_game_id": d_id,
+                        "raw_json": json_data,
+                        "scraped_at": "now()"
+                    }, on_conflict="match_id").execute()
+                    
+                    # 5. Update the last_sync time in the main table
+                    supabase.table("xmatch_odds").update({"last_sync": "now()"}).eq("match_id", m_id).execute()
+                    
+                    print(f"✅ Saved deep data for {m_id}")
+                else:
+                    print(f"⚠️ No deep markets available for {m_id} yet.")
+            else:
+                print(f"❌ 1xBet returned status {res.status_code} for ID {d_id}")
+
+        except Exception as e:
+            print(f"🔥 Error during request for {m_id}: {e}")
+
+        # Respectful delay to avoid IP blocks
+        time.sleep(2)
+
+if __name__ == "__main__":
+    fetch_deep_odds()
+    print("🏁 Deep Sync Workflow Finished.")
