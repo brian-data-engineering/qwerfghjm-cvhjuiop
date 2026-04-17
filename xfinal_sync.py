@@ -10,43 +10,47 @@ KEY = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(URL, KEY)
 
 def vacuum_match(m_id):
-    # THE URL: Strictly using the main-line-feed structure you provided
+    # Your verified working URL
     url = "https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents"
     
     params = {
-        "cfView": "3",
-        "countEvents": "250",
-        "country": "87",
-        "gameId": str(m_id),
-        "gr": "657",
-        "grMode": "4",
-        "lng": "en",
-        "marketType": "1",
-        "ref": "61"
+        "cfView": "3", "countEvents": "250", "country": "87",
+        "gameId": str(m_id), "gr": "657", "grMode": "4",
+        "lng": "en", "marketType": "1", "ref": "61"
     }
     
+    # CRITICAL: These headers must match a real browser to avoid 204/529
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0",
-        "X-Requested-With": "XMLHttpRequest"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://1xbet.co.ke/en/line",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "DNT": "1" # Do Not Track
     }
 
     try:
-        resp = requests.get(url, params=params, headers=headers, timeout=10)
-        
-        # If the status is not 200 (like a 400 Bad Request), log it and skip to next
-        if resp.status_code != 200:
-            error_json = resp.json() if resp.text else {"status": resp.status_code}
+        # Use a session to persist the 'human' appearance
+        session = requests.Session()
+        resp = session.get(url, params=params, headers=headers, timeout=15)
+
+        # STRATEGY: Log failures so you see the 204/529 in your table
+        if resp.status_code != 200 or not resp.text or resp.text.strip() == "":
+            status = resp.status_code if resp.status_code else "EMPTY"
             supabase.table("xmatch_odds_deep").insert({
                 "match_id": int(m_id),
-                "period": "BAD_REQUEST",
-                "raw_data": error_json, # Captures that 400 error JSON
+                "period": "SYNC_REJECTED",
+                "group_id": 0,
+                "raw_data": {"status": status, "reason": "Server returned blank or error"},
                 "scraped_at": datetime.now().isoformat()
             }).execute()
             return 0
 
         data = resp.json().get("Value")
-        if not data:
-            return 0
+        if not data: return 0
 
         rows = []
         def collect(groups, period, s_id):
@@ -56,12 +60,9 @@ def vacuum_match(m_id):
                     for e in sublist:
                         if e and e.get('cf'):
                             rows.append({
-                                "match_id": int(m_id),
-                                "sub_id": int(s_id or m_id),
-                                "period": str(period),
-                                "group_id": int(gid or 0),
-                                "raw_data": e,
-                                "scraped_at": datetime.now().isoformat()
+                                "match_id": int(m_id), "sub_id": int(s_id or m_id),
+                                "period": str(period), "group_id": int(gid or 0),
+                                "raw_data": e, "scraped_at": datetime.now().isoformat()
                             })
 
         collect(data.get("GE"), "Full Time", m_id)
@@ -72,21 +73,6 @@ def vacuum_match(m_id):
             supabase.table("xmatch_odds_deep").insert(rows).execute()
             return len(rows)
 
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"ID {m_id} Failed: {e}")
     return 0
-
-def run():
-    res = supabase.table("xmatch_odds").select("deep_game_id").not_.is_("deep_game_id", "null").limit(1000).execute()
-    ids = [r['deep_game_id'] for r in res.data]
-    
-    print(f"Lucra Scan: Processing {len(ids)} IDs...")
-
-    # Maximum speed: 20 workers
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-        results = list(executor.map(vacuum_match, ids))
-
-    print(f"Finished. Total outcomes archived: {sum(results)}")
-
-if __name__ == "__main__":
-    run()
