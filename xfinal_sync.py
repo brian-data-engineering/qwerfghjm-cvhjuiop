@@ -2,59 +2,65 @@ import requests
 import json
 from datetime import datetime
 
-def debug_vacuum(m_id):
-    # THE EXACT URL YOU PROVIDED
-    endpoint = "https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents"
+def vacuum_match(m_id):
+    url = "https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents"
     params = {
-        "cfView": "3",
-        "countEvents": "250",
-        "country": "87",
-        "gameId": str(m_id),
-        "gr": "657",
-        "grMode": "4",
-        "lng": "en",
-        "marketType": "1",
-        "ref": "61"
+        "cfView": "3", "countEvents": "250", "country": "87",
+        "gameId": str(m_id), "gr": "657", "grMode": "4",
+        "lng": "en", "marketType": "1", "ref": "61"
     }
     
-    # Matching the 'Incognito' look you confirmed works
+    # Headers updated to match your working browser session exactly
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
-        "Referer": "https://1xbet.co.ke/en/line",
-        "X-Requested-With": "XMLHttpRequest"
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://1xbet.co.ke/en/line"
     }
 
-    # Generate the full URL for the print statement
-    prep = requests.Request('GET', endpoint, params=params).prepare()
-    print(f"--- ATTEMPTING URL ---\n{prep.url}\n")
-
     try:
-        resp = requests.get(endpoint, params=params, headers=headers, timeout=15)
-        
-        print(f"STATUS CODE: {resp.status_code}")
+        resp = requests.get(url, params=params, headers=headers, timeout=15)
         
         if resp.status_code == 200:
-            if not resp.text or resp.text.strip() == "":
-                print("RESULT: 200 OK but BODY IS EMPTY (Server side hide)")
+            raw_json = resp.json()
+            
+            # STRATEGY: If 'Value' is missing, check the root for subGames (which you saw in your link)
+            data_source = raw_json.get("Value") if raw_json.get("Value") else raw_json
+            
+            # Look specifically for the keys you confirmed are in the working link
+            sub_games = data_source.get("subGamesForMainGame", [])
+            main_events = data_source.get("GE", [])
+
+            rows = []
+            def collect(groups, period, s_id):
+                for g in groups or []:
+                    gid = g.get("groupId")
+                    for sublist in g.get("events", []):
+                        for e in sublist:
+                            if e and e.get('cf'):
+                                rows.append({
+                                    "match_id": int(m_id),
+                                    "sub_id": int(s_id or m_id),
+                                    "period": str(period),
+                                    "group_id": int(gid or 0),
+                                    "raw_data": e,
+                                    "scraped_at": datetime.now().isoformat()
+                                })
+
+            # Capture everything from the structure you provided
+            collect(main_events, "Full Time", m_id)
+            for sub in sub_games:
+                collect(sub.get("eventGroups"), sub.get("subGameName", "SubGame"), sub.get("id"))
+
+            if rows:
+                # Insert to Supabase here
+                print(f"SUCCESS: Captured {len(rows)} markets for {m_id}")
+                return len(rows)
             else:
-                data = resp.json()
-                value = data.get("Value")
-                if value:
-                    print(f"SUCCESS: Found markets for Game {m_id}")
-                    # Print first 500 chars of raw data to verify
-                    print(f"RAW PREVIEW: {json.dumps(value)[:500]}...")
-                else:
-                    print("RESULT: 200 OK but 'Value' key is null/empty.")
-        elif resp.status_code == 204:
-            print("RESULT: 204 No Content (Match likely moved to Live or Finished)")
+                print(f"WARNING: No market events found in JSON for {m_id}")
         else:
-            print(f"RESULT: Failed with status {resp.status_code}")
-            print(f"ERROR BODY: {resp.text}")
+            print(f"FAILED: Status {resp.status_code}")
 
     except Exception as e:
-        print(f"SCRIPT CRASHED: {e}")
-
-if __name__ == "__main__":
-    # Surgical strike on your specific ID
-    debug_vacuum(324052436)
+        print(f"ERROR: {e}")
+    return 0
