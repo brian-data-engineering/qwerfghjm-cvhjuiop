@@ -6,8 +6,44 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 70684500
+  teams:
+    home: ASO Chlef
+    away: Olympique Akbou
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:45'
+- id: 70684506
+  teams:
+    home: El Bayadh
+    away: Paradou AC
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:45'
+- id: 70684502
+  teams:
+    home: ES Setif
+    away: MC Oran
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:45'
+- id: 70684504
+  teams:
+    home: JS Saoura
+    away: USM Khenchela
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:45'
 basketball: []
 tennis: []
 ice_hockey: []
@@ -1099,7 +1135,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 70866768
   teams:
@@ -1108,7 +1144,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 70866572
   teams:
@@ -1126,5 +1162,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
