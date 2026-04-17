@@ -12,19 +12,14 @@ KEY = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(URL, KEY)
 
 def fetch_and_upload(m_id):
-    # Use a fresh session for EVERY match to clear session tracking
     session = requests.Session()
-    
-    # Randomize User-Agents to prevent "Signature" fingerprinting
     user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
     ]
 
     session.headers.update({
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "application/json",
         "Referer": "https://1xbet.co.ke/",
         "User-Agent": random.choice(user_agents),
         "X-Requested-With": "XMLHttpRequest"
@@ -38,65 +33,78 @@ def fetch_and_upload(m_id):
     }
     
     try:
-        # THE FIX: Longer, more varied jitter. 
-        # This makes it impossible for them to find a "pattern."
-        time.sleep(random.uniform(5.0, 12.0))
+        # Balanced jitter: Enough to stay under the radar, fast enough to finish
+        time.sleep(random.uniform(2.0, 5.0))
         
         resp = session.get(url, params=params, timeout=30)
-        
-        if not resp.text.strip():
-            print(f"[BLOCKED] Match {m_id} -> Empty Response (Throttled)", flush=True)
+        if resp.status_code != 200 or not resp.text.strip():
             return 0
             
-        data = resp.json()
-        rows = []
-        seen_keys = set()
+        json_data = resp.json()
+        # Navigate to the 'Value' container safely
+        value_data = json_data.get("Value", {})
         
-        def extract(groups, period, sub_id):
-            for g in groups or []:
+        rows = []
+        
+        def extract_logic(groups, period_name, sub_id):
+            if not groups: return
+            for g in groups:
                 gid = g.get("groupId")
-                key = (m_id, period, gid)
-                if key in seen_keys: continue
+                if gid is None: continue # Skip if no group ID
+                
                 for event_list in g.get("events", []):
                     for e in event_list:
-                        if e and 'cf' in e:
+                        # CRITICAL: Only proceed if odds (cf) and type exist
+                        if e and e.get('cf') and e.get('type'):
                             rows.append({
-                                "match_id": m_id, "sub_id": sub_id, "period": period,
-                                "group_id": gid, "raw_data": e, "scraped_at": datetime.now().isoformat()
+                                "match_id": int(m_id),
+                                "sub_id": int(sub_id) if sub_id else int(m_id),
+                                "period": str(period_name) if period_name else "Full Time",
+                                "group_id": int(gid),
+                                "event_type": int(e.get("type")),
+                                "parameter": float(e.get("parameter", 0)), # Use 0 instead of NULL
+                                "odds": float(e.get("cf")),
+                                "scraped_at": datetime.now().isoformat()
                             })
-                            seen_keys.add(key)
-                            break 
 
-        extract(data.get("eventGroups", []), "Full Time", m_id)
-        for sub in data.get("subGamesForMainGame", []):
-            extract(sub.get("eventGroups", []), sub.get("subGameName", "Unknown"), sub.get("id"))
+        # 1. Scrape Main Events (usually 1x2, Double Chance)
+        extract_logic(value_data.get("GE", []), "Full Time", m_id)
+        
+        # 2. Scrape Sub Games (Corners, Cards, etc.)
+        for sub in value_data.get("subGamesForMainGame", []):
+            extract_logic(
+                sub.get("eventGroups", []), 
+                sub.get("subGameName", "Other"), 
+                sub.get("id")
+            )
 
         if rows:
-            # upsert with ignore to handle the duplicates silently
-            supabase.table("xmatch_odds_deep").upsert(rows, on_conflict="match_id,period,group_id").execute()
-            print(f"[SUCCESS] Match {m_id} -> {len(rows)} markets saved.", flush=True)
+            # Upserting in chunks of 400 to keep the request size safe
+            for i in range(0, len(rows), 400):
+                supabase.table("xmatch_odds_deep").upsert(
+                    rows[i:i+400], 
+                    on_conflict="match_id,period,group_id,event_type"
+                ).execute()
             return len(rows)
             
     except Exception as e:
-        # This catches the "char 0" JSON error without crashing the script
-        print(f"[RETRY_NEEDED] Match {m_id} -> Invalid response format.", flush=True)
+        print(f"Skipping {m_id} due to error: {e}")
     return 0
 
 def run():
-    print("--- Lucra Stealth-Mode 2.0 ---", flush=True)
+    print("--- Lucra Deep-Market Sync 2.0 (No-Null Mode) ---")
     
-    res = supabase.table("xmatch_odds").select("match_id").execute()
-    ids = [r['match_id'] for r in res.data]
-    random.shuffle(ids) # Random order is CRITICAL to avoid detection
+    # Target only matches we know have a valid deep ID
+    res = supabase.table("xmatch_odds").select("deep_game_id").not_.is_("deep_game_id", "null").execute()
+    ids = [r['deep_game_id'] for r in res.data]
+    random.shuffle(ids)
     
-    print(f"Syncing {len(ids)} matches with 2 workers (Ultra-Stealth)...", flush=True)
+    print(f"Targeting {len(ids)} deep games...")
 
-    # DROPPING TO 2 WORKERS. 
-    # This is the "Safety Zone" to keep the IP from getting flagged.
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         results = list(executor.map(fetch_and_upload, ids))
 
-    print(f"\n--- Sync Complete --- Total: {sum(results)}", flush=True)
+    print(f"Done. Total outcomes saved: {sum(results)}")
 
 if __name__ == "__main__":
     run()
