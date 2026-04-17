@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 70684498
+  teams:
+    home: MB Rouisset
+    away: JS Kabylie
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
 basketball: []
 tennis: []
 ice_hockey: []
@@ -901,16 +910,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: live
+  status: result
   time: '14:30'
 - id: 70866576
   teams:
     home: Briza, Frantisek
     away: Kolar, Milan
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '14:30'
 - id: 70866762
   teams:
@@ -919,7 +928,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70866724
   teams:
@@ -928,7 +937,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 70866756
   teams:
@@ -937,5 +946,95 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
+- id: 70866836
+  teams:
+    home: Barta, Miroslav
+    away: Drabek, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 70866532
+  teams:
+    home: Lauber, Jakub
+    away: Belovsky, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 70866850
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 70866570
+  teams:
+    home: Regner, Tomas
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 70866832
+  teams:
+    home: Velebil, Lukas
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 70866548
+  teams:
+    home: Dedek, Jiri
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 70866770
+  teams:
+    home: Havel, Ladislav
+    away: Tuma, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 70866606
+  teams:
+    home: Kolar, Milan
+    away: Horak, David
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '15:30'
+- id: 70866734
+  teams:
+    home: Neuwirth SR, Jaroslav
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 70866748
+  teams:
+    home: Zika, Tadeas
+    away: Biolek, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
