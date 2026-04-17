@@ -631,7 +631,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 70866796
   teams:
@@ -640,7 +640,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 70866538
   teams:
@@ -649,7 +649,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 70866868
   teams:
@@ -658,7 +658,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 70866746
   teams:
@@ -667,5 +667,95 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
+- id: 70866652
+  teams:
+    home: Belovsky, Josef
+    away: Postelt, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 70866764
+  teams:
+    home: Kulhanek, Pavel
+    away: Svec, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 70866740
+  teams:
+    home: Navedla, Matyas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 70866600
+  teams:
+    home: Saleny, Petr
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 70866778
+  teams:
+    home: Skacelik, Richard
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 70866586
+  teams:
+    home: Parhomenko, Dmitro
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 70866776
+  teams:
+    home: Schwan, Jaroslav
+    away: Pavliska, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 70866874
+  teams:
+    home: Stuchlik, Pavel
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 70866618
+  teams:
+    home: Sychra, Martin
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 70866732
+  teams:
+    home: Wawrosz, Pavel
+    away: Polasek, Radovan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
