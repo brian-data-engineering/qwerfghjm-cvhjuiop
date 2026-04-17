@@ -225,35 +225,35 @@ table_tennis:
     away: Levicky, Matej
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 06:00
 - id: 70866650
   teams:
     home: Parhomenko, Dmitro
     away: Pavelka, Radim
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 06:00
 - id: 70866802
   teams:
     home: Regner, Tomas
     away: Steffan, Jan
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 06:00
 - id: 70866638
   teams:
     home: Svechota, Vojtech
     away: Louda, Jiri
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 06:00
 - id: 70866766
   teams:
@@ -261,6 +261,186 @@ table_tennis:
     away: Zurek, Filip
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 06:00
+- id: 70866824
+  teams:
+    home: Banot, Petr
+    away: Luksa, Zdenek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 70866648
+  teams:
+    home: Cermak, Vladimir
+    away: Varnuska, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:30
+- id: 70866788
+  teams:
+    home: Havlicek, Vladimir
+    away: Havel, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:30
+- id: 70866816
+  teams:
+    home: Kowolowski, Miroslav
+    away: Zientek, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:30
+- id: 70866590
+  teams:
+    home: Saleny, Petr
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 70866794
+  teams:
+    home: Levicky, Matej
+    away: Banot, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:00
+- id: 70866614
+  teams:
+    home: Louda, Jiri
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:00
+- id: 70866554
+  teams:
+    home: Pavelka, Radim
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 70866854
+  teams:
+    home: Steffan, Jan
+    away: Havlicek, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 70866838
+  teams:
+    home: Zurek, Filip
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:00
+- id: 70866738
+  teams:
+    home: Havel, Jiri
+    away: Regner, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 70866780
+  teams:
+    home: Luksa, Zdenek
+    away: Kolek, Matyas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 70866524
+  teams:
+    home: Sychra, Martin
+    away: Svechota, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 70866544
+  teams:
+    home: Varnuska, Tomas
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 70866822
+  teams:
+    home: Zientek, Zbynek
+    away: Varecha, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 70866792
+  teams:
+    home: Kolek, Matyas
+    away: Banot, Petr
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 08:00
+- id: 70866560
+  teams:
+    home: Parhomenko, Dmitro
+    away: Cermak, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 70866876
+  teams:
+    home: Regner, Tomas
+    away: Havlicek, Vladimir
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 08:00
+- id: 70866550
+  teams:
+    home: Svechota, Vojtech
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 70866820
+  teams:
+    home: Varecha, Pavel
+    away: Kowolowski, Miroslav
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 08:00
