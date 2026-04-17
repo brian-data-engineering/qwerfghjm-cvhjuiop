@@ -8,9 +8,9 @@ table_tennis:
     home: Chlebecek, Marek
     away: Kadavy, Simon
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 00:00
 - id: 70844848
   teams:
@@ -18,15 +18,204 @@ table_tennis:
     away: Hejduk, Alexander
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 70844758
   teams:
     home: Vedmoch, Michal
     away: Picek, Petr
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
+- id: 70844692
+  teams:
+    home: Darin, Kyryl
+    away: Plachy, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 70844864
+  teams:
+    home: Kosar, Vaclav
+    away: Kucera, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 70844690
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Alesh
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 70844718
+  teams:
+    home: Hejduk, Alexander
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 70844948
+  teams:
+    home: Kadavy, Simon
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 70844708
+  teams:
+    home: Picek, Petr
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 70844734
+  teams:
+    home: Bayer, Alesh
+    away: Chlebecek, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 70844646
+  teams:
+    home: Kucera, Tomas
+    away: Potensky, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 70844604
+  teams:
+    home: Plachy, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 70844596
+  teams:
+    home: Hejduk, Alexander
+    away: Kosar, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 70844878
+  teams:
+    home: Kadavy, Simon
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 70844706
+  teams:
+    home: Picek, Petr
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 70844678
+  teams:
+    home: Chlebecek, Marek
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 70844890
+  teams:
+    home: Potensky, Jan
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 70844636
+  teams:
+    home: Vedmoch, Michal
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 70880920
+  teams:
+    home: Plachy, Jiri
+    away: Fojt, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 70880866
+  teams:
+    home: Sobisek, Martin
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 70881034
+  teams:
+    home: Grohsgott, Jiri
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 03:06
+- id: 70880868
+  teams:
+    home: Kadavy, Simon
+    away: Bayer, Alesh
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 03:30
+- id: 70881036
+  teams:
+    home: Kosar, Vaclav
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 03:30
+- id: 70880922
+  teams:
+    home: Vedmoch, Michal
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 03:30
