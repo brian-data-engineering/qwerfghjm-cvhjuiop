@@ -190,7 +190,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 03:06
 - id: 70880868
   teams:
@@ -199,7 +199,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 03:30
 - id: 70881036
   teams:
@@ -208,7 +208,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 03:30
 - id: 70880922
   teams:
@@ -217,5 +217,50 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 03:30
+- id: 70866750
+  teams:
+    home: Kolek, Matyas
+    away: Levicky, Matej
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:00
+- id: 70866650
+  teams:
+    home: Parhomenko, Dmitro
+    away: Pavelka, Radim
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:00
+- id: 70866802
+  teams:
+    home: Regner, Tomas
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
+- id: 70866638
+  teams:
+    home: Svechota, Vojtech
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:00
+- id: 70866766
+  teams:
+    home: Varecha, Pavel
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:00
