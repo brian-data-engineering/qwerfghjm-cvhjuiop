@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '16:45'
 - id: 70684506
   teams:
@@ -24,29 +24,209 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '16:45'
 - id: 70684502
   teams:
     home: ES Setif
     away: MC Oran
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:45'
 - id: 70684504
   teams:
     home: JS Saoura
     away: USM Khenchela
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:45'
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 70665984
+  teams:
+    home: Pustertal
+    away: Graz 99ers
+  score:
+    home: 0
+    away: 4
+  status: live
+  time: '17:45'
+- id: 69828020
+  teams:
+    home: Litvinov
+    away: Dukla
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '17:00'
+- id: 70787440
+  teams:
+    home: Rungsted
+    away: Odense
+  score:
+    home: 5
+    away: 6
+  status: recentlyended
+  time: '17:00'
+- id: 70787692
+  teams:
+    home: Herning
+    away: Herlev
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:30'
+- id: 69829450
+  teams:
+    home: KooKoo
+    away: SaiPa
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '15:30'
+- id: 69757854
+  teams:
+    home: Mannheim
+    away: Munich
+  score:
+    home: 4
+    away: 1
+  status: recentlyended
+  time: '17:00'
+- id: 69757856
+  teams:
+    home: Berlin
+    away: Cologne
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '17:30'
+- id: 68934518
+  teams:
+    home: Krefeld
+    away: Kassel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '17:30'
+- id: 70266614
+  teams:
+    home: Slovakia
+    away: Switzerland
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '14:30'
+- id: 69920016
+  teams:
+    home: Czech Republic
+    away: Germany
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '15:00'
+- id: 70482260
+  teams:
+    home: Magnitogorsk
+    away: Torpedo NN
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '14:00'
+- id: 70172872
+  teams:
+    home: Skalica
+    away: Trencin
+  score:
+    home: 1
+    away: 5
+  status: result
+  time: '15:30'
+- id: 70172870
+  teams:
+    home: Presov 07
+    away: HC 19 Humenne
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '16:00'
+- id: 68932804
+  teams:
+    home: Bjorkloven
+    away: Karlskoga
+  score:
+    home: 4
+    away: 2
+  status: recentlyended
+  time: '17:00'
+- id: 70721850
+  teams:
+    home: Hudiksvall
+    away: Visby-Roma
+  score:
+    home: 4
+    away: 3
+  status: recentlyended
+  time: '17:00'
+- id: 62079206
+  teams:
+    home: Nashville
+    away: Anaheim
+  score:
+    home: 4
+    away: 5
+  status: result
+  time: 00:00
+- id: 62079202
+  teams:
+    home: Winnipeg
+    away: San Jose
+  score:
+    home: 1
+    away: 6
+  status: result
+  time: 00:00
+- id: 62079208
+  teams:
+    home: Calgary
+    away: Los Angeles Kings
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 62079210
+  teams:
+    home: Edmonton
+    away: Vancouver
+  score:
+    home: 6
+    away: 1
+  status: result
+  time: 01:00
+- id: 62079212
+  teams:
+    home: Colorado
+    away: Seattle Kraken
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:00
 table_tennis:
 - id: 70844712
   teams:
