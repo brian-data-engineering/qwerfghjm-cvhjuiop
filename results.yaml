@@ -1,5 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 70568780
+  teams:
+    home: Udw Alligators
+    away: Kufstein Towers
+  score:
+    home: 20
+    away: 26
+  status: live
+  time: '15:30'
+- id: 70843354
+  teams:
+    home: Hallmann Vienna
+    away: Dukes Klosterneuburg
+  score:
+    home: 31
+    away: 25
+  status: live
+  time: '15:30'
 tennis:
 - id: 70669672
   teams:
@@ -16,8 +34,8 @@ tennis:
     away: Fils, Arthur
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '14:00'
 - id: 70669696
   teams:
