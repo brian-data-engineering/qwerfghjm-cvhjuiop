@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 basketball:
 - id: 70568780
@@ -63,6 +63,222 @@ basketball:
     away: 65
   status: result
   time: '14:15'
+- id: 66615638
+  teams:
+    home: Paulistano
+    away: Pato
+  score:
+    home: 51
+    away: 33
+  status: live
+  time: '20:00'
+- id: 64981398
+  teams:
+    home: Flying Leopards
+    away: Z. Chouzhou Bank
+  score:
+    home: 71
+    away: 76
+  status: result
+  time: '11:35'
+- id: 64981394
+  teams:
+    home: Jiangsu Dragons
+    away: Brave Dragons
+  score:
+    home: 87
+    away: 86
+  status: result
+  time: '11:35'
+- id: 64981396
+  teams:
+    home: Northeast Tigers
+    away: Guangzhou L.L.
+  score:
+    home: 75
+    away: 93
+  status: result
+  time: '11:35'
+- id: 64981392
+  teams:
+    home: Southern Tigers
+    away: Quanzhou Bank
+  score:
+    home: 83
+    away: 95
+  status: result
+  time: '11:35'
+- id: 70220728
+  teams:
+    home: Brno BC
+    away: CEZ Nymburk
+  score:
+    home: 79
+    away: 106
+  status: result
+  time: '16:00'
+- id: 70220636
+  teams:
+    home: Decin
+    away: Usti Nad Labem
+  score:
+    home: 85
+    away: 80
+  status: result
+  time: '16:00'
+- id: 70220730
+  teams:
+    home: JIP Pardubice
+    away: Sokol Pisek
+  score:
+    home: 100
+    away: 95
+  status: result
+  time: '16:00'
+- id: 70220726
+  teams:
+    home: Opava
+    away: NH Ostrava
+  score:
+    home: 100
+    away: 68
+  status: result
+  time: '16:00'
+- id: 62280772
+  teams:
+    home: Saint Quentin
+    away: Strasbourg
+  score:
+    home: 109
+    away: 87
+  status: result
+  time: '16:00'
+- id: 62280770
+  teams:
+    home: Nancy
+    away: Le Portel
+  score:
+    home: 95
+    away: 50
+  status: result
+  time: '16:10'
+- id: 62280764
+  teams:
+    home: Gravelines
+    away: Le Mans
+  score:
+    home: 83
+    away: 96
+  status: result
+  time: '16:20'
+- id: 62280758
+  teams:
+    home: Chalon
+    away: Jeunesse Laique Bourg
+  score:
+    home: 91
+    away: 79
+  status: live
+  time: '18:30'
+- id: 62690701
+  teams:
+    home: Chemnitz
+    away: Jena
+  score:
+    home: 76
+    away: 73
+  status: result
+  time: '14:00'
+- id: 62690697
+  teams:
+    home: Bamberg
+    away: Oldenburg
+  score:
+    home: 83
+    away: 61
+  status: result
+  time: '16:30'
+- id: 62690699
+  teams:
+    home: Heidelberg
+    away: Ludwigsburg
+  score:
+    home: 73
+    away: 83
+  status: result
+  time: '16:30'
+- id: 63984089
+  teams:
+    home: AO Mykonoy
+    away: Peristeri Athens
+  score:
+    home: 92
+    away: 88
+  status: result
+  time: '13:00'
+- id: 63984095
+  teams:
+    home: Maroussi
+    away: Kolossos Rhodes
+  score:
+    home: 108
+    away: 93
+  status: result
+  time: '13:00'
+- id: 63984087
+  teams:
+    home: AS Karditsas
+    away: Promitheas Patras
+  score:
+    home: 95
+    away: 79
+  status: result
+  time: '15:15'
+- id: 63984085
+  teams:
+    home: Iraklis 2022
+    away: PAOK
+  score:
+    home: 72
+    away: 76
+  status: result
+  time: '15:15'
+- id: 68821542
+  teams:
+    home: Spartak Subotica
+    away: Borac Cacak
+  score:
+    home: 92
+    away: 66
+  status: result
+  time: '17:00'
+- id: 69423156
+  teams:
+    home: New Taipei Kings
+    away: South China
+  score:
+    home: 107
+    away: 99
+  status: result
+  time: 09:00
+- id: 62902437
+  teams:
+    home: Enisey Krasnoyarsk
+    away: Uniks Kazan
+  score:
+    home: 86
+    away: 92
+  status: result
+  time: 09:00
+- id: 62902435
+  teams:
+    home: BC Lokomotiv Kuban
+    away: Parma Permsky Kray
+  score:
+    home: 95
+    away: 88
+  status: result
+  time: '12:00'
 tennis:
 - id: 70669672
   teams:
@@ -252,7 +468,7 @@ ice_hockey:
   score:
     home: 1
     away: 6
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70712566
   teams:
@@ -279,14 +495,14 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: live
+  status: recentlyended
   time: '18:00'
 - id: 70558148
   teams:
     home: Carolina
     away: Ottawa
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '19:00'
