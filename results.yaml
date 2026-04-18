@@ -5,19 +5,55 @@ basketball:
     home: Udw Alligators
     away: Kufstein Towers
   score:
-    home: 60
-    away: 52
-  status: live
+    home: 71
+    away: 64
+  status: result
   time: '15:30'
 - id: 70843354
   teams:
     home: Hallmann Vienna
     away: Dukes Klosterneuburg
   score:
-    home: 80
-    away: 53
-  status: live
+    home: 90
+    away: 68
+  status: result
   time: '15:30'
+- id: 70712042
+  teams:
+    home: Kapfenberg
+    away: Traiskirchen
+  score:
+    home: 53
+    away: 38
+  status: live
+  time: '17:00'
+- id: 70843360
+  teams:
+    home: WBC Wels
+    away: Graz
+  score:
+    home: 54
+    away: 31
+  status: live
+  time: '17:00'
+- id: 66615636
+  teams:
+    home: Vasco Da Gama
+    away: Botafogo
+  score:
+    home: 104
+    away: 86
+  status: result
+  time: '13:00'
+- id: 66615634
+  teams:
+    home: Brasilia
+    away: Bauru
+  score:
+    home: 94
+    away: 65
+  status: result
+  time: '14:15'
 tennis:
 - id: 70669672
   teams:
@@ -51,9 +87,9 @@ tennis:
     home: Herbert P-H / Vavassori A
     away: Arneodo R / Polmans M
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '16:10'
 - id: 70682006
   teams:
@@ -141,8 +177,8 @@ tennis:
     home: Barrientos N / Behar A
     away: Balaji N / Oberleitner N
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '16:10'
 ice_hockey:
@@ -151,7 +187,7 @@ ice_hockey:
     home: Pardubice
     away: Trinec
   score:
-    home: 1
+    home: 3
     away: 2
   status: live
   time: '15:30'
@@ -164,6 +200,69 @@ ice_hockey:
     away: 1
   status: live
   time: '15:30'
+- id: 70787442
+  teams:
+    home: Odense
+    away: Rungsted
+  score:
+    home: 2
+    away: 4
+  status: live
+  time: '17:00'
+- id: 69829458
+  teams:
+    home: SaiPa
+    away: KooKoo
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '14:00'
+- id: 65690614
+  teams:
+    home: Hungary
+    away: Kazakhstan
+  score:
+    home: 2
+    away: 5
+  status: result
+  time: '10:30'
+- id: 65690616
+  teams:
+    home: Slovenia
+    away: Ukraine
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '14:00'
+- id: 65690618
+  teams:
+    home: Poland
+    away: Switzerland
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:30'
+- id: 70712566
+  teams:
+    home: Lithuania
+    away: Estonia
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '14:00'
+- id: 70721852
+  teams:
+    home: Hudiksvall
+    away: Visby-Roma
+  score:
+    home: 3
+    away: 6
+  status: result
+  time: '14:00'
 table_tennis:
 - id: 70866798
   teams:
