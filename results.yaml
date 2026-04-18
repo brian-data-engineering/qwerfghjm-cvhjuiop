@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: recentlyended
   time: '20:15'
 basketball:
 - id: 70568780
@@ -77,9 +77,9 @@ basketball:
     home: Paulistano
     away: Pato
   score:
-    home: 89
-    away: 69
-  status: live
+    home: 92
+    away: 71
+  status: result
   time: '20:00'
 - id: 64981398
   teams:
@@ -420,7 +420,7 @@ tennis:
     home: Dellien, Hugo
     away: Prado Angelo, Juan Carlos
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '21:15'
@@ -456,9 +456,9 @@ tennis:
     home: Tabur, Clement
     away: Mmoh, Michael
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '20:30'
 - id: 70674216
   teams:
@@ -711,8 +711,17 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '19:00'
+- id: 70558100
+  teams:
+    home: Dallas
+    away: Minnesota
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:30'
 table_tennis:
 - id: 70866798
   teams:
