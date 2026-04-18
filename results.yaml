@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '18:00'
 basketball:
 - id: 70568780
@@ -34,7 +34,7 @@ basketball:
   score:
     home: 88
     away: 79
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 70843360
   teams:
@@ -216,7 +216,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 69829458
   teams:
@@ -250,9 +250,9 @@ ice_hockey:
     home: Poland
     away: Switzerland
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 6
+  status: recentlyended
   time: '17:30'
 - id: 70712566
   teams:
@@ -277,10 +277,19 @@ ice_hockey:
     home: Davos
     away: Fribourg Gotteron
   score:
-    home: 0
+    home: 2
     away: 3
   status: live
   time: '18:00'
+- id: 70558148
+  teams:
+    home: Carolina
+    away: Ottawa
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
 table_tennis:
 - id: 70866798
   teams:
