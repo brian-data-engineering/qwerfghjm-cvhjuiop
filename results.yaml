@@ -5,8 +5,8 @@ basketball:
     home: Udw Alligators
     away: Kufstein Towers
   score:
-    home: 20
-    away: 26
+    home: 60
+    away: 52
   status: live
   time: '15:30'
 - id: 70843354
@@ -14,8 +14,8 @@ basketball:
     home: Hallmann Vienna
     away: Dukes Klosterneuburg
   score:
-    home: 31
-    away: 25
+    home: 80
+    away: 53
   status: live
   time: '15:30'
 tennis:
@@ -35,7 +35,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 70669696
   teams:
@@ -46,7 +46,124 @@ tennis:
     away: 1
   status: result
   time: '12:30'
-ice_hockey: []
+- id: 70669694
+  teams:
+    home: Herbert P-H / Vavassori A
+    away: Arneodo R / Polmans M
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:10'
+- id: 70682006
+  teams:
+    home: Zverev, Alexander
+    away: Cobolli, Flavio
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:30'
+- id: 70682018
+  teams:
+    home: Molcan, Alex
+    away: Shelton, Ben
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:00'
+- id: 70682054
+  teams:
+    home: Luz O / Matos R
+    away: Arribage T / Olivetti A
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 70673428
+  teams:
+    home: Holmgren, August
+    away: Broady, Liam
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 04:00
+- id: 70673402
+  teams:
+    home: Bolt, Alex
+    away: Bu, Yunchaokete
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:25
+- id: 70673404
+  teams:
+    home: Broady, Liam
+    away: Riedi, Leandro
+  score:
+    home: null
+    away: null
+  status: result
+  time: 09:10
+- id: 70673452
+  teams:
+    home: Bollipalli R C / Kadhe A
+    away: Chandrasekar A / Yuzuki T
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 05:35
+- id: 70673506
+  teams:
+    home: Safiullin, Roman
+    away: Rocha, Henrique
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:20'
+- id: 70673508
+  teams:
+    home: Royer, Valentin
+    away: Houkes, Max
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:25'
+- id: 70673558
+  teams:
+    home: Barrientos N / Behar A
+    away: Balaji N / Oberleitner N
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:10'
+ice_hockey:
+- id: 69826384
+  teams:
+    home: Pardubice
+    away: Trinec
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
+- id: 69828022
+  teams:
+    home: Litvinov
+    away: Dukla
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 70866798
   teams:
