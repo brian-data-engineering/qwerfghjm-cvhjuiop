@@ -15,8 +15,71 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '20:15'
+- id: 67091928
+  teams:
+    home: CA Independiente Avellaneda
+    away: Defensa Y Justicia
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '22:30'
+- id: 67117608
+  teams:
+    home: Club Atletico Los Andes
+    away: San Telmo
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:00'
+- id: 67118322
+  teams:
+    home: Ferrocarril Midland
+    away: San Martin de San Juan
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '18:00'
+- id: 67117606
+  teams:
+    home: CA All Boys
+    away: Club Atletico Acassuso
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:30'
+- id: 67117612
+  teams:
+    home: Deportivo Moron
+    away: Colon de Santa Fe
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:30'
+- id: 67117610
+  teams:
+    home: CD Godoy Cruz
+    away: CA San Miguel
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:30'
+- id: 67118320
+  teams:
+    home: Quilmes AC
+    away: Nueva Chicago
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:30'
 basketball:
 - id: 70568780
   teams:
@@ -420,9 +483,9 @@ tennis:
     home: Dellien, Hugo
     away: Prado Angelo, Juan Carlos
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '21:15'
 - id: 70674980
   teams:
@@ -718,8 +781,8 @@ ice_hockey:
     home: Dallas
     away: Minnesota
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 4
   status: live
   time: '21:30'
 table_tennis:
