@@ -97,7 +97,7 @@ basketball:
   score:
     home: 83
     away: 87
-  status: recentlyended
+  status: result
   time: '17:15'
 - id: 62690979
   teams:
@@ -144,6 +144,150 @@ basketball:
     away: 71
   status: result
   time: '13:00'
+- id: 70854958
+  teams:
+    home: Valur Reykjavik
+    away: Keflavik
+  score:
+    home: 41
+    away: 38
+  status: live
+  time: '19:15'
+- id: 68660668
+  teams:
+    home: U-Banca Transilvania
+    away: Buducnost
+  score:
+    home: 72
+    away: 110
+  status: result
+  time: '15:00'
+- id: 68660666
+  teams:
+    home: Olimpija Ljubljana
+    away: Igokea
+  score:
+    home: 102
+    away: 88
+  status: result
+  time: '17:00'
+- id: 68660664
+  teams:
+    home: KK Partizan
+    away: CZ MTS
+  score:
+    home: 81
+    away: 74
+  status: result
+  time: '17:30'
+- id: 68660952
+  teams:
+    home: KD Ilirija
+    away: Studentski Centar
+  score:
+    home: 74
+    away: 75
+  status: result
+  time: '11:00'
+- id: 69423158
+  teams:
+    home: New Taipei Kings
+    away: Ulaanbaatar Xac Broncos
+  score:
+    home: 80
+    away: 79
+  status: result
+  time: 09:00
+- id: 62902439
+  teams:
+    home: Moscow
+    away: MBA Moscow
+  score:
+    home: 109
+    away: 108
+  status: result
+  time: '14:00'
+- id: 69753782
+  teams:
+    home: Ironi Kiryat ATA
+    away: Maccabi Raanana
+  score:
+    home: 78
+    away: 86
+  status: result
+  time: '14:30'
+- id: 63468597
+  teams:
+    home: Galil Gilboa
+    away: Hapoel Galil Elyon
+  score:
+    home: 96
+    away: 66
+  status: result
+  time: '15:15'
+- id: 63468657
+  teams:
+    home: Ziona
+    away: Ironi Ramat Gan
+  score:
+    home: 70
+    away: 82
+  status: result
+  time: '16:35'
+- id: 69753780
+  teams:
+    home: Hapoel Beer Sheva
+    away: Unet Holon
+  score:
+    home: 86
+    away: 96
+  status: result
+  time: '17:30'
+- id: 62571132
+  teams:
+    home: Derthona
+    away: Bologna
+  score:
+    home: 69
+    away: 74
+  status: result
+  time: '14:00'
+- id: 62571128
+  teams:
+    home: Milano
+    away: Napoli Basket
+  score:
+    home: 125
+    away: 97
+  status: result
+  time: '14:30'
+- id: 62571130
+  teams:
+    home: Sassari
+    away: Venezia
+  score:
+    home: 79
+    away: 98
+  status: result
+  time: '15:00'
+- id: 62571138
+  teams:
+    home: Trieste
+    away: C.D.L. Brescia
+  score:
+    home: 82
+    away: 86
+  status: result
+  time: '16:00'
+- id: 62571124
+  teams:
+    home: Cantu
+    away: Varese
+  score:
+    home: 100
+    away: 96
+  status: result
+  time: '17:00'
 tennis:
 - id: 70669652
   teams:
@@ -528,9 +672,9 @@ tennis:
     home: Feldbausch, Kilian
     away: Popko, Dmitry
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 70918490
   teams:
@@ -538,8 +682,8 @@ tennis:
     away: Mayo, Aidan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '17:15'
 - id: 70918488
   teams:
@@ -547,9 +691,27 @@ tennis:
     away: Vandecasteele, Quinn
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:00'
+- id: 70918700
+  teams:
+    home: Gallagher, Gordon
+    away: Perot, Raphael
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:35'
+- id: 70918492
+  teams:
+    home: Kicker, Nicolas
+    away: Ingildsen, Johannes
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:35'
 ice_hockey:
 - id: 70665986
   teams:
@@ -619,9 +781,9 @@ ice_hockey:
     home: Kazakhstan
     away: Poland
   score:
-    home: 5
+    home: 10
     away: 2
-  status: live
+  status: recentlyended
   time: '17:30'
 - id: 70833192
   teams:
@@ -659,6 +821,15 @@ ice_hockey:
     away: 3
   status: result
   time: 00:00
+- id: 70558116
+  teams:
+    home: Colorado
+    away: Los Angeles Kings
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
 table_tennis:
 - id: 70887180
   teams:
