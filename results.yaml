@@ -8,7 +8,79 @@ soccer:
     away: 0
   status: result
   time: 00:45
-basketball: []
+basketball:
+- id: 70568686
+  teams:
+    home: Vienna United PSV
+    away: Mistelbach
+  score:
+    home: 28
+    away: 31
+  status: live
+  time: '15:30'
+- id: 70712044
+  teams:
+    home: Oberwart
+    away: Swans Gmunden
+  score:
+    home: 93
+    away: 62
+  status: result
+  time: '13:00'
+- id: 64981400
+  teams:
+    home: Guangsha Lions
+    away: Beijing Konggu
+  score:
+    home: 117
+    away: 104
+  status: result
+  time: '11:35'
+- id: 64981402
+  teams:
+    home: Quingdao Eagles
+    away: Beijing Ducks
+  score:
+    home: 90
+    away: 95
+  status: result
+  time: '11:35'
+- id: 64981404
+  teams:
+    home: Shenzhen Leopards
+    away: Shandong Hi-Speed
+  score:
+    home: 95
+    away: 103
+  status: result
+  time: '11:35'
+- id: 64981406
+  teams:
+    home: Flying Tigers
+    away: Monkey King
+  score:
+    home: 109
+    away: 75
+  status: result
+  time: '12:00'
+- id: 62280766
+  teams:
+    home: Limoges
+    away: Nanterre
+  score:
+    home: 97
+    away: 79
+  status: recentlyended
+  time: '14:00'
+- id: 62280760
+  teams:
+    home: Cholet
+    away: Paris Basketball
+  score:
+    home: 38
+    away: 27
+  status: live
+  time: '15:30'
 tennis:
 - id: 70669652
   teams:
@@ -16,8 +88,8 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '14:00'
 - id: 70669692
   teams:
@@ -323,7 +395,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '12:10'
 - id: 70915508
   teams:
@@ -331,8 +403,8 @@ tennis:
     away: Jorda Sanchis, David
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '12:55'
 - id: 70915506
   teams:
@@ -341,7 +413,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '13:20'
 - id: 70918476
   teams:
@@ -349,8 +421,8 @@ tennis:
     away: Hardt, Nick
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:05'
 - id: 70918480
   teams:
@@ -358,19 +430,100 @@ tennis:
     away: Langmo, Christian
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '14:10'
 - id: 70918478
   teams:
     home: Shick, Braden
     away: Kirchheimer, Strong
   score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:10'
+- id: 70918484
+  teams:
+    home: Bigun, Kaylan
+    away: Cid Subervi, Roberto
+  score:
     home: 0
     away: 0
   status: live
-  time: '14:10'
-ice_hockey: []
+  time: '15:35'
+- id: 70918486
+  teams:
+    home: Johns, Garrett
+    away: Johnson, Andrew
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+ice_hockey:
+- id: 70665986
+  teams:
+    home: Graz 99ers
+    away: Pustertal
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '14:30'
+- id: 69826386
+  teams:
+    home: Pardubice
+    away: Trinec
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:00'
+- id: 70787804
+  teams:
+    home: Herlev
+    away: Herning
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 69829452
+  teams:
+    home: Ilves
+    away: Tappara
+  score:
+    home: 4
+    away: 0
+  status: live
+  time: '14:00'
+- id: 68934528
+  teams:
+    home: Kassel
+    away: Krefeld
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+- id: 65690622
+  teams:
+    home: Ukraine
+    away: Hungary
+  score:
+    home: 4
+    away: 6
+  status: result
+  time: '10:30'
+- id: 65690624
+  teams:
+    home: Switzerland
+    away: Slovenia
+  score:
+    home: 9
+    away: 2
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 70887180
   teams:
