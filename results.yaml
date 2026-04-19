@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: recentlyended
   time: '20:00'
 basketball:
 - id: 70568686
@@ -160,7 +160,7 @@ basketball:
   score:
     home: 90
     away: 76
-  status: live
+  status: result
   time: '19:15'
 - id: 68660668
   teams:
@@ -710,7 +710,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:35'
 - id: 70918492
   teams:
@@ -719,17 +719,152 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:35'
 - id: 70918496
   teams:
     home: Zink, Tyler
     away: Karki, Ronit
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '20:00'
+- id: 70918494
+  teams:
+    home: Magadan, Alan
+    away: Kuzuhara, Bruno
+  score:
+    home: 0
     away: 0
   status: live
-  time: '20:00'
+  time: '21:00'
+- id: 70914066
+  teams:
+    home: Kirkin, Ergi
+    away: Kelm, Yannik
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:00
+- id: 70914056
+  teams:
+    home: Masabayashi, Tomohiro
+    away: Krutykh, Oleksii
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 05:00
+- id: 70914058
+  teams:
+    home: Staeheli, Luca
+    away: Lukashov, Rodion
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:00
+- id: 70914076
+  teams:
+    home: Tulepbergenov, Dias
+    away: Klok, Denys
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:20
+- id: 70914078
+  teams:
+    home: Poljicak, Mili
+    away: Lomakin, Grigoriy
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:00
+- id: 70914064
+  teams:
+    home: Tiukaev, Ruslan
+    away: Wehnelt, Kai
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 07:20
+- id: 70914062
+  teams:
+    home: Mochizuki, Yuki
+    away: Atlangeriev, Bekhan
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:50
+- id: 70914070
+  teams:
+    home: Orlov, Vladyslav
+    away: Betov, Sergey
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:15
+- id: 70914072
+  teams:
+    home: Shin, Maxim
+    away: Ostapenkov, Daniil
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:20
+- id: 70914068
+  teams:
+    home: Trebukhin, Arseniy
+    away: Campana Lee, Gerard
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:25
+- id: 70914060
+  teams:
+    home: Chekhov, Anton
+    away: Vithoontien, Leo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:55
+- id: 70914074
+  teams:
+    home: La Vela, Giuseppe
+    away: Belozertsev, Nikita
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:40'
+- id: 70673634
+  teams:
+    home: Reis Da Silva, Joao Lucas
+    away: Tabur, Clement
+  score:
+    home: null
+    away: null
+  status: result
+  time: '16:30'
+- id: 70676300
+  teams:
+    home: Sun, Fajing
+    away: Tu, Li
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 06:10
 ice_hockey:
 - id: 70665986
   teams:
@@ -844,9 +979,9 @@ ice_hockey:
     home: Colorado
     away: Los Angeles Kings
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: recentlyended
   time: '19:00'
 table_tennis:
 - id: 70887180
