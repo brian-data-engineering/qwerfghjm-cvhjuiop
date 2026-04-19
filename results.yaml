@@ -16,7 +16,7 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '14:00'
 - id: 70669692
@@ -80,7 +80,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '12:45'
 - id: 70916590
   teams:
@@ -88,9 +88,288 @@ tennis:
     away: Schifris, Jeremy
   score:
     home: 0
+    away: 2
+  status: result
+  time: '12:50'
+- id: 70916630
+  teams:
+    home: Weightman, Oscar
+    away: Perez, Brandon
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:15'
+- id: 70673400
+  teams:
+    home: Riedi, Leandro
+    away: Bu, Yunchaokete
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 07:00
+- id: 70673450
+  teams:
+    home: Rojer J-J / Winegar T
+    away: Chandrasekar A / Yuzuki T
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 04:30
+- id: 70910442
+  teams:
+    home: Daniel, Taro
+    away: Hyun, Jun Ha
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:00
+- id: 70910456
+  teams:
+    home: Jasika, Omar
+    away: Sharipov, Marat
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 02:00
+- id: 70910458
+  teams:
+    home: Tokuda, Renta
+    away: Shin, Woobin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:00
+- id: 70910446
+  teams:
+    home: Trotter, James Kent
+    away: Zahraj, Patrick
+  score:
+    home: null
+    away: null
+  status: result
+  time: 02:00
+- id: 70910454
+  teams:
+    home: Wu, Tung-Lin
+    away: Ivashka, Ilya
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 03:40
+- id: 70910444
+  teams:
+    home: Kang, Ku Keon
+    away: Masur, Daniel
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:05
+- id: 70910440
+  teams:
+    home: Delaney, Jake
+    away: Shimizu, Yuta
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:15
+- id: 70910452
+  teams:
+    home: Chung, Yun Seong
+    away: Paris, Tom
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 04:20
+- id: 70910448
+  teams:
+    home: Sach, Tai Leonard
+    away: Matsuoka, Hayato
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:25
+- id: 70910450
+  teams:
+    home: Ilagan, Andre
+    away: Samrej, Kasidit
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 05:30
+- id: 70910462
+  teams:
+    home: Zhukayev, Beibit
+    away: Imamura, Masamichi
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:55
+- id: 70910460
+  teams:
+    home: Moriya, Hiroki
+    away: Sekulic, Philip
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 06:25
+- id: 70673518
+  teams:
+    home: Royer, Valentin
+    away: Safiullin, Roman
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:00'
+- id: 70915496
+  teams:
+    home: Krumich, Martin
+    away: Ferrari, Gianmarco
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 70915500
+  teams:
+    home: Martinez, Alex
+    away: Potenza, Luca
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 70915498
+  teams:
+    home: Sorger, Sebastian
+    away: Guerrieri, Andrea
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 70915494
+  teams:
+    home: Vasami, Jacopo
+    away: Andaloro, Fabrizio
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:25
+- id: 70915510
+  teams:
+    home: Balestrieri, Alessio
+    away: Romano, Filippo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:05'
+- id: 70915512
+  teams:
+    home: Ribecai, Michele
+    away: Pastorini, Alessandro
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:20'
+- id: 70915504
+  teams:
+    home: Forejtek, Jonas
+    away: Rossolino, Simone
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:05'
+- id: 70915516
+  teams:
+    home: Damas, Miguel
+    away: Brunold, Mika
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:10'
+- id: 70915514
+  teams:
+    home: Spadola, Alessandro
+    away: Caniato, Carlo Alberto
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:35'
+- id: 70915502
+  teams:
+    home: Carboni, Lorenzo
+    away: Gombos, Norbert
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '12:10'
+- id: 70915508
+  teams:
+    home: Henning, Philip
+    away: Jorda Sanchis, David
+  score:
+    home: 1
     away: 1
   status: live
-  time: '12:50'
+  time: '12:55'
+- id: 70915506
+  teams:
+    home: Mackenzie, Jamie
+    away: Cretu, Cezar
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '13:20'
+- id: 70918476
+  teams:
+    home: Kozlov, Boris
+    away: Hardt, Nick
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:05'
+- id: 70918480
+  teams:
+    home: Colby, Ryan
+    away: Langmo, Christian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:10'
+- id: 70918478
+  teams:
+    home: Shick, Braden
+    away: Kirchheimer, Strong
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:10'
 ice_hockey: []
 table_tennis:
 - id: 70887180
