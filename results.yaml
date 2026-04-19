@@ -8,15 +8,24 @@ soccer:
     away: 0
   status: result
   time: 00:45
+- id: 67091942
+  teams:
+    home: CA Aldosivi
+    away: Racing Club Avellaneda
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
 basketball:
 - id: 70568686
   teams:
     home: Vienna United PSV
     away: Mistelbach
   score:
-    home: 64
-    away: 77
-  status: live
+    home: 71
+    away: 89
+  status: result
   time: '15:30'
 - id: 70712044
   teams:
@@ -77,10 +86,64 @@ basketball:
     home: Cholet
     away: Paris Basketball
   score:
-    home: 79
-    away: 71
-  status: live
+    home: 93
+    away: 99
+  status: recentlyended
   time: '15:30'
+- id: 62280768
+  teams:
+    home: AS Monaco
+    away: Asvel
+  score:
+    home: 38
+    away: 31
+  status: live
+  time: '17:15'
+- id: 62690979
+  teams:
+    home: Braunschweig
+    away: Mitteldeutscher BC
+  score:
+    home: 112
+    away: 93
+  status: result
+  time: '13:00'
+- id: 62690981
+  teams:
+    home: Rostock Seawolves
+    away: Ulm
+  score:
+    home: 68
+    away: 75
+  status: result
+  time: '14:30'
+- id: 62690983
+  teams:
+    home: Hamburg
+    away: Vechta
+  score:
+    home: 83
+    away: 92
+  status: recentlyended
+  time: '16:00'
+- id: 63984097
+  teams:
+    home: Olympiakos Piraeus
+    away: Aris
+  score:
+    home: 92
+    away: 81
+  status: result
+  time: '10:00'
+- id: 63984091
+  teams:
+    home: Panionios
+    away: AEK Athens
+  score:
+    home: 57
+    away: 71
+  status: result
+  time: '13:00'
 tennis:
 - id: 70669652
   teams:
@@ -448,8 +511,8 @@ tennis:
     away: Cid Subervi, Roberto
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:35'
 - id: 70918486
   teams:
@@ -457,18 +520,36 @@ tennis:
     away: Johnson, Andrew
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:00'
 - id: 70918482
   teams:
     home: Feldbausch, Kilian
     away: Popko, Dmitry
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '16:30'
+- id: 70918490
+  teams:
+    home: Dutra Da Silva, Daniel
+    away: Mayo, Aidan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:15'
+- id: 70918488
+  teams:
+    home: Sheehy, Joshua
+    away: Vandecasteele, Quinn
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 ice_hockey:
 - id: 70665986
   teams:
@@ -477,16 +558,16 @@ ice_hockey:
   score:
     home: 5
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 69826386
   teams:
     home: Pardubice
     away: Trinec
   score:
-    home: 3
+    home: 4
     away: 2
-  status: live
+  status: recentlyended
   time: '15:00'
 - id: 70787804
   teams:
@@ -512,8 +593,8 @@ ice_hockey:
     away: Krefeld
   score:
     home: 1
-    away: 3
-  status: live
+    away: 4
+  status: result
   time: '15:00'
 - id: 65690622
   teams:
