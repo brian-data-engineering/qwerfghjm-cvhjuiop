@@ -14,8 +14,8 @@ basketball:
     home: Vienna United PSV
     away: Mistelbach
   score:
-    home: 28
-    away: 31
+    home: 64
+    away: 77
   status: live
   time: '15:30'
 - id: 70712044
@@ -70,15 +70,15 @@ basketball:
   score:
     home: 97
     away: 79
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 62280760
   teams:
     home: Cholet
     away: Paris Basketball
   score:
-    home: 38
-    away: 27
+    home: 79
+    away: 71
   status: live
   time: '15:30'
 tennis:
@@ -89,7 +89,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 70669692
   teams:
@@ -168,9 +168,9 @@ tennis:
     home: Weightman, Oscar
     away: Perez, Brandon
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:15'
 - id: 70673400
   teams:
@@ -431,16 +431,16 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '14:10'
 - id: 70918478
   teams:
     home: Shick, Braden
     away: Kirchheimer, Strong
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:10'
 - id: 70918484
   teams:
@@ -448,7 +448,7 @@ tennis:
     away: Cid Subervi, Roberto
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:35'
 - id: 70918486
@@ -457,26 +457,35 @@ tennis:
     away: Johnson, Andrew
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '16:00'
+- id: 70918482
+  teams:
+    home: Feldbausch, Kilian
+    away: Popko, Dmitry
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
 ice_hockey:
 - id: 70665986
   teams:
     home: Graz 99ers
     away: Pustertal
   score:
-    home: 3
-    away: 1
-  status: live
+    home: 5
+    away: 2
+  status: recentlyended
   time: '14:30'
 - id: 69826386
   teams:
     home: Pardubice
     away: Trinec
   score:
-    home: 2
-    away: 0
+    home: 3
+    away: 2
   status: live
   time: '15:00'
 - id: 70787804
@@ -493,9 +502,9 @@ ice_hockey:
     home: Ilves
     away: Tappara
   score:
-    home: 4
+    home: 6
     away: 0
-  status: live
+  status: result
   time: '14:00'
 - id: 68934528
   teams:
@@ -503,7 +512,7 @@ ice_hockey:
     away: Krefeld
   score:
     home: 1
-    away: 1
+    away: 3
   status: live
   time: '15:00'
 - id: 65690622
@@ -520,9 +529,9 @@ ice_hockey:
     home: Switzerland
     away: Slovenia
   score:
-    home: 9
+    home: 10
     away: 2
-  status: live
+  status: result
   time: '14:00'
 table_tennis:
 - id: 70887180
