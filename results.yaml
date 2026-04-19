@@ -14,8 +14,8 @@ soccer:
     away: Racing Club Avellaneda
   score:
     home: 1
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '16:30'
 basketball:
 - id: 70568686
@@ -88,16 +88,16 @@ basketball:
   score:
     home: 93
     away: 99
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 62280768
   teams:
     home: AS Monaco
     away: Asvel
   score:
-    home: 38
-    away: 31
-  status: live
+    home: 83
+    away: 87
+  status: recentlyended
   time: '17:15'
 - id: 62690979
   teams:
@@ -124,7 +124,7 @@ basketball:
   score:
     home: 83
     away: 92
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 63984097
   teams:
@@ -521,7 +521,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 70918482
   teams:
@@ -529,7 +529,7 @@ tennis:
     away: Popko, Dmitry
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '16:30'
 - id: 70918490
@@ -538,7 +538,7 @@ tennis:
     away: Mayo, Aidan
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '17:15'
 - id: 70918488
@@ -547,7 +547,7 @@ tennis:
     away: Vandecasteele, Quinn
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '18:00'
 ice_hockey:
@@ -567,7 +567,7 @@ ice_hockey:
   score:
     home: 4
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 70787804
   teams:
@@ -614,6 +614,51 @@ ice_hockey:
     away: 2
   status: result
   time: '14:00'
+- id: 65690626
+  teams:
+    home: Kazakhstan
+    away: Poland
+  score:
+    home: 5
+    away: 2
+  status: live
+  time: '17:30'
+- id: 70833192
+  teams:
+    home: Nitra
+    away: Slovan Bratislava
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: '16:00'
+- id: 70172874
+  teams:
+    home: HC 19 Humenne
+    away: Trencin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 70172876
+  teams:
+    home: Skalica
+    away: Presov 07
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '15:30'
+- id: 70558132
+  teams:
+    home: Pittsburgh
+    away: Philadelphia
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:00
 table_tennis:
 - id: 70887180
   teams:
