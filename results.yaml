@@ -17,6 +17,15 @@ soccer:
     away: 1
   status: result
   time: '16:30'
+- id: 67091926
+  teams:
+    home: CA River Plate (Arg)
+    away: Boca Juniors
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:00'
 basketball:
 - id: 70568686
   teams:
@@ -149,8 +158,8 @@ basketball:
     home: Valur Reykjavik
     away: Keflavik
   score:
-    home: 41
-    away: 38
+    home: 90
+    away: 76
   status: live
   time: '19:15'
 - id: 68660668
@@ -692,7 +701,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70918700
   teams:
@@ -700,18 +709,27 @@ tennis:
     away: Perot, Raphael
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '19:35'
 - id: 70918492
   teams:
     home: Kicker, Nicolas
     away: Ingildsen, Johannes
   score:
-    home: 0
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '19:35'
+- id: 70918496
+  teams:
+    home: Zink, Tyler
+    away: Karki, Ronit
+  score:
+    home: 1
     away: 0
   status: live
-  time: '19:35'
+  time: '20:00'
 ice_hockey:
 - id: 70665986
   teams:
@@ -783,7 +801,7 @@ ice_hockey:
   score:
     home: 10
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70833192
   teams:
@@ -826,7 +844,7 @@ ice_hockey:
     home: Colorado
     away: Los Angeles Kings
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '19:00'
