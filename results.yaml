@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 basketball:
 - id: 70568686
@@ -728,7 +728,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 70918494
   teams:
@@ -736,7 +736,7 @@ tennis:
     away: Kuzuhara, Bruno
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '21:00'
 - id: 70914066
@@ -981,8 +981,17 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
+- id: 70558052
+  teams:
+    home: Tampa Bay
+    away: Montreal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:45'
 table_tennis:
 - id: 70887180
   teams:
