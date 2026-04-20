@@ -6,8 +6,26 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
+- id: 67091954
+  teams:
+    home: CA Banfield
+    away: Independiente Rivadavia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:15'
+- id: 67091938
+  teams:
+    home: CA Central Cordoba SE
+    away: CA Platense
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '20:15'
 basketball:
 - id: 64981416
   teams:
@@ -70,7 +88,7 @@ basketball:
   score:
     home: 91
     away: 75
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 62690985
   teams:
@@ -79,7 +97,7 @@ basketball:
   score:
     home: 80
     away: 104
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 68660950
   teams:
@@ -135,7 +153,7 @@ ice_hockey:
   score:
     home: 1
     away: 4
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70833194
   teams:
@@ -162,7 +180,7 @@ ice_hockey:
   score:
     home: 1
     away: 3
-  status: live
+  status: result
   time: '18:00'
 - id: 70558212
   teams:
