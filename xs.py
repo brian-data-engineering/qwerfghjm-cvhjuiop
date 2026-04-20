@@ -34,7 +34,11 @@ def run_sync():
 
     BANNED_KEYWORDS = [
         "Statistics", "Cyber", "Virtual", "Special bets", 
-        "Winner", "Extra", "Round", "Team vs Player", "Individual"
+        "Winner", "Extra", "Round", "Team vs Player", "Individual", "statistics", "cyber", "virtual", "special bets", 
+    "winner", "extra", "round", "team vs player", 
+    "individual", "enhanced", "results of the", 
+    "awards", "matches of the day", "specials",
+    "total games", "player total", "points total"
     ]
 
     for url in endpoints:
