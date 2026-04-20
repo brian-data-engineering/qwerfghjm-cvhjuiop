@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 67091944
+  teams:
+    home: Barracas Central
+    away: CA Belgrano de Cordoba
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 basketball:
 - id: 64981416
   teams:
@@ -54,8 +63,116 @@ basketball:
     away: 84
   status: result
   time: '11:35'
+- id: 62690987
+  teams:
+    home: Alba
+    away: Bonn
+  score:
+    home: 66
+    away: 44
+  status: live
+  time: '18:00'
+- id: 62690985
+  teams:
+    home: Trier
+    away: B. Munich
+  score:
+    home: 52
+    away: 69
+  status: live
+  time: '18:00'
+- id: 68660950
+  teams:
+    home: FMP
+    away: Hallmann Vienna
+  score:
+    home: 84
+    away: 92
+  status: result
+  time: '15:00'
+- id: 68660948
+  teams:
+    home: Mega Bemax
+    away: KK Split
+  score:
+    home: 95
+    away: 72
+  status: recentlyended
+  time: '17:00'
+- id: 70264936
+  teams:
+    home: BC Samara
+    away: Novgorod
+  score:
+    home: 76
+    away: 78
+  status: result
+  time: '15:30'
+- id: 70851974
+  teams:
+    home: Galatasaray
+    away: Efes Istanbul
+  score:
+    home: 80
+    away: 87
+  status: result
+  time: '16:00'
+- id: 70505144
+  teams:
+    home: San Antonio
+    away: Portland
+  score:
+    home: 111
+    away: 98
+  status: result
+  time: 01:00
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 69757852
+  teams:
+    home: Cologne
+    away: Berlin
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '17:30'
+- id: 70833194
+  teams:
+    home: Nitra
+    away: Slovan Bratislava
+  score:
+    home: 2
+    away: 7
+  status: result
+  time: '16:00'
+- id: 68932820
+  teams:
+    home: Karlskoga
+    away: Bjorkloven
+  score:
+    home: 4
+    away: 4
+  status: live
+  time: '17:00'
+- id: 68566658
+  teams:
+    home: Fribourg Gotteron
+    away: Davos
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '18:00'
+- id: 70558212
+  teams:
+    home: Vegas Golden Knights
+    away: Utah Mammoth
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: 02:00
 table_tennis:
 - id: 70906614
   teams:
