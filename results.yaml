@@ -118,7 +118,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70906654
   teams:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 70906636
   teams:
@@ -145,7 +145,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 70906630
   teams:
@@ -154,7 +154,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 70906610
   teams:
@@ -163,5 +163,59 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:30
+- id: 70947128
+  teams:
+    home: Andrle, Tomas
+    away: Havel, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 70947134
+  teams:
+    home: Bayer, Alesh
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 70947122
+  teams:
+    home: Dolezal, Vaclav
+    away: Svoboda, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 70947222
+  teams:
+    home: Brozik, Karel
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 70947130
+  teams:
+    home: Regner, Tomas
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 70947126
+  teams:
+    home: Vitrovyj, Oleg
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
