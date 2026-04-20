@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: recentlyended
   time: '18:00'
 basketball:
 - id: 64981416
@@ -68,18 +68,18 @@ basketball:
     home: Alba
     away: Bonn
   score:
-    home: 66
-    away: 44
-  status: live
+    home: 91
+    away: 75
+  status: recentlyended
   time: '18:00'
 - id: 62690985
   teams:
     home: Trier
     away: B. Munich
   score:
-    home: 52
-    away: 69
-  status: live
+    home: 80
+    away: 104
+  status: recentlyended
   time: '18:00'
 - id: 68660950
   teams:
@@ -97,7 +97,7 @@ basketball:
   score:
     home: 95
     away: 72
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 70264936
   teams:
@@ -134,8 +134,8 @@ ice_hockey:
     away: Berlin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 4
+  status: recentlyended
   time: '17:30'
 - id: 70833194
   teams:
@@ -152,8 +152,8 @@ ice_hockey:
     away: Bjorkloven
   score:
     home: 4
-    away: 4
-  status: live
+    away: 5
+  status: result
   time: '17:00'
 - id: 68566658
   teams:
