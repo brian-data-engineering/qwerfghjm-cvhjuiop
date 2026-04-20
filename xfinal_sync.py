@@ -8,8 +8,8 @@ key = os.environ.get("SUPABASE_KEY")
 supabase = create_client(url, key)
 
 # 2. Hardcoded Match for Testing
-m_id = 710135735  # Internal Lucra ID
-d_id = 320958746  # 1xBet gameId (from your URL)
+m_id = 710135757  # Internal Lucra ID
+d_id = 320960634  # 1xBet gameId (from your URL)
 
 def test_sync():
     # This is the exact URL from your browser with ALL parameters
