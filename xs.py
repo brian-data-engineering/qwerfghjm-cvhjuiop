@@ -9,15 +9,10 @@ supabase: Client = create_client(URL, KEY)
 
 def run_sync():
     base_url = "https://1xbet.co.ke/service-api/LineFeed/GetSportsShortZip"
-    params = "lng=en&country=87&partner=61&virtualSports=true&gr=657&groupChamps=true"
+    params = "lng=en&country=87&partner=61&virtualSports=false&gr=657&groupChamps=true"
     
-    endpoints = [
-        f"{base_url}?sports=1&{params}",
-        f"{base_url}?sports=2&{params}",
-        f"{base_url}?sports=3&{params}",
-        f"{base_url}?sports=4&{params}",
-        f"{base_url}?sports=10&{params}"
-    ]
+    # sports=1 (Football), 2 (Ice Hockey), 3 (Basketball), 4 (Tennis), 10 (Volleyball)
+    endpoints = [f"{base_url}?sports={s}&{params}" for s in [1, 2, 3, 4, 10]]
     
     headers = {
         "Referer": "https://1xbet.co.ke/",
@@ -25,39 +20,49 @@ def run_sync():
     }
 
     all_leagues = []
-
-    # Keywords to block immediately
-    BANNED_KEYWORDS = [
-        "Statistics", "Cyber", "Virtual", "Special bets", 
-        "Winner", "Extra", "Round", "Team vs Player", "Individual"
-    ]
+    BANNED_KEYWORDS = ["statistics", "cyber", "virtual", "special bets", "winner", "extra", "round", "team vs player", "individual", "enhanced"]
 
     for url in endpoints:
         try:
             response = requests.get(url, headers=headers, timeout=15)
-            response.raise_for_status()
             data = response.json()
             
             for sport in data.get("Value", []):
                 sport_id = sport.get("I")
                 if not sport_id: continue
+
+                # Deep scan through the structure
+                # 1. Check top-level 'L' (Direct leagues like Champions League)
+                # 2. Check 'SC' -> 'SC' (Leagues nested inside countries)
                 
-                # We collect from L and SC, but filter strictly
-                raw_entries = sport.get("L", []) + [
-                    sub for cat in sport.get("SC", []) for sub in cat.get("SC", [])
-                ]
+                potential_items = []
                 
-                for item in raw_entries:
+                # Add top level items if they don't have sub-categories
+                for item in sport.get("L", []):
+                    # If an item has GC (Game Count) but NO sub-categories (SC), it's a real league
+                    if not item.get("SC"):
+                        potential_items.append(item)
+
+                # Drill into countries to get the real leagues
+                for country in sport.get("SC", []):
+                    for league in country.get("SC", []):
+                        potential_items.append(league)
+
+                for item in potential_items:
                     league_id = item.get("LI")
                     league_name = item.get("L", "")
                     
-                    if not league_id or not league_name:
-                        continue
+                    if not league_id or not league_name: continue
 
-                    # STAGE 1: Block Special/Statistics names
-                    if any(word.lower() in league_name.lower() for word in BANNED_KEYWORDS):
+                    # Strict filtering
+                    name_lower = league_name.lower()
+                    if any(word in name_lower for word in BANNED_KEYWORDS):
                         continue
                     
+                    # Also ignore leagues with very low game counts (optional cleanup)
+                    if item.get("GC", 0) == 0:
+                        continue
+
                     all_leagues.append({
                         "league_id": league_id,
                         "league_name": league_name,
@@ -69,36 +74,14 @@ def run_sync():
         except Exception as e:
             print(f"Error fetching {url}: {e}")
 
-    # STAGE 2: Deduplicate using a compound key (Sport + League) 
-    # to avoid the "Vietnam" ID overlap mess
-    unique_leagues = {}
-    for l in all_leagues:
-        key = f"{l['sport_id']}_{l['league_id']}"
-        unique_leagues[key] = l
-
+    # Deduplicate
+    unique_leagues = {f"{l['sport_id']}_{l['league_id']}": l for l in all_leagues}
     final_list = list(unique_leagues.values())
 
     if final_list:
         try:
-            # Upsert the clean leagues
             supabase.table("xsoccerleagues").upsert(final_list).execute()
             print(f"Sync Complete: {len(final_list)} valid leagues synced.")
-
-            # STAGE 3: "The Nuclear Option" - Delete trash matches
-            # This wipes matches with no away team or special bet titles
-            # that exist in the xmatch_odds table.
-            cleanup_query = """
-            DELETE FROM xmatch_odds 
-            WHERE away_team IS NULL 
-               OR away_team = '' 
-               OR home_team ILIKE '%Special bets%' 
-               OR home_team ILIKE '%Statistics%' 
-               OR home_team ILIKE '%Winner%';
-            """
-            # Executing via RPC (Remote Procedure Call) if you have one set up, 
-            # or just run the SQL in Supabase dashboard.
-            print("Post-sync cleanup triggered.")
-
         except Exception as e:
             print(f"Database Error: {e}")
 
