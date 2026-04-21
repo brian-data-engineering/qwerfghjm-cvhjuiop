@@ -40,9 +40,9 @@ soccer:
     home: Blau-Weiss Linz
     away: Wolfsberger AC
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 69751672
   teams:
@@ -51,8 +51,62 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '16:30'
+- id: 69751674
+  teams:
+    home: SV Ried
+    away: Grazer AK 1902
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 70207474
+  teams:
+    home: KRC Genk
+    away: Royal Charleroi SC
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:30'
+- id: 70207476
+  teams:
+    home: Oud-Heverlee Leuven
+    away: KVC Westerlo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 70207478
+  teams:
+    home: Standard Liege
+    away: Royal Antwerp FC
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 61737294
+  teams:
+    home: FK Rudar Prijedor
+    away: FK Zeljeznicar Sarajevo
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '16:00'
+- id: 61737292
+  teams:
+    home: FK Velez Mostar
+    away: NK Siroki Brijeg
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
 basketball:
 - id: 70926970
   teams:
@@ -177,9 +231,9 @@ tennis:
     home: Prizmic, Dino
     away: Piros, Zsombor
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '15:50'
 - id: 70916954
   teams:
@@ -188,7 +242,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 70916968
   teams:
@@ -204,9 +258,9 @@ tennis:
     home: Neuchrist, Maximilian
     away: Bennani, Karim
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: result
   time: '17:00'
 - id: 70916966
   teams:
@@ -214,27 +268,54 @@ tennis:
     away: Alkaya, Mert
   score:
     home: 0
+    away: 2
+  status: result
+  time: '17:05'
+- id: 70916958
+  teams:
+    home: Chazal, Maxime
+    away: Hurrion, Millen
+  score:
+    home: 1
     away: 0
   status: live
-  time: '17:05'
+  time: '18:30'
+- id: 70916970
+  teams:
+    home: Onclin, Gauthier
+    away: Strombachs, Robert
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 70995362
+  teams:
+    home: Bouchelaghem, Cesar
+    away: Schifris, Jeremy
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:40'
 ice_hockey:
 - id: 69828028
   teams:
     home: Dukla
     away: Litvinov
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 5
+  status: recentlyended
   time: '17:00'
 - id: 70787810
   teams:
     home: Herning
     away: Herlev
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 4
+    away: 3
+  status: recentlyended
   time: '17:00'
 - id: 69829466
   teams:
@@ -243,7 +324,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 69829464
   teams:
@@ -252,8 +333,89 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
+- id: 68934534
+  teams:
+    home: Krefeld
+    away: Kassel
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '17:30'
+- id: 65690628
+  teams:
+    home: Switzerland
+    away: Hungary
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '10:30'
+- id: 65690630
+  teams:
+    home: Ukraine
+    away: Kazakhstan
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '14:00'
+- id: 65690632
+  teams:
+    home: Poland
+    away: Slovenia
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '17:30'
+- id: 70172880
+  teams:
+    home: Presov 07
+    away: Trencin
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '16:00'
+- id: 70172878
+  teams:
+    home: Skalica
+    away: HC 19 Humenne
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '16:00'
+- id: 70721854
+  teams:
+    home: Visby-Roma
+    away: Hudiksvall
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:00'
+- id: 70558094
+  teams:
+    home: Dallas
+    away: Minnesota
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: 01:30
+- id: 70558198
+  teams:
+    home: Edmonton
+    away: Anaheim
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: 02:00
 table_tennis:
 - id: 70933896
   teams:
