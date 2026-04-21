@@ -8,7 +8,6 @@ KEY = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(URL, KEY)
 
 def run_sync():
-    # Use a Session to keep connection alive and handle cookies
     session = requests.Session()
     
     base_url = "https://1xbet.co.ke/service-api/LineFeed/GetSportsShortZip"
@@ -22,7 +21,6 @@ def run_sync():
         f"{base_url}?sports=10&{params}"
     ]
     
-    # Hardened headers to prevent the 'Char 0' empty response error
     headers = {
         "Referer": "https://1xbet.co.ke/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -33,23 +31,18 @@ def run_sync():
     all_leagues = []
 
     BANNED_KEYWORDS = [
-        "Statistics", "Cyber", "Virtual", "Special bets", 
-        "Winner", "Extra", "Round", "Team vs Player", "Individual", "statistics", "cyber", "virtual", "special bets", 
-    "winner", "extra", "round", "team vs player", 
-    "individual", "enhanced", "results of the", 
-    "awards", "matches of the day", "specials",
-    "total games", "player total", "points total"
+        "Statistics", "Cyber", "Virtual", "Special bets", "Winner", "Extra", 
+        "Round", "Team vs Player", "Individual", "enhanced", "results of the", 
+        "awards", "matches of the day", "specials", "total games", 
+        "player total", "points total", "accumulators"
     ]
 
     for url in endpoints:
         try:
-            # Use session.get instead of requests.get
             response = session.get(url, headers=headers, timeout=20)
             response.raise_for_status()
             
-            # Check if we actually got content before parsing
             if not response.text.strip():
-                print(f"Skipping {url}: Received empty response.")
                 continue
 
             data = response.json()
@@ -58,29 +51,45 @@ def run_sync():
                 sport_id = sport.get("I")
                 if not sport_id: continue
                 
-                # Your logic for raw_entries is solid for catching nested leagues
-                raw_entries = sport.get("L", []) + [
-                    sub for cat in sport.get("SC", []) for sub in cat.get("SC", [])
-                ]
+                # The top-level L list contains both standalone leagues and country folders
+                items = sport.get("L", [])
                 
-                for item in raw_entries:
-                    league_id = item.get("LI")
-                    league_name = item.get("L", "")
-                    
-                    if not league_id or not league_name:
-                        continue
-
-                    # STAGE 1: Filter
-                    if any(word.lower() in league_name.lower() for word in BANNED_KEYWORDS):
-                        continue
-                    
-                    all_leagues.append({
-                        "league_id": league_id,
-                        "league_name": league_name,
-                        "sport_id": sport_id,
-                        "game_count": item.get("GC", 0),
-                        "tier_priority": item.get("T", 0)
-                    })
+                for item in items:
+                    # Check if this is a "Folder" (like England, Germany, etc.)
+                    # They have a 'CSC' count and an 'SC' list
+                    if "SC" in item and isinstance(item["SC"], list) and len(item["SC"]) > 0:
+                        for sub_league in item["SC"]:
+                            league_id = sub_league.get("LI")
+                            league_name = sub_league.get("L", "")
+                            
+                            if league_id and league_name:
+                                # Stage 1: Filter
+                                if any(word.lower() in league_name.lower() for word in BANNED_KEYWORDS):
+                                    continue
+                                    
+                                all_leagues.append({
+                                    "league_id": league_id,
+                                    "league_name": league_name,
+                                    "sport_id": sport_id,
+                                    "game_count": sub_league.get("GC", 0),
+                                    "tier_priority": sub_league.get("T", 0)
+                                })
+                    else:
+                        # It's a standalone league (like World Cup or Champions League)
+                        league_id = item.get("LI")
+                        league_name = item.get("L", "")
+                        
+                        if league_id and league_name:
+                            if any(word.lower() in league_name.lower() for word in BANNED_KEYWORDS):
+                                continue
+                                
+                            all_leagues.append({
+                                "league_id": league_id,
+                                "league_name": league_name,
+                                "sport_id": sport_id,
+                                "game_count": item.get("GC", 0),
+                                "tier_priority": item.get("T", 0)
+                            })
 
         except Exception as e:
             print(f"Error fetching {url}: {e}")
@@ -95,14 +104,8 @@ def run_sync():
 
     if final_list:
         try:
-            # Atomic Upsert into Supabase
             supabase.table("xsoccerleagues").upsert(final_list).execute()
             print(f"Sync Complete: {len(final_list)} valid leagues synced to Lucra.")
-
-            # Note: For Stage 3, ensure you have an RPC named 'cleanup_xmatch_odds' 
-            # defined in your Supabase SQL editor if you want to call it via code.
-            print("Post-sync cleanup triggered (Check Supabase Dashboard).")
-
         except Exception as e:
             print(f"Database Error: {e}")
     else:
