@@ -5,8 +5,8 @@ soccer:
     away: MC Alger
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 67091950
   teams:
@@ -35,6 +35,24 @@ soccer:
     away: 0
   status: result
   time: 00:00
+- id: 69751670
+  teams:
+    home: Blau-Weiss Linz
+    away: Wolfsberger AC
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:30'
+- id: 69751672
+  teams:
+    home: SCR Altach
+    away: WSG Tirol
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
 basketball:
 - id: 70926970
   teams:
@@ -52,7 +70,7 @@ basketball:
   score:
     home: 95
     away: 80
-  status: recentlyended
+  status: result
   time: '14:30'
 tennis:
 - id: 70966734
@@ -133,17 +151,17 @@ tennis:
     away: Basilashvili, Nikoloz
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:15'
 - id: 70972010
   teams:
     home: Vallejo, Adolfo Daniel
     away: Rocha, Henrique
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:15'
 - id: 70972900
   teams:
@@ -159,7 +177,7 @@ tennis:
     home: Prizmic, Dino
     away: Piros, Zsombor
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:50'
@@ -169,19 +187,73 @@ tennis:
     away: Jubb, Paul
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:30'
 - id: 70916968
   teams:
     home: Giunta, Massimo
     away: Fenty, Andrew
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '16:30'
+- id: 70916956
+  teams:
+    home: Neuchrist, Maximilian
+    away: Bennani, Karim
+  score:
+    home: 0
     away: 0
   status: live
-  time: '16:30'
-ice_hockey: []
+  time: '17:00'
+- id: 70916966
+  teams:
+    home: Singh, Digvijay Pratap
+    away: Alkaya, Mert
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:05'
+ice_hockey:
+- id: 69828028
+  teams:
+    home: Dukla
+    away: Litvinov
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:00'
+- id: 70787810
+  teams:
+    home: Herning
+    away: Herlev
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:00'
+- id: 69829466
+  teams:
+    home: KooKoo
+    away: SaiPa
+  score:
+    home: 2
+    away: 4
+  status: recentlyended
+  time: '15:30'
+- id: 69829464
+  teams:
+    home: Tappara
+    away: Ilves
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:30'
 table_tennis:
 - id: 70933896
   teams:
