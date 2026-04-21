@@ -3,107 +3,89 @@ import requests
 import time
 from supabase import create_client
 
-# Config
-URL = os.environ.get("SUPABASE_URL")
-KEY = os.environ.get("SUPABASE_KEY")
-supabase = create_client(URL, KEY)
+# 1. Connection Setup
+url = os.environ.get("SUPABASE_URL")
+key = os.environ.get("SUPABASE_KEY")
+supabase = create_client(url, key)
 
-def get_pending_soccer_matches():
+def get_pending_games():
     """
-    Finds Soccer matches in xmatch_odds that DO NOT have 
-    a corresponding entry in xmatch_odds_deep.
+    Fetches games from xmatch_odds that have a deep_game_id 
+    but don't have deep odds in xmatch_odds_deep yet.
     """
+    # We use a RPC or a manual filter logic here. 
+    # For simplicity, we'll fetch games with deep_game_ids and check 
+    # if they need syncing.
     try:
-        # 1. Get the list of match_ids that ALREADY have deep odds
-        # We only need the IDs to perform a local exclusion
-        existing_res = supabase.table("xmatch_odds_deep").select("match_id").execute()
-        synced_ids = [r['match_id'] for r in existing_res.data]
-
-        # 2. Fetch Soccer matches from xmatch_odds that have a deep_game_id
-        # Limit to 50 or 100 per run to keep it fast and avoid timeouts
-        query = supabase.table("xmatch_odds") \
+        response = supabase.table("xmatch_odds") \
             .select("match_id, deep_game_id, home_team, away_team") \
-            .eq("sport_id", 1) \
-            .not_.is_("deep_game_id", "null")
-        
-        # Exclude IDs we already have
-        if synced_ids:
-            query = query.not_.in_("match_id", synced_ids)
-
-        response = query.limit(100).execute()
+            .not_.is_("deep_game_id", "null") \
+            .execute()
         return response.data
     except Exception as e:
-        print(f"🚨 Supabase Fetch Error: {e}")
+        print(f"🚨 Error fetching from Supabase: {e}")
         return []
 
-def run_deep_sync():
-    matches = get_pending_soccer_matches()
-    
-    if not matches:
-        print("✅ All soccer matches are already synced.")
-        return
-
-    print(f"🚀 Starting sync for {len(matches)} new soccer matches...")
+def sync_deep_odds():
+    games = get_pending_games()
+    print(f"🔄 Found {len(games)} potential games to sync.")
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json'
     }
 
-    # Group IDs: 1 (Main), 2 (Handicap), 8 (Totals), 17 (Corners), 19 (Cards)
-    ALLOWED_GROUPS = {'1', '2', '8', '17', '19'}
+    allowed_groups = ['1', '17', '19', '8', '2']
 
-    for match in matches:
-        m_id = match['match_id']
-        d_id = match['deep_game_id']
-        teams = f"{match['home_team']} vs {match['away_team']}"
+    for game in games:
+        m_id = game['match_id']
+        d_id = game['deep_game_id']
+        teams = f"{game['home_team']} vs {game['away_team']}"
 
-        # 1xbet Deep Events Endpoint
         api_url = (
             f"https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents?"
             f"cfView=3&countEvents=250&country=87&gameId={d_id}"
             f"&gr=657&grMode=4&lng=en&marketType=1&ref=61"
         )
 
+        print(f"📡 Fetching {teams} (ID: {d_id})...")
+        
         try:
-            print(f"📡 Requesting: {teams}...")
             response = requests.get(api_url, headers=headers, timeout=10)
             
             if response.status_code == 200:
-                json_data = response.json()
+                data = response.json()
                 
-                # Navigate to the events (GE) list inside Value
-                val = json_data.get("Value", {})
-                all_market_groups = val.get('GE', [])
-
-                if all_market_groups:
-                    # Filter for only the groups we want to save space
-                    filtered = [
-                        group for group in all_market_groups 
-                        if str(group.get('G')) in ALLOWED_GROUPS
+                if "subGamesForMainGame" in data:
+                    # --- PRUNING STEP: Save Space for Free Tier ---
+                    all_groups = data.get('eventGroups', [])
+                    filtered_groups = [
+                        g for g in all_groups 
+                        if str(g.get('groupId')) in allowed_groups
                     ]
-
-                    # Prepare data for Supabase
-                    payload = {
-                        "match_id": m_id,
-                        "deep_game_id": d_id,
-                        "raw_json": {
-                            "event_groups": filtered,
-                            "last_sync": int(time.time())
-                        }
+                    
+                    # Rebuild a tiny version of the JSON
+                    pruned_data = {
+                        "eventGroups": filtered_groups,
+                        "match_id": m_id # Storing for reference
                     }
 
-                    # Upsert into the deep table
-                    supabase.table("xmatch_odds_deep").upsert(payload).execute()
-                    print(f"✅ Synced: {teams}")
+                    # --- UPSERT ---
+                    supabase.table("xmatch_odds_deep").upsert({
+                        "match_id": m_id,
+                        "deep_game_id": d_id,
+                        "raw_json": pruned_data
+                    }, on_conflict="match_id").execute()
+                    
+                    print(f"✅ Saved & Pruned: {teams}")
                 else:
-                    print(f"⚠️ No deep markets found for {teams}")
+                    print(f"⚠️ No deep data for {teams}")
             
-            # 0.8s sleep is usually the "sweet spot" for speed vs anti-ban
-            time.sleep(0.8)
+            # Anti-Ban: Don't hit 1xBet too fast
+            time.sleep(1.5) 
 
         except Exception as e:
             print(f"🚨 Failed on {teams}: {e}")
 
 if __name__ == "__main__":
-    run_deep_sync()
+    sync_deep_odds()
