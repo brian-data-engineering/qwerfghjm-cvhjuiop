@@ -8,18 +8,18 @@ table_tennis:
     home: Plachy, Jiri
     away: Mikuska, Alexander
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 70934144
   teams:
     home: Sychra, Martin
     away: Bayer, Alesh
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 00:00
 - id: 70934052
   teams:
@@ -27,6 +27,33 @@ table_tennis:
     away: Petracek, Vratislav
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
+- id: 70934134
+  teams:
+    home: Fojt, Pavel
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 70933948
+  teams:
+    home: Kycelt, Jakub
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 70934026
+  teams:
+    home: Regner, Michal
+    away: Sebera, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
