@@ -59,17 +59,17 @@ soccer:
     away: Grazer AK 1902
   score:
     home: 2
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '18:30'
 - id: 70207474
   teams:
     home: KRC Genk
     away: Royal Charleroi SC
   score:
-    home: 0
+    home: 1
     away: 1
-  status: live
+  status: recentlyended
   time: '18:30'
 - id: 70207476
   teams:
@@ -77,17 +77,17 @@ soccer:
     away: KVC Westerlo
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:30'
 - id: 70207478
   teams:
     home: Standard Liege
     away: Royal Antwerp FC
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '18:30'
 - id: 61737294
   teams:
@@ -103,9 +103,9 @@ soccer:
     home: FK Velez Mostar
     away: NK Siroki Brijeg
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '18:30'
 basketball:
 - id: 70926970
@@ -285,7 +285,7 @@ tennis:
     home: Onclin, Gauthier
     away: Strombachs, Robert
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:30'
@@ -294,7 +294,7 @@ tennis:
     home: Bouchelaghem, Cesar
     away: Schifris, Jeremy
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:40'
@@ -306,7 +306,7 @@ ice_hockey:
   score:
     home: 1
     away: 5
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 70787810
   teams:
@@ -315,7 +315,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 69829466
   teams:
@@ -340,9 +340,9 @@ ice_hockey:
     home: Krefeld
     away: Kassel
   score:
-    home: 3
-    away: 2
-  status: live
+    home: 5
+    away: 3
+  status: result
   time: '17:30'
 - id: 65690628
   teams:
@@ -367,9 +367,9 @@ ice_hockey:
     home: Poland
     away: Slovenia
   score:
-    home: 3
-    away: 2
-  status: live
+    home: 4
+    away: 3
+  status: result
   time: '17:30'
 - id: 70172880
   teams:
@@ -396,7 +396,7 @@ ice_hockey:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '17:00'
 - id: 70558094
   teams:
