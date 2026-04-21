@@ -7,6 +7,10 @@ URL = os.environ.get("SUPABASE_URL")
 KEY = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(URL, KEY)
 
+def is_banned(name, keywords):
+    """Helper to check if league name contains banned keywords."""
+    return any(word.lower() in name.lower() for word in keywords)
+
 def run_sync():
     session = requests.Session()
     
@@ -34,7 +38,7 @@ def run_sync():
         "Statistics", "Cyber", "Virtual", "Special bets", "Winner", "Extra", 
         "Round", "Team vs Player", "Individual", "enhanced", "results of the", 
         "awards", "matches of the day", "specials", "total games", 
-        "player total", "points total", "accumulators"
+        "player total", "points total", "accumulators", "penalty", "corner"
     ]
 
     for url in endpoints:
@@ -51,45 +55,53 @@ def run_sync():
                 sport_id = sport.get("I")
                 if not sport_id: continue
                 
-                # The top-level L list contains both standalone leagues and country folders
                 items = sport.get("L", [])
                 
                 for item in items:
-                    # Check if this is a "Folder" (like England, Germany, etc.)
-                    # They have a 'CSC' count and an 'SC' list
-                    if "SC" in item and isinstance(item["SC"], list) and len(item["SC"]) > 0:
-                        for sub_league in item["SC"]:
-                            league_id = sub_league.get("LI")
-                            league_name = sub_league.get("L", "")
+                    league_name = item.get("L", "")
+                    league_id = item.get("LI")
+
+                    # --- FILTER 1: THE FOLDER CHECK ---
+                    # If it has an 'SC' list, it is a container (like 'Germany' or 'England').
+                    # We skip the parent and dive into the children.
+                    sub_categories = item.get("SC", [])
+                    if sub_categories and isinstance(sub_categories, list):
+                        for sub in sub_categories:
+                            sub_id = sub.get("LI")
+                            sub_name = sub.get("L", "")
                             
-                            if league_id and league_name:
-                                # Stage 1: Filter
-                                if any(word.lower() in league_name.lower() for word in BANNED_KEYWORDS):
+                            if sub_id and sub_name:
+                                if is_banned(sub_name, BANNED_KEYWORDS):
                                     continue
                                     
                                 all_leagues.append({
-                                    "league_id": league_id,
-                                    "league_name": league_name,
+                                    "league_id": sub_id,
+                                    "league_name": sub_name,
                                     "sport_id": sport_id,
-                                    "game_count": sub_league.get("GC", 0),
-                                    "tier_priority": sub_league.get("T", 0)
+                                    "game_count": sub.get("GC", 0),
+                                    "tier_priority": sub.get("T", 0)
                                 })
-                    else:
-                        # It's a standalone league (like World Cup or Champions League)
-                        league_id = item.get("LI")
-                        league_name = item.get("L", "")
-                        
-                        if league_id and league_name:
-                            if any(word.lower() in league_name.lower() for word in BANNED_KEYWORDS):
-                                continue
-                                
-                            all_leagues.append({
-                                "league_id": league_id,
-                                "league_name": league_name,
-                                "sport_id": sport_id,
-                                "game_count": item.get("GC", 0),
-                                "tier_priority": item.get("T", 0)
-                            })
+                        continue # Skip the parent item entirely
+
+                    # --- FILTER 2: STANDALONE LEAGUE VALIDATION ---
+                    # If there's no SC list, it's a standalone league.
+                    # We still apply a "Folder Protection" rule: 
+                    # If ID is small and name has no spaces/dots, it's likely a folder.
+                    if league_id and league_name:
+                        # Skip if it's a generic country folder that has no sub-categories
+                        if league_id < 100 and "." not in league_name and " " not in league_name:
+                            continue
+
+                        if is_banned(league_name, BANNED_KEYWORDS):
+                            continue
+
+                        all_leagues.append({
+                            "league_id": league_id,
+                            "league_name": league_name,
+                            "sport_id": sport_id,
+                            "game_count": item.get("GC", 0),
+                            "tier_priority": item.get("T", 0)
+                        })
 
         except Exception as e:
             print(f"Error fetching {url}: {e}")
@@ -104,6 +116,7 @@ def run_sync():
 
     if final_list:
         try:
+            # Atomic Upsert
             supabase.table("xsoccerleagues").upsert(final_list).execute()
             print(f"Sync Complete: {len(final_list)} valid leagues synced to Lucra.")
         except Exception as e:
