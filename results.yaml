@@ -7,8 +7,8 @@ tennis:
     away: Damm Jr, Martin
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: 09:00
 - id: 70968322
   teams:
@@ -16,18 +16,36 @@ tennis:
     away: Moller, Elmer
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: 09:00
 - id: 70965892
   teams:
     home: Sakamoto, Rei
     away: Gaubas, Vilius
   score:
+    home: 1
+    away: 1
+  status: live
+  time: 09:00
+- id: 70969290
+  teams:
+    home: Trungelliti, Marco
+    away: Merida, Daniel
+  score:
     home: 0
     away: 0
   status: live
-  time: 09:00
+  time: '11:20'
+- id: 70968232
+  teams:
+    home: Wu, Yibing
+    away: Droguet, Titouan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:25'
 ice_hockey: []
 table_tennis:
 - id: 70933896
