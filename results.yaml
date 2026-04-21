@@ -112,9 +112,9 @@ soccer:
     home: Botafogo RJ
     away: Chapecoense
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '20:00'
 basketball:
 - id: 70926970
@@ -140,8 +140,8 @@ basketball:
     home: Minas
     away: Cruzeiro Basquete
   score:
-    home: 25
-    away: 21
+    home: 61
+    away: 54
   status: live
   time: '21:00'
 tennis:
@@ -294,9 +294,9 @@ tennis:
     home: Chazal, Maxime
     away: Hurrion, Millen
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '18:30'
 - id: 70916970
   teams:
@@ -305,17 +305,26 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70995362
   teams:
     home: Bouchelaghem, Cesar
     away: Schifris, Jeremy
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:40'
+- id: 70916960
+  teams:
+    home: Geerts, Michael
+    away: Bittoun Kouzmine, Constantin
+  score:
+    home: null
+    away: null
+  status: recentlyended
+  time: '21:35'
 ice_hockey:
 - id: 69828028
   teams:
