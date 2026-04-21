@@ -60,7 +60,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70207474
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70207476
   teams:
@@ -78,7 +78,7 @@ soccer:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70207478
   teams:
@@ -87,7 +87,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 61737294
   teams:
@@ -105,8 +105,17 @@ soccer:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
+- id: 70401266
+  teams:
+    home: Botafogo RJ
+    away: Chapecoense
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 70926970
   teams:
@@ -126,6 +135,15 @@ basketball:
     away: 80
   status: result
   time: '14:30'
+- id: 70927452
+  teams:
+    home: Minas
+    away: Cruzeiro Basquete
+  score:
+    home: 25
+    away: 21
+  status: live
+  time: '21:00'
 tennis:
 - id: 70966734
   teams:
@@ -285,9 +303,9 @@ tennis:
     home: Onclin, Gauthier
     away: Strombachs, Robert
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '18:30'
 - id: 70995362
   teams:
