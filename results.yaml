@@ -1,22 +1,58 @@
-soccer: []
+soccer:
+- id: 70683616
+  teams:
+    home: Ben Aknoun
+    away: MC Alger
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:00'
+- id: 67091950
+  teams:
+    home: CA Tigre
+    away: CA Huracan
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:45
+- id: 67091940
+  teams:
+    home: Gimnasia y Esgrima Mendoza
+    away: Atletico Lanus
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:45
+- id: 67118324
+  teams:
+    home: Club Atletico Atlanta
+    away: CA Chacarita Juniors
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:00
 basketball:
 - id: 70926970
   teams:
     home: Corinthians
     away: Unifacisa
   score:
-    home: 59
-    away: 44
-  status: live
+    home: 88
+    away: 78
+  status: result
   time: '14:00'
 - id: 70927262
   teams:
     home: Pinheiros SP
     away: Rio Claro Basquete
   score:
-    home: 35
-    away: 31
-  status: live
+    home: 95
+    away: 80
+  status: recentlyended
   time: '14:30'
 tennis:
 - id: 70966734
@@ -97,7 +133,7 @@ tennis:
     away: Basilashvili, Nikoloz
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '14:15'
 - id: 70972010
@@ -106,7 +142,7 @@ tennis:
     away: Rocha, Henrique
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '14:15'
 - id: 70972900
@@ -115,9 +151,36 @@ tennis:
     away: Budkov Kjaer, Nicolai
   score:
     home: 0
+    away: 2
+  status: result
+  time: '14:35'
+- id: 70973400
+  teams:
+    home: Prizmic, Dino
+    away: Piros, Zsombor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:50'
+- id: 70916954
+  teams:
+    home: Dougaz, Aziz
+    away: Jubb, Paul
+  score:
+    home: 1
     away: 1
   status: live
-  time: '14:35'
+  time: '16:30'
+- id: 70916968
+  teams:
+    home: Giunta, Massimo
+    away: Fenty, Andrew
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
 ice_hockey: []
 table_tennis:
 - id: 70933896
