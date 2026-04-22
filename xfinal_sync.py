@@ -16,7 +16,7 @@ ALLOWED_GROUPS = {
     '2',      # European Handicap
     '8',      # Double Chance
     '17',     # Total Goals O/U
-    '19',     # Asian Handicap
+    
     '100',    # Both Teams To Score
     '11212',  # Draw No Bet
     '99',     # Individual Total Home
