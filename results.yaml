@@ -14,37 +14,145 @@ basketball:
     home: Dukes Klosterneuburg
     away: Hallmann Vienna
   score:
-    home: 32
-    away: 38
-  status: live
+    home: 70
+    away: 90
+  status: result
   time: '17:00'
 - id: 70843362
   teams:
     home: Graz
     away: WBC Wels
   score:
-    home: 39
-    away: 38
-  status: live
+    home: 85
+    away: 79
+  status: result
   time: '17:00'
 - id: 70712046
   teams:
     home: Swans Gmunden
     away: Oberwart
   score:
-    home: 42
-    away: 40
-  status: live
+    home: 89
+    away: 81
+  status: result
   time: '17:00'
 - id: 70712048
   teams:
     home: Traiskirchen
     away: Kapfenberg
   score:
-    home: 48
-    away: 48
-  status: live
+    home: 78
+    away: 92
+  status: result
   time: '17:00'
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 70665988
+  teams:
+    home: Pustertal
+    away: Graz 99ers
+  score:
+    home: 2
+    away: 4
+  status: live
+  time: '17:45'
+- id: 69826390
+  teams:
+    home: Trinec
+    away: Pardubice
+  score:
+    home: 5
+    away: 4
+  status: recentlyended
+  time: '16:00'
+- id: 69828030
+  teams:
+    home: Dukla
+    away: Litvinov
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '15:30'
+- id: 67650440
+  teams:
+    home: Norway
+    away: Finland
+  score:
+    home: 1
+    away: 6
+  status: result
+  time: '12:00'
+- id: 67650442
+  teams:
+    home: Canada
+    away: Slovakia
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
+- id: 67650460
+  teams:
+    home: Germany
+    away: Sweden
+  score:
+    home: 2
+    away: 7
+  status: result
+  time: '10:00'
+- id: 67650462
+  teams:
+    home: Czech Republic
+    away: USA
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 68932822
+  teams:
+    home: Karlskoga
+    away: Bjorkloven
+  score:
+    home: 3
+    away: 7
+  status: recentlyended
+  time: '17:00'
+- id: 70915642
+  teams:
+    home: Visby-Roma
+    away: Hudiksvall
+  score:
+    home: 4
+    away: 1
+  status: recentlyended
+  time: '17:00'
+- id: 68566662
+  teams:
+    home: Davos
+    away: Fribourg Gotteron
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:00'
+- id: 70558206
+  teams:
+    home: Vegas Golden Knights
+    away: Utah Mammoth
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 70558110
+  teams:
+    home: Colorado
+    away: Los Angeles Kings
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 02:00
 table_tennis: []
