@@ -4,11 +4,47 @@ soccer:
     home: Olympique Akbou
     away: JS Kabylie
   score:
-    home: 0
+    home: 1
     away: 1
-  status: live
+  status: result
   time: '15:00'
-basketball: []
+basketball:
+- id: 70843356
+  teams:
+    home: Dukes Klosterneuburg
+    away: Hallmann Vienna
+  score:
+    home: 32
+    away: 38
+  status: live
+  time: '17:00'
+- id: 70843362
+  teams:
+    home: Graz
+    away: WBC Wels
+  score:
+    home: 39
+    away: 38
+  status: live
+  time: '17:00'
+- id: 70712046
+  teams:
+    home: Swans Gmunden
+    away: Oberwart
+  score:
+    home: 42
+    away: 40
+  status: live
+  time: '17:00'
+- id: 70712048
+  teams:
+    home: Traiskirchen
+    away: Kapfenberg
+  score:
+    home: 48
+    away: 48
+  status: live
+  time: '17:00'
 tennis: []
 ice_hockey: []
 table_tennis: []
