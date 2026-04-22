@@ -12,21 +12,21 @@ supabase = create_client(URL, KEY)
 SPORT_IDS = [1, 2, 3, 4, 10]  # soccer, ice-hockey, basketball, tennis, table-tennis
 
 ALLOWED_GROUPS = {
-    1,      # 1X2
-    2,      # European Handicap
-    8,      # Double Chance
-    17,     # Total Goals O/U
-    19,     # Asian Handicap
-    100,    # Both Teams To Score
-    11212,  # Draw No Bet
-    99,     # Individual Total Home
-    2854,   # Individual Total Away
-    15,     # 1st Half Total
-    8427,   # 1st Half Asian Handicap
-    62,     # 1st Half Result + Total
-    8429,   # 2nd Half Asian Handicap
-    8863,   # Correct Score
-    136,    # Exact Goals
+    '1',      # 1X2
+    '2',      # European Handicap
+    '8',      # Double Chance
+    '17',     # Total Goals O/U
+    '19',     # Asian Handicap
+    '100',    # Both Teams To Score
+    '11212',  # Draw No Bet
+    '99',     # Individual Total Home
+    '2854',   # Individual Total Away
+    '15',     # 1st Half Total
+    '8427',   # 1st Half Asian Handicap
+    '62',     # 1st Half Result + Total
+    '8429',   # 2nd Half Asian Handicap
+    '8863',   # Correct Score
+    '136',    # Exact Goals
 }
 
 SEMAPHORE = asyncio.Semaphore(5)
@@ -35,10 +35,8 @@ STALE_AFTER_HOURS = 2
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/json',
-    'Accept-Language': 'en-US,en;q=0.9',
 }
 
-# Flag to debug first response only
 _debug_done = False
 
 
@@ -77,11 +75,11 @@ async def fetch_match(session, match):
     sport_id = match['sport_id']
     teams = f"{match['home_team']} vs {match['away_team']}"
 
-    # FIX: Removed restrictive gr=657 filter, use grMode=0 to get all markets
+    # Original working URL — do not change gr or grMode
     api_url = (
         f"https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents?"
-        f"cfView=3&countEvents=500&country=87&gameId={d_id}"
-        f"&grMode=0&lng=en&marketType=1&ref=61"
+        f"cfView=3&countEvents=250&country=87&gameId={d_id}"
+        f"&gr=657&grMode=4&lng=en&marketType=1&ref=61"
     )
 
     async with SEMAPHORE:
@@ -94,70 +92,57 @@ async def fetch_match(session, match):
                     return
 
                 if resp.status == 529:
-                    print(f"🔥 Server overloaded (529) for {teams} — skipping")
+                    print(f"🔥 Server overloaded for {teams} — skipping")
                     return
 
                 if resp.status != 200:
                     print(f"❌ HTTP {resp.status} for {teams}")
                     return
 
-                json_data = await resp.json(content_type=None)
+                data = await resp.json(content_type=None)
 
-                # --- DEBUG: print structure of first response ---
+                # --- DEBUG: print first response structure ---
                 if not _debug_done:
                     _debug_done = True
-                    top_keys = list(json_data.keys())
-                    val = json_data.get("Value", {})
-                    val_keys = list(val.keys())[:15] if val else []
-                    ge = val.get("GE", [])
-                    print(f"\n🔍 DEBUG first response:")
-                    print(f"   Top keys: {top_keys}")
-                    print(f"   Value keys: {val_keys}")
-                    print(f"   GE length: {len(ge)}")
-                    if ge:
-                        print(f"   First group keys: {list(ge[0].keys())}")
-                        print(f"   First group G: {ge[0].get('G')}")
+                    print(f"\n🔍 DEBUG first response top keys: {list(data.keys())[:10]}")
+                    has_sub = "subGamesForMainGame" in data
+                    groups = data.get('eventGroups', [])
+                    print(f"   subGamesForMainGame present: {has_sub}")
+                    print(f"   eventGroups length: {len(groups)}")
+                    if groups:
+                        print(f"   First group keys: {list(groups[0].keys())}")
+                        print(f"   First group groupId: {groups[0].get('groupId')}")
                     print()
-                # ------------------------------------------------
+                # ---------------------------------------------
 
-                val = json_data.get("Value", {})
-                all_groups = val.get('GE', [])
+                # CORRECT path: top-level eventGroups (not Value.GE)
+                if "subGamesForMainGame" not in data:
+                    print(f"⚠️  No deep data for {teams}")
+                    return
+
+                all_groups = data.get('eventGroups', [])
 
                 if not all_groups:
                     print(f"⚠️  No markets for {teams}")
                     return
 
-                filtered = [g for g in all_groups if g.get('G') in ALLOWED_GROUPS]
+                filtered = [
+                    g for g in all_groups
+                    if str(g.get('groupId')) in ALLOWED_GROUPS
+                ]
 
                 if not filtered:
-                    available = [g.get('G') for g in all_groups]
+                    available = [g.get('groupId') for g in all_groups]
                     print(f"⚠️  No matching groups for {teams} — available: {available[:10]}")
                     return
-
-                normalised_groups = []
-                for g in filtered:
-                    normalised_groups.append({
-                        "groupId": g.get("G"),
-                        "shortGroupId": g.get("GS"),
-                        "events": [
-                            [
-                                {
-                                    "cf": e.get("C"),
-                                    "type": e.get("T"),
-                                    "cfView": e.get("CV"),
-                                    **({"parameter": e["P"]} if "P" in e else {}),
-                                    **({"isCenter": True} if e.get("CE") else {}),
-                                }
-                                for e in outcome
-                            ]
-                            for outcome in g.get("E", [])
-                        ]
-                    })
 
                 payload = {
                     "match_id": m_id,
                     "deep_game_id": d_id,
-                    "raw_json": {"eventGroups": normalised_groups},
+                    "raw_json": {
+                        "eventGroups": filtered,
+                        "match_id": m_id
+                    },
                     "last_sync": datetime.now(timezone.utc).isoformat(),
                 }
 
@@ -166,7 +151,7 @@ async def fetch_match(session, match):
                 ).execute()
 
                 sport_label = {1: "⚽", 2: "🏒", 3: "🏀", 4: "🎾", 10: "🏓"}.get(sport_id, "🎯")
-                print(f"✅ {sport_label} {teams} — {len(normalised_groups)} groups")
+                print(f"✅ {sport_label} {teams} — {len(filtered)} groups")
 
         except asyncio.TimeoutError:
             print(f"⏰ Timeout: {teams}")
