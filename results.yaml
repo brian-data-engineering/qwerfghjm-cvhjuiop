@@ -14,8 +14,8 @@ soccer:
     away: Gimnasia Y Esgrima La Plata
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: recentlyended
   time: '22:00'
 - id: 69751524
   teams:
@@ -113,7 +113,7 @@ soccer:
     away: Clube do Remo PA
   score:
     home: 1
-    away: 1
+    away: 2
   status: live
   time: '22:00'
 - id: 70401248
@@ -122,9 +122,18 @@ soccer:
     away: Cruzeiro EC
   score:
     home: 1
-    away: 1
+    away: 2
   status: live
   time: '22:00'
+- id: 70401254
+  teams:
+    home: Santos SP
+    away: Coritiba
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
 basketball:
 - id: 70843356
   teams:
@@ -167,17 +176,17 @@ basketball:
     home: Flamengo
     away: EC Uniao Corinthians
   score:
-    home: 51
-    away: 46
-  status: live
+    home: 102
+    away: 72
+  status: recentlyended
   time: '22:00'
 - id: 70927900
   teams:
     home: Dos Campos
     away: Mogi Das Cruzes
   score:
-    home: 25
-    away: 18
+    home: 47
+    away: 55
   status: live
   time: '22:30'
 - id: 70927810
@@ -185,10 +194,262 @@ basketball:
     home: Franca
     away: Botafogo
   score:
-    home: 37
-    away: 17
+    home: 68
+    away: 52
   status: live
   time: '22:30'
+- id: 70927990
+  teams:
+    home: Brasilia
+    away: Caxias Do Sul
+  score:
+    home: 34
+    away: 35
+  status: live
+  time: '23:00'
+- id: 70940352
+  teams:
+    home: NH Ostrava
+    away: BK Olomoucko
+  score:
+    home: 81
+    away: 77
+  status: result
+  time: '16:00'
+- id: 62692055
+  teams:
+    home: Ulm
+    away: Alba
+  score:
+    home: 77
+    away: 89
+  status: result
+  time: '16:30'
+- id: 70703146
+  teams:
+    home: Hamburg
+    away: Rostock Seawolves
+  score:
+    home: 91
+    away: 86
+  status: result
+  time: '18:00'
+- id: 70473586
+  teams:
+    home: Peristeri Athens
+    away: Aris
+  score:
+    home: 78
+    away: 75
+  status: result
+  time: '15:00'
+- id: 70944290
+  teams:
+    home: UMF Grindavik
+    away: Valur Reykjavik
+  score:
+    home: 82
+    away: 81
+  status: result
+  time: '19:15'
+- id: 70671110
+  teams:
+    home: Besiktas
+    away: Jeunesse Laique Bourg
+  score:
+    home: 60
+    away: 72
+  status: result
+  time: '17:00'
+- id: 70676738
+  teams:
+    home: PAOK
+    away: Bilbao
+  score:
+    home: 79
+    away: 73
+  status: result
+  time: '16:15'
+- id: 62902447
+  teams:
+    home: BK Uralmash Yekaterinburg
+    away: Avtodor Saratov
+  score:
+    home: 86
+    away: 54
+  status: result
+  time: '14:30'
+- id: 62902449
+  teams:
+    home: MBA Moscow
+    away: BC Samara
+  score:
+    home: 79
+    away: 61
+  status: result
+  time: '16:00'
+- id: 70721038
+  teams:
+    home: Uniks Kazan
+    away: Novgorod
+  score:
+    home: 101
+    away: 64
+  status: result
+  time: '16:00'
+- id: 62902445
+  teams:
+    home: Zenit St P.
+    away: Moscow
+  score:
+    home: 74
+    away: 83
+  status: result
+  time: '16:30'
+- id: 62902443
+  teams:
+    home: BC Lokomotiv Kuban
+    away: Enisey Krasnoyarsk
+  score:
+    home: 90
+    away: 83
+  status: result
+  time: '17:00'
+- id: 63512735
+  teams:
+    home: 89Ers
+    away: Koshigaya
+  score:
+    home: 102
+    away: 78
+  status: result
+  time: '10:05'
+- id: 63512717
+  teams:
+    home: Altiri Chiba
+    away: Ibaraki Robots
+  score:
+    home: 66
+    away: 79
+  status: result
+  time: '10:05'
+- id: 63512721
+  teams:
+    home: Brave Thunders
+    away: Golden Kings
+  score:
+    home: 71
+    away: 80
+  status: result
+  time: '10:05'
+- id: 63512725
+  teams:
+    home: Crane Thunders
+    away: Hannarizu
+  score:
+    home: 84
+    away: 66
+  status: result
+  time: '10:05'
+- id: 63512731
+  teams:
+    home: Evessa
+    away: Seahorses
+  score:
+    home: 82
+    away: 84
+  status: result
+  time: '10:05'
+- id: 63512729
+  teams:
+    home: Hamamatsu
+    away: Toyama
+  score:
+    home: 94
+    away: 86
+  status: result
+  time: '10:05'
+- id: 63512715
+  teams:
+    home: Happinets
+    away: Hokkaido
+  score:
+    home: 76
+    away: 108
+  status: result
+  time: '10:05'
+- id: 63512723
+  teams:
+    home: Jets
+    away: B-Corsairs
+  score:
+    home: 101
+    away: 77
+  status: result
+  time: '10:05'
+- id: 63512737
+  teams:
+    home: Lake Stars
+    away: Dragonflies
+  score:
+    home: 69
+    away: 81
+  status: result
+  time: '10:05'
+- id: 63512727
+  teams:
+    home: Nagasaki Velca
+    away: Susanoo Magic
+  score:
+    home: 106
+    away: 74
+  status: result
+  time: '10:05'
+- id: 63512733
+  teams:
+    home: Saga Ballooners
+    away: Diamond Dolphins
+  score:
+    home: 71
+    away: 66
+  status: result
+  time: '10:05'
+- id: 63512739
+  teams:
+    home: Sunrockers
+    away: Tochigi Brex
+  score:
+    home: 68
+    away: 86
+  status: result
+  time: '10:05'
+- id: 63512719
+  teams:
+    home: Toyota Alvark
+    away: F.E. Nagoya
+  score:
+    home: 92
+    away: 71
+  status: result
+  time: '10:05'
+- id: 62871341
+  teams:
+    home: L. Rytas
+    away: BC Jonava
+  score:
+    home: 98
+    away: 81
+  status: result
+  time: '15:30'
+- id: 63041733
+  teams:
+    home: Zalgiris
+    away: Gargzdai
+  score:
+    home: 85
+    away: 77
+  status: result
+  time: '15:50'
 tennis: []
 ice_hockey:
 - id: 70665988
@@ -299,4 +560,31 @@ ice_hockey:
     away: 1
   status: result
   time: 02:00
+- id: 70558134
+  teams:
+    home: Philadelphia
+    away: Pittsburgh
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '23:00'
+- id: 70961730
+  teams:
+    home: Charlotte
+    away: Springfield
+  score:
+    home: 4
+    away: 0
+  status: live
+  time: '23:00'
+- id: 70961644
+  teams:
+    home: Toronto
+    away: Rochester
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '23:00'
 table_tennis: []
