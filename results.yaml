@@ -6,16 +6,16 @@ tennis:
     home: Atmane, Terence
     away: Kecmanovic, Miomir
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 09:00
 - id: 70965920
   teams:
     home: Carreno Busta, Pablo
     away: Fucsovics, Marton
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: 09:00
@@ -25,7 +25,7 @@ tennis:
     away: Blockx, Alexander
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: 09:00
 - id: 70965916
@@ -34,9 +34,27 @@ tennis:
     away: Giron, Marcos
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: 09:00
+- id: 70965910
+  teams:
+    home: Marozsan, Fabian
+    away: Quinn, Ethan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:30'
+- id: 70965918
+  teams:
+    home: Munar, Jaume
+    away: Shevchenko, Alexander
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:45'
 ice_hockey: []
 table_tennis:
 - id: 70986804
