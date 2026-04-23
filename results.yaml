@@ -294,9 +294,9 @@ tennis:
     home: Bax, Florent
     away: Visker, Niels
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '19:15'
 - id: 70830742
   teams:
@@ -304,9 +304,18 @@ tennis:
     away: Alkaya, Mert
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '19:50'
+- id: 70830746
+  teams:
+    home: Bicknell, Blaise
+    away: Erel, Yanki
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:35'
 ice_hockey:
 - id: 69826392
   teams:
