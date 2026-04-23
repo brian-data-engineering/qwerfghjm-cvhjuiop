@@ -44,7 +44,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 70965918
   teams:
@@ -53,7 +53,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '10:45'
 - id: 70965902
   teams:
@@ -61,8 +61,8 @@ tennis:
     away: Navone, Mariano
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:35'
 - id: 70995786
   teams:
@@ -70,18 +70,36 @@ tennis:
     away: Damm Jr, Martin
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '11:40'
 - id: 70995788
   teams:
     home: Vallejo, Adolfo Daniel
     away: Dimitrov, Grigor
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '12:25'
+- id: 70995796
+  teams:
+    home: Kypson, Patrick
+    away: Tsitsipas, Stefanos
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:00'
+- id: 70995792
+  teams:
+    home: Gaubas, Vilius
+    away: Baez, Sebastian
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:20'
 ice_hockey: []
 table_tennis:
 - id: 70986804
