@@ -313,8 +313,8 @@ tennis:
     away: Erel, Yanki
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '21:35'
 ice_hockey:
 - id: 69826392
@@ -461,6 +461,15 @@ ice_hockey:
     away: 6
   status: result
   time: 02:00
+- id: 70558070
+  teams:
+    home: Boston
+    away: Buffalo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:00'
 table_tennis:
 - id: 70986804
   teams:
