@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 70940354
+  teams:
+    home: Praha
+    away: Sokol Pisek
+  score:
+    home: 48
+    away: 55
+  status: live
+  time: '16:00'
 tennis:
 - id: 70965904
   teams:
@@ -88,8 +97,8 @@ tennis:
     away: Tsitsipas, Stefanos
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:00'
 - id: 70995792
   teams:
@@ -98,9 +107,117 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:20'
-ice_hockey: []
+- id: 70965914
+  teams:
+    home: Altmaier, Daniel
+    away: Cerundolo, Juan Manuel
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:05'
+- id: 70965908
+  teams:
+    home: Ugo Carabelli, Camilo
+    away: Monfils, Gael
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '15:05'
+- id: 70995794
+  teams:
+    home: Trungelliti, Marco
+    away: Merida, Daniel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
+- id: 70965906
+  teams:
+    home: Landaluce, Martin
+    away: Walton, Adam
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:35'
+ice_hockey:
+- id: 69826392
+  teams:
+    home: Trinec
+    away: Pardubice
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '15:00'
+- id: 69829472
+  teams:
+    home: Ilves
+    away: Tappara
+  score:
+    home: 0
+    away: 3
+  status: live
+  time: '15:30'
+- id: 67650444
+  teams:
+    home: Canada
+    away: Latvia
+  score:
+    home: 6
+    away: 0
+  status: result
+  time: '12:00'
+- id: 67650446
+  teams:
+    home: Slovakia
+    away: Norway
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:00'
+- id: 67650464
+  teams:
+    home: Denmark
+    away: Germany
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '10:00'
+- id: 67650466
+  teams:
+    home: Sweden
+    away: Czech Republic
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 65690634
+  teams:
+    home: Kazakhstan
+    away: Switzerland
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 65690636
+  teams:
+    home: Slovenia
+    away: Hungary
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '14:00'
 table_tennis:
 - id: 70986804
   teams:
