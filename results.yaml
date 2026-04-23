@@ -5,9 +5,9 @@ basketball:
     home: Praha
     away: Sokol Pisek
   score:
-    home: 48
-    away: 55
-  status: live
+    home: 92
+    away: 100
+  status: recentlyended
   time: '16:00'
 tennis:
 - id: 70965904
@@ -125,14 +125,14 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:05'
 - id: 70995794
   teams:
     home: Trungelliti, Marco
     away: Merida, Daniel
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '16:00'
@@ -142,8 +142,8 @@ tennis:
     away: Walton, Adam
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:35'
 ice_hockey:
 - id: 69826392
@@ -151,18 +151,18 @@ ice_hockey:
     home: Trinec
     away: Pardubice
   score:
-    home: 3
+    home: 4
     away: 2
-  status: live
+  status: result
   time: '15:00'
 - id: 69829472
   teams:
     home: Ilves
     away: Tappara
   score:
-    home: 0
-    away: 3
-  status: live
+    home: 1
+    away: 5
+  status: recentlyended
   time: '15:30'
 - id: 67650444
   teams:
@@ -178,8 +178,8 @@ ice_hockey:
     home: Slovakia
     away: Norway
   score:
-    home: 2
-    away: 0
+    home: 4
+    away: 1
   status: live
   time: '16:00'
 - id: 67650464
@@ -218,6 +218,24 @@ ice_hockey:
     away: 2
   status: result
   time: '14:00'
+- id: 65690638
+  teams:
+    home: Ukraine
+    away: Poland
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:30'
+- id: 70266624
+  teams:
+    home: Austria
+    away: Czech Republic
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '17:00'
 table_tennis:
 - id: 70986804
   teams:
