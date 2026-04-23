@@ -14,9 +14,9 @@ basketball:
     home: Wurzburg
     away: B. Munich
   score:
-    home: 79
-    away: 82
-  status: live
+    home: 81
+    away: 90
+  status: result
   time: '18:00'
 - id: 63468555
   teams:
@@ -43,7 +43,7 @@ basketball:
   score:
     home: 83
     away: 94
-  status: recentlyended
+  status: result
   time: '18:05'
 - id: 62871309
   teams:
@@ -242,7 +242,7 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70830748
   teams:
@@ -278,7 +278,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 70830760
   teams:
@@ -287,17 +287,26 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 70830740
   teams:
     home: Bax, Florent
     away: Visker, Niels
   score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:15'
+- id: 70830742
+  teams:
+    home: Giunta, Massimo
+    away: Alkaya, Mert
+  score:
     home: 0
     away: 0
   status: live
-  time: '19:15'
+  time: '19:50'
 ice_hockey:
 - id: 69826392
   teams:
@@ -378,7 +387,7 @@ ice_hockey:
   score:
     home: 6
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70266624
   teams:
@@ -396,7 +405,7 @@ ice_hockey:
   score:
     home: 6
     away: 1
-  status: live
+  status: result
   time: '17:45'
 - id: 70833196
   teams:
