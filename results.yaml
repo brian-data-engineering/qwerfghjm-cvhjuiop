@@ -15,9 +15,9 @@ tennis:
     home: Carreno Busta, Pablo
     away: Fucsovics, Marton
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 09:00
 - id: 71013918
   teams:
@@ -25,36 +25,63 @@ tennis:
     away: Blockx, Alexander
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 09:00
 - id: 70965916
   teams:
     home: Hanfmann, Yannick
     away: Giron, Marcos
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 09:00
 - id: 70965910
   teams:
     home: Marozsan, Fabian
     away: Quinn, Ethan
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '10:30'
 - id: 70965918
   teams:
     home: Munar, Jaume
     away: Shevchenko, Alexander
   score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '10:45'
+- id: 70965902
+  teams:
+    home: Borges, Nuno
+    away: Navone, Mariano
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '11:35'
+- id: 70995786
+  teams:
+    home: Popyrin, Alexei
+    away: Damm Jr, Martin
+  score:
     home: 0
     away: 0
   status: live
-  time: '10:45'
+  time: '11:40'
+- id: 70995788
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Dimitrov, Grigor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:25'
 ice_hockey: []
 table_tennis:
 - id: 70986804
