@@ -71,25 +71,34 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '12:15'
 - id: 70836100
   teams:
     home: Fils, Arthur
     away: Buse, Ignacio
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '13:05'
 - id: 70835996
   teams:
     home: Sinner, Jannik
     away: Bonzi, Benjamin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '14:05'
+- id: 70836074
+  teams:
+    home: Ofner, Sebastian
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:50'
 ice_hockey: []
 table_tennis: []
