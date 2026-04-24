@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 67091968
+  teams:
+    home: Deportivo Riestra
+    away: CA Independiente Avellaneda
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:00'
 basketball: []
 tennis:
 - id: 70836116
@@ -116,7 +125,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:25'
 - id: 70836082
   teams:
@@ -135,7 +144,7 @@ ice_hockey:
   score:
     home: 3
     away: 6
-  status: live
+  status: result
   time: '17:30'
 - id: 69829484
   teams:
@@ -153,7 +162,7 @@ ice_hockey:
   score:
     home: 3
     away: 7
-  status: live
+  status: result
   time: '17:30'
 - id: 68934536
   teams:
@@ -162,7 +171,7 @@ ice_hockey:
   score:
     home: 2
     away: 5
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 67650448
   teams:
@@ -207,7 +216,7 @@ ice_hockey:
   score:
     home: 5
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 70266630
   teams:
@@ -234,7 +243,7 @@ ice_hockey:
   score:
     home: 6
     away: 1
-  status: live
+  status: result
   time: '17:45'
 - id: 69025008
   teams:
@@ -250,9 +259,9 @@ ice_hockey:
     home: Slovan Bratislava
     away: Nitra
   score:
-    home: 3
+    home: 4
     away: 3
-  status: live
+  status: result
   time: '16:30'
 - id: 68566664
   teams:
@@ -261,7 +270,7 @@ ice_hockey:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 70558118
   teams:
