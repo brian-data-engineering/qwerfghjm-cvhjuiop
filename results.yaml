@@ -6,9 +6,18 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '20:00'
-basketball: []
+basketball:
+- id: 70927028
+  teams:
+    home: Unifacisa
+    away: Corinthians
+  score:
+    home: 40
+    away: 34
+  status: live
+  time: '22:00'
 tennis:
 - id: 70836116
   teams:
