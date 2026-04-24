@@ -114,18 +114,18 @@ tennis:
     home: Norrie, Cameron
     away: Machac, Tomas
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '16:25'
 - id: 70836082
   teams:
     home: Jodar, Rafael
     away: de Minaur, Alex
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:00'
 ice_hockey:
 - id: 70787814
@@ -133,8 +133,8 @@ ice_hockey:
     home: Herlev
     away: Herning
   score:
-    home: 1
-    away: 3
+    home: 3
+    away: 6
   status: live
   time: '17:30'
 - id: 69829484
@@ -151,8 +151,8 @@ ice_hockey:
     home: Mannheim
     away: Berlin
   score:
-    home: 0
-    away: 5
+    home: 3
+    away: 7
   status: live
   time: '17:30'
 - id: 68934536
@@ -161,8 +161,8 @@ ice_hockey:
     away: Krefeld
   score:
     home: 2
-    away: 2
-  status: live
+    away: 5
+  status: recentlyended
   time: '17:30'
 - id: 67650448
   teams:
@@ -171,7 +171,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 67650468
   teams:
@@ -205,9 +205,9 @@ ice_hockey:
     home: Hungary
     away: Poland
   score:
-    home: 2
+    home: 5
     away: 0
-  status: live
+  status: recentlyended
   time: '17:30'
 - id: 70266630
   teams:
@@ -225,14 +225,14 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 70883894
   teams:
     home: Switzerland
     away: Hungary
   score:
-    home: 4
+    home: 6
     away: 1
   status: live
   time: '17:45'
@@ -243,7 +243,7 @@ ice_hockey:
   score:
     home: 2
     away: 5
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 70833198
   teams:
