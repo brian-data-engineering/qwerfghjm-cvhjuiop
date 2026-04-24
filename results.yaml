@@ -6,9 +6,9 @@ tennis:
     home: Griekspoor, Tallon
     away: Dzumhur, Damir
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 09:00
 - id: 70836112
   teams:
@@ -16,16 +16,16 @@ tennis:
     away: Musetti, Lorenzo
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 09:00
 - id: 70836096
   teams:
     home: Nava, Emilio
     away: Vacherot, Valentin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: 09:00
 - id: 70836090
@@ -35,7 +35,34 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: 09:00
+- id: 70836000
+  teams:
+    home: Lajovic, Dusan
+    away: Rinderknech, Arthur
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '10:10'
+- id: 70835994
+  teams:
+    home: Moller, Elmer
+    away: Diallo, Gabriel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:45'
+- id: 70836078
+  teams:
+    home: Shelton, Ben
+    away: Prizmic, Dino
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:10'
 ice_hockey: []
 table_tennis: []
