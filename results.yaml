@@ -106,8 +106,8 @@ tennis:
     away: Kopriva, Vit
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:15'
 - id: 70836006
   teams:
@@ -115,8 +115,161 @@ tennis:
     away: Machac, Tomas
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '16:25'
-ice_hockey: []
+- id: 70836082
+  teams:
+    home: Jodar, Rafael
+    away: de Minaur, Alex
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+ice_hockey:
+- id: 70787814
+  teams:
+    home: Herlev
+    away: Herning
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '17:30'
+- id: 69829484
+  teams:
+    home: SaiPa
+    away: KooKoo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 69757914
+  teams:
+    home: Mannheim
+    away: Berlin
+  score:
+    home: 0
+    away: 5
+  status: live
+  time: '17:30'
+- id: 68934536
+  teams:
+    home: Kassel
+    away: Krefeld
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '17:30'
+- id: 67650448
+  teams:
+    home: Finland
+    away: Latvia
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 67650468
+  teams:
+    home: USA
+    away: Denmark
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:00'
+- id: 65690642
+  teams:
+    home: Kazakhstan
+    away: Slovenia
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 65690644
+  teams:
+    home: Switzerland
+    away: Ukraine
+  score:
+    home: 6
+    away: 5
+  status: result
+  time: '14:00'
+- id: 65690646
+  teams:
+    home: Hungary
+    away: Poland
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '17:30'
+- id: 70266630
+  teams:
+    home: Czech Republic
+    away: Austria
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '15:00'
+- id: 70644002
+  teams:
+    home: Poland
+    away: Slovenia
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 70883894
+  teams:
+    home: Switzerland
+    away: Hungary
+  score:
+    home: 4
+    away: 1
+  status: live
+  time: '17:45'
+- id: 69025008
+  teams:
+    home: Lok Yaroslavl
+    away: Avangard Omsk
+  score:
+    home: 2
+    away: 5
+  status: recentlyended
+  time: '16:00'
+- id: 70833198
+  teams:
+    home: Slovan Bratislava
+    away: Nitra
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '16:30'
+- id: 68566664
+  teams:
+    home: Fribourg Gotteron
+    away: Davos
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 70558118
+  teams:
+    home: Los Angeles Kings
+    away: Colorado
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: 02:00
 table_tennis: []
