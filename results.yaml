@@ -1,5 +1,41 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 70836116
+  teams:
+    home: Griekspoor, Tallon
+    away: Dzumhur, Damir
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:00
+- id: 70836112
+  teams:
+    home: Hurkacz, Hubert
+    away: Musetti, Lorenzo
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 09:00
+- id: 70836096
+  teams:
+    home: Nava, Emilio
+    away: Vacherot, Valentin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
+- id: 70836090
+  teams:
+    home: Struff, Jan-Lennard
+    away: Michelsen, Alex
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 09:00
 ice_hockey: []
 table_tennis: []
