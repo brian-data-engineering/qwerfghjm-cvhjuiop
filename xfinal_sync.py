@@ -9,27 +9,27 @@ URL = os.environ.get("SUPABASE_URL")
 KEY = os.environ.get("SUPABASE_KEY")
 supabase = create_client(URL, KEY)
 
-SPORT_IDS = [1, 2, 3, 4, 10]  # soccer, ice-hockey, basketball, tennis, table-tennis
+# Soccer only
+SPORT_IDS = [1]
 
+# Markets to save — Asian Handicap excluded (19, 8427, 8429)
 ALLOWED_GROUPS = {
-    '1',      # 1X2
-    '2',      # European Handicap
-    '8',      # Double Chance
-    '17',     # Total Goals O/U
-    
-    '100',    # Both Teams To Score
-    '11212',  # Draw No Bet
-    '99',     # Individual Total Home
-    '2854',   # Individual Total Away
-    '15',     # 1st Half Total
-    '8427',   # 1st Half Asian Handicap
-    '62',     # 1st Half Result + Total
-    '8429',   # 2nd Half Asian Handicap
-    '8863',   # Correct Score
-    '136',    # Exact Goals
+    1,      # 1X2
+    2,      # European Handicap
+    8,      # Double Chance
+    15,     # 1st Half Total Goals
+    17,     # Total Goals O/U
+    19,     # Asian Handicap (kept for scraping, filtered on frontend)
+    62,     # 1st Half Result + Total
+    99,     # Home Team Total Goals
+    100,    # Both Teams To Score
+    136,    # Correct Score
+    2854,   # Away Team Total Goals
+    8863,   # Correct Score (extended)
+    11212,  # Draw No Bet
 }
 
-SEMAPHORE = asyncio.Semaphore(5)
+SEMAPHORE = asyncio.Semaphore(6)
 STALE_AFTER_HOURS = 2
 
 HEADERS = {
@@ -44,6 +44,7 @@ def get_pending_matches():
     try:
         stale_cutoff = (datetime.now(timezone.utc) - timedelta(hours=STALE_AFTER_HOURS)).isoformat()
 
+        # Fresh = already synced within STALE_AFTER_HOURS
         fresh_res = supabase.table("xmatch_odds_deep") \
             .select("match_id") \
             .gt("last_sync", stale_cutoff) \
@@ -59,7 +60,7 @@ def get_pending_matches():
         if fresh_ids:
             query = query.not_.in_("match_id", fresh_ids)
 
-        response = query.limit(200).execute()
+        response = query.limit(300).execute()
         return response.data
 
     except Exception as e:
@@ -67,15 +68,64 @@ def get_pending_matches():
         return []
 
 
+def decode_correct_score(p_value):
+    """
+    Decode 1xbet's P value encoding for correct score.
+    Integer part = home goals, decimal .00X = away goals.
+    Examples:
+      3.002 → "3-2"  (home 3, away 2)
+      0.003 → "0-3"  (home 0, away 3)
+      1.001 → "1-1"  (draw)
+      None  → "0-0"  (draw, no P value)
+    """
+    if p_value is None:
+        return "0-0"
+    home = int(p_value)
+    # Extract away goals from decimal: 3.002 → 002 → 2
+    decimal_part = round((p_value - home) * 1000)
+    return f"{home}-{decimal_part}"
+
+
+def compress_group(group):
+    """
+    Extract only the essential E block data from a group.
+    Saves: G (groupId), GS (shortGroupId), and for each outcome:
+      T (type), C (odds), P (parameter/line), CE (isCenter flag)
+    Drops: CV, eventParams, and all other metadata — saves ~60% space.
+    """
+    compressed_events = []
+
+    for outcome_list in group.get('events', []):
+        compressed_outcome = []
+        for e in outcome_list:
+            entry = {
+                'T': e.get('type'),
+                'C': e.get('cf') or e.get('cfView'),
+            }
+            # Only include P if it exists (lines, parameters)
+            p = e.get('parameter')
+            if p is not None:
+                entry['P'] = p
+            # Only include CE if it's the center line
+            if e.get('isCenter'):
+                entry['CE'] = True
+            compressed_outcome.append(entry)
+        compressed_events.append(compressed_outcome)
+
+    return {
+        'G':  group.get('groupId'),
+        'GS': group.get('shortGroupId'),
+        'E':  compressed_events,
+    }
+
+
 async def fetch_match(session, match):
     global _debug_done
 
     m_id = match['match_id']
     d_id = match['deep_game_id']
-    sport_id = match['sport_id']
     teams = f"{match['home_team']} vs {match['away_team']}"
 
-    # Original working URL — do not change gr or grMode
     api_url = (
         f"https://1xbet.co.ke/service-api/main-line-feed/v1/gameEvents?"
         f"cfView=3&countEvents=250&country=87&gameId={d_id}"
@@ -92,56 +142,55 @@ async def fetch_match(session, match):
                     return
 
                 if resp.status == 529:
-                    print(f"🔥 Server overloaded for {teams} — skipping")
+                    print(f"🔥 Overloaded (529) — {teams}")
                     return
 
                 if resp.status != 200:
-                    print(f"❌ HTTP {resp.status} for {teams}")
+                    print(f"❌ HTTP {resp.status} — {teams}")
                     return
 
                 data = await resp.json(content_type=None)
 
-                # --- DEBUG: print first response structure ---
+                # Debug: print first response structure once
                 if not _debug_done:
                     _debug_done = True
-                    print(f"\n🔍 DEBUG first response top keys: {list(data.keys())[:10]}")
-                    has_sub = "subGamesForMainGame" in data
+                    print(f"\n🔍 DEBUG first response:")
+                    print(f"   Top keys: {list(data.keys())[:10]}")
+                    print(f"   subGamesForMainGame: {'subGamesForMainGame' in data}")
                     groups = data.get('eventGroups', [])
-                    print(f"   subGamesForMainGame present: {has_sub}")
-                    print(f"   eventGroups length: {len(groups)}")
+                    print(f"   eventGroups count: {len(groups)}")
                     if groups:
                         print(f"   First group keys: {list(groups[0].keys())}")
-                        print(f"   First group groupId: {groups[0].get('groupId')}")
+                        print(f"   First groupId: {groups[0].get('groupId')}")
                     print()
-                # ---------------------------------------------
 
-                # CORRECT path: top-level eventGroups (not Value.GE)
                 if "subGamesForMainGame" not in data:
-                    print(f"⚠️  No deep data for {teams}")
+                    print(f"⚠️  No deep data — {teams}")
                     return
 
                 all_groups = data.get('eventGroups', [])
-
                 if not all_groups:
-                    print(f"⚠️  No markets for {teams}")
+                    print(f"⚠️  Empty eventGroups — {teams}")
                     return
 
-                filtered = [
-                    g for g in all_groups
-                    if str(g.get('groupId')) in ALLOWED_GROUPS
+                # Filter to allowed groups and compress to E blocks only
+                compressed = [
+                    compress_group(g)
+                    for g in all_groups
+                    if g.get('groupId') in ALLOWED_GROUPS
                 ]
 
-                if not filtered:
+                if not compressed:
                     available = [g.get('groupId') for g in all_groups]
-                    print(f"⚠️  No matching groups for {teams} — available: {available[:10]}")
+                    print(f"⚠️  No matching groups — {teams} | available: {available[:8]}")
                     return
 
                 payload = {
                     "match_id": m_id,
                     "deep_game_id": d_id,
                     "raw_json": {
-                        "eventGroups": filtered,
-                        "match_id": m_id
+                        "groups": compressed,   # compact G/GS/E format
+                        "synced_at": int(datetime.now(timezone.utc).timestamp()),
                     },
                     "last_sync": datetime.now(timezone.utc).isoformat(),
                 }
@@ -150,32 +199,23 @@ async def fetch_match(session, match):
                     payload, on_conflict="match_id"
                 ).execute()
 
-                sport_label = {1: "⚽", 2: "🏒", 3: "🏀", 4: "🎾", 10: "🏓"}.get(sport_id, "🎯")
-                print(f"✅ {sport_label} {teams} — {len(filtered)} groups")
+                print(f"✅ ⚽ {teams} — {len(compressed)} groups saved")
 
         except asyncio.TimeoutError:
-            print(f"⏰ Timeout: {teams}")
+            print(f"⏰ Timeout — {teams}")
         except Exception as e:
-            print(f"🚨 Error on {teams}: {e}")
+            print(f"🚨 Error — {teams}: {e}")
 
 
 async def run():
     matches = get_pending_matches()
 
     if not matches:
-        print("✅ All matches are fresh — nothing to sync.")
+        print("✅ All soccer matches are fresh — nothing to sync.")
         return
 
-    by_sport = {}
-    for m in matches:
-        by_sport.setdefault(m['sport_id'], []).append(m)
-
-    sport_names = {1: "Soccer", 2: "Ice Hockey", 3: "Basketball", 4: "Tennis", 10: "Table Tennis"}
-    print("📊 Pending matches:")
-    for sid, ms in by_sport.items():
-        print(f"  {sport_names.get(sid, sid)}: {len(ms)}")
-
-    print(f"\n🚀 Syncing {len(matches)} matches across {len(by_sport)} sports...\n")
+    print(f"📊 Pending: {len(matches)} soccer matches\n")
+    print(f"🚀 Syncing with {SEMAPHORE._value} concurrent workers...\n")
 
     async with aiohttp.ClientSession(headers=HEADERS) as session:
         tasks = [fetch_match(session, m) for m in matches]
