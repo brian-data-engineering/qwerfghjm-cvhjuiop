@@ -23,8 +23,8 @@ basketball:
     home: Mistelbach
     away: Vienna United PSV
   score:
-    home: 42
-    away: 27
+    home: 98
+    away: 66
   status: live
   time: '15:00'
 - id: 70843364
@@ -124,16 +124,16 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:00'
 - id: 70836052
   teams:
     home: Ugo Carabelli, Camilo
     away: Cobolli, Flavio
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '14:40'
 - id: 70836054
@@ -142,10 +142,91 @@ tennis:
     away: Vallejo, Adolfo Daniel
   score:
     home: 0
+    away: 2
+  status: recentlyended
+  time: '15:10'
+ice_hockey:
+- id: 69828032
+  teams:
+    home: Litvinov
+    away: Dukla
+  score:
+    home: 4
     away: 0
   status: live
-  time: '15:10'
-ice_hockey: []
+  time: '15:30'
+- id: 69829494
+  teams:
+    home: Tappara
+    away: Ilves
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:00'
+- id: 69829496
+  teams:
+    home: KooKoo
+    away: SaiPa
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 67650450
+  teams:
+    home: Norway
+    away: Canada
+  score:
+    home: 0
+    away: 8
+  status: result
+  time: '12:00'
+- id: 67650452
+  teams:
+    home: Slovakia
+    away: Finland
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
+- id: 67650470
+  teams:
+    home: Germany
+    away: Czech Republic
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 67650472
+  teams:
+    home: Sweden
+    away: USA
+  score:
+    home: 1
+    away: 9
+  status: recentlyended
+  time: '14:00'
+- id: 65838544
+  teams:
+    home: Italy
+    away: Austria
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: 09:30
+- id: 65838546
+  teams:
+    home: France
+    away: Lithuania
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
 table_tennis:
 - id: 71031610
   teams:
