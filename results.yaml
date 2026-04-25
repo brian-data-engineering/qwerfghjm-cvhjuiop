@@ -262,7 +262,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71051920
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: 06:30
 - id: 71052388
   teams:
@@ -298,7 +298,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71051918
   teams:
@@ -307,7 +307,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71052422
   teams:
@@ -316,7 +316,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71051824
   teams:
@@ -325,5 +325,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
+- id: 71051898
+  teams:
+    home: Bradac, Petr
+    away: Petracek, Vratislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 71052402
+  teams:
+    home: Oborny, Dominik
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 71051830
+  teams:
+    home: Pleskot, Jan
+    away: Barton, David
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:00
+- id: 71051844
+  teams:
+    home: Polasek, Radovan
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 71052438
+  teams:
+    home: Vinter, Tomas
+    away: Pusch, Frantisek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 71051810
+  teams:
+    home: Huk, Martin
+    away: Postelt, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 71052520
+  teams:
+    home: Jemelka, Ivan
+    away: Chovanec, Pavel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:30
+- id: 71052448
+  teams:
+    home: Kouble, Daniel
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 71051882
+  teams:
+    home: Tuma, Miroslav
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 71051862
+  teams:
+    home: Zika, Tadeas
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 71052426
+  teams:
+    home: Chovanec, Pavel
+    away: Heczko, Marcel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 08:00
+- id: 71051888
+  teams:
+    home: Kratochvil, Michal
+    away: Revay, Radomir
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 08:00
+- id: 71051854
+  teams:
+    home: Postelt, Tomas
+    away: Petracek, Vratislav
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 08:00
+- id: 71051886
+  teams:
+    home: Stefek, Martin
+    away: Barton, David
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 08:00
+- id: 71052502
+  teams:
+    home: Tuma, Daniel
+    away: Pusch, Frantisek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 08:00
