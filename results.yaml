@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 67091982
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 basketball: []
 tennis: []
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 71031648
   teams:
@@ -145,7 +145,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 71031550
   teams:
@@ -154,16 +154,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 71031556
   teams:
     home: Havrda, Leos
     away: Stuchlik, Pavel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 02:30
 - id: 71031562
   teams:
@@ -171,8 +171,8 @@ table_tennis:
     away: Pycha, Patrik
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 02:30
 - id: 71031656
   teams:
@@ -180,6 +180,60 @@ table_tennis:
     away: Darin, Kyryl
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 02:30
+- id: 71061508
+  teams:
+    home: Barta, Tomas
+    away: Pavelka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 71061524
+  teams:
+    home: Darin, Kyryl
+    away: Placek, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 71061528
+  teams:
+    home: Havrda, Leos
+    away: Potensky, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 71061526
+  teams:
+    home: Andrle, Tomas
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 71061530
+  teams:
+    home: Grohsgott, Jiri
+    away: Berdych, Pavel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 71061514
+  teams:
+    home: Krejci, Richard
+    away: Pycha, Patrik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
