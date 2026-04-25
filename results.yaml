@@ -26,6 +26,60 @@ soccer:
     away: 0
   status: result
   time: '20:00'
+- id: 67091976
+  teams:
+    home: CA Sarmiento Junin
+    away: CA Tigre
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:15'
+- id: 67117618
+  teams:
+    home: CA San Miguel
+    away: Club Atletico Los Andes
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:30'
+- id: 67118346
+  teams:
+    home: CA Temperley
+    away: CA Patronato Parana
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:30'
+- id: 67117620
+  teams:
+    home: San Telmo
+    away: CA All Boys
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '18:30'
+- id: 67118342
+  teams:
+    home: San Martin de San Juan
+    away: Quilmes AC
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '20:30'
+- id: 67118332
+  teams:
+    home: Atletico de Rafaela
+    away: Gimnasia Jujuy
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '21:00'
 basketball:
 - id: 70942954
   teams:
@@ -79,16 +133,16 @@ basketball:
   score:
     home: 79
     away: 75
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 70927750
   teams:
     home: EC Uniao Corinthians
     away: Flamengo
   score:
-    home: 72
-    away: 68
-  status: live
+    home: 84
+    away: 83
+  status: recentlyended
   time: '21:00'
 tennis:
 - id: 70836122
@@ -267,9 +321,9 @@ tennis:
     home: Geerts M / Visker N
     away: Coulibaly E / Hemery C
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '22:05'
 - id: 70827150
   teams:
@@ -341,7 +395,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '20:05'
 - id: 70830360
   teams:
@@ -638,7 +692,7 @@ ice_hockey:
     away: Dallas
   score:
     home: 1
-    away: 1
+    away: 2
   status: live
   time: '21:30'
 table_tennis:
