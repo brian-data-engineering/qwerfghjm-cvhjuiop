@@ -17,7 +17,25 @@ soccer:
     away: 1
   status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 70942954
+  teams:
+    home: Mistelbach
+    away: Vienna United PSV
+  score:
+    home: 42
+    away: 27
+  status: live
+  time: '15:00'
+- id: 70843364
+  teams:
+    home: WBC Wels
+    away: Graz
+  score:
+    home: 79
+    away: 100
+  status: result
+  time: '12:00'
 tennis:
 - id: 70836122
   teams:
@@ -80,7 +98,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '12:25'
 - id: 70836062
   teams:
@@ -88,8 +106,8 @@ tennis:
     away: Atmane, Terence
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '12:35'
 - id: 70836044
   teams:
@@ -97,18 +115,36 @@ tennis:
     away: Auger-Aliassime, Felix
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:10'
 - id: 70836060
   teams:
     home: Navone, Mariano
     away: Zverev, Alexander
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '14:00'
+- id: 70836052
+  teams:
+    home: Ugo Carabelli, Camilo
+    away: Cobolli, Flavio
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:40'
+- id: 70836054
+  teams:
+    home: Tien, Learner
+    away: Vallejo, Adolfo Daniel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:10'
 ice_hockey: []
 table_tennis:
 - id: 71031610
