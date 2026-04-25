@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '20:00'
 basketball:
 - id: 70942954
@@ -68,26 +68,26 @@ basketball:
     home: Caxias Do Sul
     away: Brasilia
   score:
-    home: 58
-    away: 63
-  status: live
+    home: 70
+    away: 78
+  status: result
   time: '20:00'
 - id: 70927986
   teams:
     home: Mogi Das Cruzes
     away: Dos Campos
   score:
-    home: 43
-    away: 38
-  status: live
+    home: 79
+    away: 75
+  status: recentlyended
   time: '20:30'
 - id: 70927750
   teams:
     home: EC Uniao Corinthians
     away: Flamengo
   score:
-    home: 38
-    away: 40
+    home: 72
+    away: 68
   status: live
   time: '21:00'
 tennis:
@@ -233,7 +233,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:40'
 - id: 70830764
   teams:
@@ -259,9 +259,225 @@ tennis:
     away: Coulibaly E / Hemery C
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '20:50'
+- id: 70831522
+  teams:
+    home: Geerts M / Visker N
+    away: Coulibaly E / Hemery C
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:05'
+- id: 70827150
+  teams:
+    home: Holmgren, August
+    away: Riedi, Leandro
+  score:
+    home: null
+    away: null
+  status: result
+  time: 02:05
+- id: 70827162
+  teams:
+    home: Kwon, Soonwoo
+    away: Hsu, Yu Hsiou
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:05
+- id: 70828766
+  teams:
+    home: Kiger M / Stalder R
+    away: Chandrasekar A / Yuzuki T
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 03:35
+- id: 70828808
+  teams:
+    home: Svrcina, Dalibor
+    away: Vasami, Jacopo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:05'
+- id: 70828806
+  teams:
+    home: Guerrieri, Andrea
+    away: Martin Tiffon, Pol
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:15'
+- id: 70830186
+  teams:
+    home: Barrientos N / Behar A
+    away: Karol M / Paulson A
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:05'
+- id: 70830270
+  teams:
+    home: Feldbausch, Kilian
+    away: Kennedy, Jack
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:45'
+- id: 70830282
+  teams:
+    home: Galan, Daniel Elahi
+    away: Basavareddy, Nishesh
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '20:05'
+- id: 70830360
+  teams:
+    home: Harper C / Stevenson D
+    away: Martinez L D / Rodriguez C
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 70833788
+  teams:
+    home: Skatov, Timofey
+    away: Fomin, Sergey
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:05
+- id: 70833994
+  teams:
+    home: Blanch D / Gulin S
+    away: Rehberg M H / Wiskandt M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 07:05
+- id: 70868848
+  teams:
+    home: Medvedev, Daniil (Srl)
+    away: de Minaur, Alex (Srl)
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 06:00
+- id: 70869284
+  teams:
+    home: Rybakina, Elena (Srl)
+    away: Noskova, Linda (Srl)
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 06:00
+- id: 71055748
+  teams:
+    home: Martikainen, Otso
+    away: Stuurman, Roland
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:10'
+- id: 71055746
+  teams:
+    home: McDonnell, Cian
+    away: Ryden, Victor
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '13:00'
+- id: 71055750
+  teams:
+    home: Petrov, Pavel (2004)
+    away: Standaart, Colin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:00'
+- id: 71055752
+  teams:
+    home: Koenders, Rein
+    away: S Venkatraman, Gautam
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:40'
+- id: 71055754
+  teams:
+    home: Gomez Osorio, Aydan
+    away: Bouwman, Bas
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:00
+- id: 71055756
+  teams:
+    home: Waterbolk, Ids
+    away: Larosa, Luciano
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:00
+- id: 71055742
+  teams:
+    home: Van Zijl, Twan
+    away: Bredschneijder, Ole
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:55
+- id: 71055744
+  teams:
+    home: Lootsma, Niels
+    away: Poulsen, August Brostroem
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:25'
+- id: 71055740
+  teams:
+    home: Juuhl Sivertsen, Sander
+    away: De Ruiter, Cas
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 08:40
+- id: 71055738
+  teams:
+    home: Mayer, Moritz
+    away: Saatela, Leevi
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:20'
 ice_hockey:
 - id: 69828032
   teams:
@@ -412,10 +628,19 @@ ice_hockey:
     home: Ottawa
     away: Carolina
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 4
+  status: result
   time: '19:00'
+- id: 70558098
+  teams:
+    home: Minnesota
+    away: Dallas
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '21:30'
 table_tennis:
 - id: 71031610
   teams:
