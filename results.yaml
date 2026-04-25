@@ -41,9 +41,9 @@ basketball:
     home: Oberwart
     away: Swans Gmunden
   score:
-    home: 46
-    away: 33
-  status: live
+    home: 102
+    away: 81
+  status: recentlyended
   time: '17:00'
 - id: 70927272
   teams:
@@ -152,7 +152,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '14:40'
 - id: 70836054
   teams:
@@ -169,7 +169,7 @@ tennis:
     away: Marozsan, Fabian
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '17:00'
 - id: 70836104
@@ -177,7 +177,7 @@ tennis:
     home: Merida, Daniel
     away: Moutet, Corentin
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '17:05'
@@ -186,9 +186,9 @@ tennis:
     home: Budkov Kjaer, Nicolai
     away: Shapovalov, Denis
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '17:25'
 ice_hockey:
 - id: 69828032
@@ -198,7 +198,7 @@ ice_hockey:
   score:
     home: 5
     away: 0
-  status: live
+  status: result
   time: '15:30'
 - id: 69829494
   teams:
@@ -207,16 +207,16 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 69829496
   teams:
     home: KooKoo
     away: SaiPa
   score:
-    home: 1
+    home: 4
     away: 0
-  status: live
+  status: result
   time: '15:30'
 - id: 67650450
   teams:
@@ -233,8 +233,8 @@ ice_hockey:
     away: Finland
   score:
     home: 4
-    away: 3
-  status: live
+    away: 5
+  status: recentlyended
   time: '16:00'
 - id: 67650470
   teams:
@@ -277,18 +277,18 @@ ice_hockey:
     home: Estonia
     away: Republic of Korea
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 4
+  status: recentlyended
   time: '16:30'
 - id: 70843948
   teams:
     home: Poland
     away: Slovenia
   score:
-    home: 4
+    home: 5
     away: 2
-  status: live
+  status: recentlyended
   time: '16:30'
 - id: 69025104
   teams:
