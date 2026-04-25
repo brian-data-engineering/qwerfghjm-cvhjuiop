@@ -24,7 +24,7 @@ tennis:
     home: Cerundolo, Francisco
     away: Hanfmann, Yannick
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: 09:00
@@ -33,16 +33,16 @@ tennis:
     home: Davidovich Fokina, Alejandro
     away: Carreno Busta, Pablo
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: 09:00
 - id: 70836050
   teams:
     home: Khachanov, Karen
     away: Walton, Adam
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: 09:00
@@ -534,3 +534,30 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 71052398
+  teams:
+    home: Byrtus, Samuel
+    away: Levicky, Jakub
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 71052504
+  teams:
+    home: Cetner, Milan
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 71051868
+  teams:
+    home: Klement, Milan
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '10:00'
