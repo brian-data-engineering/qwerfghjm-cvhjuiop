@@ -54,6 +54,15 @@ basketball:
     away: 88
   status: result
   time: 00:00
+- id: 70927992
+  teams:
+    home: Caxias Do Sul
+    away: Brasilia
+  score:
+    home: 27
+    away: 36
+  status: live
+  time: '20:00'
 tennis:
 - id: 70836122
   teams:
@@ -190,6 +199,42 @@ tennis:
     away: 0
   status: result
   time: '17:25'
+- id: 70836108
+  teams:
+    home: Bublik, Alexander
+    away: Tsitsipas, Stefanos
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:40'
+- id: 70830764
+  teams:
+    home: Chazal, Maxime
+    away: Stewart, Hamish
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:30'
+- id: 70830766
+  teams:
+    home: Onclin, Gauthier
+    away: Hemery, Calvin
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:55'
+- id: 70831524
+  teams:
+    home: Hands T / Stewart H
+    away: Coulibaly E / Hemery C
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:50'
 ice_hockey:
 - id: 69828032
   teams:
@@ -335,6 +380,15 @@ ice_hockey:
     away: 4
   status: result
   time: 02:00
+- id: 70558146
+  teams:
+    home: Ottawa
+    away: Carolina
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
 table_tennis:
 - id: 71031610
   teams:
