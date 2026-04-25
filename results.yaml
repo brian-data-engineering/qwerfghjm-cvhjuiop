@@ -26,7 +26,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 70836130
   teams:
@@ -52,9 +52,27 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '11:00'
+- id: 70836048
+  teams:
+    home: Damm Jr, Martin
+    away: Mensik, Jakub
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '11:00'
+- id: 70836126
+  teams:
+    home: Munar, Jaume
+    away: Ruud, Casper
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '11:10'
 ice_hockey: []
 table_tennis:
 - id: 71031610
@@ -543,6 +561,96 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 71068438
+  teams:
+    home: Barton, David
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71068446
+  teams:
+    home: Heczko, Marcel
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 71068432
+  teams:
+    home: Huk, Martin
+    away: Petracek, Vratislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71068442
+  teams:
+    home: Polasek, Radovan
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71068454
+  teams:
+    home: Vinter, Tomas
+    away: Kouble, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 71068448
+  teams:
+    home: Jemelka, Ivan
+    away: Chovanec, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71068440
+  teams:
+    home: Pleskot, Jan
+    away: Tuma, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71068434
+  teams:
+    home: Postelt, Tomas
+    away: Bradac, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71068456
+  teams:
+    home: Pusch, Frantisek
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71068444
+  teams:
+    home: Zika, Tadeas
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
 - id: 71052398
   teams:
     home: Byrtus, Samuel
