@@ -17,6 +17,15 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 67091966
+  teams:
+    home: Estudiantes de la Plata
+    away: CA Talleres de Cordoba
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 70942954
   teams:
@@ -59,10 +68,28 @@ basketball:
     home: Caxias Do Sul
     away: Brasilia
   score:
-    home: 27
-    away: 36
+    home: 58
+    away: 63
   status: live
   time: '20:00'
+- id: 70927986
+  teams:
+    home: Mogi Das Cruzes
+    away: Dos Campos
+  score:
+    home: 43
+    away: 38
+  status: live
+  time: '20:30'
+- id: 70927750
+  teams:
+    home: EC Uniao Corinthians
+    away: Flamengo
+  score:
+    home: 38
+    away: 40
+  status: live
+  time: '21:00'
 tennis:
 - id: 70836122
   teams:
@@ -205,8 +232,8 @@ tennis:
     away: Tsitsipas, Stefanos
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '19:40'
 - id: 70830764
   teams:
@@ -224,7 +251,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:55'
 - id: 70831524
   teams:
@@ -232,9 +259,9 @@ tennis:
     away: Coulibaly E / Hemery C
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
-  time: '19:50'
+  time: '20:50'
 ice_hockey:
 - id: 69828032
   teams:
@@ -385,8 +412,8 @@ ice_hockey:
     home: Ottawa
     away: Carolina
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 2
   status: live
   time: '19:00'
 table_tennis:
