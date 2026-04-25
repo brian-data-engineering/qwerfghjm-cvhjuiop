@@ -52,8 +52,8 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:00'
 - id: 70836048
   teams:
@@ -61,8 +61,8 @@ tennis:
     away: Mensik, Jakub
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:00'
 - id: 70836126
   teams:
@@ -70,9 +70,36 @@ tennis:
     away: Ruud, Casper
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:10'
+- id: 70836046
+  teams:
+    home: Nakashima, Brandon
+    away: Blockx, Alexander
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:25'
+- id: 70836062
+  teams:
+    home: Humbert, Ugo
+    away: Atmane, Terence
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:35'
+- id: 70836044
+  teams:
+    home: Gaubas, Vilius
+    away: Auger-Aliassime, Felix
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:10'
 ice_hockey: []
 table_tennis:
 - id: 71031610
