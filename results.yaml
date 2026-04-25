@@ -24,9 +24,9 @@ tennis:
     home: Cerundolo, Francisco
     away: Hanfmann, Yannick
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: 09:00
 - id: 70836130
   teams:
@@ -35,17 +35,26 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 70836050
   teams:
     home: Khachanov, Karen
     away: Walton, Adam
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 70836120
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Darderi, Luciano
+  score:
+    home: 0
     away: 0
   status: live
-  time: 09:00
+  time: '11:00'
 ice_hockey: []
 table_tennis:
 - id: 71031610
@@ -541,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71052504
   teams:
@@ -550,7 +559,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71051868
   teams:
@@ -559,5 +568,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
