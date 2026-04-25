@@ -18,7 +18,34 @@ soccer:
   status: result
   time: 00:30
 basketball: []
-tennis: []
+tennis:
+- id: 70836122
+  teams:
+    home: Cerundolo, Francisco
+    away: Hanfmann, Yannick
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
+- id: 70836130
+  teams:
+    home: Davidovich Fokina, Alejandro
+    away: Carreno Busta, Pablo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
+- id: 70836050
+  teams:
+    home: Khachanov, Karen
+    away: Walton, Adam
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 71031610
@@ -379,7 +406,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71052520
   teams:
@@ -388,7 +415,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71052448
   teams:
@@ -397,7 +424,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71051882
   teams:
@@ -406,7 +433,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71051862
   teams:
@@ -415,7 +442,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71052426
   teams:
@@ -423,26 +450,26 @@ table_tennis:
     away: Heczko, Marcel
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:00
 - id: 71051888
   teams:
     home: Kratochvil, Michal
     away: Revay, Radomir
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 08:00
 - id: 71051854
   teams:
     home: Postelt, Tomas
     away: Petracek, Vratislav
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 08:00
 - id: 71051886
   teams:
@@ -450,8 +477,8 @@ table_tennis:
     away: Barton, David
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:00
 - id: 71052502
   teams:
@@ -459,6 +486,51 @@ table_tennis:
     away: Pusch, Frantisek
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 08:00
+- id: 71051912
+  teams:
+    home: Bradac, Petr
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 71052396
+  teams:
+    home: Oborny, Dominik
+    away: Jemelka, Ivan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71051828
+  teams:
+    home: Pleskot, Jan
+    away: Tuma, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71051860
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71052466
+  teams:
+    home: Vinter, Tomas
+    away: Kouble, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
