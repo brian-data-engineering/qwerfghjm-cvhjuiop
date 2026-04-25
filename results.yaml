@@ -79,8 +79,8 @@ tennis:
     away: Blockx, Alexander
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '12:25'
 - id: 70836062
   teams:
@@ -88,7 +88,7 @@ tennis:
     away: Atmane, Terence
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '12:35'
 - id: 70836044
@@ -97,9 +97,18 @@ tennis:
     away: Auger-Aliassime, Felix
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '13:10'
+- id: 70836060
+  teams:
+    home: Navone, Mariano
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:00'
 ice_hockey: []
 table_tennis:
 - id: 71031610
