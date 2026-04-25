@@ -12,21 +12,17 @@ supabase = create_client(URL, KEY)
 # Soccer only
 SPORT_IDS = [1]
 
-# Markets to save — Asian Handicap excluded (19, 8427, 8429)
+# Exactly 9 markets from notes — nothing more, nothing less
 ALLOWED_GROUPS = {
-    1,      # 1X2
-    2,      # European Handicap
-    8,      # Double Chance
-    15,     # 1st Half Total Goals
-    17,     # Total Goals O/U
-    19,     # Asian Handicap (kept for scraping, filtered on frontend)
-    62,     # 1st Half Result + Total
-    99,     # Home Team Total Goals
-    100,    # Both Teams To Score
-    136,    # Correct Score
-    2854,   # Away Team Total Goals
-    8863,   # Correct Score (extended)
-    11212,  # Draw No Bet
+    1,    # 1X2 (T:1,2,3)
+    2,    # European Handicap (T:7,8 + P line)
+    8,    # Double Chance (T:4,5,6)
+    15,   # Home Team Total Goals (T:11,12 + P line)
+    17,   # Total Goals O/U (T:9,10 + P line)
+    19,   # Both Teams To Score (T:180,181,11273,11274)
+    62,   # Away Team Total Goals (T:13,14 + P line)
+    136,  # Correct Score (T:731 P-encoded + T:3786)
+    275,  # Victory Margin (T:4850,4851,4918,4919 + P:1,2,3)
 }
 
 SEMAPHORE = asyncio.Semaphore(6)
@@ -44,7 +40,6 @@ def get_pending_matches():
     try:
         stale_cutoff = (datetime.now(timezone.utc) - timedelta(hours=STALE_AFTER_HOURS)).isoformat()
 
-        # Fresh = already synced within STALE_AFTER_HOURS
         fresh_res = supabase.table("xmatch_odds_deep") \
             .select("match_id") \
             .gt("last_sync", stale_cutoff) \
@@ -68,30 +63,11 @@ def get_pending_matches():
         return []
 
 
-def decode_correct_score(p_value):
-    """
-    Decode 1xbet's P value encoding for correct score.
-    Integer part = home goals, decimal .00X = away goals.
-    Examples:
-      3.002 → "3-2"  (home 3, away 2)
-      0.003 → "0-3"  (home 0, away 3)
-      1.001 → "1-1"  (draw)
-      None  → "0-0"  (draw, no P value)
-    """
-    if p_value is None:
-        return "0-0"
-    home = int(p_value)
-    # Extract away goals from decimal: 3.002 → 002 → 2
-    decimal_part = round((p_value - home) * 1000)
-    return f"{home}-{decimal_part}"
-
-
 def compress_group(group):
     """
-    Extract only the essential E block data from a group.
-    Saves: G (groupId), GS (shortGroupId), and for each outcome:
-      T (type), C (odds), P (parameter/line), CE (isCenter flag)
-    Drops: CV, eventParams, and all other metadata — saves ~60% space.
+    Save only essential E block data:
+    G (groupId), GS (shortGroupId), and per outcome: T, C, P, CE
+    Drops CV, eventParams and all other metadata.
     """
     compressed_events = []
 
@@ -102,11 +78,9 @@ def compress_group(group):
                 'T': e.get('type'),
                 'C': e.get('cf') or e.get('cfView'),
             }
-            # Only include P if it exists (lines, parameters)
             p = e.get('parameter')
             if p is not None:
                 entry['P'] = p
-            # Only include CE if it's the center line
             if e.get('isCenter'):
                 entry['CE'] = True
             compressed_outcome.append(entry)
@@ -140,18 +114,16 @@ async def fetch_match(session, match):
                     print(f"⏳ Rate limited — sleeping 5s...")
                     await asyncio.sleep(5)
                     return
-
                 if resp.status == 529:
                     print(f"🔥 Overloaded (529) — {teams}")
                     return
-
                 if resp.status != 200:
                     print(f"❌ HTTP {resp.status} — {teams}")
                     return
 
                 data = await resp.json(content_type=None)
 
-                # Debug: print first response structure once
+                # Debug first response only
                 if not _debug_done:
                     _debug_done = True
                     print(f"\n🔍 DEBUG first response:")
@@ -160,8 +132,8 @@ async def fetch_match(session, match):
                     groups = data.get('eventGroups', [])
                     print(f"   eventGroups count: {len(groups)}")
                     if groups:
-                        print(f"   First group keys: {list(groups[0].keys())}")
-                        print(f"   First groupId: {groups[0].get('groupId')}")
+                        available_g = [g.get('groupId') for g in groups]
+                        print(f"   Available G values: {available_g}")
                     print()
 
                 if "subGamesForMainGame" not in data:
@@ -173,7 +145,7 @@ async def fetch_match(session, match):
                     print(f"⚠️  Empty eventGroups — {teams}")
                     return
 
-                # Filter to allowed groups and compress to E blocks only
+                # Filter to exactly our 9 allowed groups and compress
                 compressed = [
                     compress_group(g)
                     for g in all_groups
@@ -182,14 +154,14 @@ async def fetch_match(session, match):
 
                 if not compressed:
                     available = [g.get('groupId') for g in all_groups]
-                    print(f"⚠️  No matching groups — {teams} | available: {available[:8]}")
+                    print(f"⚠️  No matching groups — {teams} | available: {available}")
                     return
 
                 payload = {
                     "match_id": m_id,
                     "deep_game_id": d_id,
                     "raw_json": {
-                        "groups": compressed,   # compact G/GS/E format
+                        "groups": compressed,
                         "synced_at": int(datetime.now(timezone.utc).timestamp()),
                     },
                     "last_sync": datetime.now(timezone.utc).isoformat(),
@@ -199,7 +171,8 @@ async def fetch_match(session, match):
                     payload, on_conflict="match_id"
                 ).execute()
 
-                print(f"✅ ⚽ {teams} — {len(compressed)} groups saved")
+                saved_g = [c['G'] for c in compressed]
+                print(f"✅ ⚽ {teams} — groups: {saved_g}")
 
         except asyncio.TimeoutError:
             print(f"⏰ Timeout — {teams}")
@@ -214,7 +187,7 @@ async def run():
         print("✅ All soccer matches are fresh — nothing to sync.")
         return
 
-    print(f"📊 Pending: {len(matches)} soccer matches\n")
+    print(f"📊 Pending: {len(matches)} soccer matches")
     print(f"🚀 Syncing with {SEMAPHORE._value} concurrent workers...\n")
 
     async with aiohttp.ClientSession(headers=HEADERS) as session:
