@@ -24,16 +24,16 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: recentlyended
   time: '20:30'
 - id: 67091964
   teams:
     home: Newells Old Boys
     away: Instituto AC Cordoba
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 1
+  status: recentlyended
   time: '20:30'
 basketball:
 - id: 70712052
@@ -79,15 +79,15 @@ basketball:
   score:
     home: 88
     away: 94
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 70927634
   teams:
     home: Bauru
     away: Paulistano
   score:
-    home: 43
-    away: 26
+    home: 78
+    away: 65
   status: live
   time: '21:00'
 - id: 62690991
@@ -285,8 +285,8 @@ tennis:
     home: Fonseca, Joao
     away: Jodar, Rafael
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '20:40'
 - id: 71057318
@@ -448,8 +448,8 @@ ice_hockey:
     home: Los Angeles Kings
     away: Colorado
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '20:30'
 table_tennis:
