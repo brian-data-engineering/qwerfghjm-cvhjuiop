@@ -26,7 +26,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '11:35'
 - id: 70836066
   teams:
@@ -34,9 +34,18 @@ tennis:
     away: Etcheverry, Tomas Martin
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '12:05'
+- id: 70836058
+  teams:
+    home: Sinner, Jannik
+    away: Moller, Elmer
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:00'
 ice_hockey: []
 table_tennis:
 - id: 71052508
