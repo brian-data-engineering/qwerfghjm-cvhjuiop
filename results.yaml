@@ -8,6 +8,15 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 67091956
+  teams:
+    home: Independiente Rivadavia
+    away: Gimnasia y Esgrima Mendoza
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:00'
 basketball:
 - id: 70712052
   teams:
@@ -25,7 +34,7 @@ basketball:
   score:
     home: 108
     away: 78
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 70927144
   teams:
@@ -96,18 +105,18 @@ tennis:
     home: Norrie, Cameron
     away: Tirante, Thiago Agustin
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 70836070
   teams:
     home: Kopriva, Vit
     away: Rinderknech, Arthur
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: recentlyended
   time: '17:10'
 ice_hockey:
 - id: 69826394
@@ -117,7 +126,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 69757950
   teams:
@@ -133,9 +142,9 @@ ice_hockey:
     home: Latvia
     away: Norway
   score:
-    home: 5
-    away: 0
-  status: live
+    home: 8
+    away: 1
+  status: recentlyended
   time: '16:00'
 - id: 67650474
   teams:
@@ -171,7 +180,7 @@ ice_hockey:
   score:
     home: 0
     away: 4
-  status: live
+  status: recentlyended
   time: '16:30'
 - id: 69025000
   teams:
@@ -187,10 +196,37 @@ ice_hockey:
     home: Nitra
     away: Slovan Bratislava
   score:
-    home: 3
-    away: 2
-  status: live
+    home: 5
+    away: 3
+  status: recentlyended
   time: '16:00'
+- id: 68566668
+  teams:
+    home: Davos
+    away: Fribourg Gotteron
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '18:00'
+- id: 70558130
+  teams:
+    home: Philadelphia
+    away: Pittsburgh
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: 00:00
+- id: 70558066
+  teams:
+    home: Boston
+    away: Buffalo
+  score:
+    home: 0
+    away: 4
+  status: live
+  time: '18:00'
 table_tennis:
 - id: 71052508
   teams:
