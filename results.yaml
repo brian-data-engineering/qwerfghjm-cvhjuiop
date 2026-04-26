@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 67091964
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 basketball:
 - id: 70712052
@@ -86,9 +86,9 @@ basketball:
     home: Bauru
     away: Paulistano
   score:
-    home: 78
-    away: 65
-  status: live
+    home: 88
+    away: 75
+  status: result
   time: '21:00'
 - id: 62690991
   teams:
@@ -286,8 +286,8 @@ tennis:
     away: Jodar, Rafael
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '20:40'
 - id: 71057318
   teams:
@@ -449,8 +449,8 @@ ice_hockey:
     away: Colorado
   score:
     home: 1
-    away: 2
-  status: live
+    away: 5
+  status: recentlyended
   time: '20:30'
 table_tennis:
 - id: 71052508
