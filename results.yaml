@@ -8,7 +8,16 @@ soccer:
     away: 1
   status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 70712052
+  teams:
+    home: Kapfenberg
+    away: Traiskirchen
+  score:
+    home: 44
+    away: 28
+  status: live
+  time: '15:00'
 tennis:
 - id: 70836014
   teams:
@@ -35,18 +44,45 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '12:05'
 - id: 70836058
   teams:
     home: Sinner, Jannik
     away: Moller, Elmer
   score:
-    home: 0
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '14:00'
+- id: 70836064
+  teams:
+    home: Fils, Arthur
+    away: Nava, Emilio
+  score:
+    home: 1
     away: 0
   status: live
-  time: '14:00'
-ice_hockey: []
+  time: '14:35'
+ice_hockey:
+- id: 69826394
+  teams:
+    home: Pardubice
+    away: Trinec
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
+- id: 69757950
+  teams:
+    home: Berlin
+    away: Mannheim
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:30'
 table_tennis:
 - id: 71052508
   teams:
