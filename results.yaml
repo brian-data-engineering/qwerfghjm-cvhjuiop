@@ -14,10 +14,37 @@ basketball:
     home: Kapfenberg
     away: Traiskirchen
   score:
-    home: 44
-    away: 28
+    home: 77
+    away: 67
   status: live
   time: '15:00'
+- id: 70843358
+  teams:
+    home: Hallmann Vienna
+    away: Dukes Klosterneuburg
+  score:
+    home: 68
+    away: 46
+  status: live
+  time: '15:30'
+- id: 70927144
+  teams:
+    home: Unifacisa
+    away: Corinthians
+  score:
+    home: 73
+    away: 76
+  status: result
+  time: '14:00'
+- id: 70927568
+  teams:
+    home: Cruzeiro Basquete
+    away: Minas
+  score:
+    home: 74
+    away: 101
+  status: recentlyended
+  time: '14:30'
 tennis:
 - id: 70836014
   teams:
@@ -53,17 +80,26 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 70836064
   teams:
     home: Fils, Arthur
     away: Nava, Emilio
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '14:35'
+- id: 70836056
+  teams:
+    home: Norrie, Cameron
+    away: Tirante, Thiago Agustin
+  score:
+    home: 0
     away: 0
   status: live
-  time: '14:35'
+  time: '16:30'
 ice_hockey:
 - id: 69826394
   teams:
@@ -79,10 +115,46 @@ ice_hockey:
     home: Berlin
     away: Mannheim
   score:
+    home: 5
+    away: 1
+  status: live
+  time: '14:30'
+- id: 67650454
+  teams:
+    home: Latvia
+    away: Norway
+  score:
     home: 2
     away: 0
   status: live
-  time: '14:30'
+  time: '16:00'
+- id: 67650474
+  teams:
+    home: Czech Republic
+    away: Denmark
+  score:
+    home: 9
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 65838550
+  teams:
+    home: Austria
+    away: France
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 65838552
+  teams:
+    home: Lithuania
+    away: Estonia
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '13:00'
 table_tennis:
 - id: 71052508
   teams:
