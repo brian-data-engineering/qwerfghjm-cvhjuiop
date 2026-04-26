@@ -17,6 +17,24 @@ soccer:
     away: 1
   status: result
   time: '18:00'
+- id: 67091980
+  teams:
+    home: CA Belgrano de Cordoba
+    away: Gimnasia Y Esgrima La Plata
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:30'
+- id: 67091964
+  teams:
+    home: Newells Old Boys
+    away: Instituto AC Cordoba
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:30'
 basketball:
 - id: 70712052
   teams:
@@ -59,10 +77,145 @@ basketball:
     home: Rio Claro Basquete
     away: Pinheiros SP
   score:
-    home: 60
-    away: 54
-  status: live
+    home: 88
+    away: 94
+  status: recentlyended
   time: '19:00'
+- id: 70927634
+  teams:
+    home: Bauru
+    away: Paulistano
+  score:
+    home: 43
+    away: 26
+  status: live
+  time: '21:00'
+- id: 62690991
+  teams:
+    home: Mitteldeutscher BC
+    away: Wurzburg
+  score:
+    home: 83
+    away: 52
+  status: result
+  time: '14:30'
+- id: 62691001
+  teams:
+    home: Fraport Skyliners
+    away: Alba
+  score:
+    home: 61
+    away: 87
+  status: result
+  time: '16:00'
+- id: 70944294
+  teams:
+    home: Valur Reykjavik
+    away: UMF Grindavik
+  score:
+    home: 79
+    away: 72
+  status: result
+  time: '19:15'
+- id: 68821544
+  teams:
+    home: Borac Cacak
+    away: Mega Bemax
+  score:
+    home: 89
+    away: 98
+  status: result
+  time: '18:00'
+- id: 69423162
+  teams:
+    home: Taoyuan Pilots
+    away: New Taipei Kings
+  score:
+    home: 98
+    away: 63
+  status: result
+  time: 09:00
+- id: 71019466
+  teams:
+    home: Zenit St P.
+    away: BK Uralmash Yekaterinburg
+  score:
+    home: 78
+    away: 85
+  status: result
+  time: '10:00'
+- id: 71019442
+  teams:
+    home: Uniks Kazan
+    away: MBA Moscow
+  score:
+    home: 87
+    away: 62
+  status: result
+  time: '15:00'
+- id: 70820602
+  teams:
+    home: Ziona
+    away: B Herzelia
+  score:
+    home: 88
+    away: 95
+  status: result
+  time: '15:40'
+- id: 69753852
+  teams:
+    home: Ironi Ramat Gan
+    away: Netanya
+  score:
+    home: 76
+    away: 77
+  status: result
+  time: '16:30'
+- id: 62571152
+  teams:
+    home: Venezia
+    away: Milano
+  score:
+    home: 85
+    away: 90
+  status: result
+  time: '14:00'
+- id: 62571150
+  teams:
+    home: Varese
+    away: Soresina
+  score:
+    home: 84
+    away: 75
+  status: result
+  time: '15:00'
+- id: 62571144
+  teams:
+    home: Grissin Bon
+    away: Derthona
+  score:
+    home: 88
+    away: 69
+  status: result
+  time: '16:00'
+- id: 62571154
+  teams:
+    home: Bologna
+    away: Trieste
+  score:
+    home: 95
+    away: 81
+  status: result
+  time: '16:30'
+- id: 62571142
+  teams:
+    home: C.D.L. Brescia
+    away: Treviso
+  score:
+    home: 90
+    away: 99
+  status: result
+  time: '17:00'
 tennis:
 - id: 70836014
   teams:
@@ -127,6 +280,60 @@ tennis:
     away: null
   status: result
   time: '17:10'
+- id: 70836068
+  teams:
+    home: Fonseca, Joao
+    away: Jodar, Rafael
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:40'
+- id: 71057318
+  teams:
+    home: Arevalo M / Pavic M
+    away: Paul T / Quinn E
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 71057334
+  teams:
+    home: Granollers M / Zeballos H
+    away: Arneodo R / Vacherot V
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71057312
+  teams:
+    home: Tabilo A / Tien L
+    away: Heliovaara H / Patten H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:40'
+- id: 71057316
+  teams:
+    home: Bublik A / Polmans M
+    away: Luz O / Matos R
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:30'
+- id: 71057330
+  teams:
+    home: Melo M / Zverev A
+    away: Darderi L / Tsitsipas S
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:05'
 ice_hockey:
 - id: 69826394
   teams:
@@ -214,9 +421,9 @@ ice_hockey:
     home: Davos
     away: Fribourg Gotteron
   score:
-    home: 4
+    home: 5
     away: 4
-  status: live
+  status: result
   time: '18:00'
 - id: 70558130
   teams:
@@ -232,10 +439,19 @@ ice_hockey:
     home: Boston
     away: Buffalo
   score:
-    home: 0
+    home: 1
     away: 6
-  status: live
+  status: result
   time: '18:00'
+- id: 70558114
+  teams:
+    home: Los Angeles Kings
+    away: Colorado
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:30'
 table_tennis:
 - id: 71052508
   teams:
