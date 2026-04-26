@@ -14,18 +14,18 @@ basketball:
     home: Kapfenberg
     away: Traiskirchen
   score:
-    home: 77
-    away: 67
-  status: live
+    home: 83
+    away: 71
+  status: result
   time: '15:00'
 - id: 70843358
   teams:
     home: Hallmann Vienna
     away: Dukes Klosterneuburg
   score:
-    home: 68
-    away: 46
-  status: live
+    home: 108
+    away: 78
+  status: recentlyended
   time: '15:30'
 - id: 70927144
   teams:
@@ -43,7 +43,7 @@ basketball:
   score:
     home: 74
     away: 101
-  status: recentlyended
+  status: result
   time: '14:30'
 tennis:
 - id: 70836014
@@ -89,26 +89,35 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '14:35'
 - id: 70836056
   teams:
     home: Norrie, Cameron
     away: Tirante, Thiago Agustin
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '16:30'
+- id: 70836070
+  teams:
+    home: Kopriva, Vit
+    away: Rinderknech, Arthur
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:10'
 ice_hockey:
 - id: 69826394
   teams:
     home: Pardubice
     away: Trinec
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: recentlyended
   time: '15:00'
 - id: 69757950
   teams:
@@ -117,14 +126,14 @@ ice_hockey:
   score:
     home: 5
     away: 1
-  status: live
+  status: result
   time: '14:30'
 - id: 67650454
   teams:
     home: Latvia
     away: Norway
   score:
-    home: 2
+    home: 5
     away: 0
   status: live
   time: '16:00'
@@ -135,7 +144,7 @@ ice_hockey:
   score:
     home: 9
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 65838550
   teams:
@@ -155,6 +164,33 @@ ice_hockey:
     away: 2
   status: result
   time: '13:00'
+- id: 65838554
+  teams:
+    home: Republic of Korea
+    away: Italy
+  score:
+    home: 0
+    away: 4
+  status: live
+  time: '16:30'
+- id: 69025000
+  teams:
+    home: Lok Yaroslavl
+    away: Avangard Omsk
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 70972638
+  teams:
+    home: Nitra
+    away: Slovan Bratislava
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '16:00'
 table_tennis:
 - id: 71052508
   teams:
