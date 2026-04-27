@@ -37,7 +37,88 @@ tennis:
     away: 0
   status: result
   time: '13:25'
-ice_hockey: []
+- id: 70836020
+  teams:
+    home: Blockx, Alexander
+    away: Auger-Aliassime, Felix
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:10'
+ice_hockey:
+- id: 69829498
+  teams:
+    home: Ilves
+    away: Tappara
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '15:30'
+- id: 69829500
+  teams:
+    home: SaiPa
+    away: KooKoo
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:30'
+- id: 67650456
+  teams:
+    home: Finland
+    away: Canada
+  score:
+    home: 0
+    away: 7
+  status: result
+  time: '12:00'
+- id: 67650458
+  teams:
+    home: Latvia
+    away: Slovakia
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '16:00'
+- id: 67650476
+  teams:
+    home: Denmark
+    away: Sweden
+  score:
+    home: 1
+    away: 10
+  status: result
+  time: '10:00'
+- id: 67650478
+  teams:
+    home: USA
+    away: Germany
+  score:
+    home: 11
+    away: 2
+  status: result
+  time: '14:00'
+- id: 69025096
+  teams:
+    home: Magnitogorsk
+    away: Bars Kazan
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '14:00'
+- id: 70558194
+  teams:
+    home: Anaheim
+    away: Edmonton
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: 01:30
 table_tennis:
 - id: 71067602
   teams:
@@ -1070,9 +1151,9 @@ table_tennis:
     home: Biolek, Martin
     away: Dzida, Jan
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 71090174
   teams:
@@ -1081,7 +1162,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71089796
   teams:
@@ -1090,7 +1171,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71089932
   teams:
@@ -1099,7 +1180,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71089764
   teams:
@@ -1108,5 +1189,185 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 71090192
+  teams:
+    home: Chalupa, Michal
+    away: Babinec, Zdenek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71089922
+  teams:
+    home: Dousa, Tomas
+    away: Lazar, Julius
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 71089972
+  teams:
+    home: Nesnera, Jiri
+    away: Parizek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71089798
+  teams:
+    home: Simecek, Jan
+    away: Petracek, Vratislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71089722
+  teams:
+    home: Szotkowski, Jan
+    away: Pokorny, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71090196
+  teams:
+    home: Babinec, Zdenek
+    away: Unzeitig, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71089792
+  teams:
+    home: Lazar, Julius
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71089758
+  teams:
+    home: Parizek, Martin
+    away: Koubek, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71089814
+  teams:
+    home: Petracek, Vratislav
+    away: Volhejn, Dan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 71089750
+  teams:
+    home: Pokorny, Adam
+    away: Dzida, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71089918
+  teams:
+    home: Biolek, Martin
+    away: Szotkowski, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 71090164
+  teams:
+    home: Holubec, Jiri
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:30'
+- id: 71089786
+  teams:
+    home: Postelt, Tomas
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:30'
+- id: 71089746
+  teams:
+    home: Vales, Jakub
+    away: Nesnera, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 71089742
+  teams:
+    home: Vedmoch, Michal
+    away: Dousa, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 71129812
+  teams:
+    home: Holubec, Jiri
+    away: Chalupa, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:00'
+- id: 71130106
+  teams:
+    home: Nesnera, Jiri
+    away: Koubek, Vojtech
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:00'
+- id: 71129914
+  teams:
+    home: Postelt, Tomas
+    away: Simecek, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:00'
+- id: 71129910
+  teams:
+    home: Szotkowski, Jan
+    away: Biolek, Martin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:00'
+- id: 71129742
+  teams:
+    home: Vedmoch, Michal
+    away: Lazar, Julius
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:00'
