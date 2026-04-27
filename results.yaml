@@ -53,7 +53,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70836016
   teams:
@@ -70,8 +70,8 @@ tennis:
     away: Mensik, Jakub
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:55'
 - id: 71057324
   teams:
@@ -1639,7 +1639,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71089766
   teams:
@@ -1648,7 +1648,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71091588
   teams:
@@ -1657,7 +1657,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71089950
   teams:
@@ -1666,7 +1666,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71089784
   teams:
@@ -1675,25 +1675,25 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71132098
   teams:
     home: Bartunek, Radek
     away: Fisera, Milan
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '20:00'
 - id: 71089806
   teams:
     home: Klement, Milan
     away: Vejvoda, Viktor
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '20:00'
 - id: 71089788
   teams:
@@ -1702,7 +1702,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 71090176
   teams:
@@ -1710,15 +1710,132 @@ table_tennis:
     away: Zidek, Vaclav
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '20:00'
 - id: 71089962
   teams:
     home: Opralka, Roman
     away: Babinec, Zdenek
   score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 71089818
+  teams:
+    home: Burdik, Vitezslav
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 71089948
+  teams:
+    home: Hasmanda, Rostislav
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:30'
+- id: 71089744
+  teams:
+    home: Huk, Martin
+    away: Cmerda, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 71091586
+  teams:
+    home: Taichman, Ivo
+    away: Hanel, Patrik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 71089740
+  teams:
+    home: Zahradnik, Tomas
+    away: Brozik, Karel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
+- id: 71134650
+  teams:
+    home: Cmerda, Ondrej
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '21:00'
+- id: 71134662
+  teams:
+    home: Hasmanda, Rostislav
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '21:00'
+- id: 71134656
+  teams:
+    home: Holub, Marek
+    away: Opralka, Roman
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '21:00'
+- id: 71134654
+  teams:
+    home: Klement, Milan
+    away: Zahradnik, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '21:00'
+- id: 71134646
+  teams:
+    home: Taichman, Ivo
+    away: Hanel, Patrik
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '21:00'
+- id: 71134658
+  teams:
+    home: Burdik, Vitezslav
+    away: Babinec, Zdenek
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:30'
+- id: 71134664
+  teams:
+    home: Fisera, Milan
+    away: Bartunek, Radek
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:30'
+- id: 71134652
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Huk, Martin
+  score:
     home: 1
     away: 0
   status: live
-  time: '20:00'
+  time: '21:30'
