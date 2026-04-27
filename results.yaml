@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 70836008
+  teams:
+    home: Davidovich Fokina, Alejandro
+    away: Ruud, Casper
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 71067602
@@ -451,7 +460,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 71089984
   teams:
@@ -460,7 +469,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 71090146
   teams:
@@ -469,7 +478,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 71089240
   teams:
@@ -478,7 +487,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 71089808
   teams:
@@ -487,5 +496,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
+- id: 71089992
+  teams:
+    home: Krejcik, Lukas
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 71089780
+  teams:
+    home: Simecek, Jan
+    away: Volhejn, Dan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71090160
+  teams:
+    home: Sionkala, Eduard
+    away: Varecha, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71089980
+  teams:
+    home: Sudek, Petr
+    away: Hruska, Vaclav Senior
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71089756
+  teams:
+    home: Walek, Adrian
+    away: Machander, Dalimil
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71090156
+  teams:
+    home: Bosak, Vitezslav
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:30'
+- id: 71089810
+  teams:
+    home: Darin, Kyryl
+    away: Havel, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71090012
+  teams:
+    home: Kulhanek, Pavel
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71089928
+  teams:
+    home: Mares, Erik
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 71089936
+  teams:
+    home: Skacelik, Richard
+    away: Schwan, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 71089934
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Kulhanek, Pavel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 71089926
+  teams:
+    home: Kolenic, Tibor
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:00'
+- id: 71089720
+  teams:
+    home: Machander, Dalimil
+    away: Skacelik, Richard
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '11:00'
+- id: 71090194
+  teams:
+    home: Varecha, Pavel
+    away: Bosak, Vitezslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 71089968
+  teams:
+    home: Volhejn, Dan
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
