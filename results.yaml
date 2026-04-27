@@ -145,7 +145,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 71067780
   teams:
@@ -154,7 +154,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:30
 - id: 71067654
   teams:
@@ -163,5 +163,50 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:30
+- id: 71090170
+  teams:
+    home: Byrtus, Samuel
+    away: Levicky, Jakub
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
+- id: 71089242
+  teams:
+    home: Darin, Kyryl
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
+- id: 71089996
+  teams:
+    home: Pilch, Jakub
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 06:00
+- id: 71090000
+  teams:
+    home: Pozarsky, Jiri
+    away: Just, Frantisek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
+- id: 71089986
+  teams:
+    home: Vrba, Jindrich
+    away: Kubat, Vladimir
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
