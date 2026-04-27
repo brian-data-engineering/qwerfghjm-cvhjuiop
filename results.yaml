@@ -1,5 +1,32 @@
-soccer: []
-basketball: []
+soccer:
+- id: 67091962
+  teams:
+    home: Velez Sarsfield
+    away: Union de Santa Fe
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:45'
+basketball:
+- id: 70927988
+  teams:
+    home: Mogi Das Cruzes
+    away: Dos Campos
+  score:
+    home: 42
+    away: 35
+  status: live
+  time: '22:00'
+- id: 70927998
+  teams:
+    home: Caxias Do Sul
+    away: Brasilia
+  score:
+    home: 20
+    away: 20
+  status: live
+  time: '22:30'
 tennis:
 - id: 70836008
   teams:
@@ -1774,7 +1801,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71134662
   teams:
@@ -1783,7 +1810,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71134656
   teams:
@@ -1792,7 +1819,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71134654
   teams:
@@ -1801,7 +1828,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71134646
   teams:
@@ -1810,32 +1837,104 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71134658
   teams:
     home: Burdik, Vitezslav
     away: Babinec, Zdenek
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '21:30'
 - id: 71134664
   teams:
     home: Fisera, Milan
     away: Bartunek, Radek
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '21:30'
 - id: 71134652
   teams:
     home: Nohejl, Vaclav (2005)
     away: Huk, Martin
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '21:30'
+- id: 71134660
+  teams:
+    home: Vejvoda, Viktor
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:30'
+- id: 71134648
+  teams:
+    home: Zidek, Vaclav
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:30'
+- id: 71089970
+  teams:
+    home: Janata, Tomas
+    away: Barta, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
+- id: 71089730
+  teams:
+    home: Regner, Tomas
+    away: Varcl Jr, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:00'
+- id: 71090140
+  teams:
+    home: Syroha, Michal
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 71090142
+  teams:
+    home: Cetner, Milan
+    away: Svoboda, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:30'
+- id: 71089770
+  teams:
+    home: Chlebecek, Marek
+    away: Hlawatschke, Ales
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '22:30'
+- id: 71089776
+  teams:
+    home: Smrcek, Milan
+    away: Kolar, Milan
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '22:30'
