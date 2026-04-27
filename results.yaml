@@ -5,8 +5,8 @@ soccer:
     away: Union de Santa Fe
   score:
     home: 2
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '21:45'
 basketball:
 - id: 70927988
@@ -14,8 +14,8 @@ basketball:
     home: Mogi Das Cruzes
     away: Dos Campos
   score:
-    home: 42
-    away: 35
+    home: 70
+    away: 60
   status: live
   time: '22:00'
 - id: 70927998
@@ -23,10 +23,19 @@ basketball:
     home: Caxias Do Sul
     away: Brasilia
   score:
-    home: 20
-    away: 20
+    home: 45
+    away: 48
   status: live
   time: '22:30'
+- id: 70927752
+  teams:
+    home: EC Uniao Corinthians
+    away: Flamengo
+  score:
+    home: 31
+    away: 53
+  status: live
+  time: '23:00'
 tennis:
 - id: 70836008
   teams:
@@ -227,6 +236,33 @@ ice_hockey:
     away: 3
   status: result
   time: 01:30
+- id: 70558124
+  teams:
+    home: Pittsburgh
+    away: Philadelphia
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '23:00'
+- id: 71081102
+  teams:
+    home: Coachella Valley Firebirds
+    away: Bakersfield Condors
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: 00:00
+- id: 70948364
+  teams:
+    home: Atlanta
+    away: South Carolina
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '23:10'
 table_tennis:
 - id: 71067602
   teams:
@@ -1909,7 +1945,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71090142
   teams:
@@ -1918,7 +1954,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '22:30'
 - id: 71089770
   teams:
@@ -1927,14 +1963,68 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '22:30'
 - id: 71089776
   teams:
     home: Smrcek, Milan
     away: Kolar, Milan
   score:
+    home: 3
+    away: 2
+  status: result
+  time: '22:30'
+- id: 71089946
+  teams:
+    home: Barta, Tomas
+    away: Bayer, Alesh
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '23:00'
+- id: 71090136
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Vitrovyj, Oleg
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '23:00'
+- id: 71089952
+  teams:
+    home: Varcl Jr, Jan
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '23:00'
+- id: 71089822
+  teams:
+    home: Janata, Tomas
+    away: Chlebecek, Marek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '23:30'
+- id: 71089912
+  teams:
+    home: Regner, Tomas
+    away: Smrcek, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:30'
+- id: 71090162
+  teams:
+    home: Syroha, Michal
+    away: Cetner, Milan
+  score:
     home: 2
     away: 2
   status: live
-  time: '22:30'
+  time: '23:30'
