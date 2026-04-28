@@ -17,6 +17,213 @@ soccer:
     away: 2
   status: result
   time: 00:00
+- id: 70946040
+  teams:
+    home: Ferro Carril Oeste
+    away: Almirante Brown
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:30'
+- id: 70065986
+  teams:
+    home: Al-Shabbab
+    away: Bahrain
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '16:00'
+- id: 70065984
+  teams:
+    home: Malkiya Club
+    away: Al-Najma Manama
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 68097854
+  teams:
+    home: Deportes Iquique
+    away: S. Wanderers
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:00
+- id: 68687602
+  teams:
+    home: SD Aucas
+    away: Delfin SC
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:00
+- id: 69880262
+  teams:
+    home: Petrojet FC
+    away: Ismaily SC
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '14:00'
+- id: 69880264
+  teams:
+    home: Zed FC
+    away: Pharco FC
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '14:00'
+- id: 69880268
+  teams:
+    home: Al Mokawloon
+    away: Ghazl El Mahallah
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '17:00'
+- id: 69880266
+  teams:
+    home: Kahrabaa Ismailia
+    away: National Bank Egypt
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 69844386
+  teams:
+    home: Southampton
+    away: Ipswich
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '18:45'
+- id: 70017990
+  teams:
+    home: Northampton
+    away: Barnsley
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '18:45'
+- id: 70100812
+  teams:
+    home: Peterborough
+    away: Mansfield
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:45'
+- id: 70077146
+  teams:
+    home: Stockport
+    away: Port Vale
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '18:45'
+- id: 71073860
+  teams:
+    home: Scunthorpe
+    away: Southend
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '18:45'
+- id: 69788920
+  teams:
+    home: Burghausen
+    away: Nuremberg II
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '17:00'
+- id: 71125784
+  teams:
+    home: Memmingen
+    away: Schwaben Augsburg
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '17:00'
+- id: 70759662
+  teams:
+    home: Bonn
+    away: Oberhausen
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '17:00'
+- id: 68746470
+  teams:
+    home: SC East Bengal
+    away: Odisha FC
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 62083122
+  teams:
+    home: Arema FC
+    away: Persebaya Surabaya
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: 08:30
+- id: 62083124
+  teams:
+    home: PSBS Biak
+    away: Malut United
+  score:
+    home: 0
+    away: 7
+  status: result
+  time: '12:00'
+- id: 69339430
+  teams:
+    home: PSG
+    away: Bayern Munich
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '19:00'
+- id: 70076012
+  teams:
+    home: Atletico Lanus
+    away: LDU Quito
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:00'
+- id: 70076098
+  teams:
+    home: Libertad Asuncion
+    away: Ind. Del Valle
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: '22:00'
 basketball:
 - id: 70927814
   teams:
@@ -204,9 +411,9 @@ tennis:
     home: Mensik, Jakub
     away: Zverev, Alexander
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '20:45'
 - id: 70954740
   teams:
@@ -1990,7 +2197,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71118188
   teams:
@@ -1999,7 +2206,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71118190
   teams:
@@ -2008,7 +2215,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71118192
   teams:
@@ -2016,24 +2223,78 @@ table_tennis:
     away: Mazanek, Stanislav
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '22:30'
 - id: 71118194
   teams:
     home: Svacha, Ondrej
     away: Ruzicka, Jiri
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '22:30'
 - id: 71118168
   teams:
     home: Vitrovyj, Oleg
     away: Stefek, Martin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '22:30'
+- id: 71166540
+  teams:
+    home: Pelikan, Josef
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '23:00'
+- id: 71118186
+  teams:
+    home: Skakal, Martin
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '23:00'
+- id: 71118164
+  teams:
+    home: Ulrych, Martin
+    away: Urban, Roman
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '23:00'
+- id: 71118182
+  teams:
+    home: Hasmanda, Rostislav
+    away: Vitrovyj, Oleg
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '23:30'
+- id: 71118184
+  teams:
+    home: Havel, Ladislav
+    away: Potensky, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:30'
+- id: 71118176
+  teams:
+    home: Svechota, Vojtech
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:30'
