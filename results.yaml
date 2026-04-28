@@ -16,18 +16,27 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 09:00
 - id: 70836026
   teams:
     home: Sinner, Jannik
     away: Norrie, Cameron
   score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 70836036
+  teams:
+    home: Lehecka, Jiri
+    away: Musetti, Lorenzo
+  score:
     home: 0
     away: 0
   status: live
-  time: 09:00
+  time: '10:50'
 ice_hockey: []
 table_tennis:
 - id: 71089916
@@ -291,6 +300,15 @@ table_tennis:
     away: 3
   status: result
   time: 06:00
+- id: 71117392
+  teams:
+    home: Mares, Erik
+    away: Volhejn, Dan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
 - id: 71031714
   teams:
     home: Bluhm, Florian
