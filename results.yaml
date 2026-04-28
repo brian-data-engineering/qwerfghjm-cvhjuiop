@@ -32,19 +32,91 @@ basketball:
     home: Brno BC
     away: Decin
   score:
-    home: 80
-    away: 86
-  status: live
+    home: 89
+    away: 98
+  status: result
   time: '16:00'
 - id: 70940366
   teams:
     home: Usti Nad Labem
     away: Opava
   score:
-    home: 83
+    home: 85
     away: 98
-  status: live
+  status: result
   time: '16:00'
+- id: 69354624
+  teams:
+    home: Le Portel
+    away: Strasbourg
+  score:
+    home: 65
+    away: 102
+  status: recentlyended
+  time: '18:00'
+- id: 70907762
+  teams:
+    home: Fenerbahce Istanbul
+    away: Zalgiris
+  score:
+    home: 89
+    away: 78
+  status: recentlyended
+  time: '17:45'
+- id: 70449656
+  teams:
+    home: Olympiakos Piraeus
+    away: AS Monaco
+  score:
+    home: 66
+    away: 51
+  status: live
+  time: '18:00'
+- id: 70449620
+  teams:
+    home: Valencia
+    away: Panathinaikos
+  score:
+    home: 32
+    away: 39
+  status: live
+  time: '18:45'
+- id: 70671112
+  teams:
+    home: Jeunesse Laique Bourg
+    away: Besiktas
+  score:
+    home: 73
+    away: 71
+  status: recentlyended
+  time: '17:30'
+- id: 71094068
+  teams:
+    home: Sarajevo
+    away: Igokea
+  score:
+    home: 80
+    away: 76
+  status: result
+  time: '16:45'
+- id: 71019444
+  teams:
+    home: Uniks Kazan
+    away: MBA Moscow
+  score:
+    home: 83
+    away: 63
+  status: result
+  time: '16:00'
+- id: 71019468
+  teams:
+    home: Zenit St P.
+    away: BK Uralmash Yekaterinburg
+  score:
+    home: 92
+    away: 64
+  status: result
+  time: '17:00'
 tennis:
 - id: 70836038
   teams:
@@ -97,9 +169,18 @@ tennis:
     away: Blockx, Alexander
   score:
     home: 0
+    away: 2
+  status: result
+  time: '17:00'
+- id: 70835984
+  teams:
+    home: Medvedev, Daniil
+    away: Cobolli, Flavio
+  score:
+    home: 0
     away: 0
   status: live
-  time: '17:00'
+  time: '19:00'
 ice_hockey:
 - id: 69826396
   teams:
@@ -107,9 +188,90 @@ ice_hockey:
     away: Pardubice
   score:
     home: 4
-    away: 4
-  status: live
+    away: 5
+  status: result
   time: '15:00'
+- id: 69757952
+  teams:
+    home: Mannheim
+    away: Berlin
+  score:
+    home: 1
+    away: 5
+  status: live
+  time: '17:30'
+- id: 65838556
+  teams:
+    home: Lithuania
+    away: Republic of Korea
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 65838558
+  teams:
+    home: Italy
+    away: France
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: '13:00'
+- id: 65838560
+  teams:
+    home: Austria
+    away: Estonia
+  score:
+    home: 7
+    away: 4
+  status: result
+  time: '16:30'
+- id: 69025010
+  teams:
+    home: Avangard Omsk
+    away: Lok Yaroslavl
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '13:30'
+- id: 71097262
+  teams:
+    home: Slovan Bratislava
+    away: Nitra
+  score:
+    home: 2
+    away: 5
+  status: result
+  time: '16:30'
+- id: 68909954
+  teams:
+    home: Rogle
+    away: Skelleftea
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:00'
+- id: 68566672
+  teams:
+    home: Fribourg Gotteron
+    away: Davos
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 70558210
+  teams:
+    home: Utah Mammoth
+    away: Vegas Golden Knights
+  score:
+    home: 4
+    away: 5
+  status: result
+  time: 01:30
 table_tennis:
 - id: 71089916
   teams:
@@ -1369,7 +1531,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71170348
   teams:
@@ -1378,7 +1540,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71170286
   teams:
@@ -1387,7 +1549,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71170258
   teams:
@@ -1396,7 +1558,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71170222
   teams:
@@ -1404,6 +1566,186 @@ table_tennis:
     away: Martinak, Lukas
   score:
     home: 2
+    away: 3
+  status: result
+  time: '17:30'
+- id: 71117530
+  teams:
+    home: Barta, Tomas
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 71117494
+  teams:
+    home: Bilek, Zdenek
+    away: Petracek, Vratislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 71117518
+  teams:
+    home: Jasek, Milan
+    away: Gebek, Evald
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71117344
+  teams:
+    home: Rose, Radek
+    away: Pikous, Marcel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71117450
+  teams:
+    home: Zidek, Vaclav
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 71117570
+  teams:
+    home: Dousa, Tomas
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 71117398
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71117370
+  teams:
+    home: Mikula, David
+    away: Bosak, Vitezslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71117486
+  teams:
+    home: Milota, Tomas
+    away: Velicka, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71117348
+  teams:
+    home: Volhejn, Dan
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
+- id: 71117436
+  teams:
+    home: Gebek, Evald
+    away: Mikula, David
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71117350
+  teams:
+    home: Oborny, Dominik
+    away: Milota, Tomas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71117466
+  teams:
+    home: Parhomenko, Dmitro
+    away: Dousa, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 71117418
+  teams:
+    home: Petracek, Vratislav
+    away: Volhejn, Dan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
+- id: 71117400
+  teams:
+    home: Pikous, Marcel
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
+- id: 71117508
+  teams:
+    home: Bosak, Vitezslav
+    away: Jasek, Milan
+  score:
+    home: 0
     away: 2
   status: live
-  time: '17:30'
+  time: '19:30'
+- id: 71117382
+  teams:
+    home: Fojt, Pavel
+    away: Barta, Tomas
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '19:30'
+- id: 71117414
+  teams:
+    home: Ruzicka, Jiri
+    away: Rose, Radek
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '19:30'
+- id: 71117416
+  teams:
+    home: Velicka, Lukas
+    away: Zidek, Vaclav
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '19:30'
+- id: 71117568
+  teams:
+    home: Zahradka, Michal
+    away: Bilek, Zdenek
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '19:30'
