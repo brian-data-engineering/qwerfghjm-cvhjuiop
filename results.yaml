@@ -14,18 +14,18 @@ basketball:
     home: Shandong Hi-Speed
     away: Flying Leopards
   score:
-    home: 60
-    away: 72
-  status: live
+    home: 67
+    away: 77
+  status: result
   time: '11:35'
 - id: 71055826
   teams:
     home: Southern Tigers
     away: Guangzhou L.L.
   score:
-    home: 57
-    away: 70
-  status: live
+    home: 76
+    away: 93
+  status: result
   time: '11:35'
 tennis:
 - id: 70836038
@@ -60,11 +60,29 @@ tennis:
     home: Tsitsipas, Stefanos
     away: Ruud, Casper
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '12:25'
-ice_hockey: []
+- id: 70836024
+  teams:
+    home: Kopriva, Vit
+    away: Jodar, Rafael
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:00'
+ice_hockey:
+- id: 69826396
+  teams:
+    home: Trinec
+    away: Pardubice
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 71089916
   teams:
@@ -874,7 +892,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71117482
   teams:
@@ -883,7 +901,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71117354
   teams:
@@ -901,7 +919,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71117478
   teams:
@@ -910,7 +928,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71167712
   teams:
@@ -918,8 +936,8 @@ table_tennis:
     away: Dedek, Jiri
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '13:00'
 - id: 71167696
   teams:
@@ -927,17 +945,17 @@ table_tennis:
     away: Potmesil, Pavel
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '13:00'
 - id: 71167822
   teams:
     home: Tuma, Daniel
     away: Sobisek, Martin
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '13:00'
 - id: 71167716
   teams:
@@ -945,8 +963,8 @@ table_tennis:
     away: Kasnik, Sebastian
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '13:00'
 - id: 71167722
   teams:
@@ -955,5 +973,230 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:00'
+- id: 71167714
+  teams:
+    home: Belovsky, Josef
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71167724
+  teams:
+    home: Polasek, Radovan
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 71167698
+  teams:
+    home: Stary, Jiri
+    away: Petr, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 71167718
+  teams:
+    home: Szotek, David
+    away: Opralka, Roman
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71167968
+  teams:
+    home: Vondrak, Michal
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71117388
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Berdych, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71117480
+  teams:
+    home: Louda, Jiri
+    away: Brazda, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 71117422
+  teams:
+    home: Martinak, Lukas
+    away: Kern, Lukas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 71117470
+  teams:
+    home: Parizek, Martin
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 71117550
+  teams:
+    home: Skotnica, Martin
+    away: Hrabec, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 71166546
+  teams:
+    home: Havrda, Leos
+    away: Chalupnicek, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 71117440
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 71117484
+  teams:
+    home: Sebera, Petr
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 71117408
+  teams:
+    home: Stoch, Jan
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 71117512
+  teams:
+    home: Zajicek, Jan
+    away: Koubek, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 71117364
+  teams:
+    home: Berdych, Pavel
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 71117366
+  teams:
+    home: Brazda, Adam
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 71117430
+  teams:
+    home: Hrabec, Michal
+    away: Polasek, Radovan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 71117424
+  teams:
+    home: Kern, Lukas
+    away: Stoch, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 71117546
+  teams:
+    home: Medek, Josef
+    away: Zajicek, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 71166554
+  teams:
+    home: Chalupnicek, Milan
+    away: Hruska, Vaclav Senior
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 71117552
+  teams:
+    home: Koubek, Vojtech
+    away: Parizek, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 71117524
+  teams:
+    home: Machander, Dalimil
+    away: Martinak, Lukas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:30'
+- id: 71117496
+  teams:
+    home: Sobisek, Martin
+    away: Louda, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 71117420
+  teams:
+    home: Zika, Tadeas
+    away: Skotnica, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:30'
