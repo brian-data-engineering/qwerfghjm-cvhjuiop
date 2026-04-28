@@ -9,7 +9,25 @@ basketball:
     away: 82
   status: result
   time: 00:00
-tennis: []
+tennis:
+- id: 70836038
+  teams:
+    home: Etcheverry, Tomas Martin
+    away: Fils, Arthur
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
+- id: 70836026
+  teams:
+    home: Sinner, Jannik
+    away: Norrie, Cameron
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 71089916
@@ -235,7 +253,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71117396
   teams:
@@ -244,7 +262,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71117576
   teams:
@@ -253,7 +271,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71117472
   teams:
@@ -262,7 +280,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71117360
   teams:
@@ -271,5 +289,14 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
+- id: 71031714
+  teams:
+    home: Bluhm, Florian
+    away: "Huzsvar,\_erik"
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
