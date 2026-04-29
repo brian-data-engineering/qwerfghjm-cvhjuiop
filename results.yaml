@@ -1,7 +1,16 @@
 soccer: []
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 66643838
+  teams:
+    home: Spain
+    away: Estonia
+  score:
+    home: 1
+    away: 8
+  status: live
+  time: 04:30
 table_tennis:
 - id: 71118206
   teams:
@@ -165,3 +174,93 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 71176656
+  teams:
+    home: Havel, Ladislav
+    away: Mazanek, Stanislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71176566
+  teams:
+    home: Stefek, Martin
+    away: Vitrovyj, Oleg
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 71176476
+  teams:
+    home: Svacha, Ondrej
+    away: Skakal, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 71176660
+  teams:
+    home: Hejduk, Alexander
+    away: Pelikan, Josef
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 71176478
+  teams:
+    home: Svechota, Vojtech
+    away: Ruzicka, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 71163856
+  teams:
+    home: Forman, Lubos
+    away: Smesny, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 71162748
+  teams:
+    home: Parhomenko, Dmitro
+    away: Varnuska, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 71164836
+  teams:
+    home: Szotkowski, Jan
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 71166336
+  teams:
+    home: Taichman, Ivo
+    away: Osvald, Petr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 71165794
+  teams:
+    home: Vondrak, Michal
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:00
