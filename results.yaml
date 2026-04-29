@@ -59,8 +59,8 @@ basketball:
     home: Corinthians
     away: Unifacisa
   score:
-    home: 34
-    away: 28
+    home: 80
+    away: 71
   status: live
   time: '22:00'
 - id: 71129526
@@ -68,10 +68,100 @@ basketball:
     home: Minas
     away: Cruzeiro Basquete
   score:
-    home: 25
-    away: 22
+    home: 97
+    away: 86
   status: live
   time: '22:00'
+- id: 71129528
+  teams:
+    home: Paulistano
+    away: Bauru
+  score:
+    home: 58
+    away: 55
+  status: live
+  time: '22:30'
+- id: 71055828
+  teams:
+    home: Quingdao Eagles
+    away: Brave Dragons
+  score:
+    home: 86
+    away: 90
+  status: result
+  time: '11:35'
+- id: 71055930
+  teams:
+    home: Z. Chouzhou Bank
+    away: Ningbo Rockets
+  score:
+    home: 65
+    away: 57
+  status: result
+  time: '11:35'
+- id: 70940368
+  teams:
+    home: Usti Nad Labem
+    away: Opava
+  score:
+    home: 93
+    away: 86
+  status: result
+  time: '16:00'
+- id: 70854966
+  teams:
+    home: UMF Tindastoll
+    away: Stjarnan
+  score:
+    home: 103
+    away: 88
+  status: result
+  time: '19:15'
+- id: 70907952
+  teams:
+    home: Real Madrid
+    away: Hapoel Tel-Aviv
+  score:
+    home: 86
+    away: 82
+  status: result
+  time: '18:45'
+- id: 70676742
+  teams:
+    home: Bilbao
+    away: PAOK
+  score:
+    home: 89
+    away: 74
+  status: result
+  time: '18:00'
+- id: 70955332
+  teams:
+    home: Moscow
+    away: Enisey Krasnoyarsk
+  score:
+    home: 85
+    away: 67
+  status: result
+  time: '16:30'
+- id: 70955334
+  teams:
+    home: BC Lokomotiv Kuban
+    away: Parma Permsky Kray
+  score:
+    home: 79
+    away: 76
+  status: result
+  time: '17:00'
+- id: 63468633
+  teams:
+    home: Maccabi Tel-Aviv
+    away: Netanya
+  score:
+    home: 102
+    away: 92
+  status: result
+  time: '15:45'
 tennis:
 - id: 70835980
   teams:
@@ -169,7 +259,7 @@ tennis:
     away: Hemery, Calvin
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '21:00'
 - id: 71002284
@@ -290,6 +380,15 @@ ice_hockey:
     away: 1
   status: result
   time: 02:00
+- id: 70558046
+  teams:
+    home: Tampa Bay
+    away: Montreal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '23:00'
 table_tennis:
 - id: 71118206
   teams:
