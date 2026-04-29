@@ -6,9 +6,9 @@ tennis:
     home: Sinner, Jannik
     away: Jodar, Rafael
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '14:00'
 ice_hockey:
 - id: 66643838
@@ -54,8 +54,17 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 71134492
+  teams:
+    home: USA
+    away: Latvia
+  score:
+    home: 2
+    away: 4
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 71118206
   teams:
