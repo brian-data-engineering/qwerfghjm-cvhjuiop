@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 70835980
+  teams:
+    home: Sinner, Jannik
+    away: Jodar, Rafael
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:00'
 ice_hockey:
 - id: 66643838
   teams:
@@ -25,9 +34,9 @@ ice_hockey:
     home: China
     away: Republic of Korea
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 4
+    away: 7
+  status: result
   time: '11:30'
 - id: 71134488
   teams:
@@ -36,8 +45,17 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 71134490
+  teams:
+    home: Canada
+    away: Sweden
+  score:
+    home: 2
+    away: 4
+  status: recentlyended
+  time: '12:00'
 table_tennis:
 - id: 71118206
   teams:
