@@ -7,10 +7,19 @@ ice_hockey:
     home: Spain
     away: Estonia
   score:
-    home: 1
-    away: 8
-  status: live
+    home: 2
+    away: 12
+  status: result
   time: 04:30
+- id: 66643870
+  teams:
+    home: Netherlands
+    away: Romania
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 08:00
 table_tennis:
 - id: 71118206
   teams:
@@ -226,7 +235,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71162748
   teams:
@@ -235,7 +244,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71164836
   teams:
@@ -244,7 +253,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71166336
   teams:
@@ -253,7 +262,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71165794
   teams:
@@ -262,5 +271,32 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:00
+- id: 71165804
+  teams:
+    home: Sychra, Martin
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 71166350
+  teams:
+    home: Tobola, Daniel
+    away: Stach, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 71162738
+  teams:
+    home: Vedmoch, Michal
+    away: Belovsky, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
