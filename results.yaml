@@ -53,7 +53,25 @@ soccer:
     away: 0
   status: result
   time: '16:00'
-basketball: []
+basketball:
+- id: 71129524
+  teams:
+    home: Corinthians
+    away: Unifacisa
+  score:
+    home: 34
+    away: 28
+  status: live
+  time: '22:00'
+- id: 71129526
+  teams:
+    home: Minas
+    away: Cruzeiro Basquete
+  score:
+    home: 25
+    away: 22
+  status: live
+  time: '22:00'
 tennis:
 - id: 70835980
   teams:
@@ -71,7 +89,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:50'
 - id: 70954762
   teams:
@@ -143,14 +161,14 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71002256
   teams:
     home: Kasnikowski, Maks
     away: Hemery, Calvin
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '21:00'
