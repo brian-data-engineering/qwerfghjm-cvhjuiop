@@ -1,4 +1,58 @@
-soccer: []
+soccer:
+- id: 70992980
+  teams:
+    home: JS Kabylie
+    away: MC Oran
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:45'
+- id: 70065982
+  teams:
+    home: Al-Ahli SC Manama
+    away: Al Riffa
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: '16:00'
+- id: 70065978
+  teams:
+    home: Al-Muharraq SC
+    away: AL Budaiya
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 69957238
+  teams:
+    home: Bate Borisov
+    away: FC Slavia Mozyr
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 69957236
+  teams:
+    home: FC Dinamo Minsk
+    away: Maxline Vitebsk
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
+- id: 69088924
+  teams:
+    home: PFC CSKA Sofia
+    away: Ludogorets 1945
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '16:00'
 basketball: []
 tennis:
 - id: 70835980
@@ -8,7 +62,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
 ice_hockey:
 - id: 66643838
@@ -62,9 +116,63 @@ ice_hockey:
     away: Latvia
   score:
     home: 2
-    away: 4
-  status: live
+    away: 5
+  status: result
   time: '14:00'
+- id: 71134494
+  teams:
+    home: Slovakia
+    away: Denmark
+  score:
+    home: 7
+    away: 1
+  status: live
+  time: '16:00'
+- id: 71134420
+  teams:
+    home: Germany
+    away: Norway
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: 08:00
+- id: 70843946
+  teams:
+    home: Poland
+    away: France
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:45'
+- id: 69025106
+  teams:
+    home: Bars Kazan
+    away: Magnitogorsk
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '16:30'
+- id: 70558092
+  teams:
+    home: Dallas
+    away: Minnesota
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: 00:00
+- id: 70558188
+  teams:
+    home: Edmonton
+    away: Anaheim
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: 02:00
 table_tennis:
 - id: 71118206
   teams:
