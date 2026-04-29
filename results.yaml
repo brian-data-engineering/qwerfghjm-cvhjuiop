@@ -5,8 +5,8 @@ soccer:
     away: MC Oran
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '16:45'
 - id: 70065982
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '16:00'
 - id: 70065978
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 69957238
   teams:
@@ -40,9 +40,9 @@ soccer:
     home: FC Dinamo Minsk
     away: Maxline Vitebsk
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: result
   time: '17:00'
 - id: 69088924
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 basketball: []
 tennis:
@@ -126,7 +126,7 @@ ice_hockey:
   score:
     home: 7
     away: 1
-  status: live
+  status: result
   time: '16:00'
 - id: 71134420
   teams:
@@ -142,18 +142,18 @@ ice_hockey:
     home: Poland
     away: France
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '15:45'
 - id: 69025106
   teams:
     home: Bars Kazan
     away: Magnitogorsk
   score:
-    home: 3
+    home: 4
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 70558092
   teams:
