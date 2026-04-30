@@ -5,9 +5,9 @@ basketball:
     home: Graz
     away: WBC Wels
   score:
-    home: 46
-    away: 56
-  status: live
+    home: 87
+    away: 85
+  status: result
   time: '17:00'
 tennis:
 - id: 70835992
@@ -19,6 +19,78 @@ tennis:
     away: 2
   status: result
   time: '11:00'
+- id: 70835990
+  teams:
+    home: Cobolli, Flavio
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 70954744
+  teams:
+    home: Arevalo M / Pavic M
+    away: Heliovaara H / Patten H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 70954758
+  teams:
+    home: Johnson L / Zielinski J
+    away: Doumbia S / Reboul F
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:50'
+- id: 70954748
+  teams:
+    home: Arneodo R / Vacherot V
+    away: Andreozzi G / Guinard M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:45'
+- id: 70954746
+  teams:
+    home: Goransson A / King E
+    away: Gonzalez M / Molteni A
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:40'
+- id: 71002278
+  teams:
+    home: Coulibaly, Eliakim
+    away: Bennani, Karim
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:00'
+- id: 71002276
+  teams:
+    home: Stewart, Hamish
+    away: Bicknell, Blaise
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:00'
+- id: 71002272
+  teams:
+    home: Dougaz, Aziz
+    away: Bax, Florent
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:30'
 ice_hockey: []
 table_tennis:
 - id: 71165818
