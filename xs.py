@@ -89,7 +89,7 @@ def run_sync():
                     # If ID is small and name has no spaces/dots, it's likely a folder.
                     if league_id and league_name:
                         # Skip if it's a generic country folder that has no sub-categories
-                        if league_id < 100 and "." not in league_name and " " not in league_name:
+                        if league_id < 1000 and "." not in league_name and " " not in league_name:
                             continue
 
                         if is_banned(league_name, BANNED_KEYWORDS):
