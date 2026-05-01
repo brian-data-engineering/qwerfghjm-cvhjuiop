@@ -41,8 +41,8 @@ soccer:
     away: SV Zulte Waregem
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:45'
 - id: 61737314
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 61737312
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70906758
   teams:
@@ -196,7 +196,7 @@ basketball:
   score:
     home: 88
     away: 79
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 62691101
   teams:
@@ -221,9 +221,9 @@ basketball:
     home: Real Madrid
     away: Hapoel Tel-Aviv
   score:
-    home: 78
-    away: 67
-  status: live
+    home: 102
+    away: 75
+  status: result
   time: '18:45'
 - id: 69423070
   teams:
@@ -268,7 +268,7 @@ basketball:
   score:
     home: 85
     away: 90
-  status: recentlyended
+  status: result
   time: '18:15'
 - id: 70940292
   teams:
@@ -376,7 +376,7 @@ tennis:
     away: Mmoh, Michael
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '18:40'
 - id: 71002264
@@ -384,10 +384,19 @@ tennis:
     home: Visker, Niels
     away: Bax, Florent
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '19:05'
+- id: 71002290
+  teams:
+    home: Mansouri S / Perez B
+    away: Poulsen O B / Suarez B
+  score:
+    home: 0
     away: 0
   status: live
-  time: '19:05'
+  time: '21:00'
 ice_hockey:
 - id: 71192670
   teams:
