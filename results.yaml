@@ -35,6 +35,105 @@ soccer:
     away: 2
   status: result
   time: '14:30'
+- id: 70207540
+  teams:
+    home: Cercle Brugge
+    away: SV Zulte Waregem
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:45'
+- id: 61737314
+  teams:
+    home: FK Velez Mostar
+    away: FK Radnik Bijeljina
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 61737312
+  teams:
+    home: HSK Zrinjski Mostar
+    away: FK Zeljeznicar Sarajevo
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 70906758
+  teams:
+    home: FK Septemvri Sofia
+    away: PFC Montana 1921
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '14:30'
+- id: 70906756
+  teams:
+    home: PFC Dobrudzha Dobrich
+    away: Lokomotive Sofia
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 68097878
+  teams:
+    home: Espanola
+    away: Curico Unido
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:00
+- id: 68995094
+  teams:
+    home: Dalian
+    away: Chongqing T.
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '11:00'
+- id: 68995092
+  teams:
+    home: Henan
+    away: Liaoning
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '11:00'
+- id: 68995098
+  teams:
+    home: Shandong Taishan
+    away: Qingdao West Coast
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '11:35'
+- id: 68995096
+  teams:
+    home: Tianjin
+    away: Wuhan Three Towns
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '11:35'
+- id: 68995100
+  teams:
+    home: Shanghai Shenhua
+    away: Chengdu Rongcheng
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
 basketball:
 - id: 71018368
   teams:
@@ -88,16 +187,16 @@ basketball:
   score:
     home: 78
     away: 74
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 62280782
   teams:
     home: Asvel
     away: Gravelines
   score:
-    home: 43
-    away: 33
-  status: live
+    home: 88
+    away: 79
+  status: recentlyended
   time: '18:30'
 - id: 62691101
   teams:
@@ -122,8 +221,8 @@ basketball:
     home: Real Madrid
     away: Hapoel Tel-Aviv
   score:
-    home: 36
-    away: 38
+    home: 78
+    away: 67
   status: live
   time: '18:45'
 - id: 69423070
@@ -167,9 +266,9 @@ basketball:
     home: Dabrowa Gornicza
     away: Warszawa
   score:
-    home: 47
-    away: 44
-  status: live
+    home: 85
+    away: 90
+  status: recentlyended
   time: '18:15'
 - id: 70940292
   teams:
@@ -232,8 +331,8 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:00'
 - id: 70954754
   teams:
@@ -269,14 +368,14 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 71002262
   teams:
     home: Hemery, Calvin
     away: Mmoh, Michael
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:40'
@@ -285,7 +384,7 @@ tennis:
     home: Visker, Niels
     away: Bax, Florent
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '19:05'
@@ -305,8 +404,8 @@ ice_hockey:
     away: Sweden
   score:
     home: 3
-    away: 3
-  status: live
+    away: 4
+  status: result
   time: '17:00'
 - id: 65838568
   teams:
