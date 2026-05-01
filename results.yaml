@@ -8,15 +8,42 @@ soccer:
     away: 0
   status: result
   time: 00:15
+- id: 70038416
+  teams:
+    home: SCR Altach
+    away: LASK
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '14:00'
+- id: 70986740
+  teams:
+    home: FK Arsenal Dzerzhinsk
+    away: FC Isloch
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '11:30'
 basketball: []
-tennis: []
+tennis:
+- id: 70835988
+  teams:
+    home: Sinner, Jannik
+    away: Fils, Arthur
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:00'
 ice_hockey:
 - id: 71192670
   teams:
     home: Slovakia
     away: Latvia
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '13:00'
@@ -919,7 +946,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 71220432
   teams:
@@ -928,7 +955,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 71220460
   teams:
@@ -937,7 +964,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 71220558
   teams:
@@ -946,7 +973,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 71220470
   teams:
@@ -955,5 +982,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:30'
+- id: 71198900
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Brozik, Karel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71199264
+  teams:
+    home: Paril, Ondrej
+    away: Wawrosz, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71198966
+  teams:
+    home: Sychra, Martin
+    away: Kapras, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71199344
+  teams:
+    home: Syroha, Michal
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 71199208
+  teams:
+    home: Vavrecka, David
+    away: Adamczyk, Radek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 71199312
+  teams:
+    home: Barta, Miroslav
+    away: Havel, Ladislav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 71199314
+  teams:
+    home: Blaha, Michal
+    away: Luksa, Zdenek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 71199308
+  teams:
+    home: Kratochvil, Michal
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 71198928
+  teams:
+    home: Tuma, Daniel
+    away: Sobisek, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 71198876
+  teams:
+    home: Vejvoda, Viktor
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:30'
+- id: 71199270
+  teams:
+    home: Adamczyk, Radek
+    away: Blaha, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+- id: 71198922
+  teams:
+    home: Brozik, Karel
+    away: Vejvoda, Viktor
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '15:00'
+- id: 71199306
+  teams:
+    home: Grohsgott, Jiri
+    away: Barta, Miroslav
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 71198892
+  teams:
+    home: Kapras, Karel
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '15:00'
+- id: 71199172
+  teams:
+    home: Wawrosz, Pavel
+    away: Kratochvil, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
