@@ -14,7 +14,7 @@ soccer:
     away: LASK
   score:
     home: 2
-    away: 1
+    away: 4
   status: live
   time: '14:00'
 - id: 70986740
@@ -26,16 +26,61 @@ soccer:
     away: 2
   status: result
   time: '11:30'
-basketball: []
+basketball:
+- id: 71018368
+  teams:
+    home: Swans Gmunden
+    away: Oberwart
+  score:
+    home: 45
+    away: 48
+  status: live
+  time: '15:30'
+- id: 71055820
+  teams:
+    home: Flying Leopards
+    away: Shandong Hi-Speed
+  score:
+    home: 86
+    away: 102
+  status: result
+  time: '11:35'
+- id: 71055822
+  teams:
+    home: Guangzhou L.L.
+    away: Southern Tigers
+  score:
+    home: 64
+    away: 85
+  status: result
+  time: '11:35'
+- id: 71065632
+  teams:
+    home: CEZ Nymburk
+    away: NH Ostrava
+  score:
+    home: 101
+    away: 67
+  status: result
+  time: '13:00'
+- id: 70940362
+  teams:
+    home: Decin
+    away: Brno BC
+  score:
+    home: 31
+    away: 11
+  status: live
+  time: '16:00'
 tennis:
 - id: 70835988
   teams:
     home: Sinner, Jannik
     away: Fils, Arthur
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:00'
 ice_hockey:
 - id: 71192670
@@ -45,7 +90,7 @@ ice_hockey:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '13:00'
 table_tennis:
 - id: 71182194
@@ -1036,7 +1081,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71199314
   teams:
@@ -1045,7 +1090,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71199308
   teams:
@@ -1054,7 +1099,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71198928
   teams:
@@ -1063,7 +1108,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71198876
   teams:
@@ -1072,34 +1117,34 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71199270
   teams:
     home: Adamczyk, Radek
     away: Blaha, Michal
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 71198922
   teams:
     home: Brozik, Karel
     away: Vejvoda, Viktor
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '15:00'
 - id: 71199306
   teams:
     home: Grohsgott, Jiri
     away: Barta, Miroslav
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 71198892
   teams:
@@ -1107,15 +1152,123 @@ table_tennis:
     away: Tuma, Daniel
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 71199172
   teams:
     home: Wawrosz, Pavel
     away: Kratochvil, Michal
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
+- id: 71199316
+  teams:
+    home: Havel, Ladislav
+    away: Syroha, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71199288
+  teams:
+    home: Luksa, Zdenek
+    away: Vavrecka, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71198896
+  teams:
+    home: Sebera, Petr
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71198926
+  teams:
+    home: Sobisek, Martin
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71199194
+  teams:
+    home: Zika, Tadeas
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 71198908
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 71199290
+  teams:
+    home: Paril, Ondrej
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 71198920
+  teams:
+    home: Sychra, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 71199272
+  teams:
+    home: Syroha, Michal
+    away: Barta, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 71199326
+  teams:
+    home: Vavrecka, David
+    away: Blaha, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 71199256
+  teams:
+    home: Adamczyk, Radek
+    away: Luksa, Zdenek
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
+- id: 71198916
+  teams:
+    home: Brozik, Karel
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
