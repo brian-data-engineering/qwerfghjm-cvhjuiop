@@ -640,16 +640,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71198978
   teams:
     home: Huk, Martin
     away: Ruzicka, Jiri
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '10:30'
 - id: 71199330
   teams:
@@ -658,7 +658,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71199274
   teams:
@@ -667,7 +667,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71198968
   teams:
@@ -676,5 +676,95 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:30'
+- id: 71198882
+  teams:
+    home: Barton, Ales
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71199218
+  teams:
+    home: Chalupnicek, Milan
+    away: Bohac, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 71199192
+  teams:
+    home: Martinec, Lukas
+    away: Motak, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71199324
+  teams:
+    home: Revay, Radomir
+    away: Polasek, Radovan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71198948
+  teams:
+    home: Tuma, Daniel
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71199234
+  teams:
+    home: Cetner, Milan
+    away: Tuma, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71199232
+  teams:
+    home: Pilch, Jakub
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71198914
+  teams:
+    home: Ruzicka, Jiri
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71198962
+  teams:
+    home: Sobisek, Martin
+    away: Sebera, Petr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71199302
+  teams:
+    home: Vantuch, Tomas
+    away: Derco, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
