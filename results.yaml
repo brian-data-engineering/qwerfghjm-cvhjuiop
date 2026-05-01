@@ -77,19 +77,145 @@ basketball:
     home: Decin
     away: Brno BC
   score:
-    home: 70
-    away: 58
-  status: live
+    home: 82
+    away: 66
+  status: result
   time: '16:00'
 - id: 71050578
   teams:
     home: JIP Pardubice
     away: Sokol Pisek
   score:
-    home: 34
-    away: 31
-  status: live
+    home: 78
+    away: 74
+  status: recentlyended
   time: '17:00'
+- id: 62280782
+  teams:
+    home: Asvel
+    away: Gravelines
+  score:
+    home: 43
+    away: 33
+  status: live
+  time: '18:30'
+- id: 62691101
+  teams:
+    home: Fraport Skyliners
+    away: Bonn
+  score:
+    home: 72
+    away: 104
+  status: result
+  time: '14:30'
+- id: 70822272
+  teams:
+    home: B. Munich
+    away: Alba
+  score:
+    home: 85
+    away: 79
+  status: result
+  time: '16:00'
+- id: 70907954
+  teams:
+    home: Real Madrid
+    away: Hapoel Tel-Aviv
+  score:
+    home: 36
+    away: 38
+  status: live
+  time: '18:45'
+- id: 69423070
+  teams:
+    home: Dewa United Banten
+    away: Hitech Bangkok City
+  score:
+    home: 103
+    away: 97
+  status: result
+  time: '10:00'
+- id: 69753784
+  teams:
+    home: Ziona
+    away: Galil Gilboa
+  score:
+    home: 80
+    away: 70
+  status: result
+  time: '10:30'
+- id: 69459368
+  teams:
+    home: Talk N Text
+    away: Phoenix Petroleum
+  score:
+    home: 97
+    away: 100
+  status: result
+  time: 09:15
+- id: 69459370
+  teams:
+    home: Barangay Ginebra
+    away: Meralco
+  score:
+    home: 91
+    away: 112
+  status: result
+  time: '11:30'
+- id: 61793194
+  teams:
+    home: Dabrowa Gornicza
+    away: Warszawa
+  score:
+    home: 47
+    away: 44
+  status: live
+  time: '18:15'
+- id: 70940292
+  teams:
+    home: SCM Univ. Craiova
+    away: Cso Voluntari
+  score:
+    home: 90
+    away: 80
+  status: result
+  time: '16:00'
+- id: 71135942
+  teams:
+    home: Kk Zlatibor
+    away: CZ MTS
+  score:
+    home: 94
+    away: 89
+  status: result
+  time: '16:00'
+- id: 63103801
+  teams:
+    home: Socar Petkim
+    away: Bahcesehir
+  score:
+    home: 76
+    away: 95
+  status: result
+  time: '16:00'
+- id: 70505076
+  teams:
+    home: Philadelphia
+    away: Boston
+  score:
+    home: 106
+    away: 93
+  status: result
+  time: 00:00
+- id: 70505126
+  teams:
+    home: Minnesota
+    away: Denver
+  score:
+    home: 110
+    away: 98
+  status: result
+  time: 01:30
 tennis:
 - id: 70835988
   teams:
@@ -100,6 +226,69 @@ tennis:
     away: 0
   status: result
   time: '14:00'
+- id: 70835986
+  teams:
+    home: Blockx, Alexander
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 70954754
+  teams:
+    home: Heliovaara H / Patten H
+    away: Johnson L / Zielinski J
+  score:
+    home: null
+    away: null
+  status: result
+  time: '11:30'
+- id: 70954756
+  teams:
+    home: Andreozzi G / Guinard M
+    away: Gonzalez M / Molteni A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:45'
+- id: 71002250
+  teams:
+    home: Coulibaly, Eliakim
+    away: Stewart, Hamish
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:00'
+- id: 71002252
+  teams:
+    home: Onclin, Gauthier
+    away: Alkaya, Mert
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '17:00'
+- id: 71002262
+  teams:
+    home: Hemery, Calvin
+    away: Mmoh, Michael
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:40'
+- id: 71002264
+  teams:
+    home: Visker, Niels
+    away: Bax, Florent
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:05'
 ice_hockey:
 - id: 71192670
   teams:
@@ -115,8 +304,8 @@ ice_hockey:
     home: Czech Republic
     away: Sweden
   score:
-    home: 2
-    away: 1
+    home: 3
+    away: 3
   status: live
   time: '17:00'
 - id: 65838568
@@ -142,9 +331,9 @@ ice_hockey:
     home: Estonia
     away: Italy
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 69025100
   teams:
@@ -1423,7 +1612,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71222638
   teams:
@@ -1432,7 +1621,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71222646
   teams:
@@ -1441,7 +1630,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71222510
   teams:
@@ -1450,7 +1639,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71222642
   teams:
@@ -1459,5 +1648,41 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
+- id: 71198912
+  teams:
+    home: Holovatiuk, Yurii
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 71199216
+  teams:
+    home: Hudeczek, Roman
+    away: Martinak, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71198964
+  teams:
+    home: Klimenta, Matous
+    away: Gireth, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71199224
+  teams:
+    home: Navedla, Matyas
+    away: Cabis, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
