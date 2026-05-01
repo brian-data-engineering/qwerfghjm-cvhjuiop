@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71199250
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71198944
   teams:
@@ -298,7 +298,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71198904
   teams:
@@ -307,7 +307,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71199170
   teams:
@@ -316,25 +316,25 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71198894
   teams:
     home: Berdych, Pavel
     away: Grohsgott, Jiri
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 07:00
 - id: 71199174
   teams:
     home: Holub, Marek
     away: Babinec, Zdenek
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
 - id: 71199168
   teams:
@@ -342,8 +342,8 @@ table_tennis:
     away: Stach, Jiri
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 71199196
   teams:
@@ -351,15 +351,150 @@ table_tennis:
     away: Briska, Jan
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 71198952
   teams:
     home: Svacha, Ondrej
     away: Huk, Martin
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:00
+- id: 71198940
+  teams:
+    home: Havrda, Leos
+    away: Kostak, Matej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 71199212
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71198888
+  teams:
+    home: Ruzicka, Jiri
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71199204
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71199240
+  teams:
+    home: Tobola, Daniel
+    away: Hrabec, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71199328
+  teams:
+    home: Chalupa, Michal
+    away: Babinec, Zdenek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71199252
+  teams:
+    home: Hrabec, Jan
+    away: Stach, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 71198880
+  teams:
+    home: Kostak, Matej
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71198932
+  teams:
+    home: Regner, Michal
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 71199188
+  teams:
+    home: Sulava, Lubor
+    away: Briska, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 71198898
+  teams:
+    home: Berdych, Pavel
+    away: Havrda, Leos
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71199242
+  teams:
+    home: Holub, Marek
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 71199200
+  teams:
+    home: Jasek, Milan
+    away: Tobola, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 71199266
+  teams:
+    home: Regner, Milan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
+- id: 71198954
+  teams:
+    home: Svacha, Ondrej
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:30
