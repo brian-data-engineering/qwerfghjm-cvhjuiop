@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 69857832
   teams:
@@ -15,8 +15,17 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '17:30'
+- id: 69857840
+  teams:
+    home: CA Central Cordoba SE
+    away: Boca Juniors
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:15'
 basketball:
 - id: 71075340
   teams:
@@ -61,7 +70,7 @@ basketball:
   score:
     home: 85
     away: 69
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 62280774
   teams:
@@ -95,8 +104,8 @@ basketball:
     home: Paris Basketball
     away: Chalon
   score:
-    home: 29
-    away: 29
+    home: 59
+    away: 54
   status: live
   time: '18:30'
 - id: 62691107
@@ -115,15 +124,15 @@ basketball:
   score:
     home: 98
     away: 84
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 62691111
   teams:
     home: Braunschweig
     away: Ludwigsburg
   score:
-    home: 42
-    away: 42
+    home: 83
+    away: 88
   status: live
   time: '18:00'
 - id: 62691109
@@ -131,9 +140,9 @@ basketball:
     home: Trier
     away: Oldenburg
   score:
-    home: 43
-    away: 43
-  status: live
+    home: 95
+    away: 98
+  status: recentlyended
   time: '18:00'
 - id: 69423072
   teams:
@@ -167,9 +176,9 @@ basketball:
     home: Unet Holon
     away: Rishon
   score:
-    home: 52
-    away: 57
-  status: live
+    home: 62
+    away: 68
+  status: result
   time: '17:40'
 - id: 63512805
   teams:
@@ -312,10 +321,19 @@ tennis:
     home: Onclin, Gauthier
     away: Coulibaly, Eliakim
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:00'
+- id: 71002258
+  teams:
+    home: Visker, Niels
+    away: Mmoh, Michael
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:35'
 ice_hockey:
 - id: 69829514
   teams:
@@ -349,9 +367,9 @@ ice_hockey:
     home: Poland
     away: Ukraine
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: recentlyended
   time: '17:30'
 - id: 66643920
   teams:
@@ -394,9 +412,9 @@ ice_hockey:
     home: Slovakia
     away: Sweden
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 4
+  status: result
   time: '17:00'
 - id: 70988988
   teams:
@@ -1290,6 +1308,96 @@ table_tennis:
     away: 3
   status: result
   time: '12:30'
+- id: 71240008
+  teams:
+    home: Navedla, Matyas
+    away: Vavrecka, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 71239920
+  teams:
+    home: Tuma, Daniel
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 71239916
+  teams:
+    home: Tuma, Miroslav
+    away: Bohac, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 71239926
+  teams:
+    home: Volhejn, Dan
+    away: Petracek, Vratislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 71239826
+  teams:
+    home: Wawrosz, Pavel
+    away: Paril, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 71239828
+  teams:
+    home: Dzida, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71239918
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Cetner, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71239928
+  teams:
+    home: Mares, Erik
+    away: Kanera, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71240010
+  teams:
+    home: Polasek, Radovan
+    away: Dousek, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71239922
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Alesh
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
 - id: 71217044
   teams:
     home: Barta, Miroslav
