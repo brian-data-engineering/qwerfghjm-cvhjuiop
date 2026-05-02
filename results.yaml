@@ -5,9 +5,9 @@ basketball:
     home: Mistelbach
     away: Udw Alligators
   score:
-    home: 70
-    away: 57
-  status: live
+    home: 87
+    away: 60
+  status: result
   time: '15:00'
 - id: 71055936
   teams:
@@ -32,10 +32,46 @@ basketball:
     home: Decin
     away: Brno BC
   score:
-    home: 40
-    away: 28
+    home: 72
+    away: 59
   status: live
   time: '16:00'
+- id: 70940370
+  teams:
+    home: Opava
+    away: Usti Nad Labem
+  score:
+    home: 42
+    away: 22
+  status: live
+  time: '17:00'
+- id: 62280774
+  teams:
+    home: Boulazac
+    away: Cholet
+  score:
+    home: 60
+    away: 61
+  status: live
+  time: '16:00'
+- id: 62280780
+  teams:
+    home: Le Portel
+    away: Limoges
+  score:
+    home: 73
+    away: 96
+  status: live
+  time: '16:10'
+- id: 62280784
+  teams:
+    home: Nanterre
+    away: Dijon
+  score:
+    home: 56
+    away: 56
+  status: live
+  time: '16:20'
 tennis:
 - id: 70954752
   teams:
@@ -46,6 +82,15 @@ tennis:
     away: 2
   status: result
   time: '12:00'
+- id: 71002260
+  teams:
+    home: Onclin, Gauthier
+    away: Coulibaly, Eliakim
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
 ice_hockey:
 - id: 69829514
   teams:
@@ -54,7 +99,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 66643536
   teams:
