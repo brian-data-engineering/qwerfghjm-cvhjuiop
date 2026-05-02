@@ -541,7 +541,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71217256
   teams:
@@ -550,7 +550,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71217260
   teams:
@@ -559,7 +559,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71217070
   teams:
@@ -568,7 +568,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71217006
   teams:
@@ -577,32 +577,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71217264
   teams:
     home: Hruska, Vaclav Senior
     away: Cetner, Milan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '11:00'
 - id: 71217242
   teams:
     home: Paril, Ondrej
     away: Dzida, Jan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '11:00'
 - id: 71217060
   teams:
     home: Petracek, Vratislav
     away: Volhejn, Dan
   score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71216992
+  teams:
+    home: Sobisek, Martin
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71217124
+  teams:
+    home: Vavrecka, Michal
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71217002
+  teams:
+    home: Bayer, Alesh
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 71217214
+  teams:
+    home: Bohac, Martin
+    away: Tuma, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71217210
+  teams:
+    home: Dousek, Tomas
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 71217026
+  teams:
+    home: Kanera, Jan
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71217130
+  teams:
+    home: Kratochvil, Michal
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 71216996
+  teams:
+    home: Mares, Erik
+    away: Volhejn, Dan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:00'
+- id: 71217230
+  teams:
+    home: Navedla, Matyas
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
+- id: 71216982
+  teams:
+    home: Tuma, Daniel
+    away: Sychra, Martin
+  score:
     home: 0
     away: 0
   status: live
-  time: '11:00'
+  time: '12:00'
+- id: 71217278
+  teams:
+    home: Tuma, Miroslav
+    away: Cetner, Milan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
+- id: 71217286
+  teams:
+    home: Wawrosz, Pavel
+    away: Dzida, Jan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
