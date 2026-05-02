@@ -22,7 +22,7 @@ soccer:
     home: CA Central Cordoba SE
     away: Boca Juniors
   score:
-    home: 0
+    home: 1
     away: 2
   status: live
   time: '19:15'
@@ -104,9 +104,9 @@ basketball:
     home: Paris Basketball
     away: Chalon
   score:
-    home: 59
-    away: 54
-  status: live
+    home: 103
+    away: 105
+  status: recentlyended
   time: '18:30'
 - id: 62691107
   teams:
@@ -131,9 +131,9 @@ basketball:
     home: Braunschweig
     away: Ludwigsburg
   score:
-    home: 83
-    away: 88
-  status: live
+    home: 98
+    away: 97
+  status: result
   time: '18:00'
 - id: 62691109
   teams:
@@ -142,7 +142,7 @@ basketball:
   score:
     home: 95
     away: 98
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 69423072
   teams:
@@ -330,7 +330,7 @@ tennis:
     home: Visker, Niels
     away: Mmoh, Michael
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '19:35'
@@ -369,7 +369,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 66643920
   teams:
