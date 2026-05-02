@@ -1,5 +1,32 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71075340
+  teams:
+    home: Mistelbach
+    away: Udw Alligators
+  score:
+    home: 34
+    away: 37
+  status: live
+  time: '15:00'
+- id: 71055936
+  teams:
+    home: Brave Dragons
+    away: Quingdao Eagles
+  score:
+    home: 97
+    away: 94
+  status: result
+  time: '11:35'
+- id: 71055938
+  teams:
+    home: Ningbo Rockets
+    away: Z. Chouzhou Bank
+  score:
+    home: 81
+    away: 83
+  status: result
+  time: '11:35'
 tennis:
 - id: 70954752
   teams:
@@ -17,7 +44,7 @@ ice_hockey:
     away: KooKoo
   score:
     home: 1
-    away: 1
+    away: 3
   status: live
   time: '14:00'
 - id: 66643536
@@ -35,7 +62,7 @@ ice_hockey:
     away: Kazakhstan
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '14:00'
 table_tennis:
