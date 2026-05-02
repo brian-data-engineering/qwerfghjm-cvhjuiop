@@ -271,7 +271,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71217128
   teams:
@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71217050
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71217206
   teams:
@@ -298,7 +298,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71217072
   teams:
@@ -307,50 +307,185 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71217196
   teams:
     home: Briska, Jan
     away: Barton, David
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:00
 - id: 71217222
   teams:
     home: Guliak, Roman
     away: Blejchar, Marek
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:00
 - id: 71217068
   teams:
     home: Klement, Milan
     away: Brozik, Karel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
 - id: 71217192
   teams:
     home: Luksa, Zdenek
     away: Kolenciak, Ivan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 07:00
 - id: 71217030
   teams:
     home: Prokupek, Jaroslav
     away: Stolfa, Jakub
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 07:00
+- id: 71217018
+  teams:
+    home: Belovsky, Josef
+    away: Pavelka, Radim
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 71217172
+  teams:
+    home: Hrabec, Tomas
+    away: Adam, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71217292
+  teams:
+    home: Malek, Lukas
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71217042
+  teams:
+    home: Regner, Michal
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71217294
+  teams:
+    home: Toth, Josef
+    away: Adamczyk, Radek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 71217240
+  teams:
+    home: Adam, Radim
+    away: Blejchar, Marek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 71217200
+  teams:
+    home: Adamczyk, Radek
+    away: Kolenciak, Ivan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 71217074
+  teams:
+    home: Pavelka, Radim
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 71217220
+  teams:
+    home: Steffan, Jan
+    away: Barton, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71217032
+  teams:
+    home: Vejvoda, Viktor
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:00
+- id: 71217202
+  teams:
+    home: Briska, Jan
+    away: Malek, Lukas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71217306
+  teams:
+    home: Guliak, Roman
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
+- id: 71217028
+  teams:
+    home: Klement, Milan
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
+- id: 71217182
+  teams:
+    home: Luksa, Zdenek
+    away: Toth, Josef
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:30
+- id: 71217034
+  teams:
+    home: Prokupek, Jaroslav
+    away: Belovsky, Josef
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
