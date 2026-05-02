@@ -5,8 +5,8 @@ basketball:
     home: Mistelbach
     away: Udw Alligators
   score:
-    home: 34
-    away: 37
+    home: 70
+    away: 57
   status: live
   time: '15:00'
 - id: 71055936
@@ -27,6 +27,15 @@ basketball:
     away: 83
   status: result
   time: '11:35'
+- id: 70940364
+  teams:
+    home: Decin
+    away: Brno BC
+  score:
+    home: 40
+    away: 28
+  status: live
+  time: '16:00'
 tennis:
 - id: 70954752
   teams:
@@ -43,9 +52,9 @@ ice_hockey:
     home: Tappara
     away: KooKoo
   score:
-    home: 1
-    away: 3
-  status: live
+    home: 2
+    away: 4
+  status: recentlyended
   time: '14:00'
 - id: 66643536
   teams:
@@ -62,8 +71,8 @@ ice_hockey:
     away: Kazakhstan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 4
+  status: result
   time: '14:00'
 table_tennis:
 - id: 71199222
