@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 71199254
   teams:
@@ -62,9 +62,9 @@ table_tennis:
     home: Briza, Frantisek
     away: Sulava, Lubor
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 01:00
 - id: 71199248
   teams:
@@ -73,14 +73,149 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71199210
   teams:
     home: Strnad, Jaroslav (1964)
     away: Syroha, Michal
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 01:00
+- id: 71198976
+  teams:
+    home: Horak, David
+    away: Mikuska, Alexander
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 71199190
+  teams:
+    home: Nguyen, BA Hoang Tai
+    away: Janata, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 71199182
+  teams:
+    home: Novotny, Miroslav
+    away: Vitrovyj, Oleg
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71198872
+  teams:
+    home: Briza, Frantisek
+    away: Kolar, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71199322
+  teams:
+    home: Parhomenko, Dmitro
+    away: Barta, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 71199304
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71199226
+  teams:
+    home: Janata, Tomas
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 71198870
+  teams:
+    home: Mikuska, Alexander
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71199230
+  teams:
+    home: Vitrovyj, Oleg
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 71230276
+  teams:
+    home: Kolar, Milan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71230336
+  teams:
+    home: Pycha, Patrik
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71230342
+  teams:
+    home: Syroha, Michal
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 71230338
+  teams:
+    home: Barta, Tomas
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
+- id: 71230282
+  teams:
+    home: Horak, David
+    away: Mikuska, Alexander
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 71230344
+  teams:
+    home: Vitrovyj, Oleg
+    away: Novotny, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
