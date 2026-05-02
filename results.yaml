@@ -8,9 +8,36 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
-  time: '12:10'
-ice_hockey: []
+  status: result
+  time: '12:00'
+ice_hockey:
+- id: 69829514
+  teams:
+    home: Tappara
+    away: KooKoo
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:00'
+- id: 66643536
+  teams:
+    home: Japan
+    away: France
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '10:30'
+- id: 66643538
+  teams:
+    home: Lithuania
+    away: Kazakhstan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 71199222
   teams:
@@ -858,3 +885,12 @@ table_tennis:
     away: 3
   status: result
   time: '12:30'
+- id: 71217044
+  teams:
+    home: Barta, Miroslav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
