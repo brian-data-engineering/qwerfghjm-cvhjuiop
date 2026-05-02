@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: live
+  status: result
   time: '19:15'
 basketball:
 - id: 71075340
@@ -106,7 +106,7 @@ basketball:
   score:
     home: 103
     away: 105
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 62691107
   teams:
@@ -330,9 +330,9 @@ tennis:
     home: Visker, Niels
     away: Mmoh, Michael
   score:
-    home: 1
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: recentlyended
   time: '19:35'
 ice_hockey:
 - id: 69829514
