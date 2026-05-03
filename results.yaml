@@ -14,18 +14,18 @@ basketball:
     home: Shandong Hi-Speed
     away: Flying Leopards
   score:
-    home: 93
-    away: 71
-  status: live
+    home: 98
+    away: 82
+  status: result
   time: '11:35'
 - id: 71055940
   teams:
     home: Southern Tigers
     away: Guangzhou L.L.
   score:
-    home: 81
-    away: 74
-  status: live
+    home: 90
+    away: 80
+  status: result
   time: '11:35'
 tennis: []
 ice_hockey: []
@@ -838,7 +838,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71236298
   teams:
@@ -847,7 +847,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71235534
   teams:
@@ -856,7 +856,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71235462
   teams:
@@ -865,7 +865,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71235450
   teams:
@@ -874,34 +874,34 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71255116
   teams:
     home: Barta, Tomas
     away: Nguyen, BA Hoang Tai
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '13:00'
 - id: 71255118
   teams:
     home: Cernik, Jan
     away: Medek, Josef
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '13:00'
 - id: 71255110
   teams:
     home: Dousek, Tomas
     away: Navedla, Matyas
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '13:00'
 - id: 71255124
   teams:
@@ -909,15 +909,96 @@ table_tennis:
     away: Jungman, Filip
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '13:00'
 - id: 71255132
   teams:
     home: Kern, Lukas
     away: Rychlik, Evzen
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '13:07'
+- id: 71255112
+  teams:
+    home: Grundel, Matej
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 71255122
+  teams:
+    home: Kolar, Milan
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 71255130
+  teams:
+    home: Machander, Dalimil
+    away: Pavliska, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71255114
+  teams:
+    home: Vizek, Martin
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71255120
+  teams:
+    home: Zajicek, Jan
+    away: Mares, Erik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71235590
+  teams:
+    home: Kapras, Karel
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 71236262
+  teams:
+    home: Neuwirth SR, Jaroslav
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:00'
+- id: 71235520
+  teams:
+    home: Opralka, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 71235588
+  teams:
+    home: Petracek, Vratislav
+    away: Cernik, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:00'
