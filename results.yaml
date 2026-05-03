@@ -17,6 +17,42 @@ soccer:
     away: 1
   status: result
   time: '16:30'
+- id: 69857842
+  teams:
+    home: CA Belgrano de Cordoba
+    away: CA Sarmiento Junin
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '19:00'
+- id: 69857826
+  teams:
+    home: CA Rosario Central
+    away: CA Tigre
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
+- id: 69857838
+  teams:
+    home: Gimnasia Y Esgrima La Plata
+    away: Argentinos Juniors
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
+- id: 69857836
+  teams:
+    home: Racing Club Avellaneda
+    away: CA Huracan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
 basketball:
 - id: 71055934
   teams:
@@ -61,7 +97,7 @@ basketball:
   score:
     home: 114
     away: 118
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 62691117
   teams:
@@ -99,6 +135,51 @@ basketball:
     away: 79
   status: result
   time: '13:00'
+- id: 71193386
+  teams:
+    home: Stjarnan
+    away: UMF Tindastoll
+  score:
+    home: 40
+    away: 36
+  status: live
+  time: '20:15'
+- id: 71211950
+  teams:
+    home: Igokea
+    away: Spartak Subotica
+  score:
+    home: 68
+    away: 80
+  status: result
+  time: '17:00'
+- id: 70955336
+  teams:
+    home: Enisey Krasnoyarsk
+    away: Moscow
+  score:
+    home: 65
+    away: 94
+  status: result
+  time: 09:00
+- id: 70955418
+  teams:
+    home: Parma Permsky Kray
+    away: BC Lokomotiv Kuban
+  score:
+    home: 82
+    away: 87
+  status: result
+  time: '12:00'
+- id: 71015644
+  teams:
+    home: Hapoel Beer Sheva
+    away: Hapoel Galil Elyon
+  score:
+    home: 78
+    away: 92
+  status: result
+  time: '15:35'
 tennis:
 - id: 70835998
   teams:
@@ -114,9 +195,9 @@ tennis:
     home: Onclin, Gauthier
     away: Mmoh, Michael
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '17:10'
 - id: 71001258
   teams:
@@ -169,8 +250,8 @@ tennis:
     away: Kayombo, Guelord
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:50'
 - id: 71001308
   teams:
@@ -307,33 +388,123 @@ tennis:
     away: 0
   status: result
   time: 09:00
-- id: 71242372
+- id: 71002314
   teams:
-    home: Araujo, Rai Vicente de
-    away: Tenti, Fermin
+    home: Gadamauri, Buvaysar
+    away: Dhamne, Manas
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 06:00
+- id: 71238184
+  teams:
+    home: Bar Biryukov, Petr
+    away: Huang, Tsung-Hao
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 04:00
+- id: 71238186
+  teams:
+    home: Fellin, Pietro Orlando
+    away: Moriya, Hiroki
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 04:00
+- id: 71238182
+  teams:
+    home: Vithoontien, Leo
+    away: Masur, Daniel
   score:
     home: 0
-    away: 0
-  status: live
-  time: '20:00'
-- id: 71242358
+    away: 2
+  status: result
+  time: 04:00
+- id: 71238188
   teams:
-    home: Leite, Wilson
-    away: Basel, Valentin
+    home: Ilagan, Andre
+    away: Xiao, Linang
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 05:15
+- id: 71238174
+  teams:
+    home: Delaney, Jake
+    away: Ayeni, Alafia
   score:
     home: 0
-    away: 0
-  status: live
-  time: '20:00'
-- id: 71242374
+    away: 2
+  status: result
+  time: 05:35
+- id: 71238176
   teams:
-    home: Villalon Valdes, Nicolas
-    away: Braga, Victor
+    home: Sekulic, Philip
+    away: Mochizuki, Yuki
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
-  time: '20:00'
+  status: result
+  time: 07:10
+- id: 71238180
+  teams:
+    home: Castelnuovo, Luca
+    away: Wang, Aoran
+  score:
+    home: null
+    away: null
+  status: result
+  time: 07:20
+- id: 71238170
+  teams:
+    home: Zeng, Yaojie
+    away: Milic, Ognjen
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 07:40
+- id: 71238178
+  teams:
+    home: Zhu, Evan
+    away: Shimizu, Yuta
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 08:30
+- id: 71238172
+  teams:
+    home: Sharipov, Marat
+    away: Hazawa, Shinji
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:35
+- id: 71238166
+  teams:
+    home: Takahashi, Yusuke
+    away: Jasika, Omar
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:55
+- id: 71238168
+  teams:
+    home: Matsuoka, Hayato
+    away: Sun, Qian
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
 ice_hockey:
 - id: 69757964
   teams:
@@ -367,9 +538,9 @@ ice_hockey:
     home: France
     away: Poland
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: recentlyended
   time: '17:30'
 - id: 66643926
   teams:
@@ -1810,7 +1981,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71235492
   teams:
@@ -1819,7 +1990,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71235514
   teams:
@@ -1828,7 +1999,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71236240
   teams:
@@ -1837,7 +2008,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71235542
   teams:
@@ -1846,50 +2017,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71236242
   teams:
     home: Bayer, Alesh
     away: Tuma, Daniel
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '19:30'
 - id: 71235554
   teams:
     home: Cmerda, Ondrej
     away: Huk, Martin
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '19:30'
 - id: 71235580
   teams:
     home: Osvald, Petr
     away: Oborny, Dominik
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '19:30'
 - id: 71236320
   teams:
     home: Schneeberger, Antonin
     away: Priesol, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '19:30'
 - id: 71235468
   teams:
     home: Sychra, Martin
     away: Pacha, Robin
   score:
-    home: 0
+    home: 2
+    away: 3
+  status: result
+  time: '19:30'
+- id: 71235472
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 71235524
+  teams:
+    home: Oborny, Dominik
+    away: Koral, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 71235476
+  teams:
+    home: Pacha, Robin
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 71236258
+  teams:
+    home: Priesol, Daniel
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 71236214
+  teams:
+    home: Tuma, Daniel
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 71236246
+  teams:
+    home: Kanak, Alois
+    away: Schneeberger, Antonin
+  score:
+    home: 2
     away: 1
   status: live
-  time: '19:30'
+  time: '20:30'
+- id: 71235452
+  teams:
+    home: Louda, Jiri
+    away: Cmerda, Ondrej
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '20:30'
+- id: 71235546
+  teams:
+    home: Taichman, Ivo
+    away: Osvald, Petr
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '20:30'
+- id: 71236252
+  teams:
+    home: Vinter, Tomas
+    away: Bayer, Alesh
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 71235522
+  teams:
+    home: Vondrak, Michal
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
