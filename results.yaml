@@ -27,8 +27,44 @@ basketball:
     away: 80
   status: result
   time: '11:35'
-tennis: []
-ice_hockey: []
+tennis:
+- id: 70835998
+  teams:
+    home: Sinner, Jannik
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+ice_hockey:
+- id: 69757964
+  teams:
+    home: Mannheim
+    away: Berlin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 66643542
+  teams:
+    home: Kazakhstan
+    away: Japan
+  score:
+    home: 6
+    away: 0
+  status: result
+  time: '10:30'
+- id: 66643544
+  teams:
+    home: Ukraine
+    away: Lithuania
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 71217280
   teams:
@@ -973,7 +1009,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71236262
   teams:
@@ -982,7 +1018,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71235520
   teams:
@@ -991,7 +1027,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71235588
   teams:
@@ -1000,5 +1036,86 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 71236222
+  teams:
+    home: Holubec, Jiri
+    away: Pavliska, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 71235532
+  teams:
+    home: Sychra, Martin
+    away: Kadavy, Simon
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 71235512
+  teams:
+    home: Urbaniec, Radim
+    away: Babinec, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 71235464
+  teams:
+    home: Zajicek, Jan
+    away: Medek, Josef
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 71235460
+  teams:
+    home: Cernik, Jan
+    away: Zajicek, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 71236268
+  teams:
+    home: Hudeczek, Roman
+    away: Holubec, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:00'
+- id: 71235502
+  teams:
+    home: Pagac, Zbynek
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 71236250
+  teams:
+    home: Regner, Milan
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 71235506
+  teams:
+    home: Zuzanek, Jiri
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:00'
