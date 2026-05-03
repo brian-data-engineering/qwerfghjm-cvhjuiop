@@ -22,9 +22,9 @@ soccer:
     home: CA Belgrano de Cordoba
     away: CA Sarmiento Junin
   score:
-    home: 3
+    home: 4
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 69857826
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 69857838
   teams:
@@ -42,7 +42,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 69857836
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '19:00'
 basketball:
 - id: 71055934
@@ -140,8 +140,8 @@ basketball:
     home: Stjarnan
     away: UMF Tindastoll
   score:
-    home: 40
-    away: 36
+    home: 78
+    away: 79
   status: live
   time: '20:15'
 - id: 71211950
@@ -197,7 +197,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '17:10'
 - id: 71001258
   teams:
@@ -540,7 +540,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 66643926
   teams:
@@ -2071,7 +2071,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 71235524
   teams:
@@ -2098,7 +2098,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 71236214
   teams:
@@ -2107,16 +2107,16 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 71236246
   teams:
     home: Kanak, Alois
     away: Schneeberger, Antonin
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '20:30'
 - id: 71235452
   teams:
@@ -2124,8 +2124,8 @@ table_tennis:
     away: Cmerda, Ondrej
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '20:30'
 - id: 71235546
   teams:
@@ -2133,8 +2133,8 @@ table_tennis:
     away: Osvald, Petr
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '20:30'
 - id: 71236252
   teams:
@@ -2143,7 +2143,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71235522
   teams:
@@ -2152,5 +2152,77 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
+- id: 71257870
+  teams:
+    home: Priesol, Daniel
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '21:00'
+- id: 71258030
+  teams:
+    home: Ruzicka, Jiri
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '21:00'
+- id: 71257820
+  teams:
+    home: Vinter, Tomas
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '21:00'
+- id: 71257772
+  teams:
+    home: Vondrak, Michal
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '21:00'
+- id: 71257844
+  teams:
+    home: Bayer, Alesh
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:30'
+- id: 71258032
+  teams:
+    home: Cmerda, Ondrej
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:30'
+- id: 71257796
+  teams:
+    home: Pacha, Robin
+    away: Kapras, Karel
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '21:30'
+- id: 71257868
+  teams:
+    home: Schneeberger, Antonin
+    away: Kanak, Alois
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:30'
