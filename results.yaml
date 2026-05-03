@@ -226,7 +226,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71236172
   teams:
@@ -235,7 +235,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71235548
   teams:
@@ -244,7 +244,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71236274
   teams:
@@ -253,7 +253,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71235568
   teams:
@@ -262,50 +262,185 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71235488
   teams:
     home: Darin, Kyryl
     away: Horak, David
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
 - id: 71236300
   teams:
     home: Gebek, Evald
     away: Kraninger, Tomas
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:00
 - id: 71236200
   teams:
     home: Havel, Ladislav
     away: Trojan, Frantisek
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 07:00
 - id: 71235576
   teams:
     home: Hrabec, Michal
     away: Navedla, Matyas
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
 - id: 71235458
   teams:
     home: Smesny, Milan
     away: Vrabec, Milan
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 07:00
+- id: 71236294
+  teams:
+    home: Barta, Miroslav
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71235470
+  teams:
+    home: Cabis, Michal
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 71235574
+  teams:
+    home: Hejduk, Alexander
+    away: Hyrsl, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71236270
+  teams:
+    home: Hrabec, Tomas
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71235504
+  teams:
+    home: Placek, Marek
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71236228
+  teams:
+    home: Guliak, Roman
+    away: Kraninger, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71235508
+  teams:
+    home: Hyrsl, Jiri
+    away: Vrabec, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71235480
+  teams:
+    home: Jungman, Filip
+    away: Horak, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71235496
+  teams:
+    home: Polasek, Radovan
+    away: Navedla, Matyas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 71236276
+  teams:
+    home: Syroha, Michal
+    away: Trojan, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71235466
+  teams:
+    home: Darin, Kyryl
+    away: Placek, Marek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71236310
+  teams:
+    home: Gebek, Evald
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:30
+- id: 71236304
+  teams:
+    home: Havel, Ladislav
+    away: Barta, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71235584
+  teams:
+    home: Hrabec, Michal
+    away: Cabis, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:30
+- id: 71235474
+  teams:
+    home: Smesny, Milan
+    away: Hejduk, Alexander
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
