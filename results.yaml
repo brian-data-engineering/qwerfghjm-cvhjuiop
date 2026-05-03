@@ -33,7 +33,7 @@ tennis:
     home: Sinner, Jannik
     away: Zverev, Alexander
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:00'
@@ -44,7 +44,7 @@ ice_hockey:
     away: Berlin
   score:
     home: 0
-    away: 1
+    away: 2
   status: live
   time: '14:30'
 - id: 66643542
@@ -1045,7 +1045,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71235532
   teams:
@@ -1072,7 +1072,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71235460
   teams:
@@ -1081,7 +1081,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71236268
   teams:
@@ -1090,7 +1090,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71235502
   teams:
@@ -1099,7 +1099,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71236250
   teams:
@@ -1108,7 +1108,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71235506
   teams:
@@ -1117,5 +1117,95 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 71235582
+  teams:
+    home: Babinec, Zdenek
+    away: Opralka, Roman
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:30'
+- id: 71235478
+  teams:
+    home: Kadavy, Simon
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
+- id: 71235456
+  teams:
+    home: Medek, Josef
+    away: Petracek, Vratislav
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '15:30'
+- id: 71236308
+  teams:
+    home: Pavliska, Martin
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
+- id: 71236286
+  teams:
+    home: Tacinec, Martin
+    away: Tuma, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 71235550
+  teams:
+    home: Kapras, Karel
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:00'
+- id: 71236272
+  teams:
+    home: Neuwirth SR, Jaroslav
+    away: Holubec, Jiri
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
+- id: 71235516
+  teams:
+    home: Opralka, Roman
+    away: Urbaniec, Radim
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
+- id: 71235530
+  teams:
+    home: Petracek, Vratislav
+    away: Zajicek, Jan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:00'
+- id: 71236170
+  teams:
+    home: Tuma, Miroslav
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '16:00'
