@@ -595,7 +595,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71235510
   teams:
@@ -604,7 +604,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71236288
   teams:
@@ -613,7 +613,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71235560
   teams:
@@ -622,7 +622,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71236256
   teams:
@@ -631,16 +631,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71235538
   teams:
     home: Cernik, Jan
     away: Zajicek, Jan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
 - id: 71236316
   teams:
@@ -648,26 +648,26 @@ table_tennis:
     away: Kolar, Milan
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '10:30'
 - id: 71236198
   teams:
     home: Machander, Dalimil
     away: Pavliska, Martin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '10:30'
 - id: 71235528
   teams:
     home: Navedla, Matyas
     away: Grundel, Matej
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:30'
 - id: 71235500
   teams:
@@ -675,6 +675,96 @@ table_tennis:
     away: Vizek, Martin
   score:
     home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71236190
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 71236194
+  teams:
+    home: Kern, Lukas
+    away: Machander, Dalimil
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 71235544
+  teams:
+    home: Medek, Josef
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 71235564
+  teams:
+    home: Prokupek, Jaroslav
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 71235454
+  teams:
+    home: Urbaniec, Radim
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 71235572
+  teams:
+    home: Grundel, Matej
+    away: Dousek, Tomas
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '11:30'
+- id: 71236230
+  teams:
+    home: Kolar, Milan
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:30'
+- id: 71236218
+  teams:
+    home: Pavliska, Martin
+    away: Rychlik, Evzen
+  score:
+    home: 2
     away: 0
   status: live
-  time: '10:30'
+  time: '11:30'
+- id: 71235570
+  teams:
+    home: Vizek, Martin
+    away: Barta, Tomas
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '11:30'
+- id: 71235494
+  teams:
+    home: Zajicek, Jan
+    away: Mares, Erik
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '11:30'
