@@ -8,7 +8,25 @@ soccer:
     away: 2
   status: result
   time: 00:15
-basketball: []
+basketball:
+- id: 71055934
+  teams:
+    home: Shandong Hi-Speed
+    away: Flying Leopards
+  score:
+    home: 93
+    away: 71
+  status: live
+  time: '11:35'
+- id: 71055940
+  teams:
+    home: Southern Tigers
+    away: Guangzhou L.L.
+  score:
+    home: 81
+    away: 74
+  status: live
+  time: '11:35'
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -685,7 +703,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 71236194
   teams:
@@ -694,7 +712,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 71235544
   teams:
@@ -703,7 +721,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 71235564
   teams:
@@ -721,16 +739,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 71235572
   teams:
     home: Grundel, Matej
     away: Dousek, Tomas
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '11:30'
 - id: 71236230
   teams:
@@ -739,32 +757,167 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 71236218
   teams:
     home: Pavliska, Martin
     away: Rychlik, Evzen
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '11:30'
 - id: 71235570
   teams:
     home: Vizek, Martin
     away: Barta, Tomas
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '11:30'
 - id: 71235494
   teams:
     home: Zajicek, Jan
     away: Mares, Erik
   score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 71235490
+  teams:
+    home: Barta, Tomas
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 71235558
+  teams:
+    home: Dousek, Tomas
+    away: Navedla, Matyas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 71236278
+  teams:
+    home: Jungman, Filip
+    away: Horak, David
+  score:
     home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 71235484
+  teams:
+    home: Mares, Erik
+    away: Cernik, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 71236302
+  teams:
+    home: Rychlik, Evzen
+    away: Machander, Dalimil
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 71236280
+  teams:
+    home: Briza, Frantisek
+    away: Kolar, Milan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 71236298
+  teams:
+    home: Kern, Lukas
+    away: Pavliska, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:30'
+- id: 71235534
+  teams:
+    home: Medek, Josef
+    away: Zajicek, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 71235462
+  teams:
+    home: Prokupek, Jaroslav
+    away: Vizek, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 71235450
+  teams:
+    home: Urbaniec, Radim
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:30'
+- id: 71255116
+  teams:
+    home: Barta, Tomas
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '13:00'
+- id: 71255118
+  teams:
+    home: Cernik, Jan
+    away: Medek, Josef
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '13:00'
+- id: 71255110
+  teams:
+    home: Dousek, Tomas
+    away: Navedla, Matyas
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:00'
+- id: 71255124
+  teams:
+    home: Horak, David
+    away: Jungman, Filip
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '13:00'
+- id: 71255132
+  teams:
+    home: Kern, Lukas
+    away: Rychlik, Evzen
+  score:
+    home: 1
     away: 0
   status: live
-  time: '11:30'
+  time: '13:07'
