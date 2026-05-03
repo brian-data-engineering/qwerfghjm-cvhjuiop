@@ -60,7 +60,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: recentlyended
   time: '21:30'
 - id: 67118362
   teams:
@@ -338,8 +338,8 @@ soccer:
     away: Red Bull Bragantino SP
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '21:30'
 - id: 66886750
   teams:
@@ -348,7 +348,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '21:30'
 basketball:
 - id: 71055934
@@ -439,7 +439,7 @@ basketball:
   score:
     home: 97
     away: 103
-  status: recentlyended
+  status: result
   time: '20:15'
 - id: 71211950
   teams:
@@ -902,6 +902,87 @@ ice_hockey:
     away: 0
   status: result
   time: 00:00
+- id: 70558056
+  teams:
+    home: Tampa Bay
+    away: Montreal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:00'
+- id: 70963306
+  teams:
+    home: Chicago
+    away: Texas
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:00
+- id: 71100166
+  teams:
+    home: Manitoba Moose
+    away: Grand Rapids
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '19:00'
+- id: 71215316
+  teams:
+    home: Syracuse
+    away: Cleveland Monsters
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 71215314
+  teams:
+    home: Chicago
+    away: Texas
+  score:
+    home: 4
+    away: 5
+  status: recentlyended
+  time: '20:00'
+- id: 71100104
+  teams:
+    home: Toronto
+    away: Laval Rocket
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: '20:00'
+- id: 71100160
+  teams:
+    home: Providence
+    away: Springfield
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '23:05'
+- id: 71176020
+  teams:
+    home: Fort Wayne
+    away: Indy
+  score:
+    home: 4
+    away: 0
+  status: recentlyended
+  time: '21:05'
+- id: 71213380
+  teams:
+    home: Toledo
+    away: Bloomington Bison
+  score:
+    home: 5
+    away: 2
+  status: live
+  time: '21:15'
 table_tennis:
 - id: 71217280
   teams:
@@ -2530,7 +2611,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71236188
   teams:
@@ -2539,7 +2620,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71236244
   teams:
@@ -2556,8 +2637,8 @@ table_tennis:
     away: Steffan, Jan
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '22:30'
 - id: 71236238
   teams:
@@ -2566,14 +2647,32 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:30'
 - id: 71236236
   teams:
     home: Vedmoch, Michal
     away: Prokupek, Jaroslav
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '22:30'
+- id: 71236224
+  teams:
+    home: Darin, Kyryl
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 71236290
+  teams:
+    home: Prokupek, Jaroslav
+    away: Postelt, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '23:00'
