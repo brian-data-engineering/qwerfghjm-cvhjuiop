@@ -41,9 +41,9 @@ basketball:
     home: Opava
     away: Usti Nad Labem
   score:
-    home: 77
-    away: 64
-  status: live
+    home: 108
+    away: 89
+  status: recentlyended
   time: '16:00'
 - id: 62280776
   teams:
@@ -59,8 +59,8 @@ basketball:
     home: Strasbourg
     away: AS Monaco
   score:
-    home: 23
-    away: 28
+    home: 57
+    away: 63
   status: live
   time: '17:00'
 - id: 62691117
@@ -86,9 +86,9 @@ basketball:
     home: Bamberg
     away: Hamburg
   score:
-    home: 65
-    away: 54
-  status: live
+    home: 85
+    away: 71
+  status: recentlyended
   time: '16:00'
 - id: 71076908
   teams:
@@ -114,7 +114,7 @@ tennis:
     home: Onclin, Gauthier
     away: Mmoh, Michael
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '17:10'
@@ -169,7 +169,7 @@ tennis:
     away: Kayombo, Guelord
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '16:50'
 - id: 71001308
@@ -276,9 +276,9 @@ tennis:
     home: Ciurnelli, Raffaele
     away: Andaloro, Fabrizio
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:40'
 - id: 71001696
   teams:
@@ -315,7 +315,7 @@ ice_hockey:
   score:
     home: 1
     away: 4
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 66643542
   teams:
@@ -335,6 +335,78 @@ ice_hockey:
     away: 1
   status: result
   time: '14:00'
+- id: 66643546
+  teams:
+    home: France
+    away: Poland
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:30'
+- id: 66643926
+  teams:
+    home: Estonia
+    away: Romania
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:30
+- id: 66643928
+  teams:
+    home: Republic of Korea
+    away: Netherlands
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: 08:00
+- id: 66643930
+  teams:
+    home: China
+    away: Spain
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 70989076
+  teams:
+    home: Sweden
+    away: Finland
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 70989246
+  teams:
+    home: Czech Republic
+    away: Switzerland
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '14:00'
+- id: 69025098
+  teams:
+    home: Magnitogorsk
+    away: Bars Kazan
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '11:00'
+- id: 70558158
+  teams:
+    home: Carolina
+    away: Philadelphia
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71217280
   teams:
@@ -1513,7 +1585,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71235540
   teams:
@@ -1524,6 +1596,33 @@ table_tennis:
     away: 1
   status: result
   time: '16:30'
+- id: 71256598
+  teams:
+    home: Cernik, Jan
+    away: Petracek, Vratislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71256592
+  teams:
+    home: Hudeczek, Roman
+    away: Holubec, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 71256620
+  teams:
+    home: Kadavy, Simon
+    away: Kapras, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
 - id: 71256588
   teams:
     home: Opralka, Roman
@@ -1531,5 +1630,104 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
+- id: 71256634
+  teams:
+    home: Tuma, Miroslav
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:07'
+- id: 71256590
+  teams:
+    home: Babinec, Zdenek
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:30'
+- id: 71256600
+  teams:
+    home: Medek, Josef
+    away: Zajicek, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 71256632
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Tacinec, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:30'
+- id: 71256594
+  teams:
+    home: Pavliska, Martin
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71256622
+  teams:
+    home: Sychra, Martin
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71235536
+  teams:
+    home: Huk, Martin
+    away: Louda, Jiri
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:00'
+- id: 71235556
+  teams:
+    home: Oborny, Dominik
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:00'
+- id: 71235498
+  teams:
+    home: Pacha, Robin
+    away: Vondrak, Michal
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:00'
+- id: 71236174
+  teams:
+    home: Priesol, Daniel
+    away: Kanak, Alois
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '18:00'
+- id: 71236260
+  teams:
+    home: Tuma, Daniel
+    away: Vinter, Tomas
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:00'
