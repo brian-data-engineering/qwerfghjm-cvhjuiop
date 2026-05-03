@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '16:30'
 basketball:
 - id: 71055934
@@ -43,7 +43,7 @@ basketball:
   score:
     home: 108
     away: 89
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 62280776
   teams:
@@ -59,9 +59,9 @@ basketball:
     home: Strasbourg
     away: AS Monaco
   score:
-    home: 57
-    away: 63
-  status: live
+    home: 114
+    away: 118
+  status: recentlyended
   time: '17:00'
 - id: 62691117
   teams:
@@ -88,7 +88,7 @@ basketball:
   score:
     home: 85
     away: 71
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71076908
   teams:
@@ -168,7 +168,7 @@ tennis:
     home: Vilmaure, Gauderic
     away: Kayombo, Guelord
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '16:50'
@@ -307,6 +307,33 @@ tennis:
     away: 0
   status: result
   time: 09:00
+- id: 71242372
+  teams:
+    home: Araujo, Rai Vicente de
+    away: Tenti, Fermin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
+- id: 71242358
+  teams:
+    home: Leite, Wilson
+    away: Basel, Valentin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
+- id: 71242374
+  teams:
+    home: Villalon Valdes, Nicolas
+    away: Braga, Victor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 ice_hockey:
 - id: 69757964
   teams:
@@ -340,8 +367,8 @@ ice_hockey:
     home: France
     away: Poland
   score:
-    home: 0
-    away: 0
+    home: 2
+    away: 2
   status: live
   time: '17:30'
 - id: 66643926
@@ -1648,7 +1675,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71256600
   teams:
@@ -1657,7 +1684,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71256632
   teams:
@@ -1666,7 +1693,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71256594
   teams:
@@ -1691,43 +1718,178 @@ table_tennis:
     home: Huk, Martin
     away: Louda, Jiri
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:00'
 - id: 71235556
   teams:
     home: Oborny, Dominik
     away: Taichman, Ivo
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:00'
 - id: 71235498
   teams:
     home: Pacha, Robin
     away: Vondrak, Michal
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:00'
 - id: 71236174
   teams:
     home: Priesol, Daniel
     away: Kanak, Alois
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:00'
 - id: 71236260
   teams:
     home: Tuma, Daniel
     away: Vinter, Tomas
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:00'
+- id: 71235566
+  teams:
+    home: Kapras, Karel
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 71235526
+  teams:
+    home: Koral, Michal
+    away: Osvald, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71235586
+  teams:
+    home: Ruzicka, Jiri
+    away: Cmerda, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71236264
+  teams:
+    home: Zurek, Filip
+    away: Schneeberger, Antonin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71236180
+  teams:
+    home: Zuzanek, Jiri
+    away: Bayer, Alesh
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71236292
+  teams:
+    home: Kanak, Alois
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71235492
+  teams:
+    home: Louda, Jiri
+    away: Ruzicka, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71235514
+  teams:
+    home: Taichman, Ivo
+    away: Koral, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 71236240
+  teams:
+    home: Vinter, Tomas
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:00'
+- id: 71235542
+  teams:
+    home: Vondrak, Michal
+    away: Kapras, Karel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71236242
+  teams:
+    home: Bayer, Alesh
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:30'
+- id: 71235554
+  teams:
+    home: Cmerda, Ondrej
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:30'
+- id: 71235580
+  teams:
+    home: Osvald, Petr
+    away: Oborny, Dominik
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:30'
+- id: 71236320
+  teams:
+    home: Schneeberger, Antonin
+    away: Priesol, Daniel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:30'
+- id: 71235468
+  teams:
+    home: Sychra, Martin
+    away: Pacha, Robin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:30'
