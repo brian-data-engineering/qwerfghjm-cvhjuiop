@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 70992250
+  teams:
+    home: CR Belouizdad
+    away: USM Khenchela
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '16:45'
 basketball: []
 tennis:
 - id: 71255346
@@ -141,9 +150,9 @@ tennis:
     home: Bondioli, Federico
     away: Nava, Emilio
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '13:20'
 - id: 71255368
   teams:
@@ -161,7 +170,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:45'
 - id: 71255350
   teams:
@@ -169,8 +178,8 @@ tennis:
     away: Svrcina, Dalibor
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:55'
 - id: 71255370
   teams:
@@ -179,9 +188,36 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:55'
-ice_hockey: []
+ice_hockey:
+- id: 69829520
+  teams:
+    home: KooKoo
+    away: Tappara
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '15:30'
+- id: 69025006
+  teams:
+    home: Avangard Omsk
+    away: Lok Yaroslavl
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 70558030
+  teams:
+    home: Colorado
+    away: Minnesota
+  score:
+    home: 9
+    away: 6
+  status: result
+  time: 01:00
 table_tennis:
 - id: 71254026
   teams:
