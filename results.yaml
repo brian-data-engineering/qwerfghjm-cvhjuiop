@@ -96,9 +96,9 @@ tennis:
     home: Kypson, Patrick
     away: Pinnington Jones, Jack
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '10:50'
 - id: 71255380
   teams:
@@ -106,8 +106,8 @@ tennis:
     away: Droguet, Titouan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:20'
 - id: 71255360
   teams:
@@ -116,17 +116,71 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '11:55'
 - id: 71255348
   teams:
     home: Budkov Kjaer, Nicolai
     away: Virtanen, Otto
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:05'
+- id: 71255362
+  teams:
+    home: Landaluce, Martin
+    away: O'Connell, Christopher
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:15'
+- id: 71255384
+  teams:
+    home: Bondioli, Federico
+    away: Nava, Emilio
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:20'
+- id: 71255368
+  teams:
+    home: Mochizuki, Shintaro
+    away: Fearnley, Jacob
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:20'
+- id: 71255386
+  teams:
+    home: Prizmic, Dino
+    away: Rodesch, Chris
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:45'
+- id: 71255350
+  teams:
+    home: Bonzi, Benjamin
+    away: Svrcina, Dalibor
+  score:
     home: 0
     away: 1
   status: live
-  time: '12:05'
+  time: '13:55'
+- id: 71255370
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Carboni, Lorenzo
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:55'
 ice_hockey: []
 table_tennis:
 - id: 71254026
