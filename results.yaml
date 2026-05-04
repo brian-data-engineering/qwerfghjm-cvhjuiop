@@ -6,18 +6,18 @@ tennis:
     home: Comesana, Francisco
     away: Harris, Billy
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 08:00
 - id: 71255390
   teams:
     home: Garin, Cristian
     away: Echargui, Moez
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 08:00
 - id: 71255364
   teams:
@@ -25,17 +25,17 @@ tennis:
     away: De Jong, Jesper
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 08:00
 - id: 71255354
   teams:
     home: Merida, Daniel
     away: McDonald, Mackenzie
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 08:00
 - id: 71255352
   teams:
@@ -43,9 +43,63 @@ tennis:
     away: Barrios Vera, Tomas
   score:
     home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 71255378
+  teams:
+    home: Carreno Busta, Pablo
+    away: Damm Jr, Martin
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: 09:40
+- id: 71255376
+  teams:
+    home: Travaglia, Stefano
+    away: Wawrinka, Stan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:40
+- id: 71255366
+  teams:
+    home: Van Assche, Luca
+    away: Dellien, Hugo
+  score:
+    home: 0
     away: 1
   status: live
-  time: 08:00
+  time: 09:55
+- id: 71255388
+  teams:
+    home: Lajovic, Dusan
+    away: Choinski, Jan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
+- id: 71255344
+  teams:
+    home: Riedi, Leandro
+    away: Gaubas, Vilius
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 71255382
+  teams:
+    home: Kypson, Patrick
+    away: Pinnington Jones, Jack
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:50'
 ice_hockey: []
 table_tennis:
 - id: 71254026
