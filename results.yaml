@@ -53,7 +53,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 09:40
 - id: 71255376
   teams:
@@ -61,8 +61,8 @@ tennis:
     away: Wawrinka, Stan
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 09:40
 - id: 71255366
   teams:
@@ -70,8 +70,8 @@ tennis:
     away: Dellien, Hugo
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 09:55
 - id: 71255388
   teams:
@@ -79,17 +79,17 @@ tennis:
     away: Choinski, Jan
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '10:00'
 - id: 71255344
   teams:
     home: Riedi, Leandro
     away: Gaubas, Vilius
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '10:00'
 - id: 71255382
   teams:
@@ -97,9 +97,36 @@ tennis:
     away: Pinnington Jones, Jack
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '10:50'
+- id: 71255380
+  teams:
+    home: Martin Manzano, Juan Cruz
+    away: Droguet, Titouan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '11:20'
+- id: 71255360
+  teams:
+    home: Pellegrino, Andrea
+    away: Gaston, Hugo
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '11:55'
+- id: 71255348
+  teams:
+    home: Budkov Kjaer, Nicolai
+    away: Virtanen, Otto
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:05'
 ice_hockey: []
 table_tennis:
 - id: 71254026
