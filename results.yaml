@@ -31,9 +31,9 @@ soccer:
     home: Al Riffa
     away: Al-Shabbab
   score:
-    home: 3
+    home: 4
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 71114132
   teams:
@@ -42,8 +42,179 @@ soccer:
   score:
     home: 0
     away: 2
-  status: live
+  status: result
   time: '16:00'
+- id: 69254992
+  teams:
+    home: Ypiranga FC
+    away: Ituano
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 70906760
+  teams:
+    home: PFK Beroe Stara Zagora
+    away: PFC Montana 1921
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '14:30'
+- id: 70906764
+  teams:
+    home: Lokomotive Sofia
+    away: POFC Botev Vratsa
+  score:
+    home: 2
+    away: 2
+  status: recentlyended
+  time: '17:00'
+- id: 68097876
+  teams:
+    home: Arica
+    away: Recoleta
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:30
+- id: 70759056
+  teams:
+    home: D. Concepcion
+    away: Huachipato
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 00:30
+- id: 68995108
+  teams:
+    home: Qingdao West Coast
+    away: Tianjin
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '11:00'
+- id: 68995112
+  teams:
+    home: Liaoning
+    away: Chengdu Rongcheng
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '11:35'
+- id: 68995110
+  teams:
+    home: Shandong Taishan
+    away: Shanghai Shenhua
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '11:35'
+- id: 68995114
+  teams:
+    home: Chongqing T.
+    away: Henan
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '12:00'
+- id: 70989626
+  teams:
+    home: Quindio
+    away: Tigres
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:00
+- id: 69879948
+  teams:
+    home: AL Ahly SC
+    away: Enppi Club
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '17:00'
+- id: 69879950
+  teams:
+    home: Ceramica Cleopatra
+    away: Pyramids FC
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '17:00'
+- id: 69879946
+  teams:
+    home: Smouha SC
+    away: Zamalek SC
+  score:
+    home: 0
+    away: 1
+  status: recentlyended
+  time: '17:00'
+- id: 67091290
+  teams:
+    home: IF Gnistan
+    away: FC Inter Turku
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 70224414
+  teams:
+    home: FC Torpedo Kutaisi
+    away: Rustavi
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '16:00'
+- id: 68746486
+  teams:
+    home: Mumbai City
+    away: SC East Bengal
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 70963054
+  teams:
+    home: Gokulam Kerala FC
+    away: Aizawl FC
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '13:00'
+- id: 62083152
+  teams:
+    home: Madura United
+    away: Bali United
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:30
+- id: 62083150
+  teams:
+    home: Borneo Samarinda
+    away: Persita Tangerang
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
 basketball: []
 tennis: []
 ice_hockey:
@@ -65,6 +236,51 @@ ice_hockey:
     away: 3
   status: result
   time: '14:00'
+- id: 66643552
+  teams:
+    home: Kazakhstan
+    away: Poland
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:30'
+- id: 66643934
+  teams:
+    home: Romania
+    away: Republic of Korea
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: 04:30
+- id: 66643936
+  teams:
+    home: Spain
+    away: Netherlands
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: 08:00
+- id: 66643938
+  teams:
+    home: Estonia
+    away: China
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '11:30'
+- id: 70558020
+  teams:
+    home: Vegas Golden Knights
+    away: Anaheim
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
 table_tennis:
 - id: 71248924
   teams:
