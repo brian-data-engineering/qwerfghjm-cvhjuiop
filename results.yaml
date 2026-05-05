@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 basketball: []
 tennis: []
@@ -38,6 +38,15 @@ ice_hockey:
     away: 3
   status: result
   time: '10:30'
+- id: 66643550
+  teams:
+    home: France
+    away: Ukraine
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 71248924
   teams:
