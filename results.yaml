@@ -49,9 +49,9 @@ soccer:
     home: Ypiranga FC
     away: Ituano
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:00'
 - id: 70906760
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 2
     away: 2
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 68097876
   teams:
@@ -141,7 +141,7 @@ soccer:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 69879950
   teams:
@@ -150,7 +150,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 69879946
   teams:
@@ -159,7 +159,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 67091290
   teams:
@@ -215,6 +215,15 @@ soccer:
     away: 0
   status: result
   time: '12:00'
+- id: 69339436
+  teams:
+    home: Arsenal
+    away: Atletico Madrid
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
 basketball: []
 tennis: []
 ice_hockey:
@@ -241,9 +250,9 @@ ice_hockey:
     home: Kazakhstan
     away: Poland
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '17:30'
 - id: 66643934
   teams:
