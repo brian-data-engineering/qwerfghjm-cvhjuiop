@@ -26,6 +26,24 @@ soccer:
     away: 3
   status: result
   time: '12:00'
+- id: 71114130
+  teams:
+    home: Al Riffa
+    away: Al-Shabbab
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '16:00'
+- id: 71114132
+  teams:
+    home: Sitra Club
+    away: Al-Ahli SC Manama
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '16:00'
 basketball: []
 tennis: []
 ice_hockey:
@@ -45,7 +63,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '14:00'
 table_tennis:
 - id: 71248924
