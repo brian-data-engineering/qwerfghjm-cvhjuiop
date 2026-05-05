@@ -19,7 +19,16 @@ soccer:
   time: 00:30
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 66643548
+  teams:
+    home: Lithuania
+    away: Japan
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '10:30'
 table_tennis:
 - id: 71248924
   teams:
