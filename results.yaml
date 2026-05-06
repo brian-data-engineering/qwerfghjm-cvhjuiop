@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 70852952
+  teams:
+    home: HSK Zrinjski Mostar
+    away: FK Velez Mostar
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
 basketball:
 - id: 71255184
   teams:
@@ -98,25 +107,25 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:15'
 - id: 71284818
   teams:
     home: Arnaldi, Matteo
     away: Munar, Jaume
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '13:35'
 - id: 71322506
   teams:
     home: Vukic, Aleksandar
     away: Kypson, Patrick
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: recentlyended
   time: '14:40'
 - id: 71322508
   teams:
@@ -124,10 +133,37 @@ tennis:
     away: Borges, Nuno
   score:
     home: 0
+    away: 2
+  status: result
+  time: '14:55'
+- id: 71322514
+  teams:
+    home: Carreno Busta, Pablo
+    away: Tabilo, Alejandro
+  score:
+    home: 0
     away: 0
   status: live
-  time: '14:55'
-ice_hockey: []
+  time: '16:10'
+ice_hockey:
+- id: 69829522
+  teams:
+    home: Tappara
+    away: KooKoo
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 70931932
+  teams:
+    home: Latvia
+    away: Norway
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:30'
 table_tennis:
 - id: 71279636
   teams:
@@ -964,7 +1000,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71309350
   teams:
@@ -973,7 +1009,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71309140
   teams:
@@ -982,7 +1018,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71309310
   teams:
@@ -991,7 +1027,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71309326
   teams:
@@ -1000,7 +1036,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71309154
   teams:
@@ -1008,8 +1044,8 @@ table_tennis:
     away: Dolezal, Vaclav
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 71309354
   teams:
@@ -1017,17 +1053,17 @@ table_tennis:
     away: Cernin, Tomas
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 71309264
   teams:
     home: Huk, Martin
     away: Ruzicka, Jiri
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:00'
 - id: 71309168
   teams:
@@ -1035,15 +1071,150 @@ table_tennis:
     away: Postelt, Tomas
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 71309182
   teams:
     home: Solansky, Petr
     away: Simecek, Jakub
   score:
-    home: 0
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '15:00'
+- id: 71309244
+  teams:
+    home: Hasmanda, Rostislav
+    away: Bartunek, Radek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 71309204
+  teams:
+    home: Jezek, Michal
+    away: Volhejn, Dan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 71309270
+  teams:
+    home: Stoch, Jan
+    away: Kern, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 71309260
+  teams:
+    home: Vavrecka, Radomir
+    away: Bereiter, Marek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 71309378
+  teams:
+    home: Vejvoda, Viktor
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 71309178
+  teams:
+    home: Bartunek, Radek
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71309334
+  teams:
+    home: Bereiter, Marek
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71309222
+  teams:
+    home: Kern, Lukas
+    away: Cernin, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71309190
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Ruzicka, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71309330
+  teams:
+    home: Volhejn, Dan
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71309176
+  teams:
+    home: Fisera, Milan
+    away: Hasmanda, Rostislav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 71309376
+  teams:
+    home: Heczko, David
+    away: Stoch, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 71309136
+  teams:
+    home: Huk, Martin
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:30'
+- id: 71309192
+  teams:
+    home: Kanera, Jan
+    away: Jezek, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 71309128
+  teams:
+    home: Solansky, Petr
+    away: Vavrecka, Radomir
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:30'
