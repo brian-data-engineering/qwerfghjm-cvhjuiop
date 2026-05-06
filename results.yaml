@@ -13,10 +13,244 @@ soccer:
     home: Abc FC
     away: SD Juazeirense BA
   score:
-    home: 2
+    home: 4
+    away: 0
+  status: recentlyended
+  time: '22:00'
+- id: 71138656
+  teams:
+    home: Moto Club MA
+    away: Sampaio Correa FC
+  score:
+    home: 0
     away: 0
   status: live
-  time: '22:00'
+  time: '22:30'
+- id: 70906766
+  teams:
+    home: PFC Slavia Sofia
+    away: FK Septemvri Sofia
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:30'
+- id: 70906762
+  teams:
+    home: FK Spartak 1918 Varna
+    away: PFC Dobrudzha Dobrich
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '17:00'
+- id: 68995116
+  teams:
+    home: Wuhan Three Towns
+    away: Qingdao Hainiu
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 68995120
+  teams:
+    home: Beijing Guoan
+    away: Dalian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:35'
+- id: 68995118
+  teams:
+    home: Shanghai Port
+    away: Shenzhen Peng
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '11:35'
+- id: 68995122
+  teams:
+    home: Yunnan Yukun
+    away: Zhejiang
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:00'
+- id: 71056604
+  teams:
+    home: AEK Larnaca
+    away: Apollon Limassol
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '16:00'
+- id: 71056608
+  teams:
+    home: Aris Limassol
+    away: Apoel Nicosia
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '16:00'
+- id: 71056606
+  teams:
+    home: Pafos
+    away: Omonia Nicosia
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 61326617
+  teams:
+    home: Banik Ostrava B
+    away: Zbrojovka Brno
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '15:00'
+- id: 61326615
+  teams:
+    home: C. Budejovice
+    away: Vysocina Jihlava
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 61326619
+  teams:
+    home: Slavia Kromeriz
+    away: Slavia Prague B
+  score:
+    home: 5
+    away: 0
+  status: result
+  time: '15:00'
+- id: 61326609
+  teams:
+    home: Sparta Prague B
+    away: SK Prostejov
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '15:00'
+- id: 61326613
+  teams:
+    home: FC Vlasim
+    away: Viktoria Zizkov
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 62091688
+  teams:
+    home: Lisen Brno
+    away: FK Pribram
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 61326607
+  teams:
+    home: Mas Taborsko
+    away: MFK Chrudim
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 61326611
+  teams:
+    home: Usti nad
+    away: Opava
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:00'
+- id: 69523300
+  teams:
+    home: Brighton Women
+    away: Arsenal W
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '18:45'
+- id: 70224420
+  teams:
+    home: FC Dila Gori
+    away: FC Iberia 1999
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '15:00'
+- id: 70224416
+  teams:
+    home: Samgurali Tskaltubo
+    away: Meshakhte Tkibuli
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 70224412
+  teams:
+    home: FC Gagra
+    away: FC Dinamo Batumi
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:00'
+- id: 69960884
+  teams:
+    home: Hannover II
+    away: Emden
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 69960718
+  teams:
+    home: Lubeck
+    away: Oldenburg
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 70760980
+  teams:
+    home: St. Pauli II
+    away: Bremer SV
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '17:00'
+- id: 61970254
+  teams:
+    home: 'Bayern Munich Women '
+    away: Hoffenheim Women
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '16:00'
 basketball:
 - id: 71255184
   teams:
@@ -257,8 +491,8 @@ basketball:
     home: Club Malvin
     away: Defensor Sporting
   score:
-    home: 38
-    away: 39
+    home: 77
+    away: 75
   status: live
   time: '22:15'
 - id: 70504968
@@ -270,6 +504,15 @@ basketball:
     away: 90
   status: result
   time: 00:30
+- id: 70504978
+  teams:
+    home: NY Knicks
+    away: Philadelphia
+  score:
+    home: 33
+    away: 38
+  status: live
+  time: '23:00'
 tennis:
 - id: 71284814
   teams:
@@ -727,17 +970,17 @@ tennis:
     away: Dutra Da Silva D / Mena F
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '21:35'
 - id: 71256544
   teams:
     home: Pereira J / Schiessl J E
     away: Basel V / de la Fuente S
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '22:25'
 - id: 71183392
   teams:
@@ -821,6 +1064,51 @@ ice_hockey:
     away: 2
   status: result
   time: 00:00
+- id: 70558180
+  teams:
+    home: Buffalo
+    away: Montreal
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '23:00'
+- id: 71259110
+  teams:
+    home: Chicago
+    away: Texas
+  score:
+    home: 6
+    away: 1
+  status: result
+  time: 00:00
+- id: 71100140
+  teams:
+    home: Coachella Valley Firebirds
+    away: Ontario Reign
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 02:00
+- id: 71100168
+  teams:
+    home: Grand Rapids
+    away: Manitoba Moose
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '23:00'
+- id: 71327432
+  teams:
+    home: Maine
+    away: Adirondack
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:00'
 table_tennis:
 - id: 71279636
   teams:
@@ -2449,7 +2737,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '22:30'
 - id: 71309162
   teams:
@@ -2458,7 +2746,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:30'
 - id: 71309242
   teams:
@@ -2467,5 +2755,59 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '22:30'
+- id: 71309340
+  teams:
+    home: Huk, Martin
+    away: Cmerda, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '23:00'
+- id: 71309368
+  teams:
+    home: Plachy, Jiri
+    away: Zvrtek, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '23:00'
+- id: 71309256
+  teams:
+    home: Potensky, Jan
+    away: Pelikan, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '23:00'
+- id: 71309184
+  teams:
+    home: Barta, Tomas
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '23:30'
+- id: 71309306
+  teams:
+    home: Svacha, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:30'
+- id: 71309316
+  teams:
+    home: Tomasch, David
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:30'
