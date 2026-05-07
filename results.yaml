@@ -22,9 +22,9 @@ soccer:
     home: MC Oran
     away: ASO Chlef
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '19:00'
 - id: 71198456
   teams:
@@ -222,9 +222,9 @@ tennis:
     home: Pellegrino, Andrea
     away: Nardi, Luca
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 71284840
   teams:
@@ -233,7 +233,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:05'
 - id: 71197136
   teams:
@@ -286,8 +286,8 @@ tennis:
     away: Perez B / Ribero F
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '19:00'
 - id: 71197206
   teams:
@@ -295,9 +295,180 @@ tennis:
     away: Lock C J / Maginley J
   score:
     home: 0
+    away: 2
+  status: result
+  time: '19:00'
+- id: 71197210
+  teams:
+    home: Lalami Laaroussi Y / Marrero Curbelo I
+    away: Geerts M / Mansouri S
+  score:
+    home: 0
     away: 1
   status: live
-  time: '19:00'
+  time: '20:20'
+- id: 71195606
+  teams:
+    home: Prado Angelo, Juan Carlos
+    away: Seggerman, Ryan
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:20'
+- id: 71195604
+  teams:
+    home: Clarke, Jay
+    away: Basavareddy, Nishesh
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:05'
+- id: 71195586
+  teams:
+    home: Ferreira Silva, Frederico
+    away: Tseng, Chun Hsin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 71195588
+  teams:
+    home: Diaz Acosta, Facundo
+    away: Sanchez Izquierdo, Nikolas
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:00'
+- id: 71195616
+  teams:
+    home: Romboli F / Smith J-P
+    away: Kiger M / Stalder R
+  score:
+    home: null
+    away: null
+  status: result
+  time: 09:00
+- id: 71195626
+  teams:
+    home: Escobar G / Serdarusic N
+    away: Vocel M / Vrbensky M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71195628
+  teams:
+    home: Bayldon B / Veldheer M
+    away: Reymond A / Sanchez L
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:55'
+- id: 71195624
+  teams:
+    home: Latinovic S / Liutarevich I
+    away: Kittay B / Seggerman R
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:15'
+- id: 71197160
+  teams:
+    home: Casanova, Hernan
+    away: Kicker, Nicolas
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 71197168
+  teams:
+    home: Huertas Del Pino, Connor
+    away: Roncadelli, Franco
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:30'
+- id: 71197162
+  teams:
+    home: Dellien, Murkel
+    away: Hardt, Nick
+  score:
+    home: null
+    away: null
+  status: result
+  time: '15:00'
+- id: 71197166
+  teams:
+    home: Justo, Guido Ivan
+    away: Rodriguez, Lorenzo Joaquin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:50'
+- id: 71197170
+  teams:
+    home: Dickerson, Ryan
+    away: Schiessl, Joao Eduardo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 71197172
+  teams:
+    home: Tobon, Miguel
+    away: Mena, Facundo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '17:45'
+- id: 71197174
+  teams:
+    home: Pucinelli, Matheus
+    away: Aboian, Valerio
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:00'
+- id: 71197164
+  teams:
+    home: Miguel, Luis Guto
+    away: La Serna, Juan Manuel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:00'
+- id: 71197194
+  teams:
+    home: Merino A / Zeballos F
+    away: Huertas Del Pino C / Huertas Del Pino Cordova A
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:00'
+- id: 71197190
+  teams:
+    home: Alves M / Sakamoto P
+    away: Pereira J / Schiessl J E
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:50'
 ice_hockey:
 - id: 66643554
   teams:
@@ -324,7 +495,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71020944
   teams:
