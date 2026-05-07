@@ -6,9 +6,9 @@ tennis:
     home: Basilashvili, Nikoloz
     away: Merida, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: 09:00
 - id: 71284832
   teams:
@@ -16,17 +16,17 @@ tennis:
     away: Atmane, Terence
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 09:00
 - id: 71284846
   teams:
     home: Popyrin, Alexei
     away: Berrettini, Matteo
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 09:00
 - id: 71322524
   teams:
@@ -34,28 +34,55 @@ tennis:
     away: Kecmanovic, Miomir
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 09:00
-- id: 71322516
-  teams:
-    home: Fearnley, Jacob
-    away: Mpetshi Perricard, Giovanni
-  score:
-    home: 0
-    away: 0
-  status: Live
-  time: '10:10'
 - id: 71322510
   teams:
     home: Fucsovics, Marton
     away: Prizmic, Dino
   score:
     home: 0
+    away: 2
+  status: recentlyended
+  time: '10:45'
+- id: 71322516
+  teams:
+    home: Fearnley, Jacob
+    away: Mpetshi Perricard, Giovanni
+  score:
+    home: 0
     away: 1
-  status: Live
-  time: '10:10'
-ice_hockey: []
+  status: live
+  time: '10:50'
+- id: 71284834
+  teams:
+    home: Giron, Marcos
+    away: Cilic, Marin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:55'
+- id: 71284810
+  teams:
+    home: Cina, Federico
+    away: Blockx, Alexander
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '11:00'
+ice_hockey:
+- id: 66643554
+  teams:
+    home: France
+    away: Lithuania
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:30'
 table_tennis:
 - id: 71309372
   teams:
@@ -543,3 +570,273 @@ table_tennis:
     away: 0
   status: result
   time: 08:30
+- id: 71359758
+  teams:
+    home: Hejduk, Alexander
+    away: Cernik, Jaromir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71359750
+  teams:
+    home: Lazar, Julius
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 71359754
+  teams:
+    home: Steffan, Jan
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 71359746
+  teams:
+    home: Zurek, Filip
+    away: Virag, Alexandr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 71359852
+  teams:
+    home: Wawrosz, Pavel
+    away: Pokorny, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:03
+- id: 71359756
+  teams:
+    home: Havlicek, Vladimir
+    away: Pospisil, Milos
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71359760
+  teams:
+    home: Madle, Ludek
+    away: Vrabec, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71359854
+  teams:
+    home: Paril, Ondrej
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71359752
+  teams:
+    home: Vedmoch, Michal
+    away: Pavelka, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 71359748
+  teams:
+    home: Zientek, Zbynek
+    away: Kowolowski, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71332740
+  teams:
+    home: Cermak, Vladimir
+    away: Zvrtek, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71332864
+  teams:
+    home: Kulhanek, Pavel
+    away: Vrba, Jindrich
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71332964
+  teams:
+    home: Luksa, Zdenek
+    away: Toth, Josef
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71332694
+  teams:
+    home: Malek, Lukas
+    away: Pospisil, Milos
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71332944
+  teams:
+    home: Polasek, Radovan
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71332932
+  teams:
+    home: Cernik, Jaromir
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 71332684
+  teams:
+    home: Darin, Kyryl
+    away: Steffan, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71332886
+  teams:
+    home: Kolenciak, Ivan
+    away: Derco, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71332746
+  teams:
+    home: Postelt, Vladimir
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71332820
+  teams:
+    home: Zika, Tadeas
+    away: Cabis, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71332874
+  teams:
+    home: Navedla, Matyas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71332954
+  teams:
+    home: Pospisil, Milos
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71332786
+  teams:
+    home: Toth, Josef
+    away: Kolenciak, Ivan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71332878
+  teams:
+    home: Vrba, Jindrich
+    away: Cernik, Jaromir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71332924
+  teams:
+    home: Zvrtek, Jan
+    away: Postelt, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 71332780
+  teams:
+    home: Cabis, Michal
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71332848
+  teams:
+    home: Derco, Michal
+    away: Luksa, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71332796
+  teams:
+    home: Parhomenko, Dmitro
+    away: Cermak, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71332688
+  teams:
+    home: Steffan, Jan
+    away: Malek, Lukas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:30'
+- id: 71332674
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Kulhanek, Pavel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
