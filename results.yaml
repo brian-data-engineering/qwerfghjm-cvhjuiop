@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71198456
   teams:
@@ -63,6 +63,15 @@ basketball:
     away: 69
   status: result
   time: '17:15'
+- id: 71213714
+  teams:
+    home: Paulistano
+    away: Pinheiros SP
+  score:
+    home: 34
+    away: 31
+  status: live
+  time: '22:00'
 tennis:
 - id: 71322520
   teams:
@@ -304,8 +313,8 @@ tennis:
     away: Geerts M / Mansouri S
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '20:20'
 - id: 71195606
   teams:
@@ -447,9 +456,9 @@ tennis:
     home: Miguel, Luis Guto
     away: La Serna, Juan Manuel
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '21:00'
 - id: 71197194
   teams:
