@@ -6,17 +6,35 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 71240642
   teams:
     home: USM Khenchela
     away: El Bayadh
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '15:00'
+- id: 71240644
+  teams:
+    home: JS Kabylie
+    away: ES Setif
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:45'
+- id: 71240646
+  teams:
+    home: MC Alger
+    away: MB Rouisset
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:00'
 basketball: []
 tennis:
 - id: 71201086
@@ -34,7 +52,7 @@ ice_hockey:
     home: KooKoo
     away: Tappara
   score:
-    home: 1
+    home: 2
     away: 2
   status: live
   time: '15:30'
@@ -56,6 +74,24 @@ ice_hockey:
     away: 1
   status: result
   time: '14:00'
+- id: 66643564
+  teams:
+    home: Poland
+    away: Lithuania
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:30'
+- id: 70558166
+  teams:
+    home: Philadelphia
+    away: Carolina
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71369924
   teams:
