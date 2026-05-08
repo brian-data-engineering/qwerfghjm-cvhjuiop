@@ -35,7 +35,16 @@ soccer:
     away: 1
   status: result
   time: '17:00'
-basketball: []
+basketball:
+- id: 71214348
+  teams:
+    home: Flamengo
+    away: Brasilia
+  score:
+    home: 24
+    away: 17
+  status: live
+  time: '22:00'
 tennis:
 - id: 71201086
   teams:
@@ -53,8 +62,8 @@ ice_hockey:
     away: Tappara
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: recentlyended
   time: '15:30'
 - id: 66643560
   teams:
