@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 71240640
+  teams:
+    home: Olympique Akbou
+    away: CR Belouizdad
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 71240642
+  teams:
+    home: USM Khenchela
+    away: El Bayadh
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
 basketball: []
 tennis:
 - id: 71201086
@@ -10,7 +28,34 @@ tennis:
     away: 2
   status: result
   time: 09:00
-ice_hockey: []
+ice_hockey:
+- id: 69829524
+  teams:
+    home: KooKoo
+    away: Tappara
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
+- id: 66643560
+  teams:
+    home: Kazakhstan
+    away: France
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:30'
+- id: 66643562
+  teams:
+    home: Ukraine
+    away: Japan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
 table_tennis:
 - id: 71369924
   teams:
