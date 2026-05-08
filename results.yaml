@@ -41,8 +41,8 @@ basketball:
     home: Flamengo
     away: Brasilia
   score:
-    home: 24
-    away: 17
+    home: 77
+    away: 65
   status: live
   time: '22:00'
 tennis:
@@ -63,7 +63,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 66643560
   teams:
@@ -101,6 +101,42 @@ ice_hockey:
     away: 4
   status: result
   time: 00:00
+- id: 70558174
+  teams:
+    home: Buffalo
+    away: Montreal
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '23:00'
+- id: 71231950
+  teams:
+    home: Coachella Valley Firebirds
+    away: Ontario Reign
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: 02:00
+- id: 71258648
+  teams:
+    home: Grand Rapids
+    away: Manitoba Moose
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '23:00'
+- id: 71356328
+  teams:
+    home: Wheeling
+    away: Maine
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '23:10'
 table_tennis:
 - id: 71369924
   teams:
