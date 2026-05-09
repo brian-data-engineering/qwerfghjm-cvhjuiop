@@ -1,149 +1,167 @@
-soccer:
-- id: 71240640
+soccer: []
+basketball: []
+tennis: []
+ice_hockey: []
+table_tennis:
+- id: 71358562
   teams:
-    home: Olympique Akbou
-    away: CR Belouizdad
+    home: Martinek, Jaroslav
+    away: Buric, Roman
   score:
-    home: 0
-    away: 1
-  status: result
-  time: '15:00'
-- id: 71240642
-  teams:
-    home: USM Khenchela
-    away: El Bayadh
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '15:00'
-- id: 71240644
-  teams:
-    home: JS Kabylie
-    away: ES Setif
-  score:
-    home: 5
-    away: 1
-  status: result
-  time: '16:45'
-- id: 71240646
-  teams:
-    home: MC Alger
-    away: MB Rouisset
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '17:00'
-basketball:
-- id: 71214348
-  teams:
-    home: Flamengo
-    away: Brasilia
-  score:
-    home: 77
-    away: 65
-  status: live
-  time: '22:00'
-tennis:
-- id: 71201086
-  teams:
-    home: Borges, Nuno
-    away: Jodar, Rafael
-  score:
-    home: 0
+    home: 3
     away: 2
   status: result
-  time: 09:00
-ice_hockey:
-- id: 69829524
+  time: 00:00
+- id: 71359770
   teams:
-    home: KooKoo
-    away: Tappara
+    home: Novak, Martin
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:00
+- id: 71358452
+  teams:
+    home: Svoboda, Adam
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:00
+- id: 71358510
+  teams:
+    home: Stefek, Martin
+    away: Urban, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 71358622
+  teams:
+    home: Syroha, Michal
+    away: Kosar, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 71358636
+  teams:
+    home: Vaclavik, Miroslav
+    away: Mutl, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 71358498
+  teams:
+    home: Buric, Roman
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 71358480
+  teams:
+    home: Dolezal, Vaclav
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 71358610
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Vitrovyj, Oleg
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 71359774
+  teams:
+    home: Kosar, Vaclav
+    away: Novak, Martin
   score:
     home: 2
     away: 3
   status: result
-  time: '15:30'
-- id: 66643560
+  time: 01:30
+- id: 71358600
   teams:
-    home: Kazakhstan
-    away: France
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:30'
-- id: 66643562
-  teams:
-    home: Ukraine
-    away: Japan
+    home: Mutl, David
+    away: Martinek, Jaroslav
   score:
     home: 3
-    away: 1
-  status: result
-  time: '14:00'
-- id: 66643564
-  teams:
-    home: Poland
-    away: Lithuania
-  score:
-    home: 1
     away: 2
   status: result
-  time: '17:30'
-- id: 70558166
+  time: 01:30
+- id: 71358470
   teams:
-    home: Philadelphia
-    away: Carolina
-  score:
-    home: 1
-    away: 4
-  status: result
-  time: 00:00
-- id: 70558174
-  teams:
-    home: Buffalo
-    away: Montreal
+    home: Urban, Roman
+    away: Svoboda, Adam
   score:
     home: 0
-    away: 2
-  status: live
-  time: '23:00'
-- id: 71231950
+    away: 3
+  status: result
+  time: 01:30
+- id: 71358574
   teams:
-    home: Coachella Valley Firebirds
-    away: Ontario Reign
+    home: Buric, Roman
+    away: Vaclavik, Miroslav
   score:
-    home: 6
-    away: 2
+    home: 1
+    away: 3
   status: result
   time: 02:00
-- id: 71258648
+- id: 71358576
   teams:
-    home: Grand Rapids
-    away: Manitoba Moose
-  score:
-    home: 1
-    away: 0
-  status: live
-  time: '23:00'
-- id: 71356328
-  teams:
-    home: Wheeling
-    away: Maine
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '23:10'
-table_tennis:
-- id: 71369924
-  teams:
-    home: Mares, Erik
-    away: Zahradka, Michal
+    home: Dolezal, Vaclav
+    away: Stefek, Martin
   score:
     home: 3
-    away: 2
+    away: 0
   status: result
-  time: 00:00
+  time: 02:00
+- id: 71358648
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71358454
+  teams:
+    home: Martinek, Jaroslav
+    away: Stach, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 71359772
+  teams:
+    home: Novak, Martin
+    away: Vitrovyj, Oleg
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71358578
+  teams:
+    home: Svoboda, Adam
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
