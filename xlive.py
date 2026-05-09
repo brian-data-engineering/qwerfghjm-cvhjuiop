@@ -12,21 +12,15 @@ def is_banned(name, keywords):
     return any(word.lower() in name.lower() for word in keywords)
 
 def run_sync():
-    # --- Wipe Table First ---
     try:
         supabase.table("xliveleagues").delete().neq("league_id", 0).execute()
         print("🧹 Table cleared.")
     except Exception as e:
         print(f"Cleanup note: {e}")
 
-    # Use a session to persist cookies and headers like a browser
     session = requests.Session()
     
-    # EXACT URL structure from your working link
-    # We will loop through the sport IDs and inject them into the 'sport=' parameter
-    sport_ids = [1, 2, 3, 4, 10]
-    
-    # The absolute mirror of what works in your browser
+    # EXACT headers to handle the "Zip" encoding and avoid empty/406 responses
     headers = {
         "Accept": "application/json, text/plain, */*",
         "Accept-Encoding": "gzip, deflate, br",
@@ -39,30 +33,33 @@ def run_sync():
     }
 
     all_leagues = []
+    sport_ids = [1, 2, 3, 4, 10]
     BANNED_KEYWORDS = ["Statistics", "Cyber", "Virtual", "Special bets", "Extra", "Penalty", "Corner"]
 
     for s_id in sport_ids:
-        # CONSTRUCTED EXACTLY LIKE YOUR WORKING LINK
         url = f"https://1xbet.co.ke/service-api/LiveFeed/GetChampsZip?sport={s_id}&lng=en&country=87&partner=61&virtualSports=true&groupChamps=true"
         
         try:
-            # We don't use stream=True because Zip endpoints are usually small/compressed
-            response = session.get(url, headers=headers, timeout=20)
-            
-            if response.status_code == 406:
-                print(f"❌ Sport {s_id}: 406 Not Acceptable. The server is still rejecting the header handshake.")
-                continue
-                
+            response = session.get(url, headers=headers, timeout=30)
             response.raise_for_status()
+            
+            # Check if content is actually there before parsing
+            if not response.content:
+                print(f"⚠️ Sport {s_id}: Received empty response.")
+                continue
+
             data = response.json()
             
-            # Process the "Value" array
+            # Navigate the "Value" array from your JSON sample
             for sport_item in data.get("Value", []):
-                actual_sport_id = sport_item.get("I")
-                items = sport_item.get("L", [])
+                actual_sport_id = sport_item.get("SI") or s_id
+                items = sport_item.get("L", []) if "L" in sport_item else [sport_item]
                 
+                # If 'L' is not present, the sport_item itself might be the league
+                if not isinstance(items, list): items = [sport_item]
+
                 for item in items:
-                    # Check for nested leagues (SC)
+                    # SC Diving (For folders like Italy, Spain)
                     sub_cats = item.get("SC", [])
                     if sub_cats and isinstance(sub_cats, list):
                         for sub in sub_cats:
@@ -84,7 +81,6 @@ def run_sync():
                     l_id = item.get("LI")
                     l_name = item.get("L", "")
                     if l_id and l_name and not is_banned(l_name, BANNED_KEYWORDS):
-                        # Folder protection
                         if l_id < 1000 and " " not in l_name:
                             continue
 
@@ -101,17 +97,17 @@ def run_sync():
         except Exception as e:
             print(f"⚠️ Error on Sport {s_id}: {e}")
 
-    # Deduplicate and Upsert
     if all_leagues:
+        # Deduplicate
         unique = {f"{l['sport_id']}_{l['league_id']}": l for l in all_leagues}
         final_list = list(unique.values())
         try:
             supabase.table("xliveleagues").upsert(final_list).execute()
-            print(f"✨ Successfully synced {len(final_list)} live leagues to Lucra.")
+            print(f"✨ Success: {len(final_list)} live leagues synced to Lucra.")
         except Exception as e:
             print(f"🚨 Supabase Error: {e}")
     else:
-        print("No live leagues found. Ensure the working links are returning data at this moment.")
+        print("No live leagues found.")
 
 if __name__ == "__main__":
     run_sync()
