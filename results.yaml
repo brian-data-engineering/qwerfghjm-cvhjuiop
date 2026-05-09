@@ -1,7 +1,52 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71075342
+  teams:
+    home: Udw Alligators
+    away: Mistelbach
+  score:
+    home: 32
+    away: 18
+  status: live
+  time: '15:30'
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 69829526
+  teams:
+    home: Tappara
+    away: KooKoo
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '14:00'
+- id: 63888943
+  teams:
+    home: Finland
+    away: Czech Republic
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 63888945
+  teams:
+    home: Sweden
+    away: Switzerland
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:00'
+- id: 70558022
+  teams:
+    home: Anaheim
+    away: Vegas Golden Knights
+  score:
+    home: 2
+    away: 6
+  status: result
+  time: 01:30
 table_tennis:
 - id: 71358562
   teams:
