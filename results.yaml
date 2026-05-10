@@ -17,6 +17,15 @@ soccer:
     away: 0
   status: result
   time: 01:15
+- id: 71312130
+  teams:
+    home: CA Rosario Central
+    away: CA Independiente Avellaneda
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
 basketball:
 - id: 71222924
   teams:
@@ -50,9 +59,9 @@ basketball:
     home: Flamengo
     away: Brasilia
   score:
-    home: 75
-    away: 82
-  status: live
+    home: 90
+    away: 98
+  status: result
   time: '17:00'
 - id: 71240154
   teams:
@@ -86,9 +95,9 @@ basketball:
     home: AS Monaco
     away: Paris Basketball
   score:
-    home: 58
-    away: 71
-  status: live
+    home: 95
+    away: 123
+  status: result
   time: '17:15'
 - id: 62692089
   teams:
@@ -180,6 +189,114 @@ basketball:
     away: 87
   status: result
   time: '15:00'
+- id: 71296384
+  teams:
+    home: Spartak Subotica
+    away: Dubai
+  score:
+    home: 58
+    away: 64
+  status: live
+  time: '18:30'
+- id: 71296450
+  teams:
+    home: TFT Skopje
+    away: Borac Cacak
+  score:
+    home: 35
+    away: 52
+  status: live
+  time: '19:00'
+- id: 63468587
+  teams:
+    home: Hapoel Jerusalem
+    away: Rishon
+  score:
+    home: 87
+    away: 74
+  status: result
+  time: '15:30'
+- id: 63468581
+  teams:
+    home: Hapoel Beer Sheva
+    away: Ziona
+  score:
+    home: 68
+    away: 105
+  status: result
+  time: '17:15'
+- id: 71194044
+  teams:
+    home: Hapoel Galil Elyon
+    away: Unet Holon
+  score:
+    home: 76
+    away: 103
+  status: recentlyended
+  time: '17:50'
+- id: 62571186
+  teams:
+    home: Bologna
+    away: Varese
+  score:
+    home: 104
+    away: 85
+  status: result
+  time: '15:00'
+- id: 62571174
+  teams:
+    home: C.D.L. Brescia
+    away: Sassari
+  score:
+    home: 92
+    away: 71
+  status: result
+  time: '15:00'
+- id: 62571172
+  teams:
+    home: Napoli Basket
+    away: Udine
+  score:
+    home: 98
+    away: 71
+  status: result
+  time: '15:00'
+- id: 62571178
+  teams:
+    home: Trento
+    away: Milano
+  score:
+    home: 84
+    away: 74
+  status: result
+  time: '15:00'
+- id: 62571180
+  teams:
+    home: Treviso
+    away: Grissin Bon
+  score:
+    home: 78
+    away: 77
+  status: result
+  time: '15:00'
+- id: 62571182
+  teams:
+    home: Trieste
+    away: Soresina
+  score:
+    home: 89
+    away: 94
+  status: result
+  time: '15:00'
+- id: 62571184
+  teams:
+    home: Venezia
+    away: Derthona
+  score:
+    home: 75
+    away: 78
+  status: result
+  time: '15:00'
 tennis:
 - id: 71201054
   teams:
@@ -233,7 +350,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:50'
 - id: 71201062
   teams:
@@ -242,8 +359,35 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:50'
+- id: 71201064
+  teams:
+    home: Arnaldi, Matteo
+    away: Jodar, Rafael
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:30'
+- id: 71385204
+  teams:
+    home: Cadenasso G / Vasami J
+    away: Granollers M / Zeballos H
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71385230
+  teams:
+    home: Etcheverry T M / Tabilo A
+    away: Goransson A / King E
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
 ice_hockey:
 - id: 70869368
   teams:
