@@ -23,10 +23,28 @@ basketball:
     home: Graz
     away: Kapfenberg
   score:
-    home: 29
-    away: 33
+    home: 73
+    away: 79
   status: live
   time: '15:30'
+- id: 71222926
+  teams:
+    home: Hallmann Vienna
+    away: Oberwart
+  score:
+    home: 29
+    away: 50
+  status: live
+  time: '16:00'
+- id: 71214118
+  teams:
+    home: Mogi Das Cruzes
+    away: Franca
+  score:
+    home: 70
+    away: 88
+  status: result
+  time: '14:00'
 tennis:
 - id: 71201054
   teams:
@@ -62,7 +80,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '12:55'
 - id: 71201056
   teams:
@@ -73,15 +91,33 @@ tennis:
     away: 0
   status: result
   time: '13:00'
+- id: 71201060
+  teams:
+    home: Paul, Tommy
+    away: Darderi, Luciano
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:50'
+- id: 71201062
+  teams:
+    home: Tien, Learner
+    away: Bublik, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:50'
 ice_hockey:
 - id: 70869368
   teams:
     home: Italy
     away: Great Britain
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '14:30'
 - id: 63888947
   teams:
@@ -99,7 +135,7 @@ ice_hockey:
   score:
     home: 1
     away: 5
-  status: live
+  status: result
   time: '14:00'
 - id: 70558038
   teams:
