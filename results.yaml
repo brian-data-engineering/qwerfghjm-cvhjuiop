@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 71312126
+  teams:
+    home: Independiente Rivadavia
+    away: Union de Santa Fe
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:30
+- id: 71312122
+  teams:
+    home: Argentinos Juniors
+    away: Atletico Lanus
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 01:15
 basketball: []
 tennis: []
 ice_hockey: []
@@ -10,23 +28,212 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 71381182
   teams:
     home: Krejcik, Lukas
     away: Picek, Petr
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 71381136
   teams:
     home: Ruzicka, Jiri
     away: Huk, Martin
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 00:00
+- id: 71381074
+  teams:
+    home: Darin, Kyryl
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 71381120
+  teams:
+    home: Pycha, Patrik
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 71381066
+  teams:
+    home: Svacha, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 71381054
+  teams:
+    home: Huk, Martin
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 71381078
+  teams:
+    home: Janata, Tomas
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 71381176
+  teams:
+    home: Picek, Petr
+    away: Placek, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 71380966
+  teams:
+    home: Dedek, Jiri
+    away: Krejcik, Lukas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 71381198
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Alesh
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 71381150
+  teams:
+    home: Urbaniec, Radim
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 71381056
+  teams:
+    home: Huk, Martin
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 71381156
+  teams:
+    home: Janata, Tomas
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 71380988
+  teams:
+    home: Picek, Petr
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71381122
+  teams:
+    home: Bayer, Alesh
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71381116
+  teams:
+    home: Krejcik, Lukas
+    away: Placek, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71381114
+  teams:
+    home: Ruzicka, Jiri
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71411926
+  teams:
+    home: Darin, Kyryl
+    away: Picek, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 71411908
+  teams:
+    home: Sobisek, Martin
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 71411914
+  teams:
+    home: Urbaniec, Radim
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 71411912
+  teams:
+    home: Bayer, Alesh
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 71411932
+  teams:
+    home: Dedek, Jiri
+    away: Krejcik, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 71411916
+  teams:
+    home: Ruzicka, Jiri
+    away: Svacha, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
