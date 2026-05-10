@@ -40,7 +40,7 @@ soccer:
     home: CA River Plate (Arg)
     away: CA San Lorenzo Almagro
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '22:00'
@@ -113,8 +113,8 @@ soccer:
     away: CA All Boys
   score:
     home: 3
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '21:00'
 - id: 69751542
   teams:
@@ -294,35 +294,44 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '20:40'
 - id: 66886766
   teams:
     home: Mirassol
     away: Chapecoense
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 1
+  status: recentlyended
   time: '21:30'
 - id: 66886762
   teams:
     home: Santos SP
     away: Red Bull Bragantino SP
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '21:30'
 - id: 66886764
   teams:
     home: SC Corinthians
     away: Sao Paulo FC
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: recentlyended
   time: '21:30'
+- id: 66886770
+  teams:
+    home: Gremio FB Porto Alegrense
+    away: Flamengo RJ
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
 basketball:
 - id: 71222924
   teams:
@@ -722,6 +731,60 @@ ice_hockey:
     away: 1
   status: result
   time: 01:00
+- id: 70558182
+  teams:
+    home: Montreal
+    away: Buffalo
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '23:00'
+- id: 71308216
+  teams:
+    home: Colorado
+    away: Henderson
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: 00:05
+- id: 71378886
+  teams:
+    home: Ontario Reign
+    away: Coachella Valley Firebirds
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 71230980
+  teams:
+    home: Kansas City
+    away: Allen
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:05
+- id: 71259214
+  teams:
+    home: Fort Wayne
+    away: Toledo
+  score:
+    home: 4
+    away: 1
+  status: recentlyended
+  time: '21:05'
+- id: 71231048
+  teams:
+    home: Kansas City
+    away: Allen
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '21:05'
 table_tennis:
 - id: 71381138
   teams:
