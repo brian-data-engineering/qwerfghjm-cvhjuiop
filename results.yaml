@@ -18,7 +18,16 @@ soccer:
   status: result
   time: 01:15
 basketball: []
-tennis: []
+tennis:
+- id: 71201054
+  teams:
+    home: Ruud, Casper
+    away: Lehecka, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 71381138
@@ -332,9 +341,9 @@ table_tennis:
     home: Bartunek, Radek
     away: Regner, Tomas
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 07:00
 - id: 71400846
   teams:
@@ -343,7 +352,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71400836
   teams:
@@ -352,7 +361,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71400854
   teams:
@@ -361,7 +370,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71401752
   teams:
@@ -370,5 +379,176 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
+- id: 71401762
+  teams:
+    home: Barton, David
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 71400848
+  teams:
+    home: Kos, Tomas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 71400898
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Barton, Ales
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 71401674
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71400834
+  teams:
+    home: Zientek, Zbynek
+    away: Hrabec, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 71400888
+  teams:
+    home: Barton, Ales
+    away: Kanera, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71400900
+  teams:
+    home: Hrabec, Tomas
+    away: Bosak, Vitezslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 71400858
+  teams:
+    home: Mares, Erik
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 71401800
+  teams:
+    home: Paril, Ondrej
+    away: Dzida, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71401776
+  teams:
+    home: Steffan, Jan
+    away: Regner, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71401656
+  teams:
+    home: Bartunek, Radek
+    away: Barton, David
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71400866
+  teams:
+    home: Kratochvil, Michal
+    away: Kos, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 71400838
+  teams:
+    home: Mecl Jr, Jan
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
+- id: 71400924
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 71401798
+  teams:
+    home: Wawrosz, Pavel
+    away: Opanasiuk, Dmytro
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71419850
+  teams:
+    home: Barton, Ales
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 09:00
+- id: 71419826
+  teams:
+    home: Mares, Erik
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 09:00
+- id: 71419836
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:00
+- id: 71419840
+  teams:
+    home: Wawrosz, Pavel
+    away: Paril, Ondrej
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 09:00
