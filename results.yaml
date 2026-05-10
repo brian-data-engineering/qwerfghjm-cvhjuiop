@@ -52,7 +52,7 @@ tennis:
     away: Van de Zandschulp, Botic
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '12:55'
 - id: 71201056
@@ -60,7 +60,7 @@ tennis:
     home: Musetti, Lorenzo
     away: Cerundolo, Francisco
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '13:00'
@@ -874,7 +874,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71401634
   teams:
@@ -892,7 +892,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 71401712
   teams:
@@ -912,3 +912,39 @@ table_tennis:
     away: 3
   status: result
   time: '12:30'
+- id: 71400930
+  teams:
+    home: Boruvka, Lukas
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 71400928
+  teams:
+    home: Brozik, Karel
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 71401694
+  teams:
+    home: Klement, Milan
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 71412654
+  teams:
+    home: Kypr, Tomas
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
