@@ -17,7 +17,16 @@ soccer:
     away: 0
   status: result
   time: 01:15
-basketball: []
+basketball:
+- id: 71222924
+  teams:
+    home: Graz
+    away: Kapfenberg
+  score:
+    home: 29
+    away: 33
+  status: live
+  time: '15:30'
 tennis:
 - id: 71201054
   teams:
@@ -51,20 +60,56 @@ tennis:
     home: Khachanov, Karen
     away: Van de Zandschulp, Botic
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '12:55'
 - id: 71201056
   teams:
     home: Musetti, Lorenzo
     away: Cerundolo, Francisco
   score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:00'
+ice_hockey:
+- id: 70869368
+  teams:
+    home: Italy
+    away: Great Britain
+  score:
     home: 1
     away: 0
   status: live
-  time: '13:00'
-ice_hockey: []
+  time: '14:30'
+- id: 63888947
+  teams:
+    home: Switzerland
+    away: Czech Republic
+  score:
+    home: 6
+    away: 1
+  status: result
+  time: '10:00'
+- id: 63888949
+  teams:
+    home: Sweden
+    away: Finland
+  score:
+    home: 1
+    away: 5
+  status: live
+  time: '14:00'
+- id: 70558038
+  teams:
+    home: Minnesota
+    away: Colorado
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: 01:00
 table_tennis:
 - id: 71381138
   teams:
@@ -912,6 +957,96 @@ table_tennis:
     away: 3
   status: result
   time: '12:30'
+- id: 71422778
+  teams:
+    home: Huk, Martin
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 71422818
+  teams:
+    home: Stach, Jiri
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 71422826
+  teams:
+    home: Horak, David
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:01'
+- id: 71422830
+  teams:
+    home: Kocian, Vojtech
+    away: Kolek, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:05'
+- id: 71422834
+  teams:
+    home: Kos, Tomas
+    away: Mares, Erik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:05'
+- id: 71422820
+  teams:
+    home: Blejchar, Marek
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 71422836
+  teams:
+    home: Kratochvil, Michal
+    away: Cernik, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71422780
+  teams:
+    home: Mecl Jr, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 71422828
+  teams:
+    home: Regner, Tomas
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 71422832
+  teams:
+    home: Schneeberger, Antonin
+    away: Kvasnicka, Radim
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
 - id: 71400930
   teams:
     home: Boruvka, Lukas
@@ -919,7 +1054,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71400928
   teams:
@@ -928,7 +1063,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71401694
   teams:
@@ -937,7 +1072,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71412654
   teams:
@@ -946,5 +1081,5 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
