@@ -23,18 +23,18 @@ basketball:
     home: Graz
     away: Kapfenberg
   score:
-    home: 73
-    away: 79
-  status: live
+    home: 83
+    away: 88
+  status: result
   time: '15:30'
 - id: 71222926
   teams:
     home: Hallmann Vienna
     away: Oberwart
   score:
-    home: 29
-    away: 50
-  status: live
+    home: 77
+    away: 89
+  status: result
   time: '16:00'
 - id: 71214118
   teams:
@@ -45,6 +45,141 @@ basketball:
     away: 88
   status: result
   time: '14:00'
+- id: 71214406
+  teams:
+    home: Flamengo
+    away: Brasilia
+  score:
+    home: 75
+    away: 82
+  status: live
+  time: '17:00'
+- id: 71240154
+  teams:
+    home: Brave Dragons
+    away: Guangsha Lions
+  score:
+    home: 81
+    away: 86
+  status: result
+  time: '11:35'
+- id: 71240272
+  teams:
+    home: Z. Chouzhou Bank
+    away: Shenzhen Leopards
+  score:
+    home: 91
+    away: 95
+  status: result
+  time: '11:35'
+- id: 62280792
+  teams:
+    home: Cholet
+    away: Nancy
+  score:
+    home: 94
+    away: 91
+  status: result
+  time: '14:30'
+- id: 62280802
+  teams:
+    home: AS Monaco
+    away: Paris Basketball
+  score:
+    home: 58
+    away: 71
+  status: live
+  time: '17:15'
+- id: 62692089
+  teams:
+    home: Alba
+    away: Jena
+  score:
+    home: 83
+    away: 65
+  status: result
+  time: '14:30'
+- id: 62692109
+  teams:
+    home: B. Munich
+    away: Oldenburg
+  score:
+    home: 77
+    away: 67
+  status: result
+  time: '14:30'
+- id: 62692093
+  teams:
+    home: Bamberg
+    away: Bonn
+  score:
+    home: 102
+    away: 83
+  status: result
+  time: '14:30'
+- id: 62692099
+  teams:
+    home: Braunschweig
+    away: Chemnitz
+  score:
+    home: 104
+    away: 90
+  status: result
+  time: '14:30'
+- id: 62692103
+  teams:
+    home: Fraport Skyliners
+    away: Ulm
+  score:
+    home: 64
+    away: 103
+  status: result
+  time: '14:30'
+- id: 62692095
+  teams:
+    home: Heidelberg
+    away: Vechta
+  score:
+    home: 89
+    away: 103
+  status: result
+  time: '14:30'
+- id: 62692101
+  teams:
+    home: Rostock Seawolves
+    away: Hamburg
+  score:
+    home: 103
+    away: 71
+  status: result
+  time: '14:30'
+- id: 62692107
+  teams:
+    home: Trier
+    away: Mitteldeutscher BC
+  score:
+    home: 85
+    away: 78
+  status: result
+  time: '14:30'
+- id: 62692091
+  teams:
+    home: Wurzburg
+    away: Ludwigsburg
+  score:
+    home: 75
+    away: 58
+  status: result
+  time: '14:30'
+- id: 71250600
+  teams:
+    home: Sarajevo
+    away: KK Partizan
+  score:
+    home: 73
+    away: 87
+  status: result
+  time: '15:00'
 tennis:
 - id: 71201054
   teams:
@@ -97,17 +232,17 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '15:50'
 - id: 71201062
   teams:
     home: Tien, Learner
     away: Bublik, Alexander
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '15:50'
 ice_hockey:
 - id: 70869368
@@ -117,7 +252,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 63888947
   teams:
