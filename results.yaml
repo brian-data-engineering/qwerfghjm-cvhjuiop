@@ -24,8 +24,17 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
+- id: 71312132
+  teams:
+    home: Estudiantes de la Plata
+    away: Racing Club Avellaneda
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 71222924
   teams:
@@ -194,18 +203,18 @@ basketball:
     home: Spartak Subotica
     away: Dubai
   score:
-    home: 58
-    away: 64
-  status: live
+    home: 84
+    away: 88
+  status: recentlyended
   time: '18:30'
 - id: 71296450
   teams:
     home: TFT Skopje
     away: Borac Cacak
   score:
-    home: 35
-    away: 52
-  status: live
+    home: 65
+    away: 97
+  status: recentlyended
   time: '19:00'
 - id: 63468587
   teams:
@@ -232,7 +241,7 @@ basketball:
   score:
     home: 76
     away: 103
-  status: recentlyended
+  status: result
   time: '17:50'
 - id: 62571186
   teams:
@@ -366,7 +375,7 @@ tennis:
     home: Arnaldi, Matteo
     away: Jodar, Rafael
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '18:30'
