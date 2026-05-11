@@ -8,7 +8,25 @@ soccer:
     away: 1
   status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 71386720
+  teams:
+    home: Brno BC
+    away: Decin
+  score:
+    home: 27
+    away: 18
+  status: live
+  time: '17:00'
+- id: 71295462
+  teams:
+    home: Uniks Kazan
+    away: Zenit St P.
+  score:
+    home: 107
+    away: 104
+  status: recentlyended
+  time: '15:00'
 tennis:
 - id: 71201046
   teams:
@@ -52,19 +70,64 @@ tennis:
     away: Medjedovic, Hamad
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '12:25'
 - id: 71201104
   teams:
     home: Sinner, Jannik
     away: Popyrin, Alexei
   score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:50'
+- id: 71201058
+  teams:
+    home: Llamas Ruiz, Pablo
+    away: Medvedev, Daniil
+  score:
     home: 1
+    away: 1
+  status: live
+  time: '15:10'
+- id: 71201044
+  teams:
+    home: Cobolli, Flavio
+    away: Tirante, Thiago Agustin
+  score:
+    home: 0
     away: 0
   status: live
-  time: '13:50'
-ice_hockey: []
+  time: '17:00'
+ice_hockey:
+- id: 69829532
+  teams:
+    home: KooKoo
+    away: Tappara
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
+- id: 69025088
+  teams:
+    home: Lok Yaroslavl
+    away: Bars Kazan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 70558016
+  teams:
+    home: Anaheim
+    away: Vegas Golden Knights
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: 01:30
 table_tennis:
 - id: 71401728
   teams:
