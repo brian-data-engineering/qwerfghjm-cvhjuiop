@@ -14,9 +14,9 @@ basketball:
     home: Brno BC
     away: Decin
   score:
-    home: 27
-    away: 18
-  status: live
+    home: 98
+    away: 78
+  status: recentlyended
   time: '17:00'
 - id: 71295462
   teams:
@@ -25,8 +25,62 @@ basketball:
   score:
     home: 107
     away: 104
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 63468557
+  teams:
+    home: B Herzelia
+    away: Netanya
+  score:
+    home: 101
+    away: 98
+  status: live
+  time: '17:30'
+- id: 63468577
+  teams:
+    home: Maccabi Tel-Aviv
+    away: Ironi Kiryat ATA
+  score:
+    home: 60
+    away: 47
+  status: live
+  time: '18:05'
+- id: 71286266
+  teams:
+    home: Pesaro
+    away: Rinascita Basket Rimini
+  score:
+    home: 33
+    away: 24
+  status: live
+  time: '18:45'
+- id: 71415696
+  teams:
+    home: Jets
+    away: Crane Thunders
+  score:
+    home: 72
+    away: 68
+  status: result
+  time: '10:05'
+- id: 71356938
+  teams:
+    home: Cso Voluntari
+    away: Atlassib Sibiu
+  score:
+    home: 102
+    away: 85
+  status: result
+  time: '16:00'
+- id: 71356940
+  teams:
+    home: CS Rapid Bucuresti
+    away: Pitesti
+  score:
+    home: 96
+    away: 77
+  status: result
+  time: '16:30'
 tennis:
 - id: 71201046
   teams:
@@ -88,8 +142,8 @@ tennis:
     away: Medvedev, Daniil
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:10'
 - id: 71201044
   teams:
@@ -97,7 +151,7 @@ tennis:
     away: Tirante, Thiago Agustin
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '17:00'
 ice_hockey:
@@ -108,7 +162,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: live
+  status: result
   time: '15:30'
 - id: 69025088
   teams:
