@@ -9,7 +9,43 @@ soccer:
   status: result
   time: 00:30
 basketball: []
-tennis: []
+tennis:
+- id: 71201046
+  teams:
+    home: Bellucci, Mattia
+    away: Landaluce, Martin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 71201100
+  teams:
+    home: Rublev, Andrey
+    away: Davidovich Fokina, Alejandro
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 71201050
+  teams:
+    home: Nakashima, Brandon
+    away: Basilashvili, Nikoloz
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:35'
+- id: 71201102
+  teams:
+    home: Tiafoe, Frances
+    away: Pellegrino, Andrea
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:10'
 ice_hockey: []
 table_tennis:
 - id: 71401728
