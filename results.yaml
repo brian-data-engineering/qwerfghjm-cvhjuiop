@@ -26,27 +26,36 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '10:25'
 - id: 71201154
   teams:
     home: Darderi, Luciano
     away: Zverev, Alexander
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:10'
+- id: 71201072
+  teams:
+    home: Sinner, Jannik
+    away: Pellegrino, Andrea
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:00'
+- id: 71201070
+  teams:
+    home: Rublev, Andrey
+    away: Basilashvili, Nikoloz
+  score:
     home: 0
     away: 0
   status: live
-  time: '12:10'
-ice_hockey:
-- id: 70558034
-  teams:
-    home: Minnesota
-    away: Colorado
-  score:
-    home: 2
-    away: 5
-  status: result
-  time: 00:00
+  time: '15:10'
+ice_hockey: []
 table_tennis:
 - id: 71418754
   teams:
@@ -811,7 +820,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71438910
   teams:
@@ -820,7 +829,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71440254
   teams:
@@ -829,7 +838,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71440372
   teams:
@@ -838,7 +847,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71440128
   teams:
@@ -847,5 +856,266 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 71438984
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Chalupnicek, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 71438940
+  teams:
+    home: Kostal, Marek
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71440296
+  teams:
+    home: Martinec, Lukas
+    away: Foltynek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71440134
+  teams:
+    home: Vejvoda, Viktor
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 71440328
+  teams:
+    home: Zika, Tadeas
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71466782
+  teams:
+    home: Martinec, Lukas
+    away: Motak, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 71466108
+  teams:
+    home: Plachy, Jiri
+    away: Kostal, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 71466624
+  teams:
+    home: Vavrecka, Michal
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 71466104
+  teams:
+    home: Vejvoda, Viktor
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 71466112
+  teams:
+    home: Barta, Tomas
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71466788
+  teams:
+    home: Fisera, Milan
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 71466784
+  teams:
+    home: Romba, Petr
+    away: Foltynek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71466772
+  teams:
+    home: Szotkowski, Jan
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 71466106
+  teams:
+    home: Urbaniec, Radim
+    away: Huk, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 71438962
+  teams:
+    home: Havrda, Leos
+    away: Didi, Julius
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71440374
+  teams:
+    home: Jezek, Michal
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 71440112
+  teams:
+    home: Kern, Lukas
+    away: Solansky, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 71440242
+  teams:
+    home: Kratochvil, Michal
+    away: Biolek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71438954
+  teams:
+    home: Lazar, Julius
+    away: Dousa, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71438930
+  teams:
+    home: Barta, Miroslav
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 71438942
+  teams:
+    home: Barta, Tomas
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 71440354
+  teams:
+    home: Machander, Dalimil
+    away: Stoch, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 71440360
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 71440252
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 71440258
+  teams:
+    home: Barton, Ales
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:00'
+- id: 71440348
+  teams:
+    home: Biolek, Martin
+    away: Szotkowski, Jan
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:00'
+- id: 71439004
+  teams:
+    home: Didi, Julius
+    away: Barta, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 71438928
+  teams:
+    home: Dousa, Tomas
+    away: Barta, Tomas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 71440272
+  teams:
+    home: Solansky, Petr
+    away: Machander, Dalimil
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:00'
