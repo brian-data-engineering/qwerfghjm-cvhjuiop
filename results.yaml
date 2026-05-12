@@ -15,9 +15,108 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
-basketball: []
+basketball:
+- id: 71391438
+  teams:
+    home: Minas
+    away: Corinthians
+  score:
+    home: 44
+    away: 48
+  status: live
+  time: '22:00'
+- id: 71255188
+  teams:
+    home: Beijing Ducks
+    away: Southern Tigers
+  score:
+    home: 88
+    away: 73
+  status: result
+  time: '11:35'
+- id: 71427944
+  teams:
+    home: Rostock Seawolves
+    away: Ludwigsburg
+  score:
+    home: 91
+    away: 71
+  status: result
+  time: '16:30'
+- id: 71427946
+  teams:
+    home: Vechta
+    away: Trier
+  score:
+    home: 111
+    away: 83
+  status: result
+  time: '18:30'
+- id: 71345790
+  teams:
+    home: UMF Tindastoll
+    away: UMF Grindavik
+  score:
+    home: 83
+    away: 86
+  status: result
+  time: '19:15'
+- id: 71170518
+  teams:
+    home: Olimpija Ljubljana
+    away: CZ MTS
+  score:
+    home: 92
+    away: 86
+  status: result
+  time: '17:00'
+- id: 71388188
+  teams:
+    home: Buducnost
+    away: U-Banca Transilvania
+  score:
+    home: 112
+    away: 81
+  status: result
+  time: '18:00'
+- id: 71295472
+  teams:
+    home: Moscow
+    away: BC Lokomotiv Kuban
+  score:
+    home: 88
+    away: 97
+  status: result
+  time: '16:30'
+- id: 63468589
+  teams:
+    home: Ironi Ramat Gan
+    away: Maccabi Raanana
+  score:
+    home: 87
+    away: 89
+  status: result
+  time: '16:00'
+- id: 71286290
+  teams:
+    home: S.S. Avellino Basket
+    away: Bologna
+  score:
+    home: 75
+    away: 71
+  status: result
+  time: '17:00'
+- id: 71286284
+  teams:
+    home: Brindisi
+    away: Tez. Verona
+  score:
+    home: 77
+    away: 70
+  status: result
+  time: '18:30'
 tennis:
 - id: 71201142
   teams:
@@ -89,7 +188,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:50'
 - id: 71244440
   teams:
@@ -447,9 +546,9 @@ tennis:
     home: Pucinelli, Matheus
     away: Casanova, Hernan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: recentlyended
   time: '21:00'
 ice_hockey:
 - id: 70869370
@@ -2008,7 +2107,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71440248
   teams:
@@ -2026,7 +2125,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71440284
   teams:
@@ -2037,3 +2136,57 @@ table_tennis:
     away: 3
   status: result
   time: '20:30'
+- id: 71440234
+  teams:
+    home: Cermak, Vladimir
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 71440334
+  teams:
+    home: Cetner, Milan
+    away: Pelikan, Josef
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 71440142
+  teams:
+    home: Urbaniec, Radim
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 71440356
+  teams:
+    home: Postelt, Vladimir
+    away: Krejci, Richard
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
+- id: 71440270
+  teams:
+    home: Svoboda, Vladimir
+    away: Stuchlik, Pavel
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '22:30'
+- id: 71440344
+  teams:
+    home: Vejvoda, Viktor
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:30'
