@@ -17,7 +17,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '13:00'
 ice_hockey:
 - id: 69829546
@@ -27,16 +27,16 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '15:30'
 - id: 69025080
   teams:
     home: Lok Yaroslavl
     away: Bars Kazan
   score:
-    home: 0
-    away: 3
-  status: live
+    home: 1
+    away: 5
+  status: result
   time: '16:00'
 - id: 70558014
   teams:
@@ -1164,3 +1164,183 @@ table_tennis:
     away: 2
   status: result
   time: '16:30'
+- id: 71463422
+  teams:
+    home: Adamczyk, Vladimir
+    away: Milota, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 71463490
+  teams:
+    home: Darin, Kyryl
+    away: Moravek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 71463536
+  teams:
+    home: Jindrak, Lukas
+    away: Klimenta, Matous
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 71463660
+  teams:
+    home: Opralka, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71463342
+  teams:
+    home: Parhomenko, Dmitro
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 71463652
+  teams:
+    home: Chalupa, Michal
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 71463534
+  teams:
+    home: Holovatiuk, Yurii
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71463460
+  teams:
+    home: Kucirek, Ondrej
+    away: Dolezal, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71463476
+  teams:
+    home: Oborny, Dominik
+    away: Osvald, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 71463532
+  teams:
+    home: Prosa, Tomas
+    away: Bilek, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71463366
+  teams:
+    home: Klimenta, Matous
+    away: Prosa, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71463468
+  teams:
+    home: Kolar, Milan
+    away: Holovatiuk, Yurii
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71463388
+  teams:
+    home: Milota, Tomas
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
+- id: 71463412
+  teams:
+    home: Moravek, Jiri
+    away: Kucirek, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71463602
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 71463436
+  teams:
+    home: Bilek, Zdenek
+    away: Jindrak, Lukas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:30'
+- id: 71463354
+  teams:
+    home: Dedek, Jiri
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:30'
+- id: 71463356
+  teams:
+    home: Dolezal, Vaclav
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 71463638
+  teams:
+    home: Holub, Marek
+    away: Opralka, Roman
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 71463538
+  teams:
+    home: Osvald, Petr
+    away: Adamczyk, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:30'
