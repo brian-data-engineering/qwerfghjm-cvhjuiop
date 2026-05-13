@@ -325,7 +325,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71463514
   teams:
@@ -334,7 +334,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71463454
   teams:
@@ -343,7 +343,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71463524
   teams:
@@ -352,7 +352,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71463438
   teams:
@@ -361,25 +361,25 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71463496
   teams:
     home: Belovsky, Josef
     away: Parhomenko, Dmitro
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
 - id: 71463766
   teams:
     home: Opralka, Roman
     away: Plachta, Jakub
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
 - id: 71463494
   teams:
@@ -387,24 +387,249 @@ table_tennis:
     away: Darin, Kyryl
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 71463374
   teams:
     home: Tomasch, David
     away: Grohsgott, Jiri
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:30
 - id: 71463500
   teams:
     home: Vavrecka, Michal
     away: Paril, Ondrej
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:30
+- id: 71463392
+  teams:
+    home: Darin, Kyryl
+    away: Malek, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71463442
+  teams:
+    home: Grohsgott, Jiri
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71463434
+  teams:
+    home: Parhomenko, Dmitro
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 71463478
+  teams:
+    home: Paril, Ondrej
+    away: Cabis, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 71463768
+  teams:
+    home: Plachta, Jakub
+    away: Wollny, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71463522
+  teams:
+    home: Havlicek, Vladimir
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71463390
+  teams:
+    home: Kostal, Marek
+    away: Belovsky, Josef
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 71463404
+  teams:
+    home: Pokorny, Adam
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71463414
+  teams:
+    home: Prikasky, Libor
+    away: Opralka, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 71463350
+  teams:
+    home: Smesny, Milan
+    away: Tomasch, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71482424
+  teams:
+    home: Belovsky, Josef
+    away: Kostal, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 71482408
+  teams:
+    home: Havlicek, Vladimir
+    away: Malek, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71482428
+  teams:
+    home: Opralka, Roman
+    away: Plachta, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 71482420
+  teams:
+    home: Paril, Ondrej
+    away: Pokorny, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71482418
+  teams:
+    home: Smesny, Milan
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71482422
+  teams:
+    home: Cabis, Michal
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71482410
+  teams:
+    home: Darin, Kyryl
+    away: Steffan, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71482426
+  teams:
+    home: Grohsgott, Jiri
+    away: Tomasch, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71482432
+  teams:
+    home: Parhomenko, Dmitro
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71482430
+  teams:
+    home: Prikasky, Libor
+    away: Wollny, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 71463674
+  teams:
+    home: Kolek, Matyas
+    away: Kanak, Alois
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 71463444
+  teams:
+    home: Luksa, Zdenek
+    away: Palmi, Ivo
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 71463530
+  teams:
+    home: Vinter, Tomas
+    away: Barta, Tomas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 71463426
+  teams:
+    home: Vrabec, Milan
+    away: Lubas, Miloslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 71463410
+  teams:
+    home: Zuzanek, Jiri
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '10:00'
