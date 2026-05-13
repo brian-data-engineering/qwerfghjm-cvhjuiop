@@ -9,7 +9,16 @@ soccer:
   status: result
   time: 00:30
 basketball: []
-tennis: []
+tennis:
+- id: 71201148
+  teams:
+    home: Ruud, Casper
+    away: Khachanov, Karen
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:00'
 ice_hockey: []
 table_tennis:
 - id: 71440326
@@ -775,7 +784,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71463484
   teams:
@@ -784,7 +793,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71463432
   teams:
@@ -793,7 +802,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71463394
   teams:
@@ -802,7 +811,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71463362
   teams:
@@ -811,5 +820,185 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 71463364
+  teams:
+    home: Barta, Tomas
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 71463512
+  teams:
+    home: Brozik, Karel
+    away: Regner, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71463690
+  teams:
+    home: Kanak, Alois
+    away: Tyn, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71463344
+  teams:
+    home: Lubas, Miloslav
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71463378
+  teams:
+    home: Palmi, Ivo
+    away: Kolenciak, Ivan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71463626
+  teams:
+    home: Cabis, Michal
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 71463510
+  teams:
+    home: Pleskot, Jan
+    away: Hasmanda, Rostislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71463424
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71463498
+  teams:
+    home: Prosa, Tomas
+    away: Zahradka, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71463440
+  teams:
+    home: Urbaniec, Radim
+    away: Louda, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 71463396
+  teams:
+    home: Kasnik, Sebastian
+    away: Pikous, Marcel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 71463622
+  teams:
+    home: Polasek, Radovan
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 71463368
+  teams:
+    home: Sulava, Lubor
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 71463470
+  teams:
+    home: Vales, Jakub
+    away: Nesnera, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 71463508
+  teams:
+    home: Zurek, Filip
+    away: Schneeberger, Antonin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 71463624
+  teams:
+    home: Grundel, Matej
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:00'
+- id: 71463382
+  teams:
+    home: Hasmanda, Rostislav
+    away: Sulava, Lubor
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:00'
+- id: 71463450
+  teams:
+    home: Louda, Jiri
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:00'
+- id: 71463488
+  teams:
+    home: Zahradka, Michal
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '15:00'
+- id: 71463492
+  teams:
+    home: Zientek, Zbynek
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:00'
