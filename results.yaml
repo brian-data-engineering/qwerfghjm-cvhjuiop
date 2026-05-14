@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 71428930
+  teams:
+    home: CA River Plate (Arg)
+    away: Gimnasia Y Esgrima La Plata
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:45
 basketball: []
 tennis: []
 ice_hockey:
@@ -7,9 +16,9 @@ ice_hockey:
     home: Colorado
     away: Minnesota
   score:
-    home: 0
+    home: 4
     away: 3
-  status: live
+  status: result
   time: 00:00
 table_tennis:
 - id: 71463610
@@ -73,7 +82,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71463608
   teams:
@@ -82,7 +91,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71463640
   teams:
@@ -91,5 +100,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 71463688
+  teams:
+    home: Plachy, Jiri
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 71463644
+  teams:
+    home: Potensky, Jan
+    away: Pelikan, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 71463636
+  teams:
+    home: Regner, Michal
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 71463676
+  teams:
+    home: Bayer, Alesh
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71463670
+  teams:
+    home: Fojt, Pavel
+    away: Vedmoch, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 71463684
+  teams:
+    home: Mazanek, Stanislav
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71463632
+  teams:
+    home: Nguyen, BA Hoang Tai
+    away: Barta, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71463654
+  teams:
+    home: Pelikan, Josef
+    away: Kulhanek, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 71463650
+  teams:
+    home: Sychra, Martin
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 71495548
+  teams:
+    home: Mazanek, Stanislav
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71495522
+  teams:
+    home: Nguyen, BA Hoang Tai
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71495538
+  teams:
+    home: Sychra, Martin
+    away: Bayer, Alesh
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 71495530
+  teams:
+    home: Barta, Tomas
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 71495552
+  teams:
+    home: Kulhanek, Pavel
+    away: Pelikan, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 71495546
+  teams:
+    home: Regner, Michal
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
