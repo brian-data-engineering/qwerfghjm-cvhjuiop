@@ -430,17 +430,17 @@ tennis:
     away: Ambrogi L E / Zeitune M
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '21:15'
 - id: 71351948
   teams:
     home: Gallego J I / Libre A
     away: Estevez J / Farjat T
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '21:55'
 - id: 71328798
   teams:
@@ -2367,8 +2367,8 @@ table_tennis:
     away: Brozik, Karel
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '22:00'
 - id: 71482014
   teams:
@@ -2377,7 +2377,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71482252
   teams:
@@ -2386,5 +2386,5 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:00'
