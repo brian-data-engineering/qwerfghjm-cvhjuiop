@@ -9,7 +9,16 @@ soccer:
   status: result
   time: 00:45
 basketball: []
-tennis: []
+tennis:
+- id: 71201152
+  teams:
+    home: Sinner, Jannik
+    away: Rublev, Andrey
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '11:00'
 ice_hockey:
 - id: 70558028
   teams:
@@ -507,6 +516,15 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 71503010
+  teams:
+    home: Kocian, Vojtech
+    away: Kanak, Alois
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
 - id: 71502748
   teams:
     home: Kycelt, Jakub
@@ -516,6 +534,69 @@ table_tennis:
     away: 3
   status: result
   time: 09:00
+- id: 71502860
+  teams:
+    home: Louda, Jiri
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71503008
+  teams:
+    home: Zientek, Zbynek
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 71503050
+  teams:
+    home: Varnuska, Tomas
+    away: Belovsky, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:04
+- id: 71502918
+  teams:
+    home: Kowolowski, Miroslav
+    away: Sionkala, Eduard
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 71503052
+  teams:
+    home: Parhomenko, Dmitro
+    away: Kostal, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 71502862
+  teams:
+    home: Urbaniec, Radim
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71502934
+  teams:
+    home: Varecha, Pavel
+    away: Virag, Alexandr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
 - id: 71502750
   teams:
     home: Zeman, Lukas
@@ -532,7 +613,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71482028
   teams:
@@ -541,7 +622,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71482250
   teams:
@@ -550,7 +631,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71481988
   teams:
@@ -559,7 +640,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71482020
   teams:
@@ -568,5 +649,185 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 71482052
+  teams:
+    home: Huk, Martin
+    away: Kolar, Vlastimil
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71482102
+  teams:
+    home: Kycelt, Jakub
+    away: Zahradka, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71482256
+  teams:
+    home: Pagac, Zbynek
+    away: Unzeitig, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71481954
+  teams:
+    home: Polasek, Radovan
+    away: Plachta, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71482112
+  teams:
+    home: Ruzicka, Jiri
+    away: Urbaniec, Radim
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71482180
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71482058
+  teams:
+    home: Cabis, Michal
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71482100
+  teams:
+    home: Franek, Tomas
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 71482108
+  teams:
+    home: Sebera, Petr
+    away: Huk, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71482066
+  teams:
+    home: Simecek, Jan
+    away: Kycelt, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71481922
+  teams:
+    home: Kolar, Vlastimil
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 71481944
+  teams:
+    home: Plachta, Jakub
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 71482226
+  teams:
+    home: Unzeitig, Daniel
+    away: Opralka, Roman
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 71481900
+  teams:
+    home: Urbaniec, Radim
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 71482030
+  teams:
+    home: Zahradka, Michal
+    away: Jindrak, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 71482076
+  teams:
+    home: Jindrak, Lukas
+    away: Kycelt, Jakub
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 71482064
+  teams:
+    home: Kasnik, Sebastian
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:00'
+- id: 71482178
+  teams:
+    home: Opralka, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:00'
+- id: 71481986
+  teams:
+    home: Vejvoda, Viktor
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 71481974
+  teams:
+    home: Zika, Tadeas
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
