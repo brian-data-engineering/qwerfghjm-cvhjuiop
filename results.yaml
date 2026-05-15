@@ -1,7 +1,25 @@
 soccer: []
 basketball: []
-tennis: []
-ice_hockey: []
+tennis:
+- id: 71201158
+  teams:
+    home: Ruud, Casper
+    away: Darderi, Luciano
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:30'
+ice_hockey:
+- id: 63080235
+  teams:
+    home: Finland
+    away: Germany
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:20'
 table_tennis:
 - id: 71482182
   teams:
