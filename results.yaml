@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71495494
+  teams:
+    home: Franca
+    away: Mogi Das Cruzes
+  score:
+    home: 54
+    away: 59
+  status: live
+  time: '22:00'
 tennis:
 - id: 71201158
   teams:
@@ -10,15 +19,6 @@ tennis:
     away: 0
   status: result
   time: '13:30'
-- id: 71201160
-  teams:
-    home: Sinner, Jannik
-    away: Medvedev, Daniil
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '17:00'
 - id: 71244438
   teams:
     home: Heliovaara H / Patten H
