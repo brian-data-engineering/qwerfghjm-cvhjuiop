@@ -1,291 +1,57 @@
 soccer: []
-basketball:
-- id: 71495494
-  teams:
-    home: Franca
-    away: Mogi Das Cruzes
-  score:
-    home: 54
-    away: 59
-  status: live
-  time: '22:00'
-tennis:
-- id: 71201158
-  teams:
-    home: Ruud, Casper
-    away: Darderi, Luciano
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:30'
-- id: 71244438
-  teams:
-    home: Heliovaara H / Patten H
-    away: Bolelli S / Vavassori A
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '11:30'
-- id: 71244436
-  teams:
-    home: Harrison C / Skupski N
-    away: Arevalo M / Pavic M
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:35'
-- id: 71349356
-  teams:
-    home: Smith, Keegan
-    away: Ivashka, Ilya
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:00'
-- id: 71349354
-  teams:
-    home: Sekulic, Philip
-    away: Tyagi, Kriish
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '11:50'
-- id: 71351198
-  teams:
-    home: Bar Biryukov P / Lomakin G
-    away: Kalyanpur A / Sasikumar M
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 06:30
-- id: 71351200
-  teams:
-    home: Dev S D P / Sinha N K
-    away: Kaliyanda Poonacha N / Myneni S
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: 08:35
-- id: 71327290
-  teams:
-    home: Rinderknech, Arthur
-    away: Damm Jr, Martin
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: 08:40
-- id: 71327272
-  teams:
-    home: Cerundolo, Juan Manuel
-    away: Burruchaga, Roman Andres
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:00'
-- id: 71327270
-  teams:
-    home: Van de Zandschulp, Botic
-    away: Halys, Quentin
-  score:
-    home: null
-    away: null
-  status: result
-  time: '10:45'
-- id: 71327288
-  teams:
-    home: Halys, Quentin
-    away: Mpetshi Perricard, Giovanni
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:00'
-- id: 71327284
-  teams:
-    home: Molcan, Alex
-    away: Griekspoor, Tallon
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:00'
-- id: 71327274
-  teams:
-    home: Damm Jr, Martin
-    away: Cerundolo, Juan Manuel
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:30'
-- id: 71327286
-  teams:
-    home: Collignon, Raphael
-    away: Droguet, Titouan
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:00'
-- id: 71466046
-  teams:
-    home: Arneodo R / Polmans M
-    away: Blancaneaux G / Tabur C
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 08:40
-- id: 71466044
-  teams:
-    home: Reymond A / Sanchez L
-    away: Drzewiecki K / Matuszewski P
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 08:40
-- id: 71466036
-  teams:
-    home: Gille S / Verbeek S
-    away: Arribage T / Peers J
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '10:10'
-- id: 71466040
-  teams:
-    home: Delage P / Dussin L
-    away: Nouza P / Oberleitner N
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '11:15'
-- id: 71328528
-  teams:
-    home: Arneodo R / Polmans M
-    away: Reymond A / Sanchez L
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '12:00'
-ice_hockey:
-- id: 63080235
-  teams:
-    home: Finland
-    away: Germany
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '14:20'
-- id: 69833506
-  teams:
-    home: USA
-    away: Switzerland
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '18:20'
-- id: 69833528
-  teams:
-    home: Canada
-    away: Sweden
-  score:
-    home: 5
-    away: 3
-  status: result
-  time: '14:20'
-- id: 69833530
-  teams:
-    home: Czech Republic
-    away: Denmark
-  score:
-    home: 4
-    away: 1
-  status: result
-  time: '18:20'
-- id: 69025090
-  teams:
-    home: Bars Kazan
-    away: Lok Yaroslavl
-  score:
-    home: 1
-    away: 4
-  status: result
-  time: '16:00'
-- id: 70558018
-  teams:
-    home: Anaheim
-    away: Vegas Golden Knights
-  score:
-    home: 1
-    away: 5
-  status: result
-  time: 01:30
+basketball: []
+tennis: []
+ice_hockey: []
 table_tennis:
-- id: 71482182
+- id: 71503038
   teams:
-    home: Huk, Martin
-    away: Ruzicka, Jiri
+    home: Chlebecek, Marek
+    away: Vizek, Martin
   score:
     home: 3
     away: 2
   status: result
   time: 00:00
-- id: 71505378
+- id: 71502940
   teams:
-    home: Sebera, Petr
-    away: Kasnik, Sebastian
+    home: Dousa, Tomas
+    away: Mikuska, Alexander
   score:
-    home: 0
+    home: 3
+    away: 2
+  status: result
+  time: 00:00
+- id: 71502926
+  teams:
+    home: Svoboda, Adam
+    away: Vitrovyj, Oleg
+  score:
+    home: 2
     away: 3
   status: result
   time: 00:00
-- id: 71481926
+- id: 71503034
   teams:
-    home: Sychra, Martin
-    away: Sobisek, Martin
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:00
-- id: 71481984
-  teams:
-    home: Brozik, Karel
-    away: Skakal, Martin
+    home: Dolezal, Vaclav
+    away: Urban, Roman
   score:
     home: 3
     away: 1
   status: result
   time: 00:30
-- id: 71482198
+- id: 71503028
   teams:
-    home: Louda, Jiri
-    away: Urbaniec, Radim
+    home: Prokupek, Jaroslav
+    away: Plachy, Jiri
   score:
     home: 2
     away: 3
-  status: result
+  status: recentlyended
   time: 00:30
-- id: 71482036
+- id: 71502978
   teams:
-    home: Tuma, Daniel
-    away: Bayer, Alesh
+    home: Pycha, Patrik
+    away: Kouble, Daniel
   score:
     home: 3
     away: 0
