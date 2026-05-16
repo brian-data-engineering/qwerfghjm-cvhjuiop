@@ -6,9 +6,144 @@ soccer:
   score:
     home: 3
     away: 1
-  status: live
+  status: result
   time: '17:00'
-basketball: []
+basketball:
+- id: 71425734
+  teams:
+    home: Hallmann Vienna
+    away: Oberwart
+  score:
+    home: 66
+    away: 66
+  status: live
+  time: '18:20'
+- id: 71487648
+  teams:
+    home: Guangsha Lions
+    away: Shenzhen Leopards
+  score:
+    home: 111
+    away: 102
+  status: result
+  time: '11:35'
+- id: 71452772
+  teams:
+    home: CEZ Nymburk
+    away: Opava
+  score:
+    home: 92
+    away: 67
+  status: result
+  time: '13:00'
+- id: 62280806
+  teams:
+    home: Boulazac
+    away: AS Monaco
+  score:
+    home: 92
+    away: 74
+  status: result
+  time: '17:00'
+- id: 62280808
+  teams:
+    home: Jeunesse Laique Bourg
+    away: Gravelines
+  score:
+    home: 95
+    away: 78
+  status: result
+  time: '17:00'
+- id: 62280810
+  teams:
+    home: Le Mans
+    away: Limoges
+  score:
+    home: 101
+    away: 84
+  status: result
+  time: '17:00'
+- id: 62280812
+  teams:
+    home: Le Portel
+    away: Dijon
+  score:
+    home: 80
+    away: 126
+  status: result
+  time: '17:00'
+- id: 62280814
+  teams:
+    home: Nancy
+    away: Saint Quentin
+  score:
+    home: 84
+    away: 71
+  status: result
+  time: '17:00'
+- id: 62280816
+  teams:
+    home: Nanterre
+    away: Cholet
+  score:
+    home: 66
+    away: 79
+  status: result
+  time: '17:00'
+- id: 62280818
+  teams:
+    home: Paris Basketball
+    away: Asvel
+  score:
+    home: 87
+    away: 76
+  status: result
+  time: '17:00'
+- id: 62280820
+  teams:
+    home: Strasbourg
+    away: Chalon
+  score:
+    home: 90
+    away: 91
+  status: result
+  time: '17:00'
+- id: 71427954
+  teams:
+    home: Bamberg
+    away: Ulm
+  score:
+    home: 80
+    away: 74
+  status: result
+  time: '16:30'
+- id: 71427984
+  teams:
+    home: Bonn
+    away: Wurzburg
+  score:
+    home: 45
+    away: 54
+  status: live
+  time: '18:30'
+- id: 71076894
+  teams:
+    home: Kolossos Rhodes
+    away: Olympiakos Piraeus
+  score:
+    home: 58
+    away: 97
+  status: result
+  time: '13:15'
+- id: 63468575
+  teams:
+    home: Hapoel Tel-Aviv
+    away: B Herzelia
+  score:
+    home: 59
+    away: 70
+  status: result
+  time: '18:00'
 tennis: []
 ice_hockey:
 - id: 69833408
@@ -29,6 +164,42 @@ ice_hockey:
     away: 4
   status: result
   time: '14:20'
+- id: 63080241
+  teams:
+    home: Switzerland
+    away: Latvia
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '18:20'
+- id: 63080395
+  teams:
+    home: Slovakia
+    away: Norway
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:20'
+- id: 69833532
+  teams:
+    home: Italy
+    away: Canada
+  score:
+    home: 0
+    away: 6
+  status: result
+  time: '14:20'
+- id: 63080399
+  teams:
+    home: Slovenia
+    away: Czech Republic
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:20'
 table_tennis:
 - id: 71503038
   teams:
