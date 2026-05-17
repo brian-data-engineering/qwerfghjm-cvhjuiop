@@ -4,9 +4,9 @@ soccer:
     home: Argentinos Juniors
     away: CA Belgrano de Cordoba
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 4
+    away: 5
+  status: recentlyended
   time: '20:00'
 - id: 67117670
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 67118388
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '20:00'
 - id: 67118402
   teams:
@@ -78,7 +78,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '20:00'
 - id: 67118396
   teams:
@@ -87,7 +87,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '20:00'
 - id: 69751548
   teams:
@@ -233,6 +233,24 @@ soccer:
     away: 1
   status: result
   time: '19:00'
+- id: 66886796
+  teams:
+    home: Chapecoense
+    away: Clube do Remo PA
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '21:30'
+- id: 66886786
+  teams:
+    home: Red Bull Bragantino SP
+    away: EC Vitoria
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '21:30'
 basketball:
 - id: 71466978
   teams:
