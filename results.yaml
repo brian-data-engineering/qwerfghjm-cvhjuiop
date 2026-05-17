@@ -32,9 +32,9 @@ basketball:
     home: Alba
     away: Vechta
   score:
-    home: 68
-    away: 84
-  status: live
+    home: 89
+    away: 103
+  status: result
   time: '16:30'
 - id: 71076906
   teams:
@@ -63,6 +63,150 @@ basketball:
     away: 74
   status: result
   time: '10:00'
+- id: 69753786
+  teams:
+    home: Maccabi Tel-Aviv
+    away: Hapoel Galil Elyon
+  score:
+    home: 108
+    away: 51
+  status: recentlyended
+  time: '18:05'
+- id: 71448716
+  teams:
+    home: Bologna
+    away: Trento
+  score:
+    home: 102
+    away: 71
+  status: result
+  time: '17:00'
+- id: 71448746
+  teams:
+    home: Venezia
+    away: Derthona
+  score:
+    home: 78
+    away: 66
+  status: live
+  time: '18:00'
+- id: 71514096
+  teams:
+    home: Bologna
+    away: S.S. Avellino Basket
+  score:
+    home: 93
+    away: 61
+  status: result
+  time: '16:00'
+- id: 71521562
+  teams:
+    home: Pall. Ruvo di Puglia
+    away: Roseto Basket
+  score:
+    home: 72
+    away: 68
+  status: result
+  time: '17:00'
+- id: 62871363
+  teams:
+    home: Zalgiris
+    away: Nevezis
+  score:
+    home: 98
+    away: 80
+  status: result
+  time: '13:50'
+- id: 62871365
+  teams:
+    home: N. Klaipeda
+    away: BC Jonava
+  score:
+    home: 95
+    away: 89
+  status: result
+  time: '16:10'
+- id: 71356958
+  teams:
+    home: Phoenix Galati
+    away: Csm Corona Brasov
+  score:
+    home: 88
+    away: 96
+  status: result
+  time: '15:00'
+- id: 71356974
+  teams:
+    home: Dinamo Bucuresti
+    away: Oradea
+  score:
+    home: 72
+    away: 76
+  status: result
+  time: '17:00'
+- id: 63049387
+  teams:
+    home: Lleida
+    away: Gran Canaria
+  score:
+    home: 75
+    away: 72
+  status: result
+  time: '10:00'
+- id: 63049393
+  teams:
+    home: Real Madrid
+    away: Joventut
+  score:
+    home: 81
+    away: 89
+  status: result
+  time: '10:30'
+- id: 63049397
+  teams:
+    home: U. Murcia
+    away: Unicaja
+  score:
+    home: 87
+    away: 69
+  status: result
+  time: '10:30'
+- id: 63049399
+  teams:
+    home: Valencia
+    away: Bilbao
+  score:
+    home: 88
+    away: 83
+  status: result
+  time: '15:00'
+- id: 63049383
+  teams:
+    home: Baskonia
+    away: C.B. Granada
+  score:
+    home: 121
+    away: 85
+  status: result
+  time: '16:00'
+- id: 63049391
+  teams:
+    home: Andorra
+    away: Burgos
+  score:
+    home: 83
+    away: 85
+  status: result
+  time: '17:00'
+- id: 63049389
+  teams:
+    home: Iberostar
+    away: Barcelona
+  score:
+    home: 94
+    away: 100
+  status: live
+  time: '18:00'
 tennis:
 - id: 71529100
   teams:
@@ -548,7 +692,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:20'
 - id: 71328578
   teams:
@@ -668,6 +812,69 @@ ice_hockey:
     away: 2
   status: result
   time: '14:20'
+- id: 63080247
+  teams:
+    home: Germany
+    away: Latvia
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '18:20'
+- id: 63080401
+  teams:
+    home: Italy
+    away: Slovakia
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '10:20'
+- id: 69833538
+  teams:
+    home: Denmark
+    away: Sweden
+  score:
+    home: 2
+    away: 6
+  status: result
+  time: '14:20'
+- id: 63080405
+  teams:
+    home: Norway
+    away: Slovenia
+  score:
+    home: 4
+    away: 0
+  status: live
+  time: '18:20'
+- id: 69025084
+  teams:
+    home: Bars Kazan
+    away: Lok Yaroslavl
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '11:30'
+- id: 70558176
+  teams:
+    home: Montreal
+    away: Buffalo
+  score:
+    home: 3
+    away: 8
+  status: result
+  time: 00:00
+- id: 71231058
+  teams:
+    home: Allen
+    away: Kansas City
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: 00:10
 table_tennis:
 - id: 71523506
   teams:
