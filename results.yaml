@@ -1,14 +1,32 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 71466978
+  teams:
+    home: Shanghai Sharks
+    away: Beijing Ducks
+  score:
+    home: 33
+    away: 30
+  status: live
+  time: '11:35'
+tennis:
+- id: 71529100
+  teams:
+    home: Trungelliti, Marco
+    away: Navone, Mariano
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:00'
 ice_hockey:
 - id: 69833420
   teams:
     home: Great Britain
     away: USA
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 4
   status: live
   time: '10:20'
 table_tennis:
