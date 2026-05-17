@@ -1,4 +1,238 @@
-soccer: []
+soccer:
+- id: 71494650
+  teams:
+    home: Argentinos Juniors
+    away: CA Belgrano de Cordoba
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:00'
+- id: 67117670
+  teams:
+    home: Deportivo Madryn
+    away: Ferro Carril Oeste
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '18:00'
+- id: 67118390
+  teams:
+    home: Club Almagro
+    away: San Martin de San Juan
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '18:30'
+- id: 67118386
+  teams:
+    home: Gimnasia Jujuy
+    away: CA Temperley
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 67118392
+  teams:
+    home: CA Patronato Parana
+    away: CA Chacarita Juniors
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
+- id: 67117678
+  teams:
+    home: Mitre Santiago Del Estero
+    away: CA San Miguel
+  score:
+    home: 4
+    away: 0
+  status: recentlyended
+  time: '19:00'
+- id: 67118398
+  teams:
+    home: Ferrocarril Midland
+    away: Agropecuario Argentino
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:30'
+- id: 67118388
+  teams:
+    home: CD Maipu
+    away: Nueva Chicago
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
+- id: 67118402
+  teams:
+    home: Gimnasia Y Tiro de Salta
+    away: San Martin de Tucuman
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
+- id: 67118396
+  teams:
+    home: Quilmes AC
+    away: Tristan Suarez
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:00'
+- id: 69751548
+  teams:
+    home: FC Salzburg
+    away: TSV Hartberg
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 69751550
+  teams:
+    home: FK Austria Wien
+    away: LASK
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 69751552
+  teams:
+    home: SK Sturm Graz
+    away: SK Rapid
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:30'
+- id: 63185781
+  teams:
+    home: Sabah Masazir
+    away: Neftchi Baku PFC
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 63185773
+  teams:
+    home: Zira FK
+    away: Sumgayit FK
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 70986778
+  teams:
+    home: FC Dnepr Mogilev
+    away: FC Brest
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71310396
+  teams:
+    home: Naftan Novopolotsk
+    away: FC Slavia Mozyr
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '13:00'
+- id: 71500910
+  teams:
+    home: FC Torpedo Belaz Zhodino
+    away: FC Vitebsk
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '15:00'
+- id: 71310400
+  teams:
+    home: FK Arsenal Dzerzhinsk
+    away: Maxline Vitebsk
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 70207432
+  teams:
+    home: RSC Anderlecht
+    away: Yellow-Red KV Mechelen
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '11:30'
+- id: 70207434
+  teams:
+    home: Club Brugge
+    away: Union Saint-Gilloise
+  score:
+    home: 5
+    away: 0
+  status: result
+  time: '16:30'
+- id: 71411460
+  teams:
+    home: Lommel SK
+    away: FCV Dender EH
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 66886784
+  teams:
+    home: SE Palmeiras
+    away: Cruzeiro EC
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:00
+- id: 66886782
+  teams:
+    home: Santos SP
+    away: Coritiba
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 66886780
+  teams:
+    home: Botafogo RJ
+    away: SC Corinthians
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '19:00'
+- id: 66886794
+  teams:
+    home: EC Bahia
+    away: Gremio FB Porto Alegrense
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
 basketball:
 - id: 71466978
   teams:
@@ -70,7 +304,7 @@ basketball:
   score:
     home: 108
     away: 51
-  status: recentlyended
+  status: result
   time: '18:05'
 - id: 71448716
   teams:
@@ -86,9 +320,9 @@ basketball:
     home: Venezia
     away: Derthona
   score:
-    home: 78
-    away: 66
-  status: live
+    home: 89
+    away: 82
+  status: result
   time: '18:00'
 - id: 71514096
   teams:
@@ -203,9 +437,9 @@ basketball:
     home: Iberostar
     away: Barcelona
   score:
-    home: 94
-    away: 100
-  status: live
+    home: 97
+    away: 102
+  status: result
   time: '18:00'
 tennis:
 - id: 71529100
@@ -819,7 +1053,7 @@ ice_hockey:
   score:
     home: 0
     away: 2
-  status: live
+  status: recentlyended
   time: '18:20'
 - id: 63080401
   teams:
@@ -846,7 +1080,7 @@ ice_hockey:
   score:
     home: 4
     away: 0
-  status: live
+  status: recentlyended
   time: '18:20'
 - id: 69025084
   teams:
