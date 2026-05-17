@@ -5,7 +5,7 @@ soccer:
     away: CA Belgrano de Cordoba
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '20:00'
 - id: 67117670
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 67118386
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 67118392
   teams:
@@ -42,7 +42,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 67117678
   teams:
@@ -51,23 +51,23 @@ soccer:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67118398
   teams:
     home: Ferrocarril Midland
     away: Agropecuario Argentino
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '19:30'
 - id: 67118388
   teams:
     home: CD Maipu
     away: Nueva Chicago
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:00'
@@ -76,7 +76,7 @@ soccer:
     home: Gimnasia Y Tiro de Salta
     away: San Martin de Tucuman
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:00'
@@ -222,7 +222,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 66886794
   teams:
@@ -231,7 +231,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '19:00'
 basketball:
 - id: 71466978
@@ -1053,7 +1053,7 @@ ice_hockey:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 63080401
   teams:
@@ -1080,7 +1080,7 @@ ice_hockey:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 69025084
   teams:
