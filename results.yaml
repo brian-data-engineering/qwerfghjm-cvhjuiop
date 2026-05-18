@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '18:30'
 basketball: []
 tennis:
@@ -322,9 +322,9 @@ ice_hockey:
     home: Germany
     away: Switzerland
   score:
-    home: 0
+    home: 1
     away: 6
-  status: live
+  status: result
   time: '18:20'
 - id: 63080407
   teams:
@@ -342,7 +342,7 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: live
+  status: result
   time: '18:20'
 table_tennis:
 - id: 71541752
