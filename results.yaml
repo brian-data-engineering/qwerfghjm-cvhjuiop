@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 67117672
+  teams:
+    home: Defensores de Belgrano
+    away: CA Chaco For Ever
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
 basketball: []
 tennis:
 - id: 71557976
@@ -233,7 +242,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:55'
 - id: 71557884
   teams:
@@ -241,53 +250,53 @@ tennis:
     away: Blanchet, Ugo
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:05'
 - id: 71557900
   teams:
     home: Moro Canas, Alejandro
     away: Napolitano, Stefano
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:15'
 - id: 71557922
   teams:
     home: Sachko, Vitaliy
     away: Pinnington Jones, Jack
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:35'
 - id: 71557906
   teams:
     home: Tomic, Bernard
     away: Echargui, Moez
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:35'
 - id: 71557888
   teams:
     home: Gaubas, Vilius
     away: Coria, Federico
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '17:05'
 - id: 71557886
   teams:
     home: Reis Da Silva, Joao Lucas
     away: Hemery, Calvin
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '17:25'
 - id: 71529096
   teams:
@@ -308,6 +317,33 @@ ice_hockey:
     away: 2
   status: result
   time: '14:20'
+- id: 69833422
+  teams:
+    home: Germany
+    away: Switzerland
+  score:
+    home: 0
+    away: 6
+  status: live
+  time: '18:20'
+- id: 63080407
+  teams:
+    home: Canada
+    away: Denmark
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '14:20'
+- id: 69833540
+  teams:
+    home: Sweden
+    away: Czech Republic
+  score:
+    home: 3
+    away: 4
+  status: live
+  time: '18:20'
 table_tennis:
 - id: 71541752
   teams:
