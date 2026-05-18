@@ -6,18 +6,18 @@ tennis:
     home: De Jong, Jesper
     away: Sun, Fajing
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 08:00
 - id: 71557970
   teams:
     home: Ficovich, Juan Pablo
     away: Travaglia, Stefano
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: 08:00
 - id: 71557972
   teams:
@@ -25,8 +25,8 @@ tennis:
     away: Zheng, Michael
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 08:00
 - id: 71557962
   teams:
@@ -34,27 +34,108 @@ tennis:
     away: Harris, Lloyd
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 08:00
 - id: 71557964
   teams:
     home: Pellegrino, Andrea
     away: Moreno de Alboran
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 08:00
 - id: 71557974
   teams:
     home: Simakin, Ilia
     away: Draxl, Liam
   score:
+    home: 1
+    away: 2
+  status: result
+  time: 08:00
+- id: 71557856
+  teams:
+    home: Virtanen, Otto
+    away: Holmgren, August
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:15
+- id: 71557916
+  teams:
+    home: Olivieri, Genaro Alberto
+    away: Faurel, Thomas
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 09:30
+- id: 71557968
+  teams:
+    home: Shimabukuro, Sho
+    away: Sakellaridis, Stefanos
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 09:30
+- id: 71557854
+  teams:
+    home: Evans, Daniel
+    away: Jade, Daniel
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 09:40
+- id: 71557852
+  teams:
+    home: Diaz Acosta, Facundo
+    away: O'Connell, Christopher
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:55
+- id: 71557850
+  teams:
+    home: Bertola, Remy
+    away: Mochizuki, Shintaro
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:20'
+- id: 71557914
+  teams:
+    home: Clarke, Jay
+    away: Sweeny, Dane
+  score:
     home: 0
     away: 0
   status: live
-  time: 08:00
+  time: '11:50'
+- id: 71557966
+  teams:
+    home: Houkes, Max
+    away: Cecchinato, Marco
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:50'
+- id: 71557926
+  teams:
+    home: Goffin, David
+    away: Tseng, Chun Hsin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:05'
 ice_hockey: []
 table_tennis:
 - id: 71541752
@@ -469,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71554508
   teams:
@@ -478,7 +559,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71554542
   teams:
@@ -487,7 +568,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71554558
   teams:
@@ -505,41 +586,212 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 71554432
   teams:
     home: Oborny, Dominik
     away: Osvald, Petr
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 08:30
 - id: 71555250
   teams:
     home: Polasek, Radovan
     away: Vavrecka, Michal
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 08:30
 - id: 71554496
   teams:
     home: Svec, Jiri
     away: Madle, Ludek
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 08:30
 - id: 71554424
   teams:
     home: Zeman, Lukas
     away: Zahradka, Michal
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 08:30
+- id: 71577418
+  teams:
+    home: Cabis, Michal
+    away: Paril, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71577408
+  teams:
+    home: Heczko, Marcel
+    away: Osvald, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71577412
+  teams:
+    home: Mares, Erik
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71577392
+  teams:
+    home: Parhomenko, Dmitro
+    away: Belovsky, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71577422
+  teams:
+    home: Cernik, Jaromir
+    away: Mutl, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:01
+- id: 71577424
+  teams:
+    home: Madle, Ludek
+    away: Svec, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71577394
+  teams:
+    home: Nguyen, BA Hoang Tai
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71577410
+  teams:
+    home: Oborny, Dominik
+    away: Levicky, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71577414
+  teams:
+    home: Vales, Jakub
+    away: Zeman, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71577420
+  teams:
+    home: Vavrecka, Michal
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71554448
+  teams:
+    home: Kasnik, Sebastian
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71555228
+  teams:
+    home: Revay, Radomir
+    away: Pokorny, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71554470
+  teams:
+    home: Smesny, Milan
+    away: Havrda, Cesta
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71554514
+  teams:
+    home: Vedmoch, Michal
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71554512
+  teams:
+    home: Zurek, Filip
+    away: Zientek, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71554460
+  teams:
+    home: Brozik, Karel
+    away: Regner, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71554564
+  teams:
+    home: Cermak, Vladimir
+    away: Nguyen, BA Hoang Tai
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71554500
+  teams:
+    home: Mutl, David
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71555298
+  teams:
+    home: Polasek, Radovan
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
