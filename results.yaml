@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 71344708
+  teams:
+    home: Ben Aknoun
+    away: ES Mostaganem
+  score:
+    home: 4
+    away: 0
+  status: live
+  time: '15:00'
+- id: 71344710
+  teams:
+    home: MB Rouisset
+    away: Paradou AC
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:00'
 basketball: []
 tennis:
 - id: 71557894
@@ -53,34 +71,34 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 71557904
   teams:
     home: Faria, Jaime
     away: Dimitrov, Grigor
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '10:30'
 - id: 71557936
   teams:
     home: Molcan, Alex
     away: Crawford, Oliver
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '10:55'
 - id: 71557944
   teams:
     home: Maestrelli, Francesco
     away: Noguchi, Rio
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '11:05'
 - id: 71557938
   teams:
@@ -88,8 +106,8 @@ tennis:
     away: Dellien, Hugo
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:10'
 - id: 71557942
   teams:
@@ -97,17 +115,26 @@ tennis:
     away: Carballes Baena, Roberto
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '11:10'
 - id: 71557940
   teams:
     home: Dodig, Matej
     away: Zhou, Yi
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '11:15'
-ice_hockey: []
+ice_hockey:
+- id: 63080253
+  teams:
+    home: Latvia
+    away: Austria
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '14:20'
 table_tennis: []
