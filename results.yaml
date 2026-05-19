@@ -24,17 +24,134 @@ soccer:
   score:
     home: 2
     away: 2
-  status: live
+  status: result
   time: '16:45'
+- id: 71344714
+  teams:
+    home: USM Alger
+    away: Olympique Akbou
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
+- id: 71553430
+  teams:
+    home: SV Ried
+    away: Wolfsberger AC
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:30'
+- id: 70207506
+  teams:
+    home: KRC Genk
+    away: Royal Antwerp FC
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 70207508
+  teams:
+    home: KVC Westerlo
+    away: Standard Liege
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:30'
+- id: 70207504
+  teams:
+    home: Royal Charleroi SC
+    away: Oud-Heverlee Leuven
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:30'
+- id: 68995158
+  teams:
+    home: Shenzhen Peng
+    away: Dalian
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '11:35'
+- id: 68995156
+  teams:
+    home: Tianjin
+    away: Henan
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '11:35'
+- id: 68995162
+  teams:
+    home: Chengdu Rongcheng
+    away: Shanghai Port
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '12:00'
+- id: 68995160
+  teams:
+    home: Qingdao West Coast
+    away: Beijing Guoan
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '12:00'
+- id: 71532648
+  teams:
+    home: Palmira
+    away: Tigres
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: 00:00
+- id: 68687654
+  teams:
+    home: Guayaquil City
+    away: Orense SC
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 00:00
+- id: 61301247
+  teams:
+    home: Bournemouth
+    away: Manchester City
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 71173724
+  teams:
+    home: Chelsea
+    away: Tottenham
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:15'
 basketball:
 - id: 71546876
   teams:
     home: Oberwart
     away: Hallmann Vienna
   score:
-    home: 48
-    away: 34
-  status: live
+    home: 84
+    away: 83
+  status: result
   time: '17:15'
 - id: 71535204
   teams:
@@ -59,10 +176,145 @@ basketball:
     home: Alba
     away: Vechta
   score:
-    home: 81
-    away: 79
-  status: live
+    home: 90
+    away: 85
+  status: result
   time: '16:30'
+- id: 71514410
+  teams:
+    home: B. Munich
+    away: Trier
+  score:
+    home: 92
+    away: 62
+  status: live
+  time: '18:30'
+- id: 71385446
+  teams:
+    home: Johor Southern Tigers
+    away: Ulaanbaatar Xac Broncos
+  score:
+    home: 93
+    away: 97
+  status: result
+  time: '12:00'
+- id: 71385452
+  teams:
+    home: South China
+    away: Hitech Bangkok City
+  score:
+    home: 92
+    away: 90
+  status: result
+  time: 09:00
+- id: 71295470
+  teams:
+    home: Zenit St P.
+    away: Uniks Kazan
+  score:
+    home: 81
+    away: 77
+  status: result
+  time: '16:30'
+- id: 63468559
+  teams:
+    home: Ironi Kiryat ATA
+    away: Ironi Ramat Gan
+  score:
+    home: 83
+    away: 90
+  status: result
+  time: '16:00'
+- id: 71448722
+  teams:
+    home: Bologna
+    away: Trento
+  score:
+    home: 84
+    away: 87
+  status: recentlyended
+  time: '18:00'
+- id: 71448748
+  teams:
+    home: Venezia
+    away: Derthona
+  score:
+    home: 87
+    away: 75
+  status: recentlyended
+  time: '18:30'
+- id: 71546942
+  teams:
+    home: Pesaro
+    away: Rinascita Basket Rimini
+  score:
+    home: 64
+    away: 72
+  status: live
+  time: '18:45'
+- id: 71521564
+  teams:
+    home: Pall. Ruvo di Puglia
+    away: Roseto Basket
+  score:
+    home: 74
+    away: 67
+  status: live
+  time: '18:45'
+- id: 71345864
+  teams:
+    home: Dziki Warszawa
+    away: Sopot
+  score:
+    home: 85
+    away: 78
+  status: result
+  time: '16:00'
+- id: 71446366
+  teams:
+    home: Dabrowa Gornicza
+    away: Warszawa
+  score:
+    home: 90
+    away: 87
+  status: live
+  time: '18:15'
+- id: 71490880
+  teams:
+    home: Dinamo Bucuresti
+    away: Oradea
+  score:
+    home: 62
+    away: 79
+  status: result
+  time: '15:00'
+- id: 71474666
+  teams:
+    home: Borac Cacak
+    away: Spartak Subotica
+  score:
+    home: 68
+    away: 75
+  status: result
+  time: '17:00'
+- id: 71530136
+  teams:
+    home: Club Nacional
+    away: Aguada
+  score:
+    home: 83
+    away: 96
+  status: result
+  time: 00:15
+- id: 70505032
+  teams:
+    home: Oklahoma
+    away: San Antonio
+  score:
+    home: 115
+    away: 122
+  status: result
+  time: 00:30
 tennis:
 - id: 71557894
   teams:
@@ -182,4 +434,40 @@ ice_hockey:
     away: 3
   status: result
   time: '14:20'
+- id: 63080255
+  teams:
+    home: Hungary
+    away: Great Britain
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '18:20'
+- id: 63080411
+  teams:
+    home: Italy
+    away: Norway
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: '14:20'
+- id: 63080413
+  teams:
+    home: Slovenia
+    away: Slovakia
+  score:
+    home: 3
+    away: 4
+  status: live
+  time: '18:20'
+- id: 69025082
+  teams:
+    home: Lok Yaroslavl
+    away: Bars Kazan
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '16:00'
 table_tennis: []
