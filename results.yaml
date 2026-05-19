@@ -4,9 +4,9 @@ soccer:
     home: Ben Aknoun
     away: ES Mostaganem
   score:
-    home: 4
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 71344710
   teams:
@@ -14,10 +14,55 @@ soccer:
     away: Paradou AC
   score:
     home: 2
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '15:00'
-basketball: []
+- id: 71344712
+  teams:
+    home: CS Constantine
+    away: USM Khenchela
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '16:45'
+basketball:
+- id: 71546876
+  teams:
+    home: Oberwart
+    away: Hallmann Vienna
+  score:
+    home: 48
+    away: 34
+  status: live
+  time: '17:15'
+- id: 71535204
+  teams:
+    home: Pinheiros SP
+    away: Corinthians
+  score:
+    home: 95
+    away: 65
+  status: result
+  time: 00:00
+- id: 71452774
+  teams:
+    home: Opava
+    away: CEZ Nymburk
+  score:
+    home: 67
+    away: 95
+  status: result
+  time: '16:00'
+- id: 71489456
+  teams:
+    home: Alba
+    away: Vechta
+  score:
+    home: 81
+    away: 79
+  status: live
+  time: '16:30'
 tennis:
 - id: 71557894
   teams:
@@ -134,7 +179,7 @@ ice_hockey:
     away: Austria
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:20'
 table_tennis: []
