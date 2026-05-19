@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 71553430
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 70207508
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 70207504
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 68995158
   teams:
@@ -131,17 +131,17 @@ soccer:
     away: Manchester City
   score:
     home: 1
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '18:30'
 - id: 71173724
   teams:
     home: Chelsea
     away: Tottenham
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '19:15'
 basketball:
 - id: 71546876
@@ -186,8 +186,8 @@ basketball:
     away: Trier
   score:
     home: 92
-    away: 62
-  status: live
+    away: 65
+  status: result
   time: '18:30'
 - id: 71385446
   teams:
@@ -232,7 +232,7 @@ basketball:
   score:
     home: 84
     away: 87
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71448748
   teams:
@@ -241,25 +241,25 @@ basketball:
   score:
     home: 87
     away: 75
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71546942
   teams:
     home: Pesaro
     away: Rinascita Basket Rimini
   score:
-    home: 64
-    away: 72
-  status: live
+    home: 78
+    away: 91
+  status: result
   time: '18:45'
 - id: 71521564
   teams:
     home: Pall. Ruvo di Puglia
     away: Roseto Basket
   score:
-    home: 74
-    away: 67
-  status: live
+    home: 87
+    away: 83
+  status: result
   time: '18:45'
 - id: 71345864
   teams:
@@ -275,9 +275,9 @@ basketball:
     home: Dabrowa Gornicza
     away: Warszawa
   score:
-    home: 90
-    away: 87
-  status: live
+    home: 92
+    away: 91
+  status: result
   time: '18:15'
 - id: 71490880
   teams:
@@ -439,9 +439,9 @@ ice_hockey:
     home: Hungary
     away: Great Britain
   score:
-    home: 3
+    home: 5
     away: 0
-  status: live
+  status: result
   time: '18:20'
 - id: 63080411
   teams:
@@ -457,9 +457,9 @@ ice_hockey:
     home: Slovenia
     away: Slovakia
   score:
-    home: 3
-    away: 4
-  status: live
+    home: 4
+    away: 5
+  status: result
   time: '18:20'
 - id: 69025082
   teams:
