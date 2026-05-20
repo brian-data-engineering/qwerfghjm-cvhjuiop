@@ -6,9 +6,9 @@ tennis:
     home: De Jong, Jesper
     away: Draxl, Liam
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 08:00
 - id: 71582894
   teams:
@@ -17,7 +17,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71582700
   teams:
@@ -26,7 +26,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71581554
   teams:
@@ -44,7 +44,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71582892
   teams:
@@ -53,7 +53,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71586176
   teams:
@@ -62,7 +62,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71579106
   teams:
@@ -71,8 +71,89 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
+- id: 71587654
+  teams:
+    home: Cina, Federico
+    away: Tomic, Bernard
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71587628
+  teams:
+    home: Blanchet, Ugo
+    away: Llamas Ruiz, Pablo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:10'
+- id: 71585252
+  teams:
+    home: Samuel, Toby
+    away: Goffin, David
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:30'
+- id: 71587764
+  teams:
+    home: Bueno, Gonzalo
+    away: Sachko, Vitaliy
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:35'
+- id: 71586162
+  teams:
+    home: Glinka, Daniil
+    away: Prado Angelo, Juan Carlos
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '10:55'
+- id: 71587718
+  teams:
+    home: Moro Canas, Alejandro
+    away: Neumayer, Lukas
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '11:05'
+- id: 71587322
+  teams:
+    home: Boscardin Dias, Pedro
+    away: Galarneau, Alexis
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '11:45'
+- id: 71604124
+  teams:
+    home: Heide, Gustavo
+    away: Rodionov, Jurij
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:05'
+- id: 71605750
+  teams:
+    home: Faria, Jaime
+    away: Smith, Colton
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:20'
 ice_hockey: []
 table_tennis:
 - id: 71577262
