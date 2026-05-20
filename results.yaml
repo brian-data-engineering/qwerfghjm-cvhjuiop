@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71577194
   teams:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71576814
   teams:
@@ -82,14 +82,185 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71576774
   teams:
     home: Mutl, David
     away: Vaclavik, Miroslav
   score:
-    home: 0
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 71576850
+  teams:
+    home: Steffan, Jan
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 71577176
+  teams:
+    home: Stuchlik, Pavel
+    away: Novak, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 71576762
+  teams:
+    home: Andrle, Tomas
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71577264
+  teams:
+    home: Grohsgott, Jiri
+    away: Tomasch, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71576738
+  teams:
+    home: Smesny, Milan
+    away: Cernik, Jaromir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71577190
+  teams:
+    home: Novak, Martin
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 71576822
+  teams:
+    home: Picek, Petr
+    away: Darin, Kyryl
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 71576856
+  teams:
+    home: Vaclavik, Miroslav
+    away: Mazanek, Stanislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 71614610
+  teams:
+    home: Grohsgott, Jiri
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71614602
+  teams:
+    home: Mazanek, Stanislav
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 71614614
+  teams:
+    home: Steffan, Jan
+    away: Picek, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 71614620
+  teams:
+    home: Darin, Kyryl
+    away: Andrle, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 71614612
+  teams:
+    home: Novak, Martin
+    away: Stuchlik, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 71614604
+  teams:
+    home: Vaclavik, Miroslav
+    away: Mutl, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 71605664
+  teams:
+    home: Cermak, Vladimir
+    away: Vedmoch, Michal
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:00
+- id: 71600414
+  teams:
+    home: Kern, Lukas
+    away: Schwan, Jaroslav
+  score:
+    home: 2
     away: 0
   status: live
-  time: 01:30
+  time: 06:00
+- id: 71600194
+  teams:
+    home: Sychra, Martin
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 06:00
+- id: 71600494
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
+- id: 71600480
+  teams:
+    home: Varnuska, Tomas
+    away: Belovsky, Josef
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
