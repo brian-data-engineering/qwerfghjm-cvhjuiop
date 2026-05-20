@@ -1,4 +1,31 @@
-soccer: []
+soccer:
+- id: 71344718
+  teams:
+    home: ASO Chlef
+    away: JS Kabylie
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '16:45'
+- id: 71344720
+  teams:
+    home: El Bayadh
+    away: JS Saoura
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '16:45'
+- id: 71344716
+  teams:
+    home: ES Setif
+    away: MC Alger
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:45'
 basketball: []
 tennis:
 - id: 71578916
@@ -179,7 +206,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '13:35'
 - id: 71608256
   teams:
@@ -187,8 +214,8 @@ tennis:
     away: Gill, Felix
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:50'
 - id: 71608222
   teams:
@@ -205,8 +232,8 @@ tennis:
     away: Jacquet, Kyrian
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:00'
 - id: 71610828
   teams:
@@ -214,8 +241,8 @@ tennis:
     away: Martinez, Pedro
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:00'
 ice_hockey:
 - id: 69833510
@@ -225,7 +252,7 @@ ice_hockey:
   score:
     home: 0
     away: 9
-  status: live
+  status: result
   time: '14:20'
 table_tennis:
 - id: 71577262
