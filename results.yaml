@@ -1,473 +1,95 @@
-soccer:
-- id: 71344708
+soccer: []
+basketball: []
+tennis: []
+ice_hockey: []
+table_tennis:
+- id: 71577262
   teams:
-    home: Ben Aknoun
-    away: ES Mostaganem
+    home: Novak, Martin
+    away: Grohsgott, Jiri
   score:
     home: 3
     away: 0
   status: result
-  time: '15:00'
-- id: 71344710
-  teams:
-    home: MB Rouisset
-    away: Paradou AC
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '15:00'
-- id: 71344712
-  teams:
-    home: CS Constantine
-    away: USM Khenchela
-  score:
-    home: 2
-    away: 2
-  status: result
-  time: '16:45'
-- id: 71344714
-  teams:
-    home: USM Alger
-    away: Olympique Akbou
-  score:
-    home: 1
-    away: 0
-  status: result
-  time: '19:00'
-- id: 71553430
-  teams:
-    home: SV Ried
-    away: Wolfsberger AC
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '16:30'
-- id: 70207506
-  teams:
-    home: KRC Genk
-    away: Royal Antwerp FC
-  score:
-    home: 0
-    away: 0
-  status: result
-  time: '18:30'
-- id: 70207508
-  teams:
-    home: KVC Westerlo
-    away: Standard Liege
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '18:30'
-- id: 70207504
-  teams:
-    home: Royal Charleroi SC
-    away: Oud-Heverlee Leuven
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '18:30'
-- id: 68995158
-  teams:
-    home: Shenzhen Peng
-    away: Dalian
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '11:35'
-- id: 68995156
-  teams:
-    home: Tianjin
-    away: Henan
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '11:35'
-- id: 68995162
-  teams:
-    home: Chengdu Rongcheng
-    away: Shanghai Port
-  score:
-    home: 0
-    away: 1
-  status: result
-  time: '12:00'
-- id: 68995160
-  teams:
-    home: Qingdao West Coast
-    away: Beijing Guoan
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '12:00'
-- id: 71532648
-  teams:
-    home: Palmira
-    away: Tigres
-  score:
-    home: 2
-    away: 2
-  status: result
   time: 00:00
-- id: 68687654
+- id: 71576796
   teams:
-    home: Guayaquil City
-    away: Orense SC
-  score:
-    home: 0
-    away: 1
-  status: result
-  time: 00:00
-- id: 61301247
-  teams:
-    home: Bournemouth
-    away: Manchester City
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '18:30'
-- id: 71173724
-  teams:
-    home: Chelsea
-    away: Tottenham
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '19:15'
-basketball:
-- id: 71546876
-  teams:
-    home: Oberwart
-    away: Hallmann Vienna
-  score:
-    home: 84
-    away: 83
-  status: result
-  time: '17:15'
-- id: 71535204
-  teams:
-    home: Pinheiros SP
-    away: Corinthians
-  score:
-    home: 95
-    away: 65
-  status: result
-  time: 00:00
-- id: 71452774
-  teams:
-    home: Opava
-    away: CEZ Nymburk
-  score:
-    home: 67
-    away: 95
-  status: result
-  time: '16:00'
-- id: 71489456
-  teams:
-    home: Alba
-    away: Vechta
-  score:
-    home: 90
-    away: 85
-  status: result
-  time: '16:30'
-- id: 71514410
-  teams:
-    home: B. Munich
-    away: Trier
-  score:
-    home: 92
-    away: 65
-  status: result
-  time: '18:30'
-- id: 71385446
-  teams:
-    home: Johor Southern Tigers
-    away: Ulaanbaatar Xac Broncos
-  score:
-    home: 93
-    away: 97
-  status: result
-  time: '12:00'
-- id: 71385452
-  teams:
-    home: South China
-    away: Hitech Bangkok City
-  score:
-    home: 92
-    away: 90
-  status: result
-  time: 09:00
-- id: 71295470
-  teams:
-    home: Zenit St P.
-    away: Uniks Kazan
-  score:
-    home: 81
-    away: 77
-  status: result
-  time: '16:30'
-- id: 63468559
-  teams:
-    home: Ironi Kiryat ATA
-    away: Ironi Ramat Gan
-  score:
-    home: 83
-    away: 90
-  status: result
-  time: '16:00'
-- id: 71448722
-  teams:
-    home: Bologna
-    away: Trento
-  score:
-    home: 84
-    away: 87
-  status: result
-  time: '18:00'
-- id: 71448748
-  teams:
-    home: Venezia
-    away: Derthona
-  score:
-    home: 87
-    away: 75
-  status: result
-  time: '18:30'
-- id: 71546942
-  teams:
-    home: Pesaro
-    away: Rinascita Basket Rimini
-  score:
-    home: 78
-    away: 91
-  status: result
-  time: '18:45'
-- id: 71521564
-  teams:
-    home: Pall. Ruvo di Puglia
-    away: Roseto Basket
-  score:
-    home: 87
-    away: 83
-  status: result
-  time: '18:45'
-- id: 71345864
-  teams:
-    home: Dziki Warszawa
-    away: Sopot
-  score:
-    home: 85
-    away: 78
-  status: result
-  time: '16:00'
-- id: 71446366
-  teams:
-    home: Dabrowa Gornicza
-    away: Warszawa
-  score:
-    home: 92
-    away: 91
-  status: result
-  time: '18:15'
-- id: 71490880
-  teams:
-    home: Dinamo Bucuresti
-    away: Oradea
-  score:
-    home: 62
-    away: 79
-  status: result
-  time: '15:00'
-- id: 71474666
-  teams:
-    home: Borac Cacak
-    away: Spartak Subotica
-  score:
-    home: 68
-    away: 75
-  status: result
-  time: '17:00'
-- id: 71530136
-  teams:
-    home: Club Nacional
-    away: Aguada
-  score:
-    home: 83
-    away: 96
-  status: result
-  time: 00:15
-- id: 70505032
-  teams:
-    home: Oklahoma
-    away: San Antonio
-  score:
-    home: 115
-    away: 122
-  status: result
-  time: 00:30
-tennis:
-- id: 71557894
-  teams:
-    home: Gojo, Borna
-    away: Gueymard Wayenburg, Sascha
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 09:30
-- id: 71557892
-  teams:
-    home: Heide, Gustavo
-    away: Added, Dan
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 09:30
-- id: 71557950
-  teams:
-    home: McCabe, James
-    away: Kolar, Zdenek
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: 09:30
-- id: 71557890
-  teams:
-    home: Rodionov, Jurij
-    away: Lajovic, Dusan
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 09:30
-- id: 71557902
-  teams:
-    home: Smith, Colton
-    away: Guillen Meza, Alvaro
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 09:30
-- id: 71557952
-  teams:
-    home: Wong, Coleman
-    away: Harris, Billy
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 09:30
-- id: 71557904
-  teams:
-    home: Faria, Jaime
-    away: Dimitrov, Grigor
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:30'
-- id: 71557936
-  teams:
-    home: Molcan, Alex
-    away: Crawford, Oliver
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:55'
-- id: 71557944
-  teams:
-    home: Maestrelli, Francesco
-    away: Noguchi, Rio
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '11:05'
-- id: 71557938
-  teams:
-    home: Cuenin, Sean
-    away: Dellien, Hugo
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '11:10'
-- id: 71557942
-  teams:
-    home: Midon, Lautaro
-    away: Carballes Baena, Roberto
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '11:10'
-- id: 71557940
-  teams:
-    home: Dodig, Matej
-    away: Zhou, Yi
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '11:15'
-ice_hockey:
-- id: 63080253
-  teams:
-    home: Latvia
-    away: Austria
+    home: Picek, Petr
+    away: Andrle, Tomas
   score:
     home: 1
     away: 3
   status: result
-  time: '14:20'
-- id: 63080255
+  time: 00:00
+- id: 71576732
   teams:
-    home: Hungary
-    away: Great Britain
+    home: Vaclavik, Miroslav
+    away: Smesny, Milan
   score:
-    home: 5
+    home: 3
     away: 0
   status: result
-  time: '18:20'
-- id: 63080411
+  time: 00:00
+- id: 71576768
   teams:
-    home: Italy
-    away: Norway
+    home: Cernik, Jaromir
+    away: Mutl, David
   score:
     home: 0
-    away: 4
+    away: 3
   status: result
-  time: '14:20'
-- id: 63080413
+  time: 00:30
+- id: 71576798
   teams:
-    home: Slovenia
-    away: Slovakia
+    home: Regner, Tomas
+    away: Steffan, Jan
   score:
-    home: 4
-    away: 5
+    home: 2
+    away: 3
   status: result
-  time: '18:20'
-- id: 69025082
+  time: 00:30
+- id: 71577304
   teams:
-    home: Lok Yaroslavl
-    away: Bars Kazan
+    home: Tomasch, David
+    away: Stuchlik, Pavel
   score:
-    home: 4
-    away: 1
+    home: 1
+    away: 3
   status: result
-  time: '16:00'
-table_tennis: []
+  time: 00:30
+- id: 71576810
+  teams:
+    home: Andrle, Tomas
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 01:00
+- id: 71577194
+  teams:
+    home: Grohsgott, Jiri
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 01:00
+- id: 71576814
+  teams:
+    home: Smesny, Milan
+    away: Mazanek, Stanislav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 01:00
+- id: 71576774
+  teams:
+    home: Mutl, David
+    away: Vaclavik, Miroslav
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 01:30
