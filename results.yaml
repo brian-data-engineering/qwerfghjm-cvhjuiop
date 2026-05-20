@@ -96,9 +96,9 @@ tennis:
     home: Samuel, Toby
     away: Goffin, David
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '10:30'
 - id: 71587764
   teams:
@@ -116,7 +116,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '10:55'
 - id: 71587718
   teams:
@@ -125,7 +125,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '11:05'
 - id: 71587322
   teams:
@@ -133,8 +133,8 @@ tennis:
     away: Galarneau, Alexis
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '11:45'
 - id: 71604124
   teams:
@@ -142,19 +142,91 @@ tennis:
     away: Rodionov, Jurij
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '12:05'
 - id: 71605750
   teams:
     home: Faria, Jaime
     away: Smith, Colton
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '12:20'
-ice_hockey: []
+- id: 71608220
+  teams:
+    home: Maestrelli, Francesco
+    away: Carballes Baena, Roberto
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:35'
+- id: 71605534
+  teams:
+    home: Wong, Coleman
+    away: Kolar, Zdenek
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:45'
+- id: 71608260
+  teams:
+    home: Rocha, Henrique
+    away: Gojo, Borna
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '13:35'
+- id: 71608256
+  teams:
+    home: Molcan, Alex
+    away: Gill, Felix
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:50'
+- id: 71608222
+  teams:
+    home: Dodig, Matej
+    away: Dellien, Hugo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:55'
+- id: 71609672
+  teams:
+    home: Fatic, Nerman
+    away: Jacquet, Kyrian
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:00'
+- id: 71610828
+  teams:
+    home: Fery, Arthur
+    away: Martinez, Pedro
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:00'
+ice_hockey:
+- id: 69833510
+  teams:
+    home: Austria
+    away: Switzerland
+  score:
+    home: 0
+    away: 9
+  status: live
+  time: '14:20'
 table_tennis:
 - id: 71577262
   teams:
