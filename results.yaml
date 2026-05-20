@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: live
+  status: result
   time: '16:45'
 - id: 71344720
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 71344716
   teams:
@@ -24,8 +24,35 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '16:45'
+- id: 71344722
+  teams:
+    home: CR Belouizdad
+    away: MC Oran
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:00'
+- id: 71498518
+  teams:
+    home: CA Talleres de Cordoba
+    away: Atletico Tucuman
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:00'
+- id: 71310402
+  teams:
+    home: Bate Borisov
+    away: FC Dinamo Minsk
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '17:30'
 basketball: []
 tennis:
 - id: 71578916
@@ -254,6 +281,33 @@ ice_hockey:
     away: 9
   status: result
   time: '14:20'
+- id: 63080259
+  teams:
+    home: USA
+    away: Germany
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '18:20'
+- id: 63080415
+  teams:
+    home: Czech Republic
+    away: Italy
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:20'
+- id: 63080417
+  teams:
+    home: Sweden
+    away: Slovenia
+  score:
+    home: 6
+    away: 0
+  status: result
+  time: '18:20'
 table_tennis:
 - id: 71577262
   teams:
