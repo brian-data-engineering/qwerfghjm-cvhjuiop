@@ -33,7 +33,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71498518
   teams:
@@ -41,8 +41,8 @@ soccer:
     away: Atletico Tucuman
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '20:00'
 - id: 71310402
   teams:
@@ -286,9 +286,9 @@ ice_hockey:
     home: USA
     away: Germany
   score:
-    home: 3
+    home: 4
     away: 3
-  status: live
+  status: result
   time: '18:20'
 - id: 63080415
   teams:
