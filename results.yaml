@@ -6,8 +6,26 @@ soccer:
   score:
     home: 3
     away: 1
-  status: live
+  status: result
   time: '14:30'
+- id: 71575764
+  teams:
+    home: AL Budaiya
+    away: Manama Club
+  score:
+    home: 0
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 71575766
+  teams:
+    home: Al-Najma Manama
+    away: Al Ittihad
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '16:00'
 basketball: []
 tennis:
 - id: 71622092
@@ -100,6 +118,15 @@ tennis:
     away: 2
   status: result
   time: '12:55'
+- id: 71486074
+  teams:
+    home: Michelsen, Alex
+    away: Tien, Learner
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '16:00'
 ice_hockey:
 - id: 69833512
   teams:
@@ -107,8 +134,8 @@ ice_hockey:
     away: Finland
   score:
     home: 1
-    away: 4
-  status: live
+    away: 7
+  status: result
   time: '14:20'
 table_tennis:
 - id: 71600498
