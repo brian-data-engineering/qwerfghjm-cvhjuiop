@@ -105,7 +105,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: recentlyended
   time: '21:00'
 - id: 71563848
   teams:
@@ -242,6 +242,69 @@ soccer:
     away: 3
   status: result
   time: 02:00
+- id: 70075714
+  teams:
+    home: Deportivo La Guaira
+    away: Independiente Rivadavia
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '22:00'
+- id: 70075872
+  teams:
+    home: SE Palmeiras
+    away: Cerro Porteno
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 00:30
+- id: 70075874
+  teams:
+    home: Junior
+    away: Sporting Cristal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 70076020
+  teams:
+    home: LDU Quito
+    away: Atletico Lanus
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:30
+- id: 70075148
+  teams:
+    home: Acad. Puerto Cabello
+    away: Juventud de Las Piedras
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:00'
+- id: 70075146
+  teams:
+    home: Atletico Mineiro MG
+    away: CS Cienciano
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '22:00'
+- id: 70075224
+  teams:
+    home: Independiente Petrolero
+    away: Botafogo RJ
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:00
 basketball: []
 tennis:
 - id: 71622092
