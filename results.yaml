@@ -1,6 +1,60 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71622092
+  teams:
+    home: Cecchinato, Marco
+    away: Pellegrino, Andrea
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 71622300
+  teams:
+    home: De Jong, Jesper
+    away: Zheng, Michael
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 71622066
+  teams:
+    home: Holmgren, August
+    away: Diaz Acosta, Facundo
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71626722
+  teams:
+    home: Samuel, Toby
+    away: Bueno, Gonzalo
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '10:20'
+- id: 71622110
+  teams:
+    home: Svrcina, Dalibor
+    away: Faurel, Thomas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:35'
+- id: 71627686
+  teams:
+    home: Galarneau, Alexis
+    away: Cina, Federico
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:40'
 ice_hockey: []
 table_tennis:
 - id: 71600498
