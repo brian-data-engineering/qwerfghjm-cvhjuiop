@@ -32,17 +32,17 @@ soccer:
     away: Union Saint-Gilloise
   score:
     home: 0
-    away: 1
-  status: live
+    away: 0
+  status: result
   time: '18:30'
 - id: 70207438
   teams:
     home: RSC Anderlecht
     away: St. Truidense VV
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 70207440
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 2
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 61737338
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '18:30'
 - id: 61737346
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 2
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 71372272
   teams:
@@ -94,10 +94,154 @@ soccer:
     home: Recoleta
     away: Cobreloa
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 2
+  status: result
   time: '19:00'
+- id: 71615028
+  teams:
+    home: U. Magdalena
+    away: Bogota
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:00'
+- id: 71563848
+  teams:
+    home: Broendby IF
+    away: FC Copenhagen
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 69880336
+  teams:
+    home: Wadi Degla SC
+    away: Zed FC
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '17:00'
+- id: 70224452
+  teams:
+    home: FC Spaeri
+    away: FC Dinamo Batumi
+  score:
+    home: 3
+    away: 3
+  status: result
+  time: '15:00'
+- id: 70224454
+  teams:
+    home: Rustavi
+    away: Samgurali Tskaltubo
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '17:00'
+- id: 71443804
+  teams:
+    home: Wolfsburg
+    away: Paderborn
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:30'
+- id: 70232106
+  teams:
+    home: Atromitos Athens
+    away: Panserraikos
+  score:
+    home: 6
+    away: 0
+  status: result
+  time: '15:00'
+- id: 70232108
+  teams:
+    home: Kifisias
+    away: Larissa
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 70232110
+  teams:
+    home: Panaitolikos
+    away: Asteras Tripolis
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
+- id: 68194650
+  teams:
+    home: IA Akranes
+    away: IBV Vestmannaeyjar
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '18:00'
+- id: 68746498
+  teams:
+    home: Inter Kashi FC
+    away: SC East Bengal
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 71489164
+  teams:
+    home: Jamshedpur FC
+    away: Odisha FC
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '14:00'
+- id: 68746506
+  teams:
+    home: Mohun Bagan Super Giant
+    away: Hyderabad FC
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 68746504
+  teams:
+    home: Punjab FC
+    away: Mumbai City
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:00'
+- id: 70075654
+  teams:
+    home: Flamengo RJ
+    away: Estudiantes de la Plata
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:30
+- id: 70075656
+  teams:
+    home: Cusco FC
+    away: Ind. Medelli
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
 basketball: []
 tennis:
 - id: 71622092
@@ -205,8 +349,8 @@ tennis:
     away: Bublik, Alexander
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:10'
 - id: 71486644
   teams:
@@ -251,7 +395,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:10'
 - id: 71544948
   teams:
@@ -322,9 +466,9 @@ ice_hockey:
     home: Switzerland
     away: Great Britain
   score:
-    home: 3
+    home: 4
     away: 1
-  status: live
+  status: result
   time: '18:20'
 - id: 69833542
   teams:
@@ -341,8 +485,8 @@ ice_hockey:
     away: Slovakia
   score:
     home: 1
-    away: 4
-  status: live
+    away: 5
+  status: result
   time: '18:20'
 - id: 69025086
   teams:
