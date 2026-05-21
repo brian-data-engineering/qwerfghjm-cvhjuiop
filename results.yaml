@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 63185787
+  teams:
+    home: Gabala FK
+    away: Shamakhi FK
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '14:30'
 basketball: []
 tennis:
 - id: 71622092
@@ -35,7 +44,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '10:20'
 - id: 71622110
   teams:
@@ -43,19 +52,64 @@ tennis:
     away: Faurel, Thomas
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '11:35'
 - id: 71627686
   teams:
     home: Galarneau, Alexis
     away: Cina, Federico
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '11:40'
-ice_hockey: []
+- id: 71628392
+  teams:
+    home: Wong, Coleman
+    away: Prado Angelo, Juan Carlos
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:20'
+- id: 71628390
+  teams:
+    home: Faria, Jaime
+    away: Neumayer, Lukas
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:15'
+- id: 71486076
+  teams:
+    home: Navone, Mariano
+    away: Munar, Jaume
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:00'
+- id: 71486062
+  teams:
+    home: Popyrin, Alexei
+    away: Ruud, Casper
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:55'
+ice_hockey:
+- id: 69833512
+  teams:
+    home: Latvia
+    away: Finland
+  score:
+    home: 1
+    away: 4
+  status: live
+  time: '14:20'
 table_tennis:
 - id: 71600498
   teams:
