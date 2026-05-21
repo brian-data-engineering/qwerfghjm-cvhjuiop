@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71575766
   teams:
@@ -24,8 +24,80 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 70207436
+  teams:
+    home: KAA Gent
+    away: Union Saint-Gilloise
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:30'
+- id: 70207438
+  teams:
+    home: RSC Anderlecht
+    away: St. Truidense VV
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:30'
+- id: 70207440
+  teams:
+    home: Yellow-Red KV Mechelen
+    away: Club Brugge
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:30'
+- id: 61737338
+  teams:
+    home: FK Velez Mostar
+    away: FK Sarajevo
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: '18:30'
+- id: 61737346
+  teams:
+    home: FK Zeljeznicar Sarajevo
+    away: NK Siroki Brijeg
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:30'
+- id: 71372272
+  teams:
+    home: EC Vitoria
+    away: Abc FC
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: 00:00
+- id: 71381218
+  teams:
+    home: Fortaleza EC
+    away: SC Recife PE
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:00
+- id: 68097924
+  teams:
+    home: Recoleta
+    away: Cobreloa
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
 basketball: []
 tennis:
 - id: 71622092
@@ -125,8 +197,116 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 71486072
+  teams:
+    home: Rinderknech, Arthur
+    away: Bublik, Alexander
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:10'
+- id: 71486644
+  teams:
+    home: Kirkov V / Stevens B
+    away: Frantzen C / Haase R
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71489492
+  teams:
+    home: Buse, Ignacio
+    away: Humbert, Ugo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:10'
+- id: 71489488
+  teams:
+    home: Paul, Tommy
+    away: Altmaier, Daniel
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:05'
+- id: 71489478
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Ugo Carabelli, Camilo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:05'
+- id: 71489490
+  teams:
+    home: Darderi, Luciano
+    away: de Minaur, Alex
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '18:10'
+- id: 71544948
+  teams:
+    home: Andreozzi G / Guinard M
+    away: Atmane T / Etcheverry T M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71544940
+  teams:
+    home: Doumbia S / Reboul F
+    away: Bolelli S / Vavassori A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71499776
+  teams:
+    home: Schnaitter J / Wallner M
+    away: Harrison C / Skupski N
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:10'
+- id: 71499780
+  teams:
+    home: Krawietz K / Puetz T
+    away: Erler A / Miedler L
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:30'
+- id: 71499778
+  teams:
+    home: Arribage T / Olivetti A
+    away: Doumbia S / Reboul F
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:45'
+- id: 71499838
+  teams:
+    home: Cash J / Glasspool L
+    away: Andreozzi G / Guinard M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:10'
 ice_hockey:
 - id: 69833512
   teams:
@@ -137,6 +317,51 @@ ice_hockey:
     away: 7
   status: result
   time: '14:20'
+- id: 63080263
+  teams:
+    home: Switzerland
+    away: Great Britain
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '18:20'
+- id: 69833542
+  teams:
+    home: Canada
+    away: Norway
+  score:
+    home: 6
+    away: 5
+  status: result
+  time: '14:20'
+- id: 63080421
+  teams:
+    home: Denmark
+    away: Slovakia
+  score:
+    home: 1
+    away: 4
+  status: live
+  time: '18:20'
+- id: 69025086
+  teams:
+    home: Bars Kazan
+    away: Lok Yaroslavl
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 70557984
+  teams:
+    home: Colorado
+    away: Vegas Golden Knights
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71600498
   teams:
