@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71621502
   teams:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71621564
   teams:
@@ -82,5 +82,131 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 71621530
+  teams:
+    home: Kasnik, Sebastian
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 71621540
+  teams:
+    home: Pleskot, Jan
+    away: Kosar, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71621500
+  teams:
+    home: Vedmoch, Michal
+    away: Prokupek, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71621462
+  teams:
+    home: Plachy, Jiri
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71621526
+  teams:
+    home: Sulava, Lubor
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71621548
+  teams:
+    home: Sychra, Martin
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71621536
+  teams:
+    home: Klement, Milan
+    away: Vejvoda, Viktor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 71621518
+  teams:
+    home: Kosar, Vaclav
+    away: Vitrovyj, Oleg
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 71621528
+  teams:
+    home: Prokupek, Jaroslav
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 71651132
+  teams:
+    home: Dedek, Jiri
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 71651168
+  teams:
+    home: Regner, Michal
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 71651140
+  teams:
+    home: Prokupek, Jaroslav
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 71651354
+  teams:
+    home: Sulava, Lubor
+    away: Pleskot, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 71651170
+  teams:
+    home: Vejvoda, Viktor
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
