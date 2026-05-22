@@ -4,9 +4,9 @@ soccer:
     home: USM Alger
     away: Paradou AC
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 4
+    away: 2
+  status: result
   time: '17:00'
 basketball:
 - id: 71467086
@@ -23,19 +23,163 @@ basketball:
     home: Brno BC
     away: JIP Pardubice
   score:
-    home: 79
-    away: 76
-  status: live
+    home: 90
+    away: 94
+  status: result
   time: '16:00'
 - id: 71489458
   teams:
     home: Vechta
     away: Alba
   score:
-    home: 67
-    away: 65
-  status: live
+    home: 91
+    away: 82
+  status: result
   time: '16:30'
+- id: 71466094
+  teams:
+    home: Wurzburg
+    away: Bonn
+  score:
+    home: 44
+    away: 41
+  status: live
+  time: '18:30'
+- id: 70449612
+  teams:
+    home: Olympiakos Piraeus
+    away: Fenerbahce Istanbul
+  score:
+    home: 79
+    away: 61
+  status: result
+  time: '15:00'
+- id: 71493990
+  teams:
+    home: Valencia
+    away: Real Madrid
+  score:
+    home: 80
+    away: 91
+  status: live
+  time: '18:00'
+- id: 71492042
+  teams:
+    home: Uniks Kazan
+    away: Zenit St P.
+  score:
+    home: 83
+    away: 66
+  status: result
+  time: '16:30'
+- id: 71448732
+  teams:
+    home: Trento
+    away: Bologna
+  score:
+    home: 95
+    away: 78
+  status: live
+  time: '18:00'
+- id: 71448754
+  teams:
+    home: Derthona
+    away: Venezia
+  score:
+    home: 43
+    away: 31
+  status: live
+  time: '18:45'
+- id: 71598462
+  teams:
+    home: Bologna
+    away: Tez. Verona
+  score:
+    home: 44
+    away: 47
+  status: live
+  time: '18:30'
+- id: 71521570
+  teams:
+    home: Roseto Basket
+    away: Pall. Ruvo di Puglia
+  score:
+    home: 61
+    away: 35
+  status: live
+  time: '18:45'
+- id: 71561136
+  teams:
+    home: Lietkabelis
+    away: Siauliai
+  score:
+    home: 93
+    away: 77
+  status: result
+  time: '15:15'
+- id: 71506938
+  teams:
+    home: BC Jonava
+    away: Zalgiris
+  score:
+    home: 75
+    away: 90
+  status: result
+  time: '15:50'
+- id: 71547290
+  teams:
+    home: Rain Or Shine
+    away: Barangay Ginebra
+  score:
+    home: 101
+    away: 109
+  status: result
+  time: 09:15
+- id: 71547334
+  teams:
+    home: Talk N Text
+    away: Meralco
+  score:
+    home: 76
+    away: 87
+  status: result
+  time: '11:30'
+- id: 70505040
+  teams:
+    home: NY Knicks
+    away: Cleveland
+  score:
+    home: 109
+    away: 93
+  status: result
+  time: 00:00
+- id: 68096630
+  teams:
+    home: Minnesota
+    away: Toronto Tempo
+  score:
+    home: 100
+    away: 72
+  status: result
+  time: 00:00
+- id: 68096124
+  teams:
+    home: NY Liberty
+    away: Golden State
+  score:
+    home: 70
+    away: 87
+  status: result
+  time: 00:00
+- id: 68096104
+  teams:
+    home: Phoenix
+    away: LA Sparks
+  score:
+    home: 88
+    away: 97
+  status: result
+  time: 02:00
 tennis:
 - id: 71630306
   teams:
@@ -160,8 +304,8 @@ tennis:
     away: Paul, Tommy
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:30'
 - id: 71499772
   teams:
@@ -236,6 +380,42 @@ ice_hockey:
     away: 2
   status: result
   time: '14:20'
+- id: 63080267
+  teams:
+    home: Finland
+    away: Great Britain
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '18:20'
+- id: 63080423
+  teams:
+    home: Canada
+    away: Slovenia
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:20'
+- id: 69833544
+  teams:
+    home: Sweden
+    away: Italy
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '18:20'
+- id: 70558006
+  teams:
+    home: Carolina
+    away: Montreal
+  score:
+    home: 2
+    away: 6
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71621538
   teams:
