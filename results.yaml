@@ -1,14 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71467086
+  teams:
+    home: Beijing Ducks
+    away: Shanghai Sharks
+  score:
+    home: 28
+    away: 20
+  status: live
+  time: '11:35'
 tennis:
 - id: 71630306
   teams:
     home: Carballes Baena, Roberto
     away: Dellien, Hugo
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: 09:00
 - id: 71630310
   teams:
@@ -16,9 +25,45 @@ tennis:
     away: Rodionov, Jurij
   score:
     home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 71630312
+  teams:
+    home: Gaubas, Vilius
+    away: Llamas Ruiz, Pablo
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '10:15'
+- id: 71630314
+  teams:
+    home: Gentzsch, Tom
+    away: Safiullin, Roman
+  score:
+    home: 0
     away: 0
   status: live
-  time: 09:00
+  time: '11:30'
+- id: 71630488
+  teams:
+    home: Herbert, Pierre-Hugues
+    away: Riedi, Leandro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:30'
+- id: 71630304
+  teams:
+    home: Nava, Emilio
+    away: Martinez, Pedro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:50'
 ice_hockey: []
 table_tennis:
 - id: 71621538
@@ -498,3 +543,228 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 71637422
+  teams:
+    home: Dolezal, Vaclav
+    away: Framberk, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71638332
+  teams:
+    home: Kolenciak, Ivan
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71638306
+  teams:
+    home: Kulhanek, Pavel
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71637374
+  teams:
+    home: Steffan, Jan
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71637420
+  teams:
+    home: Zika, Tadeas
+    away: Revay, Radomir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71637308
+  teams:
+    home: Belovsky, Josef
+    away: Darin, Kyryl
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71638300
+  teams:
+    home: Didi, Julius
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 71638280
+  teams:
+    home: Levicky, Matej
+    away: Derco, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71637414
+  teams:
+    home: Polasek, Radovan
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71637398
+  teams:
+    home: Stefek, Martin
+    away: Cetner, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71637404
+  teams:
+    home: Framberk, Jan
+    away: Stefek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71638394
+  teams:
+    home: Palmi, Ivo
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71637432
+  teams:
+    home: Parhomenko, Dmitro
+    away: Belovsky, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71638292
+  teams:
+    home: Regner, Milan
+    away: Didi, Julius
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71637322
+  teams:
+    home: Revay, Radomir
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 71637354
+  teams:
+    home: Cetner, Milan
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 71637390
+  teams:
+    home: Darin, Kyryl
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 71638382
+  teams:
+    home: Derco, Michal
+    away: Kolenciak, Ivan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71638350
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Kulhanek, Pavel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 71637406
+  teams:
+    home: Vavrecka, Michal
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 71637340
+  teams:
+    home: Dolezal, Vaclav
+    away: Stefek, Martin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:00'
+- id: 71638366
+  teams:
+    home: Kolenciak, Ivan
+    away: Levicky, Matej
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
+- id: 71638330
+  teams:
+    home: Kulhanek, Pavel
+    away: Didi, Julius
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
+- id: 71637332
+  teams:
+    home: Steffan, Jan
+    away: Belovsky, Josef
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
+- id: 71637328
+  teams:
+    home: Zika, Tadeas
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
