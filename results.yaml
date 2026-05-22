@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 71343148
+  teams:
+    home: USM Alger
+    away: Paradou AC
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:00'
 basketball:
 - id: 71467086
   teams:
@@ -9,6 +18,24 @@ basketball:
     away: 99
   status: result
   time: '11:35'
+- id: 71452728
+  teams:
+    home: Brno BC
+    away: JIP Pardubice
+  score:
+    home: 79
+    away: 76
+  status: live
+  time: '16:00'
+- id: 71489458
+  teams:
+    home: Vechta
+    away: Alba
+  score:
+    home: 67
+    away: 65
+  status: live
+  time: '16:30'
 tennis:
 - id: 71630306
   teams:
@@ -79,8 +106,8 @@ tennis:
     away: Jacquet, Kyrian
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:15'
 - id: 71486070
   teams:
@@ -96,9 +123,9 @@ tennis:
     home: Tien, Learner
     away: Bublik, Alexander
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:00'
 - id: 71486636
   teams:
@@ -127,15 +154,87 @@ tennis:
     away: 2
   status: result
   time: '13:30'
+- id: 71489468
+  teams:
+    home: de Minaur, Alex
+    away: Paul, Tommy
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:30'
+- id: 71499772
+  teams:
+    home: Doumbia S / Reboul F
+    away: Schnaitter J / Wallner M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:30'
+- id: 71507794
+  teams:
+    home: Ivashka, Ilya
+    away: Stewart, Hamish
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 07:30
+- id: 71507776
+  teams:
+    home: Bar Biryukov, Petr
+    away: Gray, Alastair
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:55
+- id: 71507810
+  teams:
+    home: Kalyanpur / Mukund
+    away: Barry C / Charlton J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:15'
+- id: 71507812
+  teams:
+    home: Kaliyanda Poonacha N / Myneni S
+    away: Bar Biryukov P / Lomakin G
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:50'
+- id: 71506928
+  teams:
+    home: Gadamauri, Buvaysar
+    away: Compagnucci, Tommaso
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:30'
+- id: 71506930
+  teams:
+    home: Guerrieri, Andrea
+    away: Alcala Gurri, Max
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:25'
 ice_hockey:
 - id: 69833514
   teams:
     home: Germany
     away: Hungary
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 6
+    away: 2
+  status: result
   time: '14:20'
 table_tennis:
 - id: 71621538
