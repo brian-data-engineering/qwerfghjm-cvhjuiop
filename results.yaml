@@ -1,4 +1,49 @@
-soccer: []
+soccer:
+- id: 67117686
+  teams:
+    home: Club Atletico Los Andes
+    away: Racing de Cordoba
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67117696
+  teams:
+    home: San Telmo
+    away: Club Ciudad de Bolivar
+  score:
+    home: 0
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 67118412
+  teams:
+    home: Tristan Suarez
+    away: CA Colegiales
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67117694
+  teams:
+    home: CA San Miguel
+    away: Almirante Brown
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67118420
+  teams:
+    home: Nueva Chicago
+    away: CA Temperley
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:00'
 basketball:
 - id: 71611268
   teams:
@@ -38,6 +83,51 @@ ice_hockey:
     away: 0
   status: result
   time: '14:20'
+- id: 69833518
+  teams:
+    home: Austria
+    away: Germany
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:20'
+- id: 63080427
+  teams:
+    home: Denmark
+    away: Slovenia
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '10:20'
+- id: 63080429
+  teams:
+    home: Slovakia
+    away: Czech Republic
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:20'
+- id: 69833546
+  teams:
+    home: Norway
+    away: Sweden
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:20'
+- id: 70557980
+  teams:
+    home: Colorado
+    away: Vegas Golden Knights
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71638314
   teams:
@@ -1324,7 +1414,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71657428
   teams:
@@ -1333,7 +1423,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71677416
   teams:
@@ -1342,7 +1432,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71657360
   teams:
@@ -1351,7 +1441,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71656692
   teams:
@@ -1360,5 +1450,5 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
