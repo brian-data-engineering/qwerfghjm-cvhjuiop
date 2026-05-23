@@ -271,7 +271,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71656818
   teams:
@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71657356
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71656812
   teams:
@@ -307,16 +307,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71656710
   teams:
     home: Cernik, Jaromir
     away: Hubka, Miloslav
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 07:00
 - id: 71656814
   teams:
@@ -324,8 +324,8 @@ table_tennis:
     away: Stefek, Martin
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 71656784
   teams:
@@ -334,7 +334,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71656798
   teams:
@@ -342,15 +342,150 @@ table_tennis:
     away: Barta, Miroslav
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 71657316
   teams:
     home: Zika, Tadeas
     away: Opanasiuk, Dmytro
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:00
+- id: 71656780
+  teams:
+    home: Havrda, Leos
+    away: Syroha, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 71656704
+  teams:
+    home: Novotny, Ladislav
+    away: Martinek, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 71656720
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 71656698
+  teams:
+    home: Vavrecka, Michal
+    away: Polasek, Radovan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 71657344
+  teams:
+    home: Wawrosz, Pavel
+    away: Paril, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 71656834
+  teams:
+    home: Dolezal, Vaclav
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71656726
+  teams:
+    home: Martinek, Jaroslav
+    away: Hubka, Miloslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 71657388
+  teams:
+    home: Paril, Ondrej
+    away: Opanasiuk, Dmytro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 71656732
+  teams:
+    home: Polasek, Radovan
+    away: Revay, Radomir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71656810
+  teams:
+    home: Syroha, Michal
+    away: Barta, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71656828
+  teams:
+    home: Cernik, Jaromir
+    away: Novotny, Ladislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 71656702
+  teams:
+    home: Cetner, Milan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 71656712
+  teams:
+    home: Grundel, Matej
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71656778
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
+- id: 71657426
+  teams:
+    home: Zika, Tadeas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
