@@ -6,7 +6,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67117696
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67118412
   teams:
@@ -24,26 +24,161 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67117694
   teams:
     home: CA San Miguel
     away: Almirante Brown
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 67118420
   teams:
     home: Nueva Chicago
     away: CA Temperley
   score:
-    home: 0
+    home: 1
+    away: 1
+  status: result
+  time: '19:00'
+- id: 67118408
+  teams:
+    home: Atletico de Rafaela
+    away: Ferrocarril Midland
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:30'
+- id: 67118418
+  teams:
+    home: San Martin de San Juan
+    away: CD Maipu
+  score:
+    home: 2
     away: 1
   status: live
-  time: '19:00'
+  time: '19:30'
+- id: 71544072
+  teams:
+    home: Auckland
+    away: Sydney FC
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 08:10
+- id: 63185783
+  teams:
+    home: FK Kapaz
+    away: Neftchi Baku PFC
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '11:00'
+- id: 63185793
+  teams:
+    home: Araz Nakhchivan PFK
+    away: Zira FK
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 71357382
+  teams:
+    home: FC Belshina Bobruisk
+    away: Naftan Novopolotsk
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71357384
+  teams:
+    home: FC Isloch
+    away: FC Vitebsk
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 71357386
+  teams:
+    home: FC Torpedo Belaz Zhodino
+    away: FC Minsk
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 71357378
+  teams:
+    home: FC Brest
+    away: FK Arsenal Dzerzhinsk
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 70207514
+  teams:
+    home: Oud-Heverlee Leuven
+    away: KRC Genk
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:45'
+- id: 70207510
+  teams:
+    home: Royal Antwerp FC
+    away: KVC Westerlo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:45'
+- id: 70207512
+  teams:
+    home: Standard Liege
+    away: Royal Charleroi SC
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:45'
+- id: 71411462
+  teams:
+    home: FCV Dender EH
+    away: Lommel SK
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '16:15'
+- id: 66886814
+  teams:
+    home: EC Vitoria
+    away: SC Internacional
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:00'
+- id: 66886802
+  teams:
+    home: Sao Paulo FC
+    away: Botafogo RJ
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 71611268
   teams:
@@ -88,9 +223,9 @@ ice_hockey:
     home: Austria
     away: Germany
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 6
+  status: result
   time: '18:20'
 - id: 63080427
   teams:
@@ -115,9 +250,9 @@ ice_hockey:
     home: Norway
     away: Sweden
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:20'
 - id: 70557980
   teams:
