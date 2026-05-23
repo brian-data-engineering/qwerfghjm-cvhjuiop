@@ -51,7 +51,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 67118418
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '19:30'
 - id: 71544072
   teams:
@@ -166,9 +166,9 @@ soccer:
     home: EC Vitoria
     away: SC Internacional
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '20:00'
 - id: 66886802
   teams:
@@ -176,8 +176,8 @@ soccer:
     away: Botafogo RJ
   score:
     home: 1
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '20:00'
 basketball:
 - id: 71611268
@@ -189,6 +189,15 @@ basketball:
     away: 77
   status: result
   time: '16:00'
+- id: 71535218
+  teams:
+    home: Corinthians
+    away: Pinheiros SP
+  score:
+    home: 32
+    away: 48
+  status: live
+  time: '21:10'
 tennis:
 - id: 71486080
   teams:
