@@ -1,7 +1,16 @@
 soccer: []
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 69833516
+  teams:
+    home: Latvia
+    away: USA
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:20'
 table_tennis:
 - id: 71638314
   teams:
@@ -577,7 +586,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71656746
   teams:
@@ -586,7 +595,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71656768
   teams:
@@ -604,7 +613,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71656686
   teams:
@@ -613,7 +622,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71657290
   teams:
@@ -622,7 +631,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71656800
   teams:
@@ -631,7 +640,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71656764
   teams:
@@ -640,7 +649,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71657294
   teams:
@@ -649,7 +658,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71656822
   teams:
@@ -658,5 +667,104 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
+- id: 71656806
+  teams:
+    home: Cernik, Jaromir
+    away: Hubka, Miloslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71656802
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71657304
+  teams:
+    home: Opralka, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71657414
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71656722
+  teams:
+    home: Szotkowski, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71656820
+  teams:
+    home: Buric, Roman
+    away: Vaclavik, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71657300
+  teams:
+    home: Cetner, Milan
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:30'
+- id: 71656748
+  teams:
+    home: Svacha, Ondrej
+    away: Kanera, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71657408
+  teams:
+    home: Unzeitig, Daniel
+    away: Babinec, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71656782
+  teams:
+    home: Zika, Tadeas
+    away: Biolek, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71657298
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:00'
