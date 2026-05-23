@@ -5,9 +5,9 @@ basketball:
     home: Kapfenberg
     away: Oberwart
   score:
-    home: 36
-    away: 39
-  status: live
+    home: 72
+    away: 77
+  status: result
   time: '16:00'
 tennis:
 - id: 71486080
@@ -36,7 +36,7 @@ ice_hockey:
   score:
     home: 9
     away: 0
-  status: recentlyended
+  status: result
   time: '14:20'
 table_tennis:
 - id: 71638314
@@ -1189,7 +1189,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71657326
   teams:
@@ -1198,7 +1198,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71656680
   teams:
@@ -1207,7 +1207,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71656804
   teams:
@@ -1216,7 +1216,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71657286
   teams:
@@ -1225,5 +1225,140 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 71682020
+  teams:
+    home: Bajtek, Pavel
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 71681972
+  teams:
+    home: Klement, Milan
+    away: Brozik, Karel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71681988
+  teams:
+    home: Mares, Erik
+    away: Kos, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 71681968
+  teams:
+    home: Postelt, Vladimir
+    away: Vinter, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 71681986
+  teams:
+    home: Szotkowski, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71682022
+  teams:
+    home: Bosak, Vitezslav
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71681970
+  teams:
+    home: Budinsky, Petr
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 71681982
+  teams:
+    home: Dzida, Jan
+    away: Biolek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 71681990
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71681984
+  teams:
+    home: Koubek, Vojtech
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 71656738
+  teams:
+    home: Byrtus, Samuel
+    away: Adamczyk, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 71657428
+  teams:
+    home: Horak, David
+    away: Placek, Marek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 71677416
+  teams:
+    home: Kadavy, Simon
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 71657360
+  teams:
+    home: Kypr, Tomas
+    away: Skacelik, Richard
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 71656692
+  teams:
+    home: Mares, Erik
+    away: Koubek, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
