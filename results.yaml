@@ -6,9 +6,9 @@ tennis:
     home: Davidovich Fokina, Alejandro
     away: Dzumhur, Damir
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 09:00
 - id: 71642302
   teams:
@@ -26,7 +26,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 71642292
   teams:
@@ -35,16 +35,16 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 71664878
   teams:
     home: Llamas Ruiz, Pablo
     away: Tirante, Thiago Agustin
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 09:00
 - id: 71664876
   teams:
@@ -52,18 +52,63 @@ tennis:
     away: Trungelliti, Marco
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '10:30'
 - id: 71642284
   teams:
     home: Machac, Tomas
     away: Bergs, Zizou
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '11:10'
+- id: 71642282
+  teams:
+    home: Bonzi, Benjamin
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '12:00'
+- id: 71664874
+  teams:
+    home: Cina, Federico
+    away: Opelka, Reilly
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:40'
+- id: 71642320
+  teams:
+    home: Droguet, Titouan
+    away: Mensik, Jakub
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '12:45'
+- id: 71642318
+  teams:
+    home: Etcheverry, Tomas Martin
+    away: Borges, Nuno
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:45'
+- id: 71664882
+  teams:
+    home: Zheng, Michael
+    away: Prizmic, Dino
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:20'
 ice_hockey: []
 table_tennis:
 - id: 71657386
