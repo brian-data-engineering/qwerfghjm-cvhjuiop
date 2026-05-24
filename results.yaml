@@ -5,10 +5,19 @@ basketball:
     home: Wurzburg
     away: Bonn
   score:
-    home: 36
-    away: 31
-  status: live
+    home: 82
+    away: 70
+  status: recentlyended
   time: '14:30'
+- id: 71622124
+  teams:
+    home: Vechta
+    away: Alba
+  score:
+    home: 27
+    away: 30
+  status: live
+  time: '16:30'
 tennis:
 - id: 71642298
   teams:
@@ -87,9 +96,9 @@ tennis:
     home: Cina, Federico
     away: Opelka, Reilly
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '12:40'
 - id: 71642320
   teams:
@@ -107,7 +116,7 @@ tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:45'
 - id: 71664882
   teams:
@@ -116,14 +125,14 @@ tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:20'
 - id: 71642286
   teams:
     home: Halys, Quentin
     away: Bellucci, Mattia
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:15'
@@ -132,7 +141,7 @@ tennis:
     home: Fonseca, Joao
     away: Pavlovic, Luka
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:20'
@@ -141,7 +150,7 @@ tennis:
     home: Medjedovic, Hamad
     away: Hanfmann, Yannick
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:25'
@@ -150,7 +159,7 @@ tennis:
     home: Blockx, Alexander
     away: Wong, Coleman
   score:
-    home: 0
+    home: 2
     away: 0
   status: live
   time: '15:30'
@@ -160,7 +169,7 @@ tennis:
     away: Basavareddy, Nishesh
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:30'
 ice_hockey:
@@ -171,7 +180,7 @@ ice_hockey:
   score:
     home: 0
     away: 6
-  status: live
+  status: result
   time: '14:20'
 table_tennis:
 - id: 71657386
