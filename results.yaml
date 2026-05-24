@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71587730
+  teams:
+    home: Wurzburg
+    away: Bonn
+  score:
+    home: 36
+    away: 31
+  status: live
+  time: '14:30'
 tennis:
 - id: 71642298
   teams:
@@ -62,7 +71,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:10'
 - id: 71642282
   teams:
@@ -70,16 +79,16 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:00'
 - id: 71664874
   teams:
     home: Cina, Federico
     away: Opelka, Reilly
   score:
-    home: 0
-    away: 1
+    home: 2
+    away: 2
   status: live
   time: '12:40'
 - id: 71642320
@@ -88,8 +97,8 @@ tennis:
     away: Mensik, Jakub
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:45'
 - id: 71642318
   teams:
@@ -97,8 +106,8 @@ tennis:
     away: Borges, Nuno
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: recentlyended
   time: '12:45'
 - id: 71664882
   teams:
@@ -106,10 +115,64 @@ tennis:
     away: Prizmic, Dino
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: recentlyended
   time: '13:20'
-ice_hockey: []
+- id: 71642286
+  teams:
+    home: Halys, Quentin
+    away: Bellucci, Mattia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:15'
+- id: 71664884
+  teams:
+    home: Fonseca, Joao
+    away: Pavlovic, Luka
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:20'
+- id: 71642312
+  teams:
+    home: Medjedovic, Hamad
+    away: Hanfmann, Yannick
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:25'
+- id: 71664892
+  teams:
+    home: Blockx, Alexander
+    away: Wong, Coleman
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:30'
+- id: 71642306
+  teams:
+    home: Fritz, Taylor
+    away: Basavareddy, Nishesh
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:30'
+ice_hockey:
+- id: 69833522
+  teams:
+    home: Great Britain
+    away: Latvia
+  score:
+    home: 0
+    away: 6
+  status: live
+  time: '14:20'
 table_tennis:
 - id: 71657386
   teams:
