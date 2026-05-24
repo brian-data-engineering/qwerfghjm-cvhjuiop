@@ -6,8 +6,8 @@ tennis:
     home: Davidovich Fokina, Alejandro
     away: Dzumhur, Damir
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: 09:00
 - id: 71642302
@@ -15,16 +15,16 @@ tennis:
     home: Duckworth, James
     away: Diallo, Gabriel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: result
   time: 09:00
 - id: 71642316
   teams:
     home: Kecmanovic, Miomir
     away: Marozsan, Fabian
   score:
-    home: 0
+    home: 2
     away: 0
   status: live
   time: 09:00
@@ -33,7 +33,7 @@ tennis:
     home: Khachanov, Karen
     away: Gea, Arthur
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: 09:00
@@ -43,9 +43,18 @@ tennis:
     away: Tirante, Thiago Agustin
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: 09:00
+- id: 71664876
+  teams:
+    home: Jacquet, Kyrian
+    away: Trungelliti, Marco
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:30'
 ice_hockey: []
 table_tennis:
 - id: 71657386
