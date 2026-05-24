@@ -7,16 +7,16 @@ basketball:
   score:
     home: 82
     away: 70
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 71622124
   teams:
     home: Vechta
     away: Alba
   score:
-    home: 27
-    away: 30
-  status: live
+    home: 79
+    away: 85
+  status: recentlyended
   time: '16:30'
 tennis:
 - id: 71642298
@@ -132,26 +132,26 @@ tennis:
     home: Halys, Quentin
     away: Bellucci, Mattia
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:15'
 - id: 71664884
   teams:
     home: Fonseca, Joao
     away: Pavlovic, Luka
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:20'
 - id: 71642312
   teams:
     home: Medjedovic, Hamad
     away: Hanfmann, Yannick
   score:
-    home: 1
-    away: 0
+    home: 2
+    away: 1
   status: live
   time: '15:25'
 - id: 71664892
@@ -159,19 +159,217 @@ tennis:
     home: Blockx, Alexander
     away: Wong, Coleman
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:30'
 - id: 71642306
   teams:
     home: Fritz, Taylor
     away: Basavareddy, Nishesh
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '15:30'
+- id: 71664886
+  teams:
+    home: Sonego, Lorenzo
+    away: Herbert, Pierre-Hugues
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:05'
+- id: 71664880
+  teams:
+    home: Dellien, Hugo
+    away: Royer, Valentin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:15'
+- id: 71642308
+  teams:
+    home: Mpetshi Perricard, Giovanni
+    away: Djokovic, Novak
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 71682106
+  teams:
+    home: Beckles, Dillon
+    away: Honda, Naoya
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 71682112
+  teams:
+    home: Donski, Alexander
+    away: Strydom, Jeffrey
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 71682110
+  teams:
+    home: Voelzke, Gray
+    away: Vujic, Stefan
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 71682108
+  teams:
+    home: Dalmasso, Guillaume
+    away: Nawa, Mark
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:35
+- id: 71682122
+  teams:
+    home: Brown, Preston
+    away: Buldorini, Peter
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:45
+- id: 71682124
+  teams:
+    home: Gonzalez Fernandez, Mario
+    away: Shimanov, Ofek
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:45
+- id: 71682102
+  teams:
+    home: Koenig, Luc
+    away: van Wyk, Kris
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:30'
+- id: 71682104
+  teams:
+    home: Weightman, Oscar
+    away: Roothman, Carl
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '11:40'
+- id: 71682114
+  teams:
+    home: Kimhi, Orel
+    away: van der Merwe, Marc
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 71682116
+  teams:
+    home: Duran, Tuncay
+    away: Ambarzumjan, Edison
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:05'
+- id: 71682118
+  teams:
+    home: Longwe-Smit, Thando
+    away: Zhu, Michael
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:35'
+- id: 71682120
+  teams:
+    home: Beckley, Alec
+    away: Host, Ty
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:30'
+- id: 71681650
+  teams:
+    home: Ciocanu, Aurel
+    away: Yevseyev, Denis
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:30
+- id: 71681652
+  teams:
+    home: Cretu, Cezar
+    away: Cozbinov, Alexandr
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:30
+- id: 71681670
+  teams:
+    home: Uta, Daniel
+    away: Cazacu, Dragos Nicolae
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:30
+- id: 71681662
+  teams:
+    home: Cazac, Ilie
+    away: Dutra Da Silva, Daniel
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:40
+- id: 71681660
+  teams:
+    home: Boitan, Gabi Adrian
+    away: Lammons, Nathaniel
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:20
+- id: 71681666
+  teams:
+    home: Braun, Mathys
+    away: Andreescu, Stefan Adrian
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:55
+- id: 71681668
+  teams:
+    home: Martinez, Alex
+    away: Banthia, Siddhant
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:05'
 ice_hockey:
 - id: 69833522
   teams:
