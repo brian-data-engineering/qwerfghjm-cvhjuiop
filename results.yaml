@@ -1,4 +1,76 @@
-soccer: []
+soccer:
+- id: 71343156
+  teams:
+    home: CR Belouizdad
+    away: Ben Aknoun
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '19:00'
+- id: 71563696
+  teams:
+    home: CA River Plate (Arg)
+    away: CA Belgrano de Cordoba
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:30'
+- id: 67117698
+  teams:
+    home: Club Atletico Acassuso
+    away: Defensores de Belgrano
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '17:00'
+- id: 67117690
+  teams:
+    home: Deportivo Moron
+    away: CA Estudiantes
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67118416
+  teams:
+    home: CA Chacarita Juniors
+    away: Club Almagro
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67118410
+  teams:
+    home: Agropecuario Argentino
+    away: Quilmes AC
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
+- id: 67117700
+  teams:
+    home: CA Chaco For Ever
+    away: Deportivo Madryn
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:00'
+- id: 67117702
+  teams:
+    home: Ferro Carril Oeste
+    away: CA Central Norte Salta
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
 basketball:
 - id: 71587730
   teams:
@@ -16,8 +88,62 @@ basketball:
   score:
     home: 79
     away: 85
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 70449608
+  teams:
+    home: Olympiakos Piraeus
+    away: Real Madrid
+  score:
+    home: 90
+    away: 85
+  status: live
+  time: '18:00'
+- id: 71680726
+  teams:
+    home: Dewa United Banten
+    away: Ulaanbaatar Xac Broncos
+  score:
+    home: 66
+    away: 84
+  status: result
+  time: 09:00
+- id: 71680728
+  teams:
+    home: Taoyuan Pilots
+    away: South China
+  score:
+    home: 103
+    away: 113
+  status: result
+  time: '12:00'
+- id: 71645610
+  teams:
+    home: Trento
+    away: Bologna
+  score:
+    home: 81
+    away: 90
+  status: result
+  time: '15:00'
+- id: 71667650
+  teams:
+    home: Derthona
+    away: Venezia
+  score:
+    home: 89
+    away: 71
+  status: result
+  time: '16:00'
+- id: 71667642
+  teams:
+    home: Roseto Basket
+    away: Pall. Ruvo di Puglia
+  score:
+    home: 105
+    away: 76
+  status: result
+  time: '16:00'
 tennis:
 - id: 71642298
   teams:
@@ -150,9 +276,9 @@ tennis:
     home: Medjedovic, Hamad
     away: Hanfmann, Yannick
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:25'
 - id: 71664892
   teams:
@@ -169,15 +295,15 @@ tennis:
     away: Basavareddy, Nishesh
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:30'
 - id: 71664886
   teams:
     home: Sonego, Lorenzo
     away: Herbert, Pierre-Hugues
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:05'
@@ -187,7 +313,7 @@ tennis:
     away: Royer, Valentin
   score:
     home: 0
-    away: 0
+    away: 2
   status: live
   time: '18:15'
 - id: 71642308
@@ -195,7 +321,7 @@ tennis:
     home: Mpetshi Perricard, Giovanni
     away: Djokovic, Novak
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:30'
@@ -303,9 +429,9 @@ tennis:
     home: Beckley, Alec
     away: Host, Ty
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:30'
 - id: 71681650
   teams:
@@ -380,6 +506,33 @@ ice_hockey:
     away: 6
   status: result
   time: '14:20'
+- id: 63080277
+  teams:
+    home: Finland
+    away: Austria
+  score:
+    home: 4
+    away: 1
+  status: live
+  time: '18:20'
+- id: 63080433
+  teams:
+    home: Denmark
+    away: Italy
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:20'
+- id: 69833548
+  teams:
+    home: Slovakia
+    away: Canada
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:20'
 table_tennis:
 - id: 71657386
   teams:
