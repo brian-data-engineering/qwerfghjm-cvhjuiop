@@ -69,7 +69,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67117688
   teams:
@@ -78,8 +78,35 @@ soccer:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '19:30'
+- id: 67117692
+  teams:
+    home: Colon de Santa Fe
+    away: Mitre Santiago Del Estero
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '21:00'
+- id: 67118414
+  teams:
+    home: CA Guemes
+    away: CA Patronato Parana
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:30'
+- id: 67118404
+  teams:
+    home: Gimnasia Y Tiro de Salta
+    away: Gimnasia Jujuy
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:30'
 basketball:
 - id: 71587730
   teams:
@@ -312,9 +339,9 @@ tennis:
     home: Sonego, Lorenzo
     away: Herbert, Pierre-Hugues
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: recentlyended
   time: '18:05'
 - id: 71664880
   teams:
@@ -332,7 +359,7 @@ tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71682106
   teams:
