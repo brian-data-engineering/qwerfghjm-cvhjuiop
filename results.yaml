@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 71620936
+  teams:
+    home: USM Khenchela
+    away: USM Alger
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '14:55'
+- id: 71612042
+  teams:
+    home: SK Rapid
+    away: SV Ried
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
 basketball: []
 tennis:
 - id: 71642294
@@ -26,7 +44,7 @@ tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 71664904
   teams:
@@ -46,5 +64,14 @@ tennis:
     away: 3
   status: result
   time: 09:00
-ice_hockey: []
+ice_hockey:
+- id: 63080279
+  teams:
+    home: USA
+    away: Hungary
+  score:
+    home: 5
+    away: 1
+  status: live
+  time: '14:20'
 table_tennis: []
