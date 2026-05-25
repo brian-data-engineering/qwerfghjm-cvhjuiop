@@ -51,7 +51,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '18:30'
 basketball: []
 tennis:
@@ -115,9 +115,9 @@ ice_hockey:
     home: Germany
     away: Great Britain
   score:
-    home: 4
-    away: 1
-  status: live
+    home: 6
+    away: 3
+  status: result
   time: '18:20'
 - id: 63080437
   teams:
@@ -133,9 +133,9 @@ ice_hockey:
     home: Slovenia
     away: Italy
   score:
-    home: 2
+    home: 5
     away: 1
-  status: live
+  status: result
   time: '18:20'
 - id: 70557986
   teams:
