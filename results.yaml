@@ -23,8 +23,8 @@ soccer:
     away: Al-Najma Manama
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 71575770
   teams:
@@ -33,17 +33,26 @@ soccer:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 61737350
   teams:
     home: NK Siroki Brijeg
     away: FK Radnik Bijeljina
   score:
-    home: 3
+    home: 4
+    away: 0
+  status: result
+  time: '16:00'
+- id: 61737348
+  teams:
+    home: FK Sarajevo
+    away: FK Zeljeznicar Sarajevo
+  score:
+    home: 1
     away: 0
   status: live
-  time: '16:00'
+  time: '18:30'
 basketball: []
 tennis:
 - id: 71642294
@@ -101,4 +110,40 @@ ice_hockey:
     away: 3
   status: result
   time: '14:20'
+- id: 63080281
+  teams:
+    home: Germany
+    away: Great Britain
+  score:
+    home: 4
+    away: 1
+  status: live
+  time: '18:20'
+- id: 63080437
+  teams:
+    home: Czech Republic
+    away: Norway
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '14:20'
+- id: 63080439
+  teams:
+    home: Slovenia
+    away: Italy
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:20'
+- id: 70557986
+  teams:
+    home: Vegas Golden Knights
+    away: Colorado
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: 00:00
 table_tennis: []
