@@ -6,17 +6,44 @@ soccer:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '14:55'
 - id: 71612042
   teams:
     home: SK Rapid
     away: SV Ried
   score:
-    home: 1
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 71575768
+  teams:
+    home: AL Budaiya
+    away: Al-Najma Manama
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '16:00'
+- id: 71575770
+  teams:
+    home: Manama Club
+    away: Al Ittihad
+  score:
+    home: 3
     away: 0
   status: live
-  time: '15:00'
+  time: '16:00'
+- id: 61737350
+  teams:
+    home: NK Siroki Brijeg
+    away: FK Radnik Bijeljina
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '16:00'
 basketball: []
 tennis:
 - id: 71642294
@@ -70,8 +97,8 @@ ice_hockey:
     home: USA
     away: Hungary
   score:
-    home: 5
-    away: 1
-  status: live
+    home: 7
+    away: 3
+  status: result
   time: '14:20'
 table_tennis: []
