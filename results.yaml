@@ -33,7 +33,7 @@ soccer:
   score:
     home: 0
     away: 3
-  status: live
+  status: result
   time: '19:00'
 - id: 68097914
   teams:
@@ -78,7 +78,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 71443814
   teams:
@@ -87,7 +87,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 68194746
   teams:
@@ -96,16 +96,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: live
-  time: '19:15'
-- id: 68194722
-  teams:
-    home: Stjarnan Gardabae
-    away: Vikingur Reykjavik
-  score:
-    home: 1
-    away: 3
-  status: live
+  status: result
   time: '19:15'
 - id: 71284938
   teams:
@@ -114,7 +105,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 basketball: []
 tennis:
@@ -285,9 +276,9 @@ tennis:
     home: Auger-Aliassime, Felix
     away: Altmaier, Daniel
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '16:55'
 - id: 71642374
   teams:
@@ -296,7 +287,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71679102
   teams:
@@ -333,7 +324,7 @@ ice_hockey:
   score:
     home: 4
     away: 2
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 63080441
   teams:
@@ -360,7 +351,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 70558004
   teams:
