@@ -1,149 +1,32 @@
-soccer:
-- id: 71620936
+soccer: []
+basketball: []
+tennis: []
+ice_hockey: []
+table_tennis:
+- id: 71695578
   teams:
-    home: USM Khenchela
-    away: USM Alger
+    home: Fojt, Pavel
+    away: Dedek, Jiri
   score:
     home: 2
-    away: 1
-  status: result
-  time: '14:55'
-- id: 71612042
-  teams:
-    home: SK Rapid
-    away: SV Ried
-  score:
-    home: 3
     away: 0
-  status: result
-  time: '15:00'
-- id: 71575768
-  teams:
-    home: AL Budaiya
-    away: Al-Najma Manama
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '16:00'
-- id: 71575770
-  teams:
-    home: Manama Club
-    away: Al Ittihad
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '16:00'
-- id: 61737350
-  teams:
-    home: NK Siroki Brijeg
-    away: FK Radnik Bijeljina
-  score:
-    home: 4
-    away: 0
-  status: result
-  time: '16:00'
-- id: 61737348
-  teams:
-    home: FK Sarajevo
-    away: FK Zeljeznicar Sarajevo
-  score:
-    home: 1
-    away: 0
-  status: result
-  time: '18:30'
-basketball: []
-tennis:
-- id: 71642294
-  teams:
-    home: Carreno Busta, Pablo
-    away: Lehecka, Jiri
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:00
-- id: 71664894
-  teams:
-    home: de Minaur, Alex
-    away: Samuel, Toby
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:00
-- id: 71642368
-  teams:
-    home: Fucsovics, Marton
-    away: Berrettini, Matteo
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:00
-- id: 71664904
-  teams:
-    home: Rinderknech, Arthur
-    away: Rodionov, Jurij
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:00
-- id: 71642304
-  teams:
-    home: Shevchenko, Alexander
-    away: Michelsen, Alex
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 09:00
-ice_hockey:
-- id: 63080279
-  teams:
-    home: USA
-    away: Hungary
-  score:
-    home: 7
-    away: 3
-  status: result
-  time: '14:20'
-- id: 63080281
-  teams:
-    home: Germany
-    away: Great Britain
-  score:
-    home: 6
-    away: 3
-  status: result
-  time: '18:20'
-- id: 63080437
-  teams:
-    home: Czech Republic
-    away: Norway
-  score:
-    home: 1
-    away: 4
-  status: result
-  time: '14:20'
-- id: 63080439
-  teams:
-    home: Slovenia
-    away: Italy
-  score:
-    home: 5
-    away: 1
-  status: result
-  time: '18:20'
-- id: 70557986
-  teams:
-    home: Vegas Golden Knights
-    away: Colorado
-  score:
-    home: 5
-    away: 3
-  status: result
+  status: live
   time: 00:00
-table_tennis: []
+- id: 71695462
+  teams:
+    home: Kucirek, Ondrej
+    away: Dolezal, Vaclav
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 00:00
+- id: 71695646
+  teams:
+    home: Svacha, Ondrej
+    away: Pikous, Marcel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 00:00
