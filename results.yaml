@@ -1,6 +1,24 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71563754
+  teams:
+    home: Cina, Federico
+    away: De Jong, Jesper
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71563744
+  teams:
+    home: Davidovich Fokina, Alejandro
+    away: Tirante, Thiago Agustin
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 09:00
 ice_hockey:
 - id: 70557982
   teams:
