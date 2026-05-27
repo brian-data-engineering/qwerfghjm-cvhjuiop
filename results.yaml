@@ -1,5 +1,41 @@
-soccer: []
-basketball: []
+soccer:
+- id: 71685812
+  teams:
+    home: Lisen Brno
+    away: Slovacko
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '16:00'
+- id: 67604828
+  teams:
+    home: HJK Klubi 04
+    away: PK-35 Helsinki
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '16:00'
+basketball:
+- id: 71666560
+  teams:
+    home: Brno BC
+    away: JIP Pardubice
+  score:
+    home: 57
+    away: 60
+  status: live
+  time: '17:00'
+- id: 71553270
+  teams:
+    home: Le Mans
+    away: Nanterre
+  score:
+    home: 31
+    away: 36
+  status: live
+  time: '17:00'
 tennis:
 - id: 71563754
   teams:
