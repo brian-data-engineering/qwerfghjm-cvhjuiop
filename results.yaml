@@ -18,7 +18,88 @@ soccer:
   status: result
   time: 00:30
 basketball: []
-tennis: []
+tennis:
+- id: 71563788
+  teams:
+    home: Cobolli, Flavio
+    away: Wu, Yibing
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71563786
+  teams:
+    home: Diaz Acosta, Facundo
+    away: Tien, Learner
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 09:00
+- id: 71563772
+  teams:
+    home: Struff, Jan-Lennard
+    away: Faria, Jaime
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71563798
+  teams:
+    home: Svajda, Zachary
+    away: Walton, Adam
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71563776
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Kouame, Moise
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 09:00
+- id: 71563828
+  teams:
+    home: Sinner, Jannik
+    away: Cerundolo, Juan Manuel
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '10:00'
+- id: 71563770
+  teams:
+    home: Hurkacz, Hubert
+    away: Tiafoe, Frances
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:55'
+- id: 71563784
+  teams:
+    home: Cerundolo, Francisco
+    away: Gaston, Hugo
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '11:20'
+- id: 71563826
+  teams:
+    home: Landaluce, Martin
+    away: Kopriva, Vit
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:05'
 ice_hockey: []
 table_tennis:
 - id: 71739678
@@ -424,7 +505,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71758000
   teams:
@@ -433,7 +514,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71757744
   teams:
@@ -442,7 +523,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71757958
   teams:
@@ -451,7 +532,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 71757796
   teams:
@@ -467,9 +548,9 @@ table_tennis:
     home: Lazar, Julius
     away: Cermak, Vladimir
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:30
 - id: 71757946
   teams:
@@ -477,33 +558,114 @@ table_tennis:
     away: Hruska, Vaclav Senior
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 08:30
 - id: 71758018
   teams:
     home: Taichman, Ivo
     away: Tobola, Daniel
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:30
 - id: 71764844
   teams:
     home: Zientek, Zbynek
     away: Varecha, Pavel
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:30
 - id: 71757768
   teams:
     home: Zuzanek, Jiri
     away: Sebera, Petr
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 08:30
+- id: 71779244
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71779290
+  teams:
+    home: Koral, Michal
+    away: Tobola, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 71779240
+  teams:
+    home: Sychra, Martin
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71779298
+  teams:
+    home: Vedmoch, Michal
+    away: Kostal, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 71779302
+  teams:
+    home: Varecha, Pavel
+    away: Kowolowski, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:02
+- id: 71779300
+  teams:
+    home: Cermak, Vladimir
+    away: Lazar, Julius
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 71779246
+  teams:
+    home: Stuchlik, Pavel
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71779292
+  teams:
+    home: Taichman, Ivo
+    away: Bosak, Vitezslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 71779304
+  teams:
+    home: Zurek, Filip
+    away: Zientek, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
