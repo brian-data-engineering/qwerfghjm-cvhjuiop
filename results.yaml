@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 71372276
+  teams:
+    home: Abc FC
+    away: EC Vitoria
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: 00:30
+- id: 71381220
+  teams:
+    home: SC Recife PE
+    away: Fortaleza EC
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 00:30
 basketball: []
 tennis: []
 ice_hockey: []
@@ -8,25 +26,160 @@ table_tennis:
     home: Prokupek, Jaroslav
     away: Darin, Kyryl
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 00:00
 - id: 71739656
   teams:
     home: Regner, Tomas
     away: Cetner, Milan
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 71739682
   teams:
     home: Strnad, Jaroslav (1964)
     away: Ulrych, Martin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
+- id: 71739868
+  teams:
+    home: Didi, Julius
+    away: Drazan, Pavel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 71739710
+  teams:
+    home: Dolezal, Vaclav
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 71739662
+  teams:
+    home: Plachy, Jiri
+    away: Parhomenko, Dmitro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 71739654
+  teams:
+    home: Cetner, Milan
+    away: Stefek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 71739866
+  teams:
+    home: Darin, Kyryl
+    away: Fojt, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 71739738
+  teams:
+    home: Ulrych, Martin
+    away: Novak, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 71739724
+  teams:
+    home: Drazan, Pavel
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 71739686
+  teams:
+    home: Kucirek, Ondrej
+    away: Regner, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71739764
+  teams:
+    home: Parhomenko, Dmitro
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 71739926
+  teams:
+    home: Cetner, Milan
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71739746
+  teams:
+    home: Darin, Kyryl
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71739794
+  teams:
+    home: Ulrych, Martin
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71739800
+  teams:
+    home: Prokupek, Jaroslav
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 71739864
+  teams:
+    home: Regner, Tomas
+    away: Stefek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 71739786
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Novak, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
