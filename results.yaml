@@ -17,6 +17,42 @@ soccer:
     away: 2
   status: result
   time: 00:30
+- id: 71704136
+  teams:
+    home: FK Septemvri Sofia
+    away: FC Yantra Gabrovo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 69880348
+  teams:
+    home: El Gaish
+    away: Wadi Degla SC
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:00'
+- id: 69880354
+  teams:
+    home: Ismaily SC
+    away: Pharco FC
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 69880352
+  teams:
+    home: Petrojet FC
+    away: El Gouna
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
 basketball: []
 tennis:
 - id: 71563788
@@ -34,8 +70,8 @@ tennis:
     away: Tien, Learner
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 09:00
 - id: 71563772
   teams:
@@ -60,9 +96,9 @@ tennis:
     home: Vallejo, Adolfo Daniel
     away: Kouame, Moise
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 09:00
 - id: 71563828
   teams:
@@ -70,37 +106,55 @@ tennis:
     away: Cerundolo, Juan Manuel
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 71563770
   teams:
     home: Hurkacz, Hubert
     away: Tiafoe, Frances
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:55'
 - id: 71563784
   teams:
     home: Cerundolo, Francisco
     away: Gaston, Hugo
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '11:20'
 - id: 71563826
   teams:
     home: Landaluce, Martin
     away: Kopriva, Vit
   score:
-    home: 0
+    home: 3
+    away: 2
+  status: result
+  time: '12:05'
+ice_hockey:
+- id: 71747008
+  teams:
+    home: Canada
+    away: USA
+  score:
+    home: 3
     away: 0
   status: live
-  time: '12:05'
-ice_hockey: []
+  time: '14:20'
+- id: 71748338
+  teams:
+    home: Finland
+    away: Czech Republic
+  score:
+    home: 4
+    away: 1
+  status: recentlyended
+  time: '14:20'
 table_tennis:
 - id: 71739678
   teams:
