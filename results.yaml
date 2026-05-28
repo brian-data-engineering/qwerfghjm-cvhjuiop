@@ -53,6 +53,33 @@ soccer:
     away: 2
   status: result
   time: '14:00'
+- id: 67912706
+  teams:
+    home: FC Torpedo Kutaisi
+    away: FC Gagra
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
+- id: 71544082
+  teams:
+    home: Lokomotive Leipzig
+    away: Wurzburger Kickers
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '17:00'
+- id: 71284962
+  teams:
+    home: Egypt
+    away: Russia
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
 basketball: []
 tennis:
 - id: 71563788
@@ -142,9 +169,9 @@ ice_hockey:
     home: Canada
     away: USA
   score:
-    home: 3
+    home: 4
     away: 0
-  status: live
+  status: result
   time: '14:20'
 - id: 71748338
   teams:
@@ -153,8 +180,35 @@ ice_hockey:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '14:20'
+- id: 71748350
+  teams:
+    home: Norway
+    away: Latvia
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:20'
+- id: 71748340
+  teams:
+    home: Switzerland
+    away: Sweden
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:20'
+- id: 70557998
+  teams:
+    home: Montreal
+    away: Carolina
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71739678
   teams:
