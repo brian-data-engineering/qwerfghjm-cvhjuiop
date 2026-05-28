@@ -78,8 +78,53 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '18:00'
+- id: 69829492
+  teams:
+    home: Ireland
+    away: Qatar
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '18:45'
+- id: 70075718
+  teams:
+    home: Club Bolivar
+    away: Independiente Rivadavia
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 70075716
+  teams:
+    home: Fluminense FC
+    away: Deportivo La Guaira
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 70075786
+  teams:
+    home: Penarol Montevideo
+    away: Santa Fe
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 00:30
+- id: 70075788
+  teams:
+    home: SC Corinthians
+    away: CA Platense
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 00:30
 basketball: []
 tennis:
 - id: 71563788
@@ -187,18 +232,18 @@ ice_hockey:
     home: Norway
     away: Latvia
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:20'
 - id: 71748340
   teams:
     home: Switzerland
     away: Sweden
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '18:20'
 - id: 70557998
   teams:
