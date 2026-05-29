@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 63468613
+  teams:
+    home: Ironi Kiryat ATA
+    away: Ziona
+  score:
+    home: 78
+    away: 64
+  status: result
+  time: '10:45'
 tennis:
 - id: 71563714
   teams:
@@ -7,18 +16,27 @@ tennis:
     away: Rublev, Andrey
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 09:00
 - id: 71563722
   teams:
     home: Tirante, Thiago Agustin
     away: Carreno Busta, Pablo
   score:
-    home: 0
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 71563724
+  teams:
+    home: Michelsen, Alex
+    away: Jodar, Rafael
+  score:
+    home: 1
     away: 1
   status: live
-  time: 09:00
+  time: '11:10'
 ice_hockey: []
 table_tennis:
 - id: 71757948
@@ -604,7 +622,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71777636
   teams:
@@ -613,7 +631,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71777612
   teams:
@@ -622,5 +640,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
