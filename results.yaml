@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71757878
   teams:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71757826
   teams:
@@ -82,14 +82,185 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71757834
   teams:
     home: Kasnik, Sebastian
     away: Brozik, Karel
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 01:30
+- id: 71757954
+  teams:
+    home: Mazanek, Stanislav
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 71758002
+  teams:
+    home: Sobisek, Martin
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 71757990
+  teams:
+    home: Bayer, Alesh
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 71757828
+  teams:
+    home: Hejduk, Alexander
+    away: Vaclavik, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71757862
+  teams:
+    home: Louda, Jiri
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 71757928
+  teams:
+    home: Brozik, Karel
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 71757764
+  teams:
+    home: Grohsgott, Jiri
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71757996
+  teams:
+    home: Sychra, Martin
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 71793282
+  teams:
+    home: Bayer, Alesh
+    away: Sopko, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 71793286
+  teams:
+    home: Kasnik, Sebastian
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 71793278
+  teams:
+    home: Syroha, Michal
+    away: Mazanek, Stanislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 71793280
+  teams:
+    home: Hejduk, Alexander
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 71793288
+  teams:
+    home: Louda, Jiri
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 71793284
+  teams:
+    home: Sychra, Martin
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 71777874
+  teams:
+    home: Byrtus, Samuel
+    away: Schwan, Jaroslav
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 06:00
+- id: 71777578
+  teams:
+    home: Cetner, Milan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 06:00
+- id: 71777660
+  teams:
+    home: Novotny, Ladislav
+    away: Zikmund, Ivo
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:00
+- id: 71777520
+  teams:
+    home: Paril, Ondrej
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:00
+- id: 71777856
+  teams:
+    home: Vedmoch, Michal
+    away: Darin, Kyryl
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
