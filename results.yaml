@@ -7,8 +7,8 @@ tennis:
     away: Svajda, Zachary
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 09:00
 - id: 71563704
   teams:
@@ -17,18 +17,36 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71563762
   teams:
     home: Berrettini, Matteo
     away: Comesana, Francisco
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '11:40'
-ice_hockey: []
+- id: 71563764
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Landaluce, Martin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:10'
+ice_hockey:
+- id: 71792242
+  teams:
+    home: Switzerland
+    away: Norway
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:20'
 table_tennis:
 - id: 71777518
   teams:
@@ -712,16 +730,16 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 71800420
   teams:
     home: Lubas, Miloslav
     away: Havrda, Leos
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '11:30'
 - id: 71800366
   teams:
@@ -730,7 +748,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 71800626
   teams:
@@ -739,7 +757,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 71800410
   teams:
@@ -755,16 +773,133 @@ table_tennis:
     home: Didi, Julius
     away: Ulrych, Martin
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '12:00'
 - id: 71800620
   teams:
     home: Dzida, Jan
     away: Biolek, Martin
   score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 71800446
+  teams:
+    home: Havrda, Leos
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 71800532
+  teams:
+    home: Taichman, Ivo
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 71800458
+  teams:
+    home: Vedmoch, Michal
+    away: Plachy, Jiri
+  score:
     home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 71800506
+  teams:
+    home: Barta, Miroslav
+    away: Drazan, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71800412
+  teams:
+    home: Berdych, Pavel
+    away: Lubas, Miloslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 71800426
+  teams:
+    home: Darin, Kyryl
+    away: Pospisil, Milos
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71800554
+  teams:
+    home: Jasek, Milan
+    away: Mikula, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71800664
+  teams:
+    home: Kratochvil, Michal
+    away: Opanasiuk, Dmytro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 71800650
+  teams:
+    home: Kolenciak, Ivan
+    away: Toth, Josef
+  score:
+    home: 2
     away: 0
   status: live
-  time: '12:00'
+  time: '14:00'
+- id: 71800520
+  teams:
+    home: Picek, Petr
+    away: Darin, Kyryl
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '14:00'
+- id: 71800352
+  teams:
+    home: Sedlacek, Michael
+    away: Wawrosz, Pavel
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '14:00'
+- id: 71800500
+  teams:
+    home: Ulrych, Martin
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:00'
+- id: 71800358
+  teams:
+    home: Vinter, Tomas
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '14:00'
