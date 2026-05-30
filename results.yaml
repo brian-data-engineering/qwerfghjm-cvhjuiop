@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71563718
+  teams:
+    home: Cerundolo, Francisco
+    away: Svajda, Zachary
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 71777518
@@ -226,7 +235,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71800470
   teams:
@@ -235,7 +244,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71800418
   teams:
@@ -244,7 +253,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 71800374
   teams:
@@ -262,16 +271,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71800376
   teams:
     home: Cernik, Jaromir
     away: Svec, Jiri
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:30
 - id: 71800360
   teams:
@@ -280,14 +289,176 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 71800622
   teams:
     home: Kratochvil, Michal
     away: Zika, Tadeas
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 06:30
+- id: 71800424
+  teams:
+    home: Barton, Ales
+    away: Bradac, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 71800644
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Kratochvil, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 71800368
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Cetner, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 71800474
+  teams:
+    home: Vrabec, Milan
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 71800522
+  teams:
+    home: Dolezal, Vaclav
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 71800528
+  teams:
+    home: Postelt, Tomas
+    away: Kanera, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 71800384
+  teams:
+    home: Svec, Jiri
+    away: Hyrsl, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 71800630
+  teams:
+    home: Zika, Tadeas
+    away: Biolek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 71800648
+  teams:
+    home: Biolek, Martin
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 71800560
+  teams:
+    home: Cabis, Michal
+    away: Polasek, Radovan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 71800448
+  teams:
+    home: Hyrsl, Jiri
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71800422
+  teams:
+    home: Kanera, Jan
+    away: Bradac, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71800484
+  teams:
+    home: Sulava, Lubor
+    away: Cetner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71800362
+  teams:
+    home: Barton, Ales
+    away: Postelt, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71800656
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 71800402
+  teams:
+    home: Paril, Ondrej
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71800496
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 71800552
+  teams:
+    home: Vrabec, Milan
+    away: Svec, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
