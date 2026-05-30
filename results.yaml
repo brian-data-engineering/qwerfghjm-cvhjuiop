@@ -34,7 +34,7 @@ basketball:
   score:
     home: 75
     away: 80
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71769526
   teams:
@@ -151,17 +151,17 @@ tennis:
     away: Tiafoe, Frances
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '18:20'
 - id: 71563708
   teams:
     home: Auger-Aliassime, Felix
     away: Nakashima, Brandon
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: recentlyended
   time: '18:50'
 ice_hockey:
 - id: 71792242
@@ -1729,7 +1729,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71828988
   teams:
@@ -1738,7 +1738,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 71828960
   teams:
@@ -1747,32 +1747,122 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '21:00'
+- id: 71828992
+  teams:
+    home: Pagac, Zbynek
+    away: Unzeitig, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:00'
+- id: 71828996
+  teams:
+    home: Svec, Jiri
+    away: Havrda, Leos
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '21:00'
+- id: 71828994
+  teams:
+    home: Babinec, Zdenek
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:30'
 - id: 71828990
   teams:
     home: Bartunek, Radek
     away: Fisera, Milan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
+  time: '21:30'
+- id: 71829000
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Syroha, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
   time: '21:30'
 - id: 71828974
   teams:
     home: Urbaniec, Radim
     away: Vejvoda, Viktor
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '21:30'
 - id: 71828962
   teams:
     home: Zidek, Vaclav
     away: Chovanec, Pavel
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '21:30'
+- id: 71800512
+  teams:
+    home: Darin, Kyryl
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
+- id: 71800582
+  teams:
+    home: Pleskot, Jan
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '22:00'
+- id: 71800478
+  teams:
+    home: Postelt, Vladimir
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
+- id: 71800568
+  teams:
+    home: Dedek, Jiri
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:30'
+- id: 71800466
+  teams:
+    home: Plachy, Jiri
+    away: Mikuska, Alexander
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:30'
+- id: 71800580
+  teams:
+    home: Urban, Roman
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:30'
