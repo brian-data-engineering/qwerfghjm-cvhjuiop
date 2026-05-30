@@ -172,7 +172,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 03:00
 - id: 71815506
   teams:
@@ -181,7 +181,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 03:00
 - id: 71815534
   teams:
@@ -190,32 +190,104 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 03:05
 - id: 71815500
   teams:
     home: Hofman, Denis
     away: Bayer, Alesh
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 03:30
 - id: 71815508
   teams:
     home: Huk, Martin
     away: Kolar, Vlastimil
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 03:30
 - id: 71815536
   teams:
     home: Svoboda, Adam
     away: Horak, David
   score:
-    home: 0
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 71800632
+  teams:
+    home: Biolek, Martin
+    away: Opanasiuk, Dmytro
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 71800470
+  teams:
+    home: Hyrsl, Jiri
+    away: Vrabec, Milan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 06:00
+- id: 71800418
+  teams:
+    home: Kanera, Jan
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 06:00
+- id: 71800374
+  teams:
+    home: Sulava, Lubor
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:00
+- id: 71800574
+  teams:
+    home: Bradac, Petr
+    away: Postelt, Tomas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 71800376
+  teams:
+    home: Cernik, Jaromir
+    away: Svec, Jiri
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:30
+- id: 71800360
+  teams:
+    home: Cetner, Milan
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 71800622
+  teams:
+    home: Kratochvil, Michal
+    away: Zika, Tadeas
+  score:
+    home: 1
     away: 0
   status: live
-  time: 03:30
+  time: 06:30
