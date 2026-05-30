@@ -32,9 +32,9 @@ basketball:
     home: Asvel
     away: Cholet
   score:
-    home: 35
-    away: 31
-  status: live
+    home: 75
+    away: 80
+  status: recentlyended
   time: '19:00'
 - id: 71769526
   teams:
@@ -79,7 +79,7 @@ basketball:
   score:
     home: 83
     away: 91
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71792538
   teams:
@@ -143,7 +143,7 @@ tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71563760
   teams:
@@ -151,7 +151,7 @@ tennis:
     away: Tiafoe, Frances
   score:
     home: 2
-    away: 0
+    away: 1
   status: live
   time: '18:20'
 - id: 71563708
@@ -159,7 +159,7 @@ tennis:
     home: Auger-Aliassime, Felix
     away: Nakashima, Brandon
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '18:50'
@@ -180,7 +180,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: live
+  status: result
   time: '18:00'
 - id: 70558002
   teams:
@@ -1603,7 +1603,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71800378
   teams:
@@ -1612,7 +1612,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71800472
   teams:
@@ -1621,7 +1621,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71800638
   teams:
@@ -1630,16 +1630,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71800646
   teams:
     home: Babinec, Zdenek
     away: Pagac, Zbynek
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '20:00'
 - id: 71800534
   teams:
@@ -1647,8 +1647,8 @@ table_tennis:
     away: Zidek, Vaclav
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '20:00'
 - id: 71800334
   teams:
@@ -1656,24 +1656,123 @@ table_tennis:
     away: Bartunek, Radek
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '20:00'
 - id: 71800394
   teams:
     home: Syroha, Michal
     away: Havrda, Leos
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '20:00'
 - id: 71800356
   teams:
     home: Urbaniec, Radim
     away: Vejvoda, Viktor
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '20:00'
+- id: 71800480
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Svec, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
+- id: 71800628
+  teams:
+    home: Hudeczek, Roman
+    away: Unzeitig, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 71800544
+  teams:
+    home: Kolenic, Tibor
+    away: Fisera, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 71800464
+  teams:
+    home: Levicky, Jakub
+    away: Jemelka, Ivan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 71800406
+  teams:
+    home: Louda, Jiri
+    away: Brozik, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 71828966
+  teams:
+    home: Brozik, Karel
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '21:00'
+- id: 71828988
+  teams:
+    home: Kolenic, Tibor
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '21:00'
+- id: 71828960
+  teams:
+    home: Levicky, Jakub
+    away: Jemelka, Ivan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '21:00'
+- id: 71828990
+  teams:
+    home: Bartunek, Radek
+    away: Fisera, Milan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:30'
+- id: 71828974
+  teams:
+    home: Urbaniec, Radim
+    away: Vejvoda, Viktor
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '21:30'
+- id: 71828962
+  teams:
+    home: Zidek, Vaclav
+    away: Chovanec, Pavel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:30'
