@@ -7,9 +7,18 @@ tennis:
     away: Svajda, Zachary
   score:
     home: 0
-    away: 0
+    away: 2
   status: live
   time: 09:00
+- id: 71563704
+  teams:
+    home: Cobolli, Flavio
+    away: Tien, Learner
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
 ice_hockey: []
 table_tennis:
 - id: 71777518
@@ -433,7 +442,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 71800402
   teams:
@@ -460,5 +469,95 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
+- id: 71800428
+  teams:
+    home: Didi, Julius
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71800658
+  teams:
+    home: Dzida, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71800354
+  teams:
+    home: Havrda, Leos
+    away: Berdych, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71800454
+  teams:
+    home: Taichman, Ivo
+    away: Jasek, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71800456
+  teams:
+    home: Vedmoch, Michal
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71800642
+  teams:
+    home: Biolek, Martin
+    away: Opanasiuk, Dmytro
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:30'
+- id: 71800440
+  teams:
+    home: Cernik, Jaromir
+    away: Lubas, Miloslav
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '10:30'
+- id: 71800342
+  teams:
+    home: Guliak, Roman
+    away: Mikula, David
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:30'
+- id: 71800504
+  teams:
+    home: Plachy, Jiri
+    away: Pospisil, Milos
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:30'
+- id: 71800488
+  teams:
+    home: Ulrych, Martin
+    away: Drazan, Pavel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '10:30'
