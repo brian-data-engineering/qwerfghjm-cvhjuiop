@@ -5,9 +5,9 @@ basketball:
     home: Franca
     away: Pinheiros SP
   score:
-    home: 79
-    away: 62
-  status: live
+    home: 82
+    away: 73
+  status: result
   time: '14:00'
 - id: 71680584
   teams:
@@ -18,6 +18,15 @@ basketball:
     away: 110
   status: result
   time: '11:35'
+- id: 71781774
+  teams:
+    home: Hapoel Tel-Aviv
+    away: Rishon
+  score:
+    home: 68
+    away: 71
+  status: live
+  time: '15:35'
 tennis:
 - id: 71563800
   teams:
@@ -34,8 +43,8 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '13:45'
 ice_hockey:
 - id: 71828948
@@ -43,9 +52,9 @@ ice_hockey:
     home: Canada
     away: Norway
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '13:30'
 table_tennis:
 - id: 71800438
