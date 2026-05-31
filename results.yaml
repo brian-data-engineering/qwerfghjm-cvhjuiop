@@ -1,14 +1,32 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71793154
+  teams:
+    home: Franca
+    away: Pinheiros SP
+  score:
+    home: 79
+    away: 62
+  status: live
+  time: '14:00'
+- id: 71680584
+  teams:
+    home: Guangsha Lions
+    away: Shanghai Sharks
+  score:
+    home: 77
+    away: 110
+  status: result
+  time: '11:35'
 tennis:
 - id: 71563800
   teams:
     home: Jodar, Rafael
     away: Carreno Busta, Pablo
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '11:25'
 - id: 71563814
   teams:
@@ -16,7 +34,7 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
-    away: 0
+    away: 2
   status: live
   time: '13:45'
 ice_hockey:
@@ -25,8 +43,8 @@ ice_hockey:
     home: Canada
     away: Norway
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '13:30'
 table_tennis:
