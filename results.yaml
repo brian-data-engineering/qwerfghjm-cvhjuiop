@@ -6,11 +6,29 @@ tennis:
     home: Jodar, Rafael
     away: Carreno Busta, Pablo
   score:
+    home: 1
+    away: 2
+  status: live
+  time: '11:25'
+- id: 71563814
+  teams:
+    home: De Jong, Jesper
+    away: Zverev, Alexander
+  score:
     home: 0
     away: 0
   status: live
-  time: '11:25'
-ice_hockey: []
+  time: '13:45'
+ice_hockey:
+- id: 71828948
+  teams:
+    home: Canada
+    away: Norway
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:30'
 table_tennis:
 - id: 71800438
   teams:
