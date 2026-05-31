@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71563800
+  teams:
+    home: Jodar, Rafael
+    away: Carreno Busta, Pablo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:25'
 ice_hockey: []
 table_tennis:
 - id: 71800438
@@ -489,6 +498,96 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 71838264
+  teams:
+    home: Cabis, Michal
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71838268
+  teams:
+    home: Kanera, Jan
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71838276
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Vrabec, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 71838272
+  teams:
+    home: Zientek, Zbynek
+    away: Kvasnicka, Radim
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 71838398
+  teams:
+    home: Kolar, Milan
+    away: Horak, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:07
+- id: 71838266
+  teams:
+    home: Dzida, Jan
+    away: Opanasiuk, Dmytro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 71838278
+  teams:
+    home: Hyrsl, Jiri
+    away: Novotny, Ladislav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71838402
+  teams:
+    home: Regner, Tomas
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 71838270
+  teams:
+    home: Urbaniec, Radim
+    away: Barton, Ales
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 71838274
+  teams:
+    home: Zurek, Filip
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
 - id: 71823856
   teams:
     home: Dousek, Tomas
@@ -496,7 +595,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71823824
   teams:
@@ -505,7 +604,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71823586
   teams:
@@ -514,7 +613,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71823780
   teams:
@@ -523,7 +622,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71823562
   teams:
@@ -532,23 +631,23 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 71823796
   teams:
     home: Hanel, Patrik
     away: Jasek, Milan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:30'
 - id: 71823648
   teams:
     home: Hofman, Denis
     away: Sychra, Martin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '10:30'
