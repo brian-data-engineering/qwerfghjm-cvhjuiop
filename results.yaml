@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 67118438
+  teams:
+    home: Club Atletico Atlanta
+    away: Gimnasia Y Tiro de Salta
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '16:30'
 basketball:
 - id: 71793154
   teams:
@@ -23,10 +32,100 @@ basketball:
     home: Hapoel Tel-Aviv
     away: Rishon
   score:
-    home: 68
-    away: 71
-  status: live
+    home: 74
+    away: 82
+  status: result
   time: '15:35'
+- id: 71781776
+  teams:
+    home: Hapoel Jerusalem
+    away: Galil Gilboa
+  score:
+    home: 35
+    away: 39
+  status: live
+  time: '17:55'
+- id: 71742898
+  teams:
+    home: C.D.L. Brescia
+    away: Milano
+  score:
+    home: 37
+    away: 33
+  status: live
+  time: '18:00'
+- id: 71684212
+  teams:
+    home: Zalgiris
+    away: Lietkabelis
+  score:
+    home: 103
+    away: 93
+  status: result
+  time: '13:50'
+- id: 71769990
+  teams:
+    home: Barangay Ginebra
+    away: Rain Or Shine
+  score:
+    home: 118
+    away: 107
+  status: result
+  time: 09:15
+- id: 71769988
+  teams:
+    home: Talk N Text
+    away: Meralco
+  score:
+    home: 97
+    away: 94
+  status: result
+  time: '11:30'
+- id: 71684342
+  teams:
+    home: Stelmet
+    away: Asseco Prokom
+  score:
+    home: 96
+    away: 89
+  status: result
+  time: '15:00'
+- id: 71813838
+  teams:
+    home: FMP
+    away: Spartak Subotica
+  score:
+    home: 28
+    away: 37
+  status: live
+  time: '18:00'
+- id: 71516316
+  teams:
+    home: Barcelona
+    away: Valencia
+  score:
+    home: 77
+    away: 102
+  status: recentlyended
+  time: '17:00'
+- id: 70505034
+  teams:
+    home: Oklahoma
+    away: San Antonio
+  score:
+    home: 103
+    away: 111
+  status: result
+  time: 00:00
+- id: 68096162
+  teams:
+    home: Portland Fire
+    away: Indiana
+  score:
+    home: 100
+    away: 84
+  status: result
+  time: 00:00
 tennis:
 - id: 71563800
   teams:
@@ -46,6 +145,33 @@ tennis:
     away: 3
   status: result
   time: '13:45'
+- id: 71563804
+  teams:
+    home: Mensik, Jakub
+    away: Rublev, Andrey
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:25'
+- id: 71563802
+  teams:
+    home: Ruud, Casper
+    away: Fonseca, Joao
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 71613866
+  teams:
+    home: Krawietz K / Puetz T
+    away: Burruchaga R A / Tirante T A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
 ice_hockey:
 - id: 71828948
   teams:
