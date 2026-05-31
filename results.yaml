@@ -6,8 +6,71 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 67117708
+  teams:
+    home: Deportivo Madryn
+    away: Club Atletico Acassuso
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67118428
+  teams:
+    home: Club Almagro
+    away: CA Guemes
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67118430
+  teams:
+    home: CA Patronato Parana
+    away: Tristan Suarez
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
+- id: 67118424
+  teams:
+    home: CA Temperley
+    away: San Martin de San Juan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
+- id: 67117712
+  teams:
+    home: Club Ciudad de Bolivar
+    away: CA San Miguel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
+- id: 67118436
+  teams:
+    home: Ferrocarril Midland
+    away: San Martin de Tucuman
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
+- id: 67117716
+  teams:
+    home: Mitre Santiago Del Estero
+    away: Deportivo Moron
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:00'
 basketball:
 - id: 71793154
   teams:
@@ -41,18 +104,18 @@ basketball:
     home: Hapoel Jerusalem
     away: Galil Gilboa
   score:
-    home: 35
-    away: 39
-  status: live
+    home: 82
+    away: 71
+  status: recentlyended
   time: '17:55'
 - id: 71742898
   teams:
     home: C.D.L. Brescia
     away: Milano
   score:
-    home: 37
-    away: 33
-  status: live
+    home: 85
+    away: 79
+  status: recentlyended
   time: '18:00'
 - id: 71684212
   teams:
@@ -95,8 +158,8 @@ basketball:
     home: FMP
     away: Spartak Subotica
   score:
-    home: 28
-    away: 37
+    home: 73
+    away: 73
   status: live
   time: '18:00'
 - id: 71516316
@@ -106,7 +169,7 @@ basketball:
   score:
     home: 77
     away: 102
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 70505034
   teams:
@@ -126,6 +189,15 @@ basketball:
     away: 84
   status: result
   time: 00:00
+- id: 68096164
+  teams:
+    home: Golden State
+    away: Las Vegas Aces
+  score:
+    home: 23
+    away: 21
+  status: live
+  time: '19:30'
 tennis:
 - id: 71563800
   teams:
@@ -150,8 +222,8 @@ tennis:
     home: Mensik, Jakub
     away: Rublev, Andrey
   score:
-    home: 1
-    away: 0
+    home: 2
+    away: 1
   status: live
   time: '17:25'
 - id: 71563802
@@ -160,7 +232,7 @@ tennis:
     away: Fonseca, Joao
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '18:30'
 - id: 71613866
@@ -182,6 +254,24 @@ ice_hockey:
     away: 3
   status: result
   time: '13:30'
+- id: 71828952
+  teams:
+    home: Switzerland
+    away: Finland
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:20'
+- id: 71653302
+  teams:
+    home: Colorado
+    away: Chicago
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: 00:05
 table_tennis:
 - id: 71800438
   teams:
