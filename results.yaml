@@ -78,16 +78,16 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 67118426
   teams:
     home: CD Maipu
     away: CA Chacarita Juniors
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:00'
 - id: 67118434
   teams:
@@ -96,7 +96,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '20:00'
 - id: 71633180
   teams:
@@ -230,9 +230,9 @@ basketball:
     home: Golden State
     away: Las Vegas Aces
   score:
-    home: 65
-    away: 85
-  status: live
+    home: 81
+    away: 91
+  status: result
   time: '19:30'
 tennis:
 - id: 71563800
@@ -260,16 +260,16 @@ tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:25'
 - id: 71563802
   teams:
     home: Ruud, Casper
     away: Fonseca, Joao
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '18:30'
 - id: 71613866
   teams:
@@ -297,7 +297,7 @@ ice_hockey:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 71653302
   teams:
@@ -308,6 +308,15 @@ ice_hockey:
     away: 2
   status: result
   time: 00:05
+- id: 71686870
+  teams:
+    home: Fort Wayne
+    away: Kansas City
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '21:05'
 table_tennis:
 - id: 71800438
   teams:
