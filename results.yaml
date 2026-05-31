@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67118428
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 67118430
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 67118424
   teams:
@@ -41,8 +41,8 @@ soccer:
     away: San Martin de San Juan
   score:
     home: 2
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '19:00'
 - id: 67117712
   teams:
@@ -51,26 +51,62 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 67118436
   teams:
     home: Ferrocarril Midland
     away: San Martin de Tucuman
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 67117716
   teams:
     home: Mitre Santiago Del Estero
     away: Deportivo Moron
   score:
-    home: 0
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 67117706
+  teams:
+    home: CA Central Norte Salta
+    away: CA Chaco For Ever
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '19:30'
+- id: 67118426
+  teams:
+    home: CD Maipu
+    away: CA Chacarita Juniors
+  score:
+    home: 1
     away: 2
   status: live
-  time: '19:00'
+  time: '20:00'
+- id: 67118434
+  teams:
+    home: Quilmes AC
+    away: Atletico de Rafaela
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '20:00'
+- id: 71633180
+  teams:
+    home: Estudiantes de la Plata
+    away: CA Rosario Central
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
 basketball:
 - id: 71793154
   teams:
@@ -106,7 +142,7 @@ basketball:
   score:
     home: 82
     away: 71
-  status: recentlyended
+  status: result
   time: '17:55'
 - id: 71742898
   teams:
@@ -115,7 +151,7 @@ basketball:
   score:
     home: 85
     away: 79
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71684212
   teams:
@@ -159,8 +195,8 @@ basketball:
     away: Spartak Subotica
   score:
     home: 73
-    away: 73
-  status: live
+    away: 76
+  status: result
   time: '18:00'
 - id: 71516316
   teams:
@@ -194,8 +230,8 @@ basketball:
     home: Golden State
     away: Las Vegas Aces
   score:
-    home: 23
-    away: 21
+    home: 65
+    away: 85
   status: live
   time: '19:30'
 tennis:
@@ -222,9 +258,9 @@ tennis:
     home: Mensik, Jakub
     away: Rublev, Andrey
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: recentlyended
   time: '17:25'
 - id: 71563802
   teams:
@@ -232,7 +268,7 @@ tennis:
     away: Fonseca, Joao
   score:
     home: 0
-    away: 1
+    away: 2
   status: live
   time: '18:30'
 - id: 71613866
@@ -260,8 +296,8 @@ ice_hockey:
     away: Finland
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '18:20'
 - id: 71653302
   teams:
