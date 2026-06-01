@@ -14,9 +14,9 @@ basketball:
     home: AS Monaco
     away: Nanterre
   score:
-    home: 35
-    away: 30
-  status: live
+    home: 103
+    away: 88
+  status: result
   time: '18:00'
 - id: 71769530
   teams:
@@ -25,8 +25,107 @@ basketball:
   score:
     home: 85
     away: 71
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 71769532
+  teams:
+    home: B. Munich
+    away: Bonn
+  score:
+    home: 91
+    away: 69
+  status: result
+  time: '18:30'
+- id: 71792476
+  teams:
+    home: Zenit St P.
+    away: BC Lokomotiv Kuban
+  score:
+    home: 82
+    away: 80
+  status: result
+  time: '16:30'
+- id: 71781778
+  teams:
+    home: B Herzelia
+    away: Unet Holon
+  score:
+    home: 73
+    away: 84
+  status: result
+  time: '15:35'
+- id: 71781780
+  teams:
+    home: Maccabi Tel-Aviv
+    away: Hapoel Beer Sheva
+  score:
+    home: 106
+    away: 90
+  status: result
+  time: '17:55'
+- id: 71828162
+  teams:
+    home: Netanya
+    away: Hapoel Galil Elyon
+  score:
+    home: 83
+    away: 87
+  status: result
+  time: '17:00'
+- id: 71748940
+  teams:
+    home: Bologna
+    away: Venezia
+  score:
+    home: 98
+    away: 79
+  status: result
+  time: '18:00'
+- id: 71684214
+  teams:
+    home: N. Klaipeda
+    away: Juventus
+  score:
+    home: 102
+    away: 84
+  status: result
+  time: '15:50'
+- id: 71649498
+  teams:
+    home: Dziki Warszawa
+    away: Warszawa
+  score:
+    home: 78
+    away: 91
+  status: result
+  time: '18:15'
+- id: 71631288
+  teams:
+    home: U-Banca Transilvania
+    away: Oradea
+  score:
+    home: 103
+    away: 78
+  status: result
+  time: '15:00'
+- id: 71809948
+  teams:
+    home: Dinamo Bucuresti
+    away: SCM Univ. Craiova
+  score:
+    home: 101
+    away: 105
+  status: result
+  time: '17:00'
+- id: 71828844
+  teams:
+    home: Fenerbahce Istanbul
+    away: Efes Istanbul
+  score:
+    home: 60
+    away: 59
+  status: result
+  time: '17:00'
 tennis:
 - id: 71563806
   teams:
@@ -60,8 +159,8 @@ tennis:
     home: Tiafoe, Frances
     away: Arnaldi, Matteo
   score:
-    home: 0
-    away: 0
+    home: 2
+    away: 2
   status: live
   time: '17:40'
 - id: 71613820
@@ -100,6 +199,177 @@ tennis:
     away: 2
   status: result
   time: '10:45'
+- id: 71613826
+  teams:
+    home: Nys H / Roger-Vasselin E
+    away: Reyes-Varela M A / Tabilo A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:10'
+- id: 71638714
+  teams:
+    home: Mektic N / Muhammad A
+    away: Goransson A / Routliffe E
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 71638704
+  teams:
+    home: Vavassori A / Errani S
+    away: Tracy J / Danilina A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:10'
+- id: 71828828
+  teams:
+    home: Schwaerzler, Joel
+    away: Dodig, Matej
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:30'
+- id: 71828826
+  teams:
+    home: Kotov, Pavel
+    away: Den Ouden, Guy
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:55'
+- id: 71828830
+  teams:
+    home: Ferreira Silva, Frederico
+    away: Martinez, Pedro
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:55'
+- id: 71828824
+  teams:
+    home: Giustino, Lorenzo
+    away: ToPo, Marko
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
+- id: 71828822
+  teams:
+    home: Houkes, Max
+    away: Nava, Emilio
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:30'
+- id: 71828810
+  teams:
+    home: Fix, David
+    away: Marti Pujolras, Alex
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 71828814
+  teams:
+    home: Schifris, Jeremy
+    away: Polmans, Marc
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 71828800
+  teams:
+    home: Stricker, Dominic
+    away: Oetzbach, Adrian
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 71828802
+  teams:
+    home: Poertner, Lasse
+    away: Broska, Florian
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:25
+- id: 71828816
+  teams:
+    home: Galan, Daniel Elahi
+    away: Handel, Tim
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:50
+- id: 71842022
+  teams:
+    home: Kravchenko, Georgii
+    away: Wiskandt, Max
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:05'
+- id: 71828812
+  teams:
+    home: Nagal, Sumit
+    away: Kestelboim, Mariano
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:10'
+- id: 71842010
+  teams:
+    home: Shelbayh, Abdullah
+    away: Perot, Raphael
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:40'
+- id: 71861072
+  teams:
+    home: Jong, Sander
+    away: Poertner, Lasse
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:25'
+- id: 71861062
+  teams:
+    home: Stricker, Dominic
+    away: Moeller, Marvin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:25'
+- id: 71861074
+  teams:
+    home: Galan, Daniel Elahi
+    away: Polmans, Marc
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
 ice_hockey: []
 table_tennis:
 - id: 71823620
