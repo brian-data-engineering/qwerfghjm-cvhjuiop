@@ -1,4 +1,58 @@
-soccer: []
+soccer:
+- id: 68822926
+  teams:
+    home: Ponte Preta
+    away: Botafogo SP
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
+- id: 69255072
+  teams:
+    home: Barra FC SC
+    away: Brusque
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '23:00'
+- id: 71631846
+  teams:
+    home: Atletas Do Tirol
+    away: Ferroviario AC
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:00'
+- id: 70321100
+  teams:
+    home: FC Atletico Cearense CE
+    away: Piaui PI
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '19:00'
+- id: 70321616
+  teams:
+    home: Maguary PE
+    away: Sousa EC PB
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '23:00'
+- id: 67681892
+  teams:
+    home: CD Palestino
+    away: Audax Italiano
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: 00:00
 basketball:
 - id: 71768862
   teams:
@@ -160,8 +214,8 @@ tennis:
     away: Arnaldi, Matteo
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '17:40'
 - id: 71613820
   teams:
@@ -370,7 +424,16 @@ tennis:
     away: 0
   status: result
   time: '15:00'
-ice_hockey: []
+ice_hockey:
+- id: 71704776
+  teams:
+    home: Toronto
+    away: Wilkes/Scranton
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '23:00'
 table_tennis:
 - id: 71823620
   teams:
