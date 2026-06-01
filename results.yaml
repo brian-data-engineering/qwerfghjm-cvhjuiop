@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71823736
   teams:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71823650
   teams:
@@ -82,7 +82,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 71823762
   teams:
@@ -90,8 +90,8 @@ table_tennis:
     away: Sychra, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:30
 - id: 71823698
   teams:
@@ -99,15 +99,213 @@ table_tennis:
     away: Plachy, Jiri
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 01:30
 - id: 71823564
   teams:
     home: Urbaniec, Radim
     away: Huk, Martin
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 01:30
+- id: 71823742
+  teams:
+    home: Chlebecek, Marek
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 71823788
+  teams:
+    home: Dedek, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71823612
+  teams:
+    home: Ruzicka, Jiri
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71823602
+  teams:
+    home: Huk, Martin
+    away: Svacha, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 71823846
+  teams:
+    home: Plachy, Jiri
+    away: Darin, Kyryl
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 71823806
+  teams:
+    home: Sychra, Martin
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 71848144
+  teams:
+    home: Bayer, Alesh
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 71848148
+  teams:
+    home: Darin, Kyryl
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 71848152
+  teams:
+    home: Svacha, Ondrej
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 71848150
+  teams:
+    home: Dedek, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 71848146
+  teams:
+    home: Sebera, Petr
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 71848154
+  teams:
+    home: Urbaniec, Radim
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 71838098
+  teams:
+    home: Grohsgott, Jiri
+    away: Regner, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 71838350
+  teams:
+    home: Kostal, Marek
+    away: Havlicek, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:00
+- id: 71838218
+  teams:
+    home: Wawrosz, Pavel
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 71838346
+  teams:
+    home: Zientek, Zbynek
+    away: Varecha, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 71838088
+  teams:
+    home: Zuzanek, Jiri
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 71838128
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Madle, Ludek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 71838378
+  teams:
+    home: Kowolowski, Miroslav
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 06:30
+- id: 71838294
+  teams:
+    home: Pospisil, Milos
+    away: Belovsky, Josef
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 71838092
+  teams:
+    home: Vavrecka, Michal
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 71838228
+  teams:
+    home: Vejvoda, Viktor
+    away: Klement, Milan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:30
