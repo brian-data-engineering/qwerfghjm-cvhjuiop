@@ -1,5 +1,32 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71768862
+  teams:
+    home: Brno BC
+    away: Opava
+  score:
+    home: 99
+    away: 97
+  status: result
+  time: '16:00'
+- id: 71775802
+  teams:
+    home: AS Monaco
+    away: Nanterre
+  score:
+    home: 35
+    away: 30
+  status: live
+  time: '18:00'
+- id: 71769530
+  teams:
+    home: Alba
+    away: Bamberg
+  score:
+    home: 85
+    away: 71
+  status: recentlyended
+  time: '16:30'
 tennis:
 - id: 71563806
   teams:
@@ -8,8 +35,71 @@ tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 09:00
+- id: 71563732
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Berrettini, Matteo
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:40'
+- id: 71563728
+  teams:
+    home: Auger-Aliassime, Felix
+    away: Tabilo, Alejandro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:10'
+- id: 71563730
+  teams:
+    home: Tiafoe, Frances
+    away: Arnaldi, Matteo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:40'
+- id: 71613820
+  teams:
+    home: Arevalo M / Pavic M
+    away: Arends S / Pel D
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71613830
+  teams:
+    home: Goransson A / King E
+    away: Heliovaara H / Patten H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 71613834
+  teams:
+    home: Droguet T / Gaston H
+    away: Halys Q / Herbert P-H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:35'
+- id: 71613832
+  teams:
+    home: Krawietz K / Puetz T
+    away: Balaji N S / Demoliner M
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:45'
 ice_hockey: []
 table_tennis:
 - id: 71823620
@@ -498,6 +588,96 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 71859426
+  teams:
+    home: Havlicek, Vladimir
+    away: Pospisil, Milos
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 71859498
+  teams:
+    home: Madle, Ludek
+    away: Hruska, Vaclav Senior
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 71859492
+  teams:
+    home: Zurek, Filip
+    away: Zientek, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 71859520
+  teams:
+    home: Vejvoda, Viktor
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:03
+- id: 71859530
+  teams:
+    home: Prikasky, Libor
+    away: Navedla, Matyas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:09
+- id: 71859428
+  teams:
+    home: Belovsky, Josef
+    away: Kostal, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 71859524
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 71859494
+  teams:
+    home: Kowolowski, Miroslav
+    away: Varecha, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 71859502
+  teams:
+    home: Regner, Milan
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 71859532
+  teams:
+    home: Wawrosz, Pavel
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
 - id: 71838296
   teams:
     home: Didi, Julius
@@ -543,6 +723,15 @@ table_tennis:
     away: 3
   status: result
   time: '10:00'
+- id: 71859424
+  teams:
+    home: Belovsky, Josef
+    away: Kostal, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
 - id: 71838336
   teams:
     home: Grohsgott, Jiri
@@ -633,6 +822,15 @@ table_tennis:
     away: 3
   status: result
   time: '11:30'
+- id: 71859422
+  teams:
+    home: Kostal, Marek
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
 - id: 71838424
   teams:
     home: Langer, Daniel
@@ -667,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71838216
   teams:
@@ -676,7 +874,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71838326
   teams:
@@ -694,7 +892,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71838208
   teams:
@@ -703,16 +901,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 71838360
   teams:
     home: Cetner, Milan
     away: Hruska, Vaclav Senior
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '12:30'
 - id: 71838180
   teams:
@@ -720,8 +918,8 @@ table_tennis:
     away: Pospisil, Milos
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 71838178
   teams:
@@ -730,5 +928,5 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
