@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 71652274
+  teams:
+    home: USM Alger
+    away: CR Belouizdad
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
 basketball: []
 tennis:
 - id: 71563822
@@ -10,6 +19,33 @@ tennis:
     away: 3
   status: result
   time: '12:45'
+- id: 71563808
+  teams:
+    home: Mensik, Jakub
+    away: Fonseca, Joao
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 71613842
+  teams:
+    home: Nouza P / Oberleitner N
+    away: Bolelli S / Vavassori A
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:20'
+- id: 71638718
+  teams:
+    home: Skupski N / Krawczyk D
+    away: Roger-Vasselin E / Siegemund L
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:45'
 ice_hockey: []
 table_tennis:
 - id: 71838286
