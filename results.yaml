@@ -104,18 +104,18 @@ basketball:
     home: AS Monaco
     away: Nanterre
   score:
-    home: 56
-    away: 50
-  status: live
+    home: 89
+    away: 98
+  status: result
   time: '18:00'
 - id: 71827942
   teams:
     home: Olympiakos Piraeus
     away: Panathinaikos
   score:
-    home: 45
-    away: 32
-  status: live
+    home: 82
+    away: 76
+  status: result
   time: '18:00'
 - id: 71792478
   teams:
@@ -140,18 +140,18 @@ basketball:
     home: Unet Holon
     away: B Herzelia
   score:
-    home: 87
-    away: 73
-  status: live
+    home: 99
+    away: 84
+  status: result
   time: '17:30'
 - id: 71742900
   teams:
     home: Milano
     away: C.D.L. Brescia
   score:
-    home: 55
-    away: 50
-  status: live
+    home: 93
+    away: 68
+  status: result
   time: '18:00'
 - id: 71869676
   teams:
@@ -187,8 +187,44 @@ basketball:
   score:
     home: 83
     away: 80
-  status: recentlyended
+  status: result
   time: '17:00'
+- id: 71844542
+  teams:
+    home: Baskonia
+    away: Joventut
+  score:
+    home: 85
+    away: 71
+  status: result
+  time: '19:00'
+- id: 71828846
+  teams:
+    home: Fenerbahce Istanbul
+    away: Efes Istanbul
+  score:
+    home: 73
+    away: 72
+  status: result
+  time: '17:00'
+- id: 68096322
+  teams:
+    home: Golden State
+    away: Portland Fire
+  score:
+    home: 95
+    away: 77
+  status: result
+  time: 02:00
+- id: 68096194
+  teams:
+    home: LA Sparks
+    away: Las Vegas Aces
+  score:
+    home: 69
+    away: 79
+  status: result
+  time: 02:00
 tennis:
 - id: 71563810
   teams:
@@ -204,9 +240,9 @@ tennis:
     home: Berrettini, Matteo
     away: Arnaldi, Matteo
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: result
   time: '18:25'
 - id: 71613838
   teams:
