@@ -60,9 +60,135 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '13:00'
-basketball: []
+- id: 71798200
+  teams:
+    home: Jordan
+    away: Malaysia Women
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '15:00'
+- id: 71468722
+  teams:
+    home: Haiti
+    away: New Zealand
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: 00:35
+- id: 71601846
+  teams:
+    home: Philippines
+    away: Guam
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '11:30'
+basketball:
+- id: 71768866
+  teams:
+    home: CEZ Nymburk
+    away: JIP Pardubice
+  score:
+    home: 80
+    away: 74
+  status: result
+  time: '16:00'
+- id: 71775806
+  teams:
+    home: AS Monaco
+    away: Nanterre
+  score:
+    home: 56
+    away: 50
+  status: live
+  time: '18:00'
+- id: 71827942
+  teams:
+    home: Olympiakos Piraeus
+    away: Panathinaikos
+  score:
+    home: 45
+    away: 32
+  status: live
+  time: '18:00'
+- id: 71792478
+  teams:
+    home: Zenit St P.
+    away: BC Lokomotiv Kuban
+  score:
+    home: 64
+    away: 61
+  status: result
+  time: '16:30'
+- id: 71781786
+  teams:
+    home: Hapoel Beer Sheva
+    away: Maccabi Tel-Aviv
+  score:
+    home: 83
+    away: 108
+  status: result
+  time: '15:30'
+- id: 71781788
+  teams:
+    home: Unet Holon
+    away: B Herzelia
+  score:
+    home: 87
+    away: 73
+  status: live
+  time: '17:30'
+- id: 71742900
+  teams:
+    home: Milano
+    away: C.D.L. Brescia
+  score:
+    home: 55
+    away: 50
+  status: live
+  time: '18:00'
+- id: 71869676
+  teams:
+    home: Juventus
+    away: N. Klaipeda
+  score:
+    home: 103
+    away: 90
+  status: result
+  time: '15:50'
+- id: 71842548
+  teams:
+    home: Barangay Ginebra
+    away: Talk N Text
+  score:
+    home: 102
+    away: 100
+  status: result
+  time: '11:30'
+- id: 71790702
+  teams:
+    home: U-Banca Transilvania
+    away: Oradea
+  score:
+    home: 74
+    away: 72
+  status: result
+  time: '16:00'
+- id: 71844430
+  teams:
+    home: Valencia
+    away: Bilbao
+  score:
+    home: 83
+    away: 80
+  status: recentlyended
+  time: '17:00'
 tennis:
 - id: 71563810
   teams:
@@ -70,9 +196,45 @@ tennis:
     away: Cobolli, Flavio
   score:
     home: 1
+    away: 3
+  status: result
+  time: '14:05'
+- id: 71563812
+  teams:
+    home: Berrettini, Matteo
+    away: Arnaldi, Matteo
+  score:
+    home: 0
     away: 0
   status: live
-  time: '14:05'
+  time: '18:25'
+- id: 71613838
+  teams:
+    home: Balaji N S / Demoliner M
+    away: Heliovaara H / Patten H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:25'
+- id: 71613828
+  teams:
+    home: Granollers M / Zeballos H
+    away: Nys H / Roger-Vasselin E
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:35'
+- id: 71613840
+  teams:
+    home: Arends S / Pel D
+    away: Halys Q / Herbert P-H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:25'
 ice_hockey:
 - id: 70558084
   teams:
