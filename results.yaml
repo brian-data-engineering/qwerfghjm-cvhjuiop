@@ -1,7 +1,52 @@
-soccer: []
+soccer:
+- id: 71747010
+  teams:
+    home: Barracas Central
+    away: CA Huracan
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:10
+- id: 71792666
+  teams:
+    home: Fortaleza EC
+    away: EC Vitoria
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:00
+- id: 71702728
+  teams:
+    home: Junior
+    away: Nacional Medellin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 70558084
+  teams:
+    home: Carolina
+    away: Vegas Golden Knights
+  score:
+    home: 4
+    away: 5
+  status: result
+  time: 00:00
+- id: 71653368
+  teams:
+    home: Chicago
+    away: Colorado
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71894506
   teams:
@@ -10,7 +55,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 71857370
   teams:
@@ -19,5 +64,5 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
