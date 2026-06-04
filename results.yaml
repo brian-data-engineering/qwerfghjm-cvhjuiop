@@ -6,7 +6,7 @@ soccer:
   score:
     home: 2
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 basketball:
 - id: 71828928
@@ -16,8 +16,143 @@ basketball:
   score:
     home: 80
     away: 88
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 71793170
+  teams:
+    home: Pinheiros SP
+    away: Franca
+  score:
+    home: 47
+    away: 43
+  status: live
+  time: '20:00'
+- id: 71768868
+  teams:
+    home: Opava
+    away: Brno BC
+  score:
+    home: 96
+    away: 65
+  status: result
+  time: '16:00'
+- id: 71831676
+  teams:
+    home: Paris Basketball
+    away: Cholet
+  score:
+    home: 100
+    away: 77
+  status: result
+  time: '18:30'
+- id: 71769534
+  teams:
+    home: Bonn
+    away: B. Munich
+  score:
+    home: 57
+    away: 77
+  status: result
+  time: '16:30'
+- id: 71769536
+  teams:
+    home: Bamberg
+    away: Alba
+  score:
+    home: 81
+    away: 73
+  status: recentlyended
+  time: '18:30'
+- id: 71792394
+  teams:
+    home: Dubai
+    away: KK Partizan
+  score:
+    home: 99
+    away: 93
+  status: result
+  time: '16:00'
+- id: 71792450
+  teams:
+    home: Moscow
+    away: Uniks Kazan
+  score:
+    home: 102
+    away: 89
+  status: result
+  time: '16:30'
+- id: 71913482
+  teams:
+    home: Hapoel Tel-Aviv
+    away: Rishon
+  score:
+    home: 96
+    away: 83
+  status: result
+  time: '17:55'
+- id: 71748950
+  teams:
+    home: Venezia
+    away: Bologna
+  score:
+    home: 89
+    away: 85
+  status: result
+  time: '18:00'
+- id: 71844428
+  teams:
+    home: Barcelona
+    away: U. Murcia
+  score:
+    home: 87
+    away: 90
+  status: result
+  time: '17:00'
+- id: 71826320
+  teams:
+    home: Iberostar
+    away: Real Madrid
+  score:
+    home: 83
+    away: 118
+  status: recentlyended
+  time: '19:00'
+- id: 71829220
+  teams:
+    home: Besiktas
+    away: Bahcesehir
+  score:
+    home: 79
+    away: 101
+  status: result
+  time: '17:00'
+- id: 71827612
+  teams:
+    home: Penarol
+    away: Aguada
+  score:
+    home: 99
+    away: 82
+  status: result
+  time: 00:15
+- id: 70505022
+  teams:
+    home: San Antonio
+    away: NY Knicks
+  score:
+    home: 95
+    away: 105
+  status: result
+  time: 00:30
+- id: 68096004
+  teams:
+    home: Seattle
+    away: Phoenix
+  score:
+    home: 68
+    away: 72
+  status: result
+  time: 02:00
 tennis:
 - id: 71613848
   teams:
@@ -1441,7 +1576,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71906202
   teams:
@@ -1450,7 +1585,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71906356
   teams:
@@ -1459,7 +1594,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71906416
   teams:
@@ -1468,7 +1603,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71906424
   teams:
@@ -1477,50 +1612,230 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71906290
   teams:
     home: Babinec, Zdenek
     away: Pagac, Zbynek
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:30'
 - id: 71906454
   teams:
     home: Bartunek, Radek
     away: Strnad, Jaroslav (1964)
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:30'
 - id: 71906184
   teams:
     home: Huk, Martin
     away: Ruzicka, Jiri
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '18:30'
 - id: 71912158
   teams:
     home: Kolar, Milan
     away: Steffan, Jan
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '18:30'
 - id: 71906280
   teams:
     home: Stach, Jiri
     away: Priesol, Daniel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:30'
+- id: 71906374
+  teams:
+    home: Guliak, Roman
+    away: Stach, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:00'
+- id: 71906248
+  teams:
+    home: Hasmanda, Rostislav
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71906190
+  teams:
+    home: Holub, Marek
+    away: Babinec, Zdenek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71912160
+  teams:
+    home: Kolenic, Tibor
+    away: Kolar, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71906370
+  teams:
+    home: Rose, Radek
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71906440
+  teams:
+    home: Pagac, Zbynek
+    away: Opralka, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 71906264
+  teams:
+    home: Priesol, Daniel
+    away: Hanel, Patrik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 71906254
+  teams:
+    home: Ruzicka, Jiri
+    away: Klimenta, Matous
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:30'
+- id: 71906432
+  teams:
+    home: Steffan, Jan
+    away: Regner, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 71906478
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Fisera, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 71906296
+  teams:
+    home: Fisera, Milan
+    away: Bartunek, Radek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 71906268
+  teams:
+    home: Hanel, Patrik
+    away: Stach, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 71906298
+  teams:
+    home: Klimenta, Matous
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 71906394
+  teams:
+    home: Opralka, Roman
+    away: Babinec, Zdenek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 71912156
+  teams:
+    home: Regner, Tomas
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 71906354
+  teams:
+    home: Guliak, Roman
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:30'
+- id: 71906362
+  teams:
+    home: Hasmanda, Rostislav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '20:30'
+- id: 71906430
+  teams:
+    home: Holub, Marek
+    away: Pagac, Zbynek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 71906284
+  teams:
+    home: Kolenic, Tibor
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:30'
+- id: 71906200
+  teams:
+    home: Rose, Radek
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
