@@ -25,7 +25,7 @@ basketball:
   score:
     home: 94
     away: 92
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 71768868
   teams:
@@ -153,6 +153,15 @@ basketball:
     away: 72
   status: result
   time: 02:00
+- id: 68096042
+  teams:
+    home: Indiana
+    away: Atlanta
+  score:
+    home: 32
+    away: 26
+  status: live
+  time: '23:00'
 tennis:
 - id: 71613848
   teams:
@@ -1882,7 +1891,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 71906414
   teams:
@@ -1891,7 +1900,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71906404
   teams:
@@ -1900,7 +1909,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 71906232
   teams:
@@ -1909,5 +1918,86 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
+- id: 71906326
+  teams:
+    home: Hofman, Denis
+    away: Regner, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:30'
+- id: 71906292
+  teams:
+    home: Kratochvil, Michal
+    away: Kycelt, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:30'
+- id: 71906196
+  teams:
+    home: Stuchlik, Pavel
+    away: Mazanek, Stanislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:30'
+- id: 71906180
+  teams:
+    home: Hejduk, Alexander
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 71906464
+  teams:
+    home: Pikous, Marcel
+    away: Batog, Tomek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 71906472
+  teams:
+    home: Postelt, Tomas
+    away: Vales, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '23:00'
+- id: 71906312
+  teams:
+    home: Kasnik, Sebastian
+    away: Hofman, Denis
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:30'
+- id: 71906422
+  teams:
+    home: Mares, Erik
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:30'
+- id: 71906260
+  teams:
+    home: Syroha, Michal
+    away: Stuchlik, Pavel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:30'
