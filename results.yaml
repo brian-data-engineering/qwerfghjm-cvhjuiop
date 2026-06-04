@@ -1,5 +1,23 @@
-soccer: []
-basketball: []
+soccer:
+- id: 71652336
+  teams:
+    home: Ben Aknoun
+    away: USM Alger
+  score:
+    home: 2
+    away: 2
+  status: recentlyended
+  time: '16:00'
+basketball:
+- id: 71828928
+  teams:
+    home: Oberwart
+    away: Kapfenberg
+  score:
+    home: 80
+    away: 88
+  status: recentlyended
+  time: '16:00'
 tennis:
 - id: 71613848
   teams:
@@ -53,7 +71,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71750498
   teams:
@@ -70,8 +88,8 @@ tennis:
     away: Dodig M / Mikrut L
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 71749936
   teams:
@@ -1198,7 +1216,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 71906218
   teams:
@@ -1207,7 +1225,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 71906456
   teams:
@@ -1216,7 +1234,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 71906262
   teams:
@@ -1225,7 +1243,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 71906304
   teams:
@@ -1234,16 +1252,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 71906346
   teams:
     home: Biolek, Martin
     away: Zika, Tadeas
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '16:00'
 - id: 71906352
   teams:
@@ -1251,8 +1269,8 @@ table_tennis:
     away: Havel, Ladislav
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 71906322
   teams:
@@ -1260,24 +1278,249 @@ table_tennis:
     away: Wolf, Filip
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 71906450
   teams:
     home: Kolisnyk, Oleksandr
     away: Huk, Martin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:00'
 - id: 71906468
   teams:
     home: Urbaniec, Radim
     away: Szotek, David
   score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71906266
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 71906402
+  teams:
+    home: Barton, Ales
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 71906462
+  teams:
+    home: Dzida, Jan
+    away: Sedlacek, Michael
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 71906278
+  teams:
+    home: Fabini, Marek
+    away: Kanera, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:30'
+- id: 71906226
+  teams:
+    home: Syroha, Michal
+    away: Barta, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 71930034
+  teams:
+    home: Barta, Miroslav
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71930046
+  teams:
+    home: Biolek, Martin
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71930022
+  teams:
+    home: Kanera, Jan
+    away: Jezek, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71930038
+  teams:
+    home: Ruzicka, Jan
+    away: Barton, Ales
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71930026
+  teams:
+    home: Urbaniec, Radim
+    away: Szotek, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 71930028
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 71930048
+  teams:
+    home: Dzida, Jan
+    away: Sedlacek, Michael
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 71930024
+  teams:
+    home: Fabini, Marek
+    away: Wolf, Filip
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71930036
+  teams:
+    home: Havel, Ladislav
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71930040
+  teams:
+    home: Huk, Martin
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 71906300
+  teams:
+    home: Fisera, Milan
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 71906202
+  teams:
+    home: Hanel, Patrik
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 71906356
+  teams:
+    home: Klimenta, Matous
+    away: Rose, Radek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 71906416
+  teams:
+    home: Opralka, Roman
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 71906424
+  teams:
+    home: Regner, Tomas
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 71906290
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:30'
+- id: 71906454
+  teams:
+    home: Bartunek, Radek
+    away: Strnad, Jaroslav (1964)
+  score:
     home: 0
     away: 0
   status: live
-  time: '16:00'
+  time: '18:30'
+- id: 71906184
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 71912158
+  teams:
+    home: Kolar, Milan
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 71906280
+  teams:
+    home: Stach, Jiri
+    away: Priesol, Daniel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
