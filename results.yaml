@@ -42,7 +42,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71652566
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 basketball:
 - id: 71680576
@@ -106,7 +106,7 @@ basketball:
   score:
     home: 82
     away: 63
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71828848
   teams:
@@ -1675,7 +1675,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71922490
   teams:
@@ -1684,7 +1684,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71922720
   teams:
@@ -1693,7 +1693,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71922540
   teams:
@@ -1702,7 +1702,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71922708
   teams:
@@ -1711,5 +1711,59 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
+- id: 71922572
+  teams:
+    home: Andrle, Tomas
+    away: Framberk, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 71922696
+  teams:
+    home: Horak, David
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 71922518
+  teams:
+    home: Sychra, Martin
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 71922534
+  teams:
+    home: Bayer, Alesh
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '22:30'
+- id: 71922772
+  teams:
+    home: Briza, Frantisek
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '22:30'
+- id: 71922632
+  teams:
+    home: Stefek, Martin
+    away: Dolezal, Vaclav
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '22:30'
