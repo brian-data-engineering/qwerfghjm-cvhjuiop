@@ -5,8 +5,8 @@ soccer:
     away: El Bayadh
   score:
     home: 2
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:00'
 - id: 71652422
   teams:
@@ -15,17 +15,26 @@ soccer:
   score:
     home: 0
     away: 2
-  status: live
+  status: result
   time: '16:00'
 - id: 71652420
   teams:
     home: USM Khenchela
     away: MB Rouisset
   score:
-    home: 0
+    home: 1
+    away: 0
+  status: result
+  time: '16:00'
+- id: 71652564
+  teams:
+    home: MC Alger
+    away: ASO Chlef
+  score:
+    home: 1
     away: 0
   status: live
-  time: '16:00'
+  time: '17:30'
 basketball:
 - id: 71680576
   teams:
@@ -36,6 +45,42 @@ basketball:
     away: 82
   status: result
   time: '11:35'
+- id: 71828020
+  teams:
+    home: Panathinaikos
+    away: Olympiakos Piraeus
+  score:
+    home: 48
+    away: 38
+  status: live
+  time: '18:00'
+- id: 71845122
+  teams:
+    home: Milano
+    away: C.D.L. Brescia
+  score:
+    home: 66
+    away: 55
+  status: live
+  time: '18:00'
+- id: 71842550
+  teams:
+    home: Talk N Text
+    away: Barangay Ginebra
+  score:
+    home: 101
+    away: 94
+  status: result
+  time: '11:30'
+- id: 71844540
+  teams:
+    home: Bilbao
+    away: Valencia
+  score:
+    home: 71
+    away: 88
+  status: result
+  time: '17:00'
 tennis:
 - id: 71563818
   teams:
@@ -1234,7 +1279,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71922610
   teams:
@@ -1243,7 +1288,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71922604
   teams:
@@ -1252,7 +1297,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71922726
   teams:
@@ -1263,3 +1308,138 @@ table_tennis:
     away: 0
   status: result
   time: '16:30'
+- id: 71922630
+  teams:
+    home: Bittner, Martin
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 71922500
+  teams:
+    home: Byrtus, Samuel
+    away: Heczko, Marcel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71922482
+  teams:
+    home: Horak, David
+    away: Regner, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71922702
+  teams:
+    home: Klement, Milan
+    away: Schopf, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 71922618
+  teams:
+    home: Kocian, Vojtech
+    away: Levicky, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 71922560
+  teams:
+    home: Adamczyk, Vladimir
+    away: Levicky, Jakub
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 71922744
+  teams:
+    home: Kanak, Alois
+    away: Navrat, Tomas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 71922734
+  teams:
+    home: Steffan, Jan
+    away: Briza, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 71922556
+  teams:
+    home: Sychra, Martin
+    away: Tonar, Lukas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 71922532
+  teams:
+    home: Tuma, Daniel
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:30'
+- id: 71922608
+  teams:
+    home: Heczko, Marcel
+    away: Adamczyk, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71922644
+  teams:
+    home: Levicky, Matej
+    away: Kanak, Alois
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '19:00'
+- id: 71922592
+  teams:
+    home: Regner, Tomas
+    away: Steffan, Jan
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:00'
+- id: 71922722
+  teams:
+    home: Schopf, Karel
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:00'
+- id: 71922504
+  teams:
+    home: Sopko, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:00'
