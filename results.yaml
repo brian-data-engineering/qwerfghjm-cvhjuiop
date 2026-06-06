@@ -6,16 +6,16 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71652558
   teams:
     home: MC Oran
     away: USM Alger
   score:
-    home: 0
+    home: 2
     away: 2
-  status: live
+  status: result
   time: '17:00'
 - id: 67118442
   teams:
@@ -31,10 +31,46 @@ soccer:
     home: Club Atletico Atlanta
     away: Gimnasia Jujuy
   score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 67117724
+  teams:
+    home: Club Atletico Los Andes
+    away: CA Estudiantes
+  score:
     home: 0
     away: 0
   status: live
-  time: '17:00'
+  time: '18:00'
+- id: 67117732
+  teams:
+    home: CA San Miguel
+    away: Defensores de Belgrano
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67117736
+  teams:
+    home: Club Atletico Acassuso
+    away: CA Central Norte Salta
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:30'
+- id: 67118456
+  teams:
+    home: San Martin de San Juan
+    away: Nueva Chicago
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
 basketball:
 - id: 71611278
   teams:
@@ -43,16 +79,16 @@ basketball:
   score:
     home: 94
     away: 80
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71930954
   teams:
     home: Brno BC
     away: Opava
   score:
-    home: 86
-    away: 85
-  status: recentlyended
+    home: 101
+    away: 102
+  status: result
   time: '16:00'
 - id: 71775808
   teams:
@@ -68,9 +104,9 @@ basketball:
     home: Bamberg
     away: Alba
   score:
-    home: 60
-    away: 54
-  status: live
+    home: 81
+    away: 67
+  status: result
   time: '16:30'
 - id: 71792396
   teams:
@@ -79,8 +115,116 @@ basketball:
   score:
     home: 86
     away: 81
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 71828168
+  teams:
+    home: Hapoel Galil Elyon
+    away: Ziona
+  score:
+    home: 83
+    away: 92
+  status: recentlyended
+  time: '17:50'
+- id: 71828166
+  teams:
+    home: Maccabi Raanana
+    away: Netanya
+  score:
+    home: 95
+    away: 79
+  status: live
+  time: '18:00'
+- id: 71885470
+  teams:
+    home: Venezia
+    away: Bologna
+  score:
+    home: 88
+    away: 83
+  status: live
+  time: '18:00'
+- id: 71916734
+  teams:
+    home: N. Klaipeda
+    away: Lietkabelis
+  score:
+    home: 86
+    away: 73
+  status: result
+  time: '13:50'
+- id: 71932152
+  teams:
+    home: Real Madrid
+    away: Iberostar
+  score:
+    home: 95
+    away: 107
+  status: result
+  time: '16:00'
+- id: 71931706
+  teams:
+    home: U. Murcia
+    away: Barcelona
+  score:
+    home: 36
+    away: 52
+  status: live
+  time: '19:00'
+- id: 71829222
+  teams:
+    home: Bahcesehir
+    away: Besiktas
+  score:
+    home: 98
+    away: 95
+  status: result
+  time: '17:00'
+- id: 70505018
+  teams:
+    home: San Antonio
+    away: NY Knicks
+  score:
+    home: 104
+    away: 105
+  status: result
+  time: 00:30
+- id: 68096172
+  teams:
+    home: LA Sparks
+    away: Dallas
+  score:
+    home: 96
+    away: 104
+  status: result
+  time: 02:00
+- id: 68095986
+  teams:
+    home: Portland Fire
+    away: Phoenix
+  score:
+    home: 72
+    away: 78
+  status: result
+  time: 02:00
+- id: 68096506
+  teams:
+    home: Minnesota
+    away: Seattle
+  score:
+    home: 88
+    away: 68
+  status: result
+  time: '17:00'
+- id: 68096032
+  teams:
+    home: Las Vegas Aces
+    away: Golden State
+  score:
+    home: 38
+    away: 35
+  status: live
+  time: '19:00'
 tennis:
 - id: 71613846
   teams:
