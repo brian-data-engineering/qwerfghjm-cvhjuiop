@@ -78,7 +78,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '19:30'
 basketball:
 - id: 71611278
@@ -178,7 +178,7 @@ basketball:
   score:
     home: 76
     away: 100
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71829222
   teams:
@@ -230,10 +230,19 @@ basketball:
     home: Las Vegas Aces
     away: Golden State
   score:
-    home: 80
-    away: 78
-  status: live
+    home: 84
+    away: 79
+  status: result
   time: '19:00'
+- id: 68096310
+  teams:
+    home: Atlanta
+    away: Washington
+  score:
+    home: 32
+    away: 25
+  status: live
+  time: '22:00'
 tennis:
 - id: 71613846
   teams:
