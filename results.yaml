@@ -42,7 +42,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '18:00'
 - id: 67117732
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 67117736
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67118456
   teams:
@@ -71,6 +71,15 @@ soccer:
     away: 0
   status: live
   time: '19:00'
+- id: 67118446
+  teams:
+    home: Atletico de Rafaela
+    away: CA Colegiales
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:30'
 basketball:
 - id: 71611278
   teams:
@@ -124,7 +133,7 @@ basketball:
   score:
     home: 83
     away: 92
-  status: recentlyended
+  status: result
   time: '17:50'
 - id: 71828166
   teams:
@@ -133,16 +142,16 @@ basketball:
   score:
     home: 95
     away: 79
-  status: live
+  status: result
   time: '18:00'
 - id: 71885470
   teams:
     home: Venezia
     away: Bologna
   score:
-    home: 88
+    home: 90
     away: 83
-  status: live
+  status: result
   time: '18:00'
 - id: 71916734
   teams:
@@ -167,9 +176,9 @@ basketball:
     home: U. Murcia
     away: Barcelona
   score:
-    home: 36
-    away: 52
-  status: live
+    home: 76
+    away: 100
+  status: recentlyended
   time: '19:00'
 - id: 71829222
   teams:
@@ -221,8 +230,8 @@ basketball:
     home: Las Vegas Aces
     away: Golden State
   score:
-    home: 38
-    away: 35
+    home: 80
+    away: 78
   status: live
   time: '19:00'
 tennis:
