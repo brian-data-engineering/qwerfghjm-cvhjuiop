@@ -1,6 +1,33 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71613846
+  teams:
+    home: Granollers M / Zeballos H
+    away: Heliovaara H / Patten H
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:00
+- id: 71944990
+  teams:
+    home: Damm Jr, Martin
+    away: Houkes, Max
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 09:00
+- id: 71944988
+  teams:
+    home: Loof, Thijmen
+    away: Ficovich, Juan Pablo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 71922634
@@ -271,7 +298,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71937484
   teams:
@@ -289,7 +316,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71937446
   teams:
@@ -298,16 +325,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71937404
   teams:
     home: Guliak, Roman
     away: Osvald, Petr
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 07:30
 - id: 71937416
   teams:
@@ -315,26 +342,26 @@ table_tennis:
     away: Zientek, Zbynek
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 71937254
   teams:
     home: Strnad, Jaroslav (1961)
     away: Cupec, Daniel
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:30
 - id: 71937428
   teams:
     home: Sulava, Lubor
     away: Kolenic, Tibor
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
 - id: 71937270
   teams:
@@ -342,6 +369,141 @@ table_tennis:
     away: Boruvka, Lukas
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:30
+- id: 71937260
+  teams:
+    home: Boruvka, Lukas
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71937228
+  teams:
+    home: Cupec, Daniel
+    away: Novotny, Ladislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71937500
+  teams:
+    home: Kolenic, Tibor
+    away: Barton, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 71937394
+  teams:
+    home: Osvald, Petr
+    away: Bosak, Vitezslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 71937398
+  teams:
+    home: Zientek, Zbynek
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 71937216
+  teams:
+    home: Mares, Erik
+    away: Zajicek, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 71937184
+  teams:
+    home: Martinek, Jaroslav
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 71937444
+  teams:
+    home: Steffan, Jan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71937562
+  teams:
+    home: Taichman, Ivo
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71937534
+  teams:
+    home: Zurek, Filip
+    away: Priesol, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 71937226
+  teams:
+    home: Cernik, Jan
+    away: Zajicek, Jan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:00'
+- id: 71937452
+  teams:
+    home: Huk, Martin
+    away: Kolar, Vlastimil
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
+- id: 71937256
+  teams:
+    home: Kratochvil, Michal
+    away: Jindrak, Lukas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 71937430
+  teams:
+    home: Schneeberger, Antonin
+    away: Kanak, Alois
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 71937378
+  teams:
+    home: Virag, Alexandr
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
