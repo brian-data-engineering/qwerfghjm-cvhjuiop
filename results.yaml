@@ -6,27 +6,27 @@ tennis:
     home: Granollers M / Zeballos H
     away: Heliovaara H / Patten H
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 09:00
 - id: 71944990
   teams:
     home: Damm Jr, Martin
     away: Houkes, Max
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 09:00
 - id: 71944988
   teams:
     home: Loof, Thijmen
     away: Ficovich, Juan Pablo
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: 09:00
 ice_hockey: []
 table_tennis:
@@ -467,43 +467,178 @@ table_tennis:
     home: Cernik, Jan
     away: Zajicek, Jan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:00'
 - id: 71937452
   teams:
     home: Huk, Martin
     away: Kolar, Vlastimil
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:00'
 - id: 71937256
   teams:
     home: Kratochvil, Michal
     away: Jindrak, Lukas
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '10:00'
 - id: 71937430
   teams:
     home: Schneeberger, Antonin
     away: Kanak, Alois
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '10:00'
 - id: 71937378
   teams:
     home: Virag, Alexandr
     away: Zurek, Filip
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '10:00'
+- id: 71937280
+  teams:
+    home: Boruvka, Lukas
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 71937408
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 71937528
+  teams:
+    home: Tyn, Daniel
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 71937218
+  teams:
+    home: Zeman, Lukas
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71937522
+  teams:
+    home: Zientek, Zbynek
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 71937240
+  teams:
+    home: Jindrak, Lukas
+    away: Zeman, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 71937376
+  teams:
+    home: Kanak, Alois
+    away: Tyn, Daniel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 71937490
+  teams:
+    home: Kolar, Vlastimil
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 71937274
+  teams:
+    home: Zajicek, Jan
+    away: Boruvka, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 71937372
+  teams:
+    home: Zurek, Filip
+    away: Zientek, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 71937434
+  teams:
+    home: Levicky, Matej
+    away: Schneeberger, Antonin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71937282
+  teams:
+    home: Medek, Josef
+    away: Cernik, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 71937180
+  teams:
+    home: Postelt, Tomas
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 71937414
+  teams:
+    home: Priesol, Daniel
+    away: Virag, Alexandr
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 71937536
+  teams:
+    home: Vejvoda, Viktor
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
