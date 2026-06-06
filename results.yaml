@@ -1,32 +1,86 @@
-soccer: []
+soccer:
+- id: 71652484
+  teams:
+    home: Olympique Akbou
+    away: Ben Aknoun
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 71652558
+  teams:
+    home: MC Oran
+    away: USM Alger
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '17:00'
+- id: 67118442
+  teams:
+    home: Gimnasia Y Tiro de Salta
+    away: Ferrocarril Midland
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:30
+- id: 67118440
+  teams:
+    home: Club Atletico Atlanta
+    away: Gimnasia Jujuy
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
 basketball:
 - id: 71611278
   teams:
     home: Kapfenberg
     away: Oberwart
   score:
-    home: 37
-    away: 35
-  status: live
+    home: 94
+    away: 80
+  status: recentlyended
   time: '16:00'
 - id: 71930954
   teams:
     home: Brno BC
     away: Opava
   score:
-    home: 46
-    away: 33
-  status: live
+    home: 86
+    away: 85
+  status: recentlyended
   time: '16:00'
 - id: 71775808
   teams:
     home: Nanterre
     away: AS Monaco
   score:
-    home: 52
-    away: 71
-  status: live
+    home: 61
+    away: 83
+  status: result
   time: '15:00'
+- id: 71931988
+  teams:
+    home: Bamberg
+    away: Alba
+  score:
+    home: 60
+    away: 54
+  status: live
+  time: '16:30'
+- id: 71792396
+  teams:
+    home: Dubai
+    away: KK Partizan
+  score:
+    home: 86
+    away: 81
+  status: recentlyended
+  time: '16:00'
 tennis:
 - id: 71613846
   teams:
