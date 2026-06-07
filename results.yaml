@@ -42,7 +42,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67117738
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67118452
   teams:
@@ -60,16 +60,16 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67117726
   teams:
     home: CD Godoy Cruz
     away: Mitre Santiago Del Estero
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '19:30'
 - id: 67117730
   teams:
@@ -78,17 +78,26 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '20:00'
+- id: 67118444
+  teams:
+    home: San Martin de Tucuman
+    away: Quilmes AC
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '20:30'
 basketball:
 - id: 71932214
   teams:
     home: Franca
     away: Pinheiros SP
   score:
-    home: 52
-    away: 48
-  status: live
+    home: 85
+    away: 76
+  status: recentlyended
   time: '20:00'
 - id: 71768870
   teams:
@@ -133,7 +142,7 @@ basketball:
   score:
     home: 84
     away: 74
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71916752
   teams:
@@ -187,7 +196,7 @@ basketball:
   score:
     home: 85
     away: 68
-  status: recentlyended
+  status: result
   time: '19:00'
 tennis:
 - id: 71563816
@@ -1810,7 +1819,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71953060
   teams:
@@ -1819,7 +1828,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71952476
   teams:
@@ -1828,7 +1837,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 71953088
   teams:
@@ -1846,5 +1855,59 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
+- id: 71953054
+  teams:
+    home: Bayer, Alesh
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:00'
+- id: 71952554
+  teams:
+    home: Huk, Martin
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 71952508
+  teams:
+    home: Sebera, Petr
+    away: Schopf, Karel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 71952520
+  teams:
+    home: Brozik, Karel
+    away: Klement, Milan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 71952952
+  teams:
+    home: Chlebecek, Marek
+    away: Cermak, Vladimir
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '22:30'
+- id: 71952456
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Ruzicka, Jiri
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:30'
