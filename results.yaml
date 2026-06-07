@@ -6,9 +6,9 @@ tennis:
     home: Cobolli, Flavio
     away: Zverev, Alexander
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: recentlyended
   time: '13:25'
 - id: 71957654
   teams:
@@ -1243,7 +1243,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71952516
   teams:
@@ -1259,9 +1259,9 @@ table_tennis:
     home: Bittner, Martin
     away: Sopko, Martin
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '16:30'
 - id: 71953092
   teams:
@@ -1270,7 +1270,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71952428
   teams:
@@ -1278,8 +1278,8 @@ table_tennis:
     away: Lubas, Miloslav
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '16:30'
 - id: 71953028
   teams:
@@ -1288,7 +1288,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71953070
   teams:
@@ -1296,6 +1296,141 @@ table_tennis:
     away: Biolek, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:30'
+- id: 71974750
+  teams:
+    home: Budinsky, Petr
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 71974746
+  teams:
+    home: Navedla, Matyas
+    away: Tomica, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 71974762
+  teams:
+    home: Bittner, Martin
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:02'
+- id: 71974848
+  teams:
+    home: Zika, Tadeas
+    away: Paril, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:04'
+- id: 71974896
+  teams:
+    home: Grohsgott, Jiri
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:12'
+- id: 71974850
+  teams:
+    home: Biolek, Martin
+    away: Polasek, Radovan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 71974898
+  teams:
+    home: Lubas, Miloslav
+    away: Berdych, Pavel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 71974748
+  teams:
+    home: Prikasky, Libor
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 71974752
+  teams:
+    home: Vinter, Tomas
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '17:30'
+- id: 71974764
+  teams:
+    home: Vondrak, Michal
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 71953032
+  teams:
+    home: Babinec, Zdenek
+    away: Opralka, Roman
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 71953024
+  teams:
+    home: Cermak, Vladimir
+    away: Volf, Matej
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 71952470
+  teams:
+    home: Sobisek, Martin
+    away: Vondrak, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 71952462
+  teams:
+    home: Svacha, Ondrej
+    away: Pacha, Robin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 71953026
+  teams:
+    home: Velicka, Lukas
+    away: Adam, Radim
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
