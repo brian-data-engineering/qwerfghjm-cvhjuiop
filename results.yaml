@@ -1,4 +1,67 @@
-soccer: []
+soccer:
+- id: 67117728
+  teams:
+    home: Deportivo Moron
+    away: Almirante Brown
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 67117734
+  teams:
+    home: San Telmo
+    away: Deportivo Madryn
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
+- id: 67117722
+  teams:
+    home: CA All Boys
+    away: Racing de Cordoba
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:30'
+- id: 67118454
+  teams:
+    home: CA Chacarita Juniors
+    away: CA Temperley
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:30'
+- id: 67118448
+  teams:
+    home: Agropecuario Argentino
+    away: CA Patronato Parana
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:00'
+- id: 67117738
+  teams:
+    home: CA Chaco For Ever
+    away: Ferro Carril Oeste
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
+- id: 67118452
+  teams:
+    home: CA Guemes
+    away: CD Maipu
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
 basketball: []
 tennis:
 - id: 71563816
@@ -8,7 +71,7 @@ tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:25'
 - id: 71957654
   teams:
@@ -1351,7 +1414,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71974898
   teams:
@@ -1360,7 +1423,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71974748
   teams:
@@ -1369,7 +1432,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71974752
   teams:
@@ -1378,7 +1441,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71974764
   teams:
@@ -1387,50 +1450,185 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71953032
   teams:
     home: Babinec, Zdenek
     away: Opralka, Roman
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '18:00'
 - id: 71953024
   teams:
     home: Cermak, Vladimir
     away: Volf, Matej
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:00'
 - id: 71952470
   teams:
     home: Sobisek, Martin
     away: Vondrak, Michal
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:00'
 - id: 71952462
   teams:
     home: Svacha, Ondrej
     away: Pacha, Robin
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '18:00'
 - id: 71953026
   teams:
     home: Velicka, Lukas
     away: Adam, Radim
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:00'
+- id: 71953022
+  teams:
+    home: Blejchar, Marek
+    away: Kraninger, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 71953034
+  teams:
+    home: Chalupa, Michal
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71952944
+  teams:
+    home: Chlebecek, Marek
+    away: Budinsky, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71952544
+  teams:
+    home: Sychra, Martin
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 71952426
+  teams:
+    home: Vejvoda, Viktor
+    away: Ruzicka, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 71952992
+  teams:
+    home: Adam, Radim
+    away: Blejchar, Marek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 71953076
+  teams:
+    home: Opralka, Roman
+    away: Chalupa, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71952452
+  teams:
+    home: Pacha, Robin
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 71952938
+  teams:
+    home: Volf, Matej
+    away: Chlebecek, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71952504
+  teams:
+    home: Vondrak, Michal
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 71952994
+  teams:
+    home: Budinsky, Petr
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:30'
+- id: 71952996
+  teams:
+    home: Kraninger, Tomas
+    away: Velicka, Lukas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:30'
+- id: 71952968
+  teams:
+    home: Pagac, Zbynek
+    away: Babinec, Zdenek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 71952528
+  teams:
+    home: Ruzicka, Jiri
+    away: Svacha, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 71952540
+  teams:
+    home: Sopko, Martin
+    away: Sobisek, Martin
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:30'
