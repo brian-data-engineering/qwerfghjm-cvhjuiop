@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '18:00'
 - id: 67117734
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '18:00'
 - id: 67117722
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67118454
   teams:
@@ -33,36 +33,162 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67118448
   teams:
     home: Agropecuario Argentino
     away: CA Patronato Parana
   score:
-    home: 0
+    home: 1
     away: 1
-  status: live
+  status: recentlyended
   time: '19:00'
 - id: 67117738
   teams:
     home: CA Chaco For Ever
     away: Ferro Carril Oeste
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '19:00'
 - id: 67118452
   teams:
     home: CA Guemes
     away: CD Maipu
   score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '19:00'
+- id: 67117726
+  teams:
+    home: CD Godoy Cruz
+    away: Mitre Santiago Del Estero
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:30'
+- id: 67117730
+  teams:
+    home: Colon de Santa Fe
+    away: Club Ciudad de Bolivar
+  score:
     home: 0
     away: 0
   status: live
+  time: '20:00'
+basketball:
+- id: 71932214
+  teams:
+    home: Franca
+    away: Pinheiros SP
+  score:
+    home: 52
+    away: 48
+  status: live
+  time: '20:00'
+- id: 71768870
+  teams:
+    home: JIP Pardubice
+    away: CEZ Nymburk
+  score:
+    home: 79
+    away: 78
+  status: result
+  time: '17:00'
+- id: 71831740
+  teams:
+    home: Cholet
+    away: Paris Basketball
+  score:
+    home: 86
+    away: 95
+  status: result
+  time: '17:00'
+- id: 71792480
+  teams:
+    home: BC Lokomotiv Kuban
+    away: Zenit St P.
+  score:
+    home: 85
+    away: 81
+  status: result
+  time: '13:00'
+- id: 71937616
+  teams:
+    home: Hapoel Tel-Aviv
+    away: Hapoel Jerusalem
+  score:
+    home: 77
+    away: 67
+  status: result
+  time: '17:50'
+- id: 71797392
+  teams:
+    home: Tez. Verona
+    away: Rinascita Basket Rimini
+  score:
+    home: 84
+    away: 74
+  status: recentlyended
   time: '19:00'
-basketball: []
+- id: 71916752
+  teams:
+    home: Zalgiris
+    away: Juventus
+  score:
+    home: 107
+    away: 75
+  status: result
+  time: '13:50'
+- id: 71842552
+  teams:
+    home: Barangay Ginebra
+    away: Talk N Text
+  score:
+    home: 116
+    away: 102
+  status: result
+  time: '11:30'
+- id: 71948044
+  teams:
+    home: Baskonia
+    away: Joventut
+  score:
+    home: 88
+    away: 96
+  status: result
+  time: '17:00'
+- id: 71947898
+  teams:
+    home: Efes Istanbul
+    away: Fenerbahce Istanbul
+  score:
+    home: 93
+    away: 102
+  status: result
+  time: '17:00'
+- id: 68096086
+  teams:
+    home: NY Liberty
+    away: Indiana
+  score:
+    home: 83
+    away: 75
+  status: result
+  time: 00:00
+- id: 68096556
+  teams:
+    home: Toronto Tempo
+    away: Chicago
+  score:
+    home: 85
+    away: 68
+  status: recentlyended
+  time: '19:00'
 tennis:
 - id: 71563816
   teams:
@@ -1549,7 +1675,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71953076
   teams:
@@ -1594,7 +1720,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71952996
   teams:
@@ -1602,8 +1728,8 @@ table_tennis:
     away: Velicka, Lukas
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 71952968
   teams:
@@ -1612,7 +1738,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71952528
   teams:
@@ -1621,7 +1747,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 71952540
   teams:
@@ -1629,6 +1755,96 @@ table_tennis:
     away: Sobisek, Martin
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '19:30'
+- id: 71952960
+  teams:
+    home: Babinec, Zdenek
+    away: Chalupa, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 71953052
+  teams:
+    home: Cermak, Vladimir
+    away: Chlebecek, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 71952552
+  teams:
+    home: Sobisek, Martin
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 71952458
+  teams:
+    home: Svacha, Ondrej
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 71953058
+  teams:
+    home: Velicka, Lukas
+    away: Blejchar, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 71953038
+  teams:
+    home: Adam, Radim
+    away: Kraninger, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:30'
+- id: 71953060
+  teams:
+    home: Opralka, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
+- id: 71952476
+  teams:
+    home: Pacha, Robin
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 71953088
+  teams:
+    home: Volf, Matej
+    away: Budinsky, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
+- id: 71952432
+  teams:
+    home: Vondrak, Michal
+    away: Sopko, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
