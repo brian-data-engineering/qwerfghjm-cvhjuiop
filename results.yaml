@@ -72,6 +72,24 @@ basketball:
     away: 73
   status: result
   time: '17:00'
+- id: 68096472
+  teams:
+    home: Connecticut
+    away: NY Liberty
+  score:
+    home: 29
+    away: 30
+  status: live
+  time: '23:00'
+- id: 68096330
+  teams:
+    home: Washington
+    away: Indiana
+  score:
+    home: 20
+    away: 33
+  status: live
+  time: '23:00'
 tennis:
 - id: 71958012
   teams:
@@ -1702,7 +1720,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 71998898
   teams:
@@ -1711,7 +1729,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 71998966
   teams:
@@ -1720,7 +1738,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 71998980
   teams:
@@ -1729,7 +1747,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 71998970
   teams:
@@ -1738,5 +1756,113 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '21:30'
+- id: 71966414
+  teams:
+    home: Parhomenko, Dmitro
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '22:00'
+- id: 71965826
+  teams:
+    home: Pikous, Marcel
+    away: Brozik, Karel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:00'
+- id: 71966060
+  teams:
+    home: Stefek, Martin
+    away: Hasmanda, Rostislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:00'
+- id: 71966462
+  teams:
+    home: Kostal, Marek
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:30'
+- id: 71965804
+  teams:
+    home: Sebera, Petr
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '22:30'
+- id: 71966058
+  teams:
+    home: Vitrovyj, Oleg
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '22:30'
+- id: 71965836
+  teams:
+    home: Brozik, Karel
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 71966076
+  teams:
+    home: Hasmanda, Rostislav
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 71966470
+  teams:
+    home: Vedmoch, Michal
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '23:00'
+- id: 71966502
+  teams:
+    home: Parhomenko, Dmitro
+    away: Kostal, Marek
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '23:30'
+- id: 71965806
+  teams:
+    home: Pikous, Marcel
+    away: Sebera, Petr
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '23:30'
+- id: 71966068
+  teams:
+    home: Stefek, Martin
+    away: Vitrovyj, Oleg
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '23:30'
