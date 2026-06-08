@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71958012
+  teams:
+    home: Borges, Nuno
+    away: Atmane, Terence
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey:
 - id: 71922476
   teams:
@@ -174,3 +183,129 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 71965842
+  teams:
+    home: Belovsky, Josef
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 71966682
+  teams:
+    home: Gebek, Evald
+    away: Milkov, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 71966044
+  teams:
+    home: Madle, Ludek
+    away: Srba, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:00
+- id: 71966448
+  teams:
+    home: Sionkala, Eduard
+    away: Virag, Alexandr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 71966388
+  teams:
+    home: Trinta, Mihail
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 71965782
+  teams:
+    home: Vesely, Michal
+    away: Havlicek, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 71966750
+  teams:
+    home: Itagaki, Akito
+    away: Mendes De Encarnacao
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 71966752
+  teams:
+    home: Robben, Bennet
+    away: Walter, Karl
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 71966754
+  teams:
+    home: Stefanidis, Marco
+    away: Saltzer, Tobias
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 71966756
+  teams:
+    home: Happek, Sven
+    away: Bluhm, Florian
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71966758
+  teams:
+    home: Itagaki, Akito
+    away: Robben, Bennet
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 71966760
+  teams:
+    home: Stefanidis, Marco
+    away: Walter, Karl
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 71966762
+  teams:
+    home: Happek, Sven
+    away: Saltzer, Tobias
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 09:30
+- id: 71966764
+  teams:
+    home: Bluhm, Florian
+    away: Mendes De Encarnacao
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
