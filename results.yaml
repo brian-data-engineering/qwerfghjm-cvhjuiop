@@ -1,16 +1,25 @@
 soccer: []
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 71922476
+  teams:
+    home: Colorado
+    away: Chicago
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:05
 table_tennis:
 - id: 71952474
   teams:
     home: Regner, Michal
     away: Klement, Milan
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
 - id: 71952442
   teams:
@@ -18,15 +27,150 @@ table_tennis:
     away: Ruzicka, Jiri
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 71952998
   teams:
     home: Sobisek, Martin
     away: Cermak, Vladimir
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 00:00
+- id: 71952450
+  teams:
+    home: Schopf, Karel
+    away: Brozik, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 71953036
+  teams:
+    home: Volf, Matej
+    away: Chlebecek, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 71952468
+  teams:
+    home: Zahradka, Michal
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 71953006
+  teams:
+    home: Cermak, Vladimir
+    away: Bayer, Alesh
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 71952518
+  teams:
+    home: Klement, Milan
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 71952500
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 71952464
+  teams:
+    home: Brozik, Karel
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 71952982
+  teams:
+    home: Chlebecek, Marek
+    away: Sobisek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71952514
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Simecek, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 71952976
+  teams:
+    home: Cermak, Vladimir
+    away: Volf, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71952430
+  teams:
+    home: Klement, Milan
+    away: Schopf, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 71952542
+  teams:
+    home: Ruzicka, Jiri
+    away: Zahradka, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 71952494
+  teams:
+    home: Regner, Michal
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 71952510
+  teams:
+    home: Simecek, Jan
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 71953014
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Alesh
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
