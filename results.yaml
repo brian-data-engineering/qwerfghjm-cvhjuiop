@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71768872
+  teams:
+    home: JIP Pardubice
+    away: CEZ Nymburk
+  score:
+    home: 96
+    away: 98
+  status: live
+  time: '16:00'
 tennis:
 - id: 71958012
   teams:
@@ -24,10 +33,73 @@ tennis:
     home: Cilic, Marin
     away: Shapovalov, Denis
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '12:30'
+- id: 71974716
+  teams:
+    home: Humbert, Ugo
+    away: Ymer, Elias
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:50'
+- id: 71957584
+  teams:
+    home: Goransson A / King E
+    away: Balaji N S / Ram R
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71957578
+  teams:
+    home: Diallo G / Hurkacz H
+    away: Bhambri Y / Venus M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:50'
+- id: 71957582
+  teams:
+    home: Bergs Z / Rinderknech A
+    away: Galloway R / Peers J
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:40'
+- id: 71957574
+  teams:
+    home: Griekspoor T / Van de Zandschulp B
+    away: Cash R / Tracy J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:20'
+- id: 71958068
+  teams:
+    home: Davidovich Fokina, Alejandro
+    away: Bellucci, Mattia
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 71973822
+  teams:
+    home: Herbert, Pierre-Hugues
+    away: Landaluce, Martin
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '11:20'
 ice_hockey:
 - id: 71922476
   teams:
@@ -892,7 +964,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71966062
   teams:
@@ -901,7 +973,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71966402
   teams:
@@ -910,7 +982,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71965784
   teams:
@@ -919,7 +991,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71966446
   teams:
@@ -928,7 +1000,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 71966494
   teams:
@@ -936,8 +1008,8 @@ table_tennis:
     away: Pavelka, Radim
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 71965844
   teams:
@@ -945,26 +1017,26 @@ table_tennis:
     away: Bradac, Petr
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 71966650
   teams:
     home: Stoch, Jan
     away: Neuwirth SR, Jaroslav
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '14:30'
 - id: 71966422
   teams:
     home: Vavrecka, Michal
     away: Wawrosz, Pavel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '14:30'
 - id: 71966048
   teams:
@@ -972,6 +1044,186 @@ table_tennis:
     away: Brazda, Adam
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '14:30'
+- id: 71965800
+  teams:
+    home: Gireth, Pavel
+    away: Koubek, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 71966074
+  teams:
+    home: Hofman, Denis
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 71966464
+  teams:
+    home: Parhomenko, Dmitro
+    away: Dousa, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 71966680
+  teams:
+    home: Skacelik, Richard
+    away: Stoch, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 71966486
+  teams:
+    home: Zika, Tadeas
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 71965788
+  teams:
+    home: Bradac, Petr
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 71966070
+  teams:
+    home: Brazda, Adam
+    away: Schopf, Karel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71966672
+  teams:
+    home: Neuwirth SR, Jaroslav
+    away: Kypr, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71966420
+  teams:
+    home: Pavelka, Radim
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 71966496
+  teams:
+    home: Wawrosz, Pavel
+    away: Szotkowski, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 71966678
+  teams:
+    home: Kypr, Tomas
+    away: Stoch, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 71966036
+  teams:
+    home: Schopf, Karel
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71966482
+  teams:
+    home: Szotkowski, Jan
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71965792
+  teams:
+    home: Vales, Jakub
+    away: Koubek, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71966428
+  teams:
+    home: Vedmoch, Michal
+    away: Dousa, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 71965790
+  teams:
+    home: Gireth, Pavel
+    away: Bradac, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 71966084
+  teams:
+    home: Hofman, Denis
+    away: Brazda, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:30'
+- id: 71966444
+  teams:
+    home: Parhomenko, Dmitro
+    away: Pavelka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 71966660
+  teams:
+    home: Skacelik, Richard
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 71966454
+  teams:
+    home: Zika, Tadeas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
