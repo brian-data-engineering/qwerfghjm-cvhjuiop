@@ -1,6 +1,24 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 71958004
+  teams:
+    home: Diallo, Gabriel
+    away: Mannarino, Adrian
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 09:45
+- id: 71974712
+  teams:
+    home: Munar, Jaume
+    away: Damm Jr, Martin
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 09:45
 ice_hockey: []
 table_tennis:
 - id: 71966424
@@ -280,7 +298,16 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
+  time: 06:30
+- id: 71987978
+  teams:
+    home: Kubat, Vladimir
+    away: Koch, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
   time: 06:30
 - id: 71987874
   teams:
@@ -289,7 +316,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
+  time: 06:30
+- id: 71987696
+  teams:
+    home: Zeman, Lukas
+    away: Mares, Erik
+  score:
+    home: 1
+    away: 3
+  status: result
   time: 06:30
 - id: 71987976
   teams:
@@ -316,7 +352,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 71987808
   teams:
@@ -343,7 +379,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71987672
   teams:
@@ -352,7 +388,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71987918
   teams:
@@ -360,8 +396,8 @@ table_tennis:
     away: Blejchar, Marek
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 71987900
   teams:
@@ -370,7 +406,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 71987784
   teams:
@@ -379,5 +415,320 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
+- id: 71987812
+  teams:
+    home: Blejchar, Marek
+    away: Koral, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 71987832
+  teams:
+    home: Hubka, Miloslav
+    away: Kubat, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 71987662
+  teams:
+    home: Vales, Jakub
+    away: Zeman, Lukas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 71987856
+  teams:
+    home: Vrba, Jindrich
+    away: Forman, Lubos
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 71987916
+  teams:
+    home: Zika, Tadeas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 71987926
+  teams:
+    home: Cernik, Jaromir
+    away: Vrabec, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71987678
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 71987880
+  teams:
+    home: Jira, Jiri
+    away: Koch, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 71987806
+  teams:
+    home: Osvald, Petr
+    away: Taichman, Ivo
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 71987824
+  teams:
+    home: Szotkowski, Jan
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 72008558
+  teams:
+    home: Jira, Jiri
+    away: Koch, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 72008454
+  teams:
+    home: Wawrosz, Pavel
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 72008566
+  teams:
+    home: Zeman, Lukas
+    away: Vales, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 72008638
+  teams:
+    home: Koral, Michal
+    away: Osvald, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:04
+- id: 72008856
+  teams:
+    home: Vrabec, Milan
+    away: Vrba, Jindrich
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:15
+- id: 72008640
+  teams:
+    home: Blejchar, Marek
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 72008858
+  teams:
+    home: Cernik, Jaromir
+    away: Forman, Lubos
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 72008568
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 72008560
+  teams:
+    home: Kubat, Vladimir
+    away: Hubka, Miloslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 72008456
+  teams:
+    home: Zika, Tadeas
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 71987962
+  teams:
+    home: Dousek, Tomas
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71987882
+  teams:
+    home: Petr, Pavel
+    away: Stary, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71987892
+  teams:
+    home: Prikasky, Libor
+    away: Opralka, Roman
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71987930
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Havrda, Cesta
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 71987698
+  teams:
+    home: Vejvoda, Viktor
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 71987740
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:30'
+- id: 71987984
+  teams:
+    home: Cernik, Jaromir
+    away: Smesny, Milan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '10:30'
+- id: 71987790
+  teams:
+    home: Hubka, Miloslav
+    away: Koch, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '10:30'
+- id: 71987664
+  teams:
+    home: Ruzicka, Jiri
+    away: Kolar, Vlastimil
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 71987878
+  teams:
+    home: Vavrecka, Michal
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:30'
+- id: 71987946
+  teams:
+    home: Havrda, Cesta
+    away: Cernik, Jaromir
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '11:00'
+- id: 71987666
+  teams:
+    home: Kolar, Vlastimil
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '11:00'
+- id: 71987922
+  teams:
+    home: Opralka, Roman
+    away: Babinec, Zdenek
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '11:00'
+- id: 71987836
+  teams:
+    home: Stary, Jiri
+    away: Hubka, Miloslav
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '11:00'
+- id: 71987908
+  teams:
+    home: Szotkowski, Jan
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '11:00'
