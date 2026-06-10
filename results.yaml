@@ -1,5 +1,77 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71947706
+  teams:
+    home: Panathinaikos
+    away: Olympiakos Piraeus
+  score:
+    home: 58
+    away: 60
+  status: live
+  time: '18:00'
+- id: 71792398
+  teams:
+    home: KK Partizan
+    away: Dubai
+  score:
+    home: 84
+    away: 70
+  status: result
+  time: '17:00'
+- id: 71792454
+  teams:
+    home: Uniks Kazan
+    away: Moscow
+  score:
+    home: 76
+    away: 102
+  status: result
+  time: '16:30'
+- id: 71916936
+  teams:
+    home: Unet Holon
+    away: Maccabi Tel-Aviv
+  score:
+    home: 61
+    away: 76
+  status: live
+  time: '17:50'
+- id: 71842554
+  teams:
+    home: Talk N Text
+    away: Barangay Ginebra
+  score:
+    home: 106
+    away: 98
+  status: result
+  time: '11:35'
+- id: 71874756
+  teams:
+    home: Warszawa
+    away: Stelmet
+  score:
+    home: 78
+    away: 57
+  status: live
+  time: '18:15'
+- id: 71975534
+  teams:
+    home: Valencia
+    away: Joventut
+  score:
+    home: 83
+    away: 88
+  status: live
+  time: '18:00'
+- id: 71999402
+  teams:
+    home: Besiktas
+    away: Bahcesehir
+  score:
+    home: 80
+    away: 71
+  status: result
+  time: '17:00'
 tennis:
 - id: 71958018
   teams:
@@ -52,9 +124,117 @@ tennis:
     away: de Minaur, Alex
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:40'
+- id: 71957588
+  teams:
+    home: Arribage T / Olivetti A
+    away: Borges N / Polmans M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:45'
+- id: 71957576
+  teams:
+    home: Auger-Aliassime F / Shapovalov D
+    away: Nouza P / Oberleitner N
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:05'
+- id: 71900542
+  teams:
+    home: Bellucci, Mattia
+    away: Hanfmann, Yannick
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:00
+- id: 71900546
+  teams:
+    home: Mpetshi Perricard, Giovanni
+    away: Onclin, Gauthier
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 71900544
+  teams:
+    home: Struff, Jan-Lennard
+    away: Bublik, Alexander
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
+- id: 71957346
+  teams:
+    home: Cabral F / Mektic N
+    away: Hidalgo D / Trhac P
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
+- id: 71957344
+  teams:
+    home: Reymond A / Sanchez L
+    away: Altmaier D / Jebens H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:50'
+- id: 71900626
+  teams:
+    home: Brunclik, Petr
+    away: Martin, Andrej
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:30
+- id: 71900634
+  teams:
+    home: Cina, Federico
+    away: Choinski, Jan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:30
+- id: 71900636
+  teams:
+    home: Kolar, Zdenek
+    away: Pokorny, Lukas
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:20'
+- id: 71960248
+  teams:
+    home: Reis Da Silva, Joao Lucas
+    away: Donski, Alexander
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:25'
+- id: 71900638
+  teams:
+    home: Sachko, Vitaliy
+    away: Kokkinakis, Thanasi
+  score:
+    home: null
+    away: null
+  status: result
+  time: '12:30'
 ice_hockey:
 - id: 70558082
   teams:
