@@ -1,7 +1,16 @@
 soccer: []
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 70558082
+  teams:
+    home: Vegas Golden Knights
+    away: Carolina
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: 00:00
 table_tennis:
 - id: 71987890
   teams:
@@ -10,7 +19,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 71987786
   teams:
@@ -18,8 +27,8 @@ table_tennis:
     away: Hejduk, Alexander
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 71987842
   teams:
@@ -27,6 +36,141 @@ table_tennis:
     away: Schneeberger, Antonin
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
+- id: 71987756
+  teams:
+    home: Drazan, Pavel
+    away: Hasmanda, Rostislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 71987762
+  teams:
+    home: Franek, Tomas
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 71987744
+  teams:
+    home: Potensky, Jan
+    away: Mutl, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 71987938
+  teams:
+    home: Cmerda, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 71987980
+  teams:
+    home: Hejduk, Alexander
+    away: Mazanek, Stanislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 71987838
+  teams:
+    home: Schneeberger, Antonin
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 71987914
+  teams:
+    home: Hasmanda, Rostislav
+    away: Vitrovyj, Oleg
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 71987860
+  teams:
+    home: Mutl, David
+    away: Svoboda, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71987964
+  teams:
+    home: Svacha, Ondrej
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 71987822
+  teams:
+    home: Cmerda, Ondrej
+    away: Franek, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 71987894
+  teams:
+    home: Hejduk, Alexander
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 71987902
+  teams:
+    home: Schneeberger, Antonin
+    away: Drazan, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 71987848
+  teams:
+    home: Ruzicka, Jiri
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 71987810
+  teams:
+    home: Svoboda, Vladimir
+    away: Mazanek, Stanislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 71987862
+  teams:
+    home: Vitrovyj, Oleg
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
