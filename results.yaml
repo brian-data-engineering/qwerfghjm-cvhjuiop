@@ -8,6 +8,15 @@ soccer:
     away: 1
   status: result
   time: 00:00
+- id: 66456904
+  teams:
+    home: Mexico
+    away: South Africa
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:00'
 basketball:
 - id: 71998498
   teams:
@@ -23,18 +32,18 @@ basketball:
     home: Hapoel Tel-Aviv
     away: Hapoel Jerusalem
   score:
-    home: 72
-    away: 72
-  status: live
+    home: 89
+    away: 81
+  status: result
   time: '17:50'
 - id: 71961688
   teams:
     home: Milano
     away: Venezia
   score:
-    home: 88
-    away: 70
-  status: live
+    home: 100
+    away: 80
+  status: result
   time: '18:00'
 - id: 71916750
   teams:
@@ -50,9 +59,9 @@ basketball:
     home: Barcelona
     away: Iberostar
   score:
-    home: 78
-    away: 73
-  status: live
+    home: 97
+    away: 89
+  status: result
   time: '18:00'
 - id: 70505010
   teams:
@@ -1603,7 +1612,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72022532
   teams:
@@ -1612,7 +1621,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72022478
   teams:
@@ -1621,7 +1630,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72022086
   teams:
@@ -1630,7 +1639,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72022068
   teams:
@@ -1639,16 +1648,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72022514
   teams:
     home: Bartunek, Radek
     away: Holovatiuk, Yurii
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 72021914
   teams:
@@ -1656,26 +1665,26 @@ table_tennis:
     away: Zuzanek, Jiri
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 72022486
   teams:
     home: Taichman, Ivo
     away: Adam, Radim
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:30'
 - id: 72022076
   teams:
     home: Vedmoch, Michal
     away: Janata, Tomas
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 72022100
   teams:
@@ -1683,6 +1692,123 @@ table_tennis:
     away: Dzida, Jan
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '19:30'
+- id: 72022528
+  teams:
+    home: Adam, Radim
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 72022050
+  teams:
+    home: Dzida, Jan
+    away: Biolek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:00'
+- id: 72022520
+  teams:
+    home: Holovatiuk, Yurii
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:00'
+- id: 72022058
+  teams:
+    home: Janata, Tomas
+    away: Dousa, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72021908
+  teams:
+    home: Zuzanek, Jiri
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72021966
+  teams:
+    home: Klement, Milan
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 72022442
+  teams:
+    home: Kolenic, Tibor
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
+- id: 72022510
+  teams:
+    home: Milota, Tomas
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 72022084
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
+- id: 72022116
+  teams:
+    home: Tuma, Daniel
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 72021964
+  teams:
+    home: Dolezal, Vaclav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
+- id: 72022082
+  teams:
+    home: Louda, Jiri
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
+- id: 72022526
+  teams:
+    home: Syroha, Michal
+    away: Vaclavik, Miroslav
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
