@@ -6,8 +6,17 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 71861624
+  teams:
+    home: FC Belshina Bobruisk
+    away: Bate Borisov
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '16:00'
 basketball: []
 tennis:
 - id: 71900476
@@ -60,8 +69,8 @@ tennis:
     home: Medvedev, Daniil
     away: Cilic, Marin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '16:00'
 - id: 71900512
