@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 71861622
+  teams:
+    home: FC Isloch
+    away: Naftan Novopolotsk
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
 basketball: []
 tennis:
 - id: 71900476
@@ -17,7 +26,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 71900488
   teams:
@@ -26,8 +35,44 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '11:30'
+- id: 71900474
+  teams:
+    home: Bonzi, Benjamin
+    away: de Minaur, Alex
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:00'
+- id: 71900494
+  teams:
+    home: Auger-Aliassime, Felix
+    away: Majchrzak, Kamil
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:15'
+- id: 71900478
+  teams:
+    home: Medvedev, Daniil
+    away: Cilic, Marin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 71900512
+  teams:
+    home: Arends S / Pel D
+    away: Diallo G / Hurkacz H
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:00
 ice_hockey:
 - id: 70558078
   teams:
