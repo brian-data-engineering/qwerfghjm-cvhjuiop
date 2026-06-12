@@ -7,27 +7,27 @@ tennis:
     away: Mannarino, Adrian
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 09:00
+- id: 71900490
+  teams:
+    home: Medvedev, Daniil
+    away: Boogaard, Thijs
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '10:30'
 - id: 71900488
   teams:
     home: Borges, Nuno
     away: Cilic, Marin
   score:
     home: 1
-    away: 0
-  status: Live
-  time: '10:10'
-- id: 71900490
-  teams:
-    home: Medvedev, Daniil
-    away: Boogaard, Thijs
-  score:
-    home: 1
-    away: 0
-  status: Live
-  time: '10:30'
+    away: 2
+  status: recentlyended
+  time: '11:30'
 ice_hockey:
 - id: 70558078
   teams:
