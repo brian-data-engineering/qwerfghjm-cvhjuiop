@@ -60,7 +60,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '20:00'
 basketball:
 - id: 71998500
@@ -144,6 +144,15 @@ basketball:
     away: 76
   status: result
   time: 02:00
+- id: 68096300
+  teams:
+    home: Connecticut
+    away: Indiana
+  score:
+    home: 38
+    away: 47
+  status: live
+  time: '22:00'
 tennis:
 - id: 72068434
   teams:
