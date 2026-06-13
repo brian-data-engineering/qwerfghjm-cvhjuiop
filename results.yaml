@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 67118470
   teams:
@@ -15,16 +15,16 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67118466
   teams:
     home: Club Almagro
     away: Agropecuario Argentino
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '18:30'
 - id: 67117748
   teams:
@@ -33,16 +33,16 @@ soccer:
   score:
     home: 0
     away: 3
-  status: live
+  status: result
   time: '18:30'
 - id: 67118460
   teams:
     home: Nueva Chicago
     away: CA Chacarita Juniors
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 67117750
   teams:
@@ -50,9 +50,18 @@ soccer:
     away: Deportivo Moron
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '19:00'
+- id: 67118472
+  teams:
+    home: Quilmes AC
+    away: Gimnasia Y Tiro de Salta
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 71998500
   teams:
@@ -79,7 +88,7 @@ basketball:
   score:
     home: 92
     away: 79
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71998818
   teams:
@@ -106,7 +115,7 @@ basketball:
   score:
     home: 76
     away: 85
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72032756
   teams:
