@@ -1,14 +1,32 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71998500
+  teams:
+    home: JIP Pardubice
+    away: CEZ Nymburk
+  score:
+    home: 74
+    away: 46
+  status: live
+  time: '15:00'
+- id: 72032740
+  teams:
+    home: Olympiakos Piraeus
+    away: Panathinaikos
+  score:
+    home: 81
+    away: 72
+  status: live
+  time: '15:00'
 tennis:
 - id: 72068434
   teams:
     home: Altmaier D / Fonseca J
     away: Nouza P / Oberleitner N
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '15:15'
 ice_hockey:
 - id: 72003618
