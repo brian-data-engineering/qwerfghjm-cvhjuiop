@@ -1,23 +1,176 @@
 soccer: []
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 72003618
+  teams:
+    home: Chicago
+    away: Toronto
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: 00:00
 table_tennis:
 - id: 72040174
   teams:
     home: Kucirek, Ondrej
     away: Trinta, Mihail
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
 - id: 72040478
   teams:
     home: Parhomenko, Dmitro
     away: Vedmoch, Michal
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
+- id: 72040152
+  teams:
+    home: Svoboda, Vladimir
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:00
+- id: 72040512
+  teams:
+    home: Mikuska, Alexander
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 72040216
+  teams:
+    home: Mutl, David
+    away: Potensky, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 72040186
+  teams:
+    home: Sulava, Lubor
+    away: Urban, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 72040260
+  teams:
+    home: Havrda, Leos
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 72040212
+  teams:
+    home: Trinta, Mihail
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 72040556
+  teams:
+    home: Vedmoch, Michal
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 72040536
+  teams:
+    home: Darin, Kyryl
+    away: Parhomenko, Dmitro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 72040134
+  teams:
+    home: Potensky, Jan
+    away: Svoboda, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 72040198
+  teams:
+    home: Urban, Roman
+    away: Kucirek, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 72040228
+  teams:
+    home: Havrda, Leos
+    away: Mutl, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 72040246
+  teams:
+    home: Trinta, Mihail
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 72040456
+  teams:
+    home: Vedmoch, Michal
+    away: Mikuska, Alexander
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72040130
+  teams:
+    home: Kucirek, Ondrej
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 72040514
+  teams:
+    home: Parhomenko, Dmitro
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 72040252
+  teams:
+    home: Svoboda, Vladimir
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
