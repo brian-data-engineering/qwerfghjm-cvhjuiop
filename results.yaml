@@ -1,4 +1,58 @@
-soccer: []
+soccer:
+- id: 67118474
+  teams:
+    home: Ferrocarril Midland
+    away: Club Atletico Atlanta
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '17:30'
+- id: 67118470
+  teams:
+    home: CA Colegiales
+    away: San Martin de Tucuman
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67118466
+  teams:
+    home: Club Almagro
+    away: Agropecuario Argentino
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67117748
+  teams:
+    home: Defensores de Belgrano
+    away: Colon de Santa Fe
+  score:
+    home: 0
+    away: 3
+  status: live
+  time: '18:30'
+- id: 67118460
+  teams:
+    home: Nueva Chicago
+    away: CA Chacarita Juniors
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67117750
+  teams:
+    home: Club Ciudad de Bolivar
+    away: Deportivo Moron
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
 basketball:
 - id: 71998500
   teams:
@@ -18,6 +72,69 @@ basketball:
     away: 85
   status: result
   time: '15:00'
+- id: 71961690
+  teams:
+    home: Milano
+    away: Venezia
+  score:
+    home: 92
+    away: 79
+  status: recentlyended
+  time: '18:00'
+- id: 71998818
+  teams:
+    home: Lietkabelis
+    away: N. Klaipeda
+  score:
+    home: 82
+    away: 91
+  status: result
+  time: '13:50'
+- id: 71874758
+  teams:
+    home: Stelmet
+    away: Warszawa
+  score:
+    home: 63
+    away: 79
+  status: result
+  time: '17:00'
+- id: 71965530
+  teams:
+    home: Iberostar
+    away: Barcelona
+  score:
+    home: 76
+    away: 85
+  status: recentlyended
+  time: '18:00'
+- id: 72032756
+  teams:
+    home: Fenerbahce Istanbul
+    away: Besiktas
+  score:
+    home: 80
+    away: 88
+  status: result
+  time: '17:00'
+- id: 71970156
+  teams:
+    home: Aguada
+    away: Penarol
+  score:
+    home: 78
+    away: 71
+  status: result
+  time: 00:15
+- id: 68096078
+  teams:
+    home: Seattle
+    away: Golden State
+  score:
+    home: 72
+    away: 76
+  status: result
+  time: 02:00
 tennis:
 - id: 72068434
   teams:
