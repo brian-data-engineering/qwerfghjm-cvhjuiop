@@ -51,7 +51,7 @@ soccer:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67117754
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67117740
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67118464
   teams:
@@ -78,7 +78,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '19:25'
 - id: 67117744
   teams:
@@ -87,7 +87,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 71861634
   teams:
@@ -132,16 +132,16 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 68822982
   teams:
     home: Cuiaba Esporte Clube
     away: Vila Nova
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: result
   time: '20:00'
 basketball:
 - id: 72015488
@@ -187,7 +187,7 @@ basketball:
   score:
     home: 75
     away: 83
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 72034526
   teams:
@@ -250,7 +250,7 @@ basketball:
   score:
     home: 86
     away: 64
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 68096594
   teams:
@@ -259,7 +259,7 @@ basketball:
   score:
     home: 77
     away: 102
-  status: recentlyended
+  status: result
   time: '19:00'
 tennis:
 - id: 72084678
@@ -1855,7 +1855,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72079076
   teams:
@@ -1864,7 +1864,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72079174
   teams:
@@ -1893,3 +1893,57 @@ table_tennis:
     away: 3
   status: result
   time: '20:30'
+- id: 72079100
+  teams:
+    home: Klement, Milan
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 72078974
+  teams:
+    home: Parhomenko, Dmitro
+    away: Dedek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 72078962
+  teams:
+    home: Pleskot, Jan
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 72079086
+  teams:
+    home: Postelt, Vladimir
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:30'
+- id: 72079210
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Vitrovyj, Oleg
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
+- id: 72079050
+  teams:
+    home: Sychra, Martin
+    away: Bayer, Alesh
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '22:30'
