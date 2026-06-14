@@ -631,7 +631,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 72079040
   teams:
@@ -649,7 +649,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 72079244
   teams:
@@ -676,16 +676,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72079138
   teams:
     home: Grohsgott, Jiri
     away: Barta, Miroslav
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '12:00'
 - id: 72079136
   teams:
@@ -694,7 +694,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72079098
   teams:
@@ -703,7 +703,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72079194
   teams:
@@ -712,5 +712,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 72079120
+  teams:
+    home: Brozik, Karel
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 72079020
+  teams:
+    home: Kanak, Alois
+    away: Kocian, Vojtech
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 72078970
+  teams:
+    home: Kolar, Milan
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 72079250
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 72079030
+  teams:
+    home: Syroha, Michal
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 72097768
+  teams:
+    home: Langer, Daniel
+    away: Kocian, Vojtech
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 72079234
+  teams:
+    home: Barta, Miroslav
+    away: Lubas, Miloslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 72079128
+  teams:
+    home: Bartunek, Radek
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 72078972
+  teams:
+    home: Jungman, Filip
+    away: Horak, David
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 72079176
+  teams:
+    home: Rychlik, Evzen
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 72079014
+  teams:
+    home: Szotek, David
+    away: Chalupa, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 72079124
+  teams:
+    home: Babinec, Zdenek
+    away: Opralka, Roman
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:30'
+- id: 72079032
+  teams:
+    home: Framberk, Jan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:30'
+- id: 72079026
+  teams:
+    home: Grohsgott, Jiri
+    away: Syroha, Michal
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:30'
+- id: 72079216
+  teams:
+    home: Kolar, Milan
+    away: Briza, Frantisek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:30'
