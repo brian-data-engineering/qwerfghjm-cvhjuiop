@@ -1,410 +1,113 @@
-soccer:
-- id: 67118474
-  teams:
-    home: Ferrocarril Midland
-    away: Club Atletico Atlanta
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '17:30'
-- id: 67118470
-  teams:
-    home: CA Colegiales
-    away: San Martin de Tucuman
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:00'
-- id: 67118466
-  teams:
-    home: Club Almagro
-    away: Agropecuario Argentino
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '18:30'
-- id: 67117748
-  teams:
-    home: Defensores de Belgrano
-    away: Colon de Santa Fe
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '18:30'
-- id: 67118460
-  teams:
-    home: Nueva Chicago
-    away: CA Chacarita Juniors
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:30'
-- id: 67117750
-  teams:
-    home: Club Ciudad de Bolivar
-    away: Deportivo Moron
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '19:00'
-- id: 67118472
-  teams:
-    home: Quilmes AC
-    away: Gimnasia Y Tiro de Salta
-  score:
-    home: 1
-    away: 0
-  status: result
-  time: '20:00'
-basketball:
-- id: 71998500
-  teams:
-    home: JIP Pardubice
-    away: CEZ Nymburk
-  score:
-    home: 86
-    away: 57
-  status: result
-  time: '15:00'
-- id: 72032740
-  teams:
-    home: Olympiakos Piraeus
-    away: Panathinaikos
-  score:
-    home: 89
-    away: 85
-  status: result
-  time: '15:00'
-- id: 71961690
-  teams:
-    home: Milano
-    away: Venezia
-  score:
-    home: 92
-    away: 79
-  status: result
-  time: '18:00'
-- id: 71998818
-  teams:
-    home: Lietkabelis
-    away: N. Klaipeda
-  score:
-    home: 82
-    away: 91
-  status: result
-  time: '13:50'
-- id: 71874758
-  teams:
-    home: Stelmet
-    away: Warszawa
-  score:
-    home: 63
-    away: 79
-  status: result
-  time: '17:00'
-- id: 71965530
-  teams:
-    home: Iberostar
-    away: Barcelona
-  score:
-    home: 76
-    away: 85
-  status: result
-  time: '18:00'
-- id: 72032756
-  teams:
-    home: Fenerbahce Istanbul
-    away: Besiktas
-  score:
-    home: 80
-    away: 88
-  status: result
-  time: '17:00'
-- id: 71970156
-  teams:
-    home: Aguada
-    away: Penarol
-  score:
-    home: 78
-    away: 71
-  status: result
-  time: 00:15
-- id: 68096078
-  teams:
-    home: Seattle
-    away: Golden State
-  score:
-    home: 72
-    away: 76
-  status: result
-  time: 02:00
-- id: 68096300
-  teams:
-    home: Connecticut
-    away: Indiana
-  score:
-    home: 38
-    away: 47
-  status: live
-  time: '22:00'
-tennis:
-- id: 72068434
-  teams:
-    home: Altmaier D / Fonseca J
-    away: Nouza P / Oberleitner N
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '15:15'
-ice_hockey:
-- id: 72003618
-  teams:
-    home: Chicago
-    away: Toronto
-  score:
-    home: 2
-    away: 4
-  status: result
-  time: 00:00
+soccer: []
+basketball: []
+tennis: []
+ice_hockey: []
 table_tennis:
-- id: 72040174
+- id: 72060654
   teams:
-    home: Kucirek, Ondrej
-    away: Trinta, Mihail
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 00:00
-- id: 72040478
-  teams:
-    home: Parhomenko, Dmitro
-    away: Vedmoch, Michal
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:00
-- id: 72040152
-  teams:
-    home: Svoboda, Vladimir
-    away: Havrda, Leos
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 00:00
-- id: 72040512
-  teams:
-    home: Mikuska, Alexander
-    away: Darin, Kyryl
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 00:30
-- id: 72040216
-  teams:
-    home: Mutl, David
-    away: Potensky, Jan
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:30
-- id: 72040186
-  teams:
-    home: Sulava, Lubor
-    away: Urban, Roman
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 00:30
-- id: 72040260
-  teams:
-    home: Havrda, Leos
-    away: Grohsgott, Jiri
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:00
-- id: 72040212
-  teams:
-    home: Trinta, Mihail
-    away: Pleskot, Jan
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 01:00
-- id: 72040556
-  teams:
-    home: Vedmoch, Michal
-    away: Dedek, Jiri
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 01:00
-- id: 72040536
-  teams:
-    home: Darin, Kyryl
-    away: Parhomenko, Dmitro
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 01:30
-- id: 72040134
-  teams:
-    home: Potensky, Jan
-    away: Svoboda, Vladimir
+    home: Cermak, Vladimir
+    away: Janata, Tomas
   score:
     home: 2
     away: 3
   status: result
-  time: 01:30
-- id: 72040198
+  time: 00:00
+- id: 72060630
   teams:
     home: Urban, Roman
-    away: Kucirek, Ondrej
+    away: Cetner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:00
+- id: 72060664
+  teams:
+    home: Urbaniec, Radim
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:00
+- id: 72060644
+  teams:
+    home: Pycha, Patrik
+    away: Vizek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 72060616
+  teams:
+    home: Schneeberger, Antonin
+    away: Dolezal, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 72060624
+  teams:
+    home: Simecek, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 72079288
+  teams:
+    home: Cetner, Milan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 72060632
+  teams:
+    home: Janata, Tomas
+    away: Tazler, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 72060668
+  teams:
+    home: Zahradka, Michal
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 72060642
+  teams:
+    home: Dolezal, Vaclav
+    away: Urban, Roman
   score:
     home: 0
     away: 3
-  status: result
+  status: recentlyended
   time: 01:30
-- id: 72040228
+- id: 72060658
   teams:
-    home: Havrda, Leos
-    away: Mutl, David
+    home: Ruzicka, Jiri
+    away: Urbaniec, Radim
   score:
     home: 0
     away: 3
-  status: result
-  time: 02:00
-- id: 72040246
+  status: recentlyended
+  time: 01:30
+- id: 72060612
   teams:
-    home: Trinta, Mihail
-    away: Sulava, Lubor
+    home: Vizek, Martin
+    away: Cermak, Vladimir
   score:
     home: 3
     away: 1
-  status: result
-  time: 02:00
-- id: 72040456
-  teams:
-    home: Vedmoch, Michal
-    away: Mikuska, Alexander
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:00
-- id: 72040130
-  teams:
-    home: Kucirek, Ondrej
-    away: Pleskot, Jan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 02:30
-- id: 72040514
-  teams:
-    home: Parhomenko, Dmitro
-    away: Dedek, Jiri
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 02:30
-- id: 72040252
-  teams:
-    home: Svoboda, Vladimir
-    away: Grohsgott, Jiri
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:30
-- id: 72072742
-  teams:
-    home: Dedek, Jiri
-    away: Mikuska, Alexander
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:00
-- id: 72072878
-  teams:
-    home: Pleskot, Jan
-    away: Sulava, Lubor
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:00
-- id: 72072928
-  teams:
-    home: Mutl, David
-    away: Potensky, Jan
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 03:01
-- id: 72072884
-  teams:
-    home: Kucirek, Ondrej
-    away: Trinta, Mihail
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 03:30
-- id: 72072810
-  teams:
-    home: Parhomenko, Dmitro
-    away: Vedmoch, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:30
-- id: 72072934
-  teams:
-    home: Svoboda, Vladimir
-    away: Grohsgott, Jiri
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:30
-- id: 72066424
-  teams:
-    home: Brozik, Karel
-    away: Zuzanek, Jiri
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 06:00
-- id: 72060428
-  teams:
-    home: Byrtus, Samuel
-    away: Bereiter, Marek
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 06:00
+  status: recentlyended
+  time: 01:30
