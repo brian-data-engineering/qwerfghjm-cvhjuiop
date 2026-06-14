@@ -5,9 +5,9 @@ basketball:
     home: Paris Basketball
     away: AS Monaco
   score:
-    home: 57
-    away: 65
-  status: live
+    home: 95
+    away: 91
+  status: result
   time: '15:00'
 - id: 72015572
   teams:
@@ -23,18 +23,18 @@ basketball:
     home: Hapoel Galil Elyon
     away: Maccabi Raanana
   score:
-    home: 62
-    away: 50
-  status: live
+    home: 79
+    away: 68
+  status: result
   time: '14:50'
 - id: 71828176
   teams:
     home: Ziona
     away: Netanya
   score:
-    home: 38
-    away: 29
-  status: live
+    home: 88
+    away: 102
+  status: recentlyended
   time: '16:00'
 tennis:
 - id: 72084678
@@ -44,7 +44,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '14:40'
 - id: 72084054
   teams:
@@ -91,6 +91,105 @@ tennis:
     away: 0
   status: result
   time: '14:15'
+- id: 72082610
+  teams:
+    home: Hijikata R / Paul T
+    away: Goransson A / King E
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '16:15'
+- id: 72084038
+  teams:
+    home: Svajda, Zachary
+    away: Damm Jr, Martin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72084412
+  teams:
+    home: Vukic, Aleksandar
+    away: Wendelken, Harry
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72085064
+  teams:
+    home: Hijikata, Rinky
+    away: Giron, Marcos
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:40'
+- id: 72084594
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Mpetshi Perricard, Giovanni
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:50'
+- id: 71900482
+  teams:
+    home: Majchrzak, Kamil
+    away: de Minaur, Alex
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:30'
+- id: 71900526
+  teams:
+    home: Shelton, Ben
+    away: Fritz, Taylor
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
+- id: 71900554
+  teams:
+    home: Glinka D / Sakellaridis S
+    away: Hanfmann Y / Struff J-L
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:30
+- id: 72086640
+  teams:
+    home: Kohlmann de Freitas, Enzo
+    away: Rodrigues, Natan
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 72086642
+  teams:
+    home: Huertas Del Pino, Connor
+    away: Price, Salvador
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '16:05'
+- id: 72086648
+  teams:
+    home: Monferrer, Ezequiel
+    away: Leite, Wilson
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:05'
 ice_hockey: []
 table_tennis:
 - id: 72060654
@@ -1180,7 +1279,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72079224
   teams:
@@ -1189,7 +1288,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72079178
   teams:
@@ -1198,7 +1297,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72079254
   teams:
@@ -1207,7 +1306,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72079204
   teams:
@@ -1216,16 +1315,16 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72079220
   teams:
     home: Bartunek, Radek
     away: Framberk, Jan
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '16:00'
 - id: 72079222
   teams:
@@ -1233,8 +1332,8 @@ table_tennis:
     away: Kolar, Milan
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 72079130
   teams:
@@ -1243,7 +1342,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72079160
   teams:
@@ -1252,5 +1351,50 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 72079102
+  teams:
+    home: Chalupa, Michal
+    away: Opralka, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72079132
+  teams:
+    home: Horak, David
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72079008
+  teams:
+    home: Lubas, Miloslav
+    away: Syroha, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72079156
+  teams:
+    home: Simecek, Jakub
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72079152
+  teams:
+    home: Sulava, Lubor
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
