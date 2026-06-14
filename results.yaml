@@ -1,4 +1,49 @@
-soccer: []
+soccer:
+- id: 67117752
+  teams:
+    home: Almirante Brown
+    away: CD Godoy Cruz
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '17:30'
+- id: 67117756
+  teams:
+    home: CA Estudiantes
+    away: CA All Boys
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:00'
+- id: 67117746
+  teams:
+    home: Deportivo Madryn
+    away: CA San Miguel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:00'
+- id: 67118468
+  teams:
+    home: CA Patronato Parana
+    away: Atletico de Rafaela
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67117742
+  teams:
+    home: Ferro Carril Oeste
+    away: Club Atletico Acassuso
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
 basketball:
 - id: 72015488
   teams:
@@ -34,8 +79,89 @@ basketball:
   score:
     home: 88
     away: 102
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 72070532
+  teams:
+    home: Rinascita Basket Rimini
+    away: Tez. Verona
+  score:
+    home: 44
+    away: 46
+  status: live
+  time: '18:45'
+- id: 72034526
+  teams:
+    home: Talk N Text
+    away: Barangay Ginebra
+  score:
+    home: 98
+    away: 90
+  status: result
+  time: '11:30'
+- id: 71975542
+  teams:
+    home: Joventut
+    away: Valencia
+  score:
+    home: 73
+    away: 81
+  status: live
+  time: '18:00'
+- id: 70505012
+  teams:
+    home: San Antonio
+    away: NY Knicks
+  score:
+    home: 90
+    away: 94
+  status: result
+  time: 00:30
+- id: 68096390
+  teams:
+    home: Las Vegas Aces
+    away: Minnesota
+  score:
+    home: 100
+    away: 97
+  status: result
+  time: 00:00
+- id: 68096206
+  teams:
+    home: Portland Fire
+    away: Dallas
+  score:
+    home: 84
+    away: 83
+  status: result
+  time: 00:30
+- id: 68096366
+  teams:
+    home: Phoenix
+    away: LA Sparks
+  score:
+    home: 102
+    away: 111
+  status: result
+  time: 02:00
+- id: 68096492
+  teams:
+    home: NY Liberty
+    away: Washington
+  score:
+    home: 32
+    away: 22
+  status: live
+  time: '19:00'
+- id: 68096594
+  teams:
+    home: Toronto Tempo
+    away: Atlanta
+  score:
+    home: 35
+    away: 38
+  status: live
+  time: '19:00'
 tennis:
 - id: 72084678
   teams:
@@ -98,7 +224,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:15'
 - id: 72084038
   teams:
@@ -170,7 +296,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72086642
   teams:
@@ -179,16 +305,16 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:05'
 - id: 72086648
   teams:
     home: Monferrer, Ezequiel
     away: Leite, Wilson
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:05'
 ice_hockey: []
 table_tennis:
@@ -1398,3 +1524,183 @@ table_tennis:
     away: 1
   status: result
   time: '16:30'
+- id: 72079146
+  teams:
+    home: Burdik, Vitezslav
+    away: Prikasky, Libor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72079122
+  teams:
+    home: Fojt, Pavel
+    away: Pavelka, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72078968
+  teams:
+    home: Levicky, Jakub
+    away: Velicka, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 72079088
+  teams:
+    home: Moravek, Jiri
+    away: Tuma, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 72079046
+  teams:
+    home: Vondrak, Michal
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72079164
+  teams:
+    home: Bittner, Martin
+    away: Bayer, Alesh
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 72079028
+  teams:
+    home: Framberk, Jan
+    away: Bruzek, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 72079002
+  teams:
+    home: Volf, Matej
+    away: Postelt, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 72079022
+  teams:
+    home: Wollny, Michal
+    away: Szotek, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 72079006
+  teams:
+    home: Zidek, Vaclav
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 72079200
+  teams:
+    home: Louda, Jiri
+    away: Bittner, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72078990
+  teams:
+    home: Pavelka, Radim
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:00'
+- id: 72079126
+  teams:
+    home: Prikasky, Libor
+    away: Wollny, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72079072
+  teams:
+    home: Tuma, Miroslav
+    away: Framberk, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72079238
+  teams:
+    home: Velicka, Lukas
+    away: Zidek, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:00'
+- id: 72079208
+  teams:
+    home: Bayer, Alesh
+    away: Vondrak, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 72079198
+  teams:
+    home: Bruzek, Petr
+    away: Moravek, Jiri
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '19:30'
+- id: 72079240
+  teams:
+    home: Oborny, Dominik
+    away: Levicky, Jakub
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 72079116
+  teams:
+    home: Postelt, Vladimir
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 72079172
+  teams:
+    home: Szotek, David
+    away: Burdik, Vitezslav
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '19:30'
