@@ -235,7 +235,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 72079052
   teams:
@@ -244,7 +244,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 72078986
   teams:
@@ -262,16 +262,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 72078964
   teams:
     home: Guliak, Roman
     away: Priesol, Daniel
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 06:30
 - id: 72078998
   teams:
@@ -279,17 +279,17 @@ table_tennis:
     away: Langer, Daniel
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:30
 - id: 72079078
   teams:
     home: Pleskot, Jan
     away: Sulava, Lubor
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 06:30
 - id: 72079170
   teams:
@@ -297,15 +297,240 @@ table_tennis:
     away: Sebera, Petr
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:30
 - id: 72079150
   teams:
     home: Tacinec, Martin
     away: Berdych, Pavel
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 06:30
+- id: 72079048
+  teams:
+    home: Havel, Ladislav
+    away: Tacinec, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 72079080
+  teams:
+    home: Hrabec, Jan
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 72079134
+  teams:
+    home: Kocian, Vojtech
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 72079074
+  teams:
+    home: Trinta, Mihail
+    away: Pleskot, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 72079060
+  teams:
+    home: Zuzanek, Jiri
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 72078958
+  teams:
+    home: Berdych, Pavel
+    away: Nohejl, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72079094
+  teams:
+    home: Langer, Daniel
+    away: Kolek, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 72079034
+  teams:
+    home: Priesol, Daniel
+    away: Hrabec, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 72079230
+  teams:
+    home: Sebera, Petr
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 72079104
+  teams:
+    home: Sulava, Lubor
+    away: Barton, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 72079036
+  teams:
+    home: Barton, David
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 72079218
+  teams:
+    home: Hrabec, Tomas
+    away: Guliak, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 72079054
+  teams:
+    home: Kolek, Matyas
+    away: Levicky, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 72078984
+  teams:
+    home: Nohejl, Tomas
+    away: Tacinec, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 72078988
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 72079228
+  teams:
+    home: Havel, Ladislav
+    away: Berdych, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 72079202
+  teams:
+    home: Hrabec, Jan
+    away: Priesol, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 72079242
+  teams:
+    home: Kocian, Vojtech
+    away: Langer, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 72079066
+  teams:
+    home: Trinta, Mihail
+    away: Sulava, Lubor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 72079180
+  teams:
+    home: Zuzanek, Jiri
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 72079232
+  teams:
+    home: Babinec, Zdenek
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 72079110
+  teams:
+    home: Grohsgott, Jiri
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 72079108
+  teams:
+    home: Horak, David
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 72079188
+  teams:
+    home: Klement, Milan
+    away: Brozik, Karel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 72078960
+  teams:
+    home: Langer, Daniel
+    away: Kanak, Alois
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:00'
