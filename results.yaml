@@ -1,7 +1,16 @@
 soccer: []
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 70558080
+  teams:
+    home: Vegas Golden Knights
+    away: Carolina
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:00
 table_tennis:
 - id: 72079158
   teams:
@@ -9,8 +18,8 @@ table_tennis:
     away: Vitrovyj, Oleg
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 72079106
   teams:
@@ -18,8 +27,8 @@ table_tennis:
     away: Bayer, Alesh
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 72078966
   teams:
@@ -28,5 +37,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
+- id: 72079024
+  teams:
+    home: Dedek, Jiri
+    away: Postelt, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 72079192
+  teams:
+    home: Steffan, Jan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 72079206
+  teams:
+    home: Zuzanek, Jiri
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 72079114
+  teams:
+    home: Bayer, Alesh
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 72079256
+  teams:
+    home: Fojt, Pavel
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 72079168
+  teams:
+    home: Vitrovyj, Oleg
+    away: Pleskot, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 72079140
+  teams:
+    home: Postelt, Vladimir
+    away: Volf, Matej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 72079154
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 72079144
+  teams:
+    home: Sychra, Martin
+    away: Regner, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 72079142
+  teams:
+    home: Bayer, Alesh
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72079252
+  teams:
+    home: Fojt, Pavel
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72079010
+  teams:
+    home: Vitrovyj, Oleg
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 72079012
+  teams:
+    home: Dolezal, Vaclav
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 72078976
+  teams:
+    home: Regner, Michal
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 72079058
+  teams:
+    home: Volf, Matej
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
