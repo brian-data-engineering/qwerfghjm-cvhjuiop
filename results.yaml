@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 68822972
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 basketball: []
 tennis: []
@@ -109,7 +109,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 72092830
   teams:
@@ -118,7 +118,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 72092836
   teams:
@@ -127,32 +127,284 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 72092964
   teams:
     home: Briza, Frantisek
     away: Kolar, Milan
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 02:00
 - id: 72092874
   teams:
     home: Strnad, Jaroslav (1964)
     away: Sulava, Lubor
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:00
 - id: 72092974
   teams:
     home: Zahradka, Michal
     away: Svacha, Ondrej
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 02:00
+- id: 72092810
+  teams:
+    home: Kucirek, Ondrej
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 72092868
+  teams:
+    home: Mikuska, Alexander
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 72092906
+  teams:
+    home: Ruzicka, Jiri
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 72115122
+  teams:
+    home: Darin, Kyryl
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 72115376
+  teams:
+    home: Jindrak, Lukas
+    away: Vales, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 72115666
+  teams:
+    home: Pilch, Jakub
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 72115684
+  teams:
+    home: Potensky, Jan
+    away: Forman, Lubos
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:00
+- id: 72115354
+  teams:
+    home: Zientek, Zbynek
+    away: Kaspar, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 72115114
+  teams:
+    home: Dedek, Jiri
+    away: Vesely, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 72115406
+  teams:
+    home: Mares, Erik
+    away: Zeman, Lukas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 72115698
+  teams:
+    home: Mutl, David
+    away: Vrabec, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 72115652
+  teams:
+    home: Wollny, Michal
+    away: Szotek, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 72115358
+  teams:
+    home: Zurek, Filip
+    away: Kocian, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 72115728
+  teams:
+    home: Forman, Lubos
+    away: Mutl, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 72115388
+  teams:
+    home: Kaspar, Michal
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 72115112
+  teams:
+    home: Parhomenko, Dmitro
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 72115654
+  teams:
+    home: Prikasky, Libor
+    away: Wollny, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 72115400
+  teams:
+    home: Vales, Jakub
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 72115336
+  teams:
+    home: Kocian, Vojtech
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 72115696
+  teams:
+    home: Szotek, David
+    away: Pilch, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72115106
+  teams:
+    home: Vesely, Michal
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 72115656
+  teams:
+    home: Vrabec, Milan
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:30
+- id: 72115334
+  teams:
+    home: Zeman, Lukas
+    away: Jindrak, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72115110
+  teams:
+    home: Darin, Kyryl
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:00
+- id: 72115356
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 72115718
+  teams:
+    home: Pilch, Jakub
+    away: Wollny, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 72115668
+  teams:
+    home: Potensky, Jan
+    away: Mutl, David
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 08:00
+- id: 72115328
+  teams:
+    home: Zientek, Zbynek
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:00
