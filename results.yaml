@@ -1,5 +1,77 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72069268
+  teams:
+    home: Hapoel Tel-Aviv
+    away: Maccabi Tel-Aviv
+  score:
+    home: 73
+    away: 84
+  status: live
+  time: '17:50'
+- id: 72161108
+  teams:
+    home: Venezia
+    away: Milano
+  score:
+    home: 56
+    away: 68
+  status: live
+  time: '18:00'
+- id: 72105580
+  teams:
+    home: Valencia
+    away: Barcelona
+  score:
+    home: 87
+    away: 90
+  status: live
+  time: '18:00'
+- id: 68096398
+  teams:
+    home: Chicago
+    away: NY Liberty
+  score:
+    home: 95
+    away: 96
+  status: result
+  time: 00:00
+- id: 68096052
+  teams:
+    home: Golden State
+    away: Dallas
+  score:
+    home: 91
+    away: 80
+  status: result
+  time: 02:00
+- id: 68096060
+  teams:
+    home: LA Sparks
+    away: Minnesota
+  score:
+    home: 83
+    away: 99
+  status: result
+  time: 02:00
+- id: 68095992
+  teams:
+    home: Phoenix
+    away: Las Vegas Aces
+  score:
+    home: 76
+    away: 86
+  status: result
+  time: 02:00
+- id: 68096204
+  teams:
+    home: Portland Fire
+    away: Seattle
+  score:
+    home: 94
+    away: 89
+  status: result
+  time: 02:00
 tennis:
 - id: 72025842
   teams:
@@ -33,9 +105,9 @@ tennis:
     home: Collignon, Raphael
     away: Bellucci, Mattia
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '15:20'
 - id: 72025876
   teams:
@@ -87,10 +159,73 @@ tennis:
     home: Hijikata, Rinky
     away: Lehecka, Jiri
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:45'
+- id: 72028272
+  teams:
+    home: Medjedovic, Hamad
+    away: Humbert, Ugo
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72028544
+  teams:
+    home: Bhambri Y / Venus M
+    away: Arevalo M / Pavic M
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72028546
+  teams:
+    home: Harrison C / Skupski N
+    away: Johnson L / Zielinski J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:40'
+- id: 72028542
+  teams:
+    home: Frantzen C / Haase R
+    away: Cash J / Glasspool L
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:45'
+- id: 72032318
+  teams:
+    home: Hardt, Nick
+    away: Soto, Matias
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72032320
+  teams:
+    home: Justo, Guido Ivan
+    away: Ambrogi, Luciano Emanuel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:55'
+- id: 72032316
+  teams:
+    home: Huertas Del Pino, Connor
+    away: La Serna, Juan Manuel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:10'
 ice_hockey: []
 table_tennis:
 - id: 72147888
