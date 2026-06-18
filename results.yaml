@@ -5,27 +5,27 @@ basketball:
     home: Hapoel Tel-Aviv
     away: Maccabi Tel-Aviv
   score:
-    home: 73
-    away: 84
-  status: live
+    home: 98
+    away: 102
+  status: result
   time: '17:50'
 - id: 72161108
   teams:
     home: Venezia
     away: Milano
   score:
-    home: 56
-    away: 68
-  status: live
+    home: 72
+    away: 86
+  status: result
   time: '18:00'
 - id: 72105580
   teams:
     home: Valencia
     away: Barcelona
   score:
-    home: 87
-    away: 90
-  status: live
+    home: 112
+    away: 113
+  status: result
   time: '18:00'
 - id: 68096398
   teams:
@@ -163,15 +163,6 @@ tennis:
     away: 1
   status: result
   time: '14:45'
-- id: 72028272
-  teams:
-    home: Medjedovic, Hamad
-    away: Humbert, Ugo
-  score:
-    home: 1
-    away: 0
-  status: live
-  time: '18:30'
 - id: 72028544
   teams:
     home: Bhambri Y / Venus M
@@ -213,19 +204,46 @@ tennis:
     home: Justo, Guido Ivan
     away: Ambrogi, Luciano Emanuel
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:55'
 - id: 72032316
   teams:
     home: Huertas Del Pino, Connor
     away: La Serna, Juan Manuel
   score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '19:10'
+- id: 72032330
+  teams:
+    home: Estevez, Juan
+    away: Villanueva, Gonzalo
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:30'
+- id: 72032494
+  teams:
+    home: Aguilar Cardozo J / De la Fuente S
+    away: Basel V / Carou I
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:00'
+- id: 72032486
+  teams:
+    home: Ribeiro E / Zeballos F
+    away: Casanova H / Rodriguez Taverna S
+  score:
     home: 0
     away: 0
   status: live
-  time: '19:10'
+  time: '21:15'
 ice_hockey: []
 table_tennis:
 - id: 72147888
