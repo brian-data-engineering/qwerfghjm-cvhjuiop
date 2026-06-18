@@ -10,7 +10,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 72148172
   teams:
@@ -19,7 +19,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 72147828
   teams:
@@ -28,5 +28,14 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
+- id: 72147908
+  teams:
+    home: Klement, Milan
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
