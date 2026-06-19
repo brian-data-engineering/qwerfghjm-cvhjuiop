@@ -1,4 +1,31 @@
-soccer: []
+soccer:
+- id: 71861638
+  teams:
+    home: Naftan Novopolotsk
+    away: FC Baranovichi
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
+- id: 68823000
+  teams:
+    home: SC Recife PE
+    away: AC Goianiense
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:00
+- id: 71605992
+  teams:
+    home: U. de Chile
+    away: O' Higgins
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:00
 basketball: []
 tennis:
 - id: 72025846
@@ -15,10 +42,19 @@ tennis:
     home: Zverev, Alexander
     away: Collignon, Raphael
   score:
-    home: 0
+    home: 2
+    away: 0
+  status: result
+  time: '12:35'
+- id: 72025844
+  teams:
+    home: Altmaier, Daniel
+    away: Medvedev, Daniil
+  score:
+    home: 1
     away: 0
   status: live
-  time: '12:35'
+  time: '15:05'
 ice_hockey: []
 table_tennis:
 - id: 72174676
@@ -829,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72196082
   teams:
@@ -838,7 +874,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72196008
   teams:
@@ -847,7 +883,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72196038
   teams:
@@ -856,7 +892,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72195886
   teams:
@@ -865,5 +901,59 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
+- id: 72226240
+  teams:
+    home: Dousek, Tomas
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72226338
+  teams:
+    home: Parhomenko, Dmitro
+    away: Postelt, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72226336
+  teams:
+    home: Urbaniec, Radim
+    away: Mecl Jr, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 72226334
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Svechota, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 72226340
+  teams:
+    home: Prokupek, Jaroslav
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 72226242
+  teams:
+    home: Sedlacek, Michael
+    away: Cabis, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
