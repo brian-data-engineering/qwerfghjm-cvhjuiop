@@ -26,7 +26,43 @@ soccer:
     away: 0
   status: result
   time: 00:00
-basketball: []
+basketball:
+- id: 72015504
+  teams:
+    home: AS Monaco
+    away: Paris Basketball
+  score:
+    home: 46
+    away: 46
+  status: live
+  time: '18:55'
+- id: 72106868
+  teams:
+    home: Alba
+    away: B. Munich
+  score:
+    home: 70
+    away: 56
+  status: live
+  time: '18:30'
+- id: 72137218
+  teams:
+    home: Stelmet
+    away: Warszawa
+  score:
+    home: 76
+    away: 74
+  status: recentlyended
+  time: '18:15'
+- id: 72053510
+  teams:
+    home: Besiktas
+    away: Fenerbahce Istanbul
+  score:
+    home: 75
+    away: 77
+  status: result
+  time: '17:00'
 tennis:
 - id: 72025846
   teams:
@@ -53,17 +89,80 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:05'
 - id: 72025858
   teams:
     home: Tiafoe, Frances
     away: Auger-Aliassime, Felix
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '18:00'
+- id: 72028268
+  teams:
+    home: de Minaur, Alex
+    away: Nakashima, Brandon
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:30'
+- id: 72028272
+  teams:
+    home: Medjedovic, Hamad
+    away: Humbert, Ugo
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:10'
+- id: 72028282
+  teams:
+    home: Fery, Arthur
+    away: Cerundolo, Francisco
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:40'
+- id: 72028280
+  teams:
+    home: Paul, Tommy
+    away: Davidovich Fokina, Alejandro
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:30'
+- id: 72028278
+  teams:
+    home: Humbert, Ugo
+    away: Hijikata, Rinky
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:10'
+- id: 72028556
+  teams:
+    home: Heliovaara H / Patten H
+    away: Stevenson D / Willis M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72032326
+  teams:
+    home: Huertas Del Pino, Connor
+    away: Estevez, Juan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
 ice_hockey: []
 table_tennis:
 - id: 72174676
