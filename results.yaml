@@ -32,18 +32,18 @@ basketball:
     home: AS Monaco
     away: Paris Basketball
   score:
-    home: 46
-    away: 46
-  status: live
+    home: 77
+    away: 88
+  status: result
   time: '18:55'
 - id: 72106868
   teams:
     home: Alba
     away: B. Munich
   score:
-    home: 70
-    away: 56
-  status: live
+    home: 71
+    away: 61
+  status: result
   time: '18:30'
 - id: 72137218
   teams:
@@ -52,7 +52,7 @@ basketball:
   score:
     home: 76
     away: 74
-  status: recentlyended
+  status: result
   time: '18:15'
 - id: 72053510
   teams:
@@ -96,9 +96,9 @@ tennis:
     home: Tiafoe, Frances
     away: Auger-Aliassime, Felix
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 72028268
   teams:
@@ -160,9 +160,27 @@ tennis:
     away: Estevez, Juan
   score:
     home: 1
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 72032328
+  teams:
+    home: Justo, Guido Ivan
+    away: Hardt, Nick
+  score:
+    home: 0
     away: 0
   status: live
-  time: '19:00'
+  time: '21:30'
+- id: 72032490
+  teams:
+    home: Couto Loureiro J V / Rodrigues N
+    away: Aguilar Cardozo J / De la Fuente S
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:00'
 ice_hockey: []
 table_tennis:
 - id: 72174676
