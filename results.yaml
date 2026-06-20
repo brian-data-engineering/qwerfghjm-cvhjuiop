@@ -6,7 +6,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70531714
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70531700
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70531688
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 70531690
   teams:
@@ -41,8 +41,8 @@ soccer:
     away: CA San Miguel
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:30'
 basketball:
 - id: 72105588
@@ -52,7 +52,7 @@ basketball:
   score:
     home: 102
     away: 75
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72072406
   teams:
@@ -86,9 +86,9 @@ basketball:
     home: Phoenix
     away: Seattle
   score:
-    home: 50
-    away: 41
-  status: live
+    home: 93
+    away: 73
+  status: result
   time: '19:00'
 tennis:
 - id: 72228834
