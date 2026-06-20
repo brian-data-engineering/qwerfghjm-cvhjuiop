@@ -1,5 +1,77 @@
-soccer: []
-basketball: []
+soccer:
+- id: 70531718
+  teams:
+    home: CA Colegiales
+    away: Quilmes AC
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 70531714
+  teams:
+    home: Club Almagro
+    away: Club Atletico Atlanta
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
+- id: 70531700
+  teams:
+    home: Club Ciudad de Bolivar
+    away: CA Estudiantes
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 70531688
+  teams:
+    home: San Telmo
+    away: Racing de Cordoba
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:00'
+basketball:
+- id: 72105588
+  teams:
+    home: Valencia
+    away: Barcelona
+  score:
+    home: 45
+    away: 38
+  status: live
+  time: '18:00'
+- id: 72072406
+  teams:
+    home: Penarol
+    away: Aguada
+  score:
+    home: 80
+    away: 71
+  status: result
+  time: 00:15
+- id: 68096188
+  teams:
+    home: Golden State
+    away: Minnesota
+  score:
+    home: 75
+    away: 81
+  status: result
+  time: 02:00
+- id: 68096180
+  teams:
+    home: Atlanta
+    away: Indiana
+  score:
+    home: 84
+    away: 74
+  status: live
+  time: '17:00'
 tennis:
 - id: 72228834
   teams:
@@ -53,8 +125,44 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
+- id: 72228822
+  teams:
+    home: Giron, Marcos
+    away: Broom, Charles
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:00'
+- id: 72228820
+  teams:
+    home: Choinski, Jan
+    away: Wu, Yibing
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:45'
+- id: 72025856
+  teams:
+    home: Zverev, Alexander
+    away: Fritz, Taylor
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72025854
+  teams:
+    home: Altmaier, Daniel
+    away: Tiafoe, Frances
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:10'
 ice_hockey: []
 table_tennis:
 - id: 72195994
