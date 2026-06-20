@@ -6,9 +6,9 @@ tennis:
     home: Arnaldi, Matteo
     away: Gray, Alastair
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '10:00'
 - id: 72228832
   teams:
@@ -25,9 +25,27 @@ tennis:
     away: Vukic, Aleksandar
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '12:25'
+- id: 72228826
+  teams:
+    home: Nava, Emilio
+    away: Stewart, Hamish
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:40'
+- id: 72228828
+  teams:
+    home: Gill, Felix
+    away: Trungelliti, Marco
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:10'
 ice_hockey: []
 table_tennis:
 - id: 72195994
