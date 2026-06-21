@@ -6,8 +6,134 @@ soccer:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '18:00'
+- id: 70531702
+  teams:
+    home: Almirante Brown
+    away: Mitre Santiago Del Estero
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 70531720
+  teams:
+    home: CA Chacarita Juniors
+    away: Tristan Suarez
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 70531716
+  teams:
+    home: CA Patronato Parana
+    away: Ferrocarril Midland
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 70531698
+  teams:
+    home: Defensores de Belgrano
+    away: CA All Boys
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '18:30'
+- id: 70531722
+  teams:
+    home: Ferro Carril Oeste
+    away: Deportivo Moron
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 70531694
+  teams:
+    home: CA Central Norte Salta
+    away: CD Godoy Cruz
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:30'
+- id: 70531712
+  teams:
+    home: CD Maipu
+    away: Gimnasia Y Tiro de Salta
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:30'
+- id: 70531704
+  teams:
+    home: CA Guemes
+    away: Gimnasia Jujuy
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '20:00'
+- id: 71861648
+  teams:
+    home: FC Minsk
+    away: Maxline Vitebsk
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '13:00'
+- id: 71861650
+  teams:
+    home: Bate Borisov
+    away: FK Arsenal Dzerzhinsk
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 71861652
+  teams:
+    home: FC Neman Grodno
+    away: FC Dinamo Minsk
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 68822998
+  teams:
+    home: Avai
+    away: Cuiaba Esporte Clube
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '14:00'
+- id: 68823002
+  teams:
+    home: Cr Brasil AL
+    away: Fortaleza EC
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
+- id: 68822988
+  teams:
+    home: Sao Bernardo FC
+    away: EC Juventude
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 72195868
   teams:
@@ -32,9 +158,9 @@ basketball:
     home: Maccabi Tel-Aviv
     away: Hapoel Tel-Aviv
   score:
-    home: 39
-    away: 45
-  status: live
+    home: 74
+    away: 80
+  status: result
   time: '17:50'
 - id: 72229454
   teams:
@@ -43,7 +169,7 @@ basketball:
   score:
     home: 78
     away: 70
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 68096028
   teams:
@@ -54,6 +180,15 @@ basketball:
     away: 92
   status: result
   time: 00:00
+- id: 68096446
+  teams:
+    home: Las Vegas Aces
+    away: Golden State
+  score:
+    home: 49
+    away: 30
+  status: live
+  time: '20:00'
 tennis:
 - id: 72244780
   teams:
@@ -269,7 +404,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '17:05'
 - id: 72247706
   teams:
@@ -277,18 +412,36 @@ tennis:
     away: Oliveira, Nicolas
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '18:00'
 - id: 72247708
   teams:
     home: Huertas Del Pino Cordova, Arklon
     away: Braga, Breno
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:10'
+- id: 72247698
+  teams:
+    home: Otegui, Juan Bautista
+    away: Couto Loureiro, Joao Victor
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:55'
+- id: 72244844
+  teams:
+    home: Berkieta, Tomasz
+    away: Ambarzumjan, Edison
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
 ice_hockey: []
 table_tennis:
 - id: 72220362
@@ -1585,7 +1738,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72238950
   teams:
@@ -1630,7 +1783,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72239134
   teams:
@@ -1639,7 +1792,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72259812
   teams:
@@ -1648,7 +1801,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72238906
   teams:
@@ -1657,7 +1810,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72238978
   teams:
@@ -1666,7 +1819,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72239158
   teams:
@@ -1674,42 +1827,177 @@ table_tennis:
     away: Oborny, Dominik
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '19:00'
 - id: 72239154
   teams:
     home: Louda, Jiri
     away: Brozik, Karel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:00'
 - id: 72238980
   teams:
     home: Machander, Dalimil
     away: Walek, Adrian
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:00'
 - id: 72259814
   teams:
     home: Pavelka, Radim
     away: Volf, Matej
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:00'
 - id: 72238972
   teams:
     home: Zuzanek, Jiri
     away: Vondrak, Michal
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '19:00'
+- id: 72238894
+  teams:
+    home: Heczko, David
+    away: Simecek, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72238874
+  teams:
+    home: Krticka, Lubos
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72238808
+  teams:
+    home: Sopko, Martin
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 72239136
+  teams:
+    home: Tazler, Jakub
+    away: Pacha, Robin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72239142
+  teams:
+    home: Velicka, Lukas
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 72239152
+  teams:
+    home: Heczko, Marcel
+    away: Oborny, Dominik
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72238960
+  teams:
+    home: Kasnik, Sebastian
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 72239082
+  teams:
+    home: Pacha, Robin
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 72238820
+  teams:
+    home: Simecek, Jakub
+    away: Walek, Adrian
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72259816
+  teams:
+    home: Tuma, Daniel
+    away: Volf, Matej
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 72239150
+  teams:
+    home: Bosak, Vitezslav
+    away: Velicka, Lukas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '20:30'
+- id: 72239100
+  teams:
+    home: Louda, Jiri
+    away: Tazler, Jakub
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '20:30'
+- id: 72238962
+  teams:
+    home: Machander, Dalimil
+    away: Heczko, David
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 72238848
+  teams:
+    home: Pavelka, Radim
+    away: Krticka, Lubos
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
+- id: 72238974
+  teams:
+    home: Zuzanek, Jiri
+    away: Sopko, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '20:30'
