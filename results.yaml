@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 72244780
+  teams:
+    home: Stewart, Hamish
+    away: Vukic, Aleksandar
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:00'
 ice_hockey: []
 table_tennis:
 - id: 72220362
@@ -183,3 +192,21 @@ table_tennis:
     away: 3
   status: result
   time: 03:25
+- id: 72236570
+  teams:
+    home: Juzek, Sebastian
+    away: Jesiek, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 05:40
+- id: 72244976
+  teams:
+    home: Qiu, Dang
+    away: Togami, Shunsuke
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 09:35
