@@ -1,203 +1,95 @@
-soccer:
-- id: 70531718
-  teams:
-    home: CA Colegiales
-    away: Quilmes AC
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '18:00'
-- id: 70531714
-  teams:
-    home: Club Almagro
-    away: Club Atletico Atlanta
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:00'
-- id: 70531700
-  teams:
-    home: Club Ciudad de Bolivar
-    away: CA Estudiantes
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '18:00'
-- id: 70531688
-  teams:
-    home: San Telmo
-    away: Racing de Cordoba
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:00'
-- id: 70531690
-  teams:
-    home: Club Atletico Acassuso
-    away: CA San Miguel
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '18:30'
-basketball:
-- id: 72105588
-  teams:
-    home: Valencia
-    away: Barcelona
-  score:
-    home: 102
-    away: 75
-  status: result
-  time: '18:00'
-- id: 72072406
-  teams:
-    home: Penarol
-    away: Aguada
-  score:
-    home: 80
-    away: 71
-  status: result
-  time: 00:15
-- id: 68096188
-  teams:
-    home: Golden State
-    away: Minnesota
-  score:
-    home: 75
-    away: 81
-  status: result
-  time: 02:00
-- id: 68096180
-  teams:
-    home: Atlanta
-    away: Indiana
-  score:
-    home: 113
-    away: 96
-  status: result
-  time: '17:00'
-- id: 68096406
-  teams:
-    home: Phoenix
-    away: Seattle
-  score:
-    home: 93
-    away: 73
-  status: result
-  time: '19:00'
-tennis:
-- id: 72228834
-  teams:
-    home: Arnaldi, Matteo
-    away: Gray, Alastair
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:00'
-- id: 72228832
-  teams:
-    home: Samuel, Toby
-    away: Halys, Quentin
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:00'
-- id: 72228824
-  teams:
-    home: Wendelken, Harry
-    away: Vukic, Aleksandar
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '12:25'
-- id: 72228826
-  teams:
-    home: Nava, Emilio
-    away: Stewart, Hamish
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '13:40'
-- id: 72228828
-  teams:
-    home: Gill, Felix
-    away: Trungelliti, Marco
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '14:10'
-- id: 72228830
-  teams:
-    home: Duckworth, James
-    away: Hussey, Giles
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:30'
-- id: 72228822
-  teams:
-    home: Giron, Marcos
-    away: Broom, Charles
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '17:00'
-- id: 72228820
-  teams:
-    home: Choinski, Jan
-    away: Wu, Yibing
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '17:45'
-- id: 72025856
-  teams:
-    home: Zverev, Alexander
-    away: Fritz, Taylor
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '13:00'
-- id: 72025854
-  teams:
-    home: Altmaier, Daniel
-    away: Tiafoe, Frances
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '16:10'
+soccer: []
+basketball: []
+tennis: []
 ice_hockey: []
 table_tennis:
-- id: 72195994
+- id: 72219748
   teams:
-    home: Dolezal, Vaclav
-    away: Stuchlik, Pavel
+    home: Picek, Petr
+    away: Fisera, Milan
   score:
     home: 3
-    away: 2
+    away: 0
   status: result
   time: 00:00
-- id: 72196026
+- id: 72220338
   teams:
-    home: Svoboda, Adam
-    away: Steffan, Jan
+    home: Briza, Frantisek
+    away: Plachy, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 72219998
+  teams:
+    home: Franek, Tomas
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 72219762
+  teams:
+    home: Pleskot, Jan
+    away: Smrcek, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 72219782
+  teams:
+    home: Fisera, Milan
+    away: Kolar, Milan
   score:
     home: 0
     away: 3
   status: result
-  time: 00:00
+  time: 01:00
+- id: 72219936
+  teams:
+    home: Urbaniec, Radim
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 72220348
+  teams:
+    home: Vedmoch, Michal
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 72220334
+  teams:
+    home: Plachy, Jiri
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 01:30
+- id: 72219768
+  teams:
+    home: Smrcek, Milan
+    away: Picek, Petr
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 01:30
+- id: 72220004
+  teams:
+    home: Zahradka, Michal
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 01:30
