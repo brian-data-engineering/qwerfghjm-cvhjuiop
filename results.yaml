@@ -6,9 +6,9 @@ tennis:
     home: Stewart, Hamish
     away: Vukic, Aleksandar
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '10:00'
 ice_hockey: []
 table_tennis:
@@ -174,39 +174,318 @@ table_tennis:
     away: 1
   status: result
   time: 02:30
-- id: 72224876
+- id: 72238984
   teams:
-    home: Lewczuk, Miroslaw
-    away: Chojnacki, Pawel
+    home: Boruvka, Lukas
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 72239110
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Zika, Tadeas
   score:
     home: 3
     away: 1
   status: result
-  time: 02:10
-- id: 72236508
+  time: '10:00'
+- id: 72239058
   teams:
-    home: Idaczyk, Rafal
-    away: Sokolowski, Oliwier
+    home: Regner, Tomas
+    away: Trinta, Mihail
   score:
     home: 2
     away: 3
   status: result
-  time: 03:25
-- id: 72236570
+  time: '10:00'
+- id: 72238886
   teams:
-    home: Juzek, Sebastian
-    away: Jesiek, Jakub
+    home: Sedlacek, Michael
+    away: Paril, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 72238884
+  teams:
+    home: Tuma, Daniel
+    away: Vinter, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 72238958
+  teams:
+    home: Cermak, Vladimir
+    away: Just, Frantisek
   score:
     home: 0
     away: 3
   status: result
-  time: 05:40
-- id: 72244976
+  time: '10:30'
+- id: 72239166
   teams:
-    home: Qiu, Dang
-    away: Togami, Shunsuke
+    home: Dousek, Tomas
+    away: Szwarc, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 72239098
+  teams:
+    home: Malek, Lukas
+    away: Framberk, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 72238914
+  teams:
+    home: Medek, Josef
+    away: Cernik, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 72238818
+  teams:
+    home: Szotkowski, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 72238878
+  teams:
+    home: Paril, Ondrej
+    away: Szotkowski, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 72239104
+  teams:
+    home: Trinta, Mihail
+    away: Malek, Lukas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72238882
+  teams:
+    home: Vinter, Tomas
+    away: Cermak, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 72238982
+  teams:
+    home: Zajicek, Jan
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 72239164
+  teams:
+    home: Zika, Tadeas
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72238892
+  teams:
+    home: Cernik, Jan
+    away: Boruvka, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72239092
+  teams:
+    home: Framberk, Jan
+    away: Regner, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72238858
+  teams:
+    home: Just, Frantisek
+    away: Tuma, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72238868
+  teams:
+    home: Kratochvil, Michal
+    away: Sedlacek, Michael
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72239054
+  teams:
+    home: Szwarc, Matej
+    away: Opanasiuk, Dmytro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72238930
+  teams:
+    home: Boruvka, Lukas
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72239122
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Dousek, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72239060
+  teams:
+    home: Regner, Tomas
+    away: Malek, Lukas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72238814
+  teams:
+    home: Sedlacek, Michael
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72238872
+  teams:
+    home: Tuma, Daniel
+    away: Cermak, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72238866
+  teams:
+    home: Paril, Ondrej
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:30'
+- id: 72239144
+  teams:
+    home: Trinta, Mihail
+    away: Framberk, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:30'
+- id: 72238934
+  teams:
+    home: Vinter, Tomas
+    away: Just, Frantisek
   score:
     home: 2
     away: 3
   status: recentlyended
-  time: 09:35
+  time: '12:30'
+- id: 72238976
+  teams:
+    home: Zajicek, Jan
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:30'
+- id: 72239072
+  teams:
+    home: Zika, Tadeas
+    away: Szwarc, Matej
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 72261596
+  teams:
+    home: Malek, Lukas
+    away: Framberk, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:00'
+- id: 72261566
+  teams:
+    home: Szotkowski, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:00'
+- id: 72261576
+  teams:
+    home: Szwarc, Matej
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:00'
+- id: 72261592
+  teams:
+    home: Vinter, Tomas
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:00'
+- id: 72261604
+  teams:
+    home: Cernik, Jan
+    away: Medek, Josef
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:05'
