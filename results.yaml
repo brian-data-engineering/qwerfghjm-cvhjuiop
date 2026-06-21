@@ -15,7 +15,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70531720
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70531716
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70531698
   teams:
@@ -51,7 +51,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 70531694
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 70531712
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 70531704
   teams:
@@ -77,8 +77,8 @@ soccer:
     away: Gimnasia Jujuy
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: recentlyended
   time: '20:00'
 - id: 71861648
   teams:
@@ -123,7 +123,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 68822988
   teams:
@@ -131,8 +131,8 @@ soccer:
     away: EC Juventude
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '20:00'
 basketball:
 - id: 72195868
@@ -185,9 +185,9 @@ basketball:
     home: Las Vegas Aces
     away: Golden State
   score:
-    home: 49
-    away: 30
-  status: live
+    home: 92
+    away: 73
+  status: recentlyended
   time: '20:00'
 tennis:
 - id: 72244780
@@ -430,8 +430,8 @@ tennis:
     away: Couto Loureiro, Joao Victor
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:55'
 - id: 72244844
   teams:
@@ -1954,7 +1954,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72239150
   teams:
@@ -1962,8 +1962,8 @@ table_tennis:
     away: Velicka, Lukas
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '20:30'
 - id: 72239100
   teams:
@@ -1971,8 +1971,8 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '20:30'
 - id: 72238962
   teams:
@@ -1981,7 +1981,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72238848
   teams:
@@ -1990,7 +1990,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72238974
   teams:
@@ -1999,5 +1999,86 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
+- id: 72264568
+  teams:
+    home: Machander, Dalimil
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:00'
+- id: 72264564
+  teams:
+    home: Pavelka, Radim
+    away: Krticka, Lubos
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '21:00'
+- id: 72264556
+  teams:
+    home: Vondrak, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '21:00'
+- id: 72264570
+  teams:
+    home: Heczko, David
+    away: Walek, Adrian
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '21:30'
+- id: 72264558
+  teams:
+    home: Sopko, Martin
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '21:30'
+- id: 72264566
+  teams:
+    home: Tuma, Daniel
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '21:30'
+- id: 72238938
+  teams:
+    home: Bayer, Alesh
+    away: Cermak, Vladimir
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '22:00'
+- id: 72239124
+  teams:
+    home: Postelt, Vladimir
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:00'
+- id: 72238816
+  teams:
+    home: Stefek, Martin
+    away: Cetner, Milan
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '22:00'
