@@ -1,5 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72195868
+  teams:
+    home: AS Monaco
+    away: Paris Basketball
+  score:
+    home: 54
+    away: 33
+  status: live
+  time: '16:00'
+- id: 72229976
+  teams:
+    home: B. Munich
+    away: Alba
+  score:
+    home: 81
+    away: 84
+  status: recentlyended
+  time: '14:30'
 tennis:
 - id: 72244780
   teams:
@@ -17,7 +35,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '12:45'
 - id: 72245628
   teams:
@@ -25,8 +43,8 @@ tennis:
     away: Choinski, Jan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:10'
 - id: 72244982
   teams:
@@ -35,7 +53,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:15'
 - id: 72025852
   teams:
@@ -60,10 +78,154 @@ tennis:
     home: Cerundolo, Francisco
     away: Paul, Tommy
   score:
-    home: 1
+    home: 2
+    away: 1
+  status: result
+  time: '12:30'
+- id: 72028536
+  teams:
+    home: Heliovaara H / Patten H
+    away: Arevalo M / Pavic M
+  score:
+    home: 0
     away: 1
   status: live
+  time: '16:30'
+- id: 72244318
+  teams:
+    home: Borges, Nuno
+    away: Mannarino, Adrian
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:30'
+- id: 72244312
+  teams:
+    home: Navone, Mariano
+    away: Sonego, Lorenzo
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72244322
+  teams:
+    home: Hanfmann, Yannick
+    away: Vallejo, Adolfo Daniel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:20'
+- id: 72243372
+  teams:
+    home: Molcan, Alex
+    away: Cassone, Murphy
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
+- id: 72242642
+  teams:
+    home: Walton, Adam
+    away: Ghibaudo, Antoine
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 72244058
+  teams:
+    home: Svajda, Zachary
+    away: Dzumhur, Damir
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:55'
+- id: 72244162
+  teams:
+    home: Shelbayh, Abdullah
+    away: Polmans, Marc
+  score:
+    home: 0
+    away: 2
+  status: result
   time: '12:30'
+- id: 72247704
+  teams:
+    home: Cigarran, Thiago
+    away: Ortenblad Nogueira, Henrique
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 72247692
+  teams:
+    home: Leite, Wilson
+    away: Camargo Lima, Enzo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 72247688
+  teams:
+    home: Zanellato, Nicolas
+    away: Schenekenberg, Gabriel
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 72247702
+  teams:
+    home: Remondy Pagotto, Victor Hugo
+    away: Andrade Da Silva, Lucas
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:50'
+- id: 72247690
+  teams:
+    home: Souza, Andre
+    away: Tosetto, Rafael
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '15:05'
+- id: 72247686
+  teams:
+    home: Hayen, Alejandro
+    away: Martinez, Tomas
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '15:30'
+- id: 72247700
+  teams:
+    home: de Almeida, Gustavo Ribeiro
+    away: Rodrigues Longobardi, Pedro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:40'
+- id: 72247696
+  teams:
+    home: Parisca Romera, Ignacio
+    away: Braga, Victor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:50'
 ice_hockey: []
 table_tennis:
 - id: 72220362
@@ -1054,7 +1216,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 72238826
   teams:
@@ -1090,7 +1252,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72239112
   teams:
@@ -1099,7 +1261,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72239084
   teams:
@@ -1108,7 +1270,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72238954
   teams:
@@ -1117,7 +1279,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72238942
   teams:
@@ -1126,5 +1288,140 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 72238926
+  teams:
+    home: Boruvka, Lukas
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72238842
+  teams:
+    home: Cermak, Vladimir
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72239090
+  teams:
+    home: Kowolowski, Miroslav
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72238828
+  teams:
+    home: Kratochvil, Michal
+    away: Szotkowski, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72239078
+  teams:
+    home: Trinta, Mihail
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72239062
+  teams:
+    home: Hrabec, Tomas
+    away: Hrabec, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72238932
+  teams:
+    home: Medek, Josef
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72239120
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72238832
+  teams:
+    home: Szotkowski, Jan
+    away: Opanasiuk, Dmytro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 72238880
+  teams:
+    home: Vondrak, Michal
+    away: Bayer, Alesh
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72238856
+  teams:
+    home: Cernik, Jan
+    away: Boruvka, Lukas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 72239096
+  teams:
+    home: Framberk, Jan
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 72239118
+  teams:
+    home: Guliak, Roman
+    away: Kowolowski, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 72238904
+  teams:
+    home: Sopko, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 72238964
+  teams:
+    home: Zika, Tadeas
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:30'
