@@ -1,5 +1,41 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71828184
+  teams:
+    home: Hapoel Galil Elyon
+    away: Netanya
+  score:
+    home: 89
+    away: 84
+  status: result
+  time: '15:30'
+- id: 71828182
+  teams:
+    home: Maccabi Raanana
+    away: Ziona
+  score:
+    home: 74
+    away: 90
+  status: live
+  time: '17:50'
+- id: 72105590
+  teams:
+    home: Barcelona
+    away: Valencia
+  score:
+    home: 64
+    away: 73
+  status: live
+  time: '18:00'
+- id: 68096094
+  teams:
+    home: LA Sparks
+    away: NY Liberty
+  score:
+    home: 98
+    away: 97
+  status: result
+  time: 00:00
 tennis:
 - id: 72243340
   teams:
