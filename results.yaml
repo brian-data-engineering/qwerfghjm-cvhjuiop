@@ -1,779 +1,167 @@
 soccer: []
-basketball:
-- id: 71828184
-  teams:
-    home: Hapoel Galil Elyon
-    away: Netanya
-  score:
-    home: 89
-    away: 84
-  status: result
-  time: '15:30'
-- id: 71828182
-  teams:
-    home: Maccabi Raanana
-    away: Ziona
-  score:
-    home: 77
-    away: 92
-  status: result
-  time: '17:50'
-- id: 72105590
-  teams:
-    home: Barcelona
-    away: Valencia
-  score:
-    home: 80
-    away: 88
-  status: result
-  time: '18:00'
-- id: 68096094
-  teams:
-    home: LA Sparks
-    away: NY Liberty
-  score:
-    home: 98
-    away: 97
-  status: result
-  time: 00:00
-- id: 68096294
-  teams:
-    home: Connecticut
-    away: Chicago
-  score:
-    home: 30
-    away: 23
-  status: live
-  time: '23:00'
-tennis:
-- id: 72243340
-  teams:
-    home: Diallo, Gabriel
-    away: Atmane, Terence
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:00'
+basketball: []
+tennis: []
 ice_hockey: []
 table_tennis:
-- id: 72238936
+- id: 72256260
   teams:
-    home: Dolezal, Vaclav
-    away: Strnad, Jaroslav (1964)
+    home: Brozik, Karel
+    away: Schopf, Karel
   score:
     home: 1
     away: 3
   status: result
   time: 00:00
-- id: 72239162
+- id: 72256382
   teams:
-    home: Picek, Petr
+    home: Hasmanda, Rostislav
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:00
+- id: 72256426
+  teams:
+    home: Kouble, Daniel
     away: Darin, Kyryl
   score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:00
-- id: 72238836
-  teams:
-    home: Sychra, Martin
-    away: Klement, Milan
-  score:
     home: 2
     away: 3
   status: result
   time: 00:00
-- id: 72238946
+- id: 72256340
   teams:
-    home: Cermak, Vladimir
-    away: Tazler, Jakub
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 00:30
-- id: 72238900
-  teams:
-    home: Cetner, Milan
-    away: Vitrovyj, Oleg
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:30
-- id: 72239148
-  teams:
-    home: Dedek, Jiri
-    away: Fojt, Pavel
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:30
-- id: 72239140
-  teams:
-    home: Darin, Kyryl
+    home: Parhomenko, Dmitro
     away: Postelt, Vladimir
   score:
-    home: 1
+    home: 0
     away: 3
   status: result
-  time: 01:00
-- id: 72238970
-  teams:
-    home: Klement, Milan
-    away: Bayer, Alesh
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 01:00
-- id: 72238804
-  teams:
-    home: Strnad, Jaroslav (1964)
-    away: Stefek, Martin
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 01:00
-- id: 72239052
-  teams:
-    home: Fojt, Pavel
-    away: Picek, Petr
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 01:30
-- id: 72238910
-  teams:
-    home: Tazler, Jakub
-    away: Sychra, Martin
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:30
-- id: 72238956
+  time: 00:30
+- id: 72256220
   teams:
     home: Vitrovyj, Oleg
-    away: Dolezal, Vaclav
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 01:30
-- id: 72239138
-  teams:
-    home: Darin, Kyryl
-    away: Dedek, Jiri
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:00
-- id: 72238844
-  teams:
-    home: Klement, Milan
-    away: Cermak, Vladimir
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:00
-- id: 72238948
-  teams:
-    home: Strnad, Jaroslav (1964)
-    away: Cetner, Milan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 02:00
-- id: 72238854
-  teams:
-    home: Dolezal, Vaclav
-    away: Stefek, Martin
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:30
-- id: 72239106
-  teams:
-    home: Picek, Petr
-    away: Postelt, Vladimir
+    away: Kucirek, Ondrej
   score:
     home: 1
     away: 3
   status: result
-  time: 02:30
-- id: 72238810
+  time: 00:30
+- id: 72256244
   teams:
-    home: Sychra, Martin
+    home: Zuzanek, Jiri
     away: Bayer, Alesh
   score:
     home: 3
-    away: 0
-  status: result
-  time: 02:30
-- id: 72266618
-  teams:
-    home: Cermak, Vladimir
-    away: Tazler, Jakub
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 03:00
-- id: 72266626
-  teams:
-    home: Dedek, Jiri
-    away: Darin, Kyryl
-  score:
-    home: 3
     away: 1
   status: result
-  time: 03:00
-- id: 72266622
-  teams:
-    home: Dolezal, Vaclav
-    away: Cetner, Milan
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 03:00
-- id: 72266620
-  teams:
-    home: Klement, Milan
-    away: Sychra, Martin
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:30
-- id: 72266628
-  teams:
-    home: Postelt, Vladimir
-    away: Fojt, Pavel
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 03:30
-- id: 72266624
-  teams:
-    home: Strnad, Jaroslav (1964)
-    away: Vitrovyj, Oleg
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:30
-- id: 72256396
-  teams:
-    home: Cabak, Josef
-    away: Vavrecka, Radomir
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:00
-- id: 72256332
+  time: 00:30
+- id: 72256402
   teams:
     home: Darin, Kyryl
-    away: Parhomenko, Dmitro
+    away: Pycha, Patrik
   score:
-    home: 0
+    home: 1
     away: 3
   status: result
-  time: 06:00
-- id: 72256290
+  time: 01:00
+- id: 72256394
   teams:
-    home: Didi, Julius
-    away: Hruska, Vaclav Senior
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:00
-- id: 72256322
-  teams:
-    home: Grohsgott, Jiri
-    away: Svec, Jiri
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:00
-- id: 72256442
-  teams:
-    home: Zika, Tadeas
-    away: Wawrosz, Pavel
+    home: Kosar, Vaclav
+    away: Trinta, Mihail
   score:
     home: 3
     away: 2
   status: result
-  time: 06:00
-- id: 72256250
+  time: 01:00
+- id: 72256238
   teams:
-    home: Adamczyk, Vladimir
-    away: Byrtus, Samuel
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:30
-- id: 72256342
-  teams:
-    home: Chalupnicek, Milan
-    away: Madle, Ludek
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:30
-- id: 72256320
-  teams:
-    home: Kulhanek, Pavel
-    away: Regner, Milan
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:30
-- id: 72256318
-  teams:
-    home: Revay, Radomir
-    away: Vavrecka, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:30
-- id: 72256314
-  teams:
-    home: Vedmoch, Michal
-    away: Plachy, Jiri
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 06:30
-- id: 72256198
-  teams:
-    home: Hruska, Vaclav Senior
-    away: Chalupnicek, Milan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:00
-- id: 72256248
-  teams:
-    home: Parhomenko, Dmitro
-    away: Vedmoch, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:00
-- id: 72256324
-  teams:
-    home: Svec, Jiri
-    away: Kulhanek, Pavel
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:00
-- id: 72256242
-  teams:
-    home: Vavrecka, Radomir
-    away: Adamczyk, Vladimir
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 07:00
-- id: 72256304
-  teams:
-    home: Wawrosz, Pavel
-    away: Revay, Radomir
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 07:00
-- id: 72256334
-  teams:
-    home: Byrtus, Samuel
-    away: Cabak, Josef
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:30
-- id: 72256408
-  teams:
-    home: Madle, Ludek
-    away: Didi, Julius
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:30
-- id: 72256236
-  teams:
-    home: Plachy, Jiri
-    away: Darin, Kyryl
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 07:30
-- id: 72256270
-  teams:
-    home: Regner, Milan
-    away: Grohsgott, Jiri
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:30
-- id: 72256216
-  teams:
-    home: Vavrecka, Michal
-    away: Zika, Tadeas
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 07:30
-- id: 72256312
-  teams:
-    home: Cabak, Josef
-    away: Adamczyk, Vladimir
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 08:00
-- id: 72256300
-  teams:
-    home: Darin, Kyryl
-    away: Vedmoch, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:00
-- id: 72256354
-  teams:
-    home: Didi, Julius
-    away: Chalupnicek, Milan
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 08:00
-- id: 72256356
-  teams:
-    home: Grohsgott, Jiri
-    away: Kulhanek, Pavel
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:00
-- id: 72256196
-  teams:
-    home: Zika, Tadeas
-    away: Revay, Radomir
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 08:00
-- id: 72256344
-  teams:
-    home: Hruska, Vaclav Senior
-    away: Madle, Ludek
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:30
-- id: 72256222
-  teams:
-    home: Parhomenko, Dmitro
-    away: Plachy, Jiri
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:30
-- id: 72256280
-  teams:
-    home: Svec, Jiri
-    away: Regner, Milan
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 08:30
-- id: 72256182
-  teams:
-    home: Vavrecka, Radomir
-    away: Byrtus, Samuel
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 08:30
-- id: 72256398
-  teams:
-    home: Wawrosz, Pavel
-    away: Vavrecka, Michal
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:30
-- id: 72278314
-  teams:
-    home: Cabak, Josef
-    away: Adamczyk, Vladimir
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:00
-- id: 72278348
-  teams:
-    home: Darin, Kyryl
-    away: Vedmoch, Michal
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:00
-- id: 72278376
-  teams:
-    home: Madle, Ludek
-    away: Chalupnicek, Milan
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 09:00
-- id: 72278288
-  teams:
-    home: Vavrecka, Michal
-    away: Wawrosz, Pavel
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:00
-- id: 72278384
-  teams:
-    home: Svec, Jiri
-    away: Grohsgott, Jiri
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 09:05
-- id: 72278318
-  teams:
-    home: Byrtus, Samuel
-    away: Vavrecka, Radomir
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:30
-- id: 72278378
-  teams:
-    home: Didi, Julius
-    away: Hruska, Vaclav Senior
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:30
-- id: 72278374
-  teams:
-    home: Parhomenko, Dmitro
-    away: Plachy, Jiri
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:30
-- id: 72278406
-  teams:
-    home: Regner, Milan
-    away: Kulhanek, Pavel
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 09:30
-- id: 72278320
-  teams:
-    home: Zika, Tadeas
-    away: Revay, Radomir
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:30
-- id: 72256276
-  teams:
-    home: Kolisnyk, Oleksandr
-    away: Regner, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:00'
-- id: 72256288
-  teams:
-    home: Martinak, Lukas
-    away: Walek, Adrian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:00'
-- id: 72256564
-  teams:
-    home: Opanasiuk, Dmytro
-    away: Revay, Radomir
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '10:00'
-- id: 72256256
-  teams:
-    home: Vedmoch, Michal
-    away: Plachy, Jiri
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:00'
-- id: 72256336
-  teams:
-    home: Wolf, Filip
-    away: Mecl Jr, Jan
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '10:00'
-- id: 72256268
-  teams:
-    home: Darin, Kyryl
-    away: Parhomenko, Dmitro
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:30'
-- id: 72256224
-  teams:
-    home: Hofman, Denis
-    away: Kolar, Vlastimil
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '10:30'
-- id: 72256374
-  teams:
-    home: Ruzicka, Jiri
-    away: Mares, Erik
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '10:30'
-- id: 72256666
-  teams:
-    home: Skacelik, Richard
-    away: Adamczyk, Vladimir
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '10:30'
-- id: 72256592
-  teams:
-    home: Zika, Tadeas
-    away: Vavrecka, Michal
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '10:30'
-- id: 72256246
-  teams:
-    home: Mecl Jr, Jan
-    away: Ruzicka, Jiri
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '11:00'
-- id: 72256346
-  teams:
-    home: Plachy, Jiri
-    away: Darin, Kyryl
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:00'
-- id: 72256208
-  teams:
-    home: Regner, Michal
+    home: Schopf, Karel
     away: Hofman, Denis
   score:
-    home: 0
-    away: 3
+    home: 3
+    away: 2
   status: result
-  time: '11:00'
-- id: 72256566
+  time: 01:00
+- id: 72256364
   teams:
-    home: Revay, Radomir
-    away: Zika, Tadeas
+    home: Bayer, Alesh
+    away: Brozik, Karel
   score:
     home: 3
     away: 2
   status: result
-  time: '11:00'
-- id: 72256194
+  time: 01:30
+- id: 72256348
   teams:
-    home: Walek, Adrian
-    away: Skacelik, Richard
+    home: Kucirek, Ondrej
+    away: Hasmanda, Rostislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 72256262
+  teams:
+    home: Postelt, Vladimir
+    away: Kouble, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 72256274
+  teams:
+    home: Darin, Kyryl
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 72256410
+  teams:
+    home: Kosar, Vaclav
+    away: Vitrovyj, Oleg
   score:
     home: 2
     away: 3
   status: result
-  time: '11:00'
-- id: 72256668
+  time: 02:00
+- id: 72256392
   teams:
-    home: Adamczyk, Vladimir
-    away: Martinak, Lukas
+    home: Schopf, Karel
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 72256254
+  teams:
+    home: Brozik, Karel
+    away: Hofman, Denis
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 72256308
+  teams:
+    home: Hasmanda, Rostislav
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 72256228
+  teams:
+    home: Kouble, Daniel
+    away: Pycha, Patrik
   score:
     home: 0
     away: 3
   status: result
-  time: '11:30'
+  time: 02:30
