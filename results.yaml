@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 72185794
+  teams:
+    home: Nueva Chicago
+    away: Atletico de Rafaela
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:30'
 basketball:
 - id: 72263784
   teams:
@@ -7,7 +16,7 @@ basketball:
   score:
     home: 92
     away: 101
-  status: recentlyended
+  status: result
   time: '19:10'
 - id: 72001676
   teams:
@@ -1585,7 +1594,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72277194
   teams:
@@ -1612,7 +1621,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72278008
   teams:
@@ -1623,3 +1632,30 @@ table_tennis:
     away: 3
   status: result
   time: '20:30'
+- id: 72278040
+  teams:
+    home: Bruzek, Petr
+    away: Svoboda, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
+- id: 72278150
+  teams:
+    home: Svacha, Ondrej
+    away: Franek, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:00'
+- id: 72278082
+  teams:
+    home: Sychra, Martin
+    away: Schopf, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '22:00'
