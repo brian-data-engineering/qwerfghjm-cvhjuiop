@@ -1,5 +1,59 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72263784
+  teams:
+    home: Paris Basketball
+    away: AS Monaco
+  score:
+    home: 92
+    away: 101
+  status: recentlyended
+  time: '19:10'
+- id: 72001676
+  teams:
+    home: China
+    away: Netherlands
+  score:
+    home: 65
+    away: 60
+  status: result
+  time: '11:30'
+- id: 72265290
+  teams:
+    home: Hapoel Tel-Aviv
+    away: Maccabi Tel-Aviv
+  score:
+    home: 79
+    away: 83
+  status: result
+  time: '17:50'
+- id: 72167632
+  teams:
+    home: Aguada
+    away: Penarol
+  score:
+    home: 92
+    away: 107
+  status: result
+  time: 00:15
+- id: 68164612
+  teams:
+    home: Indiana
+    away: Phoenix
+  score:
+    home: 86
+    away: 77
+  status: result
+  time: 00:00
+- id: 68096044
+  teams:
+    home: Seattle
+    away: Dallas
+  score:
+    home: 110
+    away: 112
+  status: result
+  time: 02:00
 tennis:
 - id: 72263196
   teams:
@@ -1351,7 +1405,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72278148
   teams:
@@ -1360,7 +1414,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72277128
   teams:
@@ -1369,7 +1423,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72278030
   teams:
@@ -1378,7 +1432,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72278094
   teams:
@@ -1387,25 +1441,25 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72278158
   teams:
     home: Burdik, Vitezslav
     away: Wollny, Michal
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '19:00'
 - id: 72277118
   teams:
     home: Fojt, Pavel
     away: Vinter, Tomas
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '19:00'
 - id: 72278070
   teams:
@@ -1413,17 +1467,17 @@ table_tennis:
     away: Zurek, Filip
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '19:00'
 - id: 72278100
   teams:
     home: Hasmanda, Rostislav
     away: Nohejl, Vaclav (1975)
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:00'
 - id: 72278058
   teams:
@@ -1431,6 +1485,141 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '19:00'
+- id: 72277172
+  teams:
+    home: Dousa, Tomas
+    away: Janata, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72278178
+  teams:
+    home: Framberk, Jan
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72278108
+  teams:
+    home: Schneeberger, Antonin
+    away: Jasek, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72278000
+  teams:
+    home: Urbaniec, Radim
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:30'
+- id: 72278044
+  teams:
+    home: Zuzanek, Jiri
+    away: Kapras, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72277168
+  teams:
+    home: Janata, Tomas
+    away: Vinter, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72278140
+  teams:
+    home: Jasek, Milan
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72278110
+  teams:
+    home: Kapras, Karel
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72278104
+  teams:
+    home: Navedla, Matyas
+    away: Wollny, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:00'
+- id: 72278146
+  teams:
+    home: Steffan, Jan
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72278036
+  teams:
+    home: Burdik, Vitezslav
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:30'
+- id: 72277194
+  teams:
+    home: Fojt, Pavel
+    away: Dousa, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 72278182
+  teams:
+    home: Guliak, Roman
+    away: Schneeberger, Antonin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 72278194
+  teams:
+    home: Hasmanda, Rostislav
+    away: Framberk, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 72278008
+  teams:
+    home: Schopf, Karel
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
