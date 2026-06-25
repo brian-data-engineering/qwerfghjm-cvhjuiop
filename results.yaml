@@ -305,7 +305,16 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
+  time: '13:00'
+- id: 72290280
+  teams:
+    home: de Almeida, Gustavo Ribeiro
+    away: Saraiva Dos Santos, Paulo Andre
+  score:
+    home: 0
+    away: 2
+  status: result
   time: '13:00'
 - id: 72290272
   teams:
@@ -331,8 +340,8 @@ tennis:
     away: Rodriguez Taverna, Santiago
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '14:40'
 - id: 72247886
   teams:
@@ -340,8 +349,8 @@ tennis:
     away: La Serna, Juan Manuel
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 72290270
   teams:
@@ -358,18 +367,27 @@ tennis:
     away: Seyboth Wild, Thiago
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
-  time: '16:50'
+  time: '16:45'
 - id: 72290276
   teams:
     home: Zeitune, Maximo
     away: Zanellato, Nicolas
   score:
     home: 0
+    away: 1
+  status: live
+  time: '17:05'
+- id: 72247892
+  teams:
+    home: Kicker, Nicolas
+    away: Fernandez, Bruno
+  score:
+    home: 0
     away: 0
   status: live
-  time: '17:10'
+  time: '18:10'
 ice_hockey: []
 table_tennis:
 - id: 72317334
