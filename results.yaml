@@ -1,59 +1,32 @@
-soccer:
-- id: 71372316
-  teams:
-    home: Everton VM
-    away: U. Catolica
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:30
-- id: 71372318
-  teams:
-    home: La Serena
-    away: Cobresal
-  score:
-    home: 0
-    away: 0
-  status: result
-  time: '20:00'
+soccer: []
 basketball:
-- id: 72089364
+- id: 68164786
   teams:
-    home: Italy
-    away: Croatia
+    home: Chicago
+    away: Portland Fire
   score:
-    home: 103
-    away: 91
-  status: result
-  time: '17:30'
-- id: 72247646
-  teams:
-    home: Barcelona
-    away: Valencia
-  score:
-    home: 84
-    away: 108
-  status: result
-  time: '18:00'
-- id: 68096096
-  teams:
-    home: Las Vegas Aces
-    away: NY Liberty
-  score:
-    home: 76
-    away: 87
-  status: result
-  time: 02:00
+    home: 72
+    away: 60
+  status: live
+  time: 00:00
 tennis: []
 ice_hockey: []
 table_tennis:
-- id: 72278102
+- id: 72317334
   teams:
-    home: Regner, Michal
-    away: Tazler, Jakub
+    home: Parhomenko, Dmitro
+    away: Darin, Kyryl
   score:
     home: 1
     away: 3
+  status: result
+  time: 00:00
+- id: 72298942
+  teams:
+    home: Vales, Jakub
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 2
   status: result
   time: 00:00
