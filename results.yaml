@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 basketball:
 - id: 72021552
@@ -32,9 +32,9 @@ basketball:
     home: Portugal
     away: Switzerland
   score:
-    home: 34
-    away: 51
-  status: live
+    home: 79
+    away: 84
+  status: result
   time: '18:00'
 - id: 68096128
   teams:
@@ -196,9 +196,27 @@ tennis:
     away: Pucinelli, Matheus
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:35'
+- id: 72165816
+  teams:
+    home: Villanueva, Gonzalo
+    away: Aboian, Valerio
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 72165812
+  teams:
+    home: Hardt, Nick
+    away: La Serna, Juan Manuel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:00'
 ice_hockey: []
 table_tennis:
 - id: 72316998
@@ -1407,6 +1425,96 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 72367996
+  teams:
+    home: Proksa, Marcel
+    away: Motak, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72368102
+  teams:
+    home: Svec, Jiri
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72367850
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72367860
+  teams:
+    home: Vejvoda, Viktor
+    away: Hofman, Denis
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72367988
+  teams:
+    home: Zurek, Filip
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 72368046
+  teams:
+    home: Derco, Michal
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 72367990
+  teams:
+    home: Guliak, Roman
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 72368104
+  teams:
+    home: Levicky, Matej
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 72367852
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 72367862
+  teams:
+    home: Sychra, Martin
+    away: Kolar, Vlastimil
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
 - id: 72335772
   teams:
     home: Kratochvil, Michal
@@ -1441,7 +1549,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72335546
   teams:
@@ -1450,34 +1558,34 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72335790
   teams:
     home: Blejchar, Marek
     away: Bosak, Vitezslav
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 72335630
   teams:
     home: Chalupa, Michal
     away: Hudeczek, Roman
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 72335582
   teams:
     home: Jungman, Filip
     away: Fisera, Milan
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 72335662
   teams:
@@ -1486,14 +1594,194 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72335554
   teams:
     home: Zajicek, Jan
     away: Medek, Josef
   score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 72335778
+  teams:
+    home: Holub, Marek
+    away: Chalupa, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72335804
+  teams:
+    home: Horak, David
+    away: Jungman, Filip
+  score:
     home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72335610
+  teams:
+    home: Kolar, Vlastimil
+    away: Vejvoda, Viktor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72335574
+  teams:
+    home: Kraninger, Tomas
+    away: Blejchar, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72335690
+  teams:
+    home: Vales, Jakub
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
+- id: 72335608
+  teams:
+    home: Bosak, Vitezslav
+    away: Zidek, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72335652
+  teams:
+    home: Fisera, Milan
+    away: Oborny, Dominik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72335570
+  teams:
+    home: Hudeczek, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72335668
+  teams:
+    home: Medek, Josef
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 72335752
+  teams:
+    home: Sychra, Martin
+    away: Rose, Radek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:30'
+- id: 72335624
+  teams:
+    home: Kratochvil, Michal
+    away: Zajicek, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 72335830
+  teams:
+    home: Oborny, Dominik
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72335622
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 72335572
+  teams:
+    home: Rose, Radek
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 72335586
+  teams:
+    home: Zidek, Vaclav
+    away: Blejchar, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72335800
+  teams:
+    home: Holub, Marek
+    away: Hudeczek, Roman
+  score:
+    home: 1
     away: 2
   status: live
-  time: '18:30'
+  time: '20:30'
+- id: 72335550
+  teams:
+    home: Horak, David
+    away: Fisera, Milan
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '20:30'
+- id: 72335676
+  teams:
+    home: Kolar, Vlastimil
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 72335806
+  teams:
+    home: Kraninger, Tomas
+    away: Bosak, Vitezslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 72335680
+  teams:
+    home: Vales, Jakub
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:30'
