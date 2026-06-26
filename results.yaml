@@ -17,6 +17,15 @@ soccer:
     away: 1
   status: result
   time: '17:00'
+- id: 68823008
+  teams:
+    home: Novorizontino
+    away: Vila Nova
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:00'
 basketball:
 - id: 72021552
   teams:
@@ -224,7 +233,7 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '21:00'
 ice_hockey: []
 table_tennis:
@@ -1801,16 +1810,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 72335764
   teams:
     home: Levicky, Matej
     away: Mutl, David
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '22:00'
 - id: 72335740
   teams:
@@ -1819,5 +1828,86 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:00'
+- id: 72335812
+  teams:
+    home: Havrda, Leos
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:30'
+- id: 72335770
+  teams:
+    home: Pleskot, Jan
+    away: Kucirek, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '22:30'
+- id: 72335566
+  teams:
+    home: Vales, Jakub
+    away: Opanasiuk, Dmytro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '22:30'
+- id: 72335746
+  teams:
+    home: Kosar, Vaclav
+    away: Vitrovyj, Oleg
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 72335578
+  teams:
+    home: Mutl, David
+    away: Drazan, Pavel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '23:00'
+- id: 72335722
+  teams:
+    home: Postelt, Tomas
+    away: Bilek, Zdenek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 72335824
+  teams:
+    home: Bartunek, Radek
+    away: Pleskot, Jan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:30'
+- id: 72335628
+  teams:
+    home: Levicky, Matej
+    away: Havrda, Leos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:30'
+- id: 72335602
+  teams:
+    home: Mares, Erik
+    away: Vales, Jakub
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '23:30'
