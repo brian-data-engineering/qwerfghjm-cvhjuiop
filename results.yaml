@@ -197,7 +197,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:35'
 - id: 72165816
   teams:
@@ -206,17 +206,26 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72165812
   teams:
     home: Hardt, Nick
     away: La Serna, Juan Manuel
   score:
-    home: 0
-    away: 1
-  status: live
+    home: null
+    away: null
+  status: result
   time: '20:00'
+- id: 72165814
+  teams:
+    home: Kicker, Nicolas
+    away: Seyboth Wild, Thiago
+  score:
+    home: null
+    away: null
+  status: recentlyended
+  time: '21:00'
 ice_hockey: []
 table_tennis:
 - id: 72316998
@@ -1702,7 +1711,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72335830
   teams:
@@ -1720,7 +1729,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72335572
   teams:
@@ -1729,7 +1738,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72335586
   teams:
@@ -1745,18 +1754,18 @@ table_tennis:
     home: Holub, Marek
     away: Hudeczek, Roman
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:30'
 - id: 72335550
   teams:
     home: Horak, David
     away: Fisera, Milan
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:30'
 - id: 72335676
   teams:
@@ -1765,7 +1774,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72335806
   teams:
@@ -1774,7 +1783,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72335680
   teams:
@@ -1783,5 +1792,32 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:30'
+- id: 72335794
+  teams:
+    home: Bartunek, Radek
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:00'
+- id: 72335764
+  teams:
+    home: Levicky, Matej
+    away: Mutl, David
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '22:00'
+- id: 72335740
+  teams:
+    home: Mares, Erik
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:00'
