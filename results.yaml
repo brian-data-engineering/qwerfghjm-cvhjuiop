@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 72165922
+  teams:
+    home: Bergs, Zizou
+    away: Samuel, Toby
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:30'
 ice_hockey: []
 table_tennis:
 - id: 72316998
@@ -685,7 +694,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72335688
   teams:
@@ -703,7 +712,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72335768
   teams:
@@ -712,7 +721,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72335568
   teams:
@@ -720,8 +729,8 @@ table_tennis:
     away: Havlicek, Vladimir
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:30'
 - id: 72335808
   teams:
@@ -730,7 +739,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 72335776
   teams:
@@ -738,17 +747,17 @@ table_tennis:
     away: Ruzicka, Jiri
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:30'
 - id: 72335674
   teams:
     home: Langer, Daniel
     away: Zurek, Filip
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '11:30'
 - id: 72335728
   teams:
@@ -757,5 +766,230 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:30'
+- id: 72335562
+  teams:
+    home: Chalupnicek, Milan
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72335730
+  teams:
+    home: Havlicek, Vladimir
+    away: Parhomenko, Dmitro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72335714
+  teams:
+    home: Polasek, Radovan
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72335716
+  teams:
+    home: Ruzicka, Jiri
+    away: Svechota, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72335820
+  teams:
+    home: Zurek, Filip
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 72335646
+  teams:
+    home: Bresky, Jaroslav
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 72335754
+  teams:
+    home: Cetner, Milan
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 72335590
+  teams:
+    home: Dousek, Tomas
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 72335684
+  teams:
+    home: Mecl Jr, Jan
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 72335640
+  teams:
+    home: Virag, Alexandr
+    away: Langer, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 72366362
+  teams:
+    home: Havlicek, Vladimir
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 72366908
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Chalupnicek, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 72366888
+  teams:
+    home: Polasek, Radovan
+    away: Revay, Radomir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 72366872
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 72366372
+  teams:
+    home: Zurek, Filip
+    away: Virag, Alexandr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72366890
+  teams:
+    home: Dousek, Tomas
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 72366370
+  teams:
+    home: Langer, Daniel
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 72366880
+  teams:
+    home: Mecl Jr, Jan
+    away: Svechota, Vojtech
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 72366366
+  teams:
+    home: Parhomenko, Dmitro
+    away: Bresky, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 72366912
+  teams:
+    home: Stefek, Martin
+    away: Cetner, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 72335810
+  teams:
+    home: Derco, Michal
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:00'
+- id: 72335592
+  teams:
+    home: Hrabec, Tomas
+    away: Priesol, Daniel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '14:00'
+- id: 72335692
+  teams:
+    home: Levicky, Matej
+    away: Svec, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:00'
+- id: 72335718
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 72335782
+  teams:
+    home: Vejvoda, Viktor
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
