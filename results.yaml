@@ -5,9 +5,9 @@ basketball:
     home: Golden State
     away: Atlanta
   score:
-    home: 48
-    away: 51
-  status: live
+    home: 78
+    away: 75
+  status: result
   time: 02:00
 tennis: []
 ice_hockey: []
@@ -174,3 +174,84 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 72362394
+  teams:
+    home: Adamczyk, Radek
+    away: Kanak, Alois
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:00
+- id: 72362348
+  teams:
+    home: Novotny, Ladislav
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 72362196
+  teams:
+    home: Parhomenko, Dmitro
+    away: Pavelka, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:00
+- id: 72362242
+  teams:
+    home: Regner, Michal
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 72362236
+  teams:
+    home: Vavrecka, Michal
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 72362232
+  teams:
+    home: Martinek, Jaroslav
+    away: Vrabec, Milan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 72362266
+  teams:
+    home: Navedla, Matyas
+    away: Plachta, Jakub
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:30
+- id: 72362120
+  teams:
+    home: Oborny, Dominik
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:30
+- id: 72362146
+  teams:
+    home: Sychra, Martin
+    away: Brozik, Karel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 06:30
