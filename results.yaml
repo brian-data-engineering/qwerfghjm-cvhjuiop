@@ -6,10 +6,55 @@ soccer:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: '11:30'
+- id: 71861660
+  teams:
+    home: Maxline Vitebsk
+    away: Naftan Novopolotsk
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:30'
 basketball: []
-tennis: []
+tennis:
+- id: 72165932
+  teams:
+    home: Bergs, Zizou
+    away: Humbert, Ugo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:35'
+- id: 72165672
+  teams:
+    home: Quinn, Ethan
+    away: Davidovich Fokina, Alejandro
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:10'
+- id: 72165728
+  teams:
+    home: Goransson A / King E
+    away: Arribage T / Olivetti A
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72165824
+  teams:
+    home: Pucinelli, Matheus
+    away: Villanueva, Gonzalo
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:30'
 ice_hockey: []
 table_tennis:
 - id: 72335732
