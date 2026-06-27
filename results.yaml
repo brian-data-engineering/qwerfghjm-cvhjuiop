@@ -51,7 +51,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 69255118
   teams:
@@ -67,10 +67,19 @@ soccer:
     home: Floresta EC
     away: Barra FC SC
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '19:00'
+- id: 69255134
+  teams:
+    home: Paysandu
+    away: Santa Cruz FC
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '20:00'
 basketball:
 - id: 72021566
   teams:
@@ -97,7 +106,7 @@ basketball:
   score:
     home: 80
     away: 89
-  status: recentlyended
+  status: result
   time: '18:00'
 tennis:
 - id: 72165672
@@ -168,18 +177,18 @@ tennis:
     home: Couto Loureiro J V / Rodrigues N
     away: Britto L / Villanueva G
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '19:15'
 - id: 72165844
   teams:
     home: Huertas Del Pino C / Huertas Del Pino Cordova A
     away: Oliveira B / Pucinelli de Almeida M
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '19:15'
 ice_hockey: []
 table_tennis:
