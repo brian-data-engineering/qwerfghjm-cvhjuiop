@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 68823012
   teams:
@@ -44,15 +44,42 @@ soccer:
     away: 0
   status: result
   time: '14:00'
+- id: 68823018
+  teams:
+    home: Criciuma EC
+    away: Sao Bernardo FC
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
+- id: 69255118
+  teams:
+    home: AA Internacional Limeira SP
+    away: Maringa FC
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '14:00'
+- id: 69255126
+  teams:
+    home: Floresta EC
+    away: Barra FC SC
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
 basketball:
 - id: 72021566
   teams:
     home: Slovenia
     away: Italy
   score:
-    home: 58
-    away: 59
-  status: live
+    home: 83
+    away: 86
+  status: result
   time: '18:00'
 - id: 68096224
   teams:
@@ -68,9 +95,9 @@ basketball:
     home: Toronto Tempo
     away: Phoenix
   score:
-    home: 57
-    away: 54
-  status: live
+    home: 80
+    away: 89
+  status: recentlyended
   time: '18:00'
 tennis:
 - id: 72165672
@@ -132,10 +159,28 @@ tennis:
     home: Miguel L F / Saraiva Dos Santos P A
     away: Rodriguez C / Urrea A
   score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:00'
+- id: 72165846
+  teams:
+    home: Couto Loureiro J V / Rodrigues N
+    away: Britto L / Villanueva G
+  score:
     home: 1
     away: 0
   status: live
-  time: '18:00'
+  time: '19:15'
+- id: 72165844
+  teams:
+    home: Huertas Del Pino C / Huertas Del Pino Cordova A
+    away: Oliveira B / Pucinelli de Almeida M
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:15'
 ice_hockey: []
 table_tennis:
 - id: 72335732
