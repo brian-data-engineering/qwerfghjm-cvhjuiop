@@ -17,6 +17,15 @@ soccer:
     away: 1
   status: result
   time: '13:30'
+- id: 71861662
+  teams:
+    home: FC Brest
+    away: FC Minsk
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '15:30'
 basketball: []
 tennis:
 - id: 72165932
@@ -53,8 +62,17 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '13:30'
+- id: 72165822
+  teams:
+    home: Seyboth Wild, Thiago
+    away: La Serna, Juan Manuel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:05'
 ice_hockey: []
 table_tennis:
 - id: 72335732
