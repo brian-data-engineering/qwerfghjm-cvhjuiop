@@ -44,6 +44,33 @@ soccer:
     away: 0
   status: result
   time: '19:00'
+- id: 68823014
+  teams:
+    home: Fortaleza EC
+    away: SC Recife PE
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '21:30'
+- id: 68823020
+  teams:
+    home: Nautico PE
+    away: Goias
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:30'
+- id: 69255122
+  teams:
+    home: Figueirense FC SC
+    away: Guarani
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '14:00'
 basketball:
 - id: 68096038
   teams:
@@ -77,18 +104,18 @@ basketball:
     home: Washington
     away: Portland Fire
   score:
-    home: 99
-    away: 99
-  status: live
+    home: 124
+    away: 123
+  status: recentlyended
   time: '19:00'
 - id: 68096034
   teams:
     home: Chicago
     away: Las Vegas Aces
   score:
-    home: 65
-    away: 79
-  status: live
+    home: 99
+    away: 107
+  status: result
   time: '20:00'
 tennis:
 - id: 72165932
