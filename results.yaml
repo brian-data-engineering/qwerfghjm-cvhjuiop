@@ -6,7 +6,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 71861666
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 4
     away: 0
-  status: live
+  status: result
   time: '15:30'
 basketball:
 - id: 68096038
@@ -36,6 +36,15 @@ basketball:
     away: 90
   status: result
   time: 01:00
+- id: 68096036
+  teams:
+    home: Dallas
+    away: Minnesota
+  score:
+    home: 26
+    away: 39
+  status: live
+  time: '18:00'
 tennis:
 - id: 72165932
   teams:
