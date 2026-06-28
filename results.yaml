@@ -24,9 +24,9 @@ tennis:
     home: Bergs, Zizou
     away: Humbert, Ugo
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: recentlyended
   time: '10:00'
 - id: 72392294
   teams:
@@ -219,3 +219,57 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 72400544
+  teams:
+    home: Kolar, Milan
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 72400562
+  teams:
+    home: Oborny, Dominik
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 72400540
+  teams:
+    home: Ruzicka, Jiri
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 72400542
+  teams:
+    home: Barton, Ales
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 72400546
+  teams:
+    home: Mikuska, Alexander
+    away: Horak, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 72400566
+  teams:
+    home: Placek, Marek
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
