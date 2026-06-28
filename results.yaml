@@ -24,16 +24,16 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 68823010
   teams:
     home: Athletic Club Sjdr
     away: Avai
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 68823024
   teams:
@@ -42,7 +42,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '19:00'
 basketball:
 - id: 68096038
@@ -70,17 +70,26 @@ basketball:
   score:
     home: 77
     away: 85
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 68096468
   teams:
     home: Washington
     away: Portland Fire
   score:
-    home: 48
-    away: 55
+    home: 99
+    away: 99
   status: live
   time: '19:00'
+- id: 68096034
+  teams:
+    home: Chicago
+    away: Las Vegas Aces
+  score:
+    home: 65
+    away: 79
+  status: live
+  time: '20:00'
 tennis:
 - id: 72165932
   teams:
