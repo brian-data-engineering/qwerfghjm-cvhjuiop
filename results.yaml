@@ -17,6 +17,33 @@ soccer:
     away: 0
   status: result
   time: '15:30'
+- id: 68823016
+  teams:
+    home: AC Goianiense
+    away: Ponte Preta
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
+- id: 68823010
+  teams:
+    home: Athletic Club Sjdr
+    away: Avai
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
+- id: 68823024
+  teams:
+    home: EC Juventude
+    away: Ceara SC
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
 basketball:
 - id: 68096038
   teams:
@@ -41,10 +68,19 @@ basketball:
     home: Dallas
     away: Minnesota
   score:
-    home: 26
-    away: 39
-  status: live
+    home: 77
+    away: 85
+  status: recentlyended
   time: '18:00'
+- id: 68096468
+  teams:
+    home: Washington
+    away: Portland Fire
+  score:
+    home: 48
+    away: 55
+  status: live
+  time: '19:00'
 tennis:
 - id: 72165932
   teams:
