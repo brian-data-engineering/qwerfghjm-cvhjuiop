@@ -1,374 +1,68 @@
-soccer:
-- id: 71861668
-  teams:
-    home: FC Dnepr Mogilev
-    away: FC Neman Grodno
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '15:00'
-- id: 71861666
-  teams:
-    home: FC Isloch
-    away: FC Belshina Bobruisk
-  score:
-    home: 4
-    away: 0
-  status: result
-  time: '15:30'
-- id: 68823016
-  teams:
-    home: AC Goianiense
-    away: Ponte Preta
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '19:00'
-- id: 68823010
-  teams:
-    home: Athletic Club Sjdr
-    away: Avai
-  score:
-    home: 1
-    away: 0
-  status: result
-  time: '19:00'
-- id: 68823024
-  teams:
-    home: EC Juventude
-    away: Ceara SC
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '19:00'
-- id: 68823014
-  teams:
-    home: Fortaleza EC
-    away: SC Recife PE
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '21:30'
-- id: 68823020
-  teams:
-    home: Nautico PE
-    away: Goias
-  score:
-    home: 0
-    away: 1
-  status: live
-  time: '21:30'
-- id: 69255122
-  teams:
-    home: Figueirense FC SC
-    away: Guarani
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '14:00'
-basketball:
-- id: 68096038
-  teams:
-    home: Indiana
-    away: LA Sparks
-  score:
-    home: 111
-    away: 87
-  status: result
-  time: 00:00
-- id: 68096022
-  teams:
-    home: Seattle
-    away: Atlanta
-  score:
-    home: 105
-    away: 90
-  status: result
-  time: 01:00
-- id: 68096036
-  teams:
-    home: Dallas
-    away: Minnesota
-  score:
-    home: 77
-    away: 85
-  status: result
-  time: '18:00'
-- id: 68096468
-  teams:
-    home: Washington
-    away: Portland Fire
-  score:
-    home: 124
-    away: 123
-  status: recentlyended
-  time: '19:00'
-- id: 68096034
-  teams:
-    home: Chicago
-    away: Las Vegas Aces
-  score:
-    home: 99
-    away: 107
-  status: result
-  time: '20:00'
-tennis:
-- id: 72165932
-  teams:
-    home: Bergs, Zizou
-    away: Humbert, Ugo
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:00'
-- id: 72392294
-  teams:
-    home: Poljak, David
-    away: Palan, Dominik
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 07:30
-- id: 72392304
-  teams:
-    home: Simakin, Ilia
-    away: Turcanu, Radu David
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 07:30
-- id: 72392298
-  teams:
-    home: Sinescu, Jan Patrick
-    away: Yevseyev, Denis
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: 07:30
+soccer: []
+basketball: []
+tennis: []
 ice_hockey: []
 table_tennis:
-- id: 72362170
+- id: 72383462
   teams:
-    home: Mikuska, Alexander
-    away: Horak, David
+    home: Fojt, Pavel
+    away: Parhomenko, Dmitro
   score:
-    home: 2
-    away: 3
+    home: 3
+    away: 2
   status: result
   time: 00:00
-- id: 72362142
+- id: 72383446
   teams:
-    home: Plachy, Jiri
-    away: Picek, Petr
+    home: Svechota, Vojtech
+    away: Prikasky, Libor
   score:
     home: 1
     away: 3
   status: result
   time: 00:00
-- id: 72362370
+- id: 72383402
   teams:
-    home: Svechota, Vojtech
-    away: Franek, Tomas
+    home: Vitrovyj, Oleg
+    away: Bruzek, Petr
   score:
     home: 3
-    away: 1
+    away: 0
   status: result
   time: 00:00
-- id: 72362150
+- id: 72383458
   teams:
-    home: Barton, Ales
+    home: Darin, Kyryl
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 72383482
+  teams:
+    home: Huk, Martin
     away: Ruzicka, Jiri
   score:
     home: 3
-    away: 1
-  status: result
-  time: 00:30
-- id: 72362204
-  teams:
-    home: Kolar, Milan
-    away: Briza, Frantisek
-  score:
-    home: 3
     away: 2
   status: result
   time: 00:30
-- id: 72362392
+- id: 72383414
   teams:
-    home: Oborny, Dominik
-    away: Placek, Marek
+    home: Steffan, Jan
+    away: Dolezal, Vaclav
   score:
-    home: 2
+    home: 0
     away: 3
   status: result
   time: 00:30
-- id: 72362246
+- id: 72383400
   teams:
-    home: Franek, Tomas
-    away: Vejvoda, Viktor
+    home: Bruzek, Petr
+    away: Regner, Tomas
   score:
-    home: 2
-    away: 3
-  status: result
+    home: 3
+    away: 2
+  status: recentlyended
   time: 01:00
-- id: 72362122
-  teams:
-    home: Horak, David
-    away: Pleskot, Jan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 01:00
-- id: 72362134
-  teams:
-    home: Picek, Petr
-    away: Darin, Kyryl
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:00
-- id: 72362404
-  teams:
-    home: Briza, Frantisek
-    away: Mikuska, Alexander
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:30
-- id: 72362194
-  teams:
-    home: Placek, Marek
-    away: Plachy, Jiri
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 01:30
-- id: 72362254
-  teams:
-    home: Ruzicka, Jiri
-    away: Svechota, Vojtech
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 01:30
-- id: 72362322
-  teams:
-    home: Franek, Tomas
-    away: Barton, Ales
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 02:00
-- id: 72362302
-  teams:
-    home: Horak, David
-    away: Kolar, Milan
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 02:00
-- id: 72362310
-  teams:
-    home: Picek, Petr
-    away: Oborny, Dominik
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 02:00
-- id: 72362398
-  teams:
-    home: Mikuska, Alexander
-    away: Pleskot, Jan
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:30
-- id: 72362186
-  teams:
-    home: Plachy, Jiri
-    away: Darin, Kyryl
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:30
-- id: 72362342
-  teams:
-    home: Svechota, Vojtech
-    away: Vejvoda, Viktor
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 02:30
-- id: 72400544
-  teams:
-    home: Kolar, Milan
-    away: Briza, Frantisek
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:00
-- id: 72400562
-  teams:
-    home: Oborny, Dominik
-    away: Darin, Kyryl
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:00
-- id: 72400540
-  teams:
-    home: Ruzicka, Jiri
-    away: Svechota, Vojtech
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:00
-- id: 72400542
-  teams:
-    home: Barton, Ales
-    away: Vejvoda, Viktor
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:30
-- id: 72400546
-  teams:
-    home: Mikuska, Alexander
-    away: Horak, David
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 03:30
-- id: 72400566
-  teams:
-    home: Placek, Marek
-    away: Picek, Petr
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 03:30
