@@ -1,14 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71284608
+  teams:
+    home: Iran
+    away: Syria
+  score:
+    home: 72
+    away: 68
+  status: result
+  time: '13:30'
 tennis:
 - id: 72363048
   teams:
     home: Jodar, Rafael
     away: Gill, Felix
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '10:00'
 - id: 72363006
   teams:
@@ -16,8 +25,8 @@ tennis:
     away: Van de Zandschulp, Botic
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 72363044
   teams:
@@ -26,7 +35,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 72363050
   teams:
@@ -34,44 +43,44 @@ tennis:
     away: Buse, Ignacio
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 72363008
   teams:
     home: Rublev, Andrey
     away: Safiullin, Roman
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:00'
 - id: 72363046
   teams:
     home: Shapovalov, Denis
     away: Carreno Busta, Pablo
   score:
-    home: 0
-    away: 2
-  status: live
+    home: null
+    away: null
+  status: result
   time: '10:00'
 - id: 72363010
   teams:
     home: Svrcina, Dalibor
     away: Tien, Learner
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:00'
 - id: 72362998
   teams:
     home: Trungelliti, Marco
     away: Damm Jr, Martin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:00'
 - id: 72363012
   teams:
@@ -89,16 +98,16 @@ tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 72363028
   teams:
     home: Ugo Carabelli, Camilo
     away: Merida, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: result
   time: '11:20'
 - id: 72363034
   teams:
@@ -106,18 +115,153 @@ tennis:
     away: Paul, Tommy
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '11:25'
 - id: 72363018
   teams:
     home: Zheng, Michael
     away: Norrie, Cameron
   score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:50'
+- id: 72363038
+  teams:
+    home: Medjedovic, Hamad
+    away: Ofner, Sebastian
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:05'
+- id: 72363040
+  teams:
+    home: Ruud, Casper
+    away: Hurkacz, Hubert
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:20'
+- id: 72363056
+  teams:
+    home: Sinner, Jannik
+    away: Kecmanovic, Miomir
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '12:30'
+- id: 72363002
+  teams:
+    home: Bautista Agut, Roberto
+    away: Fonseca, Joao
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:55'
+- id: 72363054
+  teams:
+    home: Borges, Nuno
+    away: Boyer, Tristan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:05'
+- id: 72363000
+  teams:
+    home: Rinderknech, Arthur
+    away: Tarvet, Oliver
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '13:15'
+- id: 72363022
+  teams:
+    home: Walton, Adam
+    away: Prizmic, Dino
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:55'
+- id: 72363042
+  teams:
+    home: Quinn, Ethan
+    away: Darderi, Luciano
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:00'
+- id: 72363036
+  teams:
+    home: Kwon, Soonwoo
+    away: Landaluce, Martin
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:05'
+- id: 72363030
+  teams:
+    home: Struff, Jan-Lennard
+    away: Baez, Sebastian
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '14:05'
+- id: 72362996
+  teams:
+    home: Gaston, Hugo
+    away: Tsitsipas, Stefanos
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:20'
+- id: 72363014
+  teams:
+    home: Tirante, Thiago Agustin
+    away: Marozsan, Fabian
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:35'
+- id: 72363026
+  teams:
+    home: Cilic, Marin
+    away: Medvedev, Daniil
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72363020
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Mejia, Nicolas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:05'
+- id: 72363016
+  teams:
+    home: Davidovich Fokina, Alejandro
+    away: Cerundolo, Juan Manuel
+  score:
     home: 0
     away: 0
   status: live
-  time: '11:50'
+  time: '15:35'
 ice_hockey: []
 table_tennis:
 - id: 72383462
