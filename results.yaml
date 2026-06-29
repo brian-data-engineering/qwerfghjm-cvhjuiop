@@ -16,7 +16,7 @@ basketball:
   score:
     home: 59
     away: 108
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 71284614
   teams:
@@ -25,16 +25,16 @@ basketball:
   score:
     home: 80
     away: 86
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71284778
   teams:
     home: Lebanon
     away: India
   score:
-    home: 44
-    away: 26
-  status: live
+    home: 99
+    away: 56
+  status: result
   time: '18:00'
 tennis:
 - id: 72363048
@@ -277,8 +277,8 @@ tennis:
     away: Mejia, Nicolas
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:05'
 - id: 72363016
   teams:
@@ -303,26 +303,17 @@ tennis:
     home: De Jong, Jesper
     away: Hijikata, Rinky
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '17:20'
-- id: 72363032
-  teams:
-    home: Nakashima, Brandon
-    away: Pinnington Jones, Jack
-  score:
-    home: 1
-    away: 0
-  status: live
-  time: '17:30'
 - id: 72362994
   teams:
     home: Wu, Yibing
     away: Djokovic, Novak
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '18:00'
 - id: 72392328
