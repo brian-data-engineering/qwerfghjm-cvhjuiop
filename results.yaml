@@ -1,6 +1,51 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 72362982
+  teams:
+    home: Hanfmann, Yannick
+    away: Mpetshi Perricard, Giovanni
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
+- id: 72362986
+  teams:
+    home: Majchrzak, Kamil
+    away: Tabilo, Alejandro
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '10:00'
+- id: 72362990
+  teams:
+    home: Mannarino, Adrian
+    away: Droguet, Titouan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:00'
+- id: 72362932
+  teams:
+    home: Royer, Valentin
+    away: Wendelken, Harry
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:00'
+- id: 72362966
+  teams:
+    home: Shimabukuro, Sho
+    away: Faria, Jaime
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '10:00'
 ice_hockey: []
 table_tennis:
 - id: 72405258
