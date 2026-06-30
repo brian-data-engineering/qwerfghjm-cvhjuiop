@@ -9,17 +9,17 @@ table_tennis:
     away: Kosar, Vaclav
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 72405330
   teams:
     home: Sebera, Petr
     away: Kasnik, Sebastian
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 00:00
 - id: 72405444
   teams:
@@ -28,5 +28,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
+- id: 72405310
+  teams:
+    home: Hradecky, Jakub
+    away: Cermak, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 72405284
+  teams:
+    home: Pycha, Patrik
+    away: Bayer, Alesh
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 72405366
+  teams:
+    home: Stefek, Martin
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 72405312
+  teams:
+    home: Chlebecek, Marek
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 72405368
+  teams:
+    home: Kasnik, Sebastian
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 72405260
+  teams:
+    home: Kosar, Vaclav
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 72405348
+  teams:
+    home: Bayer, Alesh
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 72405528
+  teams:
+    home: Cermak, Vladimir
+    away: Sebera, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 72405380
+  teams:
+    home: Trinta, Mihail
+    away: Necas, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 72405394
+  teams:
+    home: Chlebecek, Marek
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72405494
+  teams:
+    home: Kasnik, Sebastian
+    away: Hradecky, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 72405270
+  teams:
+    home: Kosar, Vaclav
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72405506
+  teams:
+    home: Necas, Miroslav
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 72405294
+  teams:
+    home: Sebera, Petr
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 72405314
+  teams:
+    home: Sopko, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
