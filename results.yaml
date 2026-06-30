@@ -991,7 +991,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72435328
   teams:
@@ -1000,7 +1000,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72434924
   teams:
@@ -1009,7 +1009,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72435366
   teams:
@@ -1017,8 +1017,8 @@ table_tennis:
     away: Huk, Martin
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:00'
 - id: 72435284
   teams:
@@ -1027,5 +1027,230 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 72435280
+  teams:
+    home: Barton, Ales
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 72435868
+  teams:
+    home: Holub, Marek
+    away: Kern, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72435386
+  teams:
+    home: Hrabec, Jan
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 72434908
+  teams:
+    home: Mares, Erik
+    away: Koubek, Vojtech
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 72435228
+  teams:
+    home: Prikasky, Libor
+    away: Zahradka, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72435346
+  teams:
+    home: Hanel, Patrik
+    away: Hrabec, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72435234
+  teams:
+    home: Huk, Martin
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72435300
+  teams:
+    home: Mecl Jr, Jan
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72434910
+  teams:
+    home: Nesnera, Jiri
+    away: Mares, Erik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 72435874
+  teams:
+    home: Unzeitig, Daniel
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 72435864
+  teams:
+    home: Kern, Lukas
+    away: Chalupa, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 72434902
+  teams:
+    home: Koubek, Vojtech
+    away: Opanasiuk, Dmytro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72435290
+  teams:
+    home: Svacha, Ondrej
+    away: Jezek, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72435226
+  teams:
+    home: Zahradka, Michal
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72435370
+  teams:
+    home: Zurek, Filip
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72435896
+  teams:
+    home: Chalupa, Michal
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 72435246
+  teams:
+    home: Jezek, Michal
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 72434914
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 72435208
+  teams:
+    home: Ruzicka, Jiri
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 72435388
+  teams:
+    home: Taichman, Ivo
+    away: Hrabec, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 72435298
+  teams:
+    home: Hanel, Patrik
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 72435286
+  teams:
+    home: Huk, Martin
+    away: Zahradka, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
+- id: 72435276
+  teams:
+    home: Mecl Jr, Jan
+    away: Svacha, Ondrej
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:30'
+- id: 72434944
+  teams:
+    home: Nesnera, Jiri
+    away: Koubek, Vojtech
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
+- id: 72435890
+  teams:
+    home: Unzeitig, Daniel
+    away: Kern, Lukas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
