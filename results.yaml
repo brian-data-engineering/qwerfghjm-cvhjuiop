@@ -43,8 +43,8 @@ tennis:
     away: Zheng, Michael
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:20'
 - id: 72362942
   teams:
@@ -80,16 +80,16 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72318948
   teams:
     home: Safiullin, Roman
     away: Van de Zandschulp, Botic
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:50'
 - id: 72318942
   teams:
@@ -97,8 +97,8 @@ tennis:
     away: Medvedev, Daniil
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '13:10'
 - id: 72318960
   teams:
@@ -107,7 +107,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:10'
 - id: 72318962
   teams:
@@ -115,8 +115,8 @@ tennis:
     away: Fonseca, Joao
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '13:55'
 - id: 72362952
   teams:
@@ -132,10 +132,28 @@ tennis:
     home: Mochizuki, Shintaro
     away: Quinn, Ethan
   score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:35'
+- id: 72318944
+  teams:
+    home: Nakashima, Brandon
+    away: Struff, Jan-Lennard
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:20'
+- id: 72318940
+  teams:
+    home: Auger-Aliassime, Felix
+    away: Prizmic, Dino
+  score:
     home: 0
     away: 0
   status: live
-  time: '14:35'
+  time: '16:45'
 ice_hockey: []
 table_tennis:
 - id: 72435324
