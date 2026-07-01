@@ -8,16 +8,16 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 72318950
   teams:
     home: Fucsovics, Marton
     away: Tien, Learner
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '10:00'
 - id: 72318996
   teams:
@@ -26,7 +26,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 72318946
   teams:
@@ -34,16 +34,16 @@ tennis:
     away: Paul, Tommy
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 72318954
   teams:
     home: Mejia, Nicolas
     away: Zheng, Michael
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 2
   status: live
   time: '11:20'
 - id: 72362942
@@ -51,37 +51,91 @@ tennis:
     home: Molcan, Alex
     away: Altmaier, Daniel
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '11:30'
-- id: 72362952
-  teams:
-    home: Tiafoe, Frances
-    away: Atmane, Terence
-  score:
-    home: 2
-    away: 1
-  status: live
-  time: '11:40'
 - id: 72362978
   teams:
     home: Navone, Mariano
     away: Cobolli, Flavio
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:45'
 - id: 72318952
   teams:
     home: Davidovich Fokina, Alejandro
     away: Marozsan, Fabian
   score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:55'
+- id: 72318990
+  teams:
+    home: Sinner, Jannik
+    away: Borges, Nuno
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:30'
+- id: 72318948
+  teams:
+    home: Safiullin, Roman
+    away: Van de Zandschulp, Botic
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '12:50'
+- id: 72318942
+  teams:
+    home: Merida, Daniel
+    away: Medvedev, Daniil
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '13:10'
+- id: 72318960
+  teams:
+    home: Rinderknech, Arthur
+    away: Damm Jr, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '13:10'
+- id: 72318962
+  teams:
+    home: De Jong, Jesper
+    away: Fonseca, Joao
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:55'
+- id: 72362952
+  teams:
+    home: Tiafoe, Frances
+    away: Atmane, Terence
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 72318998
+  teams:
+    home: Mochizuki, Shintaro
+    away: Quinn, Ethan
+  score:
     home: 0
     away: 0
   status: live
-  time: '11:55'
+  time: '14:35'
 ice_hockey: []
 table_tennis:
 - id: 72435324
