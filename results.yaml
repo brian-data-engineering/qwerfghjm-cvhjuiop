@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 72195342
+  teams:
+    home: FC Slavia Mozyr
+    away: Maxline Vitebsk
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '17:30'
 basketball: []
 tennis:
 - id: 72319002
@@ -134,7 +143,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:35'
 - id: 72318944
   teams:
@@ -142,7 +151,7 @@ tennis:
     away: Struff, Jan-Lennard
   score:
     home: 1
-    away: 0
+    away: 2
   status: live
   time: '16:20'
 - id: 72318940
@@ -150,10 +159,28 @@ tennis:
     home: Auger-Aliassime, Felix
     away: Prizmic, Dino
   score:
-    home: 0
+    home: 2
     away: 0
   status: live
   time: '16:45'
+- id: 72319000
+  teams:
+    home: Jodar, Rafael
+    away: Carreno Busta, Pablo
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:30'
+- id: 72318958
+  teams:
+    home: Tsitsipas, Stefanos
+    away: Djokovic, Novak
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:50'
 ice_hockey: []
 table_tennis:
 - id: 72435324
