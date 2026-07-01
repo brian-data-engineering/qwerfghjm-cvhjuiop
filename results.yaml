@@ -4,9 +4,9 @@ soccer:
     home: FC Slavia Mozyr
     away: Maxline Vitebsk
   score:
-    home: 1
-    away: 3
-  status: live
+    home: 2
+    away: 4
+  status: result
   time: '17:30'
 basketball: []
 tennis:
@@ -150,7 +150,7 @@ tennis:
     home: Nakashima, Brandon
     away: Struff, Jan-Lennard
   score:
-    home: 1
+    home: 2
     away: 2
   status: live
   time: '16:20'
@@ -159,27 +159,18 @@ tennis:
     home: Auger-Aliassime, Felix
     away: Prizmic, Dino
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:45'
-- id: 72319000
-  teams:
-    home: Jodar, Rafael
-    away: Carreno Busta, Pablo
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '17:30'
 - id: 72318958
   teams:
     home: Tsitsipas, Stefanos
     away: Djokovic, Novak
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '18:50'
 ice_hockey: []
 table_tennis:
