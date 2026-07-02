@@ -50,9 +50,9 @@ basketball:
     home: Ivory Coast
     away: Senegal
   score:
-    home: 53
-    away: 61
-  status: live
+    home: 72
+    away: 85
+  status: result
   time: '18:00'
 - id: 61792680
   teams:
@@ -86,9 +86,9 @@ basketball:
     home: Uganda
     away: Angola
   score:
-    home: 39
-    away: 62
-  status: live
+    home: 62
+    away: 95
+  status: result
   time: '18:00'
 - id: 61794970
   teams:
@@ -124,7 +124,7 @@ basketball:
   score:
     home: 82
     away: 88
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 63123519
   teams:
@@ -158,27 +158,27 @@ basketball:
     home: Portugal
     away: Montenegro
   score:
-    home: 43
-    away: 49
-  status: live
+    home: 68
+    away: 72
+  status: result
   time: '18:00'
 - id: 63108009
   teams:
     home: Bosnia & Herzegovina
     away: Turkey
   score:
-    home: 55
-    away: 57
-  status: live
+    home: 75
+    away: 82
+  status: result
   time: '18:00'
 - id: 63158093
   teams:
     home: Switzerland
     away: Serbia
   score:
-    home: 60
-    away: 71
-  status: live
+    home: 73
+    away: 97
+  status: result
   time: '18:00'
 - id: 63108031
   teams:
@@ -189,6 +189,15 @@ basketball:
     away: 85
   status: result
   time: '15:30'
+- id: 63108033
+  teams:
+    home: Iceland
+    away: Italy
+  score:
+    home: 46
+    away: 58
+  status: live
+  time: '19:45'
 tennis:
 - id: 72318956
   teams:
@@ -330,9 +339,9 @@ tennis:
     home: Tiafoe, Frances
     away: Choinski, Jan
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '16:35'
 - id: 72318964
   teams:
@@ -340,8 +349,8 @@ tennis:
     away: Dimitrov, Grigor
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:40'
 - id: 72318918
   teams:
@@ -350,7 +359,7 @@ tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:05'
 - id: 72366314
   teams:
@@ -534,282 +543,138 @@ table_tennis:
     away: 0
   status: result
   time: 02:30
-- id: 72502616
+- id: 72489912
   teams:
-    home: Drozdz, Dariusz
-    away: Burkacki, Mateusz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:00
-- id: 72502618
-  teams:
-    home: Molka, Bartlomiej
-    away: Wloszek, Sylwester
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 05:30
-- id: 72502620
-  teams:
-    home: Mandrysz, Filip
-    away: Jancak, Richard
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 05:40
-- id: 72502622
-  teams:
-    home: Krenek, Tomas
-    away: Fojtik, Tomas
+    home: Bilek, Zdenek
+    away: Opanasiuk, Dmytro
   score:
     home: 3
     away: 2
   status: result
-  time: 05:45
-- id: 72469200
+  time: '19:30'
+- id: 72490500
   teams:
-    home: Vincenec, Oliver
-    away: Urban, Wojciech
+    home: Bittner, Martin
+    away: Pikous, Marcel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:30'
+- id: 72490276
+  teams:
+    home: Chalupa, Michal
+    away: Burdik, Vitezslav
   score:
     home: 3
     away: 2
   status: result
-  time: 00:00
-- id: 72469202
+  time: '19:30'
+- id: 72490282
   teams:
-    home: Fabis, Adrian
-    away: Warpas, Blazej
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:10
-- id: 72469204
-  teams:
-    home: Rybak, Kazimierz
-    away: Michalik, Jerzy
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:10
-- id: 72469208
-  teams:
-    home: Nocun, Zbigniew
-    away: Warzecha, Miroslaw
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:20
-- id: 72469206
-  teams:
-    home: Rutkowski, Mateusz
-    away: Pietraszko, Lukasz
+    home: Dousa, Tomas
+    away: Krok, Lukas
   score:
     home: 3
     away: 0
   status: result
-  time: 00:20
-- id: 72469210
+  time: '19:30'
+- id: 72490582
   teams:
-    home: Bernacki, Lukasz
-    away: Lebek, Marian
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:25
-- id: 72469214
-  teams:
-    home: Chojnacki, Pawel
-    away: Debski, Jerzy
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:35
-- id: 72469212
-  teams:
-    home: Wnek, Stanislaw
-    away: Klocek, Kamil
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:35
-- id: 72469216
-  teams:
-    home: Jadam, Dawid
-    away: Pietraszko, Lukasz
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:45
-- id: 72469220
-  teams:
-    home: Koczyba, Mariusz
-    away: Urban, Wojciech
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:45
-- id: 72469218
-  teams:
-    home: Tkaczyk, Henryk
-    away: Stechly, Witold
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:45
-- id: 72469224
-  teams:
-    home: Barton, Aleksander
-    away: Rybak, Kazimierz
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 01:00
-- id: 72469222
-  teams:
-    home: Fabis, Adrian
-    away: Klocek, Kamil
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:00
-- id: 72469226
-  teams:
-    home: Kapik, Krzysztof
-    away: Rutkowski, Mateusz
+    home: Levicky, Jakub
+    away: Vavrecka, Radomir
   score:
     home: 3
     away: 2
   status: result
-  time: 01:10
-- id: 72469230
+  time: '19:30'
+- id: 72490278
   teams:
-    home: Vincenec, Oliver
-    away: Bernacki, Lukasz
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 01:10
-- id: 72469228
-  teams:
-    home: Warzecha, Miroslaw
-    away: Skorupa, Jakub
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 01:10
-- id: 72469234
-  teams:
-    home: Michalik, Jerzy
-    away: Staniczek, Adam
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:25
-- id: 72469232
-  teams:
-    home: Warpas, Blazej
-    away: Wnek, Stanislaw
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 01:25
-- id: 72469236
-  teams:
-    home: Nocun, Zbigniew
-    away: Fomin, Andriej
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:30
-- id: 72469238
-  teams:
-    home: Lebek, Marian
-    away: Burkacki, Adrian
+    home: Burdik, Vitezslav
+    away: Szotek, David
   score:
     home: 3
     away: 0
-  status: result
-  time: 01:35
-- id: 72469240
+  status: recentlyended
+  time: '20:00'
+- id: 72490296
   teams:
-    home: Chojnacki, Pawel
-    away: Rybak, Kazimierz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:45
-- id: 72469242
-  teams:
-    home: Stechly, Witold
-    away: Skorupa, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:55
-- id: 72469244
-  teams:
-    home: Koczyba, Mariusz
-    away: Bernacki, Lukasz
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:00
-- id: 72469246
-  teams:
-    home: Debski, Jerzy
-    away: Staniczek, Adam
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 02:10
-- id: 72469248
-  teams:
-    home: Tkaczyk, Henryk
-    away: Nocun, Zbigniew
+    home: Krok, Lukas
+    away: Kysely, Stepan
   score:
     home: 0
     away: 3
-  status: result
-  time: 02:20
-- id: 72469250
+  status: recentlyended
+  time: '20:00'
+- id: 72489920
   teams:
-    home: Urban, Wojciech
-    away: Burkacki, Adrian
+    home: Opanasiuk, Dmytro
+    away: Zajicek, Jan
   score:
     home: 1
     away: 3
-  status: result
-  time: 02:20
-- id: 72469252
+  status: recentlyended
+  time: '20:00'
+- id: 72490570
   teams:
-    home: Barton, Aleksander
-    away: Michalik, Jerzy
+    home: Pikous, Marcel
+    away: Louda, Jiri
   score:
-    home: 2
-    away: 3
-  status: result
-  time: 02:35
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 72490516
+  teams:
+    home: Vavrecka, Radomir
+    away: Volny, Marek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 72490540
+  teams:
+    home: Heczko, Marcel
+    away: Levicky, Jakub
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:30'
+- id: 72490496
+  teams:
+    home: Klement, Milan
+    away: Bittner, Martin
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '20:30'
+- id: 72489960
+  teams:
+    home: Medek, Josef
+    away: Bilek, Zdenek
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:30'
+- id: 72490292
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:30'
+- id: 72490294
+  teams:
+    home: Stolfa, Jakub
+    away: Dousa, Tomas
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '20:30'
