@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 61792632
+  teams:
+    home: Libya
+    away: South Sudan
+  score:
+    home: 31
+    away: 65
+  status: live
+  time: '14:00'
 tennis:
 - id: 72318956
   teams:
@@ -15,9 +24,9 @@ tennis:
     home: Diallo, Gabriel
     away: Sonego, Lorenzo
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:00'
 - id: 72318910
   teams:
@@ -26,7 +35,7 @@ tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 72318908
   teams:
@@ -42,27 +51,27 @@ tennis:
     home: Bergs, Zizou
     away: Faria, Jaime
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '11:45'
 - id: 72318970
   teams:
     home: Svajda, Zachary
     away: Majchrzak, Kamil
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:05'
 - id: 72319000
   teams:
     home: Jodar, Rafael
     away: Carreno Busta, Pablo
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '12:30'
 - id: 72318944
   teams:
@@ -70,8 +79,8 @@ tennis:
     away: Struff, Jan-Lennard
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 72318928
   teams:
@@ -79,9 +88,54 @@ tennis:
     away: Giron, Marcos
   score:
     home: 0
+    away: 3
+  status: recentlyended
+  time: '13:00'
+- id: 72318930
+  teams:
+    home: Fearnley, Jacob
+    away: Munar, Jaume
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:50'
+- id: 72318926
+  teams:
+    home: Royer, Valentin
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '14:05'
+- id: 72318914
+  teams:
+    home: Berrettini, Matteo
+    away: Fils, Arthur
+  score:
+    home: 1
     away: 0
   status: live
-  time: '13:00'
+  time: '14:15'
+- id: 72318966
+  teams:
+    home: Duckworth, James
+    away: Cobolli, Flavio
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:25'
+- id: 72318968
+  teams:
+    home: Khachanov, Karen
+    away: Hanfmann, Yannick
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:40'
 ice_hockey: []
 table_tennis:
 - id: 72460748
