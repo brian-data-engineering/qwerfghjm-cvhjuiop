@@ -6,17 +6,17 @@ tennis:
     home: de Minaur, Alex
     away: Mannarino, Adrian
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '10:00'
 - id: 72318922
   teams:
     home: Diallo, Gabriel
     away: Sonego, Lorenzo
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '10:00'
 - id: 72318910
@@ -24,19 +24,64 @@ tennis:
     home: Fery, Arthur
     away: Virtanen, Otto
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: recentlyended
   time: '10:00'
 - id: 72318908
   teams:
     home: Fritz, Taylor
     away: Kypson, Patrick
   score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 72318912
+  teams:
+    home: Bergs, Zizou
+    away: Faria, Jaime
+  score:
     home: 1
     away: 0
   status: live
-  time: '10:00'
+  time: '11:45'
+- id: 72318970
+  teams:
+    home: Svajda, Zachary
+    away: Majchrzak, Kamil
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:05'
+- id: 72319000
+  teams:
+    home: Jodar, Rafael
+    away: Carreno Busta, Pablo
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '12:30'
+- id: 72318944
+  teams:
+    home: Nakashima, Brandon
+    away: Struff, Jan-Lennard
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '12:30'
+- id: 72318928
+  teams:
+    home: Halys, Quentin
+    away: Giron, Marcos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:00'
 ice_hockey: []
 table_tennis:
 - id: 72460748
