@@ -1,14 +1,50 @@
-soccer: []
+soccer:
+- id: 72195340
+  teams:
+    home: Bate Borisov
+    away: FC Gomel
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72195344
+  teams:
+    home: FC Minsk
+    away: FC Dinamo Minsk
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '17:00'
 basketball:
 - id: 61792632
   teams:
     home: Libya
     away: South Sudan
   score:
-    home: 31
-    away: 65
-  status: live
+    home: 57
+    away: 95
+  status: result
   time: '14:00'
+- id: 61792630
+  teams:
+    home: Cap Verde
+    away: Cameroon
+  score:
+    home: 30
+    away: 39
+  status: live
+  time: '17:00'
+- id: 61792656
+  teams:
+    home: Madagascar
+    away: Congo Dem. Rep.
+  score:
+    home: 62
+    away: 82
+  status: result
+  time: '15:00'
 tennis:
 - id: 72318956
   teams:
@@ -89,7 +125,7 @@ tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:00'
 - id: 72318930
   teams:
@@ -97,8 +133,8 @@ tennis:
     away: Munar, Jaume
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '13:50'
 - id: 72318926
   teams:
@@ -106,36 +142,90 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:05'
 - id: 72318914
   teams:
     home: Berrettini, Matteo
     away: Fils, Arthur
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '14:15'
 - id: 72318966
   teams:
     home: Duckworth, James
     away: Cobolli, Flavio
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: recentlyended
   time: '14:25'
 - id: 72318968
   teams:
     home: Khachanov, Karen
     away: Hanfmann, Yannick
   score:
-    home: 1
+    home: 3
+    away: 0
+  status: result
+  time: '14:40'
+- id: 72318916
+  teams:
+    home: Lehecka, Jiri
+    away: Molcan, Alex
+  score:
+    home: 2
     away: 0
   status: live
-  time: '14:40'
+  time: '16:05'
+- id: 72318920
+  teams:
+    home: Tiafoe, Frances
+    away: Choinski, Jan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:35'
+- id: 72318964
+  teams:
+    home: Mensik, Jakub
+    away: Dimitrov, Grigor
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:40'
+- id: 72318918
+  teams:
+    home: Jacquet, Kyrian
+    away: Bublik, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:05'
+- id: 72366314
+  teams:
+    home: Arribage T / Olivetti A
+    away: Luz O / Matos R
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 72366262
+  teams:
+    home: Balaji N S / Demoliner M
+    away: Gille S / Verbeek S
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
 ice_hockey: []
 table_tennis:
 - id: 72460748
