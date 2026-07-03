@@ -1,4 +1,40 @@
-soccer: []
+soccer:
+- id: 72195346
+  teams:
+    home: Naftan Novopolotsk
+    away: FC Brest
+  score:
+    home: 2
+    away: 4
+  status: recentlyended
+  time: '13:00'
+- id: 68823034
+  teams:
+    home: Fortaleza EC
+    away: Ponte Preta
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:00
+- id: 71372468
+  teams:
+    home: O' Higgins
+    away: Colo Colo
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: 00:30
+- id: 68995220
+  teams:
+    home: Yunnan Yukun
+    away: Henan
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
 basketball: []
 tennis:
 - id: 72318880
@@ -8,8 +44,53 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 72318878
+  teams:
+    home: Rinderknech, Arthur
+    away: Djokovic, Novak
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '12:30'
+- id: 72318938
+  teams:
+    home: Jodar, Rafael
+    away: Mochizuki, Shintaro
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:40'
+- id: 72318934
+  teams:
+    home: Struff, Jan-Lennard
+    away: Medvedev, Daniil
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:15'
+- id: 72318924
+  teams:
+    home: Sinner, Jannik
+    away: Brooksby, Jenson
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:40'
+- id: 72318936
+  teams:
+    home: Hurkacz, Hubert
+    away: Paul, Tommy
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:55'
 ice_hockey: []
 table_tennis:
 - id: 72489888
