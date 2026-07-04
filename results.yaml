@@ -6,10 +6,19 @@ tennis:
     home: de Minaur, Alex
     away: Svajda, Zachary
   score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:00'
+- id: 72318890
+  teams:
+    home: Khachanov, Karen
+    away: Cobolli, Flavio
+  score:
     home: 1
     away: 0
   status: live
-  time: '10:00'
+  time: '12:15'
 ice_hockey: []
 table_tennis:
 - id: 72511720
@@ -541,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72540850
   teams:
@@ -550,7 +559,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72540892
   teams:
@@ -559,7 +568,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72540906
   teams:
@@ -568,7 +577,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72541186
   teams:
@@ -577,5 +586,140 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 72540786
+  teams:
+    home: Blejchar, Marek
+    away: Oborny, Dominik
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72540962
+  teams:
+    home: Just, Frantisek
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72540750
+  teams:
+    home: Pusch, Frantisek
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 72540876
+  teams:
+    home: Sychra, Martin
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 72541192
+  teams:
+    home: Szotek, David
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 72540852
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72541202
+  teams:
+    home: Navedla, Matyas
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 72540806
+  teams:
+    home: Oborny, Dominik
+    away: Zidek, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 72540864
+  teams:
+    home: Sopko, Martin
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:00'
+- id: 72540954
+  teams:
+    home: Tuma, Daniel
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 72540918
+  teams:
+    home: Bayer, Alesh
+    away: Pusch, Frantisek
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '12:30'
+- id: 72540758
+  teams:
+    home: Levicky, Jakub
+    away: Blejchar, Marek
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:30'
+- id: 72540848
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:30'
+- id: 72540912
+  teams:
+    home: Pozarsky, Jiri
+    away: Just, Frantisek
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:30'
+- id: 72541182
+  teams:
+    home: Urbaniec, Radim
+    away: Szotek, David
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '12:30'
