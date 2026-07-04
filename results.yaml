@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67117762
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 67118488
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 67118484
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 67117766
   teams:
@@ -42,7 +42,7 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 67118490
   teams:
@@ -51,16 +51,16 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 67117764
   teams:
     home: Club Ciudad de Bolivar
     away: CD Godoy Cruz
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '19:00'
 basketball:
 - id: 71686474
@@ -214,7 +214,7 @@ basketball:
   score:
     home: 73
     away: 79
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 63664339
   teams:
@@ -293,18 +293,18 @@ basketball:
     home: Golden State Warriors Blue
     away: Milwaukee
   score:
-    home: 54
-    away: 72
-  status: live
+    home: 83
+    away: 97
+  status: result
   time: '19:00'
 - id: 72388638
   teams:
     home: Oklahoma
     away: Memphis
   score:
-    home: 56
-    away: 90
-  status: live
+    home: 74
+    away: 111
+  status: result
   time: '19:00'
 tennis:
 - id: 72318876
@@ -366,18 +366,18 @@ tennis:
     home: Tiafoe, Frances
     away: Bublik, Alexander
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: recentlyended
   time: '17:15'
 - id: 72318888
   teams:
     home: Dimitrov, Grigor
     away: Berrettini, Matteo
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '17:20'
 - id: 72320616
   teams:
