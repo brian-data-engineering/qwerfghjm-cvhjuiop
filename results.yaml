@@ -5,9 +5,63 @@ soccer:
     away: Gimnasia Y Tiro de Salta
   score:
     home: 1
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 67117762
+  teams:
+    home: Almirante Brown
+    away: Club Atletico Los Andes
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67118488
+  teams:
+    home: CA Temperley
+    away: Tristan Suarez
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 67118484
+  teams:
+    home: Club Almagro
+    away: Atletico de Rafaela
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 67117766
+  teams:
+    home: Defensores de Belgrano
+    away: Deportivo Moron
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 67118490
+  teams:
+    home: Nueva Chicago
+    away: CA Guemes
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 67117764
+  teams:
+    home: Club Ciudad de Bolivar
+    away: CD Godoy Cruz
+  score:
+    home: 2
     away: 1
   status: live
-  time: '18:00'
+  time: '19:00'
 basketball:
 - id: 71686474
   teams:
@@ -41,9 +95,9 @@ basketball:
     home: Germany
     away: Hungary
   score:
-    home: 61
+    home: 64
     away: 50
-  status: live
+  status: result
   time: '17:30'
 - id: 71686512
   teams:
@@ -79,7 +133,7 @@ basketball:
   score:
     home: 45
     away: 60
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71687070
   teams:
@@ -104,9 +158,9 @@ basketball:
     home: Czech Republic
     away: Ukraine
   score:
-    home: 77
+    home: 79
     away: 64
-  status: live
+  status: result
   time: '17:30'
 - id: 61792636
   teams:
@@ -124,7 +178,7 @@ basketball:
   score:
     home: 86
     away: 76
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 61792660
   teams:
@@ -140,9 +194,9 @@ basketball:
     home: Senegal
     away: Madagascar
   score:
-    home: 76
-    away: 40
-  status: live
+    home: 101
+    away: 59
+  status: result
   time: '18:00'
 - id: 61792706
   teams:
@@ -158,9 +212,9 @@ basketball:
     home: Angola
     away: Egypt
   score:
-    home: 51
-    away: 44
-  status: live
+    home: 73
+    away: 79
+  status: recentlyended
   time: '18:00'
 - id: 63664339
   teams:
@@ -205,7 +259,7 @@ basketball:
   score:
     home: 107
     away: 50
-  status: recentlyended
+  status: result
   time: '17:15'
 - id: 71687208
   teams:
@@ -234,6 +288,24 @@ basketball:
     away: 72
   status: result
   time: 02:30
+- id: 72434442
+  teams:
+    home: Golden State Warriors Blue
+    away: Milwaukee
+  score:
+    home: 54
+    away: 72
+  status: live
+  time: '19:00'
+- id: 72388638
+  teams:
+    home: Oklahoma
+    away: Memphis
+  score:
+    home: 56
+    away: 90
+  status: live
+  time: '19:00'
 tennis:
 - id: 72318876
   teams:
@@ -287,7 +359,7 @@ tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:35'
 - id: 72318898
   teams:
@@ -295,7 +367,7 @@ tennis:
     away: Bublik, Alexander
   score:
     home: 1
-    away: 1
+    away: 2
   status: live
   time: '17:15'
 - id: 72318888
@@ -304,7 +376,7 @@ tennis:
     away: Berrettini, Matteo
   score:
     home: 2
-    away: 0
+    away: 2
   status: live
   time: '17:20'
 - id: 72320616
@@ -431,7 +503,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:15'
 - id: 72499636
   teams:
@@ -439,8 +511,8 @@ tennis:
     away: Arevalo M / Ostapenko J
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:45'
 - id: 72311476
   teams:
@@ -1846,7 +1918,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72541174
   teams:
