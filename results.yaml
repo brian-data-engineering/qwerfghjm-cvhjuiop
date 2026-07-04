@@ -235,7 +235,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72540916
   teams:
@@ -253,7 +253,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72540958
   teams:
@@ -262,7 +262,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72541152
   teams:
@@ -270,8 +270,8 @@ table_tennis:
     away: Stolba, Miroslav
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 72540748
   teams:
@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72540928
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72540804
   teams:
@@ -297,6 +297,141 @@ table_tennis:
     away: Heczko, Marcel
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:00
+- id: 72540794
+  teams:
+    home: Barton, David
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 72540800
+  teams:
+    home: Hejduk, Alexander
+    away: Berdych, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 72540854
+  teams:
+    home: Levicky, Jakub
+    away: Oborny, Dominik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72540964
+  teams:
+    home: Saleny, Petr
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 72541196
+  teams:
+    home: Vantuch, Tomas
+    away: Banot, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72541200
+  teams:
+    home: Banot, Petr
+    away: Stolba, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 72540818
+  teams:
+    home: Berdych, Pavel
+    away: Vaclavik, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 72540950
+  teams:
+    home: Oborny, Dominik
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 72540814
+  teams:
+    home: Regner, Tomas
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 72540824
+  teams:
+    home: Sebera, Petr
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 72540948
+  teams:
+    home: Havel, Ladislav
+    away: Hejduk, Alexander
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 72541164
+  teams:
+    home: Kolenciak, Ivan
+    away: Vantuch, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 72540790
+  teams:
+    home: Kudelka, Adam
+    away: Barton, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 72540988
+  teams:
+    home: Louda, Jiri
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 72540880
+  teams:
+    home: Zidek, Vaclav
+    away: Levicky, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
