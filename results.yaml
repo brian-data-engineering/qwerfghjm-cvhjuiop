@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 67118480
+  teams:
+    home: CA Colegiales
+    away: Gimnasia Y Tiro de Salta
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:00'
 basketball:
 - id: 71686474
   teams:
@@ -27,6 +36,204 @@ basketball:
     away: 70
   status: result
   time: '10:00'
+- id: 71686496
+  teams:
+    home: Germany
+    away: Hungary
+  score:
+    home: 61
+    away: 50
+  status: live
+  time: '17:30'
+- id: 71686512
+  teams:
+    home: Poland
+    away: Italy
+  score:
+    home: 91
+    away: 60
+  status: result
+  time: '12:30'
+- id: 71686514
+  teams:
+    home: Serbia
+    away: Iceland
+  score:
+    home: 74
+    away: 78
+  status: result
+  time: '15:00'
+- id: 71686526
+  teams:
+    home: Turkey
+    away: France
+  score:
+    home: 44
+    away: 69
+  status: result
+  time: '10:00'
+- id: 71686528
+  teams:
+    home: Slovenia
+    away: Belgium
+  score:
+    home: 45
+    away: 60
+  status: recentlyended
+  time: '17:30'
+- id: 71687070
+  teams:
+    home: Albania
+    away: Greece
+  score:
+    home: 43
+    away: 106
+  status: result
+  time: '12:15'
+- id: 71687072
+  teams:
+    home: Ireland
+    away: Azerbaijan U20
+  score:
+    home: 93
+    away: 81
+  status: result
+  time: '12:30'
+- id: 71687136
+  teams:
+    home: Czech Republic
+    away: Ukraine
+  score:
+    home: 77
+    away: 64
+  status: live
+  time: '17:30'
+- id: 61792636
+  teams:
+    home: South Sudan
+    away: Cap Verde
+  score:
+    home: 83
+    away: 63
+  status: result
+  time: '14:00'
+- id: 61792634
+  teams:
+    home: Cameroon
+    away: Libya
+  score:
+    home: 86
+    away: 76
+  status: recentlyended
+  time: '17:00'
+- id: 61792660
+  teams:
+    home: Congo Dem. Rep.
+    away: Ivory Coast
+  score:
+    home: 51
+    away: 94
+  status: result
+  time: '15:00'
+- id: 61792658
+  teams:
+    home: Senegal
+    away: Madagascar
+  score:
+    home: 76
+    away: 40
+  status: live
+  time: '18:00'
+- id: 61792706
+  teams:
+    home: Mali
+    away: Uganda
+  score:
+    home: 82
+    away: 59
+  status: result
+  time: '15:00'
+- id: 61792708
+  teams:
+    home: Angola
+    away: Egypt
+  score:
+    home: 51
+    away: 44
+  status: live
+  time: '18:00'
+- id: 63664339
+  teams:
+    home: Dominican Republic
+    away: USA
+  score:
+    home: 81
+    away: 82
+  status: result
+  time: 00:00
+- id: 63664341
+  teams:
+    home: Mexico
+    away: Nicaragua
+  score:
+    home: 98
+    away: 79
+  status: result
+  time: 02:30
+- id: 63664371
+  teams:
+    home: Bahamas
+    away: Jamaica
+  score:
+    home: 123
+    away: 74
+  status: result
+  time: 00:00
+- id: 71687142
+  teams:
+    home: Romania
+    away: Bulgaria
+  score:
+    home: 56
+    away: 86
+  status: result
+  time: '15:00'
+- id: 71687144
+  teams:
+    home: Netherlands
+    away: Bosnia & Herzegovina
+  score:
+    home: 107
+    away: 50
+  status: recentlyended
+  time: '17:15'
+- id: 71687208
+  teams:
+    home: Portugal
+    away: Montenegro
+  score:
+    home: 71
+    away: 55
+  status: result
+  time: '14:45'
+- id: 72388342
+  teams:
+    home: San Antonio
+    away: Miami
+  score:
+    home: 87
+    away: 88
+  status: result
+  time: 00:00
+- id: 72434440
+  teams:
+    home: Golden State Warriors Gold
+    away: LA Lakers
+  score:
+    home: 104
+    away: 72
+  status: result
+  time: 02:30
 tennis:
 - id: 72318876
   teams:
@@ -52,8 +259,8 @@ tennis:
     away: Fery, Arthur
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '13:00'
 - id: 72318896
   teams:
@@ -78,17 +285,17 @@ tennis:
     home: Fritz, Taylor
     away: Sonego, Lorenzo
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: recentlyended
   time: '16:35'
 - id: 72318898
   teams:
     home: Tiafoe, Frances
     away: Bublik, Alexander
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '17:15'
 - id: 72318888
@@ -96,7 +303,7 @@ tennis:
     home: Dimitrov, Grigor
     away: Berrettini, Matteo
   score:
-    home: 0
+    home: 2
     away: 0
   status: live
   time: '17:20'
@@ -206,7 +413,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:25'
 - id: 72499664
   teams:
@@ -222,16 +429,16 @@ tennis:
     home: Harris B / Christie F
     away: Skupski N / Krawczyk D
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '16:15'
 - id: 72499636
   teams:
     home: Olivetti A / Zvonareva V
     away: Arevalo M / Ostapenko J
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '16:45'
@@ -1504,7 +1711,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 72579722
   teams:
@@ -1513,7 +1720,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 72579714
   teams:
@@ -1522,7 +1729,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 72579734
   teams:
@@ -1531,7 +1738,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 72579730
   teams:
@@ -1540,7 +1747,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 72579716
   teams:
@@ -1548,8 +1755,8 @@ table_tennis:
     away: Barton, David
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '17:30'
 - id: 72579726
   teams:
@@ -1557,8 +1764,8 @@ table_tennis:
     away: Tyn, Daniel
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '17:30'
 - id: 72579712
   teams:
@@ -1566,17 +1773,17 @@ table_tennis:
     away: Bayer, Alesh
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '17:30'
 - id: 72579732
   teams:
     home: Sulava, Lubor
     away: Syroha, Michal
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '17:30'
 - id: 72579738
   teams:
@@ -1584,6 +1791,78 @@ table_tennis:
     away: Pilch, Jakub
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '17:30'
+- id: 72540924
+  teams:
+    home: Biolek, Martin
+    away: Cabis, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72541156
+  teams:
+    home: Gebek, Evald
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72540886
+  teams:
+    home: Kudelka, Adam
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 72540974
+  teams:
+    home: Simecek, Jakub
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72540986
+  teams:
+    home: Trojan, Frantisek
+    away: Syroha, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 72540870
+  teams:
+    home: Bernat, Jan
+    away: Kolenic, Tibor
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 72541174
+  teams:
+    home: Bosak, Vitezslav
+    away: Jemelka, Libor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
+- id: 72540788
+  teams:
+    home: Kysely, Stepan
+    away: Krok, Lukas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
