@@ -14,9 +14,9 @@ basketball:
     home: Spain
     away: Lithuania
   score:
-    home: 59
-    away: 61
-  status: live
+    home: 77
+    away: 69
+  status: result
   time: '15:00'
 - id: 71686498
   teams:
@@ -27,6 +27,105 @@ basketball:
     away: 59
   status: result
   time: '12:30'
+- id: 71686500
+  teams:
+    home: Latvia
+    away: Germany
+  score:
+    home: 29
+    away: 14
+  status: live
+  time: '17:30'
+- id: 71686516
+  teams:
+    home: Iceland
+    away: Poland
+  score:
+    home: 67
+    away: 86
+  status: result
+  time: '10:00'
+- id: 71686518
+  teams:
+    home: Italy
+    away: Serbia
+  score:
+    home: 85
+    away: 78
+  status: result
+  time: '12:30'
+- id: 71686530
+  teams:
+    home: Belgium
+    away: Turkey
+  score:
+    home: 70
+    away: 68
+  status: result
+  time: '15:00'
+- id: 71686532
+  teams:
+    home: France
+    away: Slovenia
+  score:
+    home: 28
+    away: 21
+  status: live
+  time: '17:30'
+- id: 71687074
+  teams:
+    home: Azerbaijan U20
+    away: Albania
+  score:
+    home: 47
+    away: 25
+  status: live
+  time: '17:15'
+- id: 71687076
+  teams:
+    home: Greece
+    away: Ireland
+  score:
+    home: 28
+    away: 22
+  status: live
+  time: '17:30'
+- id: 71687138
+  teams:
+    home: Ukraine
+    away: Slovakia
+  score:
+    home: 57
+    away: 71
+  status: result
+  time: '14:45'
+- id: 61792640
+  teams:
+    home: Cap Verde
+    away: Libya
+  score:
+    home: 98
+    away: 66
+  status: result
+  time: '14:00'
+- id: 61792638
+  teams:
+    home: South Sudan
+    away: Cameroon
+  score:
+    home: 48
+    away: 50
+  status: live
+  time: '17:00'
+- id: 61792664
+  teams:
+    home: Ivory Coast
+    away: Madagascar
+  score:
+    home: 118
+    away: 102
+  status: result
+  time: '15:00'
 tennis:
 - id: 72318902
   teams:
@@ -35,14 +134,14 @@ tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72318904
   teams:
     home: Auger-Aliassime, Felix
     away: Davidovich Fokina, Alejandro
   score:
-    home: 0
+    home: 2
     away: 1
   status: live
   time: '14:45'
@@ -51,7 +150,7 @@ tennis:
     home: Hurkacz, Hubert
     away: Struff, Jan-Lennard
   score:
-    home: 1
+    home: 2
     away: 0
   status: live
   time: '15:45'
@@ -298,6 +397,15 @@ table_tennis:
   score:
     home: 3
     away: 2
+  status: result
+  time: 06:00
+- id: 72570290
+  teams:
+    home: Saleny, Petr
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 2
+    away: 3
   status: result
   time: 06:00
 - id: 72570306
