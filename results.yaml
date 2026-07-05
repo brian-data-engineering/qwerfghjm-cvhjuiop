@@ -42,16 +42,16 @@ soccer:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 67118476
   teams:
     home: Ferrocarril Midland
     away: Gimnasia Jujuy
   score:
-    home: 0
+    home: 1
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 67117760
   teams:
@@ -60,7 +60,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 67118492
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '19:00'
 - id: 67117770
   teams:
@@ -78,7 +78,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '19:30'
 - id: 67118486
   teams:
@@ -87,7 +87,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '19:30'
 - id: 72195352
   teams:
@@ -288,6 +288,159 @@ basketball:
     away: 103
   status: result
   time: 00:10
+- id: 63664433
+  teams:
+    home: Uruguay
+    away: Cuba
+  score:
+    home: 56
+    away: 36
+  status: live
+  time: '21:40'
+- id: 61794972
+  teams:
+    home: Syria
+    away: Iran
+  score:
+    home: 52
+    away: 73
+  status: result
+  time: '13:30'
+- id: 61794974
+  teams:
+    home: Jordan
+    away: Iraq
+  score:
+    home: 106
+    away: 67
+  status: result
+  time: '16:30'
+- id: 61794996
+  teams:
+    home: India
+    away: Lebanon
+  score:
+    home: 72
+    away: 98
+  status: result
+  time: '15:00'
+- id: 61794998
+  teams:
+    home: Saudi Arabia
+    away: Qatar
+  score:
+    home: 73
+    away: 76
+  status: result
+  time: '15:00'
+- id: 63123521
+  teams:
+    home: Denmark
+    away: Ukraine
+  score:
+    home: 69
+    away: 99
+  status: result
+  time: '13:00'
+- id: 63107987
+  teams:
+    home: Georgia
+    away: Spain
+  score:
+    home: 91
+    away: 89
+  status: result
+  time: '15:30'
+- id: 63107999
+  teams:
+    home: Greece
+    away: Portugal
+  score:
+    home: 56
+    away: 71
+  status: result
+  time: '16:30'
+- id: 63123535
+  teams:
+    home: Montenegro
+    away: Romania
+  score:
+    home: 65
+    away: 64
+  status: result
+  time: '18:30'
+- id: 63108035
+  teams:
+    home: Great Britain
+    away: Iceland
+  score:
+    home: 86
+    away: 88
+  status: result
+  time: '14:00'
+- id: 63108037
+  teams:
+    home: Italy
+    away: Lithuania
+  score:
+    home: 87
+    away: 84
+  status: result
+  time: '18:00'
+- id: 71687146
+  teams:
+    home: Bosnia & Herzegovina
+    away: Romania
+  score:
+    home: 59
+    away: 90
+  status: result
+  time: '12:15'
+- id: 71687148
+  teams:
+    home: Bulgaria
+    away: Netherlands
+  score:
+    home: 79
+    away: 72
+  status: result
+  time: '15:00'
+- id: 71687210
+  teams:
+    home: Montenegro
+    away: Switzerland
+  score:
+    home: 85
+    away: 54
+  status: result
+  time: '12:30'
+- id: 72388350
+  teams:
+    home: Milwaukee
+    away: Brooklyn
+  score:
+    home: 69
+    away: 89
+  status: result
+  time: '19:00'
+- id: 72388352
+  teams:
+    home: LA Lakers
+    away: Miami
+  score:
+    home: 87
+    away: 87
+  status: live
+  time: '20:30'
+- id: 72449592
+  teams:
+    home: Sacramento
+    away: Golden State Warriors Blue
+  score:
+    home: 70
+    away: 71
+  status: live
+  time: '21:00'
 tennis:
 - id: 72318902
   teams:
@@ -323,7 +476,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 72320588
   teams:
