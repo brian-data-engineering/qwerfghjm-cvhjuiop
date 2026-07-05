@@ -7,9 +7,18 @@ basketball:
   score:
     home: 85
     away: 87
-  status: recentlyended
+  status: result
   time: '10:00'
-tennis: []
+tennis:
+- id: 72318902
+  teams:
+    home: Safiullin, Roman
+    away: Djokovic, Novak
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:30'
 ice_hockey: []
 table_tennis:
 - id: 72540752
@@ -174,6 +183,60 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 72584420
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 72584162
+  teams:
+    home: Kosar, Vaclav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 72584290
+  teams:
+    home: Kouble, Daniel
+    away: Kysely, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 72584164
+  teams:
+    home: Didi, Julius
+    away: Novotny, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 72584422
+  teams:
+    home: Mikuska, Alexander
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 72584354
+  teams:
+    home: Pycha, Patrik
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
 - id: 72569008
   teams:
     home: Huk, Martin
@@ -426,6 +489,96 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 72589438
+  teams:
+    home: Huk, Martin
+    away: Barton, Ales
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 72589446
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 72589442
+  teams:
+    home: Schneeberger, Antonin
+    away: Priesol, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:01
+- id: 72589450
+  teams:
+    home: Kysely, Stepan
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:02
+- id: 72589458
+  teams:
+    home: Urbaniec, Radim
+    away: Plachta, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:06
+- id: 72589440
+  teams:
+    home: Kanera, Jan
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 72589448
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Klement, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 72589444
+  teams:
+    home: Langer, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 72589460
+  teams:
+    home: Navedla, Matyas
+    away: Wawrosz, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 72589452
+  teams:
+    home: Pavelka, Radim
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
 - id: 72571004
   teams:
     home: Chalupa, Michal
