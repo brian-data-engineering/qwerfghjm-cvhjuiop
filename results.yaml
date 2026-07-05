@@ -9,15 +9,33 @@ basketball:
     away: 87
   status: result
   time: '10:00'
+- id: 71686480
+  teams:
+    home: Spain
+    away: Lithuania
+  score:
+    home: 59
+    away: 61
+  status: live
+  time: '15:00'
+- id: 71686498
+  teams:
+    home: Hungary
+    away: Sweden
+  score:
+    home: 64
+    away: 59
+  status: result
+  time: '12:30'
 tennis:
 - id: 72318902
   teams:
     home: Safiullin, Roman
     away: Djokovic, Novak
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: recentlyended
   time: '12:30'
 - id: 72318904
   teams:
@@ -25,9 +43,18 @@ tennis:
     away: Davidovich Fokina, Alejandro
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '14:45'
+- id: 72318906
+  teams:
+    home: Hurkacz, Hubert
+    away: Struff, Jan-Lennard
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:45'
 ice_hockey: []
 table_tennis:
 - id: 72540752
