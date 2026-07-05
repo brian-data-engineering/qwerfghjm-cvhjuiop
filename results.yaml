@@ -5,8 +5,8 @@ soccer:
     away: Racing de Cordoba
   score:
     home: 1
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '18:00'
 - id: 67117768
   teams:
@@ -14,8 +14,8 @@ soccer:
     away: Colon de Santa Fe
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:00'
 - id: 67117774
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67118482
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67117772
   teams:
@@ -41,9 +41,72 @@ soccer:
     away: San Telmo
   score:
     home: 2
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 67118476
+  teams:
+    home: Ferrocarril Midland
+    away: Gimnasia Jujuy
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:00'
+- id: 67117760
+  teams:
+    home: Mitre Santiago Del Estero
+    away: CA All Boys
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '19:00'
+- id: 67118492
+  teams:
+    home: San Martin de San Juan
+    away: CA Chacarita Juniors
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:00'
+- id: 67117770
+  teams:
+    home: CA Central Norte Salta
+    away: CA San Miguel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:30'
+- id: 67118486
+  teams:
+    home: CD Maipu
+    away: Agropecuario Argentino
+  score:
+    home: 2
     away: 0
   status: live
-  time: '18:30'
+  time: '19:30'
+- id: 72195352
+  teams:
+    home: FC Belshina Bobruisk
+    away: FC Baranovichi
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72195354
+  teams:
+    home: FC Torpedo Belaz Zhodino
+    away: FC Isloch
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:55'
 basketball:
 - id: 71686478
   teams:
@@ -79,7 +142,7 @@ basketball:
   score:
     home: 70
     away: 60
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 71686516
   teams:
@@ -178,7 +241,7 @@ basketball:
   score:
     home: 63
     away: 89
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 61792686
   teams:
@@ -212,9 +275,9 @@ basketball:
     home: Angola
     away: Mali
   score:
-    home: 74
-    away: 64
-  status: live
+    home: 88
+    away: 74
+  status: result
   time: '18:00'
 - id: 63664399
   teams:
@@ -251,16 +314,16 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '15:45'
 - id: 72318892
   teams:
     home: Sinner, Jannik
     away: Mochizuki, Shintaro
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '18:20'
 - id: 72320588
   teams:
