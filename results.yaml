@@ -5,10 +5,28 @@ basketball:
     home: Greece
     away: Azerbaijan U20
   score:
-    home: 71
-    away: 53
-  status: live
+    home: 79
+    away: 63
+  status: result
   time: '14:45'
+- id: 71687080
+  teams:
+    home: Ireland
+    away: Albania
+  score:
+    home: 61
+    away: 30
+  status: live
+  time: '17:30'
+- id: 71687140
+  teams:
+    home: Slovakia
+    away: Czech Republic
+  score:
+    home: 70
+    away: 64
+  status: result
+  time: '12:30'
 tennis:
 - id: 72318900
   teams:
@@ -24,10 +42,19 @@ tennis:
     home: Dimitrov, Grigor
     away: Fery, Arthur
   score:
-    home: 0
-    away: 1
+    home: 2
+    away: 2
   status: live
   time: '15:20'
+- id: 72318978
+  teams:
+    home: Fritz, Taylor
+    away: Bublik, Alexander
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '17:10'
 ice_hockey: []
 table_tennis:
 - id: 72568972
