@@ -61,7 +61,7 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
-    away: 0
+    away: 2
   status: live
   time: '19:45'
 - id: 72320596
@@ -152,8 +152,26 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:05'
+- id: 72583346
+  teams:
+    home: Rodriguez Taverna, Santiago
+    away: Linde Palacios, Samuel Alejandro
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:30'
+- id: 72583340
+  teams:
+    home: Aboian, Valerio
+    away: Alvarez Valdes, Luis Carlos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:00'
 ice_hockey: []
 table_tennis:
 - id: 72568972
