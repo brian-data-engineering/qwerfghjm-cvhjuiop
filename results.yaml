@@ -27,6 +27,123 @@ basketball:
     away: 72
   status: result
   time: '10:00'
+- id: 71686504
+  teams:
+    home: Hungary
+    away: Latvia
+  score:
+    home: 64
+    away: 78
+  status: result
+  time: '17:30'
+- id: 71686520
+  teams:
+    home: Poland
+    away: Serbia
+  score:
+    home: 58
+    away: 37
+  status: result
+  time: '15:00'
+- id: 71686522
+  teams:
+    home: Iceland
+    away: Italy
+  score:
+    home: 86
+    away: 79
+  status: result
+  time: '17:30'
+- id: 71686534
+  teams:
+    home: Turkey
+    away: Slovenia
+  score:
+    home: 58
+    away: 48
+  status: result
+  time: '10:00'
+- id: 71686536
+  teams:
+    home: Belgium
+    away: France
+  score:
+    home: 62
+    away: 70
+  status: result
+  time: '12:30'
+- id: 72636020
+  teams:
+    home: Ukraine
+    away: Switzerland
+  score:
+    home: 73
+    away: 53
+  status: result
+  time: '15:00'
+- id: 63664347
+  teams:
+    home: Dominican Republic
+    away: Nicaragua
+  score:
+    home: 99
+    away: 76
+  status: result
+  time: 00:00
+- id: 63664343
+  teams:
+    home: Mexico
+    away: USA
+  score:
+    home: 93
+    away: 94
+  status: result
+  time: 02:00
+- id: 63664405
+  teams:
+    home: Colombia
+    away: Brazil
+  score:
+    home: 80
+    away: 104
+  status: result
+  time: 00:10
+- id: 72449596
+  teams:
+    home: Brooklyn
+    away: Golden State Warriors Blue
+  score:
+    home: 100
+    away: 87
+  status: result
+  time: 00:00
+- id: 72388644
+  teams:
+    home: Utah Jazz
+    away: Memphis
+  score:
+    home: 109
+    away: 100
+  status: result
+  time: 01:00
+- id: 72449598
+  teams:
+    home: Golden State Warriors Gold
+    away: Miami
+  score:
+    home: 85
+    away: 95
+  status: result
+  time: 02:00
+- id: 72388370
+  teams:
+    home: Sacramento
+    away: Milwaukee
+  score:
+    home: 95
+    away: 89
+  status: result
+  time: 02:00
 tennis:
 - id: 72318972
   teams:
@@ -51,8 +168,8 @@ tennis:
     home: Auger-Aliassime, Felix
     away: Djokovic, Novak
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 2
   status: live
   time: '16:35'
 - id: 72320602
@@ -88,17 +205,17 @@ tennis:
     away: Arevalo M / Ostapenko J
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:10'
 - id: 72635748
   teams:
     home: Claverie, Lorenzo
     away: Heredia, Samuel
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 72583344
   teams:
@@ -116,17 +233,53 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72583328
   teams:
     home: Hernandez, Alex
     away: Hardt, Nick
   score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:05'
+- id: 72635754
+  teams:
+    home: Popko, Dmitry
+    away: Pucinelli, Matheus
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:25'
+- id: 72635758
+  teams:
+    home: Mejia, Nicolas
+    away: Tenti, Fermin
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:05'
+- id: 72635752
+  teams:
+    home: Pacheco Mendez, Rodrigo
+    away: Meligeni Alves, Felipe
+  score:
     home: 0
     away: 0
   status: live
-  time: '17:05'
+  time: '19:35'
+- id: 72635750
+  teams:
+    home: Rodriguez, Lorenzo Joaquin
+    away: Andrade Da Silva, Lucas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:40'
 ice_hockey: []
 table_tennis:
 - id: 72589180
