@@ -168,7 +168,7 @@ tennis:
     home: Auger-Aliassime, Felix
     away: Djokovic, Novak
   score:
-    home: 1
+    home: 2
     away: 2
   status: live
   time: '16:35'
@@ -250,8 +250,8 @@ tennis:
     away: Pucinelli, Matheus
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '17:25'
 - id: 72635758
   teams:
@@ -260,7 +260,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:05'
 - id: 72635752
   teams:
@@ -268,8 +268,8 @@ tennis:
     away: Meligeni Alves, Felipe
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '19:35'
 - id: 72635750
   teams:
@@ -277,9 +277,18 @@ tennis:
     away: Andrade Da Silva, Lucas
   score:
     home: 0
+    away: 2
+  status: recentlyended
+  time: '19:40'
+- id: 72635756
+  teams:
+    home: Casanova, Hernan
+    away: Monzon, Ignacio
+  score:
+    home: 0
     away: 0
   status: live
-  time: '19:40'
+  time: '20:20'
 ice_hockey: []
 table_tennis:
 - id: 72589180
