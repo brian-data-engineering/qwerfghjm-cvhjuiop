@@ -1,24 +1,51 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71686482
+  teams:
+    home: Croatia
+    away: Spain
+  score:
+    home: 55
+    away: 88
+  status: result
+  time: '12:30'
+- id: 71686484
+  teams:
+    home: Israel
+    away: Lithuania
+  score:
+    home: 21
+    away: 27
+  status: live
+  time: '15:00'
+- id: 71686502
+  teams:
+    home: Sweden
+    away: Germany
+  score:
+    home: 44
+    away: 72
+  status: result
+  time: '10:00'
 tennis:
 - id: 72318972
   teams:
     home: Sinner, Jannik
     away: Struff, Jan-Lennard
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '12:00'
 - id: 72318974
   teams:
     home: Lehecka, Jiri
     away: Zverev, Alexander
   score:
-    home: 0
+    home: 1
     away: 2
-  status: Live
-  time: '13:30'
+  status: live
+  time: '14:55'
 ice_hockey: []
 table_tennis:
 - id: 72589180
