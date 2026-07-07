@@ -62,9 +62,9 @@ table_tennis:
     home: Hampl, Michal
     away: Huk, Martin
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 01:00
 - id: 72589138
   teams:
@@ -72,8 +72,8 @@ table_tennis:
     away: Kysely, Ondrej
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 72588950
   teams:
@@ -82,5 +82,86 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 72588982
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 72589298
+  teams:
+    home: Svechota, Vojtech
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 72589778
+  teams:
+    home: Trefny, Jan
+    away: Chlebecek, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 72589156
+  teams:
+    home: Hampl, Michal
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 72589244
+  teams:
+    home: Hlawatschke, Ales
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 72588970
+  teams:
+    home: Stuchlik, Pavel
+    away: Didi, Julius
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 72589134
+  teams:
+    home: Chlebecek, Marek
+    away: Kysely, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 72589192
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 72588938
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Pelikan, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
