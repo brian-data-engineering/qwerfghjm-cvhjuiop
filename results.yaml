@@ -169,8 +169,8 @@ tennis:
     away: Djokovic, Novak
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:35'
 - id: 72320602
   teams:
@@ -269,7 +269,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:35'
 - id: 72635750
   teams:
@@ -278,17 +278,26 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:40'
 - id: 72635756
   teams:
     home: Casanova, Hernan
     away: Monzon, Ignacio
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '20:20'
+- id: 72583332
+  teams:
+    home: Mena, Facundo
+    away: Ayeni, Alafia
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:25'
 ice_hockey: []
 table_tennis:
 - id: 72589180
