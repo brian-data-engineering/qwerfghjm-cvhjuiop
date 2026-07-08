@@ -70,7 +70,7 @@ basketball:
   score:
     home: 84
     away: 97
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 72636958
   teams:
@@ -106,7 +106,7 @@ basketball:
   score:
     home: 75
     away: 35
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 72636022
   teams:
@@ -224,7 +224,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72504790
   teams:
@@ -232,8 +232,8 @@ tennis:
     away: Andrade Da Silva, Lucas
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '17:00'
 ice_hockey: []
 table_tennis:
@@ -1630,7 +1630,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72647966
   teams:
@@ -1675,7 +1675,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72649360
   teams:
@@ -1684,7 +1684,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72649152
   teams:
@@ -1693,16 +1693,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72648878
   teams:
     home: Vavrecka, Radomir
     away: Byrtus, Samuel
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:30'
 - id: 72647924
   teams:
@@ -1711,5 +1711,95 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:30'
+- id: 72648890
+  teams:
+    home: Byrtus, Samuel
+    away: Walek, Adrian
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72649376
+  teams:
+    home: Hanel, Patrik
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72681698
+  teams:
+    home: Nohejl, Matej
+    away: Cermak, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72649124
+  teams:
+    home: Novak, Kamil
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72647958
+  teams:
+    home: Wolf, Filip
+    away: Kycelt, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72648892
+  teams:
+    home: Adamczyk, Vladimir
+    away: Vavrecka, Radomir
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 72647890
+  teams:
+    home: Klimenta, Matous
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 72647892
+  teams:
+    home: Postelt, Vladimir
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
+- id: 72649138
+  teams:
+    home: Stolfa, Jakub
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
+- id: 72649374
+  teams:
+    home: Taichman, Ivo
+    away: Jemelka, Libor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
