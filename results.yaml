@@ -271,7 +271,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72649150
   teams:
@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72648872
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72647938
   teams:
@@ -298,7 +298,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72647894
   teams:
@@ -307,16 +307,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72647926
   teams:
     home: Kubat, Vladimir
     away: Potmesil, Pavel
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
 - id: 72647880
   teams:
@@ -324,8 +324,8 @@ table_tennis:
     away: Sychra, Martin
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 72649108
   teams:
@@ -333,24 +333,249 @@ table_tennis:
     away: Hruska, Vaclav Senior
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 72649114
   teams:
     home: Unzeitig, Daniel
     away: Kasnik, Sebastian
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:00
 - id: 72648862
   teams:
     home: Zika, Tadeas
     away: Polasek, Radovan
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 07:00
+- id: 72647952
+  teams:
+    home: Koch, Jiri
+    away: Petr, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 72649148
+  teams:
+    home: Madle, Ludek
+    away: Kulhanek, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 72649120
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 72647964
+  teams:
+    home: Saleny, Petr
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 72648894
+  teams:
+    home: Wawrosz, Pavel
+    away: Revay, Radomir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72649106
+  teams:
+    home: Chalupa, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 72649088
+  teams:
+    home: Kulhanek, Pavel
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 72647940
+  teams:
+    home: Petr, Pavel
+    away: Potmesil, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 72647850
+  teams:
+    home: Regner, Michal
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 72648874
+  teams:
+    home: Revay, Radomir
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 72647974
+  teams:
+    home: Kubat, Vladimir
+    away: Koch, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 72647954
+  teams:
+    home: Louda, Jiri
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 72649122
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Madle, Ludek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 72649112
+  teams:
+    home: Unzeitig, Daniel
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 72648868
+  teams:
+    home: Zika, Tadeas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 72671038
+  teams:
+    home: Koch, Jiri
+    away: Kubat, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 72671108
+  teams:
+    home: Madle, Ludek
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 09:00
+- id: 72671044
+  teams:
+    home: Sychra, Martin
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 72671152
+  teams:
+    home: Unzeitig, Daniel
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 09:00
+- id: 72671146
+  teams:
+    home: Wawrosz, Pavel
+    away: Polasek, Radovan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 72671110
+  teams:
+    home: Kulhanek, Pavel
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 09:30
+- id: 72671154
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 09:30
+- id: 72671040
+  teams:
+    home: Potmesil, Pavel
+    away: Petr, Pavel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 09:30
+- id: 72671046
+  teams:
+    home: Saleny, Petr
+    away: Regner, Michal
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 09:30
+- id: 72671148
+  teams:
+    home: Zika, Tadeas
+    away: Revay, Radomir
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 09:30
