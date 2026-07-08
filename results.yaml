@@ -505,7 +505,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 72671044
   teams:
@@ -523,7 +523,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 72671146
   teams:
@@ -541,7 +541,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 72671154
   teams:
@@ -550,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 72671040
   teams:
@@ -559,7 +559,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 72671046
   teams:
@@ -567,15 +567,195 @@ table_tennis:
     away: Regner, Michal
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 09:30
 - id: 72671148
   teams:
     home: Zika, Tadeas
     away: Revay, Radomir
   score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 72649166
+  teams:
+    home: Darin, Kyryl
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 72648884
+  teams:
+    home: Dousek, Tomas
+    away: Cabis, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 72647860
+  teams:
+    home: Huk, Martin
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 72668972
+  teams:
+    home: Regner, Michal
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 72649368
+  teams:
+    home: Szotek, David
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72649092
+  teams:
+    home: Bartunek, Radek
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 72649382
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 72648854
+  teams:
+    home: Paril, Ondrej
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 72647872
+  teams:
+    home: Sychra, Martin
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 72647936
+  teams:
+    home: Zahradka, Michal
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 72648888
+  teams:
+    home: Cabis, Michal
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 72649140
+  teams:
+    home: Hasmanda, Rostislav
+    away: Bartunek, Radek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 72649380
+  teams:
+    home: Kasnik, Sebastian
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 72647862
+  teams:
+    home: Urbaniec, Radim
+    away: Zahradka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 72647948
+  teams:
+    home: Zuzanek, Jiri
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 72649372
+  teams:
+    home: Chalupa, Michal
+    away: Szotek, David
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '11:30'
+- id: 72647944
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '11:30'
+- id: 72668978
+  teams:
+    home: Saleny, Petr
+    away: Regner, Michal
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 72649118
+  teams:
+    home: Steffan, Jan
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 72648870
+  teams:
+    home: Zika, Tadeas
+    away: Dousek, Tomas
+  score:
     home: 2
     away: 2
   status: live
-  time: 09:30
+  time: '11:30'
