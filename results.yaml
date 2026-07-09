@@ -5,11 +5,29 @@ basketball:
     home: Greece
     away: Slovakia
   score:
-    home: 57
-    away: 47
-  status: live
+    home: 67
+    away: 54
+  status: result
   time: '10:00'
-tennis: []
+- id: 72636976
+  teams:
+    home: Ireland
+    away: Czech Republic
+  score:
+    home: 64
+    away: 84
+  status: live
+  time: '12:30'
+tennis:
+- id: 72320610
+  teams:
+    home: Arevalo M / Pavic M
+    away: Krawietz K / Puetz T
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '12:00'
 ice_hockey: []
 table_tennis:
 - id: 72647914
