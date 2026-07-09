@@ -25,8 +25,53 @@ basketball:
   score:
     home: 52
     away: 94
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 72636990
+  teams:
+    home: Netherlands
+    away: Montenegro
+  score:
+    home: 42
+    away: 54
+  status: live
+  time: '17:30'
+- id: 72636028
+  teams:
+    home: Ukraine
+    away: Romania
+  score:
+    home: 81
+    away: 57
+  status: result
+  time: '12:15'
+- id: 72636030
+  teams:
+    home: Switzerland
+    away: Albania
+  score:
+    home: 97
+    away: 42
+  status: result
+  time: '14:45'
+- id: 72636032
+  teams:
+    home: Azerbaijan U20
+    away: Bosnia & Herzegovina
+  score:
+    home: 75
+    away: 71
+  status: recentlyended
+  time: '17:15'
+- id: 72428966
+  teams:
+    home: Venezuela
+    away: Colombia
+  score:
+    home: 86
+    away: 102
+  status: result
+  time: 00:10
 tennis:
 - id: 72320610
   teams:
@@ -46,6 +91,42 @@ tennis:
     away: 0
   status: result
   time: '14:10'
+- id: 72469786
+  teams:
+    home: Polmans M / Hunter S
+    away: Arevalo M / Ostapenko J
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:35'
+- id: 72504756
+  teams:
+    home: Claverie, Lorenzo
+    away: Hardt, Nick
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 72504758
+  teams:
+    home: Mena, Facundo
+    away: McCormick, Tristan
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72504784
+  teams:
+    home: Mejia, Nicolas
+    away: Rodriguez Taverna, Santiago
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:30'
 ice_hockey: []
 table_tennis:
 - id: 72647914
