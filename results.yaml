@@ -14,10 +14,19 @@ basketball:
     home: Ireland
     away: Czech Republic
   score:
-    home: 64
-    away: 84
-  status: live
+    home: 65
+    away: 94
+  status: result
   time: '12:30'
+- id: 72636988
+  teams:
+    home: Bulgaria
+    away: Portugal
+  score:
+    home: 52
+    away: 94
+  status: recentlyended
+  time: '15:00'
 tennis:
 - id: 72320610
   teams:
@@ -26,8 +35,17 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 72320612
+  teams:
+    home: Heliovaara H / Patten H
+    away: Kokkinakis T / Kovacevic A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:10'
 ice_hockey: []
 table_tennis:
 - id: 72647914
