@@ -8,25 +8,43 @@ table_tennis:
     home: Mikuska, Alexander
     away: Kucirek, Ondrej
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 72647858
   teams:
     home: Sopko, Martin
     away: Bayer, Alesh
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 00:00
 - id: 72649126
   teams:
     home: Zmuda, Petr
     away: Plachy, Jiri
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
+- id: 72647888
+  teams:
+    home: Bartunek, Radek
+    away: Picek, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 72649154
+  teams:
+    home: Prokupek, Jaroslav
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
