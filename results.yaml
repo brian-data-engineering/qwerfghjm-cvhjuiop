@@ -32,9 +32,9 @@ basketball:
     home: Netherlands
     away: Montenegro
   score:
-    home: 42
-    away: 54
-  status: live
+    home: 48
+    away: 67
+  status: result
   time: '17:30'
 - id: 72636028
   teams:
@@ -61,7 +61,7 @@ basketball:
   score:
     home: 75
     away: 71
-  status: recentlyended
+  status: result
   time: '17:15'
 - id: 72428966
   teams:
@@ -72,6 +72,24 @@ basketball:
     away: 102
   status: result
   time: 00:10
+- id: 72388480
+  teams:
+    home: New Orleans
+    away: Minnesota
+  score:
+    home: 70
+    away: 70
+  status: live
+  time: '19:30'
+- id: 72388482
+  teams:
+    home: Atlanta
+    away: San Antonio
+  score:
+    home: 34
+    away: 25
+  status: live
+  time: '20:30'
 tennis:
 - id: 72320610
   teams:
@@ -97,8 +115,8 @@ tennis:
     away: Arevalo M / Ostapenko J
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '17:35'
 - id: 72504756
   teams:
@@ -123,10 +141,37 @@ tennis:
     home: Mejia, Nicolas
     away: Rodriguez Taverna, Santiago
   score:
-    home: 1
+    home: 2
+    away: 1
+  status: result
+  time: '17:30'
+- id: 72504796
+  teams:
+    home: Casanova, Hernan
+    away: Ambrogi, Luciano Emanuel
+  score:
+    home: 0
     away: 0
   status: live
-  time: '17:30'
+  time: '20:30'
+- id: 72504782
+  teams:
+    home: Alvarez L C / Wong T F
+    away: Soto M / Zeballos F
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:50'
+- id: 72504766
+  teams:
+    home: Escobar G / Mena F
+    away: Britto L / Gomez J S
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '19:45'
 ice_hockey: []
 table_tennis:
 - id: 72647914
