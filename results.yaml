@@ -41,9 +41,9 @@ basketball:
     home: Ukraine
     away: Georgia
   score:
-    home: 43
-    away: 35
-  status: live
+    home: 77
+    away: 64
+  status: recentlyended
   time: '18:30'
 - id: 71685912
   teams:
@@ -86,9 +86,9 @@ basketball:
     home: Netherlands
     away: Albania
   score:
-    home: 32
-    away: 17
-  status: live
+    home: 82
+    away: 59
+  status: recentlyended
   time: '19:00'
 - id: 72685718
   teams:
@@ -124,7 +124,7 @@ basketball:
   score:
     home: 72
     away: 59
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 72685752
   teams:
@@ -160,7 +160,7 @@ basketball:
   score:
     home: 75
     away: 61
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 72449496
   teams:
@@ -198,6 +198,24 @@ basketball:
     away: 91
   status: result
   time: 03:00
+- id: 72388506
+  teams:
+    home: Miami
+    away: Milwaukee
+  score:
+    home: 59
+    away: 56
+  status: live
+  time: '20:00'
+- id: 72388508
+  teams:
+    home: Indiana
+    away: Cleveland
+  score:
+    home: 15
+    away: 18
+  status: live
+  time: '20:30'
 tennis:
 - id: 72318994
   teams:
@@ -249,9 +267,9 @@ tennis:
     home: Varillas, Juan Pablo
     away: Pucinelli, Matheus
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '17:30'
 - id: 72504778
   teams:
@@ -267,10 +285,208 @@ tennis:
     home: Escobar G / Mena F
     away: Hernandez Alex / Pacheco Mendez R
   score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:10'
+- id: 72504774
+  teams:
+    home: Soto M / Zeballos F
+    away: Oliveira B (2002) / Rodrigues N
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:45'
+- id: 72504674
+  teams:
+    home: Choinski, Jan
+    away: Dedura-Palomero, Diego
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 72504676
+  teams:
+    home: Djere, Laslo
+    away: Rincon, Daniel
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72504688
+  teams:
+    home: Diaz Acosta, Facundo
+    away: McDonald, Niels
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:35'
+- id: 72504686
+  teams:
+    home: Gaston, Hugo
+    away: Moeller, Marvin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:20'
+- id: 72504696
+  teams:
+    home: Luz O / Matos R
+    away: Pieczonka F / Vrbensky M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:05'
+- id: 72504602
+  teams:
+    home: Kasnikowski, Maks
+    away: Kym, Jerome
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:30'
+- id: 72504604
+  teams:
+    home: Midon, Lautaro
+    away: Piros, Zsombor
+  score:
     home: 0
+    away: 2
+  status: result
+  time: '12:40'
+- id: 72504590
+  teams:
+    home: Droguet, Titouan
+    away: Heide, Gustavo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:05'
+- id: 72504592
+  teams:
+    home: Royer, Valentin
+    away: Daniel, Taro
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:35'
+- id: 72504612
+  teams:
+    home: Banthia S / Donski A
+    away: Grevelius E / Heinonen A
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:30'
+- id: 72504610
+  teams:
+    home: Jecan A / Pavel B
+    away: Sabanov I / Sabanov M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72504716
+  teams:
+    home: Loge, Jack
+    away: Giustino, Lorenzo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:35'
+- id: 72504714
+  teams:
+    home: Dhamne, Manas
+    away: Damas, Miguel
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:40'
+- id: 72504732
+  teams:
+    home: Coppejans, Kimmer
+    away: Den Ouden, Guy
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:50'
+- id: 72504734
+  teams:
+    home: Broska, Florian
+    away: Balshaw, Felix
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 72504740
+  teams:
+    home: Hermans M / Nijboer R
+    away: Demanet E / Ratiu N
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72504752
+  teams:
+    home: Ifi N / Stanke C
+    away: Betov S / Hsu J C E
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72504550
+  teams:
+    home: Gea, Arthur
+    away: Walton, Adam
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 72504532
+  teams:
+    home: Fearnley, Jacob
+    away: Kozlov, Stefan
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72504548
+  teams:
+    home: Broady, Liam
+    away: Michelsen, Alex
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:05'
+- id: 72504554
+  teams:
+    home: Galarneau, Alexis
+    away: Milavsky, Daniel
+  score:
+    home: 1
     away: 0
   status: live
-  time: '19:10'
+  time: '19:55'
 ice_hockey: []
 table_tennis:
 - id: 72670088
