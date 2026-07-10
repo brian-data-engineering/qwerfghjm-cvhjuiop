@@ -43,7 +43,7 @@ basketball:
   score:
     home: 77
     away: 64
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71685912
   teams:
@@ -88,7 +88,7 @@ basketball:
   score:
     home: 82
     away: 59
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72685718
   teams:
@@ -203,19 +203,28 @@ basketball:
     home: Miami
     away: Milwaukee
   score:
-    home: 59
-    away: 56
-  status: live
+    home: 119
+    away: 86
+  status: result
   time: '20:00'
 - id: 72388508
   teams:
     home: Indiana
     away: Cleveland
   score:
-    home: 15
-    away: 18
-  status: live
+    home: 99
+    away: 93
+  status: recentlyended
   time: '20:30'
+- id: 72388510
+  teams:
+    home: NY Knicks
+    away: Brooklyn
+  score:
+    home: 19
+    away: 15
+  status: live
+  time: '22:00'
 tennis:
 - id: 72318994
   teams:
@@ -294,9 +303,9 @@ tennis:
     home: Soto M / Zeballos F
     away: Oliveira B (2002) / Rodrigues N
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '19:45'
 - id: 72504674
   teams:
@@ -483,10 +492,19 @@ tennis:
     home: Galarneau, Alexis
     away: Milavsky, Daniel
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '19:55'
+- id: 72504552
+  teams:
+    home: Blanch, Darwin
+    away: Fearnley, Jacob
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:35'
 ice_hockey: []
 table_tennis:
 - id: 72670088
