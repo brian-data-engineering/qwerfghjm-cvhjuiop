@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 72195356
+  teams:
+    home: FC Dnepr Mogilev
+    away: FC Minsk
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '15:30'
 basketball:
 - id: 71685820
   teams:
@@ -7,8 +16,26 @@ basketball:
   score:
     home: 85
     away: 58
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 71685822
+  teams:
+    home: Macedonia
+    away: Slovakia
+  score:
+    home: 64
+    away: 52
+  status: live
+  time: '16:00'
+- id: 71685882
+  teams:
+    home: Switzerland
+    away: Luxembourg
+  score:
+    home: 64
+    away: 69
+  status: result
+  time: '13:30'
 tennis:
 - id: 72318994
   teams:
@@ -24,9 +51,9 @@ tennis:
     home: Sinner, Jannik
     away: Djokovic, Novak
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '15:20'
 - id: 72504768
   teams:
@@ -34,18 +61,45 @@ tennis:
     away: Claverie, Lorenzo
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '15:05'
 - id: 72504772
   teams:
     home: Andrade Da Silva, Lucas
     away: Soto, Matias
   score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '15:10'
+- id: 72504754
+  teams:
+    home: Mejia, Nicolas
+    away: Casanova, Hernan
+  score:
     home: 0
+    away: 0
+  status: live
+  time: '17:30'
+- id: 72504780
+  teams:
+    home: Varillas, Juan Pablo
+    away: Pucinelli, Matheus
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:30'
+- id: 72504778
+  teams:
+    home: Oliveira B (2002) / Rodrigues N
+    away: Ribeiro E / Rodriguez Taverna S
+  score:
+    home: 1
     away: 1
   status: live
-  time: '15:10'
+  time: '17:00'
 ice_hockey: []
 table_tennis:
 - id: 72670088
