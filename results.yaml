@@ -388,7 +388,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 72693434
   teams:
@@ -397,7 +397,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 72692484
   teams:
@@ -406,16 +406,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 72693444
   teams:
     home: Kowolowski, Miroslav
     away: Schneeberger, Antonin
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:00
 - id: 72693662
   teams:
@@ -424,7 +424,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 72693430
   teams:
@@ -433,7 +433,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 72693350
   teams:
@@ -442,5 +442,176 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
+- id: 72693606
+  teams:
+    home: Byrtus, Samuel
+    away: Cabak, Josef
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 72693482
+  teams:
+    home: Pavelka, Radim
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 72693464
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 72693320
+  teams:
+    home: Sebera, Petr
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 72692478
+  teams:
+    home: Svec, Jiri
+    away: Smesny, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 72723756
+  teams:
+    home: Laburda, Frantisek
+    away: Walek, Adrian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 72723748
+  teams:
+    home: Plachy, Jiri
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 72723752
+  teams:
+    home: Tazler, Jakub
+    away: Hofman, Denis
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 72723914
+  teams:
+    home: Vrba, Jindrich
+    away: Svec, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 72723922
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:08
+- id: 72723758
+  teams:
+    home: Cabak, Josef
+    away: Byrtus, Samuel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 72723924
+  teams:
+    home: Kowolowski, Miroslav
+    away: Schneeberger, Antonin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 72723750
+  teams:
+    home: Pavelka, Radim
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 72723754
+  teams:
+    home: Sebera, Petr
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 72723916
+  teams:
+    home: Smesny, Milan
+    away: Forman, Lubos
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 72724174
+  teams:
+    home: Blejchar, Marek
+    away: Bosak, Vitezslav
+  score:
+    home: null
+    away: null
+  status: result
+  time: '10:00'
+- id: 72693358
+  teams:
+    home: Hofman, Denis
+    away: Saleny, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 72693642
+  teams:
+    home: Kasnik, Sebastian
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 72692464
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Mecl Jr, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:00'
