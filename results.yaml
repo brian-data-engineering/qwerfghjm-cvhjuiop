@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71685820
+  teams:
+    home: Sweden
+    away: Azerbaijan
+  score:
+    home: 85
+    away: 58
+  status: recentlyended
+  time: '14:00'
 tennis:
 - id: 72318994
   teams:
@@ -7,9 +16,36 @@ tennis:
     away: Zverev, Alexander
   score:
     home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 72318982
+  teams:
+    home: Sinner, Jannik
+    away: Djokovic, Novak
+  score:
+    home: 0
     away: 0
   status: live
-  time: '12:30'
+  time: '15:20'
+- id: 72504768
+  teams:
+    home: Mena, Facundo
+    away: Claverie, Lorenzo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:05'
+- id: 72504772
+  teams:
+    home: Andrade Da Silva, Lucas
+    away: Soto, Matias
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:10'
 ice_hockey: []
 table_tennis:
 - id: 72670088
