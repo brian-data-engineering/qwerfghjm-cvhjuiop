@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71684006
+  teams:
+    home: Italy
+    away: Germany
+  score:
+    home: 54
+    away: 68
+  status: live
+  time: '11:00'
 tennis:
 - id: 72733436
   teams:
@@ -25,7 +34,7 @@ tennis:
     away: Herbert, Pierre-Hugues
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: 09:25
 - id: 72733440
@@ -33,9 +42,9 @@ tennis:
     home: Michalski, Daniel
     away: Hemery, Calvin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '10:00'
 ice_hockey: []
 table_tennis:
