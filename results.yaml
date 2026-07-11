@@ -23,9 +23,9 @@ basketball:
     home: Serbia
     away: Poland
   score:
-    home: 44
-    away: 38
-  status: live
+    home: 84
+    away: 67
+  status: recentlyended
   time: '16:00'
 tennis:
 - id: 72733436
@@ -115,8 +115,8 @@ tennis:
     away: Guerrieri, Andrea
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 72736964
   teams:
@@ -134,14 +134,14 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72736966
   teams:
     home: Neumayer, Lukas
     away: Poljicak, Mili
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '16:15'
@@ -150,10 +150,55 @@ tennis:
     home: Brancaccio, Raul
     away: Gomez, Federico Agustin
   score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:20'
+- id: 72736960
+  teams:
+    home: Gombos, Norbert
+    away: Sanchez Izquierdo, Nikolas
+  score:
     home: 0
     away: 0
   status: live
-  time: '16:20'
+  time: '16:55'
+- id: 72736962
+  teams:
+    home: Prado Angelo, Juan Carlos
+    away: Majdandzic, Marc
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:10'
+- id: 72320608
+  teams:
+    home: Heliovaara H / Patten H
+    away: Arevalo M / Pavic M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 72504788
+  teams:
+    home: Soto, Matias
+    away: Claverie, Lorenzo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 72504764
+  teams:
+    home: Mejia, Nicolas
+    away: Varillas, Juan Pablo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:10'
 ice_hockey: []
 table_tennis:
 - id: 72693380
