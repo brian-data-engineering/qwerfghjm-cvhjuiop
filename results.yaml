@@ -16,8 +16,17 @@ basketball:
   score:
     home: 57
     away: 79
-  status: recentlyended
+  status: result
   time: '13:30'
+- id: 71684018
+  teams:
+    home: Serbia
+    away: Poland
+  score:
+    home: 44
+    away: 38
+  status: live
+  time: '16:00'
 tennis:
 - id: 72733436
   teams:
@@ -78,9 +87,9 @@ tennis:
     home: Skatov, Timofey
     away: Chandrasekar, Anirudh
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:30'
 - id: 72733444
   teams:
@@ -88,17 +97,17 @@ tennis:
     away: Sachko, Vitaliy
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 72736958
   teams:
     home: Cecchinato, Marco
     away: Ajdukovic, Duje
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 72736970
   teams:
@@ -106,7 +115,7 @@ tennis:
     away: Guerrieri, Andrea
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:00'
 - id: 72736964
@@ -114,9 +123,9 @@ tennis:
     home: ToPo, Marko
     away: Martin Tiffon, Pol
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: result
   time: '15:00'
 - id: 72736956
   teams:
@@ -124,9 +133,27 @@ tennis:
     away: Olivieri, Genaro Alberto
   score:
     home: 0
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 72736966
+  teams:
+    home: Neumayer, Lukas
+    away: Poljicak, Mili
+  score:
+    home: 0
     away: 0
   status: live
-  time: '15:00'
+  time: '16:15'
+- id: 72736968
+  teams:
+    home: Brancaccio, Raul
+    away: Gomez, Federico Agustin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:20'
 ice_hockey: []
 table_tennis:
 - id: 72693380
