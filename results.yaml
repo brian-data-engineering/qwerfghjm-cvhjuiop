@@ -5,10 +5,19 @@ basketball:
     home: Italy
     away: Germany
   score:
-    home: 54
-    away: 68
-  status: live
+    home: 67
+    away: 85
+  status: result
   time: '11:00'
+- id: 71684008
+  teams:
+    home: Turkey
+    away: France
+  score:
+    home: 18
+    away: 26
+  status: live
+  time: '13:30'
 tennis:
 - id: 72733436
   teams:
@@ -33,9 +42,9 @@ tennis:
     home: Monteiro, Thiago
     away: Herbert, Pierre-Hugues
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 09:25
 - id: 72733440
   teams:
@@ -44,8 +53,26 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 72733442
+  teams:
+    home: Cina, Federico
+    away: Zahraj, Patrick
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:30'
+- id: 72733450
+  teams:
+    home: Virtanen, Otto
+    away: Dietrich, Dylan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '13:00'
 ice_hockey: []
 table_tennis:
 - id: 72693380
