@@ -14,9 +14,9 @@ basketball:
     home: Turkey
     away: France
   score:
-    home: 18
-    away: 26
-  status: live
+    home: 57
+    away: 79
+  status: recentlyended
   time: '13:30'
 tennis:
 - id: 72733436
@@ -60,9 +60,9 @@ tennis:
     home: Cina, Federico
     away: Zahraj, Patrick
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '12:30'
 - id: 72733450
   teams:
@@ -70,9 +70,63 @@ tennis:
     away: Dietrich, Dylan
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '13:00'
+- id: 72733446
+  teams:
+    home: Skatov, Timofey
+    away: Chandrasekar, Anirudh
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:30'
+- id: 72733444
+  teams:
+    home: Dhamne, Manas
+    away: Sachko, Vitaliy
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72736958
+  teams:
+    home: Cecchinato, Marco
+    away: Ajdukovic, Duje
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72736970
+  teams:
+    home: Nardi, Luca
+    away: Guerrieri, Andrea
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72736964
+  teams:
+    home: ToPo, Marko
+    away: Martin Tiffon, Pol
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72736956
+  teams:
+    home: Vukadin, Noa
+    away: Olivieri, Genaro Alberto
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
 ice_hockey: []
 table_tennis:
 - id: 72693380
