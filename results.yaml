@@ -142,7 +142,7 @@ basketball:
   score:
     home: 68
     away: 78
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71685824
   teams:
@@ -205,7 +205,7 @@ basketball:
   score:
     home: 65
     away: 81
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71685948
   teams:
@@ -421,17 +421,26 @@ basketball:
   score:
     home: 93
     away: 88
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72388526
   teams:
     home: Charlotte
     away: New Orleans
   score:
-    home: 65
-    away: 51
-  status: live
+    home: 91
+    away: 95
+  status: recentlyended
   time: '20:00'
+- id: 72388528
+  teams:
+    home: Philadelphia
+    away: Indiana
+  score:
+    home: 54
+    away: 38
+  status: live
+  time: '21:30'
 tennis:
 - id: 72733436
   teams:
@@ -610,7 +619,7 @@ tennis:
     away: Soto M / Zeballos F
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '21:00'
 - id: 72504684
@@ -700,7 +709,7 @@ tennis:
     away: Fearnley, Jacob
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '20:10'
 - id: 72504572
