@@ -60,7 +60,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72327788
   teams:
@@ -69,7 +69,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '20:00'
 - id: 72327786
   teams:
@@ -268,7 +268,7 @@ basketball:
   score:
     home: 96
     away: 79
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71685952
   teams:
@@ -484,17 +484,26 @@ basketball:
   score:
     home: 103
     away: 94
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72388544
   teams:
     home: Boston
     away: Charlotte
   score:
-    home: 35
-    away: 32
+    home: 77
+    away: 58
   status: live
   time: '21:00'
+- id: 72388548
+  teams:
+    home: Golden State
+    away: Oklahoma
+  score:
+    home: 51
+    away: 36
+  status: live
+  time: '22:00'
 tennis:
 - id: 72750806
   teams:
@@ -979,15 +988,15 @@ tennis:
     away: Rozin, Alexander
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '20:45'
 - id: 72758944
   teams:
     home: Miyoshi, Kenta (2004)
     away: Kuzuhara, Bruno
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '21:00'
@@ -997,7 +1006,7 @@ tennis:
     away: Kirchheimer, Strong
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '21:15'
 - id: 72504580
@@ -1088,16 +1097,16 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72760922
   teams:
     home: Langmo, Christian
     away: Kobelt, Alex
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '20:20'
 - id: 72760936
   teams:
@@ -1105,8 +1114,8 @@ tennis:
     away: Marinkov, Pavle
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '20:50'
 ice_hockey: []
 table_tennis:
