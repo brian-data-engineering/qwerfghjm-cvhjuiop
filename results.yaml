@@ -134,7 +134,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72752862
   teams:
@@ -142,24 +142,24 @@ tennis:
     away: ToPo, Marko
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 72752866
   teams:
     home: Prado Angelo, Juan Carlos
     away: Sanchez Izquierdo, Nikolas
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 72318992
   teams:
     home: Sinner, Jannik
     away: Zverev, Alexander
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '15:05'
@@ -168,9 +168,9 @@ tennis:
     home: Mejia, Nicolas
     away: Soto, Matias
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '16:00'
 - id: 72504694
   teams:
@@ -286,8 +286,8 @@ tennis:
     away: Donders, Dax
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:10'
 - id: 72768068
   teams:
@@ -296,7 +296,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:15'
 - id: 72751990
   teams:
@@ -404,7 +404,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '14:35'
 - id: 72758942
   teams:
@@ -438,18 +438,18 @@ tennis:
     home: Trotter, James Kent
     away: Horwood, Jared
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '15:40'
 - id: 72758950
   teams:
     home: Martin, Dan
     away: Arseneault, Mikael
   score:
-    home: 1
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: recentlyended
   time: '15:45'
 - id: 72758960
   teams:
@@ -457,9 +457,18 @@ tennis:
     away: Isomura, Kokoro
   score:
     home: 1
+    away: 2
+  status: recentlyended
+  time: '15:50'
+- id: 72758954
+  teams:
+    home: Winter, Edward
+    away: Roberts, Justin
+  score:
+    home: 0
     away: 0
   status: live
-  time: '15:50'
+  time: '17:15'
 ice_hockey: []
 table_tennis:
 - id: 72723070
