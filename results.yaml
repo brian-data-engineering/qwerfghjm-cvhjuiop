@@ -7,18 +7,36 @@ tennis:
     away: Marcondes, Igor
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 08:30
 - id: 72750800
   teams:
     home: Krumich, Martin
     away: Ferreira Silva, Frederico
   score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:30
+- id: 72750802
+  teams:
+    home: Passaro, Francesco
+    away: Kasnikowski, Maks
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:15'
+- id: 72750804
+  teams:
+    home: Rejchtman Vinciguerra, William
+    away: Midon, Lautaro
+  score:
     home: 0
     away: 0
   status: live
-  time: 08:30
+  time: '10:25'
 ice_hockey: []
 table_tennis:
 - id: 72723070
