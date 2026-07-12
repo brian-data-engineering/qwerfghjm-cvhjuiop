@@ -53,7 +53,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '12:20'
 - id: 72750814
   teams:
@@ -61,18 +61,108 @@ tennis:
     away: Faurel, Thomas
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '12:40'
 - id: 72750810
   teams:
     home: Carballes Baena, Roberto
     away: Sanchez Jover, Carlos
   score:
+    home: null
+    away: null
+  status: result
+  time: '13:45'
+- id: 72750812
+  teams:
+    home: Slavic, Nikola
+    away: Damas, Miguel
+  score:
     home: 0
     away: 0
   status: live
-  time: '13:45'
+  time: '14:35'
+- id: 72749338
+  teams:
+    home: Cina, Federico
+    away: Hemery, Calvin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 72747134
+  teams:
+    home: Tabur, Clement
+    away: Huesler, Marc-Andrea
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 72751888
+  teams:
+    home: Skatov, Timofey
+    away: Sachko, Vitaliy
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:40'
+- id: 72749684
+  teams:
+    home: Dietrich, Dylan
+    away: Monteiro, Thiago
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:55'
+- id: 72752864
+  teams:
+    home: Cecchinato, Marco
+    away: Olivieri, Genaro Alberto
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72752860
+  teams:
+    home: Guerrieri, Andrea
+    away: Gomez, Federico Agustin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72752862
+  teams:
+    home: Neumayer, Lukas
+    away: ToPo, Marko
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72752866
+  teams:
+    home: Prado Angelo, Juan Carlos
+    away: Sanchez Izquierdo, Nikolas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72318992
+  teams:
+    home: Sinner, Jannik
+    away: Zverev, Alexander
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:05'
 ice_hockey: []
 table_tennis:
 - id: 72723070
