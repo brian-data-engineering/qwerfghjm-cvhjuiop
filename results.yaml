@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71684010
+  teams:
+    home: Germany
+    away: Turkey
+  score:
+    home: 21
+    away: 31
+  status: live
+  time: '11:30'
 tennis:
 - id: 72750806
   teams:
@@ -25,7 +34,7 @@ tennis:
     away: Kasnikowski, Maks
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '10:15'
 - id: 72750804
@@ -34,7 +43,7 @@ tennis:
     away: Midon, Lautaro
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '10:25'
 ice_hockey: []
