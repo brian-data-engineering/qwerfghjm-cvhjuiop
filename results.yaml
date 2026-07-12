@@ -78,7 +78,7 @@ soccer:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: '21:00'
 - id: 72078904
   teams:
@@ -132,8 +132,197 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '21:00'
+- id: 68823062
+  teams:
+    home: Cr Brasil AL
+    away: Goias
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '22:00'
+- id: 69255158
+  teams:
+    home: AA Internacional Limeira SP
+    away: Amazonas FC
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '14:00'
+- id: 69255172
+  teams:
+    home: Barra FC SC
+    away: Santa Cruz FC
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 69255168
+  teams:
+    home: Anapolis FC GO
+    away: Maringa FC
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '19:00'
+- id: 69255160
+  teams:
+    home: Ituano
+    away: Ferroviaria Araraquara SP
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 69255166
+  teams:
+    home: Maranhao AC
+    away: Ypiranga FC
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '19:00'
+- id: 69255174
+  teams:
+    home: Paysandu
+    away: Guarani
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 69255176
+  teams:
+    home: Botafogo FC
+    away: AD Confianca SE
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 72480800
+  teams:
+    home: Sao Luiz
+    away: Velo Clube
+  score:
+    home: 7
+    away: 4
+  status: result
+  time: '18:30'
+- id: 72480814
+  teams:
+    home: AA Portuguesa RJ
+    away: EC Sao Jose RS
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:00'
+- id: 72480808
+  teams:
+    home: Abc FC
+    away: Aguia de Maraba PA
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:00'
+- id: 72480804
+  teams:
+    home: Gama
+    away: Porto Velho Ec/Ro
+  score:
+    home: 7
+    away: 4
+  status: result
+  time: '19:00'
+- id: 72480806
+  teams:
+    home: Iguatu CE
+    away: Maguary PE
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '19:00'
+- id: 72480802
+  teams:
+    home: Manauara EC AM
+    away: Goiatuba
+  score:
+    home: 4
+    away: 6
+  status: result
+  time: '19:00'
+- id: 72480810
+  teams:
+    home: Uberlandia
+    away: Serra Branca EC PB
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '19:00'
+- id: 72480822
+  teams:
+    home: AS Arapiraquense AL
+    away: Ivinhema
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72480816
+  teams:
+    home: Capital
+    away: Nacional
+  score:
+    home: 6
+    away: 6
+  status: result
+  time: '20:00'
+- id: 72480818
+  teams:
+    home: Ferroviario AC
+    away: SD Imperatriz MA
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 72480820
+  teams:
+    home: Treze FC PB
+    away: CRA Catalano GO
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: '20:00'
+- id: 72480826
+  teams:
+    home: Guapore  RO
+    away: Luverdense EC
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '21:00'
+- id: 72367824
+  teams:
+    home: Coquimbo U.
+    away: Union La Calera
+  score:
+    home: 5
+    away: 5
+  status: result
+  time: '19:00'
 basketball:
 - id: 71684010
   teams:
@@ -491,19 +680,28 @@ basketball:
     home: Boston
     away: Charlotte
   score:
-    home: 77
-    away: 58
-  status: live
+    home: 87
+    away: 75
+  status: result
   time: '21:00'
 - id: 72388548
   teams:
     home: Golden State
     away: Oklahoma
   score:
-    home: 51
-    away: 36
-  status: live
+    home: 104
+    away: 79
+  status: recentlyended
   time: '22:00'
+- id: 72388550
+  teams:
+    home: Portland
+    away: Orlando
+  score:
+    home: 44
+    away: 40
+  status: live
+  time: '23:00'
 tennis:
 - id: 72750806
   teams:
@@ -996,9 +1194,9 @@ tennis:
     home: Miyoshi, Kenta (2004)
     away: Kuzuhara, Bruno
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '21:00'
 - id: 72758952
   teams:
@@ -1006,8 +1204,8 @@ tennis:
     away: Kirchheimer, Strong
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '21:15'
 - id: 72504580
   teams:
@@ -1115,7 +1313,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '20:50'
 ice_hockey: []
 table_tennis:
