@@ -37,7 +37,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72723910
   teams:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72723086
   teams:
@@ -55,23 +55,23 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72722982
   teams:
     home: Ruzicka, Jiri
     away: Klimenta, Matous
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 01:00
 - id: 72723064
   teams:
     home: Tazler, Jakub
     away: Kolisnyk, Oleksandr
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:00
