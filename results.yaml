@@ -15,7 +15,7 @@ soccer:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72327774
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 72327746
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 0
     away: 2
-  status: live
+  status: result
   time: '19:00'
 - id: 72327798
   teams:
@@ -42,16 +42,16 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 72327540
   teams:
     home: Racing de Cordoba
     away: Club Atletico Acassuso
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '19:00'
 - id: 72327660
   teams:
@@ -60,17 +60,80 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '19:30'
 - id: 72327788
   teams:
     home: Gimnasia Y Tiro de Salta
     away: CA Patronato Parana
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '20:00'
+- id: 72327786
+  teams:
+    home: San Martin de Tucuman
+    away: Club Almagro
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '21:00'
+- id: 72078904
+  teams:
+    home: Independiente Rivadavia
+    away: CA Tigre
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '19:15'
+- id: 72195364
+  teams:
+    home: FK Arsenal Dzerzhinsk
+    away: FC Vitebsk
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 68823052
+  teams:
+    home: Operario
+    away: Novorizontino
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 68823058
+  teams:
+    home: Avai
+    away: Nautico PE
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:00'
+- id: 68823048
+  teams:
+    home: Sao Bernardo FC
+    away: Cuiaba Esporte Clube
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '19:00'
+- id: 68823056
+  teams:
+    home: AC Goianiense
+    away: Fortaleza EC
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '21:00'
 basketball:
 - id: 71684010
   teams:
@@ -86,9 +149,9 @@ basketball:
     home: France
     away: Italy
   score:
-    home: 64
-    away: 41
-  status: live
+    home: 67
+    away: 53
+  status: result
   time: '19:00'
 - id: 71684022
   teams:
@@ -124,7 +187,7 @@ basketball:
   score:
     home: 84
     away: 60
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71684216
   teams:
@@ -196,16 +259,16 @@ basketball:
   score:
     home: 57
     away: 92
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71685928
   teams:
     home: Iceland
     away: Kosovo
   score:
-    home: 48
-    away: 41
-  status: live
+    home: 96
+    away: 79
+  status: recentlyended
   time: '19:00'
 - id: 71685952
   teams:
@@ -410,19 +473,28 @@ basketball:
     home: New Orleans
     away: Phoenix
   score:
-    home: 74
-    away: 70
-  status: live
+    home: 81
+    away: 75
+  status: result
   time: '19:00'
 - id: 72388542
   teams:
     home: Detroit
     away: Cleveland
   score:
-    home: 54
-    away: 45
-  status: live
+    home: 103
+    away: 94
+  status: recentlyended
   time: '20:00'
+- id: 72388544
+  teams:
+    home: Boston
+    away: Charlotte
+  score:
+    home: 35
+    away: 32
+  status: live
+  time: '21:00'
 tennis:
 - id: 72750806
   teams:
@@ -879,9 +951,9 @@ tennis:
     home: Winter, Edward
     away: Roberts, Justin
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:15'
 - id: 72758956
   teams:
@@ -890,7 +962,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72758946
   teams:
@@ -899,8 +971,143 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
+- id: 72758962
+  teams:
+    home: Tokuda, Renta
+    away: Rozin, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:45'
+- id: 72758944
+  teams:
+    home: Miyoshi, Kenta (2004)
+    away: Kuzuhara, Bruno
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:00'
+- id: 72758952
+  teams:
+    home: Pearson, Kody
+    away: Kirchheimer, Strong
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:15'
+- id: 72504580
+  teams:
+    home: Droguet, Titouan
+    away: Piros, Zsombor
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:05'
+- id: 72504608
+  teams:
+    home: Grevelius E / Heinonen A
+    away: Sabanov I / Sabanov M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:10'
+- id: 72504722
+  teams:
+    home: Broska, Florian
+    away: Giustino, Lorenzo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:40'
+- id: 72760918
+  teams:
+    home: Moriya, Hiroki
+    away: Petrovic, Andreja
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72760928
+  teams:
+    home: Rafiq, Aniss
+    away: Aguiard, Enzo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72760916
+  teams:
+    home: Fancutt, Thomas
+    away: Bigun, Kaylan
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:20'
+- id: 72760926
+  teams:
+    home: Vandecasteele, Quinn
+    away: Chopra, Keshav
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:55'
+- id: 72760930
+  teams:
+    home: Ayeni, Alafia
+    away: Forbes, Matthew
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:10'
+- id: 72760920
+  teams:
+    home: Giese, Kelly
+    away: Sheehy, Joshua
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:20'
+- id: 72760924
+  teams:
+    home: Hohmann, Ronald
+    away: Suresh, Dhakshineswar
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 72760922
+  teams:
+    home: Langmo, Christian
+    away: Kobelt, Alex
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:20'
+- id: 72760936
+  teams:
+    home: Karki, Ronit
+    away: Marinkov, Pavle
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:50'
 ice_hockey: []
 table_tennis:
 - id: 72723070
