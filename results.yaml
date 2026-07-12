@@ -5,9 +5,9 @@ basketball:
     home: Germany
     away: Turkey
   score:
-    home: 21
-    away: 31
-  status: live
+    home: 76
+    away: 83
+  status: result
   time: '11:30'
 tennis:
 - id: 72750806
@@ -33,9 +33,9 @@ tennis:
     home: Passaro, Francesco
     away: Kasnikowski, Maks
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '10:15'
 - id: 72750804
   teams:
@@ -43,9 +43,36 @@ tennis:
     away: Midon, Lautaro
   score:
     home: 0
+    away: 2
+  status: result
+  time: '10:25'
+- id: 72750808
+  teams:
+    home: Coria, Federico
+    away: Daniel, Taro
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '12:20'
+- id: 72750814
+  teams:
+    home: Moller, Elmer
+    away: Faurel, Thomas
+  score:
+    home: 0
     away: 1
   status: live
-  time: '10:25'
+  time: '12:40'
+- id: 72750810
+  teams:
+    home: Carballes Baena, Roberto
+    away: Sanchez Jover, Carlos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:45'
 ice_hockey: []
 table_tennis:
 - id: 72723070
