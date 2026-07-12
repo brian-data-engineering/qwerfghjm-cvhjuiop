@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 72327738
+  teams:
+    home: Gimnasia Jujuy
+    away: CA Chacarita Juniors
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 72327626
+  teams:
+    home: Colon de Santa Fe
+    away: CA Central Norte Salta
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
 basketball:
 - id: 71684010
   teams:
@@ -9,6 +27,123 @@ basketball:
     away: 83
   status: result
   time: '11:30'
+- id: 71684012
+  teams:
+    home: France
+    away: Italy
+  score:
+    home: 15
+    away: 17
+  status: live
+  time: '19:00'
+- id: 71684022
+  teams:
+    home: Lithuania
+    away: Serbia
+  score:
+    home: 57
+    away: 79
+  status: result
+  time: '14:00'
+- id: 71684024
+  teams:
+    home: Poland
+    away: Latvia
+  score:
+    home: 68
+    away: 77
+  status: result
+  time: '16:00'
+- id: 71684110
+  teams:
+    home: Greece
+    away: Belgium
+  score:
+    home: 84
+    away: 69
+  status: result
+  time: '11:00'
+- id: 71684112
+  teams:
+    home: Spain
+    away: Croatia
+  score:
+    home: 33
+    away: 24
+  status: live
+  time: '18:30'
+- id: 71684216
+  teams:
+    home: Czech Republic
+    away: Romania
+  score:
+    home: 93
+    away: 66
+  status: result
+  time: '13:30'
+- id: 71684218
+  teams:
+    home: Israel
+    away: Slovenia
+  score:
+    home: 77
+    away: 90
+  status: result
+  time: '16:30'
+- id: 71685828
+  teams:
+    home: Sweden
+    away: Ireland
+  score:
+    home: 90
+    away: 58
+  status: result
+  time: '11:30'
+- id: 71685830
+  teams:
+    home: Azerbaijan
+    away: Slovakia
+  score:
+    home: 72
+    away: 66
+  status: result
+  time: '16:00'
+- id: 71685890
+  teams:
+    home: Luxembourg
+    away: Georgia
+  score:
+    home: 77
+    away: 61
+  status: result
+  time: '11:00'
+- id: 71685892
+  teams:
+    home: Switzerland
+    away: Estonia
+  score:
+    home: 64
+    away: 68
+  status: result
+  time: '13:30'
+- id: 71685924
+  teams:
+    home: Cyprus
+    away: Portugal
+  score:
+    home: 54
+    away: 73
+  status: result
+  time: 09:00
+- id: 71685926
+  teams:
+    home: Armenia
+    away: Bosnia & Herzegovina
+  score:
+    home: 31
+    away: 54
+  status: live
+  time: '18:30'
 tennis:
 - id: 72750806
   teams:
@@ -159,9 +294,9 @@ tennis:
     home: Sinner, Jannik
     away: Zverev, Alexander
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:05'
 - id: 72504786
   teams:
@@ -170,7 +305,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72504694
   teams:
@@ -449,7 +584,7 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '15:45'
 - id: 72758960
   teams:
@@ -458,17 +593,35 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:50'
 - id: 72758954
   teams:
     home: Winter, Edward
     away: Roberts, Justin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '17:15'
+- id: 72758956
+  teams:
+    home: George, Benjamin Thomas
+    away: Magadan, Alan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
+- id: 72758946
+  teams:
+    home: Poling, Karl
+    away: Kuhar, Matt
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:00'
 ice_hockey: []
 table_tennis:
 - id: 72723070
