@@ -1,5 +1,104 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71684014
+  teams:
+    home: France
+    away: Germany
+  score:
+    home: 48
+    away: 37
+  status: live
+  time: '18:30'
+- id: 71684016
+  teams:
+    home: Italy
+    away: Turkey
+  score:
+    home: 41
+    away: 29
+  status: live
+  time: '19:00'
+- id: 71684026
+  teams:
+    home: Lithuania
+    away: Poland
+  score:
+    home: 112
+    away: 67
+  status: result
+  time: '11:30'
+- id: 71684028
+  teams:
+    home: Serbia
+    away: Latvia
+  score:
+    home: 89
+    away: 66
+  status: result
+  time: '14:00'
+- id: 71684116
+  teams:
+    home: Belgium
+    away: Croatia
+  score:
+    home: 54
+    away: 67
+  status: result
+  time: '13:30'
+- id: 71684194
+  teams:
+    home: Greece
+    away: Spain
+  score:
+    home: 67
+    away: 81
+  status: result
+  time: '16:00'
+- id: 71684220
+  teams:
+    home: Israel
+    away: Czech Republic
+  score:
+    home: 87
+    away: 73
+  status: result
+  time: '11:00'
+- id: 71684222
+  teams:
+    home: Slovenia
+    away: Romania
+  score:
+    home: 95
+    away: 51
+  status: result
+  time: '16:30'
+- id: 72388552
+  teams:
+    home: Washington
+    away: Sacramento
+  score:
+    home: 104
+    away: 85
+  status: result
+  time: 00:00
+- id: 72388554
+  teams:
+    home: Milwaukee
+    away: San Antonio
+  score:
+    home: 80
+    away: 90
+  status: result
+  time: 01:00
+- id: 72388556
+  teams:
+    home: Utah Jazz
+    away: LA Clippers
+  score:
+    home: 82
+    away: 104
+  status: result
+  time: 02:00
 tennis:
 - id: 72748586
   teams:
@@ -35,7 +134,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72773112
   teams:
@@ -160,8 +259,8 @@ tennis:
     away: Van Assche, Luca
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:00'
 - id: 72752074
   teams:
@@ -172,6 +271,78 @@ tennis:
     away: 2
   status: result
   time: '16:30'
+- id: 72752078
+  teams:
+    home: Kopriva, Vit
+    away: Prizmic, Dino
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:15'
+- id: 72748496
+  teams:
+    home: Pavlasek A / Rikl P
+    away: Ivanisevic E / Poljicak M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:05'
+- id: 72748490
+  teams:
+    home: Ho R / Kittay B
+    away: Burruchaga R A / Kestelboim M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72748484
+  teams:
+    home: Kalender A / Serdarusic N
+    away: Liutarevich I / Reyes-Varela M A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:00'
+- id: 72752676
+  teams:
+    home: Bailly, Gilles Arnaud
+    away: Romano, Filippo
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:35'
+- id: 72752672
+  teams:
+    home: de Lange, Pieter
+    away: Geerts, Michael
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 72752670
+  teams:
+    home: Santamarta Roig, Andres
+    away: Schoenhaus, Max
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72752668
+  teams:
+    home: Houkes, Max
+    away: Jorda Sanchis, David
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:10'
 ice_hockey: []
 table_tennis:
 - id: 72745882
@@ -1296,6 +1467,6 @@ table_tennis:
     away: Pavelka, Radim
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '18:00'
