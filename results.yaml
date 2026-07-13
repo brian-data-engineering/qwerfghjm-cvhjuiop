@@ -16,7 +16,7 @@ basketball:
   score:
     home: 71
     away: 67
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71684026
   teams:
@@ -104,19 +104,28 @@ basketball:
     home: NY Knicks
     away: Detroit
   score:
-    home: 55
-    away: 53
-  status: live
+    home: 86
+    away: 75
+  status: result
   time: '20:00'
 - id: 72388560
   teams:
     home: Indiana
     away: Toronto
   score:
-    home: 27
-    away: 37
-  status: live
+    home: 93
+    away: 94
+  status: recentlyended
   time: '20:30'
+- id: 72388562
+  teams:
+    home: Boston
+    away: Atlanta
+  score:
+    home: 26
+    away: 32
+  status: live
+  time: '22:00'
 tennis:
 - id: 72748586
   teams:
