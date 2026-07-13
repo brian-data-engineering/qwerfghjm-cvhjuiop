@@ -1,6 +1,33 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 72748586
+  teams:
+    home: De Jong, Jesper
+    away: Gaubas, Vilius
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:50'
+- id: 72747750
+  teams:
+    home: Johnson L / Zielinski J
+    away: Pellegrino A / Vavassori A
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:05'
+- id: 72747752
+  teams:
+    home: Hidalgo D / Tabilo A
+    away: Paris J / Vallejo A D
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:45'
 ice_hockey: []
 table_tennis:
 - id: 72745882
@@ -811,7 +838,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72767654
   teams:
@@ -820,7 +847,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72767752
   teams:
@@ -829,7 +856,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72767136
   teams:
@@ -838,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72767700
   teams:
@@ -847,5 +874,194 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
+- id: 72767726
+  teams:
+    home: Holub, Marek
+    away: Unzeitig, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 72767848
+  teams:
+    home: Machander, Dalimil
+    away: Stoch, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72767720
+  teams:
+    home: Urbaniec, Radim
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 72767762
+  teams:
+    home: Vinter, Tomas
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 72767120
+  teams:
+    home: Wolf, Filip
+    away: Bradac, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72767674
+  teams:
+    home: Brazda, Adam
+    away: Pozarsky, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 72767792
+  teams:
+    home: Holubec, Jiri
+    away: Petrek, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 72767828
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 72767714
+  teams:
+    home: Skacelik, Richard
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 72767128
+  teams:
+    home: Vales, Jakub
+    away: Nesnera, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 72767132
+  teams:
+    home: Bradac, Petr
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 72767698
+  teams:
+    home: Stoch, Jan
+    away: Skacelik, Richard
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 72767710
+  teams:
+    home: Svacha, Ondrej
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 72767768
+  teams:
+    home: Unzeitig, Daniel
+    away: Holubec, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 72767812
+  teams:
+    home: Vedmoch, Michal
+    away: Brazda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 72767642
+  teams:
+    home: Barton, Ales
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:30'
+- id: 72767842
+  teams:
+    home: Byrtus, Samuel
+    away: Machander, Dalimil
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 72767082
+  teams:
+    home: Nesnera, Jiri
+    away: Wolf, Filip
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
+- id: 72767682
+  teams:
+    home: Petrek, Tomas
+    away: Holub, Marek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 72767834
+  teams:
+    home: Pozarsky, Jiri
+    away: Vinter, Tomas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 72767690
+  teams:
+    home: Holub, Marek
+    away: Holubec, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
