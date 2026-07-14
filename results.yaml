@@ -17,6 +17,15 @@ soccer:
     away: 2
   status: result
   time: '11:35'
+- id: 68687732
+  teams:
+    home: CSD Macara
+    away: Mushuc Runa
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '21:30'
 basketball:
 - id: 71685832
   teams:
@@ -79,7 +88,7 @@ basketball:
   score:
     home: 86
     away: 67
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 71685956
   teams:
@@ -158,10 +167,19 @@ basketball:
     home: Houston
     away: Philadelphia
   score:
-    home: 65
-    away: 45
-  status: live
+    home: 90
+    away: 64
+  status: result
   time: '20:00'
+- id: 72388576
+  teams:
+    home: Brooklyn
+    away: Sacramento
+  score:
+    home: 54
+    away: 34
+  status: live
+  time: '22:00'
 tennis:
 - id: 72748588
   teams:
