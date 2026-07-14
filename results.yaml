@@ -208,7 +208,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 03:30
 - id: 72830132
   teams:
@@ -217,7 +217,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 03:30
 - id: 72829852
   teams:
@@ -226,5 +226,50 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 03:30
+- id: 72798606
+  teams:
+    home: Adamczyk, Radek
+    away: Rybar, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 72798520
+  teams:
+    home: Grohsgott, Jiri
+    away: Madle, Ludek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 72798266
+  teams:
+    home: Parhomenko, Dmitro
+    away: Kolar, Milan
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:00
+- id: 72798576
+  teams:
+    home: Polasek, Radovan
+    away: Wawrosz, Pavel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
+- id: 72798316
+  teams:
+    home: Prikasky, Libor
+    away: Mecl Jr, Jan
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
