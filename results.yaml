@@ -4,9 +4,9 @@ soccer:
     home: Club Atletico Atlanta
     away: CA Colegiales
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: result
   time: 00:00
 basketball: []
 tennis: []
@@ -19,7 +19,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 72767686
   teams:
@@ -28,7 +28,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 72767650
   teams:
@@ -44,18 +44,18 @@ table_tennis:
     home: Barton, David
     away: Picek, Petr
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 00:30
 - id: 72767802
   teams:
     home: Hasmanda, Rostislav
     away: Sulava, Lubor
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 00:30
 - id: 72767096
   teams:
@@ -63,6 +63,168 @@ table_tennis:
     away: Cermak, Vladimir
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 00:30
+- id: 72767640
+  teams:
+    home: Kosar, Vaclav
+    away: Pleskot, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 72767670
+  teams:
+    home: Kucirek, Ondrej
+    away: Darin, Kyryl
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 72768092
+  teams:
+    home: Wagner, Mark Robin
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 72767124
+  teams:
+    home: Cermak, Vladimir
+    away: Bayer, Alesh
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 72767742
+  teams:
+    home: Picek, Petr
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 72767832
+  teams:
+    home: Sulava, Lubor
+    away: Urban, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 72767662
+  teams:
+    home: Kosar, Vaclav
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 72767772
+  teams:
+    home: Kucirek, Ondrej
+    away: Barton, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 72768090
+  teams:
+    home: Wagner, Mark Robin
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72767144
+  teams:
+    home: Bayer, Alesh
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 72767658
+  teams:
+    home: Svoboda, Adam
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 72767776
+  teams:
+    home: Urban, Roman
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 72829854
+  teams:
+    home: Bayer, Alesh
+    away: Pycha, Patrik
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 72829972
+  teams:
+    home: Kucirek, Ondrej
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 72830130
+  teams:
+    home: Pleskot, Jan
+    away: Urban, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 72829926
+  teams:
+    home: Darin, Kyryl
+    away: Barton, David
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 03:30
+- id: 72830132
+  teams:
+    home: Hasmanda, Rostislav
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 03:30
+- id: 72829852
+  teams:
+    home: Wagner, Mark Robin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 03:30
