@@ -32,9 +32,9 @@ basketball:
     home: Ireland
     away: Azerbaijan
   score:
-    home: 53
+    home: 54
     away: 47
-  status: live
+  status: result
   time: '18:30'
 - id: 71685894
   teams:
@@ -77,9 +77,9 @@ basketball:
     home: Kosovo
     away: Armenia
   score:
-    home: 45
-    away: 35
-  status: live
+    home: 86
+    away: 67
+  status: recentlyended
   time: '19:00'
 - id: 71685956
   teams:
@@ -153,6 +153,15 @@ basketball:
     away: 84
   status: result
   time: 03:00
+- id: 72388574
+  teams:
+    home: Houston
+    away: Philadelphia
+  score:
+    home: 65
+    away: 45
+  status: live
+  time: '20:00'
 tennis:
 - id: 72748588
   teams:
