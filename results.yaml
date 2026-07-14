@@ -22,9 +22,9 @@ soccer:
     home: CSD Macara
     away: Mushuc Runa
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '21:30'
 basketball:
 - id: 71685832
@@ -176,10 +176,19 @@ basketball:
     home: Brooklyn
     away: Sacramento
   score:
-    home: 54
-    away: 34
+    home: 110
+    away: 82
   status: live
   time: '22:00'
+- id: 72388580
+  teams:
+    home: Golden State
+    away: Memphis
+  score:
+    home: 44
+    away: 47
+  status: live
+  time: '23:00'
 tennis:
 - id: 72748588
   teams:
