@@ -8,15 +8,24 @@ soccer:
     away: 0
   status: result
   time: 00:00
+- id: 72725882
+  teams:
+    home: Zhejiang
+    away: Qingdao Hainiu
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:35'
 basketball:
 - id: 71685832
   teams:
     home: Macedonia
     away: Sweden
   score:
-    home: 25
-    away: 39
-  status: live
+    home: 64
+    away: 86
+  status: result
   time: '11:30'
 tennis:
 - id: 72748588
@@ -43,8 +52,8 @@ tennis:
     away: Midon, Lautaro
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '10:00'
 - id: 72816332
   teams:
@@ -60,18 +69,18 @@ tennis:
     home: Svrcina, Dalibor
     away: Dimitrov, Grigor
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '10:40'
 - id: 72816334
   teams:
     home: Van de Zandschulp, Botic
     away: Daniel, Taro
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '10:50'
 - id: 72748582
   teams:
@@ -79,9 +88,36 @@ tennis:
     away: Basilashvili, Nikoloz
   score:
     home: 0
+    away: 2
+  status: result
+  time: '11:50'
+- id: 72816330
+  teams:
+    home: Travaglia, Stefano
+    away: Krumich, Martin
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '12:45'
+- id: 72748574
+  teams:
+    home: Altmaier, Daniel
+    away: Gaston, Hugo
+  score:
+    home: 1
     away: 0
   status: live
-  time: '11:50'
+  time: '13:20'
+- id: 72748578
+  teams:
+    home: Borges, Nuno
+    away: Kouame, Moise
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:25'
 ice_hockey: []
 table_tennis:
 - id: 72768088
@@ -829,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 72798250
   teams:
@@ -838,25 +874,25 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 72798336
   teams:
     home: Huk, Martin
     away: Zahradka, Michal
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:00'
 - id: 72798514
   teams:
     home: Navedla, Matyas
     away: Pilch, Jakub
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '12:00'
 - id: 72798556
   teams:
@@ -864,8 +900,8 @@ table_tennis:
     away: Zmuda, Petr
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '12:00'
 - id: 72798594
   teams:
@@ -873,8 +909,8 @@ table_tennis:
     away: Sedlacek, Michael
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:00'
 - id: 72798290
   teams:
@@ -882,6 +918,96 @@ table_tennis:
     away: Polivka, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:00'
+- id: 72798254
+  teams:
+    home: Barton, Ales
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 72798544
+  teams:
+    home: Plachta, Jakub
+    away: Szotek, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 72798624
+  teams:
+    home: Prokupek, Jaroslav
+    away: Hampejs, Vladislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 72798300
+  teams:
+    home: Regner, Michal
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 72798630
+  teams:
+    home: Zika, Tadeas
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 72798566
+  teams:
+    home: Chalupa, Michal
+    away: Pagac, Zbynek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 72798626
+  teams:
+    home: Dousek, Tomas
+    away: Biolek, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 72798358
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 72798588
+  teams:
+    home: Regner, Tomas
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 72798330
+  teams:
+    home: Wagner, Richard
+    away: Polivka, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
