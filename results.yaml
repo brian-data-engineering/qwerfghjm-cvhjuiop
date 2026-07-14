@@ -235,7 +235,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 72798520
   teams:
@@ -244,25 +244,25 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 72798266
   teams:
     home: Parhomenko, Dmitro
     away: Kolar, Milan
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:00
 - id: 72798576
   teams:
     home: Polasek, Radovan
     away: Wawrosz, Pavel
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 06:00
 - id: 72798316
   teams:
@@ -270,6 +270,231 @@ table_tennis:
     away: Mecl Jr, Jan
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:00
+- id: 72798522
+  teams:
+    home: Banot, Petr
+    away: Kanak, Alois
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 72798326
+  teams:
+    home: Huk, Martin
+    away: Zahradka, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 72798634
+  teams:
+    home: Potensky, Jan
+    away: Svec, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 72798608
+  teams:
+    home: Revay, Radomir
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 72798272
+  teams:
+    home: Zmuda, Petr
+    away: Havlicek, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 72798240
+  teams:
+    home: Kolar, Milan
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:00
+- id: 72798510
+  teams:
+    home: Madle, Ludek
+    away: Potensky, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 72798256
+  teams:
+    home: Mecl Jr, Jan
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 72798582
+  teams:
+    home: Rybar, Vaclav
+    away: Banot, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 72798526
+  teams:
+    home: Wawrosz, Pavel
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 72798258
+  teams:
+    home: Havlicek, Vladimir
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 72798652
+  teams:
+    home: Kanak, Alois
+    away: Adamczyk, Radek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 72798654
+  teams:
+    home: Svec, Jiri
+    away: Grohsgott, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 72798658
+  teams:
+    home: Vavrecka, Michal
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 72798262
+  teams:
+    home: Zahradka, Michal
+    away: Prikasky, Libor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 72798640
+  teams:
+    home: Adamczyk, Radek
+    away: Banot, Petr
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 72798524
+  teams:
+    home: Grohsgott, Jiri
+    away: Potensky, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 72798334
+  teams:
+    home: Parhomenko, Dmitro
+    away: Zmuda, Petr
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 72798570
+  teams:
+    home: Polasek, Radovan
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:00
+- id: 72798238
+  teams:
+    home: Prikasky, Libor
+    away: Huk, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 72798344
+  teams:
+    home: Kolar, Milan
+    away: Havlicek, Vladimir
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 08:30
+- id: 72798670
+  teams:
+    home: Madle, Ludek
+    away: Svec, Jiri
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 08:30
+- id: 72798342
+  teams:
+    home: Mecl Jr, Jan
+    away: Zahradka, Michal
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 08:30
+- id: 72798612
+  teams:
+    home: Rybar, Vaclav
+    away: Kanak, Alois
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 08:30
+- id: 72798666
+  teams:
+    home: Wawrosz, Pavel
+    away: Vavrecka, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 08:30
