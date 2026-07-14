@@ -125,7 +125,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:10'
 - id: 72747746
   teams:
@@ -195,9 +195,9 @@ tennis:
     home: Faria, Jaime
     away: Wawrinka, Stan
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '15:50'
 - id: 72747652
   teams:
@@ -213,9 +213,9 @@ tennis:
     home: Dietrich D / Stricker D
     away: Nouza P / Oberleitner N
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '16:50'
 - id: 72752088
   teams:
@@ -242,7 +242,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72777718
   teams:
@@ -251,7 +251,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:05'
 - id: 72752086
   teams:
@@ -260,8 +260,17 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:10'
+- id: 72777712
+  teams:
+    home: Gomez, Federico Agustin
+    away: McDonald, Niels
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:30'
 ice_hockey: []
 table_tennis:
 - id: 72768088
@@ -1432,7 +1441,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72798668
   teams:
@@ -1450,7 +1459,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72798530
   teams:
@@ -1459,7 +1468,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72798232
   teams:
@@ -1468,5 +1477,185 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 72842362
+  teams:
+    home: Bruzek, Petr
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 72842348
+  teams:
+    home: Chalupa, Michal
+    away: Holub, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72842374
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72842358
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 72842366
+  teams:
+    home: Wagner, Richard
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72842376
+  teams:
+    home: Biolek, Martin
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 72842360
+  teams:
+    home: Louda, Jiri
+    away: Urbaniec, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:30'
+- id: 72842350
+  teams:
+    home: Pagac, Zbynek
+    away: Kasnik, Sebastian
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 72842368
+  teams:
+    home: Tazler, Jakub
+    away: Polivka, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 72842364
+  teams:
+    home: Trinta, Mihail
+    away: Framberk, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 72798602
+  teams:
+    home: Bosak, Vitezslav
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 72798662
+  teams:
+    home: Kern, Lukas
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 72798294
+  teams:
+    home: Klement, Milan
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 72798664
+  teams:
+    home: Moravek, Jiri
+    away: Hasmanda, Rostislav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 72798354
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Klimenta, Matous
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 72798636
+  teams:
+    home: Chalupa, Michal
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72825050
+  teams:
+    home: Kowolowski, Miroslav
+    away: Jasek, Milan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72798252
+  teams:
+    home: Mares, Erik
+    away: Wolf, Filip
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:30'
+- id: 72798288
+  teams:
+    home: Sychra, Martin
+    away: Pacha, Robin
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72798506
+  teams:
+    home: Trinta, Mihail
+    away: Framberk, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
