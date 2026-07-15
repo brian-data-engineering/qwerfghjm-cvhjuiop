@@ -43,8 +43,26 @@ basketball:
   score:
     home: 93
     away: 69
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 72828184
+  teams:
+    home: Israel
+    away: Greece
+  score:
+    home: 62
+    away: 78
+  status: live
+  time: '16:00'
+- id: 72828186
+  teams:
+    home: Slovenia
+    away: Belgium
+  score:
+    home: 70
+    away: 38
+  status: live
+  time: '16:30'
 tennis:
 - id: 72661918
   teams:
@@ -79,8 +97,8 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '15:30'
 - id: 72747744
   teams:
@@ -1180,7 +1198,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72835110
   teams:
@@ -1189,7 +1207,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72835092
   teams:
@@ -1198,7 +1216,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72835148
   teams:
@@ -1207,7 +1225,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72835322
   teams:
@@ -1216,25 +1234,25 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72835168
   teams:
     home: Chalupa, Michal
     away: Kasnik, Sebastian
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '16:00'
 - id: 72835208
   teams:
     home: Dedek, Jiri
     away: Vedmoch, Michal
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '16:00'
 - id: 72835374
   teams:
@@ -1242,17 +1260,17 @@ table_tennis:
     away: Urbaniec, Radim
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 72835160
   teams:
     home: Opanasiuk, Dmytro
     away: Cernik, Jan
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 72835370
   teams:
@@ -1260,6 +1278,141 @@ table_tennis:
     away: Navedla, Matyas
   score:
     home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72835122
+  teams:
+    home: Burdik, Vitezslav
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72835210
+  teams:
+    home: Just, Frantisek
+    away: Trefny, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72835316
+  teams:
+    home: Mares, Erik
+    away: Bradac, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72835248
+  teams:
+    home: Pagac, Zbynek
+    away: Kern, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72835086
+  teams:
+    home: Svacha, Ondrej
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72881908
+  teams:
+    home: Cernik, Jan
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '17:00'
+- id: 72881902
+  teams:
+    home: Kern, Lukas
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '17:00'
+- id: 72881912
+  teams:
+    home: Dedek, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:01'
+- id: 72881916
+  teams:
+    home: Jezek, Michal
+    away: Svacha, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '17:06'
+- id: 72881922
+  teams:
+    home: Navedla, Matyas
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:13'
+- id: 72881924
+  teams:
+    home: Burdik, Vitezslav
+    away: Szotek, David
+  score:
+    home: 0
     away: 0
   status: live
-  time: '16:00'
+  time: '17:30'
+- id: 72881906
+  teams:
+    home: Chalupa, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '17:30'
+- id: 72881914
+  teams:
+    home: Just, Frantisek
+    away: Trefny, Jan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '17:30'
+- id: 72881910
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Bradac, Petr
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:30'
+- id: 72881920
+  teams:
+    home: Ruzicka, Jiri
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '17:30'
