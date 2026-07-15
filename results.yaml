@@ -232,17 +232,26 @@ basketball:
   score:
     home: 92
     away: 99
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72388598
   teams:
     home: Cleveland
     away: New Orleans
   score:
-    home: 14
-    away: 15
-  status: live
+    home: 82
+    away: 77
+  status: recentlyended
   time: '21:30'
+- id: 72388600
+  teams:
+    home: Detroit
+    away: Phoenix
+  score:
+    home: 62
+    away: 66
+  status: live
+  time: '22:00'
 tennis:
 - id: 72661918
   teams:
@@ -1871,18 +1880,18 @@ table_tennis:
     home: Prikasky, Libor
     away: Kratochvil, Michal
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '22:00'
 - id: 72835094
   teams:
     home: Regner, Michal
     away: Polivka, Martin
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '22:00'
 - id: 72835270
   teams:
@@ -1890,6 +1899,60 @@ table_tennis:
     away: Opanasiuk, Dmytro
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '22:00'
+- id: 72835364
+  teams:
+    home: Mares, Erik
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:30'
+- id: 72835224
+  teams:
+    home: Ruzicka, Jiri
+    away: Barton, Ales
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:30'
+- id: 72835312
+  teams:
+    home: Sebera, Petr
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '22:30'
+- id: 72835372
+  teams:
+    home: Kratochvil, Michal
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 72835308
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:00'
+- id: 72835108
+  teams:
+    home: Polivka, Martin
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:00'
