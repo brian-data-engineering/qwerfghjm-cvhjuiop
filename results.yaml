@@ -79,16 +79,16 @@ basketball:
   score:
     home: 86
     away: 63
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72828190
   teams:
     home: Lithuania
     away: Turkey
   score:
-    home: 43
-    away: 55
-  status: live
+    home: 61
+    away: 67
+  status: result
   time: '19:00'
 - id: 71685876
   teams:
@@ -104,9 +104,9 @@ basketball:
     home: Azerbaijan
     away: Macedonia
   score:
-    home: 55
-    away: 60
-  status: live
+    home: 57
+    away: 67
+  status: result
   time: '19:00'
 - id: 71685898
   teams:
@@ -151,7 +151,7 @@ basketball:
   score:
     home: 77
     away: 80
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 71685960
   teams:
@@ -221,19 +221,28 @@ basketball:
     home: Minnesota
     away: Indiana
   score:
-    home: 57
-    away: 47
-  status: live
+    home: 114
+    away: 98
+  status: result
   time: '19:30'
 - id: 72388596
   teams:
     home: Philadelphia
     away: Orlando
   score:
-    home: 26
-    away: 45
-  status: live
+    home: 92
+    away: 99
+  status: recentlyended
   time: '20:00'
+- id: 72388598
+  teams:
+    home: Cleveland
+    away: New Orleans
+  score:
+    home: 14
+    away: 15
+  status: live
+  time: '21:30'
 tennis:
 - id: 72661918
   teams:
@@ -1774,7 +1783,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72835096
   teams:
@@ -1783,7 +1792,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72835136
   teams:
@@ -1792,7 +1801,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72835158
   teams:
@@ -1801,7 +1810,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72835258
   teams:
@@ -1810,50 +1819,77 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72835138
   teams:
     home: Kern, Lukas
     away: Pagac, Zbynek
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '20:30'
 - id: 72835132
   teams:
     home: Koral, Michal
     away: Cerny, Vojtech
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '20:30'
 - id: 72835200
   teams:
     home: Louda, Jiri
     away: Pikous, Marcel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '20:30'
 - id: 72835362
   teams:
     home: Lubas, Miloslav
     away: Berdych, Pavel
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '20:30'
 - id: 72835306
   teams:
     home: Pavelka, Radim
     away: Vedmoch, Michal
   score:
-    home: 1
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 72835242
+  teams:
+    home: Prikasky, Libor
+    away: Kratochvil, Michal
+  score:
+    home: 0
     away: 0
   status: live
-  time: '20:30'
+  time: '22:00'
+- id: 72835094
+  teams:
+    home: Regner, Michal
+    away: Polivka, Martin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
+- id: 72835270
+  teams:
+    home: Wolf, Filip
+    away: Opanasiuk, Dmytro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
