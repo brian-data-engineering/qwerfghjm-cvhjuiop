@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 basketball:
 - id: 72828176
@@ -77,10 +77,163 @@ basketball:
     home: Serbia
     away: Italy
   score:
-    home: 48
-    away: 32
-  status: live
+    home: 86
+    away: 63
+  status: recentlyended
   time: '18:30'
+- id: 72828190
+  teams:
+    home: Lithuania
+    away: Turkey
+  score:
+    home: 43
+    away: 55
+  status: live
+  time: '19:00'
+- id: 71685876
+  teams:
+    home: Slovakia
+    away: Ireland
+  score:
+    home: 49
+    away: 86
+  status: result
+  time: '16:00'
+- id: 71685880
+  teams:
+    home: Azerbaijan
+    away: Macedonia
+  score:
+    home: 55
+    away: 60
+  status: live
+  time: '19:00'
+- id: 71685898
+  teams:
+    home: Georgia
+    away: Estonia
+  score:
+    home: 92
+    away: 81
+  status: result
+  time: '11:30'
+- id: 71685900
+  teams:
+    home: Luxembourg
+    away: Ukraine
+  score:
+    home: 65
+    away: 80
+  status: result
+  time: '16:30'
+- id: 71685936
+  teams:
+    home: Cyprus
+    away: Armenia
+  score:
+    home: 88
+    away: 58
+  status: result
+  time: '13:30'
+- id: 71685938
+  teams:
+    home: Portugal
+    away: Kosovo
+  score:
+    home: 76
+    away: 39
+  status: result
+  time: '14:00'
+- id: 71685940
+  teams:
+    home: Iceland
+    away: Bosnia & Herzegovina
+  score:
+    home: 77
+    away: 80
+  status: recentlyended
+  time: '18:30'
+- id: 71685960
+  teams:
+    home: Albania
+    away: Bulgaria
+  score:
+    home: 73
+    away: 105
+  status: result
+  time: 09:00
+- id: 71685962
+  teams:
+    home: Denmark
+    away: Netherlands
+  score:
+    home: 72
+    away: 86
+  status: result
+  time: '11:00'
+- id: 72449508
+  teams:
+    home: Converge Fiberxers
+    away: Kia Picanto
+  score:
+    home: 105
+    away: 103
+  status: result
+  time: 09:15
+- id: 72449432
+  teams:
+    home: Meralco
+    away: Phoenix Petroleum
+  score:
+    home: 97
+    away: 98
+  status: result
+  time: '11:30'
+- id: 72388582
+  teams:
+    home: Chicago
+    away: Washington
+  score:
+    home: 99
+    away: 87
+  status: result
+  time: 00:00
+- id: 72388584
+  teams:
+    home: Oklahoma
+    away: Denver
+  score:
+    home: 103
+    away: 106
+  status: result
+  time: 01:00
+- id: 72388586
+  teams:
+    home: LA Lakers
+    away: LA Clippers
+  score:
+    home: 99
+    away: 85
+  status: result
+  time: 02:00
+- id: 72388594
+  teams:
+    home: Minnesota
+    away: Indiana
+  score:
+    home: 57
+    away: 47
+  status: live
+  time: '19:30'
+- id: 72388596
+  teams:
+    home: Philadelphia
+    away: Orlando
+  score:
+    home: 26
+    away: 45
+  status: live
+  time: '20:00'
 tennis:
 - id: 72661918
   teams:
@@ -1486,7 +1639,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72835102
   teams:
@@ -1504,7 +1657,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72835380
   teams:
@@ -1513,7 +1666,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72835260
   teams:
@@ -1522,43 +1675,43 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72835084
   teams:
     home: Kern, Lukas
     away: Chalupa, Michal
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 72835254
   teams:
     home: Koral, Michal
     away: Langer, Daniel
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:00'
 - id: 72835360
   teams:
     home: Louda, Jiri
     away: Sychra, Martin
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '19:00'
 - id: 72835156
   teams:
     home: Lubas, Miloslav
     away: Franc, Petr
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '19:00'
 - id: 72835214
   teams:
@@ -1566,6 +1719,141 @@ table_tennis:
     away: Trefny, Jan
   score:
     home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 72835184
+  teams:
+    home: Berdych, Pavel
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:30'
+- id: 72835106
+  teams:
+    home: Cerny, Vojtech
+    away: Gebek, Evald
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72835272
+  teams:
+    home: Pagac, Zbynek
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:30'
+- id: 72835338
+  teams:
+    home: Pikous, Marcel
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 72835326
+  teams:
+    home: Vedmoch, Michal
+    away: Janata, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 72835324
+  teams:
+    home: Gebek, Evald
+    away: Langer, Daniel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 72835096
+  teams:
+    home: Grohsgott, Jiri
+    away: Franc, Petr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 72835136
+  teams:
+    home: Janata, Tomas
+    away: Trefny, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 72835158
+  teams:
+    home: Kasnik, Sebastian
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 72835258
+  teams:
+    home: Sebera, Petr
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 72835138
+  teams:
+    home: Kern, Lukas
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:30'
+- id: 72835132
+  teams:
+    home: Koral, Michal
+    away: Cerny, Vojtech
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:30'
+- id: 72835200
+  teams:
+    home: Louda, Jiri
+    away: Pikous, Marcel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:30'
+- id: 72835362
+  teams:
+    home: Lubas, Miloslav
+    away: Berdych, Pavel
+  score:
+    home: 0
     away: 1
   status: live
-  time: '19:00'
+  time: '20:30'
+- id: 72835306
+  teams:
+    home: Pavelka, Radim
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:30'
