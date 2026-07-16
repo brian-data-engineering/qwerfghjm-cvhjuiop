@@ -23,8 +23,8 @@ basketball:
     home: Turkey
     away: Slovenia
   score:
-    home: 32
-    away: 38
+    home: 70
+    away: 88
   status: live
   time: '16:30'
 tennis:
@@ -51,10 +51,109 @@ tennis:
     home: Tabilo, Alejandro
     away: Midon, Lautaro
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:55'
+- id: 72661910
+  teams:
+    home: De Jong, Jesper
+    away: Baez, Sebastian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
+- id: 72661948
+  teams:
+    home: Rojer J-J / Winegar T
+    away: Arends S / Pel D
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:00
+- id: 72661952
+  teams:
+    home: Arribage T / Cabral F
+    away: Paris J / Vallejo A D
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:35'
+- id: 72661946
+  teams:
+    home: Johansson O / Slavic N
+    away: Doumbia S / Reboul F
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:05'
+- id: 72665090
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Kecmanovic, Miomir
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 08:30
+- id: 72665088
+  teams:
+    home: Faria, Jaime
+    away: Ruud, Casper
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:55'
+- id: 72665212
+  teams:
+    home: Kym, Jerome
+    away: Tsitsipas, Stefanos
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:00'
+- id: 72665158
+  teams:
+    home: Bublik, Alexander
+    away: Halys, Quentin
+  score:
     home: 1
     away: 1
   status: live
-  time: '14:55'
+  time: '14:30'
+- id: 72846772
+  teams:
+    home: Shevchenko, Alexander
+    away: Stricker, Dominic
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:30'
+- id: 72665514
+  teams:
+    home: Demoliner M / Galloway R
+    away: Schnaitter J / Wallner M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 72665506
+  teams:
+    home: Miedler L / Polmans M
+    away: Buse I / Cervantes I
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:00'
 ice_hockey: []
 table_tennis:
 - id: 72835300
@@ -1225,7 +1324,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72867890
   teams:
@@ -1252,7 +1351,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 72867834
   teams:
@@ -1261,5 +1360,95 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 72868168
+  teams:
+    home: Hrabec, Jan
+    away: Hanel, Patrik
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 72868254
+  teams:
+    home: Klimenta, Matous
+    away: Rose, Radek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 72868156
+  teams:
+    home: Levicky, Jakub
+    away: Milota, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 72867848
+  teams:
+    home: Parizek, Martin
+    away: Medek, Josef
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 72867898
+  teams:
+    home: Pelikan, Josef
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 72867810
+  teams:
+    home: Bohac, Martin
+    away: Regner, Milan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:30'
+- id: 72868216
+  teams:
+    home: Heczko, Marcel
+    away: Velicka, Lukas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72868226
+  teams:
+    home: Kratochvil, Michal
+    away: Simecek, Jan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72868304
+  teams:
+    home: Milkov, Tomas
+    away: Zurek, Filip
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
+- id: 72867844
+  teams:
+    home: Zajicek, Jan
+    away: Bilek, Zdenek
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '18:30'
