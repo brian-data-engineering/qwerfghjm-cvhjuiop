@@ -37,7 +37,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72835190
   teams:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72835368
   teams:
@@ -55,7 +55,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72835262
   teams:
@@ -63,24 +63,105 @@ table_tennis:
     away: Prikasky, Libor
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 72835188
   teams:
     home: Postelt, Tomas
     away: Wolf, Filip
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 01:00
 - id: 72835238
   teams:
     home: Tazler, Jakub
     away: Regner, Michal
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 01:00
+- id: 72835376
+  teams:
+    home: Mares, Erik
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 72835166
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 72835104
+  teams:
+    home: Sebera, Petr
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 72835358
+  teams:
+    home: Barton, Ales
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 72835100
+  teams:
+    home: Postelt, Tomas
+    away: Opanasiuk, Dmytro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 72835348
+  teams:
+    home: Tazler, Jakub
+    away: Polivka, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 72835164
+  teams:
+    home: Cernik, Jan
+    away: Wolf, Filip
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 72835292
+  teams:
+    home: Huk, Martin
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 72835264
+  teams:
+    home: Sychra, Martin
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
