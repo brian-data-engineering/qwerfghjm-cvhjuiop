@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 72078906
+  teams:
+    home: Racing Club Avellaneda
+    away: Defensa Y Justicia
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:45'
 basketball:
 - id: 72887442
   teams:
@@ -34,7 +43,7 @@ basketball:
   score:
     home: 92
     away: 66
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72887986
   teams:
@@ -104,19 +113,28 @@ basketball:
     home: Oklahoma
     away: Dallas
   score:
-    home: 71
-    away: 77
-  status: live
+    home: 87
+    away: 97
+  status: result
   time: '20:00'
 - id: 72388620
   teams:
     home: Houston
     away: Brooklyn
   score:
-    home: 47
-    away: 32
-  status: live
+    home: 103
+    away: 83
+  status: recentlyended
   time: '20:30'
+- id: 72388622
+  teams:
+    home: Chicago
+    away: LA Lakers
+  score:
+    home: 38
+    away: 56
+  status: live
+  time: '22:00'
 tennis:
 - id: 72661920
   teams:
@@ -258,9 +276,9 @@ tennis:
     home: Molcan, Alex
     away: Davidovich Fokina, Alejandro
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '20:00'
 - id: 72666108
   teams:
@@ -278,7 +296,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '20:05'
 - id: 72666424
   teams:
@@ -2008,7 +2026,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 72916674
   teams:
@@ -2017,7 +2035,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 72916682
   teams:
@@ -2026,7 +2044,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 72916678
   teams:
@@ -2035,7 +2053,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 72916668
   teams:
@@ -2044,23 +2062,104 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 72916704
   teams:
     home: Klimenta, Matous
     away: Rose, Radek
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '21:12'
 - id: 72916684
   teams:
     home: Hanel, Patrik
     away: Hrabec, Jan
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '21:30'
+- id: 72916706
+  teams:
+    home: Kratochvil, Michal
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '21:30'
+- id: 72916680
+  teams:
+    home: Levicky, Jakub
+    away: Heczko, Marcel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '21:30'
+- id: 72916670
+  teams:
+    home: Medek, Josef
+    away: Bilek, Zdenek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:30'
+- id: 72916676
+  teams:
+    home: Regner, Milan
+    away: Pelikan, Josef
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:30'
+- id: 72868212
+  teams:
+    home: Grohsgott, Jiri
+    away: Madle, Ludek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 72868142
+  teams:
+    home: Parhomenko, Dmitro
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
+- id: 72868122
+  teams:
+    home: Steffan, Jan
+    away: Vitrovyj, Oleg
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 72868242
+  teams:
+    home: Bruzek, Petr
+    away: Andrle, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:30'
+- id: 72868158
+  teams:
+    home: Krejci, Richard
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:30'
