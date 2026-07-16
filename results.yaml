@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 72661920
+  teams:
+    home: Basilashvili, Nikoloz
+    away: Tirante, Thiago Agustin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 72835300
@@ -217,7 +226,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72868228
   teams:
@@ -226,7 +235,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72867884
   teams:
@@ -235,7 +244,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 72867872
   teams:
@@ -262,7 +271,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72868278
   teams:
@@ -271,7 +280,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72867816
   teams:
@@ -280,7 +289,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72868234
   teams:
@@ -289,7 +298,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 72867886
   teams:
@@ -298,5 +307,140 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
+- id: 72868224
+  teams:
+    home: Adamczyk, Vladimir
+    away: Martinak, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72868194
+  teams:
+    home: Heczko, Marcel
+    away: Cabak, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 72867868
+  teams:
+    home: Prokupek, Jaroslav
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72868230
+  teams:
+    home: Sobisek, Martin
+    away: Vinter, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 72867860
+  teams:
+    home: Sulava, Lubor
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 72868140
+  teams:
+    home: Cabak, Josef
+    away: Danko, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 72868132
+  teams:
+    home: Martinak, Lukas
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 72867850
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 72867862
+  teams:
+    home: Vedmoch, Michal
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 72868184
+  teams:
+    home: Vinter, Tomas
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 72868236
+  teams:
+    home: Cermak, Vladimir
+    away: Sobisek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 72868110
+  teams:
+    home: Oborny, Dominik
+    away: Heczko, Marcel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 72867814
+  teams:
+    home: Parhomenko, Dmitro
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 72868162
+  teams:
+    home: Petrek, Tomas
+    away: Adamczyk, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 72867820
+  teams:
+    home: Trinta, Mihail
+    away: Sulava, Lubor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
