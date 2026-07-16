@@ -7,8 +7,17 @@ basketball:
   score:
     home: 76
     away: 66
-  status: recentlyended
+  status: result
   time: '11:30'
+- id: 72887448
+  teams:
+    home: Germany
+    away: Spain
+  score:
+    home: 49
+    away: 58
+  status: live
+  time: '14:00'
 tennis:
 - id: 72661920
   teams:
@@ -24,10 +33,19 @@ tennis:
     home: Rublev, Andrey
     away: Pellegrino, Andrea
   score:
-    home: 1
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72661908
+  teams:
+    home: Tabilo, Alejandro
+    away: Midon, Lautaro
+  score:
+    home: 0
     away: 0
   status: live
-  time: '12:00'
+  time: '14:55'
 ice_hockey: []
 table_tennis:
 - id: 72835300
@@ -210,6 +228,15 @@ table_tennis:
     away: 1
   status: result
   time: 03:00
+- id: 72891976
+  teams:
+    home: Postelt, Tomas
+    away: Wolf, Filip
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:03
 - id: 72891978
   teams:
     home: Mares, Erik
@@ -919,7 +946,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 72903432
   teams:
@@ -928,7 +955,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 72903480
   teams:
@@ -937,7 +964,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 72903438
   teams:
@@ -946,14 +973,194 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 72903512
   teams:
     home: Walek, Adrian
     away: Byrtus, Samuel
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '13:30'
+- id: 72867852
+  teams:
+    home: Louda, Jiri
+    away: Hofman, Denis
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72868288
+  teams:
+    home: Prikasky, Libor
+    away: Kanera, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72868232
+  teams:
+    home: Stoch, Jan
+    away: Laburda, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72867840
+  teams:
+    home: Svoboda, Adam
+    away: Stacho, Libor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72868192
+  teams:
+    home: Vavrecka, Michal
+    away: Dousek, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72867854
+  teams:
+    home: Plachy, Jiri
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72868148
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72868112
+  teams:
+    home: Simecek, Jan
+    away: Kratochvil, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72868152
+  teams:
+    home: Walek, Adrian
+    away: Byrtus, Samuel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72867828
+  teams:
+    home: Zuzanek, Jiri
+    away: Pikous, Marcel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72868138
+  teams:
+    home: Dousek, Tomas
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:00'
+- id: 72867880
+  teams:
+    home: Hofman, Denis
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 72868296
+  teams:
+    home: Kanera, Jan
+    away: Simecek, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 72868106
+  teams:
+    home: Laburda, Frantisek
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '15:00'
+- id: 72867858
+  teams:
+    home: Stacho, Libor
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:00'
+- id: 72868116
+  teams:
+    home: Byrtus, Samuel
+    away: Stoch, Jan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72867866
+  teams:
+    home: Darin, Kyryl
+    away: Svoboda, Adam
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72868240
+  teams:
+    home: Kratochvil, Michal
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72867822
+  teams:
+    home: Pikous, Marcel
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72868190
+  teams:
+    home: Zika, Tadeas
+    away: Vavrecka, Michal
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:30'
