@@ -24,8 +24,17 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
+- id: 67118524
+  teams:
+    home: Nueva Chicago
+    away: Agropecuario Argentino
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:00'
 basketball:
 - id: 72780122
   teams:
@@ -106,7 +115,7 @@ basketball:
   score:
     home: 93
     away: 77
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72891798
   teams:
