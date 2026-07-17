@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72780122
+  teams:
+    home: Panteras
+    away: Freseros de Irapuato
+  score:
+    home: 74
+    away: 71
+  status: live
+  time: 02:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -9,17 +18,17 @@ table_tennis:
     away: Andrle, Tomas
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 72868308
   teams:
     home: Postelt, Vladimir
     away: Plachy, Jiri
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 00:00
 - id: 72868208
   teams:
@@ -27,6 +36,6 @@ table_tennis:
     away: Berdych, Pavel
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
