@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67118520
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 67117794
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '19:00'
 basketball:
 - id: 72780122
@@ -68,9 +68,9 @@ basketball:
     home: Portugal
     away: Hungary
   score:
-    home: 46
-    away: 45
-  status: live
+    home: 62
+    away: 51
+  status: result
   time: '18:30'
 - id: 72890530
   teams:
@@ -104,9 +104,9 @@ basketball:
     home: Bosnia & Herzegovina
     away: Denmark
   score:
-    home: 56
-    away: 44
-  status: live
+    home: 93
+    away: 77
+  status: recentlyended
   time: '19:00'
 - id: 72891798
   teams:
