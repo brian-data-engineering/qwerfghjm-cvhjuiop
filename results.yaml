@@ -9,16 +9,34 @@ basketball:
     away: 77
   status: result
   time: 02:00
+- id: 72889454
+  teams:
+    home: Sweden
+    away: Luxembourg
+  score:
+    home: 34
+    away: 29
+  status: live
+  time: '11:00'
 tennis:
 - id: 72661892
   teams:
     home: Vallejo, Adolfo Daniel
     away: Travaglia, Stefano
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 72661906
+  teams:
+    home: Borges, Nuno
+    away: Darderi, Luciano
+  score:
+    home: 0
     away: 0
   status: live
-  time: 09:00
+  time: '11:05'
 ice_hockey: []
 table_tennis:
 - id: 72868146
