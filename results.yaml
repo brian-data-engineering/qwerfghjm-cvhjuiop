@@ -14,10 +14,19 @@ basketball:
     home: Sweden
     away: Luxembourg
   score:
-    home: 34
+    home: 71
+    away: 62
+  status: result
+  time: '11:00'
+- id: 72889456
+  teams:
+    home: Bulgaria
+    away: Iceland
+  score:
+    home: 24
     away: 29
   status: live
-  time: '11:00'
+  time: '13:30'
 tennis:
 - id: 72661892
   teams:
@@ -34,9 +43,18 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 0
+    away: 2
+  status: result
+  time: '11:05'
+- id: 72661896
+  teams:
+    home: Rublev, Andrey
+    away: Baez, Sebastian
+  score:
+    home: 1
     away: 0
   status: live
-  time: '11:05'
+  time: '13:15'
 ice_hockey: []
 table_tennis:
 - id: 72868146
