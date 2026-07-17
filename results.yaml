@@ -1,4 +1,31 @@
-soccer: []
+soccer:
+- id: 67117796
+  teams:
+    home: Almirante Brown
+    away: CA Estudiantes
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67118520
+  teams:
+    home: CD Maipu
+    away: San Martin de Tucuman
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 67117794
+  teams:
+    home: Mitre Santiago Del Estero
+    away: Racing de Cordoba
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:00'
 basketball:
 - id: 72780122
   teams:
@@ -34,8 +61,116 @@ basketball:
   score:
     home: 72
     away: 62
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 72889460
+  teams:
+    home: Portugal
+    away: Hungary
+  score:
+    home: 46
+    away: 45
+  status: live
+  time: '18:30'
+- id: 72890530
+  teams:
+    home: Macedonia
+    away: Georgia
+  score:
+    home: 97
+    away: 62
+  status: result
+  time: '11:30'
+- id: 72890532
+  teams:
+    home: Netherlands
+    away: Cyprus
+  score:
+    home: 65
+    away: 47
+  status: result
+  time: '14:00'
+- id: 72890534
+  teams:
+    home: Switzerland
+    away: Azerbaijan
+  score:
+    home: 66
+    away: 72
+  status: result
+  time: '16:30'
+- id: 72890536
+  teams:
+    home: Bosnia & Herzegovina
+    away: Denmark
+  score:
+    home: 56
+    away: 44
+  status: live
+  time: '19:00'
+- id: 72891798
+  teams:
+    home: Slovakia
+    away: Estonia
+  score:
+    home: 71
+    away: 72
+  status: result
+  time: 08:30
+- id: 72891800
+  teams:
+    home: Armenia
+    away: Albania
+  score:
+    home: 74
+    away: 57
+  status: result
+  time: 09:00
+- id: 72449510
+  teams:
+    home: Macau Giant Pandas
+    away: Converge Fiberxers
+  score:
+    home: 124
+    away: 149
+  status: result
+  time: 09:15
+- id: 72449434
+  teams:
+    home: Blackwater Elite
+    away: Magnolia Hotshots
+  score:
+    home: 89
+    away: 81
+  status: result
+  time: '11:30'
+- id: 72388628
+  teams:
+    home: Atlanta
+    away: Memphis
+  score:
+    home: 64
+    away: 96
+  status: result
+  time: 00:00
+- id: 72388630
+  teams:
+    home: Miami
+    away: Toronto
+  score:
+    home: 90
+    away: 99
+  status: result
+  time: 01:00
+- id: 72388634
+  teams:
+    home: Denver
+    away: Portland
+  score:
+    home: 101
+    away: 108
+  status: result
+  time: 02:00
 tennis:
 - id: 72661892
   teams:
