@@ -31,10 +31,19 @@ soccer:
     home: Nueva Chicago
     away: Agropecuario Argentino
   score:
-    home: 0
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '21:00'
+- id: 72640438
+  teams:
+    home: Ferro Carril Oeste
+    away: Colon de Santa Fe
+  score:
+    home: 1
     away: 0
   status: live
-  time: '21:00'
+  time: '22:30'
 basketball:
 - id: 72780122
   teams:
@@ -180,6 +189,15 @@ basketball:
     away: 108
   status: result
   time: 02:00
+- id: 72857094
+  teams:
+    home: Charlotte
+    away: Sacramento
+  score:
+    home: 35
+    away: 46
+  status: live
+  time: '22:30'
 tennis:
 - id: 72661892
   teams:
