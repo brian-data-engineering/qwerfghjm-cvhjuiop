@@ -14,9 +14,9 @@ basketball:
     home: Spain
     away: Serbia
   score:
-    home: 28
-    away: 42
-  status: live
+    home: 65
+    away: 72
+  status: recentlyended
   time: '19:00'
 - id: 72917726
   teams:
@@ -34,7 +34,7 @@ basketball:
   score:
     home: 74
     away: 96
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72919816
   teams:
@@ -86,9 +86,9 @@ basketball:
     home: Ukraine
     away: Portugal
   score:
-    home: 74
-    away: 51
-  status: live
+    home: 81
+    away: 61
+  status: result
   time: '18:30'
 - id: 72946140
   teams:
@@ -122,9 +122,9 @@ basketball:
     home: Azerbaijan
     away: Bosnia & Herzegovina
   score:
-    home: 37
-    away: 40
-  status: live
+    home: 53
+    away: 60
+  status: result
   time: '19:00'
 - id: 72946342
   teams:
@@ -207,6 +207,15 @@ basketball:
     away: 120
   status: result
   time: 03:00
+- id: 72935340
+  teams:
+    home: Orlando
+    away: Boston
+  score:
+    home: 45
+    away: 48
+  status: live
+  time: '20:30'
 tennis:
 - id: 72661902
   teams:
