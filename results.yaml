@@ -10,7 +10,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 72896656
   teams:
@@ -37,7 +37,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72896712
   teams:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72896732
   teams:
@@ -55,5 +55,14 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
+- id: 72896730
+  teams:
+    home: Didi, Julius
+    away: Stefek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
