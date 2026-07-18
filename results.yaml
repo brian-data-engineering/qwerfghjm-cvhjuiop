@@ -16,7 +16,7 @@ basketball:
   score:
     home: 65
     away: 72
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 72917726
   teams:
@@ -212,10 +212,19 @@ basketball:
     home: Orlando
     away: Boston
   score:
-    home: 45
-    away: 48
-  status: live
+    home: 103
+    away: 97
+  status: recentlyended
   time: '20:30'
+- id: 72935342
+  teams:
+    home: Milwaukee
+    away: Philadelphia
+  score:
+    home: 60
+    away: 65
+  status: live
+  time: '21:00'
 tennis:
 - id: 72661902
   teams:
