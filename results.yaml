@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72917730
+  teams:
+    home: France
+    away: Slovenia
+  score:
+    home: 47
+    away: 52
+  status: live
+  time: '16:30'
 tennis:
 - id: 72661902
   teams:
@@ -15,9 +24,9 @@ tennis:
     home: Rublev, Andrey
     away: Tabilo, Alejandro
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:15'
 - id: 72943364
   teams:
