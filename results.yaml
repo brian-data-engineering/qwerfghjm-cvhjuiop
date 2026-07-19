@@ -22,9 +22,9 @@ soccer:
     home: FC Orsha
     away: Naftan Novopolotsk
   score:
-    home: 2
-    away: 2
-  status: live
+    home: 6
+    away: 5
+  status: result
   time: '13:30'
 - id: 72628490
   teams:
@@ -32,18 +32,27 @@ soccer:
     away: FC Belshina Bobruisk
   score:
     home: 1
-    away: 7
-  status: live
+    away: 8
+  status: result
   time: '14:00'
+- id: 72628482
+  teams:
+    home: FC Krumkachy Minsk
+    away: FC Brest
+  score:
+    home: 0
+    away: 5
+  status: recentlyended
+  time: '15:00'
 basketball:
 - id: 72971774
   teams:
     home: France
     away: Spain
   score:
-    home: 27
-    away: 31
-  status: live
+    home: 54
+    away: 65
+  status: result
   time: '14:30'
 tennis:
 - id: 72661900
@@ -96,9 +105,9 @@ tennis:
     home: Martinez, Pedro
     away: Skatov, Timofey
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:10'
 - id: 72665172
   teams:
@@ -143,7 +152,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:20'
 - id: 72970472
   teams:
@@ -152,7 +161,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:55'
 - id: 72972560
   teams:
@@ -161,16 +170,16 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '14:05'
 - id: 72972572
   teams:
     home: Maloney, Patrick
     away: Moriya, Hiroki
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:05'
 - id: 72972562
   teams:
@@ -178,9 +187,45 @@ tennis:
     away: Gorzny, Sebastian
   score:
     home: 0
+    away: 2
+  status: result
+  time: '14:05'
+- id: 72972556
+  teams:
+    home: Demuth, Owen
+    away: Magadan, Alan
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '15:35'
+- id: 72972574
+  teams:
+    home: Banerjee, Samir
+    away: Zhu, Evan
+  score:
+    home: 0
     away: 1
   status: live
-  time: '14:05'
+  time: '16:00'
+- id: 72972558
+  teams:
+    home: Langmo, Christian
+    away: Mayo, Aidan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:10'
+- id: 72972578
+  teams:
+    home: Kozlov, Stefan
+    away: Vithoontien, Leo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:55'
 ice_hockey: []
 table_tennis:
 - id: 72971344
