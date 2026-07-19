@@ -42,7 +42,7 @@ soccer:
   score:
     home: 0
     away: 5
-  status: recentlyended
+  status: result
   time: '15:00'
 basketball:
 - id: 72971774
@@ -54,6 +54,78 @@ basketball:
     away: 65
   status: result
   time: '14:30'
+- id: 72971776
+  teams:
+    home: Slovenia
+    away: Serbia
+  score:
+    home: 40
+    away: 32
+  status: live
+  time: '17:00'
+- id: 72971694
+  teams:
+    home: Poland
+    away: Latvia
+  score:
+    home: 100
+    away: 83
+  status: result
+  time: '10:30'
+- id: 72971718
+  teams:
+    home: Lithuania
+    away: Israel
+  score:
+    home: 95
+    away: 79
+  status: result
+  time: '13:00'
+- id: 72968956
+  teams:
+    home: Turkey
+    away: Greece
+  score:
+    home: 56
+    away: 73
+  status: result
+  time: 09:30
+- id: 72968958
+  teams:
+    home: Croatia
+    away: Germany
+  score:
+    home: 91
+    away: 87
+  status: result
+  time: '15:30'
+- id: 72968950
+  teams:
+    home: Belgium
+    away: Romania
+  score:
+    home: 86
+    away: 77
+  status: result
+  time: 08:00
+- id: 72968948
+  teams:
+    home: Czech Republic
+    away: Italy
+  score:
+    home: 80
+    away: 92
+  status: result
+  time: '12:00'
+- id: 72971862
+  teams:
+    home: Sweden
+    away: Portugal
+  score:
+    home: 65
+    away: 65
+  status: live
+  time: '16:00'
 tennis:
 - id: 72661900
   teams:
@@ -197,7 +269,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:35'
 - id: 72972574
   teams:
@@ -205,8 +277,8 @@ tennis:
     away: Zhu, Evan
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:00'
 - id: 72972558
   teams:
@@ -214,7 +286,7 @@ tennis:
     away: Mayo, Aidan
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '16:10'
 - id: 72972578
@@ -223,7 +295,7 @@ tennis:
     away: Vithoontien, Leo
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '16:55'
 ice_hockey: []
