@@ -5,8 +5,8 @@ soccer:
     away: FC Neman Grodno
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '12:00'
 - id: 72628488
   teams:
@@ -14,10 +14,37 @@ soccer:
     away: FC Slavia Mozyr
   score:
     home: 0
-    away: 4
-  status: live
+    away: 5
+  status: result
   time: '13:00'
-basketball: []
+- id: 72628486
+  teams:
+    home: FC Orsha
+    away: Naftan Novopolotsk
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '13:30'
+- id: 72628490
+  teams:
+    home: Victoria Maryina Gorka
+    away: FC Belshina Bobruisk
+  score:
+    home: 1
+    away: 7
+  status: live
+  time: '14:00'
+basketball:
+- id: 72971774
+  teams:
+    home: France
+    away: Spain
+  score:
+    home: 27
+    away: 31
+  status: live
+  time: '14:30'
 tennis:
 - id: 72661900
   teams:
@@ -53,17 +80,107 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 72965442
   teams:
     home: Luz, Orlando
     away: Tabur, Clement
   score:
-    home: 0
+    home: 2
+    away: 0
+  status: result
+  time: '13:10'
+- id: 72970474
+  teams:
+    home: Martinez, Pedro
+    away: Skatov, Timofey
+  score:
+    home: 1
     away: 0
   status: live
-  time: '13:10'
+  time: '14:10'
+- id: 72665172
+  teams:
+    home: Tsitsipas, Stefanos
+    away: Collignon, Raphael
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:30
+- id: 72665508
+  teams:
+    home: Miedler L / Polmans M
+    away: Demoliner M / Galloway R
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:05'
+- id: 72961316
+  teams:
+    home: Cina, Federico
+    away: Giustino, Lorenzo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 72969502
+  teams:
+    home: Dellien, Hugo
+    away: Djere, Laslo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:00'
+- id: 72967090
+  teams:
+    home: Rodionov, Jurij
+    away: Sachko, Vitaliy
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:20'
+- id: 72970472
+  teams:
+    home: Feldbausch, Kilian
+    away: Kopp, Sandro
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:55'
+- id: 72972560
+  teams:
+    home: Biagiotti, Richard
+    away: Young, Gavin
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '14:05'
+- id: 72972572
+  teams:
+    home: Maloney, Patrick
+    away: Moriya, Hiroki
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:05'
+- id: 72972562
+  teams:
+    home: Vandecasteele, Quinn
+    away: Gorzny, Sebastian
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:05'
 ice_hockey: []
 table_tennis:
 - id: 72971344
