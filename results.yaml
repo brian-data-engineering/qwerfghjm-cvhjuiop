@@ -131,9 +131,9 @@ basketball:
     home: Iceland
     away: Ukraine
   score:
-    home: 27
-    away: 34
-  status: live
+    home: 64
+    away: 74
+  status: recentlyended
   time: '18:30'
 - id: 72971894
   teams:
@@ -168,8 +168,8 @@ basketball:
     away: Azerbaijan
   score:
     home: 60
-    away: 65
-  status: live
+    away: 66
+  status: result
   time: '18:00'
 - id: 72971866
   teams:
@@ -421,7 +421,7 @@ tennis:
     away: Kuzuhara, Bruno
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '18:05'
 - id: 72972570
@@ -429,10 +429,37 @@ tennis:
     home: Imamura, Masamichi
     away: Tracy, James
   score:
-    home: 1
+    home: 2
+    away: 1
+  status: result
+  time: '18:15'
+- id: 72991250
+  teams:
+    home: Zamora, Noah
+    away: King, Darian
+  score:
+    home: 0
     away: 1
   status: live
-  time: '18:15'
+  time: '19:10'
+- id: 72972568
+  teams:
+    home: Zamora, Noah
+    away: Poling, Karl
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:45'
+- id: 72972576
+  teams:
+    home: Kuhar, Matt
+    away: Pascual Ferra, Roger
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:20'
 ice_hockey: []
 table_tennis:
 - id: 72971344
