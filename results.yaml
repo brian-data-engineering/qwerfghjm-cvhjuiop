@@ -133,7 +133,7 @@ basketball:
   score:
     home: 64
     away: 74
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72971894
   teams:
@@ -243,6 +243,15 @@ basketball:
     away: 86
   status: result
   time: 02:30
+- id: 72935404
+  teams:
+    home: Oklahoma
+    away: Brooklyn
+  score:
+    home: 58
+    away: 75
+  status: live
+  time: '20:30'
 tennis:
 - id: 72661900
   teams:
@@ -421,8 +430,8 @@ tennis:
     away: Kuzuhara, Bruno
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:05'
 - id: 72972570
   teams:
@@ -439,8 +448,8 @@ tennis:
     away: King, Darian
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '19:10'
 - id: 72972568
   teams:
@@ -457,9 +466,63 @@ tennis:
     away: Pascual Ferra, Roger
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '20:20'
+- id: 72972566
+  teams:
+    home: Suresh, Dhakshineswar
+    away: Perez, Brandon
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '21:15'
+- id: 72666440
+  teams:
+    home: Den Ouden, Guy
+    away: Gentzsch, Tom
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72666948
+  teams:
+    home: Bondioli, Federico
+    away: Alcala Gurri, Max
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72667224
+  teams:
+    home: Vukic, Aleksandar
+    away: Holmgren, August
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:30'
+- id: 72667234
+  teams:
+    home: Vukic, Aleksandar
+    away: Gea, Arthur
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:00'
+- id: 72667386
+  teams:
+    home: Lajal, Mark
+    away: Bu, Yunchaokete
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 02:00
 ice_hockey: []
 table_tennis:
 - id: 72971344
