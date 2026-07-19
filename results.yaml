@@ -1,6 +1,69 @@
-soccer: []
+soccer:
+- id: 72628484
+  teams:
+    home: Soligorsk
+    away: FC Neman Grodno
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
+- id: 72628488
+  teams:
+    home: FC Volna Pinsk
+    away: FC Slavia Mozyr
+  score:
+    home: 0
+    away: 4
+  status: live
+  time: '13:00'
 basketball: []
-tennis: []
+tennis:
+- id: 72661900
+  teams:
+    home: Rublev, Andrey
+    away: Darderi, Luciano
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 72661954
+  teams:
+    home: Arribage T / Cabral F
+    away: Doumbia S / Reboul F
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:30
+- id: 72962464
+  teams:
+    home: Jacquet, Kyrian
+    away: Daniel, Taro
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72967142
+  teams:
+    home: Pellegrino, Andrea
+    away: Bueno, Gonzalo
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 72965442
+  teams:
+    home: Luz, Orlando
+    away: Tabur, Clement
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:10'
 ice_hockey: []
 table_tennis:
 - id: 72971344
