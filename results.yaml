@@ -59,9 +59,9 @@ basketball:
     home: Slovenia
     away: Serbia
   score:
-    home: 40
-    away: 32
-  status: live
+    home: 84
+    away: 65
+  status: result
   time: '17:00'
 - id: 72971694
   teams:
@@ -122,10 +122,127 @@ basketball:
     home: Sweden
     away: Portugal
   score:
-    home: 65
+    home: 75
+    away: 68
+  status: result
+  time: '16:00'
+- id: 72971860
+  teams:
+    home: Iceland
+    away: Ukraine
+  score:
+    home: 27
+    away: 34
+  status: live
+  time: '18:30'
+- id: 72971894
+  teams:
+    home: Bulgaria
+    away: Hungary
+  score:
+    home: 92
+    away: 89
+  status: result
+  time: 08:30
+- id: 72971892
+  teams:
+    home: Luxembourg
+    away: Ireland
+  score:
+    home: 69
+    away: 85
+  status: result
+  time: '13:30'
+- id: 72971882
+  teams:
+    home: Macedonia
+    away: Bosnia & Herzegovina
+  score:
+    home: 91
+    away: 81
+  status: result
+  time: '11:00'
+- id: 72971886
+  teams:
+    home: Netherlands
+    away: Azerbaijan
+  score:
+    home: 60
     away: 65
   status: live
-  time: '16:00'
+  time: '18:00'
+- id: 72971866
+  teams:
+    home: Georgia
+    away: Denmark
+  score:
+    home: 83
+    away: 76
+  status: result
+  time: '13:00'
+- id: 72971864
+  teams:
+    home: Cyprus
+    away: Switzerland
+  score:
+    home: 73
+    away: 75
+  status: result
+  time: '15:30'
+- id: 72971896
+  teams:
+    home: Slovakia
+    away: Armenia
+  score:
+    home: 79
+    away: 46
+  status: result
+  time: 08:00
+- id: 72971898
+  teams:
+    home: Estonia
+    away: Kosovo
+  score:
+    home: 88
+    away: 77
+  status: result
+  time: '10:30'
+- id: 72449514
+  teams:
+    home: Talk N Text
+    away: Macau Giant Pandas
+  score:
+    home: 106
+    away: 103
+  status: result
+  time: 09:15
+- id: 72449438
+  teams:
+    home: Barangay Ginebra
+    away: Phoenix Petroleum
+  score:
+    home: 78
+    away: 81
+  status: result
+  time: '11:30'
+- id: 72935400
+  teams:
+    home: New Orleans
+    away: Indiana
+  score:
+    home: 73
+    away: 91
+  status: result
+  time: 01:00
+- id: 72935402
+  teams:
+    home: Phoenix
+    away: San Antonio
+  score:
+    home: 81
+    away: 86
+  status: result
+  time: 02:30
 tennis:
 - id: 72661900
   teams:
@@ -278,7 +395,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72972558
   teams:
@@ -286,18 +403,36 @@ tennis:
     away: Mayo, Aidan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:10'
 - id: 72972578
   teams:
     home: Kozlov, Stefan
     away: Vithoontien, Leo
   score:
-    home: 0
+    home: 2
+    away: 1
+  status: result
+  time: '16:55'
+- id: 72972564
+  teams:
+    home: Claverie, Lorenzo
+    away: Kuzuhara, Bruno
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:05'
+- id: 72972570
+  teams:
+    home: Imamura, Masamichi
+    away: Tracy, James
+  score:
+    home: 1
     away: 1
   status: live
-  time: '16:55'
+  time: '18:15'
 ice_hockey: []
 table_tennis:
 - id: 72971344
