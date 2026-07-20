@@ -1612,7 +1612,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 73016906
   teams:
@@ -1630,7 +1630,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 73016900
   teams:
@@ -1639,14 +1639,86 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73016908
   teams:
     home: Pilch, Jakub
     away: Urbaniec, Radim
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '21:30'
+- id: 72979282
+  teams:
+    home: Bartunek, Radek
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
+- id: 72979334
+  teams:
+    home: Necas, Miroslav
+    away: Didi, Julius
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:00'
+- id: 72979456
+  teams:
+    home: Vedmoch, Michal
+    away: Placek, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '22:00'
+- id: 72979356
+  teams:
+    home: Hasmanda, Rostislav
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:30'
+- id: 72979250
+  teams:
+    home: Regner, Tomas
+    away: Novotny, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:30'
+- id: 72979538
+  teams:
+    home: Trefny, Jan
+    away: Zmuda, Petr
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '22:30'
+- id: 72979396
+  teams:
+    home: Didi, Julius
+    away: Stefek, Martin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:00'
+- id: 72979490
+  teams:
+    home: Placek, Marek
+    away: Krejci, Richard
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:00'
