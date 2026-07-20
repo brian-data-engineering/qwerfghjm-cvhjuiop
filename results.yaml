@@ -208,7 +208,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 03:30
 - id: 72993702
   teams:
@@ -217,7 +217,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 03:30
 - id: 72993720
   teams:
@@ -226,5 +226,95 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 03:30
+- id: 72979308
+  teams:
+    home: Heczko, David
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 72979390
+  teams:
+    home: Madle, Ludek
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 06:00
+- id: 72979486
+  teams:
+    home: Regner, Michal
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 72979470
+  teams:
+    home: Unzeitig, Daniel
+    away: Machander, Dalimil
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 72979258
+  teams:
+    home: Vedmoch, Michal
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 72979446
+  teams:
+    home: Bereiter, Marek
+    away: Martinak, Lukas
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 06:30
+- id: 72979476
+  teams:
+    home: Hofman, Denis
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 72979288
+  teams:
+    home: Postelt, Vladimir
+    away: Havlicek, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:30
+- id: 72979270
+  teams:
+    home: Simecek, Jakub
+    away: Byrtus, Samuel
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:30
+- id: 72979274
+  teams:
+    home: Svec, Jiri
+    away: Vrabec, Milan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:30
