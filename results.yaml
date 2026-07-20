@@ -17,8 +17,26 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 72965456
+  teams:
+    home: Droguet, Titouan
+    away: Ugo Carabelli, Camilo
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '12:30'
+- id: 72965464
+  teams:
+    home: Ferreira Silva, Frederico
+    away: Van Assche, Luca
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:50'
 ice_hockey: []
 table_tennis:
 - id: 72957840
@@ -775,7 +793,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72979408
   teams:
@@ -784,7 +802,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72979394
   teams:
@@ -793,7 +811,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72979382
   teams:
@@ -802,7 +820,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72979454
   teams:
@@ -811,43 +829,43 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 72979518
   teams:
     home: Martinec, Lukas
     away: Motak, Jiri
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '12:30'
 - id: 72979358
   teams:
     home: Simecek, Jan
     away: Kanera, Jan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '12:30'
 - id: 72979384
   teams:
     home: Sulava, Lubor
     away: Malek, Lukas
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '12:30'
 - id: 72979312
   teams:
     home: Zientek, Zbynek
     away: Tyn, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '12:30'
 - id: 72979542
   teams:
@@ -855,6 +873,231 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73011064
+  teams:
+    home: Hasmanda, Rostislav
+    away: Trinta, Mihail
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73010378
+  teams:
+    home: Martinec, Lukas
+    away: Motak, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73010404
+  teams:
+    home: Svechota, Vojtech
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 73010382
+  teams:
+    home: Wagner, Mark Robin
+    away: Hofman, Denis
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73010724
+  teams:
+    home: Zientek, Zbynek
+    away: Virag, Alexandr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73010380
+  teams:
+    home: Derco, Michal
+    away: Foltynek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 73010406
+  teams:
+    home: Kanera, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 73010928
+  teams:
+    home: Schneeberger, Antonin
+    away: Tyn, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 73011076
+  teams:
+    home: Sulava, Lubor
+    away: Malek, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73010384
+  teams:
+    home: Tazler, Jakub
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 72979304
+  teams:
+    home: Dousek, Tomas
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 72979532
+  teams:
+    home: Grundel, Matej
+    away: Plachta, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72979436
+  teams:
+    home: Hradecky, Jakub
+    away: Brazda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72979266
+  teams:
+    home: Huk, Martin
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 72979414
+  teams:
+    home: Medek, Josef
+    away: Zajicek, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72979388
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Bilek, Zdenek
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:30'
+- id: 72979450
+  teams:
+    home: Prikasky, Libor
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 72979262
+  teams:
+    home: Ruzicka, Jiri
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:30'
+- id: 72979352
+  teams:
+    home: Vavrecka, Michal
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 72979504
+  teams:
+    home: Wagner, Mark Robin
+    away: Just, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 72979452
+  teams:
+    home: Brazda, Adam
+    away: Wagner, Mark Robin
+  score:
+    home: 2
     away: 0
   status: live
-  time: '12:30'
+  time: '15:00'
+- id: 72979426
+  teams:
+    home: Plachta, Jakub
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72979300
+  teams:
+    home: Polasek, Radovan
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:00'
+- id: 72979276
+  teams:
+    home: Svechota, Vojtech
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:00'
+- id: 72979260
+  teams:
+    home: Zajicek, Jan
+    away: Opanasiuk, Dmytro
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:00'
