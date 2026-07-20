@@ -1,797 +1,230 @@
-soccer:
-- id: 72628484
-  teams:
-    home: Soligorsk
-    away: FC Neman Grodno
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '12:00'
-- id: 72628488
-  teams:
-    home: FC Volna Pinsk
-    away: FC Slavia Mozyr
-  score:
-    home: 0
-    away: 5
-  status: result
-  time: '13:00'
-- id: 72628486
-  teams:
-    home: FC Orsha
-    away: Naftan Novopolotsk
-  score:
-    home: 6
-    away: 5
-  status: result
-  time: '13:30'
-- id: 72628490
-  teams:
-    home: Victoria Maryina Gorka
-    away: FC Belshina Bobruisk
-  score:
-    home: 1
-    away: 8
-  status: result
-  time: '14:00'
-- id: 72628482
-  teams:
-    home: FC Krumkachy Minsk
-    away: FC Brest
-  score:
-    home: 0
-    away: 5
-  status: result
-  time: '15:00'
+soccer: []
 basketball:
-- id: 72971774
+- id: 72976188
   teams:
-    home: France
-    away: Spain
-  score:
-    home: 54
-    away: 65
-  status: result
-  time: '14:30'
-- id: 72971776
-  teams:
-    home: Slovenia
-    away: Serbia
-  score:
-    home: 84
-    away: 65
-  status: result
-  time: '17:00'
-- id: 72971694
-  teams:
-    home: Poland
-    away: Latvia
-  score:
-    home: 100
-    away: 83
-  status: result
-  time: '10:30'
-- id: 72971718
-  teams:
-    home: Lithuania
-    away: Israel
-  score:
-    home: 95
-    away: 79
-  status: result
-  time: '13:00'
-- id: 72968956
-  teams:
-    home: Turkey
-    away: Greece
-  score:
-    home: 56
-    away: 73
-  status: result
-  time: 09:30
-- id: 72968958
-  teams:
-    home: Croatia
-    away: Germany
-  score:
-    home: 91
-    away: 87
-  status: result
-  time: '15:30'
-- id: 72968950
-  teams:
-    home: Belgium
-    away: Romania
-  score:
-    home: 86
-    away: 77
-  status: result
-  time: 08:00
-- id: 72968948
-  teams:
-    home: Czech Republic
-    away: Italy
-  score:
-    home: 80
-    away: 92
-  status: result
-  time: '12:00'
-- id: 72971862
-  teams:
-    home: Sweden
-    away: Portugal
-  score:
-    home: 75
-    away: 68
-  status: result
-  time: '16:00'
-- id: 72971860
-  teams:
-    home: Iceland
-    away: Ukraine
-  score:
-    home: 64
-    away: 74
-  status: result
-  time: '18:30'
-- id: 72971894
-  teams:
-    home: Bulgaria
-    away: Hungary
-  score:
-    home: 92
-    away: 89
-  status: result
-  time: 08:30
-- id: 72971892
-  teams:
-    home: Luxembourg
-    away: Ireland
-  score:
-    home: 69
-    away: 85
-  status: result
-  time: '13:30'
-- id: 72971882
-  teams:
-    home: Macedonia
-    away: Bosnia & Herzegovina
-  score:
-    home: 91
-    away: 81
-  status: result
-  time: '11:00'
-- id: 72971886
-  teams:
-    home: Netherlands
-    away: Azerbaijan
-  score:
-    home: 60
-    away: 66
-  status: result
-  time: '18:00'
-- id: 72971866
-  teams:
-    home: Georgia
-    away: Denmark
-  score:
-    home: 83
-    away: 76
-  status: result
-  time: '13:00'
-- id: 72971864
-  teams:
-    home: Cyprus
-    away: Switzerland
-  score:
-    home: 73
-    away: 75
-  status: result
-  time: '15:30'
-- id: 72971896
-  teams:
-    home: Slovakia
-    away: Armenia
-  score:
-    home: 79
-    away: 46
-  status: result
-  time: 08:00
-- id: 72971898
-  teams:
-    home: Estonia
-    away: Kosovo
-  score:
-    home: 88
-    away: 77
-  status: result
-  time: '10:30'
-- id: 72449514
-  teams:
-    home: Talk N Text
-    away: Macau Giant Pandas
-  score:
-    home: 106
-    away: 103
-  status: result
-  time: 09:15
-- id: 72449438
-  teams:
-    home: Barangay Ginebra
-    away: Phoenix Petroleum
-  score:
-    home: 78
-    away: 81
-  status: result
-  time: '11:30'
-- id: 72935400
-  teams:
-    home: New Orleans
-    away: Indiana
-  score:
-    home: 73
-    away: 91
-  status: result
-  time: 01:00
-- id: 72935402
-  teams:
-    home: Phoenix
-    away: San Antonio
-  score:
-    home: 81
-    away: 86
-  status: result
-  time: 02:30
-- id: 72935404
-  teams:
-    home: Oklahoma
-    away: Brooklyn
-  score:
-    home: 90
-    away: 108
-  status: result
-  time: '20:30'
-- id: 72935406
-  teams:
-    home: Toronto
-    away: Denver
-  score:
-    home: 67
-    away: 77
-  status: live
-  time: '22:30'
-- id: 72935408
-  teams:
-    home: LA Lakers
+    home: Memphis
     away: Golden State
   score:
-    home: 88
-    away: 92
-  status: result
-  time: 00:30
-- id: 68096222
-  teams:
-    home: Indiana
-    away: NY Liberty
-  score:
-    home: 108
-    away: 88
-  status: result
-  time: 00:00
-- id: 68096210
-  teams:
-    home: Minnesota
-    away: Portland Fire
-  score:
-    home: 101
-    away: 93
-  status: result
-  time: 00:00
-- id: 68096214
-  teams:
-    home: Golden State
-    away: Washington
-  score:
-    home: 74
-    away: 69
-  status: result
-  time: 00:30
-- id: 68096278
-  teams:
-    home: Dallas
-    away: LA Sparks
-  score:
     home: 90
-    away: 82
+    away: 94
   status: result
-  time: '17:00'
-- id: 68096266
-  teams:
-    home: Atlanta
-    away: Chicago
-  score:
-    home: 93
-    away: 91
-  status: result
-  time: '20:00'
-- id: 68164614
-  teams:
-    home: Phoenix
-    away: Connecticut
-  score:
-    home: 43
-    away: 33
-  status: live
-  time: '23:00'
-tennis:
-- id: 72661900
-  teams:
-    home: Rublev, Andrey
-    away: Darderi, Luciano
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '12:00'
-- id: 72661954
-  teams:
-    home: Arribage T / Cabral F
-    away: Doumbia S / Reboul F
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: 09:30
-- id: 72962464
-  teams:
-    home: Jacquet, Kyrian
-    away: Daniel, Taro
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '11:00'
-- id: 72967142
-  teams:
-    home: Pellegrino, Andrea
-    away: Bueno, Gonzalo
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '11:00'
-- id: 72965442
-  teams:
-    home: Luz, Orlando
-    away: Tabur, Clement
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:10'
-- id: 72970474
-  teams:
-    home: Martinez, Pedro
-    away: Skatov, Timofey
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '14:10'
-- id: 72665172
-  teams:
-    home: Tsitsipas, Stefanos
-    away: Collignon, Raphael
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 09:30
-- id: 72665508
-  teams:
-    home: Miedler L / Polmans M
-    away: Demoliner M / Galloway R
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '12:05'
-- id: 72961316
-  teams:
-    home: Cina, Federico
-    away: Giustino, Lorenzo
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '12:00'
-- id: 72969502
-  teams:
-    home: Dellien, Hugo
-    away: Djere, Laslo
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '12:00'
-- id: 72967090
-  teams:
-    home: Rodionov, Jurij
-    away: Sachko, Vitaliy
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:20'
-- id: 72970472
-  teams:
-    home: Feldbausch, Kilian
-    away: Kopp, Sandro
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:55'
-- id: 72972560
-  teams:
-    home: Biagiotti, Richard
-    away: Young, Gavin
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '14:05'
-- id: 72972572
-  teams:
-    home: Maloney, Patrick
-    away: Moriya, Hiroki
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '14:05'
-- id: 72972562
-  teams:
-    home: Vandecasteele, Quinn
-    away: Gorzny, Sebastian
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '14:05'
-- id: 72972556
-  teams:
-    home: Demuth, Owen
-    away: Magadan, Alan
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:35'
-- id: 72972574
-  teams:
-    home: Banerjee, Samir
-    away: Zhu, Evan
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '16:00'
-- id: 72972558
-  teams:
-    home: Langmo, Christian
-    away: Mayo, Aidan
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '16:10'
-- id: 72972578
-  teams:
-    home: Kozlov, Stefan
-    away: Vithoontien, Leo
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '16:55'
-- id: 72972564
-  teams:
-    home: Claverie, Lorenzo
-    away: Kuzuhara, Bruno
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '18:05'
-- id: 72972570
-  teams:
-    home: Imamura, Masamichi
-    away: Tracy, James
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '18:15'
-- id: 72991250
-  teams:
-    home: Zamora, Noah
-    away: King, Darian
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '19:10'
-- id: 72972568
-  teams:
-    home: Zamora, Noah
-    away: Poling, Karl
-  score:
-    home: 0
-    away: 0
-  status: result
-  time: '19:45'
-- id: 72972576
-  teams:
-    home: Kuhar, Matt
-    away: Pascual Ferra, Roger
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '20:20'
-- id: 72972566
-  teams:
-    home: Suresh, Dhakshineswar
-    away: Perez, Brandon
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '21:15'
-- id: 72666440
-  teams:
-    home: Den Ouden, Guy
-    away: Gentzsch, Tom
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '12:00'
-- id: 72666948
-  teams:
-    home: Bondioli, Federico
-    away: Alcala Gurri, Max
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '16:00'
-- id: 72667224
-  teams:
-    home: Vukic, Aleksandar
-    away: Holmgren, August
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '14:30'
-- id: 72667234
-  teams:
-    home: Vukic, Aleksandar
-    away: Gea, Arthur
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '20:00'
-- id: 72667386
-  teams:
-    home: Lajal, Mark
-    away: Bu, Yunchaokete
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 02:00
-- id: 72667384
-  teams:
-    home: Tomic, Bernard
-    away: Lajal, Mark
-  score:
-    home: 0
-    away: 1
-  status: live
-  time: '23:00'
-- id: 72668440
-  teams:
-    home: Rodesch, Chris
-    away: Ivashka, Ilya
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '20:50'
-- id: 72971316
-  teams:
-    home: Demin, Yaroslav
-    away: Bittoun Kouzmine, Constantin
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: 08:00
-- id: 72971306
-  teams:
-    home: Giunta, Massimo
-    away: Dev, S D Prajwal
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 08:00
-- id: 72971304
-  teams:
-    home: Heredia, Samuel
-    away: Echeverria, John
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: 08:00
-- id: 72971310
-  teams:
-    home: Callejon Hernando, Sergio
-    away: Tepmahc, Nicolas
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:00'
-- id: 72971300
-  teams:
-    home: Singh, Digvijay Pratap
-    away: Matsuda, Koki
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:15'
-- id: 72971318
-  teams:
-    home: Marrero Curbelo, Ivan
-    away: Collar, Enrique
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:20'
-- id: 72971302
-  teams:
-    home: Castelnuovo, Luca
-    away: Vasilev, Alexander
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '11:45'
-- id: 72971308
-  teams:
-    home: Meneses Perny, Asier
-    away: Kumasaka, Takuya
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '12:05'
-- id: 72971314
-  teams:
-    home: Vandermeersch, Cyril
-    away: Radulov, Iliyan
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:05'
-- id: 72971298
-  teams:
-    home: Palan, Dominik
-    away: Munk Mesa, Bernardo
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '13:10'
-- id: 72971312
-  teams:
-    home: McKennon, Maxwell
-    away: Ouakaa, Aziz
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '14:35'
-- id: 72971296
-  teams:
-    home: Barroso Campos, Alberto
-    away: Leong, Mitsuki Wei Kang
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:05'
-- id: 72967130
-  teams:
-    home: Kuzmanov, Dimitar
-    away: Opitz, Jannik
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '10:00'
-- id: 72967128
-  teams:
-    home: Poulsen, Oskar Brostrom
-    away: Janvier, Maxime
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '10:00'
-- id: 72967124
-  teams:
-    home: Vasa, Iiro
-    away: Tabacco, Giorgio
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '10:00'
-- id: 72967118
-  teams:
-    home: Arnaboldi, Federico
-    away: Pohjola, Peetu
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '11:35'
-- id: 72967126
-  teams:
-    home: Petkovic, Mika
-    away: Alopaeus, Felix
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '11:40'
+  time: 01:00
+tennis: []
 ice_hockey: []
 table_tennis:
-- id: 72971344
+- id: 72957840
+  teams:
+    home: Cermak, Vladimir
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:00
+- id: 72958224
+  teams:
+    home: Svoboda, Vladimir
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:00
+- id: 72957968
+  teams:
+    home: Zmuda, Petr
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:00
+- id: 72957818
   teams:
     home: Darin, Kyryl
-    away: Bartunek, Radek
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 72958048
+  teams:
+    home: Krejci, Richard
+    away: Sobisek, Martin
   score:
     home: 2
     away: 3
   status: result
-  time: 00:00
-- id: 72935528
+  time: 00:30
+- id: 72958178
   teams:
-    home: Klement, Milan
-    away: Vejvoda, Viktor
+    home: Potensky, Jan
+    away: Pelikan, Josef
   score:
     home: 3
-    away: 0
+    away: 1
   status: result
-  time: 00:00
-- id: 72935484
+  time: 00:30
+- id: 72958196
   teams:
-    home: Ruzicka, Jiri
-    away: Urbaniec, Radim
+    home: Grohsgott, Jiri
+    away: Havel, Ladislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 72958042
+  teams:
+    home: Plachy, Jiri
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 72957960
+  teams:
+    home: Volf, Matej
+    away: Chlebecek, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 72958226
+  teams:
+    home: Pelikan, Josef
+    away: Svoboda, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 72957872
+  teams:
+    home: Sobisek, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 72958012
+  teams:
+    home: Parhomenko, Dmitro
+    away: Zmuda, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:45
+- id: 72958218
+  teams:
+    home: Grohsgott, Jiri
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 72957924
+  teams:
+    home: Plachy, Jiri
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 72957982
+  teams:
+    home: Volf, Matej
+    away: Krejci, Richard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 72957844
+  teams:
+    home: Cermak, Vladimir
+    away: Chlebecek, Marek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 72958164
+  teams:
+    home: Svoboda, Vladimir
+    away: Havel, Ladislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 72957998
+  teams:
+    home: Zmuda, Petr
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 72993700
+  teams:
+    home: Krejci, Richard
+    away: Chlebecek, Marek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 72993656
+  teams:
+    home: Potensky, Jan
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 72993712
+  teams:
+    home: Parhomenko, Dmitro
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:06
+- id: 72993658
+  teams:
+    home: Havel, Ladislav
+    away: Svoboda, Vladimir
   score:
     home: 3
     away: 2
-  status: result
-  time: 00:00
+  status: recentlyended
+  time: 03:30
+- id: 72993702
+  teams:
+    home: Sobisek, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 03:30
+- id: 72993720
+  teams:
+    home: Zmuda, Petr
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 03:30
