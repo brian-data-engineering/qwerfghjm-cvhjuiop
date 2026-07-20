@@ -43,8 +43,8 @@ tennis:
     away: Martinez, Pedro
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:40'
 - id: 72964852
   teams:
@@ -1513,7 +1513,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72979506
   teams:
@@ -1522,7 +1522,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72979314
   teams:
@@ -1530,8 +1530,8 @@ table_tennis:
     away: Medek, Josef
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '20:00'
 - id: 72979494
   teams:
@@ -1540,7 +1540,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72979526
   teams:
@@ -1549,7 +1549,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 72979296
   teams:
@@ -1558,5 +1558,95 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
+- id: 72979474
+  teams:
+    home: Cabis, Michal
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 72979498
+  teams:
+    home: Fojt, Pavel
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 72979374
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 72979520
+  teams:
+    home: Urbaniec, Radim
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 72979398
+  teams:
+    home: Vondrak, Michal
+    away: Schopf, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 73016912
+  teams:
+    home: Bittner, Martin
+    away: Schopf, Karel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '21:00'
+- id: 73016906
+  teams:
+    home: Chalupa, Michal
+    away: Szotek, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '21:00'
+- id: 73016896
+  teams:
+    home: Dousa, Tomas
+    away: Plachy, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '21:00'
+- id: 73016900
+  teams:
+    home: Fojt, Pavel
+    away: Trefny, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '21:30'
+- id: 73016908
+  teams:
+    home: Pilch, Jakub
+    away: Urbaniec, Radim
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:30'
