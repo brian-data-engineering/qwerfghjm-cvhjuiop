@@ -26,7 +26,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 72965464
   teams:
@@ -34,7 +34,7 @@ tennis:
     away: Van Assche, Luca
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '14:50'
 ice_hockey: []
@@ -1018,7 +1018,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 72979450
   teams:
@@ -1027,7 +1027,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 72979262
   teams:
@@ -1036,7 +1036,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 72979352
   teams:
@@ -1045,7 +1045,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 72979504
   teams:
@@ -1054,25 +1054,25 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 72979452
   teams:
     home: Brazda, Adam
     away: Wagner, Mark Robin
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 72979426
   teams:
     home: Plachta, Jakub
     away: Prikasky, Libor
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 72979300
   teams:
@@ -1081,23 +1081,158 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72979276
   teams:
     home: Svechota, Vojtech
     away: Ruzicka, Jiri
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 72979260
   teams:
     home: Zajicek, Jan
     away: Opanasiuk, Dmytro
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '15:00'
+- id: 72979340
+  teams:
+    home: Bilek, Zdenek
+    away: Medek, Josef
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72979438
+  teams:
+    home: Just, Frantisek
+    away: Hradecky, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 72979496
+  teams:
+    home: Pilch, Jakub
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72979320
+  teams:
+    home: Simecek, Jan
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72979376
+  teams:
+    home: Zika, Tadeas
+    away: Dousek, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72979336
+  teams:
+    home: Dousek, Tomas
+    away: Vavrecka, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72979512
+  teams:
+    home: Grundel, Matej
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72979428
+  teams:
+    home: Hradecky, Jakub
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 72979366
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72979380
+  teams:
+    home: Medek, Josef
+    away: Opanasiuk, Dmytro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72979478
+  teams:
+    home: Brazda, Adam
+    away: Just, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 72979528
+  teams:
+    home: Plachta, Jakub
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:30'
+- id: 72979402
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 72979360
+  teams:
+    home: Svechota, Vojtech
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 72979290
+  teams:
+    home: Zajicek, Jan
+    away: Bilek, Zdenek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:30'
