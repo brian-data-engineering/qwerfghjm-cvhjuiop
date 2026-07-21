@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72449440
+  teams:
+    home: Meralco
+    away: Blackwater Elite
+  score:
+    home: 47
+    away: 46
+  status: live
+  time: 09:15
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -199,5 +208,5 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
