@@ -10,7 +10,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 72979412
   teams:
@@ -37,7 +37,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72979492
   teams:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 72979256
   teams:
@@ -55,5 +55,95 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: live
+  status: result
   time: 00:30
+- id: 72979332
+  teams:
+    home: Novotny, Miroslav
+    away: Necas, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 72979418
+  teams:
+    home: Steffan, Jan
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 72979460
+  teams:
+    home: Zmuda, Petr
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 72979268
+  teams:
+    home: Hasmanda, Rostislav
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 72979514
+  teams:
+    home: Trefny, Jan
+    away: Krejci, Richard
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 72979254
+  teams:
+    home: Steffan, Jan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 72979516
+  teams:
+    home: Zmuda, Petr
+    away: Placek, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 72979546
+  teams:
+    home: Krejci, Richard
+    away: Vedmoch, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 72979306
+  teams:
+    home: Trinta, Mihail
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 72979410
+  teams:
+    home: Stefek, Martin
+    away: Necas, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:45
