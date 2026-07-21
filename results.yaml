@@ -5,11 +5,20 @@ basketball:
     home: Meralco
     away: Blackwater Elite
   score:
-    home: 47
-    away: 46
-  status: live
+    home: 116
+    away: 114
+  status: result
   time: 09:15
-tennis: []
+tennis:
+- id: 72987034
+  teams:
+    home: Bueno, Gonzalo
+    away: Pereira, Tiago
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '11:00'
 ice_hockey: []
 table_tennis:
 - id: 72979440
