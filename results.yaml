@@ -9,15 +9,60 @@ basketball:
     away: 114
   status: result
   time: 09:15
+- id: 72449442
+  teams:
+    home: Phoenix Petroleum
+    away: Rain Or Shine
+  score:
+    home: 98
+    away: 105
+  status: result
+  time: '11:30'
+- id: 72905560
+  teams:
+    home: Dallas
+    away: NY Liberty
+  score:
+    home: 98
+    away: 99
+  status: result
+  time: 00:00
+- id: 68096628
+  teams:
+    home: Toronto Tempo
+    away: Las Vegas Aces
+  score:
+    home: 83
+    away: 109
+  status: result
+  time: 00:00
+- id: 68096138
+  teams:
+    home: Golden State
+    away: Washington
+  score:
+    home: 82
+    away: 90
+  status: result
+  time: 02:00
+- id: 68095968
+  teams:
+    home: Seattle
+    away: Minnesota
+  score:
+    home: 102
+    away: 105
+  status: result
+  time: 02:00
 tennis:
 - id: 72987034
   teams:
     home: Bueno, Gonzalo
     away: Pereira, Tiago
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '11:00'
 ice_hockey: []
 table_tennis:
@@ -138,6 +183,15 @@ table_tennis:
     away: 0
   status: result
   time: 02:00
+- id: 72979368
+  teams:
+    home: Novotny, Miroslav
+    away: Didi, Julius
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:25
 - id: 72979546
   teams:
     home: Krejci, Richard
