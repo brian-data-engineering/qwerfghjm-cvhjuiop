@@ -14,9 +14,9 @@ basketball:
     home: S.M. Beermen
     away: Converge Fiberxers
   score:
-    home: 36
-    away: 30
-  status: live
+    home: 128
+    away: 122
+  status: result
   time: '11:30'
 tennis:
 - id: 72827282
@@ -24,10 +24,19 @@ tennis:
     home: Gaston, Hugo
     away: Droguet, Titouan
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '11:00'
+- id: 72827266
+  teams:
+    home: Borges, Nuno
+    away: Burruchaga, Roman Andres
+  score:
+    home: 0
     away: 0
   status: live
-  time: '11:00'
+  time: '13:30'
 ice_hockey: []
 table_tennis:
 - id: 73002524
