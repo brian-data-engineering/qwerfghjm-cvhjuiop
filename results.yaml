@@ -1,329 +1,59 @@
 soccer: []
-basketball:
-- id: 72449440
-  teams:
-    home: Meralco
-    away: Blackwater Elite
-  score:
-    home: 116
-    away: 114
-  status: result
-  time: 09:15
-- id: 72449442
-  teams:
-    home: Phoenix Petroleum
-    away: Rain Or Shine
-  score:
-    home: 98
-    away: 105
-  status: result
-  time: '11:30'
-- id: 72905560
-  teams:
-    home: Dallas
-    away: NY Liberty
-  score:
-    home: 98
-    away: 99
-  status: result
-  time: 00:00
-- id: 68096628
-  teams:
-    home: Toronto Tempo
-    away: Las Vegas Aces
-  score:
-    home: 83
-    away: 109
-  status: result
-  time: 00:00
-- id: 68096138
-  teams:
-    home: Golden State
-    away: Washington
-  score:
-    home: 82
-    away: 90
-  status: result
-  time: 02:00
-- id: 68095968
-  teams:
-    home: Seattle
-    away: Minnesota
-  score:
-    home: 102
-    away: 105
-  status: result
-  time: 02:00
-tennis:
-- id: 72987034
-  teams:
-    home: Bueno, Gonzalo
-    away: Pereira, Tiago
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '11:00'
+basketball: []
+tennis: []
 ice_hockey: []
 table_tennis:
-- id: 72979440
+- id: 73002524
   teams:
-    home: Krejci, Richard
-    away: Zmuda, Petr
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 00:00
-- id: 72979412
-  teams:
-    home: Stefek, Martin
-    away: Novotny, Miroslav
+    home: Bayer, Ales
+    away: Volf, Matej
   score:
     home: 2
     away: 3
   status: result
   time: 00:00
-- id: 72979248
+- id: 73002436
   teams:
-    home: Trinta, Mihail
-    away: Steffan, Jan
+    home: Kosar, Vaclav
+    away: Pelikan, Josef
   score:
     home: 3
     away: 1
   status: result
   time: 00:00
-- id: 72979310
+- id: 73002378
   teams:
-    home: Didi, Julius
-    away: Regner, Tomas
+    home: Pikous, Marcel
+    away: Schopf, Karel
   score:
     home: 1
     away: 3
   status: result
-  time: 00:30
-- id: 72979492
+  time: 00:00
+- id: 73002462
   teams:
-    home: Placek, Marek
-    away: Trefny, Jan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 00:30
-- id: 72979256
-  teams:
-    home: Sulava, Lubor
-    away: Hasmanda, Rostislav
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:30
-- id: 72979332
-  teams:
-    home: Novotny, Miroslav
-    away: Necas, Miroslav
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:00
-- id: 72979418
-  teams:
-    home: Steffan, Jan
-    away: Bartunek, Radek
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:00
-- id: 72979460
-  teams:
-    home: Zmuda, Petr
-    away: Vedmoch, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 01:00
-- id: 72979268
-  teams:
-    home: Hasmanda, Rostislav
-    away: Trinta, Mihail
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:30
-- id: 72979514
-  teams:
-    home: Trefny, Jan
-    away: Krejci, Richard
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:30
-- id: 72979254
-  teams:
-    home: Steffan, Jan
-    away: Sulava, Lubor
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 02:00
-- id: 72979516
-  teams:
-    home: Zmuda, Petr
-    away: Placek, Marek
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 02:00
-- id: 72979368
-  teams:
-    home: Novotny, Miroslav
-    away: Didi, Julius
+    home: Louda, Jiri
+    away: Hofman, Denis
   score:
     home: 0
     away: 3
-  status: result
-  time: 02:25
-- id: 72979546
+  status: recentlyended
+  time: 00:30
+- id: 73002482
   teams:
-    home: Krejci, Richard
-    away: Vedmoch, Michal
+    home: Potensky, Jan
+    away: Mazanek, Stanislav
   score:
     home: 2
     away: 3
-  status: result
-  time: 02:30
-- id: 72979306
+  status: recentlyended
+  time: 00:30
+- id: 73002366
   teams:
-    home: Trinta, Mihail
-    away: Bartunek, Radek
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 02:30
-- id: 72979410
-  teams:
-    home: Stefek, Martin
-    away: Necas, Miroslav
+    home: Tuma, Daniel
+    away: Sobisek, Martin
   score:
     home: 3
     away: 1
-  status: result
-  time: 02:45
-- id: 73026688
-  teams:
-    home: Trinta, Mihail
-    away: Steffan, Jan
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:00
-- id: 73026696
-  teams:
-    home: Vedmoch, Michal
-    away: Trefny, Jan
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 03:01
-- id: 73026700
-  teams:
-    home: Stefek, Martin
-    away: Novotny, Miroslav
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 03:07
-- id: 73026702
-  teams:
-    home: Didi, Julius
-    away: Regner, Tomas
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 03:30
-- id: 73026690
-  teams:
-    home: Hasmanda, Rostislav
-    away: Bartunek, Radek
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 03:30
-- id: 73026698
-  teams:
-    home: Zmuda, Petr
-    away: Krejci, Richard
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:30
-- id: 73001936
-  teams:
-    home: Cerny, Vojtech
-    away: Blejchar, Marek
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:00
-- id: 73002464
-  teams:
-    home: Havlicek, Vladimir
-    away: Darin, Kyryl
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:00
-- id: 73001886
-  teams:
-    home: Havrda, Cesta
-    away: Strnad, Jaroslav (1961)
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:00
-- id: 73002506
-  teams:
-    home: Unzeitig, Daniel
-    away: Bereiter, Marek
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:00
-- id: 73001890
-  teams:
-    home: Varnuska, Tomas
-    away: Parhomenko, Dmitro
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:00
-- id: 73001956
-  teams:
-    home: Hrabec, Jan
-    away: Bosak, Vitezslav
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:30
+  status: recentlyended
+  time: 00:30
