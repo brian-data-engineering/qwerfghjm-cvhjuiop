@@ -18,6 +18,15 @@ basketball:
     away: 122
   status: result
   time: '11:30'
+- id: 68096378
+  teams:
+    home: LA Sparks
+    away: Phoenix
+  score:
+    home: 18
+    away: 19
+  status: live
+  time: '19:00'
 tennis:
 - id: 72827282
   teams:
@@ -43,9 +52,36 @@ tennis:
     away: Torres, Tiago
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:30'
+- id: 72827264
+  teams:
+    home: Jacquet, Kyrian
+    away: Blockx, Alexander
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:20'
+- id: 72964846
+  teams:
+    home: Ho R / Kittay B
+    away: Luz O / Matos R
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:00'
+- id: 72964856
+  teams:
+    home: Kirkov V / Stevens B
+    away: Demoliner M / Galloway R
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
 ice_hockey: []
 table_tennis:
 - id: 73002524
