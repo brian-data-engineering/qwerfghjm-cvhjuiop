@@ -37,7 +37,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73002482
   teams:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73002366
   teams:
@@ -55,5 +55,23 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
+- id: 73002356
+  teams:
+    home: Pelikan, Josef
+    away: Havel, Ladislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 73002434
+  teams:
+    home: Schopf, Karel
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
