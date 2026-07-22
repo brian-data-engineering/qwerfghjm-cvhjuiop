@@ -1,4 +1,40 @@
-soccer: []
+soccer:
+- id: 66886852
+  teams:
+    home: Coritiba
+    away: SE Palmeiras
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '22:30'
+- id: 68823104
+  teams:
+    home: Vila Nova
+    away: Fortaleza EC
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:35
+- id: 68823094
+  teams:
+    home: Ceara SC
+    away: Cr Brasil AL
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:30'
+- id: 68823092
+  teams:
+    home: Operario
+    away: Ponte Preta
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
 basketball:
 - id: 72449516
   teams:
@@ -36,6 +72,15 @@ basketball:
     away: 86
   status: result
   time: '19:00'
+- id: 68096440
+  teams:
+    home: NY Liberty
+    away: Chicago
+  score:
+    home: 30
+    away: 34
+  status: live
+  time: '23:00'
 tennis:
 - id: 72827282
   teams:
