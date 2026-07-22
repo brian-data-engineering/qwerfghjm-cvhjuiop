@@ -23,8 +23,17 @@ basketball:
     home: LA Sparks
     away: Phoenix
   score:
-    home: 18
-    away: 19
+    home: 57
+    away: 58
+  status: live
+  time: '19:00'
+- id: 68164618
+  teams:
+    home: Seattle
+    away: Minnesota
+  score:
+    home: 69
+    away: 73
   status: live
   time: '19:00'
 tennis:
@@ -61,8 +70,8 @@ tennis:
     away: Blockx, Alexander
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:20'
 - id: 72964846
   teams:
