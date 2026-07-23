@@ -1,212 +1,95 @@
-soccer:
-- id: 66886852
-  teams:
-    home: Coritiba
-    away: SE Palmeiras
-  score:
-    home: 0
-    away: 2
-  status: live
-  time: '22:30'
-- id: 68823104
-  teams:
-    home: Vila Nova
-    away: Fortaleza EC
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 00:35
-- id: 68823094
-  teams:
-    home: Ceara SC
-    away: Cr Brasil AL
-  score:
-    home: 0
-    away: 1
-  status: live
-  time: '22:30'
-- id: 68823092
-  teams:
-    home: Operario
-    away: Ponte Preta
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '22:30'
+soccer: []
 basketball:
-- id: 72449516
+- id: 68096282
   teams:
-    home: Talk N Text
-    away: Titan Ultra Giant Risers
+    home: Indiana
+    away: Connecticut
   score:
-    home: 87
-    away: 103
-  status: result
-  time: 09:15
-- id: 72449518
-  teams:
-    home: S.M. Beermen
-    away: Converge Fiberxers
-  score:
-    home: 128
-    away: 122
-  status: result
-  time: '11:30'
-- id: 68096378
-  teams:
-    home: LA Sparks
-    away: Phoenix
-  score:
-    home: 82
-    away: 86
-  status: result
-  time: '19:00'
-- id: 68164618
-  teams:
-    home: Seattle
-    away: Minnesota
-  score:
-    home: 76
-    away: 86
-  status: result
-  time: '19:00'
-- id: 68096440
-  teams:
-    home: NY Liberty
-    away: Chicago
-  score:
-    home: 30
-    away: 34
+    home: 70
+    away: 46
   status: live
-  time: '23:00'
-tennis:
-- id: 72827282
-  teams:
-    home: Gaston, Hugo
-    away: Droguet, Titouan
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '11:00'
-- id: 72827266
-  teams:
-    home: Borges, Nuno
-    away: Burruchaga, Roman Andres
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '13:30'
-- id: 72827284
-  teams:
-    home: Tabilo, Alejandro
-    away: Torres, Tiago
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '16:30'
-- id: 72827264
-  teams:
-    home: Jacquet, Kyrian
-    away: Blockx, Alexander
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '18:20'
-- id: 72964846
-  teams:
-    home: Ho R / Kittay B
-    away: Luz O / Matos R
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '12:00'
-- id: 72964856
-  teams:
-    home: Kirkov V / Stevens B
-    away: Demoliner M / Galloway R
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '12:00'
+  time: 00:00
+tennis: []
 ice_hockey: []
 table_tennis:
-- id: 73002524
+- id: 73038800
   teams:
-    home: Bayer, Ales
-    away: Volf, Matej
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:00
-- id: 73002436
-  teams:
-    home: Kosar, Vaclav
-    away: Pelikan, Josef
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 00:00
-- id: 73002378
-  teams:
-    home: Pikous, Marcel
-    away: Schopf, Karel
+    home: Trinta, Mihail
+    away: Novak, Martin
   score:
     home: 1
     away: 3
   status: result
   time: 00:00
-- id: 73002462
+- id: 73038708
   teams:
-    home: Louda, Jiri
-    away: Hofman, Denis
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:30
-- id: 73002482
-  teams:
-    home: Potensky, Jan
-    away: Mazanek, Stanislav
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:30
-- id: 73002366
-  teams:
-    home: Tuma, Daniel
-    away: Sobisek, Martin
+    home: Vedmoch, Michal
+    away: Fojt, Pavel
   score:
     home: 3
     away: 1
   status: result
-  time: 00:30
-- id: 73002356
+  time: 00:00
+- id: 73038892
   teams:
-    home: Pelikan, Josef
-    away: Havel, Ladislav
+    home: Wagner, Mark Robin
+    away: Bayer, Ales
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:00
+- id: 73038796
+  teams:
+    home: Hasmanda, Rostislav
+    away: Kucirek, Ondrej
   score:
     home: 2
     away: 3
-  status: result
-  time: 01:00
-- id: 73002434
+  status: recentlyended
+  time: 00:30
+- id: 73038822
   teams:
-    home: Schopf, Karel
-    away: Regner, Michal
+    home: Hradecky, Jakub
+    away: Sopko, Martin
   score:
-    home: 3
-    away: 2
-  status: result
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 00:30
+- id: 73038766
+  teams:
+    home: Parhomenko, Dmitro
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 00:30
+- id: 73038736
+  teams:
+    home: Bayer, Ales
+    away: Tazler, Jakub
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 01:00
+- id: 73038880
+  teams:
+    home: Fojt, Pavel
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 01:00
+- id: 73038810
+  teams:
+    home: Novak, Martin
+    away: Bartunek, Radek
+  score:
+    home: 0
+    away: 1
+  status: live
   time: 01:00
