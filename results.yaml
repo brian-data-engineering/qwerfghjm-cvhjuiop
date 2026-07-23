@@ -18,7 +18,16 @@ basketball:
     away: 101
   status: result
   time: 02:00
-tennis: []
+tennis:
+- id: 72827286
+  teams:
+    home: Van Assche, Luca
+    away: Carreno Busta, Pablo
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '11:00'
 ice_hockey: []
 table_tennis:
 - id: 73038800
@@ -512,9 +521,9 @@ table_tennis:
     home: Langer, Milan
     away: Pagac, Zbynek
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '10:00'
 - id: 73068920
   teams:
@@ -523,7 +532,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73068956
   teams:
@@ -532,7 +541,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73068924
   teams:
@@ -541,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73067840
   teams:
@@ -550,5 +559,185 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 73068810
+  teams:
+    home: Fisera, Milan
+    away: Svedik, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73069746
+  teams:
+    home: Hudeczek, Roman
+    away: Nadymacek, Frantisek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 73067826
+  teams:
+    home: Tuma, Daniel
+    away: Cermak, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73068828
+  teams:
+    home: Ulrych, Martin
+    away: Drabek, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 73068968
+  teams:
+    home: Zika, Tadeas
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 73069028
+  teams:
+    home: Didi, Julius
+    away: Ulrych, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 73067836
+  teams:
+    home: Just, Frantisek
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 73068908
+  teams:
+    home: Pagac, Zbynek
+    away: Hudeczek, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 73068806
+  teams:
+    home: Sulava, Lubor
+    away: Fisera, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 73069002
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 73067834
+  teams:
+    home: Cermak, Vladimir
+    away: Volf, Matej
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 73068838
+  teams:
+    home: Drabek, Zbynek
+    away: Malek, Lukas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 73069748
+  teams:
+    home: Nadymacek, Frantisek
+    away: Langer, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 73068914
+  teams:
+    home: Svedik, Miroslav
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 73068902
+  teams:
+    home: Vavrecka, Michal
+    away: Sedlacek, Michael
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:30'
+- id: 73068992
+  teams:
+    home: Langer, Milan
+    away: Hudeczek, Roman
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
+- id: 73068934
+  teams:
+    home: Malek, Lukas
+    away: Ulrych, Martin
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:00'
+- id: 73069036
+  teams:
+    home: Sedlacek, Michael
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
+- id: 73068918
+  teams:
+    home: Steffan, Jan
+    away: Fisera, Milan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
+- id: 73067824
+  teams:
+    home: Volf, Matej
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:00'
