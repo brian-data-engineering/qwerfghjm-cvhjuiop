@@ -24,10 +24,19 @@ tennis:
     home: Van Assche, Luca
     away: Carreno Busta, Pablo
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '11:00'
+- id: 72827262
+  teams:
+    home: Faria, Jaime
+    away: Bueno, Gonzalo
+  score:
     home: 1
     away: 0
   status: live
-  time: '11:00'
+  time: '13:30'
 ice_hockey: []
 table_tennis:
 - id: 73038800
@@ -516,6 +525,87 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 73103788
+  teams:
+    home: Havlicek, Vladimir
+    away: Barton, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 73103782
+  teams:
+    home: Klement, Milan
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 73103774
+  teams:
+    home: Navedla, Matyas
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 73103768
+  teams:
+    home: Volf, Matej
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 73103770
+  teams:
+    home: Cermak, Vladimir
+    away: Schopf, Karel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 73103790
+  teams:
+    home: Kolar, Milan
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 73103794
+  teams:
+    home: Kowolowski, Miroslav
+    away: Varecha, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 73103776
+  teams:
+    home: Paril, Ondrej
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 73103784
+  teams:
+    home: Vejvoda, Viktor
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
 - id: 73068850
   teams:
     home: Langer, Milan
@@ -658,7 +748,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73068838
   teams:
@@ -667,7 +757,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73069748
   teams:
@@ -676,7 +766,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73068914
   teams:
@@ -685,7 +775,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73068902
   teams:
@@ -694,25 +784,25 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73068992
   teams:
     home: Langer, Milan
     away: Hudeczek, Roman
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:00'
 - id: 73068934
   teams:
     home: Malek, Lukas
     away: Ulrych, Martin
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '12:00'
 - id: 73069036
   teams:
@@ -720,24 +810,87 @@ table_tennis:
     away: Zika, Tadeas
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '12:00'
 - id: 73068918
   teams:
     home: Steffan, Jan
     away: Fisera, Milan
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '12:00'
 - id: 73067824
   teams:
     home: Volf, Matej
     away: Tuma, Daniel
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:00'
+- id: 73069022
+  teams:
+    home: Didi, Julius
+    away: Drabek, Zbynek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 73067822
+  teams:
+    home: Just, Frantisek
+    away: Cermak, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73069744
+  teams:
+    home: Pagac, Zbynek
+    away: Nadymacek, Frantisek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73068854
+  teams:
+    home: Sulava, Lubor
+    away: Svedik, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73068998
+  teams:
+    home: Szotkowski, Jan
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73110714
+  teams:
+    home: Didi, Julius
+    away: Drabek, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73110700
+  teams:
+    home: Steffan, Jan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
