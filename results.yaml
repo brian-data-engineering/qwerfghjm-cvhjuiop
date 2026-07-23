@@ -52,8 +52,8 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '17:15'
 - id: 72827302
   teams:
@@ -134,7 +134,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72827682
   teams:
@@ -150,10 +150,28 @@ tennis:
     home: Pascual Ferra, Roger
     away: Martin, Andres
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '16:45'
+- id: 72827668
+  teams:
+    home: Gojo, Borna
+    away: Suresh, Dhakshineswar
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '18:10'
+- id: 72827678
+  teams:
+    home: Wolf, Jeffrey John
+    away: Wong, Coleman
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:10'
 ice_hockey: []
 table_tennis:
 - id: 73038800
@@ -1272,3 +1290,57 @@ table_tennis:
     away: 1
   status: result
   time: '16:35'
+- id: 73068766
+  teams:
+    home: Dedek, Jiri
+    away: Kolar, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73069016
+  teams:
+    home: Klimenta, Matous
+    away: Gireth, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73068936
+  teams:
+    home: Osvald, Petr
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73068958
+  teams:
+    home: Peter, Jaroslav
+    away: Zientek, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73068984
+  teams:
+    home: Regner, Tomas
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73069026
+  teams:
+    home: Levicky, Matej
+    away: Kvasnicka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
