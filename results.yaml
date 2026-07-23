@@ -5,10 +5,19 @@ basketball:
     home: Indiana
     away: Connecticut
   score:
-    home: 70
-    away: 46
-  status: live
+    home: 123
+    away: 88
+  status: result
   time: 00:00
+- id: 68096356
+  teams:
+    home: Portland Fire
+    away: Dallas
+  score:
+    home: 97
+    away: 101
+  status: recentlyended
+  time: 02:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -46,7 +55,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73038822
   teams:
@@ -55,7 +64,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73038766
   teams:
@@ -64,7 +73,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73038736
   teams:
@@ -72,8 +81,8 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 73038880
   teams:
@@ -81,15 +90,150 @@ table_tennis:
     away: Dedek, Jiri
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 73038810
   teams:
     home: Novak, Martin
     away: Bartunek, Radek
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 01:00
+- id: 73038760
+  teams:
+    home: Kucirek, Ondrej
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 73038772
+  teams:
+    home: Plachy, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 73038780
+  teams:
+    home: Sopko, Martin
+    away: Wagner, Mark Robin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73038912
+  teams:
+    home: Bayer, Ales
+    away: Hradecky, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 73038742
+  teams:
+    home: Fojt, Pavel
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 73038814
+  teams:
+    home: Novak, Martin
+    away: Hasmanda, Rostislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 73038918
+  teams:
+    home: Trinta, Mihail
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 73038728
+  teams:
+    home: Vedmoch, Michal
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 73038882
+  teams:
+    home: Wagner, Mark Robin
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 73085736
+  teams:
+    home: Kucirek, Ondrej
+    away: Novak, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 73085728
+  teams:
+    home: Plachy, Jiri
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 73085732
+  teams:
+    home: Sopko, Martin
+    away: Bayer, Ales
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 73085740
+  teams:
+    home: Bartunek, Radek
+    away: Hasmanda, Rostislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 73085730
+  teams:
+    home: Dedek, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 73085734
+  teams:
+    home: Wagner, Mark Robin
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
