@@ -1,4 +1,85 @@
-soccer: []
+soccer:
+- id: 72529072
+  teams:
+    home: CA Belgrano de Cordoba
+    away: CA Rosario Central
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 72529070
+  teams:
+    home: CA Sarmiento Junin
+    away: Argentinos Juniors
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 66886856
+  teams:
+    home: Chapecoense
+    away: Flamengo RJ
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: 00:30
+- id: 66886842
+  teams:
+    home: Sao Paulo FC
+    away: CA Paranaense
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:30
+- id: 66886850
+  teams:
+    home: SC Internacional
+    away: Cruzeiro EC
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:30
+- id: 72339642
+  teams:
+    home: Botafogo RJ
+    away: EC Vitoria
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
+- id: 66886844
+  teams:
+    home: SC Corinthians
+    away: Clube do Remo PA
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '22:30'
+- id: 68823100
+  teams:
+    home: Nautico PE
+    away: Londrina EC
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:30
+- id: 68823090
+  teams:
+    home: Athletic Club Sjdr
+    away: Sao Bernardo FC
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
 basketball:
 - id: 68096282
   teams:
@@ -177,9 +258,9 @@ tennis:
     home: Michelsen, Alex
     away: Harris, Lloyd
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '20:55'
 - id: 72827688
   teams:
@@ -215,7 +296,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '21:05'
 ice_hockey: []
 table_tennis:
