@@ -334,7 +334,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73068900
   teams:
@@ -343,7 +343,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73068834
   teams:
@@ -352,7 +352,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73067832
   teams:
@@ -361,7 +361,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73069000
   teams:
@@ -370,50 +370,185 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73067820
   teams:
     home: Cermak, Vladimir
     away: Tuma, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 07:30
 - id: 73068890
   teams:
     home: Klement, Milan
     away: Kolisnyk, Oleksandr
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 07:30
 - id: 73069030
   teams:
     home: Kolar, Milan
     away: Darin, Kyryl
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 07:30
 - id: 73069020
   teams:
     home: Navedla, Matyas
     away: Revay, Radomir
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:30
 - id: 73068952
   teams:
     home: Varecha, Pavel
     away: Mikula, David
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
+- id: 73068962
+  teams:
+    home: Darin, Kyryl
+    away: Barton, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 73068866
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Vejvoda, Viktor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73068974
+  teams:
+    home: Mikula, David
+    away: Tobola, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 73068898
+  teams:
+    home: Revay, Radomir
+    away: Paril, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73067828
+  teams:
+    home: Tuma, Daniel
+    away: Volf, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73068814
+  teams:
+    home: Havlicek, Vladimir
+    away: Kolar, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 73068816
+  teams:
+    home: Kowolowski, Miroslav
+    away: Varecha, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 73068970
+  teams:
+    home: Louda, Jiri
+    away: Klement, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 73067842
+  teams:
+    home: Schopf, Karel
+    away: Cermak, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 73068944
+  teams:
+    home: Wawrosz, Pavel
+    away: Navedla, Matyas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 73068850
+  teams:
+    home: Langer, Milan
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:00'
+- id: 73068920
+  teams:
+    home: Malek, Lukas
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:00'
+- id: 73068956
+  teams:
+    home: Sedlacek, Michael
+    away: Szotkowski, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 73068924
+  teams:
+    home: Steffan, Jan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 73067840
+  teams:
+    home: Volf, Matej
+    away: Just, Frantisek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
