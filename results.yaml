@@ -42,10 +42,118 @@ tennis:
     home: Rublev, Andrey
     away: Skatov, Timofey
   score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 72827260
+  teams:
+    home: Martinez, Pedro
+    away: Darderi, Luciano
+  score:
     home: 0
     away: 0
   status: live
+  time: '17:15'
+- id: 72827302
+  teams:
+    home: Droguet T / Jacquet K
+    away: Gonzalez S / Reyes-Varela M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 72827298
+  teams:
+    home: Hidalgo D / Tabilo A
+    away: Arends S / Pel D
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:00'
+- id: 72827296
+  teams:
+    home: Domingues J / Torres T
+    away: Luz O / Matos R
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:35'
+- id: 72827322
+  teams:
+    home: Navone, Mariano
+    away: Halys, Quentin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:05
+- id: 72827324
+  teams:
+    home: Hanfmann, Yannick
+    away: Baez, Sebastian
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:45'
+- id: 72827326
+  teams:
+    home: Etcheverry, Tomas Martin
+    away: Buse, Ignacio
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:20'
+- id: 72827328
+  teams:
+    home: Bublik, Alexander
+    away: Molcan, Alex
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:25'
+- id: 72827414
+  teams:
+    home: Herbert P-H / Krawietz K
+    away: Neumayer L / Schwaerzler J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:35
+- id: 72827408
+  teams:
+    home: Rojer J-J / Winegar T
+    away: Miedler L / Polmans M
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
   time: '16:00'
+- id: 72827682
+  teams:
+    home: Fearnley, Jacob
+    away: Boyer, Tristan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 72827686
+  teams:
+    home: Pascual Ferra, Roger
+    away: Martin, Andres
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:45'
 ice_hockey: []
 table_tennis:
 - id: 73038800
@@ -1054,7 +1162,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73068758
   teams:
@@ -1072,7 +1180,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:40'
 - id: 73068762
   teams:
@@ -1081,7 +1189,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73068868
   teams:
@@ -1090,7 +1198,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73068844
   teams:
@@ -1099,23 +1207,68 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73068864
   teams:
     home: Biolek, Martin
     away: Szotkowski, Jan
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '16:10'
 - id: 73068826
   teams:
     home: Chalupa, Michal
     away: Pagac, Zbynek
   score:
-    home: 0
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '16:15'
+- id: 73068748
+  teams:
+    home: Kanera, Jan
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 73068996
+  teams:
+    home: Regner, Milan
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 73068880
+  teams:
+    home: Tacinec, Martin
+    away: Drabek, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 73068870
+  teams:
+    home: Dzida, Jan
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:35'
+- id: 73069738
+  teams:
+    home: Nadymacek, Frantisek
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:35'
