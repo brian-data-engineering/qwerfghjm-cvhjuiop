@@ -8,6 +8,15 @@ soccer:
     away: 1
   status: result
   time: 00:45
+- id: 72529076
+  teams:
+    home: Gimnasia y Esgrima Mendoza
+    away: CA Central Cordoba SE
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '19:45'
 basketball:
 - id: 71686252
   teams:
@@ -50,9 +59,9 @@ basketball:
     home: Czech Republic
     away: Ukraine
   score:
-    home: 70
-    away: 37
-  status: live
+    home: 81
+    away: 51
+  status: result
   time: '18:30'
 - id: 71686324
   teams:
@@ -95,9 +104,9 @@ basketball:
     home: Georgia
     away: FYR Macedonia
   score:
-    home: 79
-    away: 59
-  status: live
+    home: 83
+    away: 66
+  status: result
   time: '18:30'
 - id: 72154502
   teams:
@@ -187,8 +196,8 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:35'
 - id: 72827300
   teams:
@@ -260,8 +269,17 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '17:55'
+- id: 72827696
+  teams:
+    home: Suresh, Dhakshineswar
+    away: Martin, Andres
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:35'
 ice_hockey:
 - id: 73021176
   teams:
@@ -1675,7 +1693,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73103498
   teams:
@@ -1684,7 +1702,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73103180
   teams:
@@ -1693,7 +1711,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73103176
   teams:
@@ -1702,7 +1720,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73103244
   teams:
@@ -1711,5 +1729,50 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
+- id: 73103218
+  teams:
+    home: Hofman, Denis
+    away: Tazler, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 73103206
+  teams:
+    home: Kolar, Milan
+    away: Pavelka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:30'
+- id: 73103118
+  teams:
+    home: Kolenic, Tibor
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 73103510
+  teams:
+    home: Pagac, Zbynek
+    away: Kern, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 73103108
+  teams:
+    home: Taichman, Ivo
+    away: Bosak, Vitezslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
