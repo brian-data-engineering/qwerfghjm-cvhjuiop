@@ -15,8 +15,161 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '19:45'
+- id: 72529078
+  teams:
+    home: Racing Club Avellaneda
+    away: Gimnasia Y Esgrima La Plata
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:00'
+- id: 72529080
+  teams:
+    home: Velez Sarsfield
+    away: Instituto AC Cordoba
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:00'
+- id: 72301196
+  teams:
+    home: FC Dornbirn
+    away: SV Ried
+  score:
+    home: 1
+    away: 5
+  status: result
+  time: '16:30'
+- id: 72301140
+  teams:
+    home: SC Wieselburg
+    away: WSG Tirol
+  score:
+    home: 0
+    away: 6
+  status: result
+  time: '16:30'
+- id: 72301146
+  teams:
+    home: Atus Velden
+    away: SK Austria Klagenfurt
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:00'
+- id: 72301200
+  teams:
+    home: Deutschlandsberger SC
+    away: SKU Amstetten
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '17:00'
+- id: 72301184
+  teams:
+    home: FC Lauterach
+    away: Wolfsberger AC
+  score:
+    home: 1
+    away: 5
+  status: result
+  time: '17:00'
+- id: 72301186
+  teams:
+    home: SV Lafnitz
+    away: Scheiblingkirchen
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72301158
+  teams:
+    home: SV Leobendorf
+    away: SCR Altach
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72301170
+  teams:
+    home: DSV Leoben
+    away: ASK Voitsberg
+  score:
+    home: 0
+    away: 6
+  status: result
+  time: '17:30'
+- id: 72301194
+  teams:
+    home: FCM Traiskirchen
+    away: Bleiburg
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '17:30'
+- id: 72301164
+  teams:
+    home: SV Horn
+    away: FAC Wien
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '17:30'
+- id: 72301166
+  teams:
+    home: SV Tillmitsch
+    away: SKN St Polten
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:30'
+- id: 72301192
+  teams:
+    home: Union Gurten
+    away: Blau-Weiss Linz
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 72301152
+  teams:
+    home: Seekirchen
+    away: SK Sturm Graz
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 68823086
+  teams:
+    home: Botafogo SP
+    away: EC Juventude
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: 00:30
+- id: 71998088
+  teams:
+    home: FC Arda Kardzhali
+    away: PFC Slavia Sofia
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '18:15'
 basketball:
 - id: 71686252
   teams:
@@ -197,7 +350,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '18:35'
 - id: 72827300
   teams:
@@ -276,10 +429,172 @@ tennis:
     home: Suresh, Dhakshineswar
     away: Martin, Andres
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '20:35'
+- id: 72827700
+  teams:
+    home: Michelsen, Alex
+    away: Lajal, Mark
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:05'
+- id: 72827680
+  teams:
+    home: Isaro P / Kaliyanda Poonacha N
+    away: Reynolds F / Watt J
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '17:00'
+- id: 72827684
+  teams:
+    home: Hilderbrand T / Tracy J
+    away: Maginley J / Poling K
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '19:35'
+- id: 72830210
+  teams:
+    home: Pavlovic, Luka
+    away: Alkaya, Mert
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
+- id: 72830208
+  teams:
+    home: Inchauspe, Paul
+    away: Smith, Keegan
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72830228
+  teams:
+    home: Martineau, Matteo
+    away: Erel, Yanki
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:00'
+- id: 72830212
+  teams:
+    home: Moro Canas, Alejandro
+    away: Crawford, Oliver
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:20'
+- id: 72830236
+  teams:
+    home: Sanchez Quilez A / Winter Lopez B
+    away: Pujol Navarro B / Vega Hernandez D
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '13:00'
+- id: 72830238
+  teams:
+    home: Azkara A / Erel Y
+    away: Kalyanpur A / Nedunchezhiyan J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:40'
+- id: 72830026
+  teams:
+    home: Marcondes, Igor
+    away: Dedura-Palomero, Diego
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:00'
+- id: 72830024
+  teams:
+    home: Onclin, Gauthier
+    away: Gentzsch, Tom
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
+- id: 72830022
+  teams:
+    home: Kasnikowski, Maks
+    away: Barton, Hynek
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:30'
+- id: 72830036
+  teams:
+    home: Squire, Henri
+    away: Virtanen, Otto
+  score:
+    home: null
+    away: null
+  status: result
+  time: '15:25'
+- id: 72830062
+  teams:
+    home: Opitz J / Wessels L
+    away: Ponchet M / Poulsen O B
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:25'
+- id: 72830064
+  teams:
+    home: Niklas-Salminen P / Vrbensky M
+    away: Jans J / Visker N
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:40'
+- id: 72829870
+  teams:
+    home: Noguchi, Rio
+    away: Broom, Charles
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:40'
+- id: 72829868
+  teams:
+    home: Hsu, Yu Hsiou
+    away: Samuel, Toby
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '19:10'
+- id: 72829858
+  teams:
+    home: Mochizuki, Shintaro
+    away: Monday, Johannus
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:00'
 ice_hockey:
 - id: 73021176
   teams:
@@ -1776,3 +2091,30 @@ table_tennis:
     away: 3
   status: result
   time: '20:30'
+- id: 73103496
+  teams:
+    home: Bartunek, Radek
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
+- id: 73103572
+  teams:
+    home: Stuchlik, Pavel
+    away: Kulhanek, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:00'
+- id: 73103540
+  teams:
+    home: Tuma, Daniel
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '22:00'
