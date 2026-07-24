@@ -23,9 +23,9 @@ basketball:
     home: Norway
     away: Montenegro
   score:
-    home: 24
-    away: 38
-  status: live
+    home: 52
+    away: 74
+  status: result
   time: '11:00'
 tennis:
 - id: 72827272
@@ -34,18 +34,27 @@ tennis:
     away: Gaston, Hugo
   score:
     home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72827274
+  teams:
+    home: Rublev, Andrey
+    away: Van Assche, Luca
+  score:
+    home: 0
     away: 0
   status: live
-  time: '11:00'
+  time: '13:00'
 ice_hockey:
 - id: 73021176
   teams:
     home: Neman Grodno
     away: Lida
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '11:00'
 table_tennis:
 - id: 73068930
@@ -721,7 +730,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73103570
   teams:
@@ -730,7 +739,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73103222
   teams:
@@ -748,7 +757,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73103228
   teams:
@@ -764,9 +773,9 @@ table_tennis:
     home: Heczko, David
     away: Skacelik, Richard
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '11:30'
 - id: 73103246
   teams:
@@ -774,33 +783,213 @@ table_tennis:
     away: Cernik, Jan
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:30'
 - id: 73103234
   teams:
     home: Mecl Jr, Jan
     away: Svechota, Vojtech
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '11:30'
 - id: 73103120
   teams:
     home: Pilch, Jakub
     away: Szotek, David
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '11:30'
 - id: 73103178
   teams:
     home: Plachy, Jiri
     away: Jungman, Filip
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '11:30'
+- id: 73103170
+  teams:
+    home: Cernik, Jan
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 73103236
+  teams:
+    home: Jungman, Filip
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73103552
+  teams:
+    home: Skacelik, Richard
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 73103268
+  teams:
+    home: Svechota, Vojtech
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73103186
+  teams:
+    home: Szotek, David
+    away: Cabis, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73103174
+  teams:
+    home: Ruzicka, Jiri
+    away: Mecl Jr, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 73103500
+  teams:
+    home: Simecek, Jakub
+    away: Heczko, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73103232
+  teams:
+    home: Urbaniec, Radim
+    away: Pilch, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73103276
+  teams:
+    home: Vales, Jakub
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73103184
+  teams:
+    home: Vedmoch, Michal
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 73136228
+  teams:
+    home: Mares, Erik
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:00'
+- id: 73136234
+  teams:
+    home: Skacelik, Richard
+    away: Byrtus, Samuel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '13:00'
+- id: 73136222
+  teams:
+    home: Szotek, David
+    away: Urbaniec, Radim
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:00'
+- id: 73136278
+  teams:
+    home: Plachy, Jiri
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:01'
+- id: 73136274
+  teams:
+    home: Huk, Martin
+    away: Svechota, Vojtech
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '13:02'
+- id: 73136232
+  teams:
+    home: Cernik, Jan
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '13:30'
+- id: 73136236
+  teams:
+    home: Heczko, David
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '13:30'
+- id: 73136276
+  teams:
+    home: Mecl Jr, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73136280
+  teams:
+    home: Parhomenko, Dmitro
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '13:30'
+- id: 73136224
+  teams:
+    home: Pilch, Jakub
+    away: Cabis, Michal
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '13:30'
