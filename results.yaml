@@ -34,8 +34,17 @@ basketball:
   score:
     home: 60
     away: 70
-  status: recentlyended
+  status: result
   time: '13:30'
+- id: 71686294
+  teams:
+    home: Portugal
+    away: Iceland
+  score:
+    home: 39
+    away: 43
+  status: live
+  time: '16:00'
 tennis:
 - id: 72827272
   teams:
@@ -53,8 +62,17 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '13:00'
+- id: 72827270
+  teams:
+    home: Burruchaga, Roman Andres
+    away: Blockx, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
 ice_hockey:
 - id: 73021176
   teams:
@@ -1090,7 +1108,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73103134
   teams:
@@ -1099,7 +1117,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73103482
   teams:
@@ -1108,16 +1126,16 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73103144
   teams:
     home: Jaksa, Martin
     away: Stach, Jiri
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 73103270
   teams:
@@ -1126,7 +1144,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73103128
   teams:
@@ -1135,5 +1153,140 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 73103298
+  teams:
+    home: Chalupnicek, Milan
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73103560
+  teams:
+    home: Holub, Marek
+    away: Kern, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73103148
+  teams:
+    home: Kowolowski, Miroslav
+    away: Bosak, Vitezslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 73103194
+  teams:
+    home: Pusch, Frantisek
+    away: Tazler, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73103152
+  teams:
+    home: Sulava, Lubor
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 73103262
+  teams:
+    home: Bosak, Vitezslav
+    away: Stach, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 73103114
+  teams:
+    home: Grohsgott, Jiri
+    away: Barta, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 73103516
+  teams:
+    home: Kern, Lukas
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 73103266
+  teams:
+    home: Pleskot, Jan
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 73103280
+  teams:
+    home: Tazler, Jakub
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 73103196
+  teams:
+    home: Brazda, Adam
+    away: Pusch, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 73103490
+  teams:
+    home: Hudeczek, Roman
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:30'
+- id: 73103136
+  teams:
+    home: Jaksa, Martin
+    away: Kowolowski, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 73103256
+  teams:
+    home: Regner, Milan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:30'
+- id: 73103272
+  teams:
+    home: Syroha, Michal
+    away: Chalupnicek, Milan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:30'
