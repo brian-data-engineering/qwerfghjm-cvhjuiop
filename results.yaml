@@ -27,6 +27,15 @@ basketball:
     away: 74
   status: result
   time: '11:00'
+- id: 71686292
+  teams:
+    home: Azerbaijan
+    away: Poland
+  score:
+    home: 60
+    away: 70
+  status: recentlyended
+  time: '13:30'
 tennis:
 - id: 72827272
   teams:
@@ -42,9 +51,9 @@ tennis:
     home: Rublev, Andrey
     away: Van Assche, Luca
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '13:00'
 ice_hockey:
 - id: 73021176
@@ -910,7 +919,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:00'
 - id: 73136234
   teams:
@@ -919,7 +928,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:00'
 - id: 73136222
   teams:
@@ -928,7 +937,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:00'
 - id: 73136278
   teams:
@@ -946,7 +955,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:02'
 - id: 73136232
   teams:
@@ -955,7 +964,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73136236
   teams:
@@ -964,7 +973,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73136276
   teams:
@@ -973,7 +982,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73136280
   teams:
@@ -982,7 +991,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73136224
   teams:
@@ -991,5 +1000,140 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
+- id: 73103122
+  teams:
+    home: Bosak, Vitezslav
+    away: Jaksa, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 73103208
+  teams:
+    home: Grohsgott, Jiri
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 73103576
+  teams:
+    home: Kern, Lukas
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 73103156
+  teams:
+    home: Pleskot, Jan
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 73103106
+  teams:
+    home: Tazler, Jakub
+    away: Brazda, Adam
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 73103216
+  teams:
+    home: Barta, Miroslav
+    away: Chalupnicek, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 73103116
+  teams:
+    home: Hofman, Denis
+    away: Pusch, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 73103188
+  teams:
+    home: Kosar, Vaclav
+    away: Sulava, Lubor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 73103558
+  teams:
+    home: Pagac, Zbynek
+    away: Holub, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 73103230
+  teams:
+    home: Stach, Jiri
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 73103134
+  teams:
+    home: Brazda, Adam
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 73103482
+  teams:
+    home: Hudeczek, Roman
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 73103144
+  teams:
+    home: Jaksa, Martin
+    away: Stach, Jiri
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73103270
+  teams:
+    home: Regner, Milan
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 73103128
+  teams:
+    home: Syroha, Michal
+    away: Barta, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:00'
