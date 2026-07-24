@@ -41,10 +41,118 @@ basketball:
     home: Portugal
     away: Iceland
   score:
-    home: 39
-    away: 43
-  status: live
+    home: 68
+    away: 87
+  status: result
   time: '16:00'
+- id: 71686296
+  teams:
+    home: Czech Republic
+    away: Ukraine
+  score:
+    home: 26
+    away: 10
+  status: live
+  time: '18:30'
+- id: 71686324
+  teams:
+    home: Cyprus
+    away: Belgium
+  score:
+    home: 74
+    away: 122
+  status: result
+  time: 08:30
+- id: 71686326
+  teams:
+    home: Netherlands
+    away: Great Britain
+  score:
+    home: 69
+    away: 43
+  status: result
+  time: '11:00'
+- id: 71686328
+  teams:
+    home: Finland
+    away: Ireland
+  score:
+    home: 76
+    away: 78
+  status: result
+  time: '13:30'
+- id: 71686360
+  teams:
+    home: Bosnia And Herzegovina
+    away: Hungary
+  score:
+    home: 82
+    away: 93
+  status: result
+  time: '16:00'
+- id: 71686362
+  teams:
+    home: Georgia
+    away: FYR Macedonia
+  score:
+    home: 17
+    away: 16
+  status: live
+  time: '18:30'
+- id: 72154502
+  teams:
+    home: Abejas
+    away: Correcaminos
+  score:
+    home: 95
+    away: 88
+  status: result
+  time: 02:00
+- id: 72154500
+  teams:
+    home: Lobos Plateados de la Buap
+    away: El Calor de Cancun
+  score:
+    home: 96
+    away: 93
+  status: result
+  time: 02:00
+- id: 72154504
+  teams:
+    home: Santos de San Luis
+    away: Mineros de Zacatecas
+  score:
+    home: 87
+    away: 86
+  status: result
+  time: 02:00
+- id: 72154506
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Panteras
+  score:
+    home: 80
+    away: 91
+  status: result
+  time: 02:15
+- id: 72449444
+  teams:
+    home: Magnolia Hotshots
+    away: Meralco
+  score:
+    home: 112
+    away: 98
+  status: result
+  time: 09:15
+- id: 72449446
+  teams:
+    home: Blackwater Elite
+    away: Barangay Ginebra
+  score:
+    home: 85
+    away: 115
+  status: result
+  time: '11:30'
 tennis:
 - id: 72827272
   teams:
@@ -69,10 +177,91 @@ tennis:
     home: Burruchaga, Roman Andres
     away: Blockx, Alexander
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '16:00'
+- id: 72827268
+  teams:
+    home: Faria, Jaime
+    away: Darderi, Luciano
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:35'
+- id: 72827300
+  teams:
+    home: Kirkov V / Stevens B
+    away: Borges N / Cabral F
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72827292
+  teams:
+    home: Arends S / Pel D
+    away: Luz O / Matos R
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:20'
+- id: 72827332
+  teams:
+    home: Hanfmann, Yannick
+    away: Halys, Quentin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:30'
+- id: 72827334
+  teams:
+    home: Bublik, Alexander
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:30'
+- id: 72827406
+  teams:
+    home: Herbert P-H / Krawietz K
+    away: Schnaitter J / Wallner M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 08:40
+- id: 72827404
+  teams:
+    home: Balaji N S / Goransson A
+    away: Miedler L / Polmans M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:10'
+- id: 72827666
+  teams:
+    home: Zheng, Michael
+    away: Walton, Adam
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:00'
+- id: 72827690
+  teams:
+    home: Fearnley, Jacob
+    away: Wolf, Jeffrey John
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:55'
 ice_hockey:
 - id: 73021176
   teams:
@@ -1252,7 +1441,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73103490
   teams:
@@ -1261,7 +1450,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73103136
   teams:
@@ -1270,7 +1459,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73103256
   teams:
@@ -1279,7 +1468,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73103272
   teams:
@@ -1288,5 +1477,104 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 73141554
+  teams:
+    home: Chalupnicek, Milan
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 73103140
+  teams:
+    home: Blejchar, Marek
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73103578
+  teams:
+    home: Holub, Marek
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73103210
+  teams:
+    home: Pusch, Frantisek
+    away: Hofman, Denis
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73103226
+  teams:
+    home: Stolfa, Jakub
+    away: Kolar, Milan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 73103142
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 73103138
+  teams:
+    home: Brazda, Adam
+    away: Tazler, Jakub
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 73103166
+  teams:
+    home: Dedek, Jiri
+    away: Pavelka, Radim
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:30'
+- id: 73103294
+  teams:
+    home: Holovatiuk, Yurii
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:30'
+- id: 73103550
+  teams:
+    home: Hudeczek, Roman
+    away: Kern, Lukas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:30'
+- id: 73103292
+  teams:
+    home: Zurek, Filip
+    away: Bosak, Vitezslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:30'
