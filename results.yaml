@@ -50,8 +50,8 @@ basketball:
     home: Czech Republic
     away: Ukraine
   score:
-    home: 26
-    away: 10
+    home: 70
+    away: 37
   status: live
   time: '18:30'
 - id: 71686324
@@ -95,8 +95,8 @@ basketball:
     home: Georgia
     away: FYR Macedonia
   score:
-    home: 17
-    away: 16
+    home: 79
+    away: 59
   status: live
   time: '18:30'
 - id: 72154502
@@ -186,7 +186,7 @@ tennis:
     home: Faria, Jaime
     away: Darderi, Luciano
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:35'
@@ -258,9 +258,9 @@ tennis:
     home: Fearnley, Jacob
     away: Wolf, Jeffrey John
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: recentlyended
   time: '17:55'
 ice_hockey:
 - id: 73021176
@@ -1522,7 +1522,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73103142
   teams:
@@ -1540,7 +1540,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73103166
   teams:
@@ -1548,8 +1548,8 @@ table_tennis:
     away: Pavelka, Radim
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:30'
 - id: 73103294
   teams:
@@ -1558,7 +1558,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73103550
   teams:
@@ -1567,7 +1567,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73103292
   teams:
@@ -1576,5 +1576,140 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
+- id: 73103146
+  teams:
+    home: Hofman, Denis
+    away: Brazda, Adam
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
+- id: 73103264
+  teams:
+    home: Kolar, Milan
+    away: Dedek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 73103200
+  teams:
+    home: Kolenic, Tibor
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 73103492
+  teams:
+    home: Pagac, Zbynek
+    away: Hudeczek, Roman
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 73103220
+  teams:
+    home: Taichman, Ivo
+    away: Zurek, Filip
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 73103224
+  teams:
+    home: Bosak, Vitezslav
+    away: Blejchar, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 73103504
+  teams:
+    home: Kern, Lukas
+    away: Holub, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 73103252
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 73103248
+  teams:
+    home: Pavelka, Radim
+    away: Stolfa, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 73103126
+  teams:
+    home: Tazler, Jakub
+    away: Pusch, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 73103260
+  teams:
+    home: Blejchar, Marek
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:00'
+- id: 73103498
+  teams:
+    home: Holub, Marek
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 73103180
+  teams:
+    home: Pusch, Frantisek
+    away: Brazda, Adam
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:00'
+- id: 73103176
+  teams:
+    home: Stolfa, Jakub
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 73103244
+  teams:
+    home: Trinta, Mihail
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:00'
