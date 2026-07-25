@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '20:00'
 basketball:
 - id: 71686018
@@ -216,6 +216,96 @@ basketball:
     away: 35
   status: result
   time: '19:00'
+- id: 73025706
+  teams:
+    home: El Salvador
+    away: Mexico
+  score:
+    home: 31
+    away: 23
+  status: live
+  time: '22:00'
+- id: 72154514
+  teams:
+    home: Abejas
+    away: Correcaminos
+  score:
+    home: 101
+    away: 89
+  status: result
+  time: 02:00
+- id: 72154508
+  teams:
+    home: Dorados de Chihuahua
+    away: Freseros de Irapuato
+  score:
+    home: 84
+    away: 80
+  status: result
+  time: 02:00
+- id: 72154510
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Astros Jalisco
+  score:
+    home: 86
+    away: 71
+  status: result
+  time: 02:00
+- id: 72154512
+  teams:
+    home: Lobos Plateados de la Buap
+    away: El Calor de Cancun
+  score:
+    home: 80
+    away: 63
+  status: result
+  time: 02:00
+- id: 72154516
+  teams:
+    home: Santos de San Luis
+    away: Mineros de Zacatecas
+  score:
+    home: 95
+    away: 80
+  status: result
+  time: 02:00
+- id: 72154518
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Panteras
+  score:
+    home: 92
+    away: 88
+  status: result
+  time: 02:15
+- id: 72154520
+  teams:
+    home: Fuerza Regia
+    away: Soles
+  score:
+    home: 25
+    away: 29
+  status: live
+  time: '22:15'
+- id: 72449520
+  teams:
+    home: Macau Giant Pandas
+    away: Titan Ultra Giant Risers
+  score:
+    home: 132
+    away: 126
+  status: result
+  time: 09:15
+- id: 72449522
+  teams:
+    home: Kia Picanto
+    away: Talk N Text
+  score:
+    home: 111
+    away: 106
+  status: result
+  time: '11:30'
 tennis:
 - id: 72827280
   teams:
@@ -233,7 +323,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 72827294
   teams:
@@ -267,19 +357,19 @@ tennis:
     home: Kozlov S / Lee J
     away: Behar A / Chandrasekar A
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '20:50'
 - id: 73146834
   teams:
     home: Romboli F / Smith J-P
     away: Cornea V / Cukierman D
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
-  time: '21:00'
+  time: '21:50'
 - id: 73146814
   teams:
     home: Damm Jr, Martin
@@ -377,7 +467,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 73146806
   teams:
@@ -404,7 +494,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 72827674
   teams:
