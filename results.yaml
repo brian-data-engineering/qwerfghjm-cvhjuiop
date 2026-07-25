@@ -24,8 +24,17 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '17:45'
+- id: 72529088
+  teams:
+    home: Newells Old Boys
+    away: CA Talleres de Cordoba
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 71686018
   teams:
@@ -41,9 +50,9 @@ basketball:
     home: Austria
     away: France
   score:
-    home: 26
-    away: 48
-  status: live
+    home: 50
+    away: 76
+  status: result
   time: '18:30'
 - id: 71686034
   teams:
@@ -95,9 +104,9 @@ basketball:
     home: Estonia
     away: Spain
   score:
-    home: 34
-    away: 40
-  status: live
+    home: 61
+    away: 87
+  status: recentlyended
   time: '18:30'
 - id: 71686256
   teams:
@@ -140,9 +149,9 @@ basketball:
     home: Poland
     away: Portugal
   score:
-    home: 39
-    away: 32
-  status: live
+    home: 78
+    away: 58
+  status: result
   time: '18:30'
 - id: 71686334
   teams:
@@ -167,9 +176,9 @@ basketball:
     home: Belgium
     away: Netherlands
   score:
-    home: 39
-    away: 52
-  status: live
+    home: 77
+    away: 86
+  status: recentlyended
   time: '18:30'
 - id: 71686364
   teams:
@@ -203,9 +212,9 @@ basketball:
     home: Puerto Rico
     away: Nicaragua
   score:
-    home: 25
-    away: 17
-  status: live
+    home: 63
+    away: 35
+  status: recentlyended
   time: '19:00'
 tennis:
 - id: 72827280
@@ -222,8 +231,8 @@ tennis:
     home: Blockx, Alexander
     away: Darderi, Luciano
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '18:45'
 - id: 72827294
