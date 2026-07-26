@@ -8,6 +8,15 @@ soccer:
     away: 0
   status: result
   time: 00:30
+- id: 72529094
+  teams:
+    home: Atletico Tucuman
+    away: Independiente Rivadavia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 basketball:
 - id: 71686022
   teams:
@@ -23,9 +32,9 @@ basketball:
     home: France
     away: Israel
   score:
-    home: 59
-    away: 69
-  status: live
+    home: 77
+    away: 91
+  status: result
   time: '16:00'
 - id: 71686038
   teams:
@@ -42,8 +51,8 @@ tennis:
     home: Van Assche, Luca
     away: Blockx, Alexander
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '16:30'
 - id: 72827290
@@ -1227,3 +1236,138 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73155308
+  teams:
+    home: Chalupa, Michal
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 73155190
+  teams:
+    home: Kolar, Milan
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73155378
+  teams:
+    home: Plachy, Jiri
+    away: Briza, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73155240
+  teams:
+    home: Vejvoda, Viktor
+    away: Bittner, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73155300
+  teams:
+    home: Zidek, Vaclav
+    away: Milota, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 73155348
+  teams:
+    home: Holub, Marek
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 73155198
+  teams:
+    home: Horak, David
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:30'
+- id: 73155228
+  teams:
+    home: Oborny, Dominik
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 73155182
+  teams:
+    home: Pacha, Robin
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 73155436
+  teams:
+    home: Pavelka, Radim
+    away: Stolfa, Jakub
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 73155230
+  teams:
+    home: Bittner, Martin
+    away: Pacha, Robin
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:00'
+- id: 73155470
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
+- id: 73155314
+  teams:
+    home: Hudeczek, Roman
+    away: Holub, Marek
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:00'
+- id: 73155338
+  teams:
+    home: Milota, Tomas
+    away: Oborny, Dominik
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:00'
+- id: 73155334
+  teams:
+    home: Parhomenko, Dmitro
+    away: Pavelka, Radim
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:00'
