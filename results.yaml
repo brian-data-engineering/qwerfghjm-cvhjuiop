@@ -17,6 +17,15 @@ soccer:
     away: 0
   status: result
   time: '18:00'
+- id: 72529096
+  teams:
+    home: Estudiantes de la Plata
+    away: CA Independiente Avellaneda
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:15'
 basketball:
 - id: 71686022
   teams:
@@ -50,9 +59,9 @@ basketball:
     home: Serbia
     away: Turkey
   score:
-    home: 30
-    away: 44
-  status: live
+    home: 53
+    away: 57
+  status: recentlyended
   time: '18:30'
 - id: 71686052
   teams:
@@ -68,9 +77,9 @@ basketball:
     home: Lithuania
     away: Bulgaria
   score:
-    home: 86
+    home: 90
     away: 69
-  status: live
+  status: result
   time: '18:30'
 - id: 71686068
   teams:
@@ -158,9 +167,9 @@ basketball:
     home: Cyprus
     away: Great Britain
   score:
-    home: 64
-    away: 66
-  status: live
+    home: 73
+    away: 78
+  status: result
   time: '18:30'
 - id: 71686368
   teams:
@@ -176,9 +185,9 @@ basketball:
     home: Bosnia And Herzegovina
     away: Sweden
   score:
-    home: 80
-    away: 64
-  status: live
+    home: 89
+    away: 69
+  status: result
   time: '18:30'
 - id: 73025708
   teams:
@@ -1567,7 +1576,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73155172
   teams:
@@ -1576,7 +1585,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73155328
   teams:
@@ -1585,7 +1594,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73155188
   teams:
@@ -1594,7 +1603,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73155468
   teams:
@@ -1603,5 +1612,32 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
+- id: 73155272
+  teams:
+    home: Bittner, Martin
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 73155166
+  teams:
+    home: Briza, Frantisek
+    away: Darin, Kyryl
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:30'
+- id: 73155186
+  teams:
+    home: Parhomenko, Dmitro
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
