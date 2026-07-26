@@ -649,7 +649,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73155414
   teams:
@@ -658,7 +658,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73155264
   teams:
@@ -667,7 +667,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73155202
   teams:
@@ -685,7 +685,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73155340
   teams:
@@ -694,16 +694,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73155400
   teams:
     home: Sobisek, Martin
     away: Wagner, Mark Robin
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '11:00'
 - id: 73155424
   teams:
@@ -712,7 +712,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73155208
   teams:
@@ -721,5 +721,140 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 73155464
+  teams:
+    home: Bayer, Ales
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73155388
+  teams:
+    home: Hofman, Denis
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 73155354
+  teams:
+    home: Kanak, Alois
+    away: Blaha, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73155306
+  teams:
+    home: Syroha, Michal
+    away: Trojan, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73155210
+  teams:
+    home: Zientek, Zbynek
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 73155426
+  teams:
+    home: Blaha, Michal
+    away: Adamczyk, Radek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73155350
+  teams:
+    home: Hrabec, Tomas
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:00'
+- id: 73155392
+  teams:
+    home: Trojan, Frantisek
+    away: Barta, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 73155282
+  teams:
+    home: Tuma, Daniel
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73155418
+  teams:
+    home: Wagner, Richard
+    away: Sebera, Petr
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 73155398
+  teams:
+    home: Havel, Ladislav
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:30'
+- id: 73155274
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:30'
+- id: 73155200
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Ales
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73155310
+  teams:
+    home: Toth, Josef
+    away: Kanak, Alois
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73155434
+  teams:
+    home: Zuzanek, Jiri
+    away: Hofman, Denis
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:30'
