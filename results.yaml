@@ -8,7 +8,16 @@ soccer:
     away: 0
   status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 71686022
+  teams:
+    home: Greece
+    away: Austria
+  score:
+    home: 46
+    away: 30
+  status: live
+  time: '13:30'
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -775,7 +784,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73155350
   teams:
@@ -784,7 +793,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73155392
   teams:
@@ -793,7 +802,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73155282
   teams:
@@ -802,7 +811,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73155418
   teams:
@@ -811,7 +820,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73155398
   teams:
@@ -819,42 +828,132 @@ table_tennis:
     away: Syroha, Michal
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 73155274
   teams:
     home: Priesol, Daniel
     away: Zientek, Zbynek
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '12:30'
 - id: 73155200
   teams:
     home: Sobisek, Martin
     away: Bayer, Ales
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '12:30'
 - id: 73155310
   teams:
     home: Toth, Josef
     away: Kanak, Alois
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '12:30'
 - id: 73155434
   teams:
     home: Zuzanek, Jiri
     away: Hofman, Denis
   score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73155342
+  teams:
+    home: Fisera, Milan
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73155266
+  teams:
+    home: Horak, David
+    away: Darin, Kyryl
+  score:
     home: 2
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73155396
+  teams:
+    home: Tyn, Daniel
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73155180
+  teams:
+    home: Vavrecka, Radomir
+    away: Volny, Marek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73155242
+  teams:
+    home: Vinter, Tomas
+    away: Bayer, Ales
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73155280
+  teams:
+    home: Levicky, Matej
+    away: Zientek, Zbynek
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73155290
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Kolenic, Tibor
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73155432
+  teams:
+    home: Oborny, Dominik
+    away: Heczko, Marcel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73155448
+  teams:
+    home: Plachy, Jiri
+    away: Briza, Frantisek
+  score:
+    home: 1
     away: 0
   status: live
-  time: '12:30'
+  time: '14:30'
+- id: 73155194
+  teams:
+    home: Wagner, Mark Robin
+    away: Sobisek, Martin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
