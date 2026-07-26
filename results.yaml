@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73155382
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73155252
   teams:
@@ -298,7 +298,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73155298
   teams:
@@ -307,7 +307,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73155390
   teams:
@@ -316,25 +316,25 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73155402
   teams:
     home: Blejchar, Marek
     away: Bajtek, Pavel
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 07:00
 - id: 73155212
   teams:
     home: Didi, Julius
     away: Tacinec, Martin
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:00
 - id: 73155256
   teams:
@@ -342,24 +342,159 @@ table_tennis:
     away: Wagner, Richard
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:00
 - id: 73155330
   teams:
     home: Skacelik, Richard
     away: Machander, Dalimil
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
 - id: 73155346
   teams:
     home: Syroha, Michal
     away: Barta, Miroslav
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:00
+- id: 73155174
+  teams:
+    home: Hofman, Denis
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 73155218
+  teams:
+    home: Hyrsl, Jiri
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 73155458
+  teams:
+    home: Pleskot, Jan
+    away: Regner, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 73155320
+  teams:
+    home: Rychlik, Evzen
+    away: Neuwirth SR, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 73155376
+  teams:
+    home: Taichman, Ivo
+    away: Langer, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 73155286
+  teams:
+    home: Grohsgott, Jiri
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 73155430
+  teams:
+    home: Langer, Daniel
+    away: Bajtek, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 73155276
+  teams:
+    home: Louda, Jiri
+    away: Wagner, Richard
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 73155236
+  teams:
+    home: Neuwirth SR, Jaroslav
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 73155380
+  teams:
+    home: Regner, Tomas
+    away: Tacinec, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73155178
+  teams:
+    home: Blejchar, Marek
+    away: Taichman, Ivo
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 73155316
+  teams:
+    home: Didi, Julius
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 73155296
+  teams:
+    home: Sebera, Petr
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 73155220
+  teams:
+    home: Skacelik, Richard
+    away: Rychlik, Evzen
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 73155270
+  teams:
+    home: Syroha, Michal
+    away: Hyrsl, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
