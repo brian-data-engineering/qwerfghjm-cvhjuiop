@@ -14,9 +14,9 @@ basketball:
     home: Greece
     away: Austria
   score:
-    home: 46
-    away: 30
-  status: live
+    home: 81
+    away: 53
+  status: result
   time: '13:30'
 tennis: []
 ice_hockey: []
@@ -874,7 +874,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73155266
   teams:
@@ -883,7 +883,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73155396
   teams:
@@ -892,7 +892,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73155180
   teams:
@@ -901,7 +901,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73155242
   teams:
@@ -910,7 +910,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73155280
   teams:
@@ -918,17 +918,17 @@ table_tennis:
     away: Zientek, Zbynek
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 73155290
   teams:
     home: Nohejl, Vaclav (1975)
     away: Kolenic, Tibor
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '14:30'
 - id: 73155432
   teams:
@@ -936,24 +936,159 @@ table_tennis:
     away: Heczko, Marcel
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 73155448
   teams:
     home: Plachy, Jiri
     away: Briza, Frantisek
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '14:30'
 - id: 73155194
   teams:
     home: Wagner, Mark Robin
     away: Sobisek, Martin
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '14:30'
+- id: 73155364
+  teams:
+    home: Bayer, Ales
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 73155312
+  teams:
+    home: Darin, Kyryl
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 73155416
+  teams:
+    home: Hasmanda, Rostislav
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 73155248
+  teams:
+    home: Priesol, Daniel
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73155244
+  teams:
+    home: Volny, Marek
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 73155294
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73155192
+  teams:
+    home: Heczko, Marcel
+    away: Vavrecka, Radomir
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73155422
+  teams:
+    home: Kolenic, Tibor
+    away: Fisera, Milan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73155302
+  teams:
+    home: Sobisek, Martin
+    away: Vinter, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73155420
+  teams:
+    home: Zientek, Zbynek
+    away: Tyn, Daniel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73155444
+  teams:
+    home: Fisera, Milan
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73155214
+  teams:
+    home: Horak, David
+    away: Plachy, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73155238
+  teams:
+    home: Tyn, Daniel
+    away: Levicky, Matej
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73155162
+  teams:
+    home: Vavrecka, Radomir
+    away: Oborny, Dominik
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73155254
+  teams:
+    home: Vinter, Tomas
+    away: Wagner, Mark Robin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
