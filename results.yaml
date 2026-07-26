@@ -18,7 +18,97 @@ basketball:
     away: 53
   status: result
   time: '13:30'
-tennis: []
+- id: 71686024
+  teams:
+    home: France
+    away: Israel
+  score:
+    home: 59
+    away: 69
+  status: live
+  time: '16:00'
+- id: 71686038
+  teams:
+    home: Denmark
+    away: Slovakia
+  score:
+    home: 82
+    away: 87
+  status: result
+  time: '11:00'
+tennis:
+- id: 72827276
+  teams:
+    home: Van Assche, Luca
+    away: Blockx, Alexander
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
+- id: 72827290
+  teams:
+    home: Droguet T / Jacquet K
+    away: Luz O / Matos R
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 73149134
+  teams:
+    home: Alvarez Valdes, Luis Carlos
+    away: Winter, Edward
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 01:00
+- id: 73149138
+  teams:
+    home: Magadan, Alan
+    away: Johns, Garrett
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 01:00
+- id: 73149130
+  teams:
+    home: Tobon, Miguel
+    away: Tomic, Bernard
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 01:00
+- id: 73149140
+  teams:
+    home: Mejia, Nicolas
+    away: Hernandez, Alex
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 02:45
+- id: 73149136
+  teams:
+    home: Kwon, Soonwoo
+    away: Rubio Fierros, Alan Fernando
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 03:45
+- id: 73149132
+  teams:
+    home: Boyer, Tristan
+    away: Claverie, Lorenzo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 03:55
 ice_hockey: []
 table_tennis:
 - id: 73133718
@@ -1009,7 +1099,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73155192
   teams:
@@ -1018,7 +1108,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73155422
   teams:
@@ -1027,7 +1117,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73155302
   teams:
@@ -1036,7 +1126,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73155420
   teams:
@@ -1045,16 +1135,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73155444
   teams:
     home: Fisera, Milan
     away: Nohejl, Vaclav (1975)
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '16:00'
 - id: 73155214
   teams:
@@ -1062,33 +1152,78 @@ table_tennis:
     away: Plachy, Jiri
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 73155238
   teams:
     home: Tyn, Daniel
     away: Levicky, Matej
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '16:00'
 - id: 73155162
   teams:
     home: Vavrecka, Radomir
     away: Oborny, Dominik
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '16:00'
 - id: 73155254
   teams:
     home: Vinter, Tomas
     away: Wagner, Mark Robin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '16:00'
+- id: 73155352
+  teams:
+    home: Bayer, Ales
+    away: Sobisek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73155410
+  teams:
+    home: Darin, Kyryl
+    away: Briza, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73155262
+  teams:
+    home: Hasmanda, Rostislav
+    away: Kolenic, Tibor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73155284
+  teams:
+    home: Priesol, Daniel
+    away: Zientek, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73155226
+  teams:
+    home: Volny, Marek
+    away: Heczko, Marcel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
