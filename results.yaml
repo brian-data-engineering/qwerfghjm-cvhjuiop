@@ -5,19 +5,28 @@ basketball:
     home: France
     away: Greece
   score:
-    home: 38
-    away: 40
-  status: live
+    home: 66
+    away: 65
+  status: result
   time: '11:00'
 - id: 71686026
   teams:
     home: Israel
     away: Austria
   score:
-    home: 39
-    away: 34
-  status: live
+    home: 84
+    away: 80
+  status: result
   time: '11:00'
+- id: 71686042
+  teams:
+    home: Turkey
+    away: Slovakia
+  score:
+    home: 51
+    away: 17
+  status: live
+  time: '13:30'
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -739,7 +748,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73174220
   teams:
@@ -748,7 +757,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73174278
   teams:
@@ -757,7 +766,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73174190
   teams:
@@ -766,7 +775,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73173872
   teams:
@@ -774,6 +783,276 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:30'
+- id: 73174198
+  teams:
+    home: Mecl Jr, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 73174312
+  teams:
+    home: Sedlacek, Michael
+    away: Szotkowski, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73173886
+  teams:
+    home: Tazler, Jakub
+    away: Bayer, Ales
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 73174236
+  teams:
+    home: Trinta, Mihail
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 73174276
+  teams:
+    home: Urbaniec, Radim
+    away: Szotek, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73174354
+  teams:
+    home: Chalupa, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73174210
+  teams:
+    home: Huk, Martin
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73174260
+  teams:
+    home: Kolenic, Tibor
+    away: Malek, Lukas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 73173874
+  teams:
+    home: Pozarsky, Jiri
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 73174352
+  teams:
+    home: Zika, Tadeas
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 73205488
+  teams:
+    home: Huk, Martin
+    away: Simecek, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73205480
+  teams:
+    home: Pozarsky, Jiri
+    away: Sobisek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73205528
+  teams:
+    home: Sedlacek, Michael
+    away: Revay, Radomir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73205502
+  teams:
+    home: Szotek, David
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73205506
+  teams:
+    home: Trinta, Mihail
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73205508
+  teams:
+    home: Kolenic, Tibor
+    away: Malek, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73205492
+  teams:
+    home: Mecl Jr, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 73205530
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73205482
+  teams:
+    home: Tazler, Jakub
+    away: Bayer, Ales
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73205504
+  teams:
+    home: Urbaniec, Radim
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 73174224
+  teams:
+    home: Barta, Miroslav
+    away: Havel, Ladislav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 73174204
+  teams:
+    home: Briza, Frantisek
+    away: Nohejl, Vaclav (1975)
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:00'
+- id: 73174374
+  teams:
+    home: Cabis, Michal
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 73174324
+  teams:
+    home: Pagac, Zbynek
+    away: Hudeczek, Roman
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73173850
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Ales
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73174306
+  teams:
+    home: Bartak, Karel
+    away: Syroha, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73174268
+  teams:
+    home: Chalupa, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73173890
+  teams:
+    home: Tazler, Jakub
+    away: Brazda, Adam
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:30'
+- id: 73174274
+  teams:
+    home: Trinta, Mihail
+    away: Regner, Tomas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73174396
+  teams:
+    home: Zika, Tadeas
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:30'
