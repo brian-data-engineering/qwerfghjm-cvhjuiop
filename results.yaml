@@ -16,7 +16,7 @@ basketball:
   score:
     home: 88
     away: 83
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71686314
   teams:
@@ -36,6 +36,87 @@ basketball:
     away: 70
   status: result
   time: '11:00'
+- id: 71686312
+  teams:
+    home: Iceland
+    away: Ukraine
+  score:
+    home: 70
+    away: 51
+  status: live
+  time: '18:30'
+- id: 71686342
+  teams:
+    home: Belgium
+    away: Finland
+  score:
+    home: 71
+    away: 55
+  status: result
+  time: '13:30'
+- id: 71686346
+  teams:
+    home: Netherlands
+    away: Cyprus
+  score:
+    home: 90
+    away: 57
+  status: result
+  time: '13:30'
+- id: 71686344
+  teams:
+    home: Great Britain
+    away: Ireland
+  score:
+    home: 70
+    away: 63
+  status: result
+  time: '16:00'
+- id: 71686374
+  teams:
+    home: Sweden
+    away: Hungary
+  score:
+    home: 55
+    away: 79
+  status: result
+  time: 08:30
+- id: 71686372
+  teams:
+    home: Georgia
+    away: Bosnia And Herzegovina
+  score:
+    home: 74
+    away: 58
+  status: live
+  time: '18:30'
+- id: 72154662
+  teams:
+    home: Astros Jalisco
+    away: Correcaminos
+  score:
+    home: 93
+    away: 86
+  status: result
+  time: 02:00
+- id: 72449526
+  teams:
+    home: Talk N Text
+    away: Converge Fiberxers
+  score:
+    home: 110
+    away: 107
+  status: result
+  time: '11:30'
+- id: 72449450
+  teams:
+    home: Phoenix Petroleum
+    away: Blackwater Elite
+  score:
+    home: 102
+    away: 93
+  status: result
+  time: 09:15
 tennis:
 - id: 73192140
   teams:
@@ -1360,7 +1441,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73242748
   teams:
@@ -1378,7 +1459,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73242754
   teams:
@@ -1396,16 +1477,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73199226
   teams:
     home: Briza, Frantisek
     away: Trinta, Mihail
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 73199256
   teams:
@@ -1413,8 +1494,8 @@ table_tennis:
     away: Walek, Adrian
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '18:00'
 - id: 73198974
   teams:
@@ -1423,23 +1504,167 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73198960
   teams:
     home: Kratochvil, Michal
     away: Szotek, David
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 73198934
   teams:
     home: Vondrak, Michal
     away: Vejvoda, Viktor
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '18:00'
+- id: 73199216
+  teams:
+    home: Fisera, Milan
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 73199102
+  teams:
+    home: Kolar, Vlastimil
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
+- id: 73199258
+  teams:
+    home: Skacelik, Richard
+    away: Zidek, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
+- id: 73199090
+  teams:
+    home: Tazler, Jakub
+    away: Tonar, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 73199014
+  teams:
+    home: Urbaniec, Radim
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 73199024
+  teams:
+    home: Brazda, Adam
+    away: Tazler, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 73199066
+  teams:
+    home: Szotek, David
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 73199230
+  teams:
+    home: Trinta, Mihail
+    away: Fisera, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 73199030
+  teams:
+    home: Vejvoda, Viktor
+    away: Kolar, Vlastimil
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 73199192
+  teams:
+    home: Walek, Adrian
+    away: Skacelik, Richard
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 73199086
+  teams:
+    home: Chalupa, Michal
+    away: Kratochvil, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:30'
+- id: 73199236
+  teams:
+    home: Hasmanda, Rostislav
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 73199062
+  teams:
+    home: Tonar, Lukas
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 73198956
+  teams:
+    home: Wagner, Richard
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:30'
+- id: 73199212
+  teams:
+    home: Zidek, Vaclav
+    away: Heczko, David
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:30'
+- id: 73199238
+  teams:
+    home: Briza, Frantisek
+    away: Fisera, Milan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
