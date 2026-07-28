@@ -14,9 +14,9 @@ basketball:
     home: Croatia
     away: Romania
   score:
-    home: 35
-    away: 38
-  status: live
+    home: 88
+    away: 83
+  status: recentlyended
   time: '16:00'
 - id: 71686314
   teams:
@@ -89,16 +89,16 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73163860
   teams:
     home: Majchrzak, Kamil
     away: Paul, Tommy
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '15:00'
 ice_hockey: []
 table_tennis:
@@ -1225,7 +1225,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73199044
   teams:
@@ -1252,7 +1252,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73199046
   teams:
@@ -1261,7 +1261,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73199208
   teams:
@@ -1270,16 +1270,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73199106
   teams:
     home: Paril, Ondrej
     away: Navedla, Matyas
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:30'
 - id: 73199210
   teams:
@@ -1288,7 +1288,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73198972
   teams:
@@ -1297,7 +1297,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73199028
   teams:
@@ -1306,5 +1306,140 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 73242746
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Hyrsl, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 73242772
+  teams:
+    home: Szotkowski, Jan
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73242752
+  teams:
+    home: Tonar, Lukas
+    away: Tazler, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73242764
+  teams:
+    home: Vejvoda, Viktor
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 73242792
+  teams:
+    home: Navedla, Matyas
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:03'
+- id: 73242774
+  teams:
+    home: Dzida, Jan
+    away: Biolek, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 73242748
+  teams:
+    home: Madle, Ludek
+    away: Syroha, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:30'
+- id: 73242794
+  teams:
+    home: Paril, Ondrej
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '17:30'
+- id: 73242754
+  teams:
+    home: Vinter, Tomas
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 73242768
+  teams:
+    home: Wagner, Richard
+    away: Kolar, Vlastimil
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 73199226
+  teams:
+    home: Briza, Frantisek
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:00'
+- id: 73199256
+  teams:
+    home: Heczko, David
+    away: Walek, Adrian
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:00'
+- id: 73198974
+  teams:
+    home: Kapras, Karel
+    away: Brazda, Adam
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 73198960
+  teams:
+    home: Kratochvil, Michal
+    away: Szotek, David
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:00'
+- id: 73198934
+  teams:
+    home: Vondrak, Michal
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '18:00'
