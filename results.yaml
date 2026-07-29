@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 72529104
+  teams:
+    home: Argentinos Juniors
+    away: Estudiantes Rio Cuarto
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:15
+- id: 72529106
+  teams:
+    home: CA Rosario Central
+    away: Racing Club Avellaneda
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: 00:15
 basketball: []
 tennis: []
 ice_hockey: []
@@ -37,7 +55,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73199242
   teams:
@@ -46,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73198992
   teams:
@@ -55,5 +73,113 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
+- id: 73199170
+  teams:
+    home: Babicka, Lukas
+    away: Mikuska, Alexander
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 73199116
+  teams:
+    home: Potensky, Jan
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 73199038
+  teams:
+    home: Regner, Tomas
+    away: Bruzek, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 73199180
+  teams:
+    home: Darin, Kyryl
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 73199054
+  teams:
+    home: Steffan, Jan
+    away: Vitrovyj, Oleg
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73198940
+  teams:
+    home: Vaclavik, Miroslav
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 73199246
+  teams:
+    home: Babicka, Lukas
+    away: Holovatiuk, Yurii
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 73198980
+  teams:
+    home: Potensky, Jan
+    away: Kucera, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 73199020
+  teams:
+    home: Regner, Tomas
+    away: Andrle, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 73199202
+  teams:
+    home: Briza, Frantisek
+    away: Mikuska, Alexander
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 73198984
+  teams:
+    home: Hejduk, Alexander
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 73199120
+  teams:
+    home: Vitrovyj, Oleg
+    away: Bruzek, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
