@@ -17,7 +17,25 @@ soccer:
     away: 0
   status: result
   time: 00:15
-basketball: []
+basketball:
+- id: 73240948
+  teams:
+    home: France
+    away: Slovakia
+  score:
+    home: 50
+    away: 46
+  status: live
+  time: '11:00'
+- id: 73240946
+  teams:
+    home: Israel
+    away: Denmark
+  score:
+    home: 78
+    away: 56
+  status: live
+  time: '11:00'
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -459,8 +477,8 @@ table_tennis:
     away: Kowolowski, Miroslav
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 73225786
   teams:
@@ -468,17 +486,17 @@ table_tennis:
     away: Vavrecka, Michal
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 73225812
   teams:
     home: Hofman, Denis
     away: Vondrak, Michal
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '10:00'
 - id: 73225126
   teams:
@@ -486,8 +504,8 @@ table_tennis:
     away: Ruzicka, Jiri
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 73225158
   teams:
@@ -495,6 +513,186 @@ table_tennis:
     away: Prikasky, Libor
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '10:00'
+- id: 73225806
+  teams:
+    home: Cerny, Vojtech
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73225130
+  teams:
+    home: Mares, Erik
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 73225184
+  teams:
+    home: Mecl Jr, Jan
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 73225894
+  teams:
+    home: Saleny, Petr
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 73225762
+  teams:
+    home: Zika, Tadeas
+    away: Revay, Radomir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73225822
+  teams:
+    home: Kowolowski, Miroslav
+    away: Cerny, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 73225120
+  teams:
+    home: Prikasky, Libor
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 73225132
+  teams:
+    home: Ruzicka, Jiri
+    away: Mecl Jr, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 73225834
+  teams:
+    home: Vavrecka, Michal
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 73225864
+  teams:
+    home: Vondrak, Michal
+    away: Saleny, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 73225210
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 73225750
+  teams:
+    home: Revay, Radomir
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 73225788
+  teams:
+    home: Sychra, Martin
+    away: Hofman, Denis
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73225804
+  teams:
+    home: Taichman, Ivo
+    away: Blejchar, Marek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 73225208
+  teams:
+    home: Vales, Jakub
+    away: Jindrak, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73225774
+  teams:
+    home: Blejchar, Marek
+    away: Cerny, Vojtech
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:00'
+- id: 73225808
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 73225794
+  teams:
+    home: Hofman, Denis
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73225152
+  teams:
+    home: Huk, Martin
+    away: Mecl Jr, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 73225180
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:00'
