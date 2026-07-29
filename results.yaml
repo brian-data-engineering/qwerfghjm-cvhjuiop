@@ -17,6 +17,15 @@ soccer:
     away: 0
   status: result
   time: 00:15
+- id: 72529108
+  teams:
+    home: Barracas Central
+    away: CA Aldosivi
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:30'
 basketball:
 - id: 73162524
   teams:
@@ -68,18 +77,126 @@ basketball:
     home: Italy
     away: Lithuania
   score:
-    home: 69
-    away: 58
-  status: live
+    home: 83
+    away: 71
+  status: result
   time: '16:00'
 - id: 73240956
   teams:
     home: Serbia
     away: Greece
   score:
-    home: 67
-    away: 71
+    home: 77
+    away: 78
+  status: result
+  time: '16:00'
+- id: 73240962
+  teams:
+    home: Spain
+    away: Bulgaria
+  score:
+    home: 49
+    away: 33
   status: live
+  time: '18:30'
+- id: 73240960
+  teams:
+    home: Turkey
+    away: Austria
+  score:
+    home: 38
+    away: 26
+  status: live
+  time: '18:30'
+- id: 71686270
+  teams:
+    home: Romania
+    away: Norway
+  score:
+    home: 85
+    away: 65
+  status: result
+  time: 08:30
+- id: 71686268
+  teams:
+    home: Montenegro
+    away: Croatia
+  score:
+    home: 32
+    away: 30
+  status: live
+  time: '18:30'
+- id: 71686316
+  teams:
+    home: Iceland
+    away: Poland
+  score:
+    home: 71
+    away: 95
+  status: result
+  time: '11:00'
+- id: 71686320
+  teams:
+    home: Ukraine
+    away: Portugal
+  score:
+    home: 68
+    away: 91
+  status: result
+  time: '13:30'
+- id: 71686318
+  teams:
+    home: Azerbaijan
+    away: Czech Republic
+  score:
+    home: 46
+    away: 74
+  status: result
+  time: '16:00'
+- id: 71686350
+  teams:
+    home: Cyprus
+    away: Finland
+  score:
+    home: 63
+    away: 66
+  status: result
+  time: '11:00'
+- id: 71686348
+  teams:
+    home: Great Britain
+    away: Belgium
+  score:
+    home: 73
+    away: 78
+  status: result
+  time: '13:30'
+- id: 71686352
+  teams:
+    home: Ireland
+    away: Netherlands
+  score:
+    home: 38
+    away: 42
+  status: live
+  time: '18:30'
+- id: 71686376
+  teams:
+    home: FYR Macedonia
+    away: Sweden
+  score:
+    home: 69
+    away: 60
+  status: result
+  time: 08:30
+- id: 71686378
+  teams:
+    home: Hungary
+    away: Georgia
+  score:
+    home: 68
+    away: 62
+  status: result
   time: '16:00'
 tennis: []
 ice_hockey: []
