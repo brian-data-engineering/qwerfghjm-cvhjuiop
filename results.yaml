@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '17:30'
 basketball:
 - id: 73162524
@@ -95,18 +95,18 @@ basketball:
     home: Spain
     away: Bulgaria
   score:
-    home: 49
-    away: 33
-  status: live
+    home: 99
+    away: 66
+  status: recentlyended
   time: '18:30'
 - id: 73240960
   teams:
     home: Turkey
     away: Austria
   score:
-    home: 38
-    away: 26
-  status: live
+    home: 90
+    away: 64
+  status: recentlyended
   time: '18:30'
 - id: 71686270
   teams:
@@ -122,9 +122,9 @@ basketball:
     home: Montenegro
     away: Croatia
   score:
-    home: 32
-    away: 30
-  status: live
+    home: 59
+    away: 68
+  status: recentlyended
   time: '18:30'
 - id: 71686316
   teams:
@@ -176,9 +176,9 @@ basketball:
     home: Ireland
     away: Netherlands
   score:
-    home: 38
-    away: 42
-  status: live
+    home: 67
+    away: 89
+  status: recentlyended
   time: '18:30'
 - id: 71686376
   teams:
@@ -1038,6 +1038,96 @@ table_tennis:
     away: 3
   status: result
   time: '12:30'
+- id: 73264902
+  teams:
+    home: Blejchar, Marek
+    away: Cerny, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73264898
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73264912
+  teams:
+    home: Sychra, Martin
+    away: Vondrak, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73264892
+  teams:
+    home: Vales, Jakub
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73264906
+  teams:
+    home: Zika, Tadeas
+    away: Dousek, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73264914
+  teams:
+    home: Hofman, Denis
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73264894
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 73264900
+  teams:
+    home: Ruzicka, Jiri
+    away: Mecl Jr, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73264904
+  teams:
+    home: Taichman, Ivo
+    away: Kowolowski, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73264908
+  teams:
+    home: Vavrecka, Michal
+    away: Revay, Radomir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
 - id: 73264702
   teams:
     home: Horak, David
