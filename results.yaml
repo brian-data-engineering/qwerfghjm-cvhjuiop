@@ -18,24 +18,51 @@ soccer:
   status: result
   time: 00:15
 basketball:
+- id: 73162524
+  teams:
+    home: Maba Sel. Team
+    away: Guang Ming College
+  score:
+    home: 66
+    away: 71
+  status: result
+  time: 05:20
 - id: 73240948
   teams:
     home: France
     away: Slovakia
   score:
-    home: 50
-    away: 46
-  status: live
+    home: 72
+    away: 60
+  status: result
   time: '11:00'
 - id: 73240946
   teams:
     home: Israel
     away: Denmark
   score:
-    home: 78
-    away: 56
-  status: live
+    home: 100
+    away: 86
+  status: result
   time: '11:00'
+- id: 73240950
+  teams:
+    home: Germany
+    away: Estonia
+  score:
+    home: 67
+    away: 51
+  status: live
+  time: '13:30'
+- id: 73240952
+  teams:
+    home: Slovenia
+    away: Latvia
+  score:
+    home: 59
+    away: 63
+  status: live
+  time: '13:30'
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -201,6 +228,60 @@ table_tennis:
     away: 2
   status: result
   time: 02:30
+- id: 73249750
+  teams:
+    home: Mikuska, Alexander
+    away: Babicka, Lukas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 73249742
+  teams:
+    home: Vaclavik, Miroslav
+    away: Kucera, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 73249754
+  teams:
+    home: Vitrovyj, Oleg
+    away: Bruzek, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 73249756
+  teams:
+    home: Andrle, Tomas
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 73249744
+  teams:
+    home: Grohsgott, Jiri
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 73249752
+  teams:
+    home: Holovatiuk, Yurii
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
 - id: 73225188
   teams:
     home: Mares, Erik
@@ -471,6 +552,87 @@ table_tennis:
     away: 1
   status: result
   time: 08:30
+- id: 73260860
+  teams:
+    home: Jindrak, Lukas
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 73260866
+  teams:
+    home: Navedla, Matyas
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 73260880
+  teams:
+    home: Schwan, Jaroslav
+    away: Cabak, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:01
+- id: 73260872
+  teams:
+    home: Mecl Jr, Jan
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:03
+- id: 73260874
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 73260856
+  teams:
+    home: Sebera, Petr
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 73260876
+  teams:
+    home: Simecek, Jakub
+    away: Vavrecka, Radomir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 73260862
+  teams:
+    home: Vales, Jakub
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 73260870
+  teams:
+    home: Zika, Tadeas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
 - id: 73225848
   teams:
     home: Blejchar, Marek
@@ -658,7 +820,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73225808
   teams:
@@ -667,7 +829,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73225794
   teams:
@@ -676,7 +838,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73225152
   teams:
@@ -685,7 +847,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73225180
   teams:
@@ -694,5 +856,59 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 73225830
+  teams:
+    home: Kowolowski, Miroslav
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73225078
+  teams:
+    home: Prikasky, Libor
+    away: Vales, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73225118
+  teams:
+    home: Ruzicka, Jiri
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 73225842
+  teams:
+    home: Vavrecka, Michal
+    away: Revay, Radomir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73225766
+  teams:
+    home: Vondrak, Michal
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73264702
+  teams:
+    home: Horak, David
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
