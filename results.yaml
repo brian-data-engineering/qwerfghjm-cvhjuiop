@@ -9,6 +9,15 @@ soccer:
   status: result
   time: 00:30
 basketball:
+- id: 73059614
+  teams:
+    home: Poland
+    away: Finland
+  score:
+    home: 84
+    away: 79
+  status: result
+  time: '13:00'
 - id: 73275126
   teams:
     home: Israel
@@ -18,6 +27,15 @@ basketball:
     away: 95
   status: result
   time: '11:00'
+- id: 73275128
+  teams:
+    home: Greece
+    away: Spain
+  score:
+    home: 66
+    away: 69
+  status: live
+  time: '13:30'
 tennis:
 - id: 73061230
   teams:
@@ -109,7 +127,16 @@ tennis:
     away: 1
   status: result
   time: 02:45
-ice_hockey: []
+ice_hockey:
+- id: 73191666
+  teams:
+    home: Yunost
+    away: Soligorsk
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '12:00'
 table_tennis:
 - id: 73225780
   teams:
