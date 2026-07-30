@@ -42,28 +42,64 @@ tennis:
     home: Gea, Arthur
     away: Zheng, Michael
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 02:55
 - id: 73061208
   teams:
     home: Tomic, Bernard
     away: Khachanov, Karen
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 03:05
 - id: 73061206
   teams:
     home: Shapovalov, Denis
     away: Pacheco Mendez, Rodrigo
   score:
-    home: 0
+    home: 2
+    away: 0
+  status: result
+  time: 03:10
+- id: 73061220
+  teams:
+    home: Svrcina, Dalibor
+    away: Darderi, Luciano
+  score:
+    home: null
+    away: null
+  status: result
+  time: 04:40
+- id: 73061210
+  teams:
+    home: Norrie, Cameron
+    away: Duckworth, James
+  score:
+    home: 1
     away: 0
   status: live
-  time: 03:10
+  time: 05:10
+- id: 73168536
+  teams:
+    home: Nam J / Yuzuki T
+    away: Isaro P / Paris J
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:00
+- id: 73168542
+  teams:
+    home: Hijikata R / Stalder R
+    away: Liutarevich I / Reyes-Varela M A
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 02:45
 ice_hockey: []
 table_tennis:
 - id: 73225780
