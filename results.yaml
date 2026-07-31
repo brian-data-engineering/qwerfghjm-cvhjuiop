@@ -1,6 +1,51 @@
-soccer: []
+soccer:
+- id: 72529122
+  teams:
+    home: CA Central Cordoba SE
+    away: Atletico Tucuman
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 00:15
+- id: 72529120
+  teams:
+    home: CA Independiente Avellaneda
+    away: Newells Old Boys
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:15
 basketball: []
-tennis: []
+tennis:
+- id: 73061216
+  teams:
+    home: Cerundolo, Francisco
+    away: Gea, Arthur
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 01:00
+- id: 73061218
+  teams:
+    home: Wong, Coleman
+    away: Brooksby, Jenson
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:00
+- id: 73061228
+  teams:
+    home: Shapovalov, Denis
+    away: Svrcina, Dalibor
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 04:00
 ice_hockey: []
 table_tennis:
 - id: 73259316
@@ -37,7 +82,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73259220
   teams:
@@ -46,7 +91,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73259286
   teams:
@@ -55,32 +100,113 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73259372
   teams:
     home: Hofman, Denis
     away: Regner, Michal
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 01:00
 - id: 73259292
   teams:
     home: Kycelt, Jakub
     away: Vales, Jakub
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 01:00
 - id: 73259318
   teams:
     home: Pleskot, Jan
     away: Stefek, Martin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 01:00
+- id: 73259202
+  teams:
+    home: Mares, Erik
+    away: Prikasky, Libor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73259290
+  teams:
+    home: Pikous, Marcel
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 73259460
+  teams:
+    home: Steffan, Jan
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 73259464
+  teams:
+    home: Hofman, Denis
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 73259222
+  teams:
+    home: Kycelt, Jakub
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 73259428
+  teams:
+    home: Pleskot, Jan
+    away: Andrle, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 73259442
+  teams:
+    home: Prikasky, Libor
+    away: Vales, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 73259412
+  teams:
+    home: Regner, Tomas
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 73259270
+  teams:
+    home: Sebera, Petr
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
