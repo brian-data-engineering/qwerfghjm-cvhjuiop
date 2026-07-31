@@ -429,10 +429,19 @@ tennis:
     home: Fritz, Taylor
     away: Michelsen, Alex
   score:
-    home: 1
+    home: 2
+    away: 1
+  status: result
+  time: '20:20'
+- id: 73087114
+  teams:
+    home: Jodar, Rafael
+    away: Musetti, Lorenzo
+  score:
+    home: 0
     away: 1
   status: live
-  time: '20:20'
+  time: '22:30'
 ice_hockey: []
 table_tennis:
 - id: 73259316
@@ -1063,7 +1072,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73326914
   teams:
@@ -1072,7 +1081,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73326902
   teams:
@@ -1081,7 +1090,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73326918
   teams:
@@ -1090,7 +1099,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73326910
   teams:
@@ -1099,16 +1108,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73289634
   teams:
     home: Kulhanek, Pavel
     away: Svoboda, Vladimir
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '22:00'
 - id: 73289580
   teams:
@@ -1116,15 +1125,96 @@ table_tennis:
     away: Darin, Kyryl
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '22:00'
 - id: 73289614
   teams:
     home: Pycha, Patrik
     away: Budinsky, Petr
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '22:00'
+- id: 73289586
+  teams:
+    home: Dedek, Jiri
+    away: Dousa, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '22:30'
+- id: 73289656
+  teams:
+    home: Stefek, Martin
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '22:30'
+- id: 73289606
+  teams:
+    home: Vizek, Martin
+    away: Zmuda, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:30'
+- id: 73289592
+  teams:
+    home: Budinsky, Petr
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 73289584
+  teams:
+    home: Darin, Kyryl
+    away: Mikuska, Alexander
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 73289626
+  teams:
+    home: Svoboda, Vladimir
+    away: Novotny, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 73289612
+  teams:
+    home: Kulhanek, Pavel
+    away: Stefek, Martin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:30'
+- id: 73289638
+  teams:
+    home: Placek, Marek
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:30'
+- id: 73289650
+  teams:
+    home: Pycha, Patrik
+    away: Vizek, Martin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:30'
