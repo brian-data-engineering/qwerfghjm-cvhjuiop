@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73310222
+  teams:
+    home: France
+    away: Italy
+  score:
+    home: 56
+    away: 46
+  status: live
+  time: '16:00'
 tennis:
 - id: 73061226
   teams:
@@ -42,18 +51,18 @@ tennis:
     home: Damm Jr, Martin
     away: Rocha, Henrique
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:30'
 - id: 73327786
   teams:
     home: Giron, Marcos
     away: Llamas Ruiz, Pablo
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '14:30'
 - id: 73327784
   teams:
@@ -61,17 +70,17 @@ tennis:
     away: Jacquet, Kyrian
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '14:30'
 - id: 73327780
   teams:
     home: Trungelliti, Marco
     away: Mejia, Nicolas
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '14:30'
 - id: 73327760
   teams:
@@ -80,8 +89,44 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
+- id: 73327772
+  teams:
+    home: Popyrin, Alexei
+    away: Kokkinakis, Thanasi
+  score:
+    home: null
+    away: null
+  status: recentlyended
+  time: '15:50'
+- id: 73327776
+  teams:
+    home: Walton, Adam
+    away: Boulais, Justin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73327766
+  teams:
+    home: Fearnley, Jacob
+    away: Ofner, Sebastian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:55'
+- id: 73327768
+  teams:
+    home: Vukic, Aleksandar
+    away: Barrios Vera, Tomas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
 ice_hockey: []
 table_tennis:
 - id: 73289632
@@ -982,7 +1027,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73316952
   teams:
@@ -991,7 +1036,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73317058
   teams:
@@ -1000,7 +1045,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73317342
   teams:
@@ -1009,7 +1054,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73317046
   teams:
@@ -1018,16 +1063,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73317044
   teams:
     home: Hrabec, Tomas
     away: Schneeberger, Antonin
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 73316892
   teams:
@@ -1035,33 +1080,78 @@ table_tennis:
     away: Kycelt, Jakub
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 - id: 73317322
   teams:
     home: Paril, Ondrej
     away: Polasek, Radovan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '16:00'
 - id: 73317060
   teams:
     home: Syroha, Michal
     away: Mazanek, Stanislav
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '16:00'
 - id: 73316978
   teams:
     home: Vondrak, Michal
     away: Wagner, Richard
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:00'
+- id: 73316994
+  teams:
+    home: Mares, Erik
+    away: Ruzicka, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73316942
+  teams:
+    home: Priesol, Daniel
+    away: Kaspar, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 73317064
+  teams:
+    home: Svec, Jiri
+    away: Hruska, Vaclav Senior
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73317326
+  teams:
+    home: Szwarc, Matej
+    away: Pilch, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73317014
+  teams:
+    home: Zuzanek, Jiri
+    away: Bayer, Ales
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
