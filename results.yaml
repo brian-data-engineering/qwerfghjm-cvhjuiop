@@ -525,32 +525,23 @@ table_tennis:
     away: 0
   status: result
   time: 08:30
-- id: 73317344
-  teams:
-    home: Cabis, Michal
-    away: Szwarc, Matej
-  score:
-    home: 0
-    away: 0
-  status: live
-  time: '10:00'
 - id: 73316962
   teams:
     home: Regner, Tomas
     away: Kolenic, Tibor
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '10:00'
 - id: 73317056
   teams:
     home: Syroha, Michal
     away: Hruska, Vaclav Senior
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '10:00'
 - id: 73316968
   teams:
@@ -558,8 +549,8 @@ table_tennis:
     away: Vejvoda, Viktor
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 73317034
   teams:
@@ -568,5 +559,140 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 73316990
+  teams:
+    home: Guliak, Roman
+    away: Bosak, Vitezslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73317032
+  teams:
+    home: Horak, David
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 73316920
+  teams:
+    home: Mazanek, Stanislav
+    away: Lubas, Miloslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 73317320
+  teams:
+    home: Polasek, Radovan
+    away: Pilch, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73316956
+  teams:
+    home: Sychra, Martin
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 73317050
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Mazanek, Stanislav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73317026
+  teams:
+    home: Kolenic, Tibor
+    away: Horak, David
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73316932
+  teams:
+    home: Mikula, David
+    away: Guliak, Roman
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73317388
+  teams:
+    home: Szwarc, Matej
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73316886
+  teams:
+    home: Vejvoda, Viktor
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 73316938
+  teams:
+    home: Bosak, Vitezslav
+    away: Zurek, Filip
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '11:30'
+- id: 73317038
+  teams:
+    home: Lubas, Miloslav
+    away: Syroha, Michal
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '11:30'
+- id: 73317362
+  teams:
+    home: Pilch, Jakub
+    away: Cabis, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '11:30'
+- id: 73317002
+  teams:
+    home: Sebera, Petr
+    away: Vondrak, Michal
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 73316984
+  teams:
+    home: Trinta, Mihail
+    away: Regner, Tomas
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '11:30'
