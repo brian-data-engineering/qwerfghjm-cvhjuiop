@@ -397,7 +397,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 73317000
   teams:
@@ -442,7 +442,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73317042
   teams:
@@ -451,7 +451,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73317336
   teams:
@@ -460,7 +460,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73316908
   teams:
@@ -469,7 +469,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73316958
   teams:
@@ -478,5 +478,95 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
+- id: 73317376
+  teams:
+    home: Adamczyk, Radek
+    away: Banot, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 73317048
+  teams:
+    home: Bosak, Vitezslav
+    away: Mikula, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 73316986
+  teams:
+    home: Regner, Milan
+    away: Havel, Ladislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 73317054
+  teams:
+    home: Sebera, Petr
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 73317036
+  teams:
+    home: Svec, Jiri
+    away: Vrabec, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 73317344
+  teams:
+    home: Cabis, Michal
+    away: Szwarc, Matej
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:00'
+- id: 73316962
+  teams:
+    home: Regner, Tomas
+    away: Kolenic, Tibor
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:00'
+- id: 73317056
+  teams:
+    home: Syroha, Michal
+    away: Hruska, Vaclav Senior
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '10:00'
+- id: 73316968
+  teams:
+    home: Vondrak, Michal
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '10:00'
+- id: 73317034
+  teams:
+    home: Zurek, Filip
+    away: Mikula, David
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '10:00'
