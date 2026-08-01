@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 72529130
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '18:30'
 basketball:
 - id: 73310222
@@ -32,9 +32,9 @@ basketball:
     home: Slovenia
     away: Spain
   score:
-    home: 67
-    away: 58
-  status: live
+    home: 90
+    away: 71
+  status: result
   time: '18:30'
 - id: 73310226
   teams:
@@ -70,7 +70,7 @@ basketball:
   score:
     home: 80
     away: 69
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73327114
   teams:
@@ -88,7 +88,7 @@ basketball:
   score:
     home: 89
     away: 81
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73328382
   teams:
@@ -185,9 +185,9 @@ basketball:
     home: Finland
     away: Belgium
   score:
-    home: 61
-    away: 65
-  status: live
+    home: 65
+    away: 69
+  status: result
   time: '18:30'
 - id: 71686838
   teams:
@@ -221,9 +221,9 @@ basketball:
     home: Croatia
     away: Latvia
   score:
-    home: 58
-    away: 65
-  status: live
+    home: 64
+    away: 72
+  status: result
   time: '18:45'
 - id: 71688424
   teams:
@@ -286,7 +286,7 @@ basketball:
   score:
     home: 42
     away: 73
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 71688578
   teams:
@@ -295,7 +295,7 @@ basketball:
   score:
     home: 74
     away: 63
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72154528
   teams:
@@ -494,7 +494,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '17:50'
 - id: 73327774
   teams:
@@ -503,7 +503,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:35'
 - id: 73327846
   teams:
@@ -511,7 +511,7 @@ tennis:
     away: O'Connell, Christopher
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '18:40'
 - id: 73327764
@@ -519,7 +519,7 @@ tennis:
     home: Mochizuki, Shintaro
     away: Sweeny, Dane
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '19:15'
@@ -528,10 +528,28 @@ tennis:
     home: Tsitsipas, Stefanos
     away: Rice, Keegan
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:05'
+- id: 73327762
+  teams:
+    home: Svrcina, Dalibor
+    away: Droguet, Titouan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '20:35'
+- id: 73087128
+  teams:
+    home: Tabilo, Alejandro
+    away: Shelton, Ben
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 01:15
 ice_hockey: []
 table_tennis:
 - id: 73289632
@@ -1999,7 +2017,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 73317374
   teams:
@@ -2008,7 +2026,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73317010
   teams:
@@ -2017,7 +2035,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73316928
   teams:
@@ -2026,7 +2044,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73316946
   teams:
@@ -2035,14 +2053,59 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 73316924
   teams:
     home: Zientek, Zbynek
     away: Schneeberger, Antonin
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:00'
+- id: 73317072
+  teams:
+    home: Kolek, Matyas
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 73316926
+  teams:
+    home: Kycelt, Jakub
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 73317356
+  teams:
+    home: Taichman, Ivo
+    away: Jasek, Milan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:30'
+- id: 73317030
+  teams:
+    home: Vejvoda, Viktor
+    away: Bayer, Ales
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:30'
+- id: 73316966
+  teams:
+    home: Zmuda, Petr
+    away: Budinsky, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
