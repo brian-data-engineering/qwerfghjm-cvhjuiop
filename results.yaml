@@ -17,6 +17,24 @@ soccer:
     away: 0
   status: result
   time: '18:30'
+- id: 72529134
+  teams:
+    home: CA Belgrano de Cordoba
+    away: Argentinos Juniors
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:00'
+- id: 72529136
+  teams:
+    home: Estudiantes de la Plata
+    away: Defensa Y Justicia
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '21:00'
 basketball:
 - id: 73310222
   teams:
@@ -511,26 +529,26 @@ tennis:
     away: O'Connell, Christopher
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:40'
 - id: 73327764
   teams:
     home: Mochizuki, Shintaro
     away: Sweeny, Dane
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '19:15'
 - id: 73347372
   teams:
     home: Tsitsipas, Stefanos
     away: Rice, Keegan
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '20:05'
 - id: 73327762
   teams:
@@ -538,7 +556,7 @@ tennis:
     away: Droguet, Titouan
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '20:35'
 - id: 73087128
@@ -2089,7 +2107,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 73317030
   teams:
@@ -2109,3 +2127,30 @@ table_tennis:
     away: 1
   status: result
   time: '20:30'
+- id: 73343418
+  teams:
+    home: Darin, Kyryl
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 73317306
+  teams:
+    home: Huk, Martin
+    away: Mecl Jr, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 73317350
+  teams:
+    home: Steffan, Jan
+    away: Picek, Petr
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
