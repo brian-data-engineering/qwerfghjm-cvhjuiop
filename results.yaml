@@ -42,7 +42,7 @@ tennis:
     home: Damm Jr, Martin
     away: Rocha, Henrique
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '14:30'
@@ -51,8 +51,8 @@ tennis:
     home: Giron, Marcos
     away: Llamas Ruiz, Pablo
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '14:30'
 - id: 73327784
@@ -60,7 +60,7 @@ tennis:
     home: Shevchenko, Alexander
     away: Jacquet, Kyrian
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '14:30'
@@ -70,7 +70,7 @@ tennis:
     away: Mejia, Nicolas
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '14:30'
 - id: 73327760
@@ -78,9 +78,9 @@ tennis:
     home: Zheng, Michael
     away: Nishikori, Kei
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '14:30'
 ice_hockey: []
 table_tennis:
@@ -847,7 +847,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73316922
   teams:
@@ -865,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73316888
   teams:
@@ -874,7 +874,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73316974
   teams:
@@ -883,7 +883,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73316988
   teams:
@@ -892,25 +892,25 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73316980
   teams:
     home: Mazanek, Stanislav
     away: Hruska, Vaclav Senior
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '14:30'
 - id: 73317378
   teams:
     home: Polasek, Radovan
     away: Pilch, Jakub
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '14:30'
 - id: 73316896
   teams:
@@ -918,8 +918,8 @@ table_tennis:
     away: Kaspar, Michal
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 73316894
   teams:
@@ -928,5 +928,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
+- id: 73317020
+  teams:
+    home: Mares, Erik
+    away: Kycelt, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 73316992
+  teams:
+    home: Priesol, Daniel
+    away: Schneeberger, Antonin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 73317006
+  teams:
+    home: Svec, Jiri
+    away: Mazanek, Stanislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 73317370
+  teams:
+    home: Szwarc, Matej
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73317004
+  teams:
+    home: Zuzanek, Jiri
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73316954
+  teams:
+    home: Bayer, Ales
+    away: Vondrak, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73316952
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:30'
+- id: 73317058
+  teams:
+    home: Kaspar, Michal
+    away: Hrabec, Tomas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73317342
+  teams:
+    home: Pilch, Jakub
+    away: Paril, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73317046
+  teams:
+    home: Ruzicka, Jiri
+    away: Jindrak, Lukas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73317044
+  teams:
+    home: Hrabec, Tomas
+    away: Schneeberger, Antonin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73316892
+  teams:
+    home: Jindrak, Lukas
+    away: Kycelt, Jakub
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73317322
+  teams:
+    home: Paril, Ondrej
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73317060
+  teams:
+    home: Syroha, Michal
+    away: Mazanek, Stanislav
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73316978
+  teams:
+    home: Vondrak, Michal
+    away: Wagner, Richard
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
