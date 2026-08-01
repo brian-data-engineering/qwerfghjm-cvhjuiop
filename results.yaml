@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '21:00'
 - id: 72529136
   teams:
@@ -33,7 +33,7 @@ soccer:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: '21:00'
 basketball:
 - id: 73310222
@@ -556,8 +556,8 @@ tennis:
     away: Droguet, Titouan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '20:35'
 - id: 73087128
   teams:
@@ -568,6 +568,15 @@ tennis:
     away: 1
   status: result
   time: 01:15
+- id: 73087126
+  teams:
+    home: Nakashima, Brandon
+    away: Fritz, Taylor
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:30'
 ice_hockey: []
 table_tennis:
 - id: 73289632
@@ -2134,7 +2143,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 73317306
   teams:
@@ -2143,7 +2152,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 73317350
   teams:
@@ -2152,5 +2161,59 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '22:00'
+- id: 73317294
+  teams:
+    home: Bruzek, Petr
+    away: Regner, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '22:30'
+- id: 73317314
+  teams:
+    home: Ruzicka, Jiri
+    away: Zahradka, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:30'
+- id: 73317372
+  teams:
+    home: Vitrovyj, Oleg
+    away: Horak, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:30'
+- id: 73343416
+  teams:
+    home: Briza, Frantisek
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '23:00'
+- id: 73317288
+  teams:
+    home: Mecl Jr, Jan
+    away: Prosa, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '23:00'
+- id: 73317332
+  teams:
+    home: Picek, Petr
+    away: Bartunek, Radek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '23:00'
