@@ -568,7 +568,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73340236
   teams:
@@ -577,7 +577,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73340496
   teams:
@@ -613,7 +613,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73340160
   teams:
@@ -622,7 +622,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73340202
   teams:
@@ -631,7 +631,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73340484
   teams:
@@ -640,7 +640,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73340590
   teams:
@@ -649,5 +649,140 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 73340230
+  teams:
+    home: Bayer, Ales
+    away: Vinter, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 73340214
+  teams:
+    home: Bittner, Martin
+    away: Vejvoda, Viktor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73340506
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73340532
+  teams:
+    home: Pilch, Jakub
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 73340164
+  teams:
+    home: Zidek, Vaclav
+    away: Simecek, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73340540
+  teams:
+    home: Paril, Ondrej
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73340238
+  teams:
+    home: Simecek, Jakub
+    away: Heczko, David
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:00'
+- id: 73340520
+  teams:
+    home: Syroha, Michal
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73340162
+  teams:
+    home: Vejvoda, Viktor
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 73340258
+  teams:
+    home: Vinter, Tomas
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:00'
+- id: 73340178
+  teams:
+    home: Byrtus, Samuel
+    away: Zidek, Vaclav
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:30'
+- id: 73340210
+  teams:
+    home: Regner, Michal
+    away: Bittner, Martin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73340200
+  teams:
+    home: Sobisek, Martin
+    away: Bayer, Ales
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:30'
+- id: 73340480
+  teams:
+    home: Svec, Jiri
+    away: Hruska, Vaclav Senior
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73340528
+  teams:
+    home: Szwarc, Matej
+    away: Pilch, Jakub
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:30'
