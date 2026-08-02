@@ -9,6 +9,15 @@ basketball:
     away: 83
   status: result
   time: 08:30
+- id: 73351790
+  teams:
+    home: Spain
+    away: France
+  score:
+    home: 58
+    away: 60
+  status: live
+  time: '16:00'
 tennis:
 - id: 73061222
   teams:
@@ -28,15 +37,24 @@ tennis:
     away: 2
   status: result
   time: 00:30
+- id: 73325010
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Borges, Nuno
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
 - id: 73325020
   teams:
     home: Munar, Jaume
     away: Hijikata, Rinky
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
-  time: '15:05'
+  time: '15:00'
 - id: 73352316
   teams:
     home: Zheng, Michael
@@ -45,24 +63,15 @@ tennis:
     home: 0
     away: 1
   status: live
-  time: '15:05'
-- id: 73325010
-  teams:
-    home: Kovacevic, Aleksandar
-    away: Borges, Nuno
-  score:
-    home: 0
-    away: 0
-  status: live
-  time: '15:10'
+  time: '15:00'
 - id: 73325008
   teams:
     home: Vallejo, Adolfo Daniel
     away: Shang, Juncheng
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:10'
 ice_hockey: []
 table_tennis:
@@ -912,6 +921,24 @@ table_tennis:
     away: 0
   status: result
   time: '12:30'
+- id: 73373710
+  teams:
+    home: Regner, Michal
+    away: Bittner, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73373698
+  teams:
+    home: Szwarc, Matej
+    away: Prikasky, Libor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
 - id: 73373694
   teams:
     home: Tuma, Daniel
@@ -921,10 +948,64 @@ table_tennis:
     away: 3
   status: result
   time: '13:00'
+- id: 73373718
+  teams:
+    home: Zidek, Vaclav
+    away: Heczko, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73373722
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Svec, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:07'
 - id: 73373696
   teams:
     home: Bayer, Ales
     away: Vinter, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 73373712
+  teams:
+    home: Louda, Jiri
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73373700
+  teams:
+    home: Pilch, Jakub
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 73373720
+  teams:
+    home: Simecek, Jakub
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 73373724
+  teams:
+    home: Syroha, Michal
+    away: Hruska, Vaclav Senior
   score:
     home: 3
     away: 0
