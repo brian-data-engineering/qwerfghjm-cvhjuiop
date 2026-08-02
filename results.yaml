@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 72529140
+  teams:
+    home: Deportivo Riestra
+    away: Barracas Central
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:25'
+- id: 72529142
+  teams:
+    home: CA Aldosivi
+    away: Gimnasia Y Esgrima La Plata
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '17:30'
 basketball:
 - id: 73206646
   teams:
@@ -14,10 +32,82 @@ basketball:
     home: Spain
     away: France
   score:
-    home: 58
-    away: 60
-  status: live
+    home: 69
+    away: 74
+  status: result
   time: '16:00'
+- id: 73351794
+  teams:
+    home: Slovenia
+    away: Italy
+  score:
+    home: 42
+    away: 27
+  status: live
+  time: '18:30'
+- id: 73351786
+  teams:
+    home: Israel
+    away: Turkey
+  score:
+    home: 85
+    away: 79
+  status: result
+  time: '11:00'
+- id: 73351788
+  teams:
+    home: Greece
+    away: Germany
+  score:
+    home: 69
+    away: 99
+  status: result
+  time: '13:30'
+- id: 73351776
+  teams:
+    home: Denmark
+    away: Lithuania
+  score:
+    home: 83
+    away: 91
+  status: result
+  time: '13:30'
+- id: 73351778
+  teams:
+    home: Serbia
+    away: Estonia
+  score:
+    home: 77
+    away: 67
+  status: result
+  time: '16:00'
+- id: 73351766
+  teams:
+    home: Bulgaria
+    away: Slovakia
+  score:
+    home: 72
+    away: 74
+  status: result
+  time: 08:30
+- id: 73351768
+  teams:
+    home: Latvia
+    away: Austria
+  score:
+    home: 71
+    away: 73
+  status: result
+  time: '11:00'
+- id: 73351662
+  teams:
+    home: Belgium
+    away: Czech Republic
+  score:
+    home: 81
+    away: 64
+  status: recentlyended
+  time: '17:00'
 tennis:
 - id: 73061222
   teams:
