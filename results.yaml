@@ -17,6 +17,15 @@ soccer:
     away: 2
   status: result
   time: '17:30'
+- id: 72529144
+  teams:
+    home: Newells Old Boys
+    away: Boca Juniors
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '20:00'
 basketball:
 - id: 73206646
   teams:
@@ -43,7 +52,7 @@ basketball:
   score:
     home: 88
     away: 71
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73351786
   teams:
@@ -113,9 +122,9 @@ basketball:
     home: Poland
     away: Netherlands
   score:
-    home: 30
-    away: 29
-  status: live
+    home: 57
+    away: 71
+  status: recentlyended
   time: '19:30'
 - id: 73351658
   teams:
@@ -212,9 +221,9 @@ basketball:
     home: Czech Republic
     away: France
   score:
-    home: 36
-    away: 51
-  status: live
+    home: 46
+    away: 69
+  status: result
   time: '18:45'
 - id: 71686760
   teams:
@@ -248,9 +257,9 @@ basketball:
     home: Slovenia
     away: Montenegro
   score:
-    home: 66
-    away: 66
-  status: live
+    home: 72
+    away: 74
+  status: result
   time: '18:30'
 - id: 71686858
   teams:
@@ -340,7 +349,7 @@ basketball:
   score:
     home: 59
     away: 43
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72154552
   teams:
@@ -401,8 +410,8 @@ basketball:
     home: Portland Fire
     away: LA Sparks
   score:
-    home: 41
-    away: 37
+    home: 87
+    away: 87
   status: live
   time: '19:30'
 tennis:
@@ -440,7 +449,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73352316
   teams:
