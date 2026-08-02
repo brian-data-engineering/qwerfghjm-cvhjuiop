@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73206646
+  teams:
+    home: Keelung Black Kites
+    away: Bank of Taiwan
+  score:
+    home: 68
+    away: 78
+  status: live
+  time: 08:30
 tennis:
 - id: 73061222
   teams:
@@ -334,7 +343,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73340218
   teams:
@@ -343,7 +352,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73340270
   teams:
@@ -352,7 +361,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73340588
   teams:
@@ -361,7 +370,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73340154
   teams:
@@ -370,7 +379,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73340602
   teams:
@@ -378,42 +387,132 @@ table_tennis:
     away: Pleskot, Jan
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 73340186
   teams:
     home: Budinsky, Petr
     away: Hradecky, Jakub
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
 - id: 73340534
   teams:
     home: Foltynek, Jiri
     away: Luksa, Zdenek
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:30
 - id: 73340250
   teams:
     home: Heczko, David
     away: Petrek, Tomas
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 07:30
 - id: 73340174
   teams:
     home: Hruska, Vaclav Senior
     away: Syroha, Michal
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 07:30
+- id: 73340284
+  teams:
+    home: Hradecky, Jakub
+    away: Pozarsky, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 73340548
+  teams:
+    home: Luksa, Zdenek
+    away: Derco, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 73340204
+  teams:
+    home: Petrek, Tomas
+    away: Bereiter, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 73340592
+  teams:
+    home: Pleskot, Jan
+    away: Tacinec, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73340148
+  teams:
+    home: Syroha, Michal
+    away: Hyrsl, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 73340536
+  teams:
+    home: Kolenciak, Ivan
+    away: Foltynek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 73340176
+  teams:
+    home: Machander, Dalimil
+    away: Heczko, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 73340262
+  teams:
+    home: Pavelka, Radim
+    away: Budinsky, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 73340554
+  teams:
+    home: Stefek, Martin
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 73340252
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Hruska, Vaclav Senior
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
