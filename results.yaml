@@ -28,6 +28,42 @@ tennis:
     away: 2
   status: result
   time: 00:30
+- id: 73325020
+  teams:
+    home: Munar, Jaume
+    away: Hijikata, Rinky
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:05'
+- id: 73352316
+  teams:
+    home: Zheng, Michael
+    away: Kecmanovic, Miomir
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:05'
+- id: 73325010
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Borges, Nuno
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:10'
+- id: 73325008
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Shang, Juncheng
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:10'
 ice_hockey: []
 table_tennis:
 - id: 73317352
@@ -901,7 +937,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73340550
   teams:
@@ -910,5 +946,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
