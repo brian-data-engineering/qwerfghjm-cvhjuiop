@@ -23,8 +23,8 @@ soccer:
     away: Boca Juniors
   score:
     home: 2
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '20:00'
 basketball:
 - id: 73206646
@@ -124,7 +124,7 @@ basketball:
   score:
     home: 57
     away: 71
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 73351658
   teams:
@@ -410,9 +410,9 @@ basketball:
     home: Portland Fire
     away: LA Sparks
   score:
-    home: 87
-    away: 87
-  status: live
+    home: 101
+    away: 106
+  status: result
   time: '19:30'
 tennis:
 - id: 73061222
