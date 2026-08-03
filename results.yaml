@@ -15,8 +15,35 @@ soccer:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '19:45'
+- id: 72529152
+  teams:
+    home: CA Platense
+    away: CA Talleres de Cordoba
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:00'
+- id: 72529154
+  teams:
+    home: Velez Sarsfield
+    away: CA Independiente Avellaneda
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
+- id: 67118564
+  teams:
+    home: CA Guemes
+    away: Tristan Suarez
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
 basketball:
 - id: 71686630
   teams:
@@ -115,15 +142,15 @@ tennis:
     away: Kopriva, Vit
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '19:30'
 - id: 73352326
   teams:
     home: Mejia, Nicolas
     away: Landaluce, Martin
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '19:30'
@@ -132,8 +159,8 @@ tennis:
     home: Van Assche, Luca
     away: Droguet, Titouan
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '19:35'
 - id: 73352324
@@ -141,10 +168,19 @@ tennis:
     home: Duckworth, James
     away: O'Connell, Christopher
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '19:40'
+- id: 73352322
+  teams:
+    home: Bonzi, Benjamin
+    away: Hanfmann, Yannick
+  score:
+    home: 0
     away: 0
   status: live
-  time: '19:40'
+  time: '22:40'
 - id: 73325010
   teams:
     home: Kovacevic, Aleksandar
@@ -153,7 +189,7 @@ tennis:
     home: 1
     away: 1
   status: live
-  time: '20:00'
+  time: '23:00'
 - id: 73352316
   teams:
     home: Zheng, Michael
@@ -162,7 +198,7 @@ tennis:
     home: 1
     away: 1
   status: live
-  time: '20:10'
+  time: '23:00'
 ice_hockey: []
 table_tennis:
 - id: 73340488
