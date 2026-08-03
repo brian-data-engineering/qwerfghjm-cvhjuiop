@@ -25,7 +25,7 @@ basketball:
   score:
     home: 66
     away: 63
-  status: live
+  status: result
   time: '16:15'
 - id: 71686766
   teams:
@@ -43,7 +43,7 @@ basketball:
   score:
     home: 88
     away: 78
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 71686846
   teams:
@@ -54,6 +54,42 @@ basketball:
     away: 39
   status: result
   time: '13:45'
+- id: 71686848
+  teams:
+    home: Turkey
+    away: Slovenia
+  score:
+    home: 38
+    away: 50
+  status: live
+  time: '18:45'
+- id: 71686862
+  teams:
+    home: Latvia
+    away: Poland
+  score:
+    home: 70
+    away: 73
+  status: result
+  time: '11:00'
+- id: 71686864
+  teams:
+    home: Serbia
+    away: Croatia
+  score:
+    home: 80
+    away: 45
+  status: live
+  time: '18:30'
+- id: 68096576
+  teams:
+    home: Golden State
+    away: Toronto Tempo
+  score:
+    home: 96
+    away: 79
+  status: result
+  time: 00:30
 tennis:
 - id: 73325016
   teams:
@@ -63,7 +99,7 @@ tennis:
     home: 0
     away: 0
   status: live
-  time: '16:30'
+  time: '19:30'
 - id: 73325022
   teams:
     home: Galarneau, Alexis
@@ -72,7 +108,7 @@ tennis:
     home: 0
     away: 0
   status: live
-  time: '16:30'
+  time: '19:30'
 - id: 73352326
   teams:
     home: Mejia, Nicolas
@@ -81,7 +117,25 @@ tennis:
     home: 0
     away: 0
   status: live
-  time: '16:30'
+  time: '19:30'
+- id: 73352312
+  teams:
+    home: Van Assche, Luca
+    away: Droguet, Titouan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:35'
+- id: 73352324
+  teams:
+    home: Duckworth, James
+    away: O'Connell, Christopher
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:40'
 - id: 73325010
   teams:
     home: Kovacevic, Aleksandar
@@ -90,7 +144,7 @@ tennis:
     home: 1
     away: 1
   status: Live
-  time: '18:30'
+  time: '20:25'
 ice_hockey: []
 table_tennis:
 - id: 73340488
