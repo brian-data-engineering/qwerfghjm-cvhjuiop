@@ -8,6 +8,15 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 72529150
+  teams:
+    home: CA Sarmiento Junin
+    away: Independiente Rivadavia
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '19:45'
 basketball:
 - id: 71686630
   teams:
@@ -59,9 +68,9 @@ basketball:
     home: Turkey
     away: Slovenia
   score:
-    home: 38
-    away: 50
-  status: live
+    home: 53
+    away: 62
+  status: result
   time: '18:45'
 - id: 71686862
   teams:
@@ -77,9 +86,9 @@ basketball:
     home: Serbia
     away: Croatia
   score:
-    home: 80
-    away: 45
-  status: live
+    home: 93
+    away: 51
+  status: result
   time: '18:30'
 - id: 68096576
   teams:
@@ -97,7 +106,7 @@ tennis:
     away: Navone, Mariano
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '19:30'
 - id: 73325022
@@ -106,7 +115,7 @@ tennis:
     away: Kopriva, Vit
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '19:30'
 - id: 73352326
@@ -115,7 +124,7 @@ tennis:
     away: Landaluce, Martin
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '19:30'
 - id: 73352312
@@ -132,7 +141,7 @@ tennis:
     home: Duckworth, James
     away: O'Connell, Christopher
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '19:40'
@@ -143,8 +152,17 @@ tennis:
   score:
     home: 1
     away: 1
-  status: Live
-  time: '20:25'
+  status: live
+  time: '20:00'
+- id: 73352316
+  teams:
+    home: Zheng, Michael
+    away: Kecmanovic, Miomir
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:10'
 ice_hockey: []
 table_tennis:
 - id: 73340488
