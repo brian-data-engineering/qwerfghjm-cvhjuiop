@@ -86,18 +86,18 @@ basketball:
     home: Denmark
     away: Greece
   score:
-    home: 38
-    away: 30
-  status: live
+    home: 60
+    away: 72
+  status: result
   time: '18:00'
 - id: 71688588
   teams:
     home: Slovakia
     away: Great Britain
   score:
-    home: 24
-    away: 18
-  status: live
+    home: 56
+    away: 59
+  status: result
   time: '18:00'
 - id: 72449536
   teams:
@@ -223,8 +223,8 @@ tennis:
     away: Royer, Valentin
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:45'
 - id: 73352332
   teams:
@@ -233,7 +233,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 73325014
   teams:
@@ -242,35 +242,80 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 73325038
   teams:
     home: Merida, Daniel
     away: Draxl, Liam
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:15'
 - id: 73352338
   teams:
     home: Popyrin, Alexei
     away: Burruchaga, Roman Andres
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:30'
 - id: 73325026
   teams:
     home: Cerundolo, Juan Manuel
     away: Medjedovic, Hamad
   score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:00'
+- id: 73325028
+  teams:
+    home: Atmane, Terence
+    away: Draper, Jack
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:10'
+- id: 73325030
+  teams:
+    home: Mpetshi Perricard, Giovanni
+    away: Van de Zandschulp, Botic
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:20'
+- id: 73325040
+  teams:
+    home: Sonego, Lorenzo
+    away: Griekspoor, Tallon
+  score:
     home: 0
     away: 0
   status: live
-  time: '19:00'
+  time: '20:15'
+- id: 73252762
+  teams:
+    home: Shang, Juncheng
+    away: Rublev, Andrey
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:20'
+- id: 73352340
+  teams:
+    home: Mochizuki, Shintaro
+    away: Marozsan, Fabian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:35'
 ice_hockey:
 - id: 72021894
   teams:
