@@ -1,4 +1,31 @@
-soccer: []
+soccer:
+- id: 72529156
+  teams:
+    home: CA Central Cordoba SE
+    away: CA San Lorenzo Almagro
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:15
+- id: 72529158
+  teams:
+    home: CA Huracan
+    away: Atletico Tucuman
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: 00:15
+- id: 71749222
+  teams:
+    home: CA Paranaense
+    away: EC Vitoria
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:00
 basketball: []
 tennis:
 - id: 73352314
@@ -6,10 +33,46 @@ tennis:
     home: Vukic, Aleksandar
     away: Altmaier, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: 00:20
+- id: 73325036
+  teams:
+    home: Michelsen, Alex
+    away: Struff, Jan-Lennard
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 01:05
+- id: 73325018
+  teams:
+    home: Fucsovics, Marton
+    away: Moutet, Corentin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:10
+- id: 73325012
+  teams:
+    home: Ugo Carabelli, Camilo
+    away: Norrie, Cameron
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 01:45
+- id: 73325034
+  teams:
+    home: Majchrzak, Kamil
+    away: Monfils, Gael
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 02:05
 ice_hockey: []
 table_tennis:
 - id: 73364576
@@ -46,7 +109,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73398334
   teams:
@@ -55,7 +118,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73364526
   teams:
@@ -64,5 +127,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
