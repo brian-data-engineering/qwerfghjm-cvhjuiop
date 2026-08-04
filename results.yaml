@@ -36,6 +36,51 @@ basketball:
     away: 62
   status: result
   time: '10:30'
+- id: 71688430
+  teams:
+    home: Romania
+    away: Portugal
+  score:
+    home: 56
+    away: 42
+  status: live
+  time: '15:30'
+- id: 71688498
+  teams:
+    home: Ukraine
+    away: Israel
+  score:
+    home: 59
+    away: 80
+  status: result
+  time: '10:30'
+- id: 71688500
+  teams:
+    home: Bulgaria
+    away: Switzerland
+  score:
+    home: 70
+    away: 49
+  status: result
+  time: '13:00'
+- id: 71688518
+  teams:
+    home: Austria
+    away: Lithuania
+  score:
+    home: 54
+    away: 44
+  status: result
+  time: '13:00'
+- id: 71688520
+  teams:
+    home: Luxembourg
+    away: Ireland
+  score:
+    home: 49
+    away: 61
+  status: live
+  time: '15:30'
 tennis:
 - id: 73352314
   teams:
@@ -82,7 +127,88 @@ tennis:
     away: 2
   status: result
   time: 02:05
-ice_hockey: []
+- id: 73325024
+  teams:
+    home: Baez, Sebastian
+    away: Bellucci, Mattia
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73352336
+  teams:
+    home: Chan, Duncan
+    away: Tirante, Thiago Agustin
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 73352330
+  teams:
+    home: Damm Jr, Martin
+    away: Tsitsipas, Stefanos
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 73352334
+  teams:
+    home: Hurkacz, Hubert
+    away: Giron, Marcos
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '15:00'
+- id: 73352328
+  teams:
+    home: Walton, Adam
+    away: Brooksby, Jenson
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 73325032
+  teams:
+    home: Carreno Busta, Pablo
+    away: Royer, Valentin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:45'
+- id: 73352332
+  teams:
+    home: Fearnley, Jacob
+    away: Mannarino, Adrian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:45'
+- id: 73325014
+  teams:
+    home: Svajda, Zachary
+    away: Shapovalov, Denis
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
+ice_hockey:
+- id: 72021894
+  teams:
+    home: Dukla
+    away: Tabor
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73364576
   teams:
