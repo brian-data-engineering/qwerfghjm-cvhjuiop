@@ -41,9 +41,9 @@ basketball:
     home: Romania
     away: Portugal
   score:
-    home: 56
-    away: 42
-  status: live
+    home: 62
+    away: 46
+  status: result
   time: '15:30'
 - id: 71688498
   teams:
@@ -77,10 +77,55 @@ basketball:
     home: Luxembourg
     away: Ireland
   score:
-    home: 49
-    away: 61
-  status: live
+    home: 51
+    away: 65
+  status: result
   time: '15:30'
+- id: 71688586
+  teams:
+    home: Denmark
+    away: Greece
+  score:
+    home: 38
+    away: 30
+  status: live
+  time: '18:00'
+- id: 71688588
+  teams:
+    home: Slovakia
+    away: Great Britain
+  score:
+    home: 24
+    away: 18
+  status: live
+  time: '18:00'
+- id: 72449536
+  teams:
+    home: Titan Ultra Giant Risers
+    away: Macau Giant Pandas
+  score:
+    home: 132
+    away: 128
+  status: result
+  time: 09:15
+- id: 72449538
+  teams:
+    home: Nlex Road Warriors
+    away: Talk N Text
+  score:
+    home: 88
+    away: 83
+  status: result
+  time: '11:30'
+- id: 68096018
+  teams:
+    home: Chicago
+    away: Phoenix
+  score:
+    home: 101
+    away: 106
+  status: result
+  time: 01:00
 tennis:
 - id: 73352314
   teams:
@@ -143,7 +188,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73352330
   teams:
@@ -161,7 +206,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73352328
   teams:
@@ -177,8 +222,8 @@ tennis:
     home: Carreno Busta, Pablo
     away: Royer, Valentin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '16:45'
 - id: 73352332
@@ -186,28 +231,55 @@ tennis:
     home: Fearnley, Jacob
     away: Mannarino, Adrian
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '16:45'
 - id: 73325014
   teams:
     home: Svajda, Zachary
     away: Shapovalov, Denis
   score:
+    home: null
+    away: null
+  status: recentlyended
+  time: '17:00'
+- id: 73325038
+  teams:
+    home: Merida, Daniel
+    away: Draxl, Liam
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:15'
+- id: 73352338
+  teams:
+    home: Popyrin, Alexei
+    away: Burruchaga, Roman Andres
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:30'
+- id: 73325026
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Medjedovic, Hamad
+  score:
     home: 0
     away: 0
   status: live
-  time: '17:00'
+  time: '19:00'
 ice_hockey:
 - id: 72021894
   teams:
     home: Dukla
     away: Tabor
   score:
-    home: 3
-    away: 1
-  status: live
+    home: 5
+    away: 2
+  status: result
   time: '15:30'
 table_tennis:
 - id: 73364576
