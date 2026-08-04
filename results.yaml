@@ -26,6 +26,24 @@ soccer:
     away: 0
   status: result
   time: 00:00
+- id: 71749406
+  teams:
+    home: EC Juventude
+    away: Atletico Mineiro MG
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
+- id: 68097998
+  teams:
+    home: Temuco
+    away: Copiapo
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: 00:00
 basketball:
 - id: 71688432
   teams:
@@ -296,16 +314,16 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '20:15'
 - id: 73252762
   teams:
     home: Shang, Juncheng
     away: Rublev, Andrey
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '20:20'
 - id: 73352340
   teams:
@@ -314,7 +332,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '20:35'
 ice_hockey:
 - id: 72021894
