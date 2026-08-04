@@ -276,9 +276,9 @@ tennis:
     home: Atmane, Terence
     away: Draper, Jack
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '19:10'
 - id: 73325030
   teams:
@@ -286,8 +286,8 @@ tennis:
     away: Van de Zandschulp, Botic
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '19:20'
 - id: 73325040
   teams:
@@ -295,16 +295,16 @@ tennis:
     away: Griekspoor, Tallon
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '20:15'
 - id: 73252762
   teams:
     home: Shang, Juncheng
     away: Rublev, Andrey
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '20:20'
 - id: 73352340
@@ -313,8 +313,8 @@ tennis:
     away: Marozsan, Fabian
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: recentlyended
   time: '20:35'
 ice_hockey:
 - id: 72021894
