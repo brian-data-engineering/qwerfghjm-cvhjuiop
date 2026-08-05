@@ -370,7 +370,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73422652
   teams:
@@ -379,7 +379,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73422770
   teams:
@@ -388,7 +388,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73430970
   teams:
@@ -397,7 +397,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73422788
   teams:
@@ -406,25 +406,25 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73422614
   teams:
     home: Klement, Milan
     away: Sebera, Petr
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 08:30
 - id: 73422672
   teams:
     home: Mecl Jr, Jan
     away: Postelt, Tomas
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 08:30
 - id: 73422660
   teams:
@@ -432,24 +432,159 @@ table_tennis:
     away: Stach, Jiri
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:30
 - id: 73422602
   teams:
     home: Revay, Radomir
     away: Zika, Tadeas
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 08:30
 - id: 73422796
   teams:
     home: Tkachenko, Andrii
     away: Hubka, Miloslav
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:30
+- id: 73422716
+  teams:
+    home: Cabis, Michal
+    away: Sedlacek, Michael
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 73422636
+  teams:
+    home: Stach, Vojtech
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 73422752
+  teams:
+    home: Sulava, Lubor
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 73422740
+  teams:
+    home: Zahradka, Michal
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:00'
+- id: 73422630
+  teams:
+    home: Zientek, Zbynek
+    away: Schneeberger, Antonin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:00'
+- id: 73422610
+  teams:
+    home: Kolar, Vlastimil
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 73422664
+  teams:
+    home: Kolek, Matyas
+    away: Levicky, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73422730
+  teams:
+    home: Kosar, Vaclav
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 73422812
+  teams:
+    home: Smesny, Milan
+    away: Hubka, Miloslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 73422666
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '10:30'
+- id: 73422620
+  teams:
+    home: Regner, Milan
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73422734
+  teams:
+    home: Schneeberger, Antonin
+    away: Kolek, Matyas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73422736
+  teams:
+    home: Sedlacek, Michael
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 73422600
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Smesny, Milan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73422640
+  teams:
+    home: Urbaniec, Radim
+    away: Kolar, Vlastimil
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
