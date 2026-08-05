@@ -1,5 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73411140
+  teams:
+    home: Hungary
+    away: Italy
+  score:
+    home: 59
+    away: 61
+  status: recentlyended
+  time: '11:00'
+- id: 73411142
+  teams:
+    home: Finland
+    away: Germany
+  score:
+    home: 73
+    away: 56
+  status: recentlyended
+  time: '11:15'
 tennis:
 - id: 73252820
   teams:
@@ -541,7 +559,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73422620
   teams:
@@ -550,7 +568,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73422734
   teams:
@@ -559,7 +577,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73422736
   teams:
@@ -568,7 +586,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73422600
   teams:
@@ -577,7 +595,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73422640
   teams:
@@ -586,5 +604,140 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 73422732
+  teams:
+    home: Dolezal, Vaclav
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 73422784
+  teams:
+    home: Hubka, Miloslav
+    away: Stach, Vojtech
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73422728
+  teams:
+    home: Levicky, Matej
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 73422738
+  teams:
+    home: Ruzicka, Jiri
+    away: Zahradka, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73422662
+  teams:
+    home: Zika, Tadeas
+    away: Cabis, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73422626
+  teams:
+    home: Cabis, Michal
+    away: Szotkowski, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73422774
+  teams:
+    home: Stach, Vojtech
+    away: Smesny, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 73422612
+  teams:
+    home: Sulava, Lubor
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 73422700
+  teams:
+    home: Zahradka, Michal
+    away: Kolar, Vlastimil
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 73422798
+  teams:
+    home: Zientek, Zbynek
+    away: Kolek, Matyas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 73422618
+  teams:
+    home: Regner, Milan
+    away: Dolezal, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73422724
+  teams:
+    home: Schneeberger, Antonin
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:30'
+- id: 73422794
+  teams:
+    home: Sedlacek, Michael
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 73422624
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Hubka, Miloslav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:30'
+- id: 73422702
+  teams:
+    home: Urbaniec, Radim
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:30'
