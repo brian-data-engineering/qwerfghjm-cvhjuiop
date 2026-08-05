@@ -7,17 +7,17 @@ tennis:
     away: Hanfmann, Yannick
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 01:35
 - id: 73252824
   teams:
     home: Darderi, Luciano
     away: Diallo, Gabriel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: result
   time: 01:35
 ice_hockey: []
 table_tennis:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73390602
   teams:
@@ -145,7 +145,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73390742
   teams:
@@ -154,7 +154,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73390776
   teams:
@@ -162,8 +162,8 @@ table_tennis:
     away: Svacha, Ondrej
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 02:30
 - id: 73390722
   teams:
@@ -171,15 +171,15 @@ table_tennis:
     away: Krejci, Richard
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 02:30
 - id: 73390784
   teams:
     home: Sychra, Martin
     away: Zuzanek, Jiri
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 02:30
