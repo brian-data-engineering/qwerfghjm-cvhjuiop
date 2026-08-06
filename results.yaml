@@ -8,7 +8,16 @@ soccer:
     away: 0
   status: result
   time: 00:15
-basketball: []
+basketball:
+- id: 73463230
+  teams:
+    home: Italy
+    away: Spain
+  score:
+    home: 20
+    away: 58
+  status: live
+  time: '11:00'
 tennis:
 - id: 73463276
   teams:
@@ -91,7 +100,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73399108
   teams:
@@ -99,6 +108,51 @@ table_tennis:
     away: Zimmermann, Karl
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 09:00
+- id: 73399110
+  teams:
+    home: Happek, Sven
+    away: Saltzer, Tobias
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 73399112
+  teams:
+    home: Kraus, Luis
+    away: Freund, Timo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 73399114
+  teams:
+    home: Fadeev, Kirill
+    away: Zech, Damian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 73399116
+  teams:
+    home: Mino, Alberto
+    away: Freund, Timo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 73399118
+  teams:
+    home: Kraus, Luis
+    away: Saltzer, Tobias
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '11:30'
