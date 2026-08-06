@@ -39,12 +39,66 @@ tennis:
   time: 01:00
 ice_hockey: []
 table_tennis:
+- id: 73448824
+  teams:
+    home: Cermak, Vladimir
+    away: Wagner, Mark Robin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
 - id: 73399098
   teams:
     home: Fadeev, Kirill
     away: Freund, Timo
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 06:30
+- id: 73399100
+  teams:
+    home: Mino, Alberto
+    away: Zimmermann, Karl
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 73399102
+  teams:
+    home: Zech, Damian
+    away: Saltzer, Tobias
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 73399104
+  teams:
+    home: Happek, Sven
+    away: Kraus, Luis
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73399106
+  teams:
+    home: Fadeev, Kirill
+    away: Mino, Alberto
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 73399108
+  teams:
+    home: Zech, Damian
+    away: Zimmermann, Karl
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 09:00
