@@ -5,9 +5,9 @@ basketball:
     home: Sweden
     away: Finland
   score:
-    home: 33
-    away: 47
-  status: live
+    home: 73
+    away: 68
+  status: recentlyended
   time: '16:00'
 tennis:
 - id: 73252910
@@ -25,7 +25,7 @@ tennis:
     away: Arnaldi, Matteo
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '16:30'
 - id: 73252900
@@ -33,7 +33,7 @@ tennis:
     home: Merida, Daniel
     away: Michelsen, Alex
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '16:30'
@@ -54,16 +54,16 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: live
+  status: result
   time: '15:00'
 - id: 72022158
   teams:
     home: Tappara
     away: Ilves
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: recentlyended
   time: '15:30'
 table_tennis:
 - id: 73448768
@@ -892,7 +892,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73488626
   teams:
@@ -901,7 +901,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73488466
   teams:
@@ -910,7 +910,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73488696
   teams:
@@ -919,7 +919,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73488502
   teams:
@@ -928,5 +928,5 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
