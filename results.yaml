@@ -1,5 +1,32 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73374472
+  teams:
+    home: Lee-Ming Institute of Technology
+    away: Keelung Black Kites
+  score:
+    home: 60
+    away: 66
+  status: result
+  time: 06:30
+- id: 73520872
+  teams:
+    home: Azerbaijan U18
+    away: Macedonia
+  score:
+    home: 64
+    away: 69
+  status: live
+  time: 08:00
+- id: 73520876
+  teams:
+    home: Norway
+    away: Estonia
+  score:
+    home: 53
+    away: 39
+  status: live
+  time: 08:00
 tennis:
 - id: 73252910
   teams:
@@ -109,7 +136,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73448810
   teams:
@@ -334,7 +361,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 73399150
   teams:
@@ -342,6 +369,24 @@ table_tennis:
     away: Zimmermann, Karl
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:00
+- id: 73399152
+  teams:
+    home: Mino, Alberto
+    away: Saltzer, Tobias
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 73520950
+  teams:
+    home: Mino, Alberto
+    away: Kraus, Luis
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 09:15
