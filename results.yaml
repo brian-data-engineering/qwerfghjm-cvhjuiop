@@ -1,6 +1,78 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 72154574
+  teams:
+    home: Abejas
+    away: Astros Jalisco
+  score:
+    home: 59
+    away: 74
+  status: live
+  time: 02:00
+- id: 72154570
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Panteras
+  score:
+    home: 54
+    away: 72
+  status: live
+  time: 02:00
+- id: 72154572
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Soles
+  score:
+    home: 46
+    away: 53
+  status: live
+  time: 02:00
+- id: 72154576
+  teams:
+    home: Santos de San Luis
+    away: El Calor de Cancun
+  score:
+    home: 61
+    away: 49
+  status: live
+  time: 02:00
+- id: 72154578
+  teams:
+    home: Mineros de Zacatecas
+    away: Correcaminos
+  score:
+    home: 67
+    away: 42
+  status: live
+  time: 02:05
+- id: 72154580
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Freseros de Irapuato
+  score:
+    home: 39
+    away: 40
+  status: live
+  time: 02:15
+- id: 72154582
+  teams:
+    home: Fuerza Regia
+    away: Dorados de Chihuahua
+  score:
+    home: 45
+    away: 50
+  status: live
+  time: 02:15
+tennis:
+- id: 73252910
+  teams:
+    home: Tiafoe, Frances
+    away: Rinderknech, Arthur
+  score:
+    home: null
+    away: null
+  status: result
+  time: 01:05
 ice_hockey: []
 table_tennis:
 - id: 73448768
@@ -10,7 +82,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 73448664
   teams:
@@ -19,7 +91,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 73448782
   teams:
@@ -28,5 +100,131 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
+- id: 73448946
+  teams:
+    home: Bartunek, Radek
+    away: Kucirek, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 73448660
+  teams:
+    home: Kulhanek, Pavel
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 73448906
+  teams:
+    home: Vizek, Martin
+    away: Wagner, Mark Robin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 73448786
+  teams:
+    home: Bruzek, Petr
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 73448930
+  teams:
+    home: Sobisek, Martin
+    away: Pycha, Patrik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 73448694
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 73448670
+  teams:
+    home: Dolezal, Vaclav
+    away: Framberk, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 73448810
+  teams:
+    home: Wagner, Mark Robin
+    away: Bayer, Ales
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 73448792
+  teams:
+    home: Bruzek, Petr
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 73448784
+  teams:
+    home: Sobisek, Martin
+    away: Vizek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 73448710
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Kulhanek, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 73448760
+  teams:
+    home: Bayer, Ales
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 73448706
+  teams:
+    home: Framberk, Jan
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 73448852
+  teams:
+    home: Steffan, Jan
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
