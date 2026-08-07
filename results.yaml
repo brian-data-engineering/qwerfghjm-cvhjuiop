@@ -16,9 +16,9 @@ ice_hockey:
     home: HIFK
     away: JYP
   score:
-    home: 1
-    away: 3
-  status: live
+    home: 3
+    away: 5
+  status: recentlyended
   time: '12:00'
 table_tennis:
 - id: 73448768
@@ -505,7 +505,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73488620
   teams:
@@ -514,7 +514,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73488396
   teams:
@@ -523,7 +523,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73488322
   teams:
@@ -532,7 +532,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73488724
   teams:
@@ -541,5 +541,122 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
+- id: 73526620
+  teams:
+    home: Barton, Ales
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 73526616
+  teams:
+    home: Skacelik, Richard
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73526604
+  teams:
+    home: Vejvoda, Viktor
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73526606
+  teams:
+    home: Hofman, Denis
+    away: Sebera, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73526668
+  teams:
+    home: Just, Frantisek
+    away: Vesely, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73526626
+  teams:
+    home: Kolenciak, Ivan
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '13:30'
+- id: 73526618
+  teams:
+    home: Simecek, Jakub
+    away: Petrek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 73526622
+  teams:
+    home: Urbaniec, Radim
+    away: Simecek, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73488702
+  teams:
+    home: Chalupa, Michal
+    away: Kern, Lukas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '14:00'
+- id: 73488660
+  teams:
+    home: Grohsgott, Jiri
+    away: Svec, Jiri
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '14:00'
+- id: 73488452
+  teams:
+    home: Mecl Jr, Jan
+    away: Kanera, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73488392
+  teams:
+    home: Polasek, Radovan
+    away: Tomica, Daniel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73488478
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
