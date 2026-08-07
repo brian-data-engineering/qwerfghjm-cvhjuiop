@@ -1,68 +1,5 @@
 soccer: []
-basketball:
-- id: 72154574
-  teams:
-    home: Abejas
-    away: Astros Jalisco
-  score:
-    home: 83
-    away: 95
-  status: result
-  time: 02:00
-- id: 72154570
-  teams:
-    home: Gambusinos De Fresnillo
-    away: Panteras
-  score:
-    home: 69
-    away: 88
-  status: result
-  time: 02:00
-- id: 72154572
-  teams:
-    home: Lobos Plateados de la Buap
-    away: Soles
-  score:
-    home: 73
-    away: 80
-  status: result
-  time: 02:00
-- id: 72154576
-  teams:
-    home: Santos de San Luis
-    away: El Calor de Cancun
-  score:
-    home: 82
-    away: 75
-  status: result
-  time: 02:00
-- id: 72154578
-  teams:
-    home: Mineros de Zacatecas
-    away: Correcaminos
-  score:
-    home: 98
-    away: 76
-  status: result
-  time: 02:05
-- id: 72154580
-  teams:
-    home: Diablos Rojos Del Mexico
-    away: Freseros de Irapuato
-  score:
-    home: 82
-    away: 86
-  status: result
-  time: 02:15
-- id: 72154582
-  teams:
-    home: Fuerza Regia
-    away: Dorados de Chihuahua
-  score:
-    home: 86
-    away: 92
-  status: result
-  time: 02:15
+basketball: []
 tennis:
 - id: 73252910
   teams:
@@ -165,6 +102,15 @@ table_tennis:
     away: 0
   status: result
   time: 01:30
+- id: 73448854
+  teams:
+    home: Kucirek, Ondrej
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 01:30
 - id: 73448810
   teams:
     home: Wagner, Mark Robin
@@ -244,7 +190,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73488420
   teams:
@@ -271,7 +217,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73488440
   teams:
@@ -280,7 +226,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73488670
   teams:
@@ -289,7 +235,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73488402
   teams:
@@ -298,16 +244,16 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73488622
   teams:
     home: Szwarc, Matej
     away: Polasek, Radovan
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 06:30
 - id: 73488436
   teams:
@@ -315,6 +261,87 @@ table_tennis:
     away: Cabak, Josef
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:30
+- id: 73488324
+  teams:
+    home: Byrtus, Samuel
+    away: Vavrecka, Radomir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 73488666
+  teams:
+    home: Pavelka, Radim
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 73488424
+  teams:
+    home: Regner, Michal
+    away: Hofman, Denis
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 73488460
+  teams:
+    home: Urbaniec, Radim
+    away: Saleny, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 73488710
+  teams:
+    home: Vavrecka, Michal
+    away: Szwarc, Matej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 73399144
+  teams:
+    home: Mino, Alberto
+    away: Kraus, Luis
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 73399146
+  teams:
+    home: Zimmermann, Karl
+    away: Freund, Timo
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:15
+- id: 73399148
+  teams:
+    home: Zech, Damian
+    away: Happek, Sven
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 73399150
+  teams:
+    home: Fadeev, Kirill
+    away: Zimmermann, Karl
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:00
