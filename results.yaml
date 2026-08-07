@@ -14,8 +14,8 @@ basketball:
     home: Lithuania
     away: Latvia
   score:
-    home: 14
-    away: 27
+    home: 43
+    away: 60
   status: live
   time: '18:30'
 - id: 73374472
@@ -95,8 +95,8 @@ basketball:
     home: Greece
     away: Lithuania
   score:
-    home: 33
-    away: 29
+    home: 62
+    away: 62
   status: live
   time: '18:00'
 - id: 73526506
@@ -131,9 +131,9 @@ basketball:
     home: Ireland
     away: Denmark
   score:
-    home: 35
-    away: 36
-  status: live
+    home: 61
+    away: 68
+  status: recentlyended
   time: '18:00'
 - id: 72154574
   teams:
@@ -251,7 +251,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73252900
   teams:
@@ -260,8 +260,26 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 73252912
+  teams:
+    home: Bergs, Zizou
+    away: Shelton, Ben
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:00'
+- id: 73252890
+  teams:
+    home: Van de Zandschulp, Botic
+    away: Hurkacz, Hubert
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:10'
 ice_hockey:
 - id: 72022152
   teams:
@@ -1207,7 +1225,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73488640
   teams:
@@ -1216,7 +1234,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73488384
   teams:
@@ -1225,7 +1243,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73488428
   teams:
@@ -1234,5 +1252,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:30'
