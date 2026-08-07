@@ -7,8 +7,233 @@ basketball:
   score:
     home: 73
     away: 68
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 73060140
+  teams:
+    home: Lithuania
+    away: Latvia
+  score:
+    home: 14
+    away: 27
+  status: live
+  time: '18:30'
+- id: 73374472
+  teams:
+    home: Lee-Ming Institute of Technology
+    away: Keelung Black Kites
+  score:
+    home: 60
+    away: 66
+  status: result
+  time: 06:30
+- id: 73374482
+  teams:
+    home: Fu Jen Catholic University
+    away: National Taiwan University of Arts
+  score:
+    home: 77
+    away: 69
+  status: result
+  time: 08:30
+- id: 73374484
+  teams:
+    home: Bank of Taiwan
+    away: National Formosa Uni
+  score:
+    home: 92
+    away: 68
+  status: result
+  time: '10:30'
+- id: 73520872
+  teams:
+    home: Azerbaijan U18
+    away: Macedonia
+  score:
+    home: 75
+    away: 73
+  status: result
+  time: 08:00
+- id: 73520876
+  teams:
+    home: Norway
+    away: Estonia
+  score:
+    home: 78
+    away: 54
+  status: result
+  time: 08:00
+- id: 73520916
+  teams:
+    home: Israel
+    away: Iceland
+  score:
+    home: 89
+    away: 69
+  status: result
+  time: '10:30'
+- id: 73520918
+  teams:
+    home: Austria
+    away: Great Britain
+  score:
+    home: 61
+    away: 49
+  status: result
+  time: '13:00'
+- id: 73520912
+  teams:
+    home: Romania
+    away: Bulgaria
+  score:
+    home: 69
+    away: 51
+  status: result
+  time: '15:30'
+- id: 73520914
+  teams:
+    home: Greece
+    away: Lithuania
+  score:
+    home: 33
+    away: 29
+  status: live
+  time: '18:00'
+- id: 73526506
+  teams:
+    home: Portugal
+    away: Ukraine
+  score:
+    home: 66
+    away: 46
+  status: result
+  time: '10:30'
+- id: 73520506
+  teams:
+    home: Slovakia
+    away: Luxembourg
+  score:
+    home: 69
+    away: 50
+  status: result
+  time: '13:00'
+- id: 73520512
+  teams:
+    home: Switzerland
+    away: Netherlands
+  score:
+    home: 46
+    away: 47
+  status: result
+  time: '15:30'
+- id: 73520514
+  teams:
+    home: Ireland
+    away: Denmark
+  score:
+    home: 35
+    away: 36
+  status: live
+  time: '18:00'
+- id: 72154574
+  teams:
+    home: Abejas
+    away: Astros Jalisco
+  score:
+    home: 83
+    away: 95
+  status: result
+  time: 02:00
+- id: 72154570
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Panteras
+  score:
+    home: 69
+    away: 88
+  status: result
+  time: 02:00
+- id: 72154572
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Soles
+  score:
+    home: 73
+    away: 80
+  status: result
+  time: 02:00
+- id: 72154576
+  teams:
+    home: Santos de San Luis
+    away: El Calor de Cancun
+  score:
+    home: 82
+    away: 75
+  status: result
+  time: 02:00
+- id: 72154578
+  teams:
+    home: Mineros de Zacatecas
+    away: Correcaminos
+  score:
+    home: 98
+    away: 76
+  status: result
+  time: 02:05
+- id: 72154580
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Freseros de Irapuato
+  score:
+    home: 82
+    away: 86
+  status: result
+  time: 02:15
+- id: 72154582
+  teams:
+    home: Fuerza Regia
+    away: Dorados de Chihuahua
+  score:
+    home: 86
+    away: 92
+  status: result
+  time: 02:15
+- id: 72449542
+  teams:
+    home: Kia Picanto
+    away: Nlex Road Warriors
+  score:
+    home: 114
+    away: 109
+  status: result
+  time: 09:15
+- id: 72449462
+  teams:
+    home: Magnolia Hotshots
+    away: Meralco
+  score:
+    home: 105
+    away: 88
+  status: result
+  time: '11:30'
+- id: 68096474
+  teams:
+    home: Minnesota
+    away: LA Sparks
+  score:
+    home: 82
+    away: 89
+  status: result
+  time: 01:00
+- id: 68096610
+  teams:
+    home: Portland Fire
+    away: Toronto Tempo
+  score:
+    home: 97
+    away: 83
+  status: result
+  time: 02:00
 tennis:
 - id: 73252910
   teams:
@@ -24,18 +249,18 @@ tennis:
     home: Griekspoor, Tallon
     away: Arnaldi, Matteo
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '16:30'
 - id: 73252900
   teams:
     home: Merida, Daniel
     away: Michelsen, Alex
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: recentlyended
   time: '16:30'
 ice_hockey:
 - id: 72022152
@@ -63,7 +288,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 table_tennis:
 - id: 73448768
@@ -930,3 +1155,84 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73488450
+  teams:
+    home: Bosak, Vitezslav
+    away: Adam, Radim
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73526378
+  teams:
+    home: Darin, Kyryl
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73488644
+  teams:
+    home: Gebek, Evald
+    away: Hrabec, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73488498
+  teams:
+    home: Sebera, Petr
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 73488692
+  teams:
+    home: Stefek, Martin
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 73488624
+  teams:
+    home: Blejchar, Marek
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:30'
+- id: 73488640
+  teams:
+    home: Bruzek, Petr
+    away: Novotny, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 73488384
+  teams:
+    home: Janata, Tomas
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:30'
+- id: 73488428
+  teams:
+    home: Pusch, Frantisek
+    away: Pikous, Marcel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:30'
