@@ -18,8 +18,26 @@ ice_hockey:
   score:
     home: 3
     away: 5
-  status: recentlyended
+  status: result
   time: '12:00'
+- id: 73242508
+  teams:
+    home: Pardubice
+    away: Zilina
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '15:00'
+- id: 72022158
+  teams:
+    home: Tappara
+    away: Ilves
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73448768
   teams:
@@ -586,7 +604,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73526626
   teams:
@@ -595,7 +613,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73526618
   teams:
@@ -620,18 +638,18 @@ table_tennis:
     home: Chalupa, Michal
     away: Kern, Lukas
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '14:00'
 - id: 73488660
   teams:
     home: Grohsgott, Jiri
     away: Svec, Jiri
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '14:00'
 - id: 73488452
   teams:
@@ -640,7 +658,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73488392
   teams:
@@ -649,7 +667,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73488478
   teams:
@@ -658,5 +676,140 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 73488676
+  teams:
+    home: Holub, Marek
+    away: Unzeitig, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 73488412
+  teams:
+    home: Horak, David
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 73488632
+  teams:
+    home: Kasinski, Zdenek
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 73488350
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Rose, Radek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 73488344
+  teams:
+    home: Kratochvil, Michal
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 73488394
+  teams:
+    home: Kanera, Jan
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 73488714
+  teams:
+    home: Kern, Lukas
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73488418
+  teams:
+    home: Kolenic, Tibor
+    away: Horak, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 73488688
+  teams:
+    home: Svec, Jiri
+    away: Kasinski, Zdenek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73488338
+  teams:
+    home: Tomica, Daniel
+    away: Kratochvil, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 73488434
+  teams:
+    home: Briza, Frantisek
+    away: Trinta, Mihail
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73488382
+  teams:
+    home: Grundel, Matej
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:30'
+- id: 73488500
+  teams:
+    home: Rose, Radek
+    away: Mecl Jr, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73488674
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Grohsgott, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73488650
+  teams:
+    home: Unzeitig, Daniel
+    away: Chalupa, Michal
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:30'
