@@ -4,9 +4,9 @@ soccer:
     home: Independiente Rivadavia
     away: Estudiantes Rio Cuarto
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: 00:45
 basketball: []
 tennis:
@@ -16,17 +16,17 @@ tennis:
     away: Tirante, Thiago Agustin
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 00:25
 - id: 73252902
   teams:
     home: Tien, Learner
     away: Paul, Tommy
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 01:10
 ice_hockey: []
 table_tennis:
@@ -91,7 +91,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73488694
   teams:
@@ -100,5 +100,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
