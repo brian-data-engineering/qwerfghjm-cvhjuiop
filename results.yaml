@@ -13,8 +13,8 @@ soccer:
     home: Atletico Tucuman
     away: CA Sarmiento Junin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 2
   status: live
   time: '17:45'
 - id: 73265150
@@ -22,7 +22,7 @@ soccer:
     home: Deportivo Riestra
     away: Estudiantes de la Plata
   score:
-    home: 1
+    home: 2
     away: 0
   status: live
   time: '17:45'
@@ -36,6 +36,195 @@ basketball:
     away: 62
   status: result
   time: '16:00'
+- id: 73509206
+  teams:
+    home: Spain
+    away: Serbia
+  score:
+    home: 43
+    away: 30
+  status: live
+  time: '18:30'
+- id: 73509212
+  teams:
+    home: Latvia
+    away: Poland
+  score:
+    home: 56
+    away: 67
+  status: result
+  time: '11:00'
+- id: 73509214
+  teams:
+    home: Italy
+    away: Belgium
+  score:
+    home: 55
+    away: 62
+  status: result
+  time: '13:30'
+- id: 73509220
+  teams:
+    home: Slovenia
+    away: Germany
+  score:
+    home: 49
+    away: 65
+  status: result
+  time: '16:15'
+- id: 73509222
+  teams:
+    home: Croatia
+    away: Czech Republic
+  score:
+    home: 34
+    away: 34
+  status: live
+  time: '18:45'
+- id: 73509216
+  teams:
+    home: Sweden
+    away: Montenegro
+  score:
+    home: 66
+    away: 65
+  status: result
+  time: '11:15'
+- id: 73509218
+  teams:
+    home: Hungary
+    away: Turkey
+  score:
+    home: 56
+    away: 58
+  status: result
+  time: '13:45'
+- id: 73520878
+  teams:
+    home: Estonia
+    away: Azerbaijan U18
+  score:
+    home: 71
+    away: 74
+  status: result
+  time: 08:00
+- id: 73520880
+  teams:
+    home: Macedonia
+    away: Norway
+  score:
+    home: 67
+    away: 41
+  status: result
+  time: 08:00
+- id: 73537706
+  teams:
+    home: Romania
+    away: Lithuania
+  score:
+    home: 78
+    away: 48
+  status: result
+  time: '15:30'
+- id: 73537688
+  teams:
+    home: Israel
+    away: Austria
+  score:
+    home: 65
+    away: 53
+  status: live
+  time: '18:00'
+- id: 73538086
+  teams:
+    home: Iceland
+    away: Great Britain
+  score:
+    home: 102
+    away: 77
+  status: result
+  time: '10:30'
+- id: 73538082
+  teams:
+    home: Bulgaria
+    away: Greece
+  score:
+    home: 65
+    away: 67
+  status: result
+  time: '13:00'
+- id: 73538012
+  teams:
+    home: Ukraine
+    away: Luxembourg
+  score:
+    home: 70
+    away: 42
+  status: result
+  time: '10:30'
+- id: 73537948
+  teams:
+    home: Switzerland
+    away: Ireland
+  score:
+    home: 47
+    away: 79
+  status: result
+  time: '13:00'
+- id: 73537940
+  teams:
+    home: Portugal
+    away: Slovakia
+  score:
+    home: 62
+    away: 55
+  status: result
+  time: '15:30'
+- id: 73537938
+  teams:
+    home: Netherlands
+    away: Denmark
+  score:
+    home: 45
+    away: 57
+  status: live
+  time: '18:00'
+- id: 72449544
+  teams:
+    home: Talk N Text
+    away: Titan Ultra Giant Risers
+  score:
+    home: 114
+    away: 80
+  status: result
+  time: 09:15
+- id: 72449546
+  teams:
+    home: Macau Giant Pandas
+    away: S.M. Beermen
+  score:
+    home: 79
+    away: 131
+  status: result
+  time: '11:30'
+- id: 68096062
+  teams:
+    home: Dallas
+    away: Golden State
+  score:
+    home: 76
+    away: 94
+  status: result
+  time: 01:30
+- id: 68096370
+  teams:
+    home: Minnesota
+    away: Las Vegas Aces
+  score:
+    home: 98
+    away: 87
+  status: recentlyended
+  time: '17:00'
 tennis:
 - id: 73252888
   teams:
@@ -61,9 +250,18 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:30'
+- id: 73252880
+  teams:
+    home: Rinderknech, Arthur
+    away: Nakashima, Brandon
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:10'
 ice_hockey: []
 table_tennis:
 - id: 73488634
