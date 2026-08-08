@@ -26,6 +26,15 @@ soccer:
     away: 0
   status: result
   time: '17:45'
+- id: 73265160
+  teams:
+    home: CA Tigre
+    away: CA River Plate (Arg)
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 73509204
   teams:
@@ -43,7 +52,7 @@ basketball:
   score:
     home: 79
     away: 56
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73509212
   teams:
@@ -77,9 +86,9 @@ basketball:
     home: Croatia
     away: Czech Republic
   score:
-    home: 55
-    away: 60
-  status: live
+    home: 66
+    away: 73
+  status: result
   time: '18:45'
 - id: 73509216
   teams:
@@ -187,7 +196,7 @@ basketball:
   score:
     home: 68
     away: 71
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 72449544
   teams:
@@ -230,8 +239,8 @@ basketball:
     home: Chicago
     away: Indiana
   score:
-    home: 42
-    away: 53
+    home: 79
+    away: 85
   status: live
   time: '19:30'
 tennis:
@@ -267,7 +276,7 @@ tennis:
     home: Rinderknech, Arthur
     away: Nakashima, Brandon
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '19:10'
