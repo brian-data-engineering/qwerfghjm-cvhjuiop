@@ -8,15 +8,33 @@ soccer:
     away: 1
   status: result
   time: 00:45
+- id: 73265152
+  teams:
+    home: Atletico Tucuman
+    away: CA Sarmiento Junin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:45'
+- id: 73265150
+  teams:
+    home: Deportivo Riestra
+    away: Estudiantes de la Plata
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:45'
 basketball:
 - id: 73509204
   teams:
     home: France
     away: Finland
   score:
-    home: 59
-    away: 48
-  status: live
+    home: 82
+    away: 62
+  status: result
   time: '16:00'
 tennis:
 - id: 73252888
@@ -43,7 +61,7 @@ tennis:
     away: Darderi, Luciano
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '16:30'
 ice_hockey: []
