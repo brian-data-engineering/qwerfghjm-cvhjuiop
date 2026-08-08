@@ -8,7 +8,16 @@ soccer:
     away: 1
   status: result
   time: 00:45
-basketball: []
+basketball:
+- id: 73509204
+  teams:
+    home: France
+    away: Finland
+  score:
+    home: 41
+    away: 32
+  status: live
+  time: '16:00'
 tennis:
 - id: 73252888
   teams:
@@ -28,6 +37,15 @@ tennis:
     away: 0
   status: result
   time: 01:10
+- id: 73252862
+  teams:
+    home: Borges, Nuno
+    away: Darderi, Luciano
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
 ice_hockey: []
 table_tennis:
 - id: 73488634
