@@ -17,7 +17,16 @@ soccer:
     away: 0
   status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 73412632
+  teams:
+    home: Fu Jen Catholic University
+    away: Lee-Ming Institute of Technology
+  score:
+    home: 31
+    away: 36
+  status: live
+  time: 04:30
 tennis:
 - id: 73252858
   teams:
@@ -35,7 +44,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 01:50
 ice_hockey: []
 table_tennis:
