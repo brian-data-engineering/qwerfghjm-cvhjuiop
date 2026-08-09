@@ -41,9 +41,9 @@ basketball:
     home: Finland
     away: Serbia
   score:
-    home: 66
-    away: 42
-  status: live
+    home: 75
+    away: 52
+  status: result
   time: '16:00'
 tennis:
 - id: 73252858
@@ -70,9 +70,18 @@ tennis:
     away: Merida, Daniel
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:30'
+- id: 73252868
+  teams:
+    home: Tien, Learner
+    away: Tirante, Thiago Agustin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 ice_hockey:
 - id: 73363930
   teams:
