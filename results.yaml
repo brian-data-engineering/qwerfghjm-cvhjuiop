@@ -55,7 +55,16 @@ tennis:
     away: 0
   status: result
   time: 01:50
-ice_hockey: []
+ice_hockey:
+- id: 73363930
+  teams:
+    home: Yuzhny
+    away: HC Akm Tula
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:30'
 table_tennis:
 - id: 73520742
   teams:
@@ -496,7 +505,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73540890
   teams:
@@ -505,7 +514,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73541134
   teams:
@@ -514,7 +523,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73541268
   teams:
@@ -523,7 +532,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73541008
   teams:
@@ -532,34 +541,34 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73540950
   teams:
     home: Gireth, Pavel
     away: Kanera, Jan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
 - id: 73541030
   teams:
     home: Janata, Tomas
     away: Vesely, Michal
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
 - id: 73541158
   teams:
     home: Vavrecka, Michal
     away: Prikasky, Libor
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:30'
 - id: 73540922
   teams:
@@ -567,15 +576,60 @@ table_tennis:
     away: Dousek, Tomas
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '10:30'
 - id: 73540870
   teams:
     home: Zuzanek, Jiri
     away: Vinter, Tomas
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '10:30'
+- id: 73540932
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Gireth, Pavel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73541084
+  teams:
+    home: Paril, Ondrej
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 73540912
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 73541272
+  teams:
+    home: Sidletskyi, David
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73541064
+  teams:
+    home: Stolfa, Jakub
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
