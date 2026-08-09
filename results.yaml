@@ -415,7 +415,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73540896
   teams:
@@ -433,7 +433,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73540874
   teams:
@@ -449,9 +449,9 @@ table_tennis:
     home: Adamczyk, Radek
     away: Luksa, Zdenek
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:30
 - id: 73540942
   teams:
@@ -460,7 +460,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73541052
   teams:
@@ -469,23 +469,23 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73540882
   teams:
     home: Martinak, Lukas
     away: Machander, Dalimil
   score:
-    home: 0
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 08:30
 - id: 73541270
   teams:
     home: Vinter, Tomas
     away: Sidletskyi, David
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 08:30
