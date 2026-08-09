@@ -25,8 +25,17 @@ basketball:
   score:
     home: 64
     away: 68
-  status: recentlyended
+  status: result
   time: 04:30
+- id: 73412560
+  teams:
+    home: Bank of Taiwan
+    away: National Taiwan University of Arts
+  score:
+    home: 61
+    away: 28
+  status: live
+  time: 06:20
 tennis:
 - id: 73252858
   teams:
@@ -215,43 +224,178 @@ table_tennis:
     home: Banot, Petr
     away: Adamczyk, Radek
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:00
 - id: 73541130
   teams:
     home: Pleskot, Jan
     away: Havel, Ladislav
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 06:00
 - id: 73540886
   teams:
     home: Stefek, Martin
     away: Didi, Julius
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 06:00
 - id: 73540914
   teams:
     home: Unzeitig, Daniel
     away: Martinak, Lukas
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 06:00
 - id: 73540876
   teams:
     home: Zuzanek, Jiri
     away: Vinter, Tomas
   score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:00
+- id: 73541082
+  teams:
+    home: Barta, Miroslav
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 73541264
+  teams:
+    home: Pusch, Frantisek
+    away: Sidletskyi, David
+  score:
     home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 73540872
+  teams:
+    home: Simecek, Jakub
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 73540894
+  teams:
+    home: Tacinec, Martin
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 73541066
+  teams:
+    home: Vavrecka, David
+    away: Luksa, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 73541166
+  teams:
+    home: Adamczyk, Radek
+    away: Vavrecka, David
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 07:00
+- id: 73540860
+  teams:
+    home: Didi, Julius
+    away: Tacinec, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 07:00
+- id: 73541108
+  teams:
+    home: Havel, Ladislav
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 07:00
+- id: 73540924
+  teams:
+    home: Martinak, Lukas
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 73540968
+  teams:
+    home: Vinter, Tomas
+    away: Pusch, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 73541010
+  teams:
+    home: Luksa, Zdenek
+    away: Banot, Petr
+  score:
+    home: 0
     away: 0
   status: live
-  time: 06:00
+  time: 07:30
+- id: 73540864
+  teams:
+    home: Machander, Dalimil
+    away: Unzeitig, Daniel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 07:30
+- id: 73540868
+  teams:
+    home: Regner, Tomas
+    away: Stefek, Martin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 07:30
+- id: 73541274
+  teams:
+    home: Sidletskyi, David
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 07:30
+- id: 73541124
+  teams:
+    home: Sulava, Lubor
+    away: Pleskot, Jan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 07:30
