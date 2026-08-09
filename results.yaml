@@ -23,9 +23,9 @@ basketball:
     home: Fu Jen Catholic University
     away: Lee-Ming Institute of Technology
   score:
-    home: 31
-    away: 36
-  status: live
+    home: 64
+    away: 68
+  status: recentlyended
   time: 04:30
 tennis:
 - id: 73252858
@@ -210,3 +210,48 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 73541164
+  teams:
+    home: Banot, Petr
+    away: Adamczyk, Radek
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
+- id: 73541130
+  teams:
+    home: Pleskot, Jan
+    away: Havel, Ladislav
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
+- id: 73540886
+  teams:
+    home: Stefek, Martin
+    away: Didi, Julius
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
+- id: 73540914
+  teams:
+    home: Unzeitig, Daniel
+    away: Martinak, Lukas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
+- id: 73540876
+  teams:
+    home: Zuzanek, Jiri
+    away: Vinter, Tomas
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 06:00
