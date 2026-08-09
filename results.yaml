@@ -33,16 +33,16 @@ soccer:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '20:45'
 - id: 73265164
   teams:
     home: Gimnasia Y Esgrima La Plata
     away: Barracas Central
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '20:45'
 basketball:
 - id: 73412632
@@ -268,7 +268,7 @@ tennis:
     away: Shelton, Ben
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '22:10'
 ice_hockey:
