@@ -1,401 +1,176 @@
 soccer:
-- id: 73265154
+- id: 73265144
   teams:
-    home: Independiente Rivadavia
-    away: Estudiantes Rio Cuarto
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 00:45
-- id: 73265152
-  teams:
-    home: Atletico Tucuman
-    away: CA Sarmiento Junin
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '17:45'
-- id: 73265150
-  teams:
-    home: Deportivo Riestra
-    away: Estudiantes de la Plata
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '17:45'
-- id: 73265160
-  teams:
-    home: CA Tigre
-    away: CA River Plate (Arg)
-  score:
-    home: 1
-    away: 0
-  status: result
-  time: '20:00'
-- id: 73265146
-  teams:
-    home: Boca Juniors
-    away: Velez Sarsfield
-  score:
-    home: 1
-    away: 1
-  status: live
-  time: '22:15'
-- id: 67118568
-  teams:
-    home: Agropecuario Argentino
-    away: CA Guemes
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '18:00'
-- id: 67117864
-  teams:
-    home: Almirante Brown
-    away: Club Ciudad de Bolivar
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:00'
-- id: 67117860
-  teams:
-    home: CA Estudiantes
-    away: Deportivo Madryn
+    home: CA Independiente Avellaneda
+    away: CA Platense
   score:
     home: 0
     away: 1
-  status: result
-  time: '18:00'
-- id: 67118570
+  status: live
+  time: 00:30
+- id: 73265140
   teams:
-    home: Atletico de Rafaela
-    away: CA Chacarita Juniors
+    home: Instituto AC Cordoba
+    away: Gimnasia y Esgrima Mendoza
   score:
     home: 1
     away: 0
-  status: result
-  time: '19:00'
-basketball:
-- id: 73509204
-  teams:
-    home: France
-    away: Finland
-  score:
-    home: 82
-    away: 62
-  status: result
-  time: '16:00'
-- id: 73509206
-  teams:
-    home: Spain
-    away: Serbia
-  score:
-    home: 79
-    away: 56
-  status: result
-  time: '18:30'
-- id: 73509212
-  teams:
-    home: Latvia
-    away: Poland
-  score:
-    home: 56
-    away: 67
-  status: result
-  time: '11:00'
-- id: 73509214
-  teams:
-    home: Italy
-    away: Belgium
-  score:
-    home: 55
-    away: 62
-  status: result
-  time: '13:30'
-- id: 73509220
-  teams:
-    home: Slovenia
-    away: Germany
-  score:
-    home: 49
-    away: 65
-  status: result
-  time: '16:15'
-- id: 73509222
-  teams:
-    home: Croatia
-    away: Czech Republic
-  score:
-    home: 66
-    away: 73
-  status: result
-  time: '18:45'
-- id: 73509216
-  teams:
-    home: Sweden
-    away: Montenegro
-  score:
-    home: 66
-    away: 65
-  status: result
-  time: '11:15'
-- id: 73509218
-  teams:
-    home: Hungary
-    away: Turkey
-  score:
-    home: 56
-    away: 58
-  status: result
-  time: '13:45'
-- id: 73520878
-  teams:
-    home: Estonia
-    away: Azerbaijan U18
-  score:
-    home: 71
-    away: 74
-  status: result
-  time: 08:00
-- id: 73520880
-  teams:
-    home: Macedonia
-    away: Norway
-  score:
-    home: 67
-    away: 41
-  status: result
-  time: 08:00
-- id: 73537706
-  teams:
-    home: Romania
-    away: Lithuania
-  score:
-    home: 78
-    away: 48
-  status: result
-  time: '15:30'
-- id: 73537688
-  teams:
-    home: Israel
-    away: Austria
-  score:
-    home: 78
-    away: 63
-  status: result
-  time: '18:00'
-- id: 73538086
-  teams:
-    home: Iceland
-    away: Great Britain
-  score:
-    home: 102
-    away: 77
-  status: result
-  time: '10:30'
-- id: 73538082
-  teams:
-    home: Bulgaria
-    away: Greece
-  score:
-    home: 65
-    away: 67
-  status: result
-  time: '13:00'
-- id: 73538012
-  teams:
-    home: Ukraine
-    away: Luxembourg
-  score:
-    home: 70
-    away: 42
-  status: result
-  time: '10:30'
-- id: 73537948
-  teams:
-    home: Switzerland
-    away: Ireland
-  score:
-    home: 47
-    away: 79
-  status: result
-  time: '13:00'
-- id: 73537940
-  teams:
-    home: Portugal
-    away: Slovakia
-  score:
-    home: 62
-    away: 55
-  status: result
-  time: '15:30'
-- id: 73537938
-  teams:
-    home: Netherlands
-    away: Denmark
-  score:
-    home: 68
-    away: 71
-  status: result
-  time: '18:00'
-- id: 72449544
-  teams:
-    home: Talk N Text
-    away: Titan Ultra Giant Risers
-  score:
-    home: 114
-    away: 80
-  status: result
-  time: 09:15
-- id: 72449546
-  teams:
-    home: Macau Giant Pandas
-    away: S.M. Beermen
-  score:
-    home: 79
-    away: 131
-  status: result
-  time: '11:30'
-- id: 68096062
-  teams:
-    home: Dallas
-    away: Golden State
-  score:
-    home: 76
-    away: 94
-  status: result
-  time: 01:30
-- id: 68096370
-  teams:
-    home: Minnesota
-    away: Las Vegas Aces
-  score:
-    home: 98
-    away: 87
-  status: result
-  time: '17:00'
-- id: 68096444
-  teams:
-    home: Chicago
-    away: Indiana
-  score:
-    home: 86
-    away: 90
-  status: result
-  time: '19:30'
+  status: live
+  time: 00:30
+basketball: []
 tennis:
-- id: 73252888
+- id: 73252858
   teams:
-    home: Popyrin, Alexei
-    away: Tirante, Thiago Agustin
+    home: Lehecka, Jiri
+    away: Jodar, Rafael
   score:
     home: 0
     away: 2
   status: result
-  time: 00:25
-- id: 73252902
+  time: 00:10
+- id: 73252860
   teams:
-    home: Tien, Learner
-    away: Paul, Tommy
+    home: Fils, Arthur
+    away: Norrie, Cameron
   score:
-    home: 2
+    home: 0
     away: 0
-  status: result
-  time: 01:10
-- id: 73252862
-  teams:
-    home: Borges, Nuno
-    away: Darderi, Luciano
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '16:30'
-- id: 73252880
-  teams:
-    home: Rinderknech, Arthur
-    away: Nakashima, Brandon
-  score:
-    home: 1
-    away: 1
   status: live
-  time: '19:10'
+  time: 01:50
 ice_hockey: []
 table_tennis:
-- id: 73488634
+- id: 73520742
   teams:
-    home: Dolezal, Vaclav
-    away: Kosar, Vaclav
+    home: Hofman, Denis
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:00
+- id: 73520794
+  teams:
+    home: Plachy, Jiri
+    away: Byrtus, Samuel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:00
+- id: 73520770
+  teams:
+    home: Trefny, Jan
+    away: Oborny, Dominik
   score:
     home: 3
     away: 1
   status: result
   time: 00:00
-- id: 73488456
+- id: 73520680
   teams:
-    home: Kolar, Milan
-    away: Svoboda, Adam
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:00
-- id: 73488400
-  teams:
-    home: Sobisek, Martin
-    away: Chlebecek, Marek
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 00:00
-- id: 73488320
-  teams:
-    home: Briza, Frantisek
-    away: Babicka, Lukas
+    home: Darin, Kyryl
+    away: Heczko, Marcel
   score:
     home: 1
     away: 3
   status: result
   time: 00:30
-- id: 73488658
+- id: 73520796
   teams:
-    home: Havel, Ladislav
-    away: Sulava, Lubor
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:30
-- id: 73488346
-  teams:
-    home: Pycha, Patrik
-    away: Vizek, Martin
+    home: Heczko, David
+    away: Walek, Adrian
   score:
     home: 2
     away: 3
   status: result
   time: 00:30
-- id: 73488448
+- id: 73520828
   teams:
-    home: Chlebecek, Marek
-    away: Zmuda, Petr
+    home: Regner, Michal
+    away: Pikous, Marcel
   score:
-    home: 3
-    away: 2
+    home: 0
+    away: 3
   status: result
-  time: 01:00
-- id: 73488694
+  time: 00:30
+- id: 73520812
   teams:
-    home: Kosar, Vaclav
-    away: Pleskot, Jan
+    home: Byrtus, Samuel
+    away: Postelt, Vladimir
   score:
-    home: 1
+    home: 2
     away: 3
   status: result
   time: 01:00
+- id: 73520748
+  teams:
+    home: Oborny, Dominik
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 73520772
+  teams:
+    home: Sychra, Martin
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 73520670
+  teams:
+    home: Heczko, Marcel
+    away: Trefny, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 01:30
+- id: 73520684
+  teams:
+    home: Pikous, Marcel
+    away: Hofman, Denis
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 01:30
+- id: 73520774
+  teams:
+    home: Walek, Adrian
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 73520780
+  teams:
+    home: Byrtus, Samuel
+    away: Heczko, David
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 02:00
+- id: 73520818
+  teams:
+    home: Oborny, Dominik
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 02:00
+- id: 73520702
+  teams:
+    home: Sychra, Martin
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 02:00
