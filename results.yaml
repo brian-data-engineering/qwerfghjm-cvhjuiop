@@ -63,7 +63,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 table_tennis:
 - id: 73520742
@@ -874,7 +874,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73541076
   teams:
@@ -883,7 +883,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73540930
   teams:
@@ -892,7 +892,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73541266
   teams:
@@ -901,7 +901,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73541040
   teams:
@@ -910,16 +910,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73574342
   teams:
     home: Kanera, Jan
     away: Gireth, Pavel
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '13:00'
 - id: 73574586
   teams:
@@ -927,15 +927,87 @@ table_tennis:
     away: Zika, Tadeas
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '13:00'
 - id: 73574338
   teams:
     home: Sidletskyi, David
     away: Vinter, Tomas
   score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73574588
+  teams:
+    home: Dousek, Tomas
+    away: Cabis, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '13:30'
+- id: 73574344
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Mecl Jr, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '13:30'
+- id: 73574340
+  teams:
+    home: Pusch, Frantisek
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73541004
+  teams:
+    home: Blejchar, Marek
+    away: Milkov, Tomas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:00'
+- id: 73540880
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Biolek, Martin
+  score:
     home: 1
     away: 0
   status: live
-  time: '13:00'
+  time: '14:00'
+- id: 73551686
+  teams:
+    home: Regner, Milan
+    away: Kosar, Vaclav
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:00'
+- id: 73540938
+  teams:
+    home: Sebera, Petr
+    away: Hofman, Denis
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:00'
+- id: 73541114
+  teams:
+    home: Walek, Adrian
+    away: Heczko, David
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:00'
