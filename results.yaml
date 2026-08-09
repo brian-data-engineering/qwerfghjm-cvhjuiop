@@ -61,7 +61,7 @@ basketball:
   score:
     home: 46
     away: 82
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73552240
   teams:
@@ -242,7 +242,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 ice_hockey:
 - id: 73363930
@@ -1101,6 +1101,15 @@ table_tennis:
     away: 2
   status: result
   time: '12:30'
+- id: 73574598
+  teams:
+    home: Janata, Tomas
+    away: Stolfa, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
 - id: 73574342
   teams:
     home: Kanera, Jan
@@ -1128,6 +1137,15 @@ table_tennis:
     away: 0
   status: result
   time: '13:00'
+- id: 73574590
+  teams:
+    home: Vavrecka, Michal
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
 - id: 73574588
   teams:
     home: Dousek, Tomas
@@ -1144,6 +1162,24 @@ table_tennis:
   score:
     home: 3
     away: 2
+  status: result
+  time: '13:30'
+- id: 73574602
+  teams:
+    home: Nohejl, Matej
+    away: Vesely, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 73574592
+  teams:
+    home: Prikasky, Libor
+    away: Paril, Ondrej
+  score:
+    home: 2
+    away: 3
   status: result
   time: '13:30'
 - id: 73574340
