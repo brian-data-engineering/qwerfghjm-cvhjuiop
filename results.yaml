@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: 00:30
 - id: 73265140
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: 00:30
 basketball: []
 tennis:
@@ -33,9 +33,9 @@ tennis:
     home: Fils, Arthur
     away: Norrie, Cameron
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: 01:50
 ice_hockey: []
 table_tennis:
@@ -127,7 +127,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73520684
   teams:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73520774
   teams:
@@ -152,9 +152,9 @@ table_tennis:
     home: Byrtus, Samuel
     away: Heczko, David
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 02:00
 - id: 73520818
   teams:
@@ -163,14 +163,41 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73520702
   teams:
     home: Sychra, Martin
     away: Regner, Michal
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:00
+- id: 73520704
+  teams:
+    home: Hofman, Denis
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 73520788
+  teams:
+    home: Plachy, Jiri
+    away: Postelt, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 73520792
+  teams:
+    home: Trefny, Jan
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
