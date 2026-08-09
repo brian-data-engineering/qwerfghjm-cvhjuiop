@@ -24,7 +24,7 @@ soccer:
   score:
     home: 0
     away: 2
-  status: live
+  status: result
   time: '18:00'
 basketball:
 - id: 73412632
@@ -59,9 +59,9 @@ basketball:
     home: France
     away: Spain
   score:
-    home: 24
-    away: 49
-  status: live
+    home: 46
+    away: 82
+  status: recentlyended
   time: '18:30'
 - id: 73552240
   teams:
@@ -149,9 +149,9 @@ basketball:
     home: Romania
     away: Israel
   score:
-    home: 63
-    away: 83
-  status: live
+    home: 66
+    away: 85
+  status: result
   time: '18:00'
 - id: 73552154
   teams:
@@ -240,9 +240,9 @@ tennis:
     home: Tien, Learner
     away: Tirante, Thiago Agustin
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '18:00'
 ice_hockey:
 - id: 73363930
