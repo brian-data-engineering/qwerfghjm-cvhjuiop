@@ -334,7 +334,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73565116
   teams:
@@ -343,7 +343,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73565262
   teams:
@@ -352,7 +352,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73565346
   teams:
@@ -368,9 +368,9 @@ table_tennis:
     home: Hejduk, Alexander
     away: Strnad, Jaroslav (1961)
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 07:30
 - id: 73565204
   teams:
@@ -379,32 +379,122 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 73565172
   teams:
     home: Kratochvil, Michal
     away: Polasek, Radovan
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:30
 - id: 73565192
   teams:
     home: Sulava, Lubor
     away: Pleskot, Jan
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
 - id: 73565376
   teams:
     home: Toth, Josef
     away: Vavrecka, David
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
+- id: 73565212
+  teams:
+    home: Pleskot, Jan
+    away: Chalupnicek, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 73565218
+  teams:
+    home: Polasek, Radovan
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 73565156
+  teams:
+    home: Sebera, Petr
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 73565316
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Potmesil, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 73565132
+  teams:
+    home: Vavrecka, David
+    away: Adamczyk, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73565188
+  teams:
+    home: Hofman, Denis
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 73565082
+  teams:
+    home: Kubat, Vladimir
+    away: Hejduk, Alexander
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 73565292
+  teams:
+    home: Luksa, Zdenek
+    away: Toth, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 73565354
+  teams:
+    home: Prikasky, Libor
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 73565130
+  teams:
+    home: Regner, Milan
+    away: Sulava, Lubor
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:30
