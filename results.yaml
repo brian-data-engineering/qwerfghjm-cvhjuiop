@@ -8,7 +8,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: 00:25
 ice_hockey: []
 table_tennis:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73541048
   teams:
@@ -100,7 +100,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73541112
   teams:
@@ -109,7 +109,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73541034
   teams:
@@ -118,5 +118,113 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:30
+- id: 73541122
+  teams:
+    home: Cermak, Vladimir
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 73541018
+  teams:
+    home: Postelt, Vladimir
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 73541106
+  teams:
+    home: Urbaniec, Radim
+    away: Hampl, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 73541090
+  teams:
+    home: Tazler, Jakub
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 73541088
+  teams:
+    home: Walek, Adrian
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 73541126
+  teams:
+    home: Zahradka, Michal
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 73588830
+  teams:
+    home: Krejci, Richard
+    away: Postelt, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 03:00
+- id: 73588840
+  teams:
+    home: Tazler, Jakub
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 73588812
+  teams:
+    home: Zahradka, Michal
+    away: Urbaniec, Radim
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 73588810
+  teams:
+    home: Hampl, Michal
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 03:30
+- id: 73588834
+  teams:
+    home: Janata, Tomas
+    away: Walek, Adrian
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 03:30
+- id: 73588844
+  teams:
+    home: Sychra, Martin
+    away: Klement, Milan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 03:30
