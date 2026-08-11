@@ -98,14 +98,14 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73624000
   teams:
     home: O'Connell, Christopher
     away: Sweeny, Dane
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '16:00'
@@ -114,19 +114,46 @@ tennis:
     home: Shevchenko, Alexander
     away: Llamas Ruiz, Pablo
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 73623990
   teams:
     home: Wong, Coleman
     away: Hong, Seongchan
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 73623994
+  teams:
+    home: Mpetshi Perricard, Giovanni
+    away: Svajda, Trevor
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:35'
+- id: 73624016
+  teams:
+    home: Lajovic, Dusan
+    away: Bonzi, Benjamin
+  score:
+    home: 0
     away: 0
   status: live
-  time: '16:00'
+  time: '17:40'
+- id: 73624018
+  teams:
+    home: Van Assche, Luca
+    away: Heide, Gustavo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:40'
 ice_hockey:
 - id: 73084872
   teams:
@@ -144,7 +171,7 @@ ice_hockey:
   score:
     home: 2
     away: 6
-  status: recentlyended
+  status: result
   time: '15:00'
 table_tennis:
 - id: 73565268
