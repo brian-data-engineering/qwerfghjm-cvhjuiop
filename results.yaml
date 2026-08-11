@@ -68,8 +68,8 @@ basketball:
     home: Nlex Road Warriors
     away: Talk N Text
   score:
-    home: 44
-    away: 32
+    home: 107
+    away: 107
   status: live
   time: '11:30'
 - id: 68096624
@@ -91,7 +91,16 @@ basketball:
   status: result
   time: 02:00
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 73084872
+  teams:
+    home: Gornyak Uchaly
+    away: Khimik Voskresensk
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
 table_tennis:
 - id: 73565268
   teams:
