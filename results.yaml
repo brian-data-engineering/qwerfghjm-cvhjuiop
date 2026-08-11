@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: live
+  status: result
   time: 00:15
 basketball:
 - id: 72154586
@@ -14,10 +14,37 @@ basketball:
     home: El Calor de Cancun
     away: Mineros de Zacatecas
   score:
-    home: 26
-    away: 23
-  status: live
+    home: 69
+    away: 76
+  status: recentlyended
   time: 01:15
+- id: 72154588
+  teams:
+    home: Dorados de Chihuahua
+    away: Gambusinos De Fresnillo
+  score:
+    home: 67
+    away: 56
+  status: live
+  time: 02:00
+- id: 72154590
+  teams:
+    home: Freseros de Irapuato
+    away: Correcaminos
+  score:
+    home: 72
+    away: 84
+  status: live
+  time: 02:00
+- id: 72154592
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Fuerza Regia
+  score:
+    home: 55
+    away: 53
+  status: live
+  time: 02:15
 tennis: []
 ice_hockey: []
 table_tennis:
