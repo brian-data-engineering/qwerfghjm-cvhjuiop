@@ -1,3 +1,23 @@
+- id: 9135743
+  match: Sychra, Martin vs Kasnik, Sebastian
+  score: 0:3(4:11,9:11,3:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9139447
+  match: Tkaczyk, Henryk vs Molenda, Dariusz
+  score: 0:3(3:11,5:11,6:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9139383
+  match: Rybak, Kazimierz vs Nocun, Zbigniew
+  score: 1:3(11:4,4:11,8:11,6:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9139195
+  match: Pytlas, Wojciech vs Kaczynski Piotr
+  score: 3:0(11:4,12:10,11:9)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9137485
   match: Szostok, Sebastian vs Pruszkowski, Jakub
   score: 1:3(11:8,8:11,9:11,10:12)
@@ -18,6 +38,11 @@
   score: 2:3(13:11,6:11,11:7,10:12,9:11)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9116447
+  match: Lyon vs Sparta Prague
+  score: 3:0 (1:0)
+  sport: Football
+  league: UEFA Champions League, Qualification
 - id: 9135581
   match: Kern, Lukas vs Pagac, Zbynek
   score: 3:0(11:8,11:8,11:9)
@@ -38,6 +63,16 @@
   score: '3:1'
   sport: Football
   league: Southern League, Premier Division Central
+- id: 9134679
+  match: Kelty Hearts F.c. vs Motherwell B
+  score: 4:3 (3:2)
+  sport: Football
+  league: Challenge Cup
+- id: 9132291
+  match: Bracknell Town vs Gloucester City
+  score: 3:2 (1:1)
+  sport: Football
+  league: Southern League, Premier Division South
 - id: 9136129
   match: XV De Novembro SP U20 vs SAO Caetano SP U20
   score: 2:1 (1:0)
@@ -93,16 +128,16 @@
   score: 0:2(4:6,4:6)
   sport: Tennis
   league: Qualification round 1
-- id: 9137893
-  match: Tallinna Kalev vs FA Tartu Kalev
-  score: 8:0 (2:0)
-  sport: Football
-  league: Cup
 - id: 9135081
   match: Lebrun A / Odo S vs Ban I / Arapovic H
   score: 3:2(3:11,11:7,11:4,10:12,11:5)
   sport: Table Tennis
   league: round_of_32
+- id: 9137893
+  match: Tallinna Kalev vs FA Tartu Kalev
+  score: 8:0 (2:0)
+  sport: Football
+  league: Cup
 - id: 9138373
   match: Krupa, Sebastian vs Kaczmarek, Jakub
   score: 3:0(11:5,11:7,11:8)
