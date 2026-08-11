@@ -105,9 +105,9 @@ tennis:
     home: O'Connell, Christopher
     away: Sweeny, Dane
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:00'
 - id: 73624002
   teams:
@@ -132,17 +132,17 @@ tennis:
     home: Mpetshi Perricard, Giovanni
     away: Svajda, Trevor
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '17:35'
 - id: 73624016
   teams:
     home: Lajovic, Dusan
     away: Bonzi, Benjamin
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '17:40'
 - id: 73624018
@@ -150,10 +150,19 @@ tennis:
     home: Van Assche, Luca
     away: Heide, Gustavo
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '17:40'
+- id: 73624014
+  teams:
+    home: Halys, Quentin
+    away: Kwon, Soonwoo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:55'
 ice_hockey:
 - id: 73084872
   teams:
