@@ -63,6 +63,15 @@ basketball:
     away: 68
   status: result
   time: 03:00
+- id: 72449552
+  teams:
+    home: Titan Ultra Giant Risers
+    away: S.M. Beermen
+  score:
+    home: 50
+    away: 64
+  status: live
+  time: 09:15
 tennis:
 - id: 73623992
   teams:
@@ -523,7 +532,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73647574
   teams:
@@ -532,7 +541,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73647056
   teams:
@@ -541,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73647564
   teams:
@@ -568,7 +577,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73647600
   teams:
@@ -577,7 +586,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73647634
   teams:
@@ -586,7 +595,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73647098
   teams:
@@ -595,7 +604,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73647626
   teams:
@@ -604,5 +613,50 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:30
+- id: 73647550
+  teams:
+    home: Darin, Kyryl
+    away: Holovatiuk, Yurii
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 73647152
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Kratochvil, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:00'
+- id: 73647556
+  teams:
+    home: Sedlacek, Michael
+    away: Dousek, Tomas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
+- id: 73647164
+  teams:
+    home: Urbaniec, Radim
+    away: Tazler, Jakub
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 73647536
+  teams:
+    home: Zientek, Zbynek
+    away: Kolek, Matyas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
