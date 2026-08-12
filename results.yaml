@@ -199,7 +199,25 @@ tennis:
     away: 0
   status: result
   time: 02:35
-ice_hockey: []
+ice_hockey:
+- id: 73084876
+  teams:
+    home: Chekhov
+    away: Khimik Voskresensk
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '11:00'
+- id: 73488962
+  teams:
+    home: Presov 07
+    away: Kosice
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73598314
   teams:
@@ -1171,7 +1189,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73647562
   teams:
@@ -1180,7 +1198,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73647548
   teams:
@@ -1189,7 +1207,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73647582
   teams:
@@ -1198,7 +1216,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73647078
   teams:
@@ -1207,50 +1225,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73647138
   teams:
     home: Stolfa, Jakub
     away: Zmuda, Petr
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 73647524
   teams:
     home: Trinta, Mihail
     away: Oborny, Dominik
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '15:00'
 - id: 73647604
   teams:
     home: Vavrecka, Radomir
     away: Stoch, Jan
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 73647094
   teams:
     home: Wagner, Richard
     away: Hofman, Denis
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '15:00'
 - id: 73647592
   teams:
     home: Wawrosz, Pavel
     away: Vavrecka, Michal
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:00'
+- id: 73647544
+  teams:
+    home: Adamczyk, Vladimir
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 73647530
+  teams:
+    home: Kolenic, Tibor
+    away: Horak, David
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 73647606
+  teams:
+    home: Navedla, Matyas
+    away: Paril, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73647082
+  teams:
+    home: Tazler, Jakub
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 73647156
+  teams:
+    home: Vesely, Michal
+    away: Janata, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73647624
+  teams:
+    home: Horak, David
+    away: Oborny, Dominik
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73647074
+  teams:
+    home: Janata, Tomas
+    away: Zmuda, Petr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73647490
+  teams:
+    home: Machander, Dalimil
+    away: Stoch, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 73647560
+  teams:
+    home: Paril, Ondrej
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73647060
+  teams:
+    home: Vondrak, Michal
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
