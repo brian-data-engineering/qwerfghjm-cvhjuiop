@@ -8,6 +8,33 @@ soccer:
     away: 3
   status: result
   time: 00:00
+- id: 72963610
+  teams:
+    home: Atletico Tucuman
+    away: CA Independiente Avellaneda
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '22:15'
+- id: 68098032
+  teams:
+    home: Magallanes
+    away: Cobreloa
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '19:00'
+- id: 68098034
+  teams:
+    home: Recoleta
+    away: CSD Rangers
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '22:00'
 basketball:
 - id: 73246826
   teams:
@@ -199,6 +226,42 @@ tennis:
     away: 0
   status: result
   time: 02:35
+- id: 73624006
+  teams:
+    home: Giron, Marcos
+    away: Rocha, Henrique
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:30'
+- id: 73624004
+  teams:
+    home: Mejia, Nicolas
+    away: Fearnley, Jacob
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 73623974
+  teams:
+    home: Vukic, Aleksandar
+    away: Blanch, Darwin
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 73623972
+  teams:
+    home: Lajal, Mark
+    away: Svrcina, Dalibor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:50'
 ice_hockey:
 - id: 73084876
   teams:
@@ -1873,7 +1936,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 73647588
   teams:
@@ -1882,7 +1945,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 73647054
   teams:
@@ -1891,32 +1954,86 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '22:00'
 - id: 73647128
   teams:
     home: Kucirek, Ondrej
     away: Varcl Jr, Jan
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '22:30'
 - id: 73647046
   teams:
     home: Picek, Petr
     away: Bartunek, Radek
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '22:30'
 - id: 73647488
   teams:
     home: Zuzanek, Jiri
     away: Hradecky, Jakub
   score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:30'
+- id: 73647598
+  teams:
+    home: Cermak, Vladimir
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:00'
+- id: 73647118
+  teams:
+    home: Holovatiuk, Yurii
+    away: Oborny, Dominik
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '23:00'
+- id: 73647114
+  teams:
+    home: Stefek, Martin
+    away: Vitrovyj, Oleg
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '23:00'
+- id: 73647052
+  teams:
+    home: Didi, Julius
+    away: Picek, Petr
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '23:30'
+- id: 73647538
+  teams:
+    home: Sopko, Martin
+    away: Zuzanek, Jiri
+  score:
     home: 1
     away: 1
   status: live
-  time: '22:30'
+  time: '23:30'
+- id: 73647058
+  teams:
+    home: Steffan, Jan
+    away: Kucirek, Ondrej
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '23:30'
