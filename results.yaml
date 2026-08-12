@@ -25,7 +25,7 @@ basketball:
   score:
     home: 91
     away: 77
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 72154598
   teams:
@@ -34,7 +34,7 @@ basketball:
   score:
     home: 83
     away: 86
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 72154600
   teams:
@@ -43,25 +43,25 @@ basketball:
   score:
     home: 103
     away: 82
-  status: recentlyended
+  status: result
   time: 02:15
 - id: 72154602
   teams:
     home: Panteras
     away: Lobos Plateados de la Buap
   score:
-    home: 92
-    away: 71
-  status: live
+    home: 111
+    away: 88
+  status: result
   time: 02:30
 - id: 72154604
   teams:
     home: Soles
     away: Abejas
   score:
-    home: 54
-    away: 34
-  status: live
+    home: 71
+    away: 68
+  status: result
   time: 03:00
 tennis:
 - id: 73623992
@@ -123,9 +123,9 @@ tennis:
     home: Wolf, Jeffrey John
     away: Mochizuki, Shintaro
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 02:30
 - id: 73623986
   teams:
@@ -334,5 +334,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 03:30
