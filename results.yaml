@@ -14,9 +14,9 @@ basketball:
     home: China
     away: Nigeria
   score:
-    home: 29
-    away: 54
-  status: live
+    home: 77
+    away: 88
+  status: result
   time: '11:30'
 - id: 73576490
   teams:
@@ -34,7 +34,7 @@ basketball:
   score:
     home: 81
     away: 87
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 72154594
   teams:
@@ -104,9 +104,9 @@ basketball:
     home: Magnolia Hotshots
     away: Phoenix Petroleum
   score:
-    home: 38
-    away: 36
-  status: live
+    home: 115
+    away: 101
+  status: recentlyended
   time: '11:30'
 - id: 68096260
   teams:
@@ -910,7 +910,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73647088
   teams:
@@ -928,7 +928,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73647526
   teams:
@@ -937,7 +937,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73647494
   teams:
@@ -945,26 +945,26 @@ table_tennis:
     away: Steffan, Jan
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:00'
 - id: 73647064
   teams:
     home: Kolisnyk, Oleksandr
     away: Mares, Erik
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:00'
 - id: 73647518
   teams:
     home: Sedlacek, Michael
     away: Cabis, Michal
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '12:00'
 - id: 73647140
   teams:
@@ -973,14 +973,149 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73647542
   teams:
     home: Zientek, Zbynek
     away: Levicky, Matej
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '12:00'
+- id: 73647484
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73647546
+  teams:
+    home: Holovatiuk, Yurii
+    away: Svedik, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73647534
+  teams:
+    home: Kolek, Matyas
+    away: Virag, Alexandr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
+- id: 73647062
+  teams:
+    home: Kratochvil, Michal
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73647086
+  teams:
+    home: Tazler, Jakub
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 73685538
+  teams:
+    home: Cabis, Michal
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73685542
+  teams:
+    home: Darin, Kyryl
+    away: Svedik, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73685554
+  teams:
+    home: Levicky, Matej
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73685528
+  teams:
+    home: Mares, Erik
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 73685548
+  teams:
+    home: Wagner, Richard
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 73685540
+  teams:
+    home: Dousek, Tomas
+    away: Sedlacek, Michael
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73685544
+  teams:
+    home: Holovatiuk, Yurii
+    away: Steffan, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73685534
+  teams:
+    home: Kratochvil, Michal
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73685550
+  teams:
+    home: Urbaniec, Radim
+    away: Tazler, Jakub
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '13:30'
+- id: 73685556
+  teams:
+    home: Virag, Alexandr
+    away: Kolek, Matyas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '13:30'
