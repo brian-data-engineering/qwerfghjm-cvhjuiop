@@ -106,7 +106,7 @@ basketball:
   score:
     home: 115
     away: 101
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 68096260
   teams:
@@ -1081,7 +1081,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73685544
   teams:
@@ -1090,7 +1090,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73685534
   teams:
@@ -1099,7 +1099,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73685550
   teams:
@@ -1108,7 +1108,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73685556
   teams:
@@ -1117,5 +1117,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
+- id: 73647614
+  teams:
+    home: Horak, David
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 73647166
+  teams:
+    home: Janata, Tomas
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 73647516
+  teams:
+    home: Machander, Dalimil
+    away: Vavrecka, Radomir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 73647506
+  teams:
+    home: Paril, Ondrej
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 73647072
+  teams:
+    home: Vondrak, Michal
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 73647104
+  teams:
+    home: Hofman, Denis
+    away: Tazler, Jakub
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 73647562
+  teams:
+    home: Oborny, Dominik
+    away: Kolenic, Tibor
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 73647548
+  teams:
+    home: Stoch, Jan
+    away: Adamczyk, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:30'
+- id: 73647582
+  teams:
+    home: Vavrecka, Michal
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:30'
+- id: 73647078
+  teams:
+    home: Zmuda, Petr
+    away: Vesely, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 73647138
+  teams:
+    home: Stolfa, Jakub
+    away: Zmuda, Petr
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73647524
+  teams:
+    home: Trinta, Mihail
+    away: Oborny, Dominik
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
+- id: 73647604
+  teams:
+    home: Vavrecka, Radomir
+    away: Stoch, Jan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73647094
+  teams:
+    home: Wagner, Richard
+    away: Hofman, Denis
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73647592
+  teams:
+    home: Wawrosz, Pavel
+    away: Vavrecka, Michal
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
