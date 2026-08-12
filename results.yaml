@@ -215,9 +215,27 @@ ice_hockey:
     away: Kosice
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: recentlyended
   time: '15:30'
+- id: 73084878
+  teams:
+    home: Krasnoyarsk
+    away: Gornyak Uchaly
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '16:00'
+- id: 72022342
+  teams:
+    home: Oskarshamn
+    away: Vimmerby
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
 table_tennis:
 - id: 73598314
   teams:
@@ -1324,7 +1342,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73647074
   teams:
@@ -1333,7 +1351,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73647490
   teams:
@@ -1342,7 +1360,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73647560
   teams:
@@ -1351,7 +1369,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73647060
   teams:
@@ -1360,5 +1378,50 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 73647084
+  teams:
+    home: Stolfa, Jakub
+    away: Vesely, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 73647508
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73647586
+  teams:
+    home: Vavrecka, Radomir
+    away: Adamczyk, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73647124
+  teams:
+    home: Wagner, Richard
+    away: Tazler, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 73647622
+  teams:
+    home: Wawrosz, Pavel
+    away: Navedla, Matyas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
