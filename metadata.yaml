@@ -1,3 +1,8 @@
+- id: 9138513
+  match: Tuma, Daniel vs Pozarsky, Jiri
+  score: 2:3(6:11,17:15,4:11,11:7,5:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9142497
   match: Kuzmicz, Jakub vs Daniel, Artur
   score: 1:3(7:11,12:10,11:13,4:11)
@@ -18,6 +23,16 @@
   score: 3:0(11:9,11:7,11:4)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9135825
+  match: Kuai, Man vs Zaharia, Elena
+  score: 3:1(11:6,15:13,8:11,11:5)
+  sport: Table Tennis
+  league: round_of_64
+- id: 9138485
+  match: Koral, Michal vs Hrabec, Jan
+  score: 2:3(11:6,11:7,8:11,10:12,9:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9142215
   match: Kapik, Krzysztof vs Olbrycht, Michal
   score: 1:3(10:12,11:7,7:11,7:11)
@@ -28,6 +43,11 @@
   score: 2:0 (1:0)
   sport: Football
   league: Club Friendly Games
+- id: 9133043
+  match: Birmingham Phoenix vs Oval Invincibles
+  score: 0:1
+  sport: Cricket
+  league: The Hundred
 - id: 9139745
   match: 29 de Setiembre CG vs Sp. San Lorenzo
   score: 1:1 (1:0)
@@ -48,16 +68,21 @@
   score: 5:1 (1:0)
   sport: Football
   league: cupqround
-- id: 9141637
-  match: Utenis vs FC Neptunas B
-  score: 4:2 (0:1)
-  sport: Football
-  league: II Lyga
+- id: 9138295
+  match: Vesely, Michal vs Janata, Tomas
+  score: 0:3(9:11,10:12,8:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9138291
   match: Stolfa, Jakub vs Zmuda, Petr
   score: 2:3(7:11,11:8,7:11,12:10,4:11)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9141637
+  match: Utenis vs FC Neptunas B
+  score: 4:2 (0:1)
+  sport: Football
+  league: II Lyga
 - id: 9138717
   match: FC Brumov vs MFK Karvina
   score: 0:4 (0:1)
@@ -83,6 +108,16 @@
   score: 30-31
   sport: Handball
   league: Club Friendly Games
+- id: 9141093
+  match: Domin, Maciej vs Balcerzak, Marcin
+  score: 3:1(4:11,12:10,11:3,12:10)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9140941
+  match: Juzek, Sebastian vs Gumulinski, Piotr
+  score: 1:3(7:11,10:12,12:10,8:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9132713
   match: Loof T / Uesugi K vs Merino A / Zhu M
   score: 1:2(6:2,4:6,6:10)
@@ -118,6 +153,16 @@
   score: 0:3(9:11,6:11,10:12)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9140417
+  match: Chien Hsin University vs Yulon Luxgen Dinos
+  score: 81:87 (24:20,23:24,21:20,13:23)
+  sport: Basketball
+  league: Club Friendlies
+- id: 9140679
+  match: Smolka, Kamil vs Gajda, Rafal
+  score: 3:1(6:11,12:10,11:8,11:6)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9138577
   match: Kia Tigers vs Samsung Lions
   score: '7:2'
@@ -133,6 +178,11 @@
   score: 0:3(6:11,6:11,6:11)
   sport: Table Tennis
   league: round_of_32
+- id: 9139743
+  match: Weston Workers vs Adamstown Rosebud FC
+  score: 4:2 (1:0)
+  sport: Football
+  league: NPL, Northern New South Wales
 - id: 9140631
   match: Vincenec, Oliver vs Gumulinski, Piotr
   score: 3:0(12:10,11:9,13:11)
@@ -148,21 +198,36 @@
   score: 1:3(11:8,6:11,8:11,10:12)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9138425
+  match: Przewlocki, Piotr vs Hetnar, Krzysztof
+  score: 2:3(10:12,11:8,11:9,13:15,8:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9140461
   match: Solilo, Dominik vs Stapor Rafal
   score: 1:3(9:11,11:9,7:11,6:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9139665
-  match: 'Zlin U19 vs Sigma Olomouc Youth '
-  score: 1:5 (0:2)
-  sport: Football
-  league: U19 1st Division
+- id: 9138073
+  match: Stach, Jiri vs Cerny, Vojtech
+  score: 0:3(7:11,4:11,7:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9131391
   match: Brindabella Blues FC vs Tuggeranong Utd
   score: 0:6 (0:4)
   sport: Football
   league: NPL, Capital Football
+- id: 9139665
+  match: 'Zlin U19 vs Sigma Olomouc Youth '
+  score: 1:5 (0:2)
+  sport: Football
+  league: U19 1st Division
+- id: 9140415
+  match: National Taiwan University of Arts vs Lee-Ming Institute of Technology
+  score: 61:69 (13:21,19:16,15:21,14:11)
+  sport: Basketball
+  league: Club Friendlies
 - id: 9138031
   match: Wolf, Filip vs Zahradka, Michal
   score: 1:3(9:11,12:10,6:11,10:12)
@@ -198,9 +263,9 @@
   score: 3:2(11:5,4:11,6:11,11:5,11:3)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9135819
-  match: Ratti, Lucio vs Sultanov, Khumoun
-  score: 0:2(4:6,5:7)
+- id: 9137695
+  match: Kumasaka, Takuya vs Matsuoka, Hayato
+  score: 0:2(4:6,1:6)
   sport: Tennis
   league: round_of_32
 - id: 9140207
@@ -208,6 +273,11 @@
   score: 3:2(5:11,11:6,11:8,10:12,11:9)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9135819
+  match: Ratti, Lucio vs Sultanov, Khumoun
+  score: 0:2(4:6,5:7)
+  sport: Tennis
+  league: round_of_32
 - id: 9138409
   match: Cyrnek, Piotr vs Wiecek, Adrian
   score: 3:2(9:11,11:6,14:12,5:11,11:9)
@@ -288,6 +358,11 @@
   score: '3:2'
   sport: Baseball
   league: MLB
+- id: 9139791
+  match: Brunner, Marian vs Nocun, Zbigniew
+  score: 0:3(8:11,4:11,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9135781
   match: Plachy, Jiri vs Walek, Adrian
   score: 0:3(9:11,10:12,7:11)
@@ -311,6 +386,11 @@
 - id: 9138817
   match: Springfield Cardinals vs Northwest Arkansas Naturals
   score: '8:15'
+  sport: Baseball
+  league: Milb, Double-A Central
+- id: 9138813
+  match: Tulsa Drillers vs Arkansas Travelers
+  score: '8:7'
   sport: Baseball
   league: Milb, Double-A Central
 - id: 9136787
