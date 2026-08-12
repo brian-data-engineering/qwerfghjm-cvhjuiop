@@ -1612,7 +1612,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 73647522
   teams:
@@ -1621,7 +1621,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 73647482
   teams:
@@ -1639,7 +1639,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 73692334
   teams:
@@ -1648,7 +1648,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 73647162
   teams:
@@ -1656,8 +1656,8 @@ table_tennis:
     away: Sebera, Petr
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 73647612
   teams:
@@ -1666,25 +1666,25 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 73647144
   teams:
     home: Koubek, Vojtech
     away: Parizek, Martin
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:30'
 - id: 73647492
   teams:
     home: Pozarsky, Jiri
     away: Vinter, Tomas
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '19:30'
 - id: 73647638
   teams:
@@ -1692,6 +1692,96 @@ table_tennis:
     away: Prikasky, Libor
   score:
     home: 2
+    away: 3
+  status: result
+  time: '19:30'
+- id: 73647510
+  teams:
+    home: Kowolowski, Miroslav
+    away: Koral, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 73647102
+  teams:
+    home: Parizek, Martin
+    away: Kratochvil, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 73647554
+  teams:
+    home: Prikasky, Libor
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '20:00'
+- id: 73647044
+  teams:
+    home: Sebera, Petr
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 73647636
+  teams:
+    home: Vinter, Tomas
+    away: Hradecky, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 73647168
+  teams:
+    home: Bradac, Petr
+    away: Koubek, Vojtech
+  score:
+    home: 2
     away: 1
   status: live
-  time: '19:30'
+  time: '20:30'
+- id: 73647540
+  teams:
+    home: Osvald, Petr
+    away: Hrabec, Jan
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '20:30'
+- id: 73647628
+  teams:
+    home: Revay, Radomir
+    away: Wawrosz, Pavel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 73647496
+  teams:
+    home: Tuma, Daniel
+    away: Pozarsky, Jiri
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '20:30'
+- id: 73692336
+  teams:
+    home: Vondrak, Michal
+    away: Brazda, Adam
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '20:30'
