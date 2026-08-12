@@ -8,7 +8,124 @@ soccer:
     away: 3
   status: result
   time: 00:00
-basketball: []
+basketball:
+- id: 73246826
+  teams:
+    home: China
+    away: Nigeria
+  score:
+    home: 29
+    away: 54
+  status: live
+  time: '11:30'
+- id: 73576490
+  teams:
+    home: National Taiwan University of Arts
+    away: Lee-Ming Institute of Technology
+  score:
+    home: 61
+    away: 69
+  status: result
+  time: 08:30
+- id: 73576496
+  teams:
+    home: Chien Hsin University
+    away: Yulon Dinos
+  score:
+    home: 81
+    away: 87
+  status: recentlyended
+  time: '10:30'
+- id: 72154594
+  teams:
+    home: El Calor de Cancun
+    away: Mineros de Zacatecas
+  score:
+    home: 67
+    away: 78
+  status: result
+  time: 01:15
+- id: 72154596
+  teams:
+    home: Dorados de Chihuahua
+    away: Gambusinos De Fresnillo
+  score:
+    home: 91
+    away: 77
+  status: result
+  time: 02:00
+- id: 72154598
+  teams:
+    home: Freseros de Irapuato
+    away: Correcaminos
+  score:
+    home: 83
+    away: 86
+  status: result
+  time: 02:00
+- id: 72154600
+  teams:
+    home: Astros Jalisco
+    away: Santos de San Luis
+  score:
+    home: 103
+    away: 82
+  status: result
+  time: 02:15
+- id: 72154602
+  teams:
+    home: Panteras
+    away: Lobos Plateados de la Buap
+  score:
+    home: 111
+    away: 88
+  status: result
+  time: 02:30
+- id: 72154604
+  teams:
+    home: Soles
+    away: Abejas
+  score:
+    home: 71
+    away: 68
+  status: result
+  time: 03:00
+- id: 72449552
+  teams:
+    home: Titan Ultra Giant Risers
+    away: S.M. Beermen
+  score:
+    home: 113
+    away: 143
+  status: result
+  time: 09:15
+- id: 72449468
+  teams:
+    home: Magnolia Hotshots
+    away: Phoenix Petroleum
+  score:
+    home: 38
+    away: 36
+  status: live
+  time: '11:30'
+- id: 68096260
+  teams:
+    home: LA Sparks
+    away: Phoenix
+  score:
+    home: 87
+    away: 94
+  status: result
+  time: 02:00
+- id: 68096404
+  teams:
+    home: Las Vegas Aces
+    away: Washington
+  score:
+    home: 86
+    away: 76
+  status: result
+  time: 02:00
 tennis:
 - id: 73623992
   teams:
@@ -739,7 +856,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73647552
   teams:
@@ -748,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73647584
   teams:
@@ -757,7 +874,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73647100
   teams:
@@ -766,7 +883,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73647136
   teams:
@@ -775,5 +892,95 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 73647590
+  teams:
+    home: Svedik, Miroslav
+    away: Darin, Kyryl
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73647502
+  teams:
+    home: Virag, Alexandr
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
+- id: 73647088
+  teams:
+    home: Wagner, Richard
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73647142
+  teams:
+    home: Zahradka, Michal
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 73647526
+  teams:
+    home: Zika, Tadeas
+    away: Sedlacek, Michael
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 73647494
+  teams:
+    home: Darin, Kyryl
+    away: Steffan, Jan
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '12:00'
+- id: 73647064
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Mares, Erik
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '12:00'
+- id: 73647518
+  teams:
+    home: Sedlacek, Michael
+    away: Cabis, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
+- id: 73647140
+  teams:
+    home: Urbaniec, Radim
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:00'
+- id: 73647542
+  teams:
+    home: Zientek, Zbynek
+    away: Levicky, Matej
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:00'
