@@ -225,7 +225,7 @@ ice_hockey:
   score:
     home: 5
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72022342
   teams:
@@ -234,7 +234,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 table_tennis:
 - id: 73598314
@@ -1522,7 +1522,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73647066
   teams:
@@ -1531,7 +1531,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73647528
   teams:
@@ -1540,7 +1540,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73692332
   teams:
@@ -1549,7 +1549,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73647620
   teams:
@@ -1558,5 +1558,140 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
+- id: 73647618
+  teams:
+    home: Hradecky, Jakub
+    away: Pozarsky, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 73647120
+  teams:
+    home: Kasnik, Sebastian
+    away: Brazda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 73647486
+  teams:
+    home: Koral, Michal
+    away: Hrabec, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 73647096
+  teams:
+    home: Kratochvil, Michal
+    away: Koubek, Vojtech
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
+- id: 73647578
+  teams:
+    home: Paril, Ondrej
+    away: Wawrosz, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 73647110
+  teams:
+    home: Bradac, Petr
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '19:00'
+- id: 73647522
+  teams:
+    home: Osvald, Petr
+    away: Koral, Michal
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 73647482
+  teams:
+    home: Revay, Radomir
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:00'
+- id: 73647642
+  teams:
+    home: Tuma, Daniel
+    away: Hradecky, Jakub
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:00'
+- id: 73692334
+  teams:
+    home: Vondrak, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 73647162
+  teams:
+    home: Brazda, Adam
+    away: Sebera, Petr
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:30'
+- id: 73647612
+  teams:
+    home: Hrabec, Jan
+    away: Kowolowski, Miroslav
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 73647144
+  teams:
+    home: Koubek, Vojtech
+    away: Parizek, Martin
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:30'
+- id: 73647492
+  teams:
+    home: Pozarsky, Jiri
+    away: Vinter, Tomas
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:30'
+- id: 73647638
+  teams:
+    home: Wawrosz, Pavel
+    away: Prikasky, Libor
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '19:30'
