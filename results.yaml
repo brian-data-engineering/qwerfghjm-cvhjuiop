@@ -1792,7 +1792,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 73693564
   teams:
@@ -1810,7 +1810,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 73693718
   teams:
@@ -1826,18 +1826,18 @@ table_tennis:
     home: Brazda, Adam
     away: Kasnik, Sebastian
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '21:30'
 - id: 73693862
   teams:
     home: Koral, Michal
     away: Hrabec, Jan
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '21:30'
 - id: 73693610
   teams:
@@ -1846,7 +1846,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73693720
   teams:
@@ -1855,7 +1855,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '21:30'
 - id: 73693566
   teams:
@@ -1864,5 +1864,59 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '21:30'
+- id: 73647116
+  teams:
+    home: Didi, Julius
+    away: Stefek, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 73647588
+  teams:
+    home: Sopko, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 73647054
+  teams:
+    home: Steffan, Jan
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:00'
+- id: 73647128
+  teams:
+    home: Kucirek, Ondrej
+    away: Varcl Jr, Jan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
+- id: 73647046
+  teams:
+    home: Picek, Petr
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 73647488
+  teams:
+    home: Zuzanek, Jiri
+    away: Hradecky, Jakub
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
