@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
 basketball:
 - id: 72154594
@@ -14,11 +14,128 @@ basketball:
     home: El Calor de Cancun
     away: Mineros de Zacatecas
   score:
-    home: 28
-    away: 36
-  status: live
+    home: 67
+    away: 78
+  status: result
   time: 01:15
-tennis: []
+- id: 72154596
+  teams:
+    home: Dorados de Chihuahua
+    away: Gambusinos De Fresnillo
+  score:
+    home: 91
+    away: 77
+  status: recentlyended
+  time: 02:00
+- id: 72154598
+  teams:
+    home: Freseros de Irapuato
+    away: Correcaminos
+  score:
+    home: 83
+    away: 86
+  status: recentlyended
+  time: 02:00
+- id: 72154600
+  teams:
+    home: Astros Jalisco
+    away: Santos de San Luis
+  score:
+    home: 103
+    away: 82
+  status: recentlyended
+  time: 02:15
+- id: 72154602
+  teams:
+    home: Panteras
+    away: Lobos Plateados de la Buap
+  score:
+    home: 92
+    away: 71
+  status: live
+  time: 02:30
+- id: 72154604
+  teams:
+    home: Soles
+    away: Abejas
+  score:
+    home: 54
+    away: 34
+  status: live
+  time: 03:00
+tennis:
+- id: 73623992
+  teams:
+    home: Echargui, Moez
+    away: Zheng, Michael
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:00
+- id: 73623998
+  teams:
+    home: Trungelliti, Marco
+    away: Ofner, Sebastian
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:25
+- id: 73623982
+  teams:
+    home: Gaston, Hugo
+    away: Budkov Kjaer, Nicolai
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:35
+- id: 73623976
+  teams:
+    home: Popyrin, Alexei
+    away: Droguet, Titouan
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:05
+- id: 73623980
+  teams:
+    home: Harris, Billy
+    away: Jacquet, Kyrian
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:40
+- id: 73623978
+  teams:
+    home: Damm Jr, Martin
+    away: Sakellaridis, Stefanos
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 02:00
+- id: 73663570
+  teams:
+    home: Wolf, Jeffrey John
+    away: Mochizuki, Shintaro
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 02:30
+- id: 73623986
+  teams:
+    home: Shimabukuro, Sho
+    away: Dellien, Hugo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:35
 ice_hockey: []
 table_tennis:
 - id: 73598314
@@ -109,7 +226,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73599038
   teams:
@@ -118,7 +235,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73598340
   teams:
@@ -127,16 +244,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73598324
   teams:
     home: Kasnik, Sebastian
     away: Wagner, Mark Robin
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 02:00
 - id: 73598246
   teams:
@@ -144,15 +261,78 @@ table_tennis:
     away: Heczko, David
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 02:00
 - id: 73599008
   teams:
     home: Strnad, Jaroslav (1964)
     away: Hruska, Vaclav Senior
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:00
+- id: 73598230
+  teams:
+    home: Postelt, Vladimir
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 73598188
+  teams:
+    home: Sebera, Petr
+    away: Skakal, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 73599084
+  teams:
+    home: Syroha, Michal
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 73669780
+  teams:
+    home: Grohsgott, Jiri
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 73669802
+  teams:
+    home: Heczko, David
+    away: Walek, Adrian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 73669846
+  teams:
+    home: Kasnik, Sebastian
+    away: Sebera, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
+- id: 73669786
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Mazanek, Stanislav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 03:30
