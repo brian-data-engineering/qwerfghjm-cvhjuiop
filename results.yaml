@@ -216,25 +216,25 @@ ice_hockey:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73084878
   teams:
     home: Krasnoyarsk
     away: Gornyak Uchaly
   score:
-    home: 3
-    away: 0
-  status: live
+    home: 5
+    away: 2
+  status: recentlyended
   time: '16:00'
 - id: 72022342
   teams:
     home: Oskarshamn
     away: Vimmerby
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '16:00'
 table_tennis:
 - id: 73598314
@@ -1425,3 +1425,138 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73692110
+  teams:
+    home: Hofman, Denis
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 73692148
+  teams:
+    home: Oborny, Dominik
+    away: Horak, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 73692182
+  teams:
+    home: Stoch, Jan
+    away: Vavrecka, Radomir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73692190
+  teams:
+    home: Stolfa, Jakub
+    away: Vesely, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73692142
+  teams:
+    home: Wawrosz, Pavel
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 73692188
+  teams:
+    home: Janata, Tomas
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 73692150
+  teams:
+    home: Kolenic, Tibor
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 73692184
+  teams:
+    home: Machander, Dalimil
+    away: Adamczyk, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 73692112
+  teams:
+    home: Tazler, Jakub
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 73692144
+  teams:
+    home: Vavrecka, Michal
+    away: Paril, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:30'
+- id: 73647616
+  teams:
+    home: Kowolowski, Miroslav
+    away: Osvald, Petr
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 73647066
+  teams:
+    home: Parizek, Martin
+    away: Bradac, Petr
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 73647528
+  teams:
+    home: Prikasky, Libor
+    away: Revay, Radomir
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 73692332
+  teams:
+    home: Sebera, Petr
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:00'
+- id: 73647620
+  teams:
+    home: Vinter, Tomas
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:00'
