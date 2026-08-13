@@ -334,7 +334,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73679888
   teams:
@@ -343,7 +343,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73676372
   teams:
@@ -352,7 +352,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73679736
   teams:
@@ -361,7 +361,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73679718
   teams:
@@ -370,7 +370,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73679586
   teams:
@@ -379,16 +379,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 73679842
   teams:
     home: Havel, Ladislav
     away: Pleskot, Jan
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 07:30
 - id: 73679886
   teams:
@@ -397,23 +397,113 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 73676392
   teams:
     home: Svechota, Vojtech
     away: Kolisnyk, Oleksandr
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:30
 - id: 73679850
   teams:
     home: Tyn, Daniel
     away: Zientek, Zbynek
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
+- id: 73679800
+  teams:
+    home: Cabak, Josef
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 73679834
+  teams:
+    home: Grohsgott, Jiri
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 73676374
+  teams:
+    home: Kolisnyk, Oleksandr
+    away: Wolf, Filip
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 73679574
+  teams:
+    home: Pleskot, Jan
+    away: Sulava, Lubor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 73679734
+  teams:
+    home: Zientek, Zbynek
+    away: Kaspar, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:00
+- id: 73679882
+  teams:
+    home: Dolezal, Vaclav
+    away: Havel, Ladislav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 73679582
+  teams:
+    home: Hutnik, Jakub
+    away: Adamczyk, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 73676390
+  teams:
+    home: Kratochvil, Michal
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:30
+- id: 73679544
+  teams:
+    home: Madle, Ludek
+    away: Hruska, Vaclav Senior
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 73679844
+  teams:
+    home: Schneeberger, Antonin
+    away: Tyn, Daniel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:30
