@@ -117,7 +117,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72022612
   teams:
@@ -126,7 +126,7 @@ ice_hockey:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72022412
   teams:
@@ -135,7 +135,7 @@ ice_hockey:
   score:
     home: 5
     away: 2
-  status: live
+  status: result
   time: '15:00'
 - id: 73161016
   teams:
@@ -144,7 +144,7 @@ ice_hockey:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 72022410
   teams:
@@ -152,8 +152,8 @@ ice_hockey:
     away: Olomouc
   score:
     home: 3
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 72022538
   teams:
@@ -161,43 +161,43 @@ ice_hockey:
     away: Kometa
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '15:30'
 - id: 73588338
   teams:
     home: Neftjanik
     away: Samara
   score:
-    home: 3
-    away: 2
-  status: live
+    home: 4
+    away: 5
+  status: recentlyended
   time: '15:30'
 - id: 72022414
   teams:
     home: Slavia Prague
     away: Banik Sokolov
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 4
+    away: 2
+  status: result
   time: '15:30'
 - id: 72022542
   teams:
     home: Zubr Prerov
     away: Horacka
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:30'
 - id: 73247360
   teams:
     home: Dinamo Minsk
     away: Red Star Kunlun
   score:
-    home: 4
-    away: 2
+    home: 7
+    away: 5
   status: live
   time: '16:00'
 - id: 72022554
@@ -206,43 +206,43 @@ ice_hockey:
     away: Frolunda
   score:
     home: 1
-    away: 2
-  status: live
+    away: 4
+  status: recentlyended
   time: '16:00'
 - id: 73536080
   teams:
     home: Indian Ziar Nad Hronom
     away: Zvolen
   score:
-    home: 3
-    away: 2
-  status: live
+    home: 4
+    away: 3
+  status: recentlyended
   time: '16:00'
 - id: 72022614
   teams:
     home: Nybro
     away: Karlskrona
   score:
-    home: 4
-    away: 0
-  status: live
+    home: 5
+    away: 1
+  status: recentlyended
   time: '16:00'
 - id: 73084892
   teams:
     home: Ska-Neva
     away: Gornyak Uchaly
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: recentlyended
   time: '16:00'
 - id: 72022436
   teams:
     home: Vsetin
     away: Frydek Mistek
   score:
-    home: 1
-    away: 1
+    home: 3
+    away: 3
   status: live
   time: '16:00'
 - id: 73378500
@@ -252,7 +252,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '16:00'
 table_tennis:
 - id: 73647160
@@ -1333,7 +1333,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73679868
   teams:
@@ -1342,7 +1342,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73679774
   teams:
@@ -1351,7 +1351,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73679738
   teams:
@@ -1360,7 +1360,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73679748
   teams:
@@ -1369,5 +1369,50 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 73679766
+  teams:
+    home: Adam, Radim
+    away: Milkov, Tomas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 73679810
+  teams:
+    home: Dedek, Jiri
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '18:00'
+- id: 73679768
+  teams:
+    home: Franc, Petr
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 73679554
+  teams:
+    home: Kern, Lukas
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 73679560
+  teams:
+    home: Tuma, Daniel
+    away: Kapras, Karel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
