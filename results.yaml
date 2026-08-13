@@ -23,9 +23,9 @@ basketball:
     home: Japan
     away: Republic of Korea
   score:
-    home: 70
-    away: 51
-  status: live
+    home: 77
+    away: 59
+  status: result
   time: '10:00'
 - id: 72154606
   teams:
@@ -88,10 +88,19 @@ ice_hockey:
     home: Krasnoyarsk
     away: Khimik Voskresensk
   score:
-    home: 1
-    away: 0
+    home: 2
+    away: 2
   status: live
   time: '11:00'
+- id: 73488966
+  teams:
+    home: HC Sibir
+    away: Admiral
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '12:00'
 table_tennis:
 - id: 73647160
   teams:
@@ -775,7 +784,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73676382
   teams:
@@ -802,16 +811,16 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73679996
   teams:
     home: Adamczyk, Vladimir
     away: Walek, Adrian
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '11:30'
 - id: 73679600
   teams:
@@ -820,7 +829,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73679764
   teams:
@@ -829,7 +838,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73679716
   teams:
@@ -838,7 +847,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73676384
   teams:
@@ -847,5 +856,95 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
+- id: 73679566
+  teams:
+    home: Cabis, Michal
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 73676376
+  teams:
+    home: Mares, Erik
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73679620
+  teams:
+    home: Stolfa, Jakub
+    away: Janata, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73679876
+  teams:
+    home: Tazler, Jakub
+    away: Kasnik, Sebastian
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73679546
+  teams:
+    home: Walek, Adrian
+    away: Byrtus, Samuel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73679864
+  teams:
+    home: Hutnik, Jakub
+    away: Adamczyk, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:30'
+- id: 73679552
+  teams:
+    home: Postelt, Vladimir
+    away: Plachy, Jiri
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 73676380
+  teams:
+    home: Svechota, Vojtech
+    away: Wolf, Filip
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:30'
+- id: 73692820
+  teams:
+    home: Urbaniec, Radim
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:30'
+- id: 73679756
+  teams:
+    home: Zika, Tadeas
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '12:30'
