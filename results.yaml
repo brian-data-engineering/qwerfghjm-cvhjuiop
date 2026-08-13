@@ -171,7 +171,7 @@ ice_hockey:
   score:
     home: 4
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72022414
   teams:
@@ -198,7 +198,7 @@ ice_hockey:
   score:
     home: 7
     away: 5
-  status: live
+  status: result
   time: '16:00'
 - id: 72022554
   teams:
@@ -207,7 +207,7 @@ ice_hockey:
   score:
     home: 1
     away: 4
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73536080
   teams:
@@ -216,7 +216,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72022614
   teams:
@@ -225,7 +225,7 @@ ice_hockey:
   score:
     home: 5
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73084892
   teams:
@@ -234,7 +234,7 @@ ice_hockey:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72022436
   teams:
@@ -242,8 +242,8 @@ ice_hockey:
     away: Frydek Mistek
   score:
     home: 3
-    away: 3
-  status: live
+    away: 4
+  status: result
   time: '16:00'
 - id: 73378500
   teams:
@@ -252,7 +252,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 table_tennis:
 - id: 73647160
@@ -1371,6 +1371,15 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73717176
+  teams:
+    home: Vejvoda, Viktor
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:30'
 - id: 73679766
   teams:
     home: Adam, Radim
@@ -1378,7 +1387,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73679810
   teams:
@@ -1387,7 +1396,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: live
+  status: result
   time: '18:00'
 - id: 73679768
   teams:
@@ -1396,7 +1405,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73679554
   teams:
@@ -1405,7 +1414,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73679560
   teams:
@@ -1414,5 +1423,32 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
+- id: 73679754
+  teams:
+    home: Dousa, Tomas
+    away: Fojt, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 73679830
+  teams:
+    home: Grohsgott, Jiri
+    away: Lubas, Miloslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 73679790
+  teams:
+    home: Hanel, Patrik
+    away: Cerny, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
