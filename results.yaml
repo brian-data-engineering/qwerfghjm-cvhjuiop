@@ -89,17 +89,17 @@ ice_hockey:
     away: Khimik Voskresensk
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:00'
 - id: 73488966
   teams:
     home: HC Sibir
     away: Admiral
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: recentlyended
   time: '12:00'
 table_tennis:
 - id: 73647160
@@ -910,7 +910,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73679552
   teams:
@@ -919,7 +919,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73676380
   teams:
@@ -928,7 +928,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73692820
   teams:
@@ -937,7 +937,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73679756
   teams:
@@ -946,5 +946,95 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
+- id: 73679866
+  teams:
+    home: Bradac, Petr
+    away: Postelt, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73679872
+  teams:
+    home: Dzida, Jan
+    away: Biolek, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 73679570
+  teams:
+    home: Pavelka, Radim
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73679892
+  teams:
+    home: Skotnica, Martin
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73679798
+  teams:
+    home: Vejvoda, Viktor
+    away: Zuzanek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73679618
+  teams:
+    home: Cabis, Michal
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73679752
+  teams:
+    home: Kasnik, Sebastian
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73679744
+  teams:
+    home: Kratochvil, Michal
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73679610
+  teams:
+    home: Stolfa, Jakub
+    away: Janata, Tomas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73679828
+  teams:
+    home: Tomica, Daniel
+    away: Prikasky, Libor
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
