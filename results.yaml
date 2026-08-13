@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: 00:30
 - id: 68098038
   teams:
@@ -15,9 +15,63 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 72154606
+  teams:
+    home: Astros Jalisco
+    away: Santos de San Luis
+  score:
+    home: 82
+    away: 57
+  status: recentlyended
+  time: 02:15
+- id: 72154608
+  teams:
+    home: Panteras
+    away: Lobos Plateados de la Buap
+  score:
+    home: 68
+    away: 53
+  status: live
+  time: 02:30
+- id: 72154610
+  teams:
+    home: Soles
+    away: Abejas
+  score:
+    home: 53
+    away: 53
+  status: live
+  time: 03:00
+- id: 68096614
+  teams:
+    home: Dallas
+    away: Toronto Tempo
+  score:
+    home: 94
+    away: 88
+  status: result
+  time: 00:00
+- id: 68096192
+  teams:
+    home: Golden State
+    away: Chicago
+  score:
+    home: 91
+    away: 71
+  status: recentlyended
+  time: 02:00
+- id: 68096360
+  teams:
+    home: Portland Fire
+    away: Minnesota
+  score:
+    home: 81
+    away: 85
+  status: recentlyended
+  time: 02:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -109,7 +163,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73647150
   teams:
@@ -118,7 +172,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73647602
   teams:
@@ -127,32 +181,59 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 73647050
   teams:
     home: Bartunek, Radek
     away: Stefek, Martin
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:00
 - id: 73647532
   teams:
     home: Hradecky, Jakub
     away: Cermak, Vladimir
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 02:00
 - id: 73647146
   teams:
     home: Varcl Jr, Jan
     away: Holovatiuk, Yurii
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 02:00
+- id: 73647134
+  teams:
+    home: Oborny, Dominik
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 73647500
+  teams:
+    home: Regner, Michal
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 73647068
+  teams:
+    home: Vitrovyj, Oleg
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
