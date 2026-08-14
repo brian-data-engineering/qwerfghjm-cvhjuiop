@@ -116,7 +116,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:35'
 - id: 73721796
   teams:
@@ -134,7 +134,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '17:10'
 ice_hockey:
 - id: 73488970
@@ -187,27 +187,27 @@ ice_hockey:
     home: Kalmar HC
     away: Vimmerby
   score:
-    home: 3
+    home: 4
     away: 2
-  status: live
+  status: result
   time: '17:00'
 - id: 72040942
   teams:
     home: Sodertalje
     away: Karlskoga
   score:
-    home: 1
-    away: 4
-  status: live
+    home: 2
+    away: 5
+  status: recentlyended
   time: '17:00'
 - id: 72040806
   teams:
     home: Cologne
     away: Iserlohn
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: recentlyended
   time: '17:30'
 table_tennis:
 - id: 73679548
