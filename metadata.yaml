@@ -1,8 +1,43 @@
+- id: 9145551
+  match: Svacha, Ondrej vs Urbaniec, Radim
+  score: 3:2(8:11,6:11,11:9,11:5,11:9)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9146341
+  match: Lebrun, Felix vs Poret, Thibault
+  score: 3:0(11:2,11:4,11:4)
+  sport: Table Tennis
+  league: round_of_64
+- id: 9146023
+  match: FC Schalke 04 II vs Siegen
+  score: 2:0 (2:0)
+  sport: Football
+  league: Regionalliga West
+- id: 9142969
+  match: Kremser SC vs SC Parndorf
+  score: 1:1 (1:0)
+  sport: Football
+  league: Regionalliga East
+- id: 9149353
+  match: Oracz, Jacek vs Kocik, Tomasz
+  score: 3:1(11:4,11:5,14:16,11:1)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9149039
   match: Sokolowski, Oliwier vs Kaczmarek, Jakub
   score: 3:1(11:7,9:11,11:6,11:4)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9132785
+  match: AFC Eskilstuna vs Hammarby Talang FF
+  score: 1:0 (0:0)
+  sport: Football
+  league: Ettan, Norra
+- id: 9143417
+  match: Ppj/Lauttasaari vs FC Kontu
+  score: 4:1 (0:1)
+  sport: Football
+  league: Kolmonen, Southern, Group 2
 - id: 9149031
   match: Krutak, Michal vs Jedrzejowski, Oskar
   score: 3:1(10:12,11:5,11:9,11:9)
@@ -13,6 +48,11 @@
   score: 3:0(11:5,11:7,11:6)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9134517
+  match: Kladno vs Graffin Vlasim
+  score: 1:1 (0:1)
+  sport: Football
+  league: FNL
 - id: 9148767
   match: Oracz, Jacek vs Krutak, Michal
   score: '3:1'
@@ -28,26 +68,41 @@
   score: 0:3 (0:1)
   sport: Football
   league: Premier League, Opening Round
+- id: 9146119
+  match: Keupa vs FC Jyvaskyla Blackbird
+  score: '3:2'
+  sport: Football
+  league: Kolmonen, Eastern, Group 1
+- id: 9146347
+  match: TPS Turku vs Lukko Rauma
+  score: 3:2 (2:0,0:0,1:2)
+  sport: Ice Hockey
+  league: Club Friendlies
 - id: 9144773
   match: Sokol Kolbuszowa Dolna vs KS Wisloka Debica
   score: 1:2 (0:1)
   sport: Football
   league: III Liga, Group 4
-- id: 9146081
-  match: Club Portugalete vs Barakaldo
-  score: 2:0 (0:0)
-  sport: Football
-  league: Club Friendly Games
 - id: 9143479
   match: Kaapo Kaarina vs Peimari Utd
   score: 0:3 (0:1)
   sport: Football
   league: Kolmonen, Western, Group 1
+- id: 9146081
+  match: Club Portugalete vs Barakaldo
+  score: 2:0 (0:0)
+  sport: Football
+  league: Club Friendly Games
 - id: 9143419
   match: LPS Laajasalon vs Toeoeloen Taisto
   score: '4:1'
   sport: Football
   league: Kolmonen, Southern, Group 2
+- id: 9143477
+  match: Nummelan Palloseura vs EIF Akademi
+  score: 0:2 (0:1)
+  sport: Football
+  league: Kolmonen, Southern, Group 1
 - id: 9144771
   match: Dinamo Samarqand vs PFK Xorazm
   score: 2:2 (0:1)
@@ -63,6 +118,16 @@
   score: 0:3(4:11,8:11,11:13)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9146749
+  match: Shimabukuro, Sho vs Hurkacz, Hubert
+  score: 0:2(2:6,4:6)
+  sport: Tennis
+  league: round_of_128
+- id: 9146337
+  match: K-Espoo vs Tappara Tampere
+  score: 2:0 (1:0,0:0,1:0)
+  sport: Ice Hockey
+  league: Club Friendlies
 - id: 9145269
   match: Zajicek, Jan vs Kratochvil, Michal
   score: 3:0(11:8,12:10,11:7)
@@ -278,6 +343,11 @@
   score: 3:2(19:25,25:15,17:25,26:24,15:8)
   sport: Volleyball
   league: Pro League
+- id: 9147283
+  match: Linek, Adam vs Mleczko, Bartlomiej
+  score: 2:3(9:11,9:11,12:10,11:9,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9144987
   match: Strnad, Jaroslav (1964) vs Grohsgott, Jiri
   score: 3:0(11:6,11:5,11:5)
@@ -313,14 +383,14 @@
   score: 3:2(6:11,8:11,11:6,11:8,11:8)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9144689
-  match: Grela, Artur vs Michna, Dawid
-  score: 3:1(7:11,11:5,11:9,11:8)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9144697
   match: Jurowicz, Grzegorz vs Wichowski, Grzegorz
   score: 1:3(7:11,11:4,6:11,7:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9144689
+  match: Grela, Artur vs Michna, Dawid
+  score: 3:1(7:11,11:5,11:9,11:8)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9147107
