@@ -61,8 +61,8 @@ tennis:
     away: Vallejo, Adolfo Daniel
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 73721792
   teams:
@@ -70,7 +70,7 @@ tennis:
     away: Halys, Quentin
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:00'
 - id: 73667536
@@ -79,7 +79,7 @@ tennis:
     away: Tsitsipas, Stefanos
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:00'
 - id: 73721730
@@ -88,8 +88,8 @@ tennis:
     away: Hurkacz, Hubert
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '15:00'
 - id: 73721780
   teams:
@@ -97,9 +97,36 @@ tennis:
     away: Altmaier, Daniel
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '15:00'
+- id: 73667540
+  teams:
+    home: Baez, Sebastian
+    away: Dimitrov, Grigor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:35'
+- id: 73721798
+  teams:
+    home: Droguet, Titouan
+    away: Berrettini, Matteo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:35'
+- id: 73721796
+  teams:
+    home: Hanfmann, Yannick
+    away: Van Assche, Luca
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:35'
 ice_hockey:
 - id: 73488970
   teams:
@@ -108,7 +135,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '13:00'
 - id: 72022840
   teams:
@@ -124,10 +151,28 @@ ice_hockey:
     home: Ska-Neva
     away: Khimik Voskresensk
   score:
-    home: 1
-    away: 3
-  status: live
+    home: 2
+    away: 5
+  status: result
   time: '14:00'
+- id: 73588320
+  teams:
+    home: Neftjanik
+    away: Neftekamsk
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72040818
+  teams:
+    home: Spisska NV
+    away: Presov 07
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73679548
   teams:
