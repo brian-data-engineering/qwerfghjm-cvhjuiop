@@ -55,15 +55,60 @@ tennis:
     away: 2
   status: result
   time: 02:35
+- id: 73721800
+  teams:
+    home: Jacquet, Kyrian
+    away: Vallejo, Adolfo Daniel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73721792
+  teams:
+    home: Kopriva, Vit
+    away: Halys, Quentin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 73667536
+  teams:
+    home: Royer, Valentin
+    away: Tsitsipas, Stefanos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 73721730
+  teams:
+    home: Shimabukuro, Sho
+    away: Hurkacz, Hubert
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73721780
+  teams:
+    home: Wong, Coleman
+    away: Altmaier, Daniel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
 ice_hockey:
 - id: 73488970
   teams:
     home: Magnitogorsk
     away: Red Star Kunlun
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: recentlyended
   time: '13:00'
 - id: 72022840
   teams:
@@ -72,15 +117,15 @@ ice_hockey:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '14:00'
 - id: 73084896
   teams:
     home: Ska-Neva
     away: Khimik Voskresensk
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 3
   status: live
   time: '14:00'
 table_tennis:
