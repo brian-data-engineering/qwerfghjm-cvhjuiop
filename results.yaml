@@ -34,7 +34,7 @@ tennis:
     away: Cobolli, Flavio
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:00'
 - id: 73465882
@@ -71,9 +71,18 @@ ice_hockey:
     away: Magnitogorsk
   score:
     home: 2
-    away: 2
+    away: 3
   status: live
   time: '14:00'
+- id: 72040952
+  teams:
+    home: Mountfield HK
+    away: Salzburg
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 73705230
   teams:
@@ -991,7 +1000,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73732622
   teams:
@@ -1009,7 +1018,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:30'
 - id: 73732426
   teams:
@@ -1036,7 +1045,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73732690
   teams:
@@ -1063,7 +1072,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73732422
   teams:
@@ -1072,5 +1081,50 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 73732424
+  teams:
+    home: Horak, David
+    away: Holovatiuk, Yurii
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
+- id: 73732392
+  teams:
+    home: Kos, Tomas
+    away: Mares, Erik
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73732626
+  teams:
+    home: Levicky, Matej
+    away: Kolek, Dalibor
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
+- id: 73732380
+  teams:
+    home: Priesol, Daniel
+    away: Mikula, David
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 73732618
+  teams:
+    home: Stacho, Libor
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
