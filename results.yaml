@@ -6,7 +6,7 @@ tennis:
     home: Kovacevic, Aleksandar
     away: Khachanov, Karen
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: 01:20
@@ -127,7 +127,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73704950
   teams:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73705232
   teams:
@@ -145,5 +145,32 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
+- id: 73705246
+  teams:
+    home: Krejci, Richard
+    away: Postelt, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 73705224
+  teams:
+    home: Tuma, Daniel
+    away: Vizek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 73704976
+  teams:
+    home: Zeman, Lukas
+    away: Bilek, Zdenek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
