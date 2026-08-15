@@ -40,7 +40,7 @@ soccer:
     home: Newells Old Boys
     away: Deportivo Riestra
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '22:00'
@@ -122,10 +122,37 @@ basketball:
     home: Fuerza Regia
     away: Freseros de Irapuato
   score:
-    home: 53
-    away: 42
+    home: 76
+    away: 60
   status: live
   time: '22:15'
+- id: 72154614
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Dorados de Chihuahua
+  score:
+    home: 33
+    away: 28
+  status: live
+  time: '23:00'
+- id: 68095958
+  teams:
+    home: Seattle
+    away: Portland Fire
+  score:
+    home: 82
+    away: 84
+  status: result
+  time: 02:00
+- id: 68096386
+  teams:
+    home: Connecticut
+    away: NY Liberty
+  score:
+    home: 75
+    away: 82
+  status: result
+  time: '17:00'
 tennis:
 - id: 73667542
   teams:
@@ -224,7 +251,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '20:50'
 - id: 73465884
   teams:
