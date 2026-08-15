@@ -5,8 +5,8 @@ basketball:
     home: Sweden
     away: Czech Republic
   score:
-    home: 32
-    away: 23
+    home: 45
+    away: 56
   status: live
   time: '13:00'
 tennis:
@@ -892,14 +892,59 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '13:00'
 - id: 73755404
   teams:
     home: Oborny, Dominik
     away: Holovatiuk, Yurii
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '13:30'
+- id: 73732640
+  teams:
+    home: Darin, Kyryl
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73732416
+  teams:
+    home: Holovatiuk, Yurii
+    away: Kolenic, Tibor
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '14:00'
+- id: 73732616
+  teams:
+    home: Kolek, Dalibor
+    away: Kolek, Matyas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73732434
+  teams:
+    home: Mares, Erik
+    away: Kratochvil, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73732336
+  teams:
+    home: Mikula, David
+    away: Kvasnicka, Radim
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:00'
