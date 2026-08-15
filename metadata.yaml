@@ -1,13 +1,38 @@
+- id: 9136027
+  match: Torpedo Kutaisi vs Saburtalo Tbilisi
+  score: 4:3 (3:1)
+  sport: Football
+  league: Umaglesi Liga
 - id: 9148717
   match: Kvasnicka, Radim vs Priesol, Daniel
   score: 1:3(11:8,6:11,8:11,9:11)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9149369
+  match: VfB Oldenburg vs Eintracht Norderstedt
+  score: 4:1 (1:1)
+  sport: Football
+  league: Regionalliga North
+- id: 9149937
+  match: CL Oriental vs Benfica Youth
+  score: 0:0 (0:0)
+  sport: Football
+  league: U19 Championship, Group South
+- id: 9137553
+  match: Dukla Banska Bystrica vs MSK Zilina
+  score: 3:4 (0:2)
+  sport: Football
+  league: Superliga
 - id: 9142445
   match: Viimsi Jk vs Levadia II
   score: 5:0 (2:0)
   sport: Football
   league: Esiliiga
+- id: 9137645
+  match: Nyiregyhaza vs Kisvarda FC
+  score: 2:1 (1:0)
+  sport: Football
+  league: NB I
 - id: 9148699
   match: Horak, David vs Holovatiuk, Yurii
   score: 1:3(10:12,11:9,5:11,9:11)
@@ -18,34 +43,39 @@
   score: 3:2 (1:2)
   sport: Football
   league: Club Friendly Games
+- id: 9150819
+  match: FK Smederevo vs FK Bor 1919
+  score: 4:1 (4:0)
+  sport: Football
+  league: Prva Liga
 - id: 9131157
   match: Sturm Graz II vs Admira Wacker
   score: 0:2 (0:1)
   sport: Football
   league: Erste Liga
+- id: 9149303
+  match: Diyala FC vs AL Talaba
+  score: 2:1 (0:1)
+  sport: Football
+  league: Iraqi League
 - id: 9151643
   match: Wos, Alan vs Jendrzejewski, Patryk
   score: 3:2(11:9,8:11,9:11,11:9,11:2)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9148719
-  match: Kratochvil, Michal vs Zeman, Lukas
-  score: 1:3(7:11,11:8,6:11,9:11)
-  sport: Table Tennis
-  league: Czech Liga Pro
 - id: 9138755
   match: FC Stk 1914 Samorin vs OFK Banik Lehota Pod Vtacnikom
   score: 0:2 (0:1)
   sport: Football
   league: 2. Liga
+- id: 9148719
+  match: Kratochvil, Michal vs Zeman, Lukas
+  score: 1:3(7:11,11:8,6:11,9:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9146779
   match: Frydek Mistek vs FC Vsetin
   score: 2:0 (1:0)
-  sport: Football
-  league: MSFL
-- id: 9146791
-  match: Hodonin-Sardice vs SK Lisen B
-  score: 0:1 (0:1)
   sport: Football
   league: MSFL
 - id: 9148721
@@ -53,6 +83,11 @@
   score: 0:0 (0:0)
   sport: Football
   league: Superliga
+- id: 9146791
+  match: Hodonin-Sardice vs SK Lisen B
+  score: 0:1 (0:1)
+  sport: Football
+  league: MSFL
 - id: 9146767
   match: SFK Vrchovina vs FC Fastav Zlin B
   score: 1:0 (1:0)
@@ -63,11 +98,36 @@
   score: 0:3(9:11,5:11,1:11)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9151899
+  match: Witczak, Filip vs Morawiec, Daniel
+  score: 0:3(3:11,8:11,3:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9129405
   match: Solihull Moors vs Boston Utd
   score: 0:2 (0:1)
   sport: Football
   league: National League
+- id: 9142093
+  match: Utd of Manchester vs Gainsborough
+  score: 0:3
+  sport: Football
+  league: Northern Premier League, Premier Division
+- id: 9142121
+  match: Bamber Bridge vs Ashton United
+  score: 1:0 (0:0)
+  sport: Football
+  league: Northern Premier League, Premier Division
+- id: 9148655
+  match: Mares, Erik vs Kratochvil, Michal
+  score: 3:1(4:11,11:9,11:7,11:5)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 8991989
+  match: Burton vs Stevenage
+  score: 1:1 (0:0)
+  sport: Football
+  league: League One
 - id: 9147299
   match: Eupen vs Jong KRC Genk
   score: 4:1 (1:1)
@@ -83,11 +143,26 @@
   score: 0:1 (0:1)
   sport: Football
   league: Premiership
+- id: 8992105
+  match: Grimsby vs Exeter
+  score: 1:0 (1:0)
+  sport: Football
+  league: League Two
+- id: 9134021
+  match: Tekstilshchik vs Nizhny Novgorod
+  score: 1:3 (1:0)
+  sport: Football
+  league: ' 1st Division'
 - id: 9141831
   match: Burgess Hill vs Leatherhead
   score: '2:2'
   sport: Football
   league: Isthmian League, Premier Division
+- id: 9142329
+  match: Bromsgrove Rovers FC vs Anstey Nomads
+  score: '1:2'
+  sport: Football
+  league: Southern League, Premier Division Central
 - id: 9143427
   match: Wimborne Town vs Gloucester City
   score: '1:1'
@@ -113,6 +188,11 @@
   score: 0:1 (0:0)
   sport: Football
   league: League Two
+- id: 9151477
+  match: HC Dinamo Minsk vs Metallurg Magnitogorsk
+  score: 3:6 (0:0,2:2,1:4)
+  sport: Ice Hockey
+  league: Club Friendlies
 - id: 8992103
   match: Accrington vs Colchester
   score: 2:2 (2:1)
@@ -123,6 +203,11 @@
   score: 3:2(11:8,4:11,8:11,11:7,11:7)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9149567
+  match: Udi 19 vs Excelsior Maassluis
+  score: 1:1 (0:1)
+  sport: Football
+  league: Derde Divisie, Group B
 - id: 9143483
   match: Hull City vs Nice
   score: 0:0 (0:0)
@@ -133,21 +218,21 @@
   score: 1:0 (1:0)
   sport: Football
   league: National League
-- id: 9149567
-  match: Udi 19 vs Excelsior Maassluis
-  score: 1:1 (0:1)
+- id: 9142023
+  match: Carshalton Athletic vs Cray Wanderers
+  score: '2:1'
   sport: Football
-  league: Derde Divisie, Group B
-- id: 9142649
-  match: Hereford vs Marine
-  score: 1:0 (0:0)
-  sport: Football
-  league: National League North
+  league: Isthmian League, Premier Division
 - id: 9148093
   match: FC Meyrin vs Neuchatel Xamax
   score: 0:0 (0:0) ET 0:0 P 3:4
   sport: Football
   league: Schweizer Cup
+- id: 9142649
+  match: Hereford vs Marine
+  score: 1:0 (0:0)
+  sport: Football
+  league: National League North
 - id: 9135209
   match: VPS J Akatemia vs JS Hercules
   score: 3:1 (2:0)
@@ -158,6 +243,11 @@
   score: 4:2 (2:0)
   sport: Football
   league: FAW Championship North & Mid
+- id: 9151401
+  match: EC Sao Bernardo SP vs Sao Jose SP
+  score: 2:3 (1:3)
+  sport: Football
+  league: Copa Paulista, Group 4
 - id: 9143009
   match: River Plate (URU) vs Miramar Missiones
   score: 3:0 (0:0)
@@ -168,11 +258,26 @@
   score: 2:6 (1:4)
   sport: Football
   league: Pervaya Liga
+- id: 9149061
+  match: Nardo vs Melhus
+  score: 1:3 (1:1)
+  sport: Football
+  league: 3rd Division, Group 2
+- id: 9128691
+  match: Mjallby vs Sirius FK
+  score: 4:3 (0:3)
+  sport: Football
+  league: Allsvenskan
 - id: 9150595
   match: Union Kleinmunchen W vs First Vienna FC 1894 W
   score: 0:2 (0:1)
   sport: Football
   league: Bundesliga Women
+- id: 9148651
+  match: Michna, Dawid vs Grela, Artur
+  score: 2:3(6:11,11:7,11:7,6:11,6:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9148407
   match: Jadczyk, Marcin vs Gawlas, Michal
   score: 3:2(11:9,14:12,11:13,9:11,11:9)
@@ -188,6 +293,16 @@
   score: 1:1 (0:0)
   sport: Football
   league: Toppserien, Women
+- id: 9150557
+  match: IL Ulfstind vs Skjetten
+  score: 4:2 (0:2)
+  sport: Football
+  league: 3rd Division, Group 5
+- id: 9146787
+  match: Horni Redice vs FK Mlada Boleslav B
+  score: 0:6 (0:4)
+  sport: Football
+  league: CFL, Group B
 - id: 9148625
   match: ETSV Weiche vs SSV Jeddeloh
   score: 5:2 (1:0)
@@ -248,9 +363,19 @@
   score: 2:1 (0:1)
   sport: Football
   league: Division 2, Vastra Gotaland
+- id: 9134107
+  match: Hertha BSC vs Heidenheim
+  score: 4:1 (3:0)
+  sport: Football
+  league: 2nd Bundesliga
 - id: 9144527
   match: Ringsted vs Holstebro
   score: 0:4 (0:1)
+  sport: Football
+  league: 3Rd Division
+- id: 9144437
+  match: Holbaek vs Sundby BK
+  score: 2:1 (0:0)
   sport: Football
   league: 3Rd Division
 - id: 9148413
@@ -273,6 +398,11 @@
   score: 3:2(9:11,8:11,11:7,11:8,11:8)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9147499
+  match: Brno U19 vs Viktoria Plzen U19
+  score: 0:6 (0:1)
+  sport: Football
+  league: U19 1st Division
 - id: 9149223
   match: Ruzomberok W vs KFC Komarno
   score: '1:2'
@@ -303,16 +433,21 @@
   score: 1:1 (1:0)
   sport: Football
   league: Victoria Npl 2
-- id: 9146983
-  match: Sigma Olomouc Youth  vs Hradec Kralove U19
-  score: 2:2 (2:0)
-  sport: Football
-  league: U19 1st Division
+- id: 9148391
+  match: Hiroshima Toyo Carp vs Hanshin Tigers
+  score: '5:2'
+  sport: Baseball
+  league: Professional Baseball, Central League
 - id: 9128229
   match: Mito Hollyhock vs Gamba Osaka
   score: 1:1 (1:0)
   sport: Football
   league: J.League
+- id: 9146983
+  match: Sigma Olomouc Youth  vs Hradec Kralove U19
+  score: 2:2 (2:0)
+  sport: Football
+  league: U19 1st Division
 - id: 9151135
   match: Quinns FC vs Gwelup Croatia SC
   score: 2:0 (0:0)
@@ -348,16 +483,16 @@
   score: 76:102 (25:26,19:28,15:26,17:22)
   sport: Basketball
   league: cupqround
-- id: 9143647
-  match: Darwin Olympic SC vs Hellenic Athletic Club
-  score: 3:0 (3:0)
-  sport: Football
-  league: Northern Territory Premier League
 - id: 9151089
   match: Souths United W vs Eastern Suburbs W
   score: 0:14 (0:6)
   sport: Football
   league: Queensland Npl, Women
+- id: 9143647
+  match: Darwin Olympic SC vs Hellenic Athletic Club
+  score: 3:0 (3:0)
+  sport: Football
+  league: Northern Territory Premier League
 - id: 9150971
   match: Oracz, Michal vs Morawiec, Daniel
   score: 3:2(9:11,12:10,11:7,20:22,11:7)
@@ -383,6 +518,11 @@
   score: 3:2(3:11,11:6,12:10,6:11,12:10)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9150429
+  match: SD Huesca B vs CD Ebro
+  score: 1:0 (0:0)
+  sport: Football
+  league: Club Friendly Games
 - id: 9146935
   match: Dalian Kewei vs Taian Tiankuang
   score: 1:0 (0:0)
@@ -393,11 +533,6 @@
   score: 3:2 (2:1)
   sport: Football
   league: NPL, Victoria
-- id: 9150429
-  match: SD Huesca B vs CD Ebro
-  score: 1:0 (0:0)
-  sport: Football
-  league: Club Friendly Games
 - id: 9146755
   match: Shanghai Second vs Nantong Haimen Codion
   score: 0:2 (0:0)
@@ -411,6 +546,11 @@
 - id: 9150919
   match: Idaczyk, Rafal vs Schaniel Krzysztof
   score: 1:3(6:11,12:10,9:11,11:13)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9150921
+  match: Jedrzejak, Patryk vs Sawicki, Grzegorz
+  score: 3:2(11:6,11:3,9:11,9:11,11:6)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9148383
@@ -443,6 +583,11 @@
   score: 2:3(11:5,8:11,11:4,5:11,7:11)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9147235
+  match: FK Beograd Reserve vs Adelaide City FC Reserve
+  score: 4:1 (2:0)
+  sport: Football
+  league: South Australia Npl, Reserves
 - id: 9143657
   match: Bankstown Berries FC vs Hakoah Sydney
   score: 4:3 (2:1)
@@ -573,16 +718,16 @@
   score: 3:2 (2:1)
   sport: Football
   league: Tasmania Super League, Women
-- id: 9143869
-  match: Launceston City vs Launceston United
-  score: 0:7 (0:5)
-  sport: Football
-  league: Tasmania Super League, Women
 - id: 9150223
   match: New Town Eagles SC vs University of Tasmania
   score: 4:0 (1:0)
   sport: Football
   league: Tasmania Southern Championship
+- id: 9143869
+  match: Launceston City vs Launceston United
+  score: 0:7 (0:5)
+  sport: Football
+  league: Tasmania Super League, Women
 - id: 9150549
   match: Poloszczanski, Dawid vs Wozniak, Jakub
   score: 3:1(11:8,9:11,11:2,12:10)
