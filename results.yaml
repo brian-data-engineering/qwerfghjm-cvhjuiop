@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73265180
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
 basketball:
 - id: 73703264
@@ -88,7 +88,7 @@ tennis:
     away: Tirante, Thiago Agustin
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '18:10'
 - id: 73465906
@@ -96,7 +96,7 @@ tennis:
     home: Bellucci, Mattia
     away: Mensik, Jakub
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '18:15'
@@ -106,9 +106,18 @@ tennis:
     away: Tabilo, Alejandro
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '19:15'
+- id: 73465894
+  teams:
+    home: Halys, Quentin
+    away: de Minaur, Alex
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:50'
 ice_hockey:
 - id: 73588322
   teams:
