@@ -14,8 +14,8 @@ basketball:
     home: Finland
     away: Lithuania
   score:
-    home: 43
-    away: 47
+    home: 67
+    away: 65
   status: live
   time: '16:00'
 tennis:
@@ -55,6 +55,15 @@ tennis:
     away: 0
   status: live
   time: '15:00'
+- id: 73465886
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Vacherot, Valentin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:30'
 ice_hockey:
 - id: 73588322
   teams:
@@ -88,9 +97,9 @@ ice_hockey:
     home: Mountfield HK
     away: Salzburg
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '15:00'
 table_tennis:
 - id: 73705230
@@ -1225,5 +1234,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
