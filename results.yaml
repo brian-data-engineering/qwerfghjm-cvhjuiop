@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73703264
+  teams:
+    home: Sweden
+    away: Czech Republic
+  score:
+    home: 32
+    away: 23
+  status: live
+  time: '13:00'
 tennis:
 - id: 73667542
   teams:
@@ -18,7 +27,7 @@ ice_hockey:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73488968
   teams:
@@ -27,7 +36,7 @@ ice_hockey:
   score:
     home: 0
     away: 4
-  status: recentlyended
+  status: result
   time: '10:00'
 table_tennis:
 - id: 73705230
@@ -793,7 +802,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73748956
   teams:
@@ -802,7 +811,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73732410
   teams:
@@ -811,7 +820,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73732684
   teams:
@@ -820,7 +829,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73732052
   teams:
@@ -829,25 +838,25 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73732048
   teams:
     home: Havrda, Leos
     away: Stach, Vojtech
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '12:30'
 - id: 73732372
   teams:
     home: Malek, Lukas
     away: Didi, Julius
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '12:30'
 - id: 73732676
   teams:
@@ -855,24 +864,42 @@ table_tennis:
     away: Foltynek, Jiri
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 73732418
   teams:
     home: Polasek, Radovan
     away: Zika, Tadeas
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '12:30'
 - id: 73732406
   teams:
     home: Stacho, Libor
     away: Jungman, Filip
   score:
-    home: 2
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 73755310
+  teams:
+    home: Stacho, Libor
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '13:00'
+- id: 73755404
+  teams:
+    home: Oborny, Dominik
+    away: Holovatiuk, Yurii
+  score:
+    home: 0
     away: 0
   status: live
-  time: '12:30'
+  time: '13:30'
