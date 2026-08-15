@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: recentlyended
   time: '17:30'
 - id: 73265180
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '17:30'
 basketball:
 - id: 73703264
@@ -51,28 +51,64 @@ tennis:
     home: Blockx, Alexander
     away: Navone, Mariano
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 73465878
   teams:
     home: Kecmanovic, Miomir
     away: Cobolli, Flavio
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '15:00'
 - id: 73465882
   teams:
     home: Landaluce, Martin
     away: Arnaldi, Matteo
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:00'
+- id: 73465886
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Vacherot, Valentin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:30'
+- id: 73465880
+  teams:
+    home: Djokovic, Novak
+    away: Tirante, Thiago Agustin
+  score:
     home: 1
     away: 0
   status: live
-  time: '15:00'
+  time: '18:10'
+- id: 73465906
+  teams:
+    home: Bellucci, Mattia
+    away: Mensik, Jakub
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:15'
+- id: 73465890
+  teams:
+    home: Struff, Jan-Lennard
+    away: Tabilo, Alejandro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:15'
 ice_hockey:
 - id: 73588322
   teams:
