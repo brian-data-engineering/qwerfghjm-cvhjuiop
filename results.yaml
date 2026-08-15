@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 73667542
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Khachanov, Karen
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 01:20
 ice_hockey: []
 table_tennis:
 - id: 73705230
@@ -37,7 +46,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73705240
   teams:
@@ -46,7 +55,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73704952
   teams:
@@ -55,7 +64,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73705242
   teams:
@@ -64,23 +73,77 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73704840
   teams:
     home: Postelt, Tomas
     away: Bilek, Zdenek
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 01:00
 - id: 73705236
   teams:
     home: Sobisek, Martin
     away: Vizek, Martin
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 01:00
+- id: 73704986
+  teams:
+    home: Kratochvil, Michal
+    away: Zeman, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73705214
+  teams:
+    home: Pycha, Patrik
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 73705208
+  teams:
+    home: Vedmoch, Michal
+    away: Krejci, Richard
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 73705210
+  teams:
+    home: Dedek, Jiri
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 02:00
+- id: 73704950
+  teams:
+    home: Postelt, Tomas
+    away: Mares, Erik
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73705232
+  teams:
+    home: Sobisek, Martin
+    away: Kadavy, Simon
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 02:00
