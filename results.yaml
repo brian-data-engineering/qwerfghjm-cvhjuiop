@@ -13,7 +13,7 @@ soccer:
     home: CA San Lorenzo Almagro
     away: Union de Santa Fe
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '17:30'
@@ -51,16 +51,16 @@ tennis:
     home: Blockx, Alexander
     away: Navone, Mariano
   score:
-    home: 2
+    home: 1
     away: 0
-  status: recentlyended
+  status: live
   time: '15:00'
 - id: 73465878
   teams:
     home: Kecmanovic, Miomir
     away: Cobolli, Flavio
   score:
-    home: 1
+    home: 0
     away: 1
   status: live
   time: '15:00'
@@ -70,36 +70,9 @@ tennis:
     away: Arnaldi, Matteo
   score:
     home: 1
-    away: 1
+    away: 0
   status: live
   time: '15:00'
-- id: 73465886
-  teams:
-    home: Vallejo, Adolfo Daniel
-    away: Vacherot, Valentin
-  score:
-    home: 1
-    away: 0
-  status: live
-  time: '17:30'
-- id: 73465880
-  teams:
-    home: Djokovic, Novak
-    away: Tirante, Thiago Agustin
-  score:
-    home: 0
-    away: 0
-  status: live
-  time: '18:10'
-- id: 73465906
-  teams:
-    home: Bellucci, Mattia
-    away: Mensik, Jakub
-  score:
-    home: 0
-    away: 0
-  status: live
-  time: '18:15'
 ice_hockey:
 - id: 73588322
   teams:
@@ -1279,5 +1252,5 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:00'
