@@ -505,7 +505,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 73749900
   teams:
@@ -514,7 +514,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 73749896
   teams:
@@ -523,7 +523,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 73749538
   teams:
@@ -532,34 +532,34 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 73749914
   teams:
     home: Hrabec, Jan
     away: Jaksa, Martin
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 09:10
 - id: 73749894
   teams:
     home: Cernik, Jaromir
     away: Martinek, Jaroslav
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: recentlyended
   time: 09:30
 - id: 73749898
   teams:
     home: Kolisnyk, Oleksandr
     away: Kanera, Jan
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 09:30
 - id: 73749902
   teams:
@@ -567,6 +567,69 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 09:30
+- id: 73749916
+  teams:
+    home: Taichman, Ivo
+    away: Bosak, Vitezslav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 09:30
+- id: 73749536
+  teams:
+    home: Vavrecka, Michal
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 73732508
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Malek, Lukas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 73732328
+  teams:
+    home: Oborny, Dominik
+    away: Stacho, Libor
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 73732444
+  teams:
+    home: Paril, Ondrej
+    away: Polasek, Radovan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 73732624
+  teams:
+    home: Toth, Josef
+    away: Palmi, Ivo
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '10:00'
+- id: 73732032
+  teams:
+    home: Vrabec, Milan
+    away: Havrda, Leos
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '10:00'
