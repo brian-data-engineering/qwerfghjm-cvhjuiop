@@ -31,7 +31,7 @@ soccer:
     home: CA Belgrano de Cordoba
     away: Independiente Rivadavia
   score:
-    home: 1
+    home: 2
     away: 0
   status: live
   time: '22:00'
@@ -122,8 +122,8 @@ basketball:
     home: Fuerza Regia
     away: Freseros de Irapuato
   score:
-    home: 27
-    away: 21
+    home: 53
+    away: 42
   status: live
   time: '22:15'
 tennis:
@@ -222,9 +222,9 @@ tennis:
     home: Atmane, Terence
     away: Etcheverry, Tomas Martin
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '20:50'
 - id: 73465884
   teams:
@@ -232,7 +232,7 @@ tennis:
     away: Hurkacz, Hubert
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '21:15'
 - id: 73465892
@@ -241,7 +241,7 @@ tennis:
     away: Duckworth, James
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '21:20'
 - id: 73465908
@@ -249,10 +249,19 @@ tennis:
     home: Lehecka, Jiri
     away: Berrettini, Matteo
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '22:20'
+- id: 73465888
+  teams:
+    home: Jodar, Rafael
+    away: Shapovalov, Denis
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '23:05'
 ice_hockey:
 - id: 73588322
   teams:
