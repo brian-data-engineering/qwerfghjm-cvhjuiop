@@ -17,6 +17,15 @@ soccer:
     away: 0
   status: result
   time: '17:30'
+- id: 73265166
+  teams:
+    home: Estudiantes de la Plata
+    away: Gimnasia Y Esgrima La Plata
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:45'
 basketball:
 - id: 73703264
   teams:
@@ -106,8 +115,8 @@ tennis:
     away: Tabilo, Alejandro
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '19:15'
 - id: 73465894
   teams:
@@ -118,6 +127,15 @@ tennis:
     away: 0
   status: live
   time: '19:50'
+- id: 73465904
+  teams:
+    home: Darderi, Luciano
+    away: Hijikata, Rinky
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:20'
 ice_hockey:
 - id: 73588322
   teams:
