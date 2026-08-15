@@ -24,7 +24,7 @@ soccer:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '19:45'
 basketball:
 - id: 73703264
@@ -124,8 +124,8 @@ tennis:
     away: de Minaur, Alex
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '19:50'
 - id: 73465904
   teams:
@@ -134,14 +134,14 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '20:20'
 - id: 73465932
   teams:
     home: Atmane, Terence
     away: Etcheverry, Tomas Martin
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:50'
@@ -150,7 +150,7 @@ tennis:
     home: Paul, Tommy
     away: Hurkacz, Hubert
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '21:15'
@@ -159,7 +159,7 @@ tennis:
     home: Fery, Arthur
     away: Duckworth, James
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '21:20'
@@ -189,6 +189,15 @@ ice_hockey:
   score:
     home: 3
     away: 6
+  status: result
+  time: '14:00'
+- id: 73710104
+  teams:
+    home: Neftjanik
+    away: Bars Kazan
+  score:
+    home: 3
+    away: 2
   status: result
   time: '14:00'
 - id: 72040952
@@ -1047,6 +1056,15 @@ table_tennis:
     away: 0
   status: result
   time: '12:30'
+- id: 73755544
+  teams:
+    home: Malek, Lukas
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
 - id: 73755310
   teams:
     home: Stacho, Libor
@@ -1056,6 +1074,33 @@ table_tennis:
     away: 2
   status: result
   time: '13:00'
+- id: 73755534
+  teams:
+    home: Toth, Josef
+    away: Foltynek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 73755554
+  teams:
+    home: Cernik, Jaromir
+    away: Havrda, Leos
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:06'
+- id: 73755546
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
 - id: 73755404
   teams:
     home: Oborny, Dominik
@@ -1063,6 +1108,33 @@ table_tennis:
   score:
     home: 3
     away: 1
+  status: result
+  time: '13:30'
+- id: 73755552
+  teams:
+    home: Paril, Ondrej
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 73755536
+  teams:
+    home: Stolba, Miroslav
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 73755556
+  teams:
+    home: Vrabec, Milan
+    away: Stach, Vojtech
+  score:
+    home: 1
+    away: 3
   status: result
   time: '13:30'
 - id: 73732640
@@ -1335,6 +1407,96 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73757736
+  teams:
+    home: Darin, Kyryl
+    away: Jungman, Filip
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73757782
+  teams:
+    home: Horak, David
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 73757774
+  teams:
+    home: Kolek, Matyas
+    away: Kolek, Dalibor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73757786
+  teams:
+    home: Kvasnicka, Radim
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 73757770
+  teams:
+    home: Zeman, Lukas
+    away: Kratochvil, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73757784
+  teams:
+    home: Holovatiuk, Yurii
+    away: Kolenic, Tibor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 73757772
+  teams:
+    home: Mares, Erik
+    away: Kos, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 73757788
+  teams:
+    home: Mikula, David
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 73757780
+  teams:
+    home: Peter, Jaroslav
+    away: Levicky, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 73757738
+  teams:
+    home: Stacho, Libor
+    away: Oborny, Dominik
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:30'
 - id: 73732326
   teams:
     home: Adamczyk, Vladimir
