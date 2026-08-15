@@ -17,8 +17,8 @@ ice_hockey:
     away: Neftekamsk
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: recentlyended
   time: '10:00'
 - id: 73488968
   teams:
@@ -26,8 +26,8 @@ ice_hockey:
     away: HC Sibir
   score:
     home: 0
-    away: 2
-  status: live
+    away: 4
+  status: recentlyended
   time: '10:00'
 table_tennis:
 - id: 73705230
@@ -703,7 +703,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73732346
   teams:
@@ -712,7 +712,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73732636
   teams:
@@ -721,7 +721,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73732374
   teams:
@@ -746,9 +746,9 @@ table_tennis:
     home: Didi, Julius
     away: Nohejl, Vaclav (1975)
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '11:30'
 - id: 73732658
   teams:
@@ -756,8 +756,8 @@ table_tennis:
     away: Toth, Josef
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:30'
 - id: 73732390
   teams:
@@ -766,7 +766,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
 - id: 73732046
   teams:
@@ -774,8 +774,8 @@ table_tennis:
     away: Vrabec, Milan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '11:30'
 - id: 73732448
   teams:
@@ -784,5 +784,95 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:30'
+- id: 73732334
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73748956
+  teams:
+    home: Oborny, Dominik
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:00'
+- id: 73732410
+  teams:
+    home: Paril, Ondrej
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:00'
+- id: 73732684
+  teams:
+    home: Toth, Josef
+    away: Stolba, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '12:00'
+- id: 73732052
+  teams:
+    home: Vrabec, Milan
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '12:00'
+- id: 73732048
+  teams:
+    home: Havrda, Leos
+    away: Stach, Vojtech
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73732372
+  teams:
+    home: Malek, Lukas
+    away: Didi, Julius
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:30'
+- id: 73732676
+  teams:
+    home: Palmi, Ivo
+    away: Foltynek, Jiri
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73732418
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '12:30'
+- id: 73732406
+  teams:
+    home: Stacho, Libor
+    away: Jungman, Filip
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '12:30'
