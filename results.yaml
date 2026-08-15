@@ -5,9 +5,9 @@ basketball:
     home: Sweden
     away: Czech Republic
   score:
-    home: 45
-    away: 56
-  status: live
+    home: 63
+    away: 75
+  status: recentlyended
   time: '13:00'
 tennis:
 - id: 73667542
@@ -38,6 +38,15 @@ ice_hockey:
     away: 4
   status: result
   time: '10:00'
+- id: 73363918
+  teams:
+    home: Dinamo Minsk
+    away: Magnitogorsk
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 73705230
   teams:
@@ -910,16 +919,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73732416
   teams:
     home: Holovatiuk, Yurii
     away: Kolenic, Tibor
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: recentlyended
   time: '14:00'
 - id: 73732616
   teams:
@@ -928,7 +937,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73732434
   teams:
@@ -937,7 +946,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73732336
   teams:
@@ -946,5 +955,50 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
+- id: 73732344
+  teams:
+    home: Hrabec, Tomas
+    away: Priesol, Daniel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '14:30'
+- id: 73732622
+  teams:
+    home: Oborny, Dominik
+    away: Stacho, Libor
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 73732700
+  teams:
+    home: Peter, Jaroslav
+    away: Levicky, Matej
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '14:30'
+- id: 73732426
+  teams:
+    home: Svoboda, Adam
+    away: Horak, David
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 73732432
+  teams:
+    home: Zeman, Lukas
+    away: Kos, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:30'
