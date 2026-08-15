@@ -22,7 +22,7 @@ soccer:
     home: Estudiantes de la Plata
     away: Gimnasia Y Esgrima La Plata
   score:
-    home: 1
+    home: 3
     away: 0
   status: live
   time: '19:45'
@@ -97,8 +97,8 @@ tennis:
     away: Tirante, Thiago Agustin
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:10'
 - id: 73465906
   teams:
@@ -106,8 +106,8 @@ tennis:
     away: Mensik, Jakub
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:15'
 - id: 73465890
   teams:
@@ -116,7 +116,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:15'
 - id: 73465894
   teams:
@@ -124,7 +124,7 @@ tennis:
     away: de Minaur, Alex
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '19:50'
 - id: 73465904
@@ -133,9 +133,18 @@ tennis:
     away: Hijikata, Rinky
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '20:20'
+- id: 73465932
+  teams:
+    home: Atmane, Terence
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:50'
 ice_hockey:
 - id: 73588322
   teams:
