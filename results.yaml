@@ -14,8 +14,8 @@ basketball:
     home: Finland
     away: Lithuania
   score:
-    home: 19
-    away: 12
+    home: 39
+    away: 38
   status: live
   time: '16:00'
 tennis:
@@ -81,7 +81,7 @@ ice_hockey:
   score:
     home: 3
     away: 6
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72040952
   teams:
@@ -1144,7 +1144,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73732364
   teams:
@@ -1153,7 +1153,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73732670
   teams:
@@ -1171,7 +1171,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73732420
   teams:
@@ -1180,5 +1180,50 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 73732654
+  teams:
+    home: Jungman, Filip
+    away: Stacho, Libor
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 73732664
+  teams:
+    home: Kolek, Matyas
+    away: Levicky, Matej
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 73732480
+  teams:
+    home: Kolenic, Tibor
+    away: Horak, David
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 73732388
+  teams:
+    home: Kratochvil, Michal
+    away: Kos, Tomas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 73732382
+  teams:
+    home: Kvasnicka, Radim
+    away: Priesol, Daniel
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '16:30'
