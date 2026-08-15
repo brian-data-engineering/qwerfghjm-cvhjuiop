@@ -9,6 +9,15 @@ basketball:
     away: 75
   status: result
   time: '13:00'
+- id: 73364012
+  teams:
+    home: Finland
+    away: Lithuania
+  score:
+    home: 19
+    away: 12
+  status: live
+  time: '16:00'
 tennis:
 - id: 73667542
   teams:
@@ -24,7 +33,7 @@ tennis:
     home: Blockx, Alexander
     away: Navone, Mariano
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:00'
@@ -42,7 +51,7 @@ tennis:
     home: Landaluce, Martin
     away: Arnaldi, Matteo
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:00'
@@ -70,9 +79,9 @@ ice_hockey:
     home: Dinamo Minsk
     away: Magnitogorsk
   score:
-    home: 2
-    away: 3
-  status: live
+    home: 3
+    away: 6
+  status: recentlyended
   time: '14:00'
 - id: 72040952
   teams:
@@ -1054,7 +1063,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73732482
   teams:
@@ -1063,7 +1072,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73732360
   teams:
@@ -1089,8 +1098,8 @@ table_tennis:
     away: Holovatiuk, Yurii
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:30'
 - id: 73732392
   teams:
@@ -1099,7 +1108,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73732626
   teams:
@@ -1108,7 +1117,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73732380
   teams:
@@ -1117,7 +1126,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73732618
   teams:
@@ -1126,5 +1135,50 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
+- id: 73732694
+  teams:
+    home: Darin, Kyryl
+    away: Oborny, Dominik
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73732364
+  teams:
+    home: Holovatiuk, Yurii
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73732670
+  teams:
+    home: Kolek, Dalibor
+    away: Peter, Jaroslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73732352
+  teams:
+    home: Mares, Erik
+    away: Zeman, Lukas
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73732420
+  teams:
+    home: Mikula, David
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:00'
