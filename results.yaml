@@ -10,7 +10,25 @@ tennis:
     away: 1
   status: result
   time: 01:20
-ice_hockey: []
+ice_hockey:
+- id: 73588322
+  teams:
+    home: Samara
+    away: Neftekamsk
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 73488968
+  teams:
+    home: Sochi
+    away: HC Sibir
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:00'
 table_tennis:
 - id: 73705230
   teams:
@@ -550,7 +568,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 73749898
   teams:
@@ -577,7 +595,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 73749536
   teams:
@@ -595,7 +613,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73732328
   teams:
@@ -604,7 +622,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73732444
   teams:
@@ -613,23 +631,68 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73732624
   teams:
     home: Toth, Josef
     away: Palmi, Ivo
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: recentlyended
   time: '10:00'
 - id: 73732032
   teams:
     home: Vrabec, Milan
     away: Havrda, Leos
   score:
-    home: 1
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '10:00'
+- id: 73732038
+  teams:
+    home: Cernik, Jaromir
+    away: Stach, Vojtech
+  score:
+    home: 0
     away: 2
   status: live
-  time: '10:00'
+  time: '10:30'
+- id: 73748954
+  teams:
+    home: Holovatiuk, Yurii
+    away: Jungman, Filip
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:30'
+- id: 73732384
+  teams:
+    home: Stefek, Martin
+    away: Didi, Julius
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '10:30'
+- id: 73732688
+  teams:
+    home: Stolba, Miroslav
+    away: Foltynek, Jiri
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '10:30'
+- id: 73732502
+  teams:
+    home: Vavrecka, Michal
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '10:30'
