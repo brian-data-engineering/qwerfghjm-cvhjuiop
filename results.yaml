@@ -152,7 +152,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '17:35'
 - id: 73465896
   teams:
@@ -168,7 +168,7 @@ tennis:
     home: Nakashima, Brandon
     away: Kovacevic, Aleksandar
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:55'
@@ -181,6 +181,15 @@ tennis:
     away: 0
   status: live
   time: '19:05'
+- id: 73466000
+  teams:
+    home: Rublev, Andrey
+    away: Carreno Busta, Pablo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:25'
 ice_hockey:
 - id: 73562642
   teams:
