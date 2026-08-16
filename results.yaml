@@ -4,9 +4,9 @@ soccer:
     home: CA Platense
     away: Boca Juniors
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 1
+  status: result
   time: 00:15
 basketball: []
 tennis:
@@ -16,8 +16,8 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 00:00
 ice_hockey: []
 table_tennis:
@@ -82,7 +82,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73732466
   teams:
@@ -91,7 +91,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73732668
   teams:
@@ -100,5 +100,86 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 73732398
+  teams:
+    home: Necas, Miroslav
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73732330
+  teams:
+    home: Regner, Michal
+    away: Pikous, Marcel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73732630
+  teams:
+    home: Ruzicka, Jiri
+    away: Svacha, Ondrej
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 73732488
+  teams:
+    home: Louda, Jiri
+    away: Sebera, Petr
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 02:00
+- id: 73732452
+  teams:
+    home: Novotny, Miroslav
+    away: Bartak, Karel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73732692
+  teams:
+    home: Urbaniec, Radim
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 73732340
+  teams:
+    home: Dolezal, Vaclav
+    away: Urban, Roman
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 02:30
+- id: 73732472
+  teams:
+    home: Pikous, Marcel
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 02:30
+- id: 73732650
+  teams:
+    home: Svacha, Ondrej
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 02:30
