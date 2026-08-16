@@ -125,7 +125,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:50'
 - id: 73465992
   teams:
@@ -179,26 +179,35 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:05'
 - id: 73466000
   teams:
     home: Rublev, Andrey
     away: Carreno Busta, Pablo
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '19:25'
 - id: 73466016
   teams:
     home: Tien, Learner
     away: Baez, Sebastian
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:35'
+- id: 73465898
+  teams:
+    home: Merida, Daniel
+    away: Bergs, Zizou
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:45'
 ice_hockey:
 - id: 73562642
   teams:
