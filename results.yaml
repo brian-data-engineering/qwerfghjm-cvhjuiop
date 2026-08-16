@@ -8,6 +8,15 @@ soccer:
     away: 1
   status: result
   time: 00:15
+- id: 73265194
+  teams:
+    home: CA Sarmiento Junin
+    away: CA Huracan
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
 basketball:
 - id: 73364014
   teams:
@@ -115,7 +124,7 @@ tennis:
     away: Cerundolo, Juan Manuel
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '16:50'
 - id: 73465992
@@ -123,9 +132,9 @@ tennis:
     home: Fonseca, Joao
     away: Van de Zandschulp, Botic
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '16:55'
 - id: 73466006
   teams:
@@ -133,8 +142,8 @@ tennis:
     away: Auger-Aliassime, Felix
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '17:20'
 - id: 73466014
   teams:
@@ -154,6 +163,15 @@ tennis:
     away: 0
   status: live
   time: '18:25'
+- id: 73465984
+  teams:
+    home: Nakashima, Brandon
+    away: Kovacevic, Aleksandar
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:55'
 ice_hockey:
 - id: 73562642
   teams:
