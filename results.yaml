@@ -16,7 +16,7 @@ basketball:
   score:
     home: 75
     away: 76
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72154616
   teams:
@@ -107,14 +107,14 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:05'
 - id: 73466004
   teams:
     home: Rinderknech, Arthur
     away: Cerundolo, Juan Manuel
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '16:50'
@@ -123,10 +123,28 @@ tennis:
     home: Fonseca, Joao
     away: Van de Zandschulp, Botic
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '16:55'
+- id: 73466006
+  teams:
+    home: Tsitsipas, Stefanos
+    away: Auger-Aliassime, Felix
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:20'
+- id: 73466014
+  teams:
+    home: Altmaier, Daniel
+    away: Musetti, Lorenzo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:35'
 ice_hockey:
 - id: 73562642
   teams:
