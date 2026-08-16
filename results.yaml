@@ -134,7 +134,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:55'
 - id: 73466006
   teams:
@@ -143,7 +143,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '17:20'
 - id: 73466014
   teams:
@@ -151,15 +151,15 @@ tennis:
     away: Musetti, Lorenzo
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '17:35'
 - id: 73465896
   teams:
     home: Fritz, Taylor
     away: Michelsen, Alex
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:25'
@@ -172,6 +172,15 @@ tennis:
     away: 0
   status: live
   time: '18:55'
+- id: 73466002
+  teams:
+    home: Borges, Nuno
+    away: Cerundolo, Francisco
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:05'
 ice_hockey:
 - id: 73562642
   teams:
