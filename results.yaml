@@ -280,7 +280,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73749102
   teams:
@@ -297,8 +297,8 @@ table_tennis:
     away: Vavrecka, David
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:30
 - id: 73749140
   teams:
@@ -307,7 +307,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73749352
   teams:
@@ -316,7 +316,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73749170
   teams:
@@ -325,14 +325,68 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73749394
   teams:
     home: Tacinec, Martin
     away: Nohejl, Vaclav (1975)
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 06:30
+- id: 73749334
+  teams:
+    home: Barton, David
+    away: Tacinec, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 73749294
+  teams:
+    home: Derco, Michal
+    away: Blaha, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 73749340
+  teams:
+    home: Jasek, Milan
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 73749086
+  teams:
+    home: Jindrak, Lukas
+    away: Cernik, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 73749128
+  teams:
+    home: Tkachenko, Andrii
+    away: Novotny, Ladislav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 73749106
+  teams:
+    home: Kratochvil, Michal
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 07:30
