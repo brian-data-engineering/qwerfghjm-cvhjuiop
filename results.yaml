@@ -343,7 +343,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73749294
   teams:
@@ -352,7 +352,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73749340
   teams:
@@ -361,7 +361,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73749086
   teams:
@@ -370,7 +370,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73749128
   teams:
@@ -379,14 +379,95 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 73749106
   teams:
     home: Kratochvil, Michal
     away: Mares, Erik
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 07:30
+- id: 73749094
+  teams:
+    home: Martinek, Jaroslav
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 73749416
+  teams:
+    home: Nohejl, Vaclav (1975)
+    away: Didi, Julius
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:30
+- id: 73749396
+  teams:
+    home: Priesol, Daniel
+    away: Jemelka, Libor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 73749286
+  teams:
+    home: Vavrecka, David
+    away: Banot, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 73749412
+  teams:
+    home: Banot, Petr
+    away: Blaha, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 73749314
+  teams:
+    home: Didi, Julius
+    away: Tacinec, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 73749312
+  teams:
+    home: Jemelka, Libor
+    away: Guliak, Roman
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 73749104
+  teams:
+    home: Mares, Erik
+    away: Cernik, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 73749092
+  teams:
+    home: Stach, Vojtech
+    away: Novotny, Ladislav
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:00
