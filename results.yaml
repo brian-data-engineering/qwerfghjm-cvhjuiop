@@ -81,6 +81,15 @@ basketball:
     away: 80
   status: result
   time: 02:00
+- id: 72154626
+  teams:
+    home: Fuerza Regia
+    away: Freseros de Irapuato
+  score:
+    home: 33
+    away: 27
+  status: live
+  time: '22:15'
 tennis:
 - id: 73465910
   teams:
@@ -206,7 +215,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '20:35'
 - id: 73465898
   teams:
@@ -215,8 +224,17 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '20:45'
+- id: 73465990
+  teams:
+    home: Walton, Adam
+    away: Buse, Ignacio
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:35'
 ice_hockey:
 - id: 73562642
   teams:
