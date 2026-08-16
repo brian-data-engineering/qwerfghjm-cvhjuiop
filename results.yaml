@@ -19,6 +19,15 @@ tennis:
     away: 2
   status: result
   time: 00:00
+- id: 73465930
+  teams:
+    home: Zverev, Alexander
+    away: Norrie, Cameron
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 03:25
 ice_hockey: []
 table_tennis:
 - id: 73732460
@@ -136,7 +145,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73732452
   teams:
@@ -145,7 +154,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73732692
   teams:
@@ -161,18 +170,18 @@ table_tennis:
     home: Dolezal, Vaclav
     away: Urban, Roman
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 02:30
 - id: 73732472
   teams:
     home: Pikous, Marcel
     away: Sychra, Martin
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 02:30
 - id: 73732650
   teams:
@@ -180,6 +189,6 @@ table_tennis:
     away: Huk, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 02:30
