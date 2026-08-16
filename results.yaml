@@ -14,8 +14,8 @@ basketball:
     home: Finland
     away: Czech Republic
   score:
-    home: 37
-    away: 40
+    home: 58
+    away: 57
   status: live
   time: '15:00'
 - id: 72154616
@@ -88,7 +88,7 @@ tennis:
     away: Zheng, Michael
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:00'
 - id: 73465994
@@ -96,9 +96,9 @@ tennis:
     home: O'Connell, Christopher
     away: Ruud, Casper
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: recentlyended
   time: '15:05'
 - id: 73465986
   teams:
@@ -106,7 +106,7 @@ tennis:
     away: Medvedev, Daniil
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '15:05'
 ice_hockey:
