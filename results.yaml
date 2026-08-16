@@ -89,7 +89,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73465994
   teams:
@@ -106,8 +106,8 @@ tennis:
     away: Medvedev, Daniil
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '15:05'
 - id: 73466004
   teams:
@@ -117,7 +117,16 @@ tennis:
     home: 0
     away: 0
   status: live
-  time: '16:40'
+  time: '16:50'
+- id: 73465992
+  teams:
+    home: Fonseca, Joao
+    away: Van de Zandschulp, Botic
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:55'
 ice_hockey:
 - id: 73562642
   teams:
