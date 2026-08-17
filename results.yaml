@@ -60,7 +60,7 @@ tennis:
     home: Blockx, Alexander
     away: Cobolli, Flavio
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '15:00'
@@ -83,6 +83,15 @@ ice_hockey:
     away: 2
   status: result
   time: '12:00'
+- id: 73531684
+  teams:
+    home: Salavat UFA
+    away: Barys Astana
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '14:00'
 table_tennis:
 - id: 73749400
   teams:
