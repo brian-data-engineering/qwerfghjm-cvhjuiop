@@ -14,8 +14,8 @@ soccer:
     away: CA Independiente Avellaneda
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '20:00'
 basketball:
 - id: 72154632
@@ -100,6 +100,15 @@ tennis:
     away: 1
   status: live
   time: '17:50'
+- id: 73465954
+  teams:
+    home: Jodar, Rafael
+    away: Tabilo, Alejandro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:00'
 ice_hockey:
 - id: 73779288
   teams:
