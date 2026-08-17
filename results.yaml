@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 73265192
+  teams:
+    home: Estudiantes Rio Cuarto
+    away: Atletico Tucuman
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:45'
 basketball:
 - id: 72154632
   teams:
@@ -61,8 +70,8 @@ tennis:
     away: Cobolli, Flavio
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
 - id: 73465958
   teams:
@@ -71,8 +80,17 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:05'
+- id: 73465948
+  teams:
+    home: Fery, Arthur
+    away: de Minaur, Alex
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:50'
 ice_hockey:
 - id: 73779288
   teams:
@@ -92,6 +110,15 @@ ice_hockey:
     away: 1
   status: result
   time: '14:00'
+- id: 73779290
+  teams:
+    home: Dinamo Minsk
+    away: HC Sibir
+  score:
+    home: 4
+    away: 3
+  status: recentlyended
+  time: '16:00'
 table_tennis:
 - id: 73749400
   teams:
