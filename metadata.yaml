@@ -1,11 +1,106 @@
+- id: 9161071
+  match: Madej, Boguslaw vs Slawinski, Kacper
+  score: 1:3(5:11,11:6,8:11,4:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158147
+  match: Przewlocki, Piotr vs Sokolowski, Oliwier
+  score: 3:0(11:3,11:5,13:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9161069
+  match: Minda, Michal vs Sobel, Artur
+  score: 2:3(11:7,7:11,11:8,8:11,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158651
+  match: Plachy, Jiri vs Trefny, Jan
+  score: 3:1(6:11,11:8,12:10,11:8)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158399
+  match: Cabis, Michal vs Zika, Tadeas
+  score: 3:2(7:11,11:9,11:6,2:11,11:7)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158667
+  match: Langer, Daniel vs Blejchar, Marek
+  score: 3:0(12:10,11:0,12:10)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158663
+  match: Malek, Lukas vs Svoboda, Adam
+  score: 2:3(11:7,7:11,5:11,11:5,9:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9161033
+  match: Kosmal, Dawid vs Glazowski, Kacper
+  score: 2:3(13:11,7:11,8:11,12:10,8:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158657
+  match: Sychra, Martin vs Wagner, Richard
+  score: 3:2(14:12,11:13,3:11,14:12,13:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158121
+  match: Michna, Dawid vs Wiecek, Adrian
+  score: 3:2(9:11,11:9,12:10,5:11,11:6)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9161027
+  match: Sikon, Mateusz vs Rus, Maksymilian
+  score: 3:2(11:9,11:9,9:11,9:11,13:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9161031
+  match: Lilien, Aleksander vs Blocho, Przemyslaw
+  score: 1:3(10:12,11:8,10:12,5:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158143
+  match: Wojtaszczyk, Wojciech vs Durda, Michal
+  score: 1:3(5:11,11:9,7:11,6:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9161029
+  match: Prokopcov, Dimitrij vs Wloczko, Krzysztof
+  score: 2:3(6:11,16:14,11:5,5:11,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158383
+  match: Postelt, Vladimir vs Dedek, Jiri
+  score: 3:2(11:4,6:11,11:8,5:11,11:3)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158655
+  match: Rinka, Alfred vs Taichman, Ivo
+  score: 3:1(8:11,11:8,11:5,14:12)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158405
+  match: Sedlacek, Michael vs Szotkowski, Jan
+  score: 1:3(8:11,3:11,11:6,8:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158113
+  match: Olejnik, Martin vs Kosowski, Jakub
+  score: 0:3(6:11,6:11,8:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158649
+  match: Pusch, Frantisek vs Cermak, Vladimir
+  score: 3:2(8:11,11:6,8:11,11:2,11:8)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158661
+  match: Stefek, Martin vs Bernat, Jan
+  score: 0:3(11:13,4:11,3:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9160975
   match: Skotniczny, Rafal vs Slawinski, Kacper
   score: 3:1(11:5,4:11,12:10,11:3)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9158133
-  match: Gajda, Rafal vs Przewlocki, Piotr
-  score: 3:2(6:11,11:6,11:6,9:11,11:7)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160979
@@ -13,6 +108,16 @@
   score: 0:3(9:11,4:11,7:11)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9158133
+  match: Gajda, Rafal vs Przewlocki, Piotr
+  score: 3:2(6:11,11:6,11:6,9:11,11:7)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9153477
+  match: Dellien Velasco, Murkel Alejandro vs Nijboer, Ryan
+  score: 0:2(2:6,1:6)
+  sport: Tennis
+  league: round_of_32
 - id: 9160977
   match: Poliniewicz, Grzegorz vs Kosmal, Dawid
   score: 3:1(11:6,8:11,13:11,11:6)
@@ -28,24 +133,34 @@
   score: 3:0(11:6,11:9,11:2)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160803
-  match: Blocho, Przemyslaw vs Brud, Szymon
-  score: 2:3(11:9,11:5,5:11,9:11,6:11)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9160807
   match: Durda, Michal vs Sokolowski, Oskar
   score: 3:2(11:2,8:11,4:11,11:5,11:7)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160805
-  match: Wloczko, Krzysztof vs Spychala, Adrian
-  score: 2:3(9:11,10:12,11:5,11:8,9:11)
+- id: 9160803
+  match: Blocho, Przemyslaw vs Brud, Szymon
+  score: 2:3(11:9,11:5,5:11,9:11,6:11)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9153647
+  match: Tseng, Chun Hsin vs Barton, Hynek
+  score: 2:0(6:4,6:1)
+  sport: Tennis
+  league: round_of_32
 - id: 9158123
   match: Kosowski, Jakub vs Kolodziej, Krystian
   score: 3:1(11:3,11:9,6:11,12:10)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158871
+  match: Tornado vs Alliance
+  score: 0:3(17:25,13:25,11:25)
+  sport: Volleyball
+  league: Pro League
+- id: 9160805
+  match: Wloczko, Krzysztof vs Spychala, Adrian
+  score: 2:3(9:11,10:12,11:5,11:8,9:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160769
@@ -58,24 +173,24 @@
   score: 3:0(11:6,11:6,11:8)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158099
-  match: Olejnik, Martin vs Wiecek, Adrian
-  score: 3:1(12:14,11:7,11:5,11:8)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158111
   match: Wojtaszczyk, Wojciech vs Sokolowski, Oliwier
   score: 0:3(7:11,6:11,4:11)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9160213
+  match: Slovan Bratislava U19 vs Kosice U19
+  score: 2:1 (1:1)
+  sport: Football
+  league: U19
 - id: 9160763
   match: Lilien, Aleksander vs Sobel, Artur
   score: 1:3(11:5,9:11,11:13,8:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160761
-  match: Rus, Maksymilian vs Skotniczny, Rafal
-  score: 3:2(12:10,7:11,15:13,3:11,15:13)
+- id: 9158099
+  match: Olejnik, Martin vs Wiecek, Adrian
+  score: 3:1(12:14,11:7,11:5,11:8)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160765
@@ -83,9 +198,9 @@
   score: 3:2(11:9,5:11,9:11,12:10,11:4)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158097
-  match: Przewlocki, Piotr vs Sokolowski, Oskar
-  score: 3:0(11:7,11:9,11:9)
+- id: 9160761
+  match: Rus, Maksymilian vs Skotniczny, Rafal
+  score: 3:2(12:10,7:11,15:13,3:11,15:13)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160759
@@ -93,16 +208,31 @@
   score: 1:3(8:11,11:7,8:11,10:12)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9158097
+  match: Przewlocki, Piotr vs Sokolowski, Oskar
+  score: 3:0(11:7,11:9,11:9)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9160799
+  match: Darwin Olympic SC vs Palmerston Rovers
+  score: 8:0 (4:0)
+  sport: Football
+  league: Northern Territory Premier League, Women
+- id: 9158103
+  match: Kosowski, Jakub vs Michna, Dawid
+  score: 3:0(11:5,11:8,11:2)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9159603
+  match: Vavrecka, Michal vs Paril, Ondrej
+  score: 3:0(11:9,11:5,11:7)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9160703
   match: Kosmal, Dawid vs Minda, Michal
   score: 3:2(11:5,10:12,11:9,6:11,11:5)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158505
-  match: Zientek, Zbynek vs Banot, Petr
-  score: 3:0(11:4,11:6,11:9)
-  sport: Table Tennis
-  league: Czech Liga Pro
 - id: 9158535
   match: Trefny, Jan vs Prokupek, Jaroslav
   score: 3:2(7:11,12:10,11:6,9:11,11:5)
@@ -113,19 +243,14 @@
   score: 3:0(16:14,11:8,11:8)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9158505
+  match: Zientek, Zbynek vs Banot, Petr
+  score: 3:0(11:4,11:6,11:9)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9158371
   match: Forman, Lubos vs Hejduk, Alexander
   score: 2:3(6:11,11:6,11:4,7:11,9:11)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9158103
-  match: Kosowski, Jakub vs Michna, Dawid
-  score: 3:0(11:5,11:8,11:2)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9159603
-  match: Vavrecka, Michal vs Paril, Ondrej
-  score: 3:0(11:9,11:5,11:7)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9160711
@@ -138,19 +263,14 @@
   score: 3:1(11:9,11:6,5:11,11:9)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158137
-  match: Gajda, Rafal vs Sokolowski, Oliwier
-  score: 2:3(11:6,6:11,11:9,11:13,9:11)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9160701
   match: Wrobel, Dariusz vs Lukaszewski, Mikolaj
   score: 1:3(11:13,11:9,4:11,9:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158091
-  match: Prokopcov, Dimitrij vs Spanik, Tibor
-  score: 3:2(5:11,12:10,11:3,7:11,11:8)
+- id: 9158137
+  match: Gajda, Rafal vs Sokolowski, Oliwier
+  score: 2:3(11:6,6:11,11:9,11:13,9:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160657
@@ -158,16 +278,21 @@
   score: 1:3(4:11,7:11,13:11,6:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9159665
-  match: Soto, Matias vs Molleker, Rudolf
-  score: 0:2(3:6,3:6)
-  sport: Tennis
-  league: round_of_32
-- id: 9160659
-  match: Ruszkiewicz, Adam vs Adamus, Kacper
-  score: 3:1(11:5,8:11,11:2,11:5)
+- id: 9158091
+  match: Prokopcov, Dimitrij vs Spanik, Tibor
+  score: 3:2(5:11,12:10,11:3,7:11,11:8)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9153489
+  match: Staeheli, Luca vs Chepelev, Andrey
+  score: 2:0(6:3,6:1)
+  sport: Tennis
+  league: round_of_32
+- id: 9158397
+  match: Strnad, Jaroslav (1961) vs Kubat, Vladimir
+  score: 3:1(11:6,11:4,7:11,14:12)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9153487
   match: Compagnucci, Tommaso vs Dahlin, Max
   score: 2:0(7:5,6:3)
@@ -178,6 +303,41 @@
   score: 3:1(11:3,8:11,11:9,11:5)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9160659
+  match: Ruszkiewicz, Adam vs Adamus, Kacper
+  score: 3:1(11:5,8:11,11:2,11:5)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158365
+  match: Revay, Radomir vs Polasek, Radovan
+  score: 2:3(13:15,11:9,11:4,7:11,4:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9156209
+  match: Ehrenschneider, Nino vs Wehnelt, Kai
+  score: 0:2(4:6,4:6)
+  sport: Tennis
+  league: Qualification round 1
+- id: 9159659
+  match: Krutykh, Oleksii vs Siniakov, Daniel
+  score: 2:0(6:3,6:4)
+  sport: Tennis
+  league: round_of_32
+- id: 9159665
+  match: Soto, Matias vs Molleker, Rudolf
+  score: 0:2(3:6,3:6)
+  sport: Tennis
+  league: round_of_32
+- id: 9158391
+  match: Stolfa, Jakub vs Plachy, Jiri
+  score: 3:1(12:10,9:11,12:10,11:6)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9153483
+  match: Mena, Facundo vs La Serna, Juan Manuel
+  score: 0:2(3:6,3:6)
+  sport: Tennis
+  league: round_of_32
 - id: 9153633
   match: Broska, Florian vs Cuenin, Sean
   score: 0:2(3:6,5:7)
@@ -188,41 +348,6 @@
   score: 3:2(11:9,12:10,7:11,6:11,11:7)
   sport: Table Tennis
   league: Czech Liga Pro
-- id: 9158365
-  match: Revay, Radomir vs Polasek, Radovan
-  score: 2:3(13:15,11:9,11:4,7:11,4:11)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9153489
-  match: Staeheli, Luca vs Chepelev, Andrey
-  score: 2:0(6:3,6:1)
-  sport: Tennis
-  league: round_of_32
-- id: 9158391
-  match: Stolfa, Jakub vs Plachy, Jiri
-  score: 3:1(12:10,9:11,12:10,11:6)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9156209
-  match: Ehrenschneider, Nino vs Wehnelt, Kai
-  score: 0:2(4:6,4:6)
-  sport: Tennis
-  league: Qualification round 1
-- id: 9153483
-  match: Mena, Facundo vs La Serna, Juan Manuel
-  score: 0:2(3:6,3:6)
-  sport: Tennis
-  league: round_of_32
-- id: 9158397
-  match: Strnad, Jaroslav (1961) vs Kubat, Vladimir
-  score: 3:1(11:6,11:4,7:11,14:12)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9159659
-  match: Krutykh, Oleksii vs Siniakov, Daniel
-  score: 2:0(6:3,6:4)
-  sport: Tennis
-  league: round_of_32
 - id: 9160653
   match: Sikon, Mateusz vs Slawinski, Kacper
   score: 1:3(5:11,11:7,8:11,4:11)
@@ -258,19 +383,14 @@
   score: 3:1(11:3,7:11,11:8,14:12)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9158379
+  match: Hejduk, Alexander vs Madle, Ludek
+  score: 3:1(8:11,11:9,11:7,11:5)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9159607
   match: Paril, Ondrej vs Revay, Radomir
   score: 1:3(10:12,11:7,8:11,8:11)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9160595
-  match: Madej, Boguslaw vs Skotniczny, Rafal
-  score: 3:2(11:9,11:9,8:11,6:11,11:8)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9158359
-  match: Banot, Petr vs Levicky, Matej
-  score: 3:1(11:8,7:11,11:6,11:8)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9158393
@@ -283,9 +403,14 @@
   score: 1:3(10:12,9:11,12:10,3:11)
   sport: Table Tennis
   league: Czech Liga Pro
-- id: 9158379
-  match: Hejduk, Alexander vs Madle, Ludek
-  score: 3:1(8:11,11:9,11:7,11:5)
+- id: 9160595
+  match: Madej, Boguslaw vs Skotniczny, Rafal
+  score: 3:2(11:9,11:9,8:11,6:11,11:8)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158359
+  match: Banot, Petr vs Levicky, Matej
+  score: 3:1(11:8,7:11,11:6,11:8)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9158107
@@ -293,14 +418,14 @@
   score: 3:0(11:5,11:8,11:6)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160603
-  match: Wisniewski, Bartlomiej vs Lukaszewski, Mikolaj
-  score: 1:3(8:11,11:9,10:12,7:11)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158117
   match: Sokolowski, Oskar vs Sokolowski, Oliwier
   score: 1:3(13:11,6:11,10:12,7:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9160603
+  match: Wisniewski, Bartlomiej vs Lukaszewski, Mikolaj
+  score: 1:3(8:11,11:9,10:12,7:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160599
@@ -308,26 +433,16 @@
   score: 1:3(11:5,6:11,2:11,3:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160607
-  match: Rus, Maksymilian vs Slawinski, Kacper
-  score: 0:3(7:11,8:11,9:11)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9160601
   match: Vincenec, Oliver vs Adamus, Kacper
   score: 0:3(8:11,8:11,6:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158373
-  match: Petr, Pavel vs Kubat, Vladimir
-  score: 3:2(11:7,11:9,2:11,9:11,11:7)
+- id: 9160607
+  match: Rus, Maksymilian vs Slawinski, Kacper
+  score: 0:3(7:11,8:11,9:11)
   sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9158367
-  match: Trefny, Jan vs Plachy, Jiri
-  score: 3:1(11:8,11:9,6:11,11:7)
-  sport: Table Tennis
-  league: Czech Liga Pro
+  league: TT Elite Series
 - id: 9158381
   match: Zientek, Zbynek vs Kaspar, Michal
   score: 1:3(11:5,8:11,10:12,9:11)
@@ -343,9 +458,19 @@
   score: 3:2(11:4,8:11,7:11,11:4,11:7)
   sport: Table Tennis
   league: Czech Liga Pro
-- id: 9158077
-  match: Kosowski, Jakub vs Olejnik, Martin
-  score: 3:2(8:11,11:8,4:11,11:6,11:5)
+- id: 9158373
+  match: Petr, Pavel vs Kubat, Vladimir
+  score: 3:2(11:7,11:9,2:11,9:11,11:7)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158367
+  match: Trefny, Jan vs Plachy, Jiri
+  score: 3:1(11:8,11:9,6:11,11:7)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158011
+  match: Przewlocki, Piotr vs Wojtaszczyk, Wojciech
+  score: 3:2(7:11,11:7,9:11,14:12,11:8)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160545
@@ -353,9 +478,9 @@
   score: 2:3(11:9,10:12,2:11,11:6,14:16)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158011
-  match: Przewlocki, Piotr vs Wojtaszczyk, Wojciech
-  score: 3:2(7:11,11:7,9:11,14:12,11:8)
+- id: 9158077
+  match: Kosowski, Jakub vs Olejnik, Martin
+  score: 3:2(8:11,11:8,4:11,11:6,11:5)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160547
@@ -373,9 +498,14 @@
   score: 2:3(11:8,9:11,11:4,8:11,8:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9159597
-  match: Polasek, Radovan vs Paril, Ondrej
-  score: 3:1(11:9,11:3,6:11,13:11)
+- id: 9160505
+  match: Trela, Mateusz vs Wrobel, Dariusz
+  score: 3:1(11:7,13:15,11:6,11:7)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158363
+  match: Kubat, Vladimir vs Koch, Jiri
+  score: 3:1(7:11,11:7,11:5,11:9)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9158357
@@ -388,9 +518,9 @@
   score: 3:1(11:8,3:11,11:6,11:8)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158361
-  match: Kaspar, Michal vs Banot, Petr
-  score: 3:1(11:7,8:11,11:6,12:10)
+- id: 9159597
+  match: Polasek, Radovan vs Paril, Ondrej
+  score: 3:1(11:9,11:3,6:11,13:11)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9158347
@@ -398,29 +528,24 @@
   score: 1:3(9:11,11:5,6:11,8:11)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9158361
+  match: Kaspar, Michal vs Banot, Petr
+  score: 3:1(11:7,8:11,11:6,12:10)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9158179
   match: Wiecek, Adrian vs Prokopcov, Dimitrij
   score: 3:0(11:8,11:9,11:8)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158363
-  match: Kubat, Vladimir vs Koch, Jiri
-  score: 3:1(7:11,11:7,11:5,11:9)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9160505
-  match: Trela, Mateusz vs Wrobel, Dariusz
-  score: 3:1(11:7,13:15,11:6,11:7)
+- id: 9160511
+  match: Brud, Szymon vs Zochniak, Jakub
+  score: 3:1(9:11,11:3,11:7,11:8)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160503
   match: Adamus, Kacper vs Kurek, Pawel
   score: 1:3(12:10,10:12,8:11,9:11)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9160511
-  match: Brud, Szymon vs Zochniak, Jakub
-  score: 3:1(9:11,11:3,11:7,11:8)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160507
@@ -433,29 +558,24 @@
   score: 3:0(11:5,11:9,14:12)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158101
-  match: Olejnik, Martin vs Michna, Dawid
-  score: 3:0(11:9,11:6,11:8)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9160473
   match: Lilien, Aleksander vs Wisniewski, Bartlomiej
   score: 3:2(10:12,15:13,10:12,12:10,11:6)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158349
-  match: Levicky, Matej vs Zientek, Zbynek
-  score: 1:3(5:11,11:9,6:11,9:11)
+- id: 9158101
+  match: Olejnik, Martin vs Michna, Dawid
+  score: 3:0(11:9,11:6,11:8)
   sport: Table Tennis
-  league: Czech Liga Pro
+  league: TT Elite Series
+- id: 9160461
+  match: Vincenec, Oliver vs Cesarz, Milosz
+  score: 3:0(11:5,11:9,11:8)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9158355
   match: Revay, Radomir vs Vavrecka, Michal
   score: 2:3(8:11,11:9,5:11,11:6,7:11)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9158525
-  match: Strnad, Jaroslav (1961) vs Petr, Pavel
-  score: 2:3(12:14,6:11,11:9,11:4,7:11)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9160469
@@ -468,16 +588,26 @@
   score: 1:3(9:11,8:11,12:10,3:11)
   sport: Table Tennis
   league: Czech Liga Pro
-- id: 9160461
-  match: Vincenec, Oliver vs Cesarz, Milosz
-  score: 3:0(11:5,11:9,11:8)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9159365
   match: Uragan Pro vs Berkut
   score: 1:3(25:23,23:25,17:25,19:25)
   sport: Volleyball
   league: Pro League
+- id: 9159479
+  match: Tanzania vs Italy
+  score: 0:1
+  sport: Cricket
+  league: ICC Cricket World Cup, Challenge League B
+- id: 9158349
+  match: Levicky, Matej vs Zientek, Zbynek
+  score: 1:3(5:11,11:9,6:11,9:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9158525
+  match: Strnad, Jaroslav (1961) vs Petr, Pavel
+  score: 2:3(12:14,6:11,11:9,11:4,7:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9158519
   match: Stolfa, Jakub vs Trefny, Jan
   score: 2:3(11:3,7:11,11:9,10:12,9:11)
@@ -503,14 +633,14 @@
   score: 1:3(5:11,12:10,6:11,3:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160463
-  match: Ruszkiewicz, Adam vs Jesiek, Jakub
-  score: 3:0(11:4,11:5,11:7)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9160459
   match: Kosmal, Dawid vs Zochniak, Jakub
   score: 1:3(5:11,11:9,5:11,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9160463
+  match: Ruszkiewicz, Adam vs Jesiek, Jakub
+  score: 3:0(11:4,11:5,11:7)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160417
@@ -518,24 +648,24 @@
   score: 3:0(13:11,11:9,11:9)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160415
-  match: Trela, Mateusz vs Lukaszewski, Mikolaj
-  score: 3:1(8:11,11:3,11:6,12:10)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158075
   match: Wiecek, Adrian vs Spanik, Tibor
   score: 2:3(8:11,9:11,11:7,11:7,9:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9158067
-  match: Durda, Michal vs Sokolowski, Oliwier
-  score: 3:1(7:11,11:7,11:8,11:9)
+- id: 9160415
+  match: Trela, Mateusz vs Lukaszewski, Mikolaj
+  score: 3:1(8:11,11:3,11:6,12:10)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160413
   match: Brud, Szymon vs Blocho, Przemyslaw
   score: 3:1(9:11,11:7,11:6,11:9)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158067
+  match: Durda, Michal vs Sokolowski, Oliwier
+  score: 3:1(7:11,11:7,11:8,11:9)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160411
@@ -558,11 +688,6 @@
   score: '1:7'
   sport: Baseball
   league: Professional Baseball, Pacific League
-- id: 9158175
-  match: Prokopcov, Dimitrij vs Michna, Dawid
-  score: 3:0(11:6,11:6,11:7)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158063
   match: Gajda, Rafal vs Sokolowski, Oskar
   score: 3:0(11:8,14:12,16:14)
@@ -571,6 +696,11 @@
 - id: 9160375
   match: Wrobel, Dariusz vs Wisniewski, Bartlomiej
   score: 3:1(8:11,11:9,11:5,11:5)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158175
+  match: Prokopcov, Dimitrij vs Michna, Dawid
+  score: 3:0(11:6,11:6,11:7)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160373
@@ -588,11 +718,6 @@
   score: 0:3(6:11,9:11,4:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160333
-  match: Lilien, Aleksander vs Lukaszewski, Mikolaj
-  score: 1:3(11:13,11:7,5:11,13:15)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158069
   match: Wojtaszczyk, Wojciech vs Sokolowski, Oliwier
   score: 3:2(9:11,11:6,11:4,5:11,11:9)
@@ -608,9 +733,9 @@
   score: 2:3(25:19,18:25,25:16,13:25,8:15)
   sport: Volleyball
   league: Pro League
-- id: 9160323
-  match: Vincenec, Oliver vs Ruszkiewicz, Adam
-  score: 0:3(7:11,4:11,8:11)
+- id: 9160333
+  match: Lilien, Aleksander vs Lukaszewski, Mikolaj
+  score: 1:3(11:13,11:7,5:11,13:15)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160327
@@ -618,14 +743,14 @@
   score: 0:3(4:11,11:13,7:11)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9160323
+  match: Vincenec, Oliver vs Ruszkiewicz, Adam
+  score: 0:3(7:11,4:11,8:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9160325
   match: Oracz, Lukasz vs Paszkiewicz, Michal
   score: 2:3(8:11,9:11,12:10,11:7,9:11)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9158093
-  match: Kosowski, Jakub vs Wiecek, Adrian
-  score: 1:3(8:11,11:9,7:11,8:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160319
@@ -636,6 +761,11 @@
 - id: 9158061
   match: Przewlocki, Piotr vs Durda, Michal
   score: 2:3(8:11,11:6,10:12,11:7,5:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9158093
+  match: Kosowski, Jakub vs Wiecek, Adrian
+  score: 1:3(8:11,11:9,7:11,8:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160215
@@ -653,14 +783,14 @@
   score: 3:1(11:6,8:11,12:10,12:10)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160209
-  match: Wrobel, Dariusz vs Lilien, Aleksander
-  score: 2:3(11:8,5:11,11:8,8:11,10:12)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158057
   match: Gajda, Rafal vs Wojtaszczyk, Wojciech
   score: 0:3(1:11,6:11,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9160209
+  match: Wrobel, Dariusz vs Lilien, Aleksander
+  score: 2:3(11:8,5:11,11:8,8:11,10:12)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9158173
@@ -718,24 +848,24 @@
   score: 2:3 (1:2)
   sport: Football
   league: Primera Division, Apertura
-- id: 9158059
-  match: Kosowski, Jakub vs Spanik, Tibor
-  score: 2:3(11:8,8:11,9:11,12:10,5:11)
-  sport: Table Tennis
-  league: TT Elite Series
 - id: 9158079
   match: Przewlocki, Piotr vs Sokolowski, Oliwier
   score: 0:3(7:11,7:11,8:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9160185
-  match: Kosmal, Dawid vs Blocho, Przemyslaw
-  score: 3:1(6:11,15:13,11:9,11:7)
+- id: 9158059
+  match: Kosowski, Jakub vs Spanik, Tibor
+  score: 2:3(11:8,8:11,9:11,12:10,5:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160179
   match: Warpas, Blazej vs Lukaszewski, Mikolaj
   score: 1:3(8:11,8:11,12:10,3:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9160185
+  match: Kosmal, Dawid vs Blocho, Przemyslaw
+  score: 3:1(6:11,15:13,11:9,11:7)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9160177
@@ -748,9 +878,9 @@
   score: 2:1(3:6,6:3,6:4)
   sport: Tennis
   league: round_of_128
-- id: 9155911
-  match: Hlawatschke, Ales vs Nohejl, Matej
-  score: 3:0(11:9,11:6,13:11)
+- id: 9155907
+  match: Kasnik, Sebastian vs Zuzanek, Jiri
+  score: 3:2(9:11,5:11,11:5,11:9,11:7)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9155921
@@ -758,16 +888,16 @@
   score: 3:0(11:4,11:3,11:6)
   sport: Table Tennis
   league: Czech Liga Pro
-- id: 9155907
-  match: Kasnik, Sebastian vs Zuzanek, Jiri
-  score: 3:2(9:11,5:11,11:5,11:9,11:7)
-  sport: Table Tennis
-  league: Czech Liga Pro
 - id: 9156331
   match: Mexico W vs Philippines W
   score: 61:58 (16:22,9:15,15:10,21:11)
   sport: Basketball
   league: Olympic Tournament, Women, Pre-Qualifiers, Gr. B
+- id: 9155911
+  match: Hlawatschke, Ales vs Nohejl, Matej
+  score: 3:0(11:9,11:6,13:11)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9153583
   match: Eala, Alexandra vs Anisimova, Amanda
   score: 1:2(6:4,4:6,2:6)
@@ -783,21 +913,6 @@
   score: 0:3(4:11,8:11,8:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9155895
-  match: Wagner, Mark Robin vs Skakal, Martin
-  score: 3:1(10:12,11:3,11:6,11:5)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9160175
-  match: Warzecha, Miroslaw vs Zelezik, Jacek
-  score: 0:3(9:11,6:11,10:12)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9155905
-  match: Krejci, Richard vs Janata, Tomas
-  score: 2:3(11:3,10:12,7:11,11:8,8:11)
-  sport: Table Tennis
-  league: Czech Liga Pro
 - id: 9146987
   match: Sporting San Jose vs CD Escorpiones Belen
   score: 2:0 (2:0)
@@ -808,16 +923,26 @@
   score: 1:3(8:11,12:14,14:12,8:11)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9160175
+  match: Warzecha, Miroslaw vs Zelezik, Jacek
+  score: 0:3(9:11,6:11,10:12)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9155895
+  match: Wagner, Mark Robin vs Skakal, Martin
+  score: 3:1(10:12,11:3,11:6,11:5)
+  sport: Table Tennis
+  league: Czech Liga Pro
 - id: 9153925
   match: Golden State Valkyries W vs Dallas Wings W
   score: 78:70 (20:19,24:9,18:18,16:24)
   sport: Basketball
   league: WNBA Women
-- id: 9160183
-  match: Gumulinski, Piotr vs Sikon, Mateusz
-  score: 3:2(12:14,20:18,5:11,11:6,11:4)
+- id: 9155905
+  match: Krejci, Richard vs Janata, Tomas
+  score: 2:3(11:3,10:12,7:11,11:8,8:11)
   sport: Table Tennis
-  league: TT Elite Series
+  league: Czech Liga Pro
 - id: 9157103
   match: Harris, Lloyd George Muirhead vs Shelbayh, Abedallah
   score: 2:0(6:3,6:2)
@@ -828,24 +953,14 @@
   score: 3:1(7:11,11:9,12:10,24:22)
   sport: Table Tennis
   league: TT Elite Series
+- id: 9160183
+  match: Gumulinski, Piotr vs Sikon, Mateusz
+  score: 3:2(12:14,20:18,5:11,11:6,11:4)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9160173
   match: Staniczek, Adam vs Tkaczyk, Henryk
   score: 1:3(10:12,4:11,11:7,7:11)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9160067
-  match: Gabrys, Dariusz vs Mucha, Grzegorz
-  score: 0:3(5:11,2:11,7:11)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9155917
-  match: Hofman, Denis vs Kasnik, Sebastian
-  score: 1:3(6:11,11:8,11:13,14:16)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9160093
-  match: Oracz, Lukasz vs Adamus, Pawel
-  score: 2:3(4:11,11:6,7:11,11:7,9:11)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9155915
@@ -858,6 +973,26 @@
   score: 3:2(9:11,13:11,14:12,8:11,11:9)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9160093
+  match: Oracz, Lukasz vs Adamus, Pawel
+  score: 2:3(4:11,11:6,7:11,11:7,9:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9160067
+  match: Gabrys, Dariusz vs Mucha, Grzegorz
+  score: 0:3(5:11,2:11,7:11)
+  sport: Table Tennis
+  league: TT Elite Series
+- id: 9155917
+  match: Hofman, Denis vs Kasnik, Sebastian
+  score: 1:3(6:11,11:8,11:13,14:16)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9159791
+  match: Lewczuk, Miroslaw vs Guzik, Michal
+  score: 3:2(6:11,16:14,11:8,10:12,11:7)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9160095
   match: Skorupa, Jakub vs Zelezik, Jacek
   score: 3:2(8:11,11:2,8:11,11:7,12:10)
@@ -866,11 +1001,6 @@
 - id: 9160091
   match: Sikon, Mateusz vs Urban, Wojciech
   score: 0:3(8:11,6:11,11:13)
-  sport: Table Tennis
-  league: TT Elite Series
-- id: 9159791
-  match: Lewczuk, Miroslaw vs Guzik, Michal
-  score: 3:2(6:11,16:14,11:8,10:12,11:7)
   sport: Table Tennis
   league: TT Elite Series
 - id: 9155051
@@ -883,19 +1013,9 @@
   score: 1:2(1:6,7:6,3:6)
   sport: Tennis
   league: round_of_128
-- id: 9147315
-  match: Tauro vs CD Arabe Unido
-  score: 0:1 (0:1)
-  sport: Football
-  league: Liga Panamena de Futbol, Apertura
-- id: 9155889
-  match: Wagner, Mark Robin vs Zuzanek, Jiri
-  score: 3:1(11:7,11:2,6:11,11:7)
-  sport: Table Tennis
-  league: Czech Liga Pro
-- id: 9155909
-  match: Krejci, Richard vs Nohejl, Matej
-  score: 3:1(4:11,11:9,11:8,11:7)
+- id: 9155913
+  match: Regner, Tomas vs Bartunek, Radek
+  score: 1:3(7:11,11:9,8:11,6:11)
   sport: Table Tennis
   league: Czech Liga Pro
 - id: 9086099
@@ -908,21 +1028,31 @@
   score: 2:1 (0:0)
   sport: Football
   league: Liga de Ascenso, Group 2
-- id: 9155913
-  match: Regner, Tomas vs Bartunek, Radek
-  score: 1:3(7:11,11:9,8:11,6:11)
+- id: 9155909
+  match: Krejci, Richard vs Nohejl, Matej
+  score: 3:1(4:11,11:9,11:8,11:7)
   sport: Table Tennis
   league: Czech Liga Pro
+- id: 9155889
+  match: Wagner, Mark Robin vs Zuzanek, Jiri
+  score: 3:1(11:7,11:2,6:11,11:7)
+  sport: Table Tennis
+  league: Czech Liga Pro
+- id: 9147315
+  match: Tauro vs CD Arabe Unido
+  score: 0:1 (0:1)
+  sport: Football
+  league: Liga Panamena de Futbol, Apertura
 - id: 9151403
   match: Kostyuk M / Stearns P vs Williams S / Williams V
   score: 2:1(6:2,1:6,10:8)
   sport: Tennis
   league: round_of_32
-- id: 9157775
-  match: Karpiuk, Mateusz vs Mucha, Grzegorz
-  score: 1:3(10:12,6:11,11:3,6:11)
-  sport: Table Tennis
-  league: TT Elite Series
+- id: 9157155
+  match: Jorda Sanchis, David vs Magadan, Alan
+  score: 0:2(4:6,6:7)
+  sport: Tennis
+  league: Qualification round 1
 - id: 9157101
   match: Balshaw, Felix vs Moro Canas, Alejandro
   score: 0:2(4:6,6:7)
@@ -933,34 +1063,19 @@
   score: 0:3(9:11,9:11,8:11)
   sport: Table Tennis
   league: TT Elite Series
-- id: 9157155
-  match: Jorda Sanchis, David vs Magadan, Alan
-  score: 0:2(4:6,6:7)
-  sport: Tennis
-  league: Qualification round 1
+- id: 9157775
+  match: Karpiuk, Mateusz vs Mucha, Grzegorz
+  score: 1:3(10:12,6:11,11:3,6:11)
+  sport: Table Tennis
+  league: TT Elite Series
 - id: 9156335
   match: Colorado Rockies vs Los Angeles Dodgers
   score: '5:11'
   sport: Baseball
   league: MLB
-- id: 9110477
-  match: Gimnasia Mendoza vs Talleres
-  score: 3:1 (2:0)
-  sport: Football
-  league: Primera LPF, Clausura
 - id: 9155269
   match: Puerto Montt Basquetbol vs Deportes Castro
   score: 92:72 (18:14,30:28,25:16,19:14)
-  sport: Basketball
-  league: LNB Clausura
-- id: 9147313
-  match: Deportes Temuco vs Deportes Recoleta
-  score: 1:1 (0:1)
-  sport: Football
-  league: Primera B, Torneo Transicion
-- id: 9155265
-  match: CD Las Animas vs Deportivo Valdivia
-  score: 58:90 (12:18,15:20,15:28,16:24)
   sport: Basketball
   league: LNB Clausura
 - id: 9133201
@@ -973,6 +1088,21 @@
   score: CAN (CAN)
   sport: Football
   league: ' Primera B Finalizacion '
+- id: 9110477
+  match: Gimnasia Mendoza vs Talleres
+  score: 3:1 (2:0)
+  sport: Football
+  league: Primera LPF, Clausura
+- id: 9147313
+  match: Deportes Temuco vs Deportes Recoleta
+  score: 1:1 (0:1)
+  sport: Football
+  league: Primera B, Torneo Transicion
+- id: 9155265
+  match: CD Las Animas vs Deportivo Valdivia
+  score: 58:90 (12:18,15:20,15:28,16:24)
+  sport: Basketball
+  league: LNB Clausura
 - id: 9157093
   match: Heredia, Samuel vs Djere, Laslo
   score: 0:2(3:6,4:6)
@@ -983,11 +1113,6 @@
   score: '7:5'
   sport: Baseball
   league: MLB
-- id: 9133199
-  match: CSD Macara vs Univ Catolica
-  score: 1:1 (0:0)
-  sport: Football
-  league: Serie A, Primera
 - id: 9157201
   match: Univ Catolica DS vs Leones De Quilpue
   score: 76:79 (18:14,16:22,22:22,20:21)
@@ -998,3 +1123,8 @@
   score: 1:1 (0:1)
   sport: Football
   league: Liga MX, Women
+- id: 9133199
+  match: CSD Macara vs Univ Catolica
+  score: 1:1 (0:0)
+  sport: Football
+  league: Serie A, Primera
