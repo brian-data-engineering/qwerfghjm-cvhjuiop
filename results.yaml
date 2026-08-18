@@ -52,17 +52,17 @@ ice_hockey:
     home: Salavat UFA
     away: Lada Togliatti
   score:
-    home: 1
-    away: 4
-  status: live
+    home: 3
+    away: 6
+  status: recentlyended
   time: '14:00'
 - id: 72041028
   teams:
     home: Karlovy Vary
     away: Banik Sokolov
   score:
-    home: 0
-    away: 2
+    home: 2
+    away: 3
   status: live
   time: '15:00'
 - id: 72041820
@@ -70,10 +70,91 @@ ice_hockey:
     home: Trinec
     away: Zvolen
   score:
-    home: 1
+    home: 3
     away: 0
   status: live
   time: '15:00'
+- id: 72078050
+  teams:
+    home: Dukla
+    away: Mlada Bo.
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:30'
+- id: 73762046
+  teams:
+    home: Horacka
+    away: Skalica
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72041030
+  teams:
+    home: Slavia Prague
+    away: Tabor
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72078052
+  teams:
+    home: Zubr Prerov
+    away: Vsetin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:30'
+- id: 73703298
+  teams:
+    home: Hhk Velke Mezirici
+    away: Brno
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '16:00'
+- id: 72078160
+  teams:
+    home: Litomerice
+    away: Chomutov
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73762052
+  teams:
+    home: Slovan
+    away: Kadan
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '16:00'
+- id: 73511714
+  teams:
+    home: Zlin
+    away: Zilina
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73703316
+  teams:
+    home: Znojmo
+    away: Rebel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
 table_tennis:
 - id: 73767720
   teams:
