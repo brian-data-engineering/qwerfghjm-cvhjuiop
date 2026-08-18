@@ -81,7 +81,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73762046
   teams:
@@ -90,7 +90,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72041030
   teams:
@@ -98,8 +98,8 @@ ice_hockey:
     away: Tabor
   score:
     home: 4
-    away: 4
-  status: live
+    away: 5
+  status: result
   time: '15:30'
 - id: 72078052
   teams:
@@ -108,7 +108,7 @@ ice_hockey:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73703298
   teams:
@@ -117,34 +117,34 @@ ice_hockey:
   score:
     home: 8
     away: 3
-  status: live
+  status: result
   time: '16:00'
 - id: 72078160
   teams:
     home: Litomerice
     away: Chomutov
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '16:00'
 - id: 73762052
   teams:
     home: Slovan
     away: Kadan
   score:
-    home: 6
-    away: 2
-  status: live
+    home: 8
+    away: 3
+  status: result
   time: '16:00'
 - id: 73511714
   teams:
     home: Zlin
     away: Zilina
   score:
-    home: 1
-    away: 3
-  status: live
+    home: 2
+    away: 4
+  status: result
   time: '16:00'
 - id: 73703316
   teams:
@@ -152,16 +152,16 @@ ice_hockey:
     away: Rebel
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:00'
 - id: 72078334
   teams:
     home: Kalmar HC
     away: Karlskrona
   score:
-    home: 0
-    away: 1
+    home: 2
+    away: 3
   status: live
   time: '17:00'
 table_tennis:
