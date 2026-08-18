@@ -6,7 +6,7 @@ soccer:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 basketball:
 - id: 68096296
@@ -14,8 +14,8 @@ basketball:
     home: Golden State
     away: Dallas
   score:
-    home: 22
-    away: 21
+    home: 66
+    away: 50
   status: live
   time: 02:00
 tennis:
@@ -25,9 +25,18 @@ tennis:
     away: Fils, Arthur
   score:
     home: 1
+    away: 2
+  status: result
+  time: 01:05
+- id: 73466010
+  teams:
+    home: Paul, Tommy
+    away: Vallejo, Adolfo Daniel
+  score:
+    home: 0
     away: 1
   status: live
-  time: 01:05
+  time: 02:40
 ice_hockey: []
 table_tennis:
 - id: 73767720
@@ -145,7 +154,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73767588
   teams:
@@ -154,7 +163,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73768748
   teams:
@@ -163,32 +172,32 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73767572
   teams:
     home: Hlawatschke, Ales
     away: Nohejl, Matej
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 02:30
 - id: 73768776
   teams:
     home: Kasnik, Sebastian
     away: Zuzanek, Jiri
   score:
-    home: 0
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 02:30
 - id: 73767746
   teams:
     home: Vitrovyj, Oleg
     away: Bartunek, Radek
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 02:30
