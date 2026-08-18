@@ -63,7 +63,7 @@ ice_hockey:
   score:
     home: 6
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72041820
   teams:
@@ -72,16 +72,16 @@ ice_hockey:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72078050
   teams:
     home: Dukla
     away: Mlada Bo.
   score:
-    home: 2
-    away: 2
-  status: live
+    home: 4
+    away: 3
+  status: recentlyended
   time: '15:30'
 - id: 73762046
   teams:
@@ -89,8 +89,8 @@ ice_hockey:
     away: Skalica
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '15:30'
 - id: 72041030
   teams:
@@ -98,7 +98,7 @@ ice_hockey:
     away: Tabor
   score:
     home: 4
-    away: 2
+    away: 4
   status: live
   time: '15:30'
 - id: 72078052
@@ -107,15 +107,15 @@ ice_hockey:
     away: Vsetin
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '15:30'
 - id: 73703298
   teams:
     home: Hhk Velke Mezirici
     away: Brno
   score:
-    home: 7
+    home: 8
     away: 3
   status: live
   time: '16:00'
@@ -133,7 +133,7 @@ ice_hockey:
     home: Slovan
     away: Kadan
   score:
-    home: 4
+    home: 6
     away: 2
   status: live
   time: '16:00'
@@ -143,7 +143,7 @@ ice_hockey:
     away: Zilina
   score:
     home: 1
-    away: 2
+    away: 3
   status: live
   time: '16:00'
 - id: 73703316
@@ -155,6 +155,15 @@ ice_hockey:
     away: 1
   status: live
   time: '16:00'
+- id: 72078334
+  teams:
+    home: Kalmar HC
+    away: Karlskrona
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:00'
 table_tennis:
 - id: 73767720
   teams:
