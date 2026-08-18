@@ -4,19 +4,28 @@ soccer:
     home: Gimnasia y Esgrima Mendoza
     away: CA Talleres de Cordoba
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: recentlyended
   time: 00:30
-basketball: []
+basketball:
+- id: 68096296
+  teams:
+    home: Golden State
+    away: Dallas
+  score:
+    home: 22
+    away: 21
+  status: live
+  time: 02:00
 tennis:
 - id: 73465946
   teams:
     home: Lehecka, Jiri
     away: Fils, Arthur
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: 01:05
 ice_hockey: []
@@ -55,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73767536
   teams:
@@ -80,9 +89,9 @@ table_tennis:
     home: Krejci, Richard
     away: Nohejl, Matej
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 01:00
 - id: 73767728
   teams:
@@ -90,8 +99,8 @@ table_tennis:
     away: Bartunek, Radek
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 73768738
   teams:
@@ -100,5 +109,86 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 73768808
+  teams:
+    home: Hofman, Denis
+    away: Kasnik, Sebastian
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73767656
+  teams:
+    home: Novak, Martin
+    away: Vitrovyj, Oleg
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 73767606
+  teams:
+    home: Vesely, Michal
+    away: Hlawatschke, Ales
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 73767598
+  teams:
+    home: Krejci, Richard
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73767588
+  teams:
+    home: Regner, Tomas
+    away: Didi, Julius
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73768748
+  teams:
+    home: Wagner, Mark Robin
+    away: Skakal, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 02:00
+- id: 73767572
+  teams:
+    home: Hlawatschke, Ales
+    away: Nohejl, Matej
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 02:30
+- id: 73768776
+  teams:
+    home: Kasnik, Sebastian
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 02:30
+- id: 73767746
+  teams:
+    home: Vitrovyj, Oleg
+    away: Bartunek, Radek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 02:30
