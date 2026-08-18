@@ -201,6 +201,60 @@ table_tennis:
     away: 0
   status: result
   time: 02:30
+- id: 73811976
+  teams:
+    home: Didi, Julius
+    away: Regner, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 73811986
+  teams:
+    home: Vesely, Michal
+    away: Krejci, Richard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 73812032
+  teams:
+    home: Wagner, Mark Robin
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 73812002
+  teams:
+    home: Janata, Tomas
+    away: Hlawatschke, Ales
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 73812034
+  teams:
+    home: Skakal, Martin
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 73811978
+  teams:
+    home: Vitrovyj, Oleg
+    away: Bartunek, Radek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
 - id: 73792484
   teams:
     home: Levicky, Matej
@@ -208,7 +262,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73792436
   teams:
@@ -226,7 +280,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73792658
   teams:
@@ -235,7 +289,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73792728
   teams:
@@ -244,25 +298,25 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73792668
   teams:
     home: Kaspar, Michal
     away: Banot, Petr
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:30
 - id: 73792600
   teams:
     home: Kubat, Vladimir
     away: Koch, Jiri
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:30
 - id: 73792460
   teams:
@@ -270,6 +324,6 @@ table_tennis:
     away: Prokupek, Jaroslav
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:30
