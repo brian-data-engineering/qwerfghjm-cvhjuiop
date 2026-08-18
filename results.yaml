@@ -126,7 +126,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73762052
   teams:
@@ -153,7 +153,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72078334
   teams:
@@ -161,8 +161,8 @@ ice_hockey:
     away: Karlskrona
   score:
     home: 2
-    away: 3
-  status: live
+    away: 5
+  status: recentlyended
   time: '17:00'
 table_tennis:
 - id: 73767720
