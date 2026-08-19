@@ -415,7 +415,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73823598
   teams:
@@ -424,7 +424,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73823774
   teams:
@@ -433,7 +433,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73823716
   teams:
@@ -442,7 +442,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73823624
   teams:
@@ -451,25 +451,25 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73823688
   teams:
     home: Chalupnicek, Milan
     away: Bohac, Martin
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 08:30
 - id: 73823686
   teams:
     home: Hofman, Denis
     away: Zuzanek, Jiri
   score:
-    home: 0
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 08:30
 - id: 73823730
   teams:
@@ -477,17 +477,17 @@ table_tennis:
     away: Sobisek, Martin
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:30
 - id: 73823696
   teams:
     home: Machander, Dalimil
     away: Byrtus, Samuel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 08:30
 - id: 73823800
   teams:
@@ -495,6 +495,6 @@ table_tennis:
     away: Wawrosz, Pavel
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 08:30
