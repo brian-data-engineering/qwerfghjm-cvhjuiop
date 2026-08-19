@@ -5,8 +5,8 @@ basketball:
     home: Mitteldeutscher BC
     away: Braunschweig
   score:
-    home: 46
-    away: 41
+    home: 71
+    away: 62
   status: live
   time: '17:00'
 - id: 73441320
@@ -14,8 +14,8 @@ basketball:
     home: US Laval
     away: Aurore Vitre Basketball
   score:
-    home: 37
-    away: 48
+    home: 55
+    away: 69
   status: live
   time: '17:00'
 - id: 68096120
@@ -53,17 +53,26 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73465920
   teams:
     home: Tirante, Thiago Agustin
     away: Mensik, Jakub
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '16:55'
+- id: 73465972
+  teams:
+    home: Zverev, Alexander
+    away: Paul, Tommy
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 ice_hockey:
 - id: 72078440
   teams:
@@ -79,9 +88,9 @@ ice_hockey:
     home: Jokerit
     away: Tappara
   score:
-    home: 3
+    home: 4
     away: 3
-  status: live
+  status: result
   time: '15:30'
 - id: 72078500
   teams:
@@ -90,7 +99,7 @@ ice_hockey:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73498582
   teams:
@@ -98,8 +107,8 @@ ice_hockey:
     away: Cracovia
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:30'
 table_tennis:
 - id: 73792760
@@ -1308,3 +1317,39 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73825572
+  teams:
+    home: Adamczyk, Vladimir
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 73823704
+  teams:
+    home: Darin, Kyryl
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 73823678
+  teams:
+    home: Kern, Lukas
+    away: Holub, Marek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 73823728
+  teams:
+    home: Parizek, Martin
+    away: Bradac, Petr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:00'
