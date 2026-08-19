@@ -505,7 +505,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73823702
   teams:
@@ -550,7 +550,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73823796
   teams:
@@ -559,16 +559,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73823712
   teams:
     home: Plachy, Jiri
     away: Kolar, Milan
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: recentlyended
   time: '10:30'
 - id: 73823744
   teams:
@@ -577,7 +577,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73823746
   teams:
@@ -586,5 +586,68 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:30'
+- id: 73823782
+  teams:
+    home: Dousek, Tomas
+    away: Cabis, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73823670
+  teams:
+    home: Prokupek, Jaroslav
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '11:00'
+- id: 73823792
+  teams:
+    home: Stolfa, Jakub
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 73823748
+  teams:
+    home: Tazler, Jakub
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 73823588
+  teams:
+    home: Vavrecka, Radomir
+    away: Byrtus, Samuel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73823648
+  teams:
+    home: Danko, Petr
+    away: Skacelik, Richard
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:30'
+- id: 73823616
+  teams:
+    home: Hofman, Denis
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '11:30'
