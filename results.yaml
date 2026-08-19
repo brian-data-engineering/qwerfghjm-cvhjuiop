@@ -1,5 +1,41 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73441326
+  teams:
+    home: Mitteldeutscher BC
+    away: Braunschweig
+  score:
+    home: 25
+    away: 26
+  status: live
+  time: '17:00'
+- id: 73441320
+  teams:
+    home: US Laval
+    away: Aurore Vitre Basketball
+  score:
+    home: 17
+    away: 25
+  status: live
+  time: '17:00'
+- id: 68096120
+  teams:
+    home: Chicago
+    away: NY Liberty
+  score:
+    home: 93
+    away: 86
+  status: result
+  time: 01:00
+- id: 68096232
+  teams:
+    home: Las Vegas Aces
+    away: Atlanta
+  score:
+    home: 82
+    away: 97
+  status: result
+  time: 01:00
 tennis:
 - id: 73465962
   teams:
@@ -16,26 +52,35 @@ tennis:
     away: Cobolli, Flavio
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '15:00'
+- id: 73465920
+  teams:
+    home: Tirante, Thiago Agustin
+    away: Mensik, Jakub
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:55'
 ice_hockey:
 - id: 72078440
   teams:
     home: Mountfield HK
     away: Bili Tygri
   score:
-    home: 4
-    away: 3
-  status: live
+    home: 6
+    away: 4
+  status: recentlyended
   time: '15:00'
 - id: 72078552
   teams:
     home: Jokerit
     away: Tappara
   score:
-    home: 1
-    away: 0
+    home: 2
+    away: 1
   status: live
   time: '15:30'
 - id: 72078500
@@ -43,7 +88,7 @@ ice_hockey:
     home: Sparta Prague
     away: Vitkovice
   score:
-    home: 1
+    home: 3
     away: 0
   status: live
   time: '15:30'
@@ -52,8 +97,8 @@ ice_hockey:
     home: Zubr Prerov
     away: Cracovia
   score:
-    home: 0
-    away: 0
+    home: 2
+    away: 1
   status: live
   time: '15:30'
 table_tennis:
@@ -1180,7 +1225,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73823722
   teams:
@@ -1189,7 +1234,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73825588
   teams:
@@ -1198,7 +1243,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73837464
   teams:
@@ -1207,7 +1252,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73823630
   teams:
@@ -1216,43 +1261,43 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73833250
   teams:
     home: Gireth, Pavel
     away: Barton, Ales
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:30'
 - id: 73825542
   teams:
     home: Heczko, Marcel
     away: Levicky, Jakub
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '16:30'
 - id: 73823780
   teams:
     home: Postelt, Tomas
     away: Prikasky, Libor
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:30'
 - id: 73823632
   teams:
     home: Szotek, David
     away: Pagac, Zbynek
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '16:30'
 - id: 73823714
   teams:
@@ -1260,6 +1305,6 @@ table_tennis:
     away: Nohejl, Vaclav (2005)
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:30'
