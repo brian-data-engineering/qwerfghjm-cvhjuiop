@@ -1,22 +1,49 @@
-soccer: []
+soccer:
+- id: 73026692
+  teams:
+    home: CA Chacarita Juniors
+    away: CA Guemes
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
+- id: 72963606
+  teams:
+    home: CA Banfield
+    away: Ferrocarril Midland
+  score:
+    home: 6
+    away: 5
+  status: result
+  time: 00:15
 basketball:
+- id: 73832536
+  teams:
+    home: Lithuania Reserve
+    away: Arizona
+  score:
+    home: 99
+    away: 88
+  status: result
+  time: '16:30'
 - id: 73441326
   teams:
     home: Mitteldeutscher BC
     away: Braunschweig
   score:
-    home: 71
-    away: 62
-  status: live
+    home: 88
+    away: 78
+  status: recentlyended
   time: '17:00'
 - id: 73441320
   teams:
     home: US Laval
     away: Aurore Vitre Basketball
   score:
-    home: 55
-    away: 69
-  status: live
+    home: 80
+    away: 93
+  status: recentlyended
   time: '17:00'
 - id: 68096120
   teams:
@@ -60,19 +87,28 @@ tennis:
     home: Tirante, Thiago Agustin
     away: Mensik, Jakub
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '16:55'
 - id: 73465972
   teams:
     home: Zverev, Alexander
     away: Paul, Tommy
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '18:00'
+- id: 73465922
+  teams:
+    home: Fils, Arthur
+    away: de Minaur, Alex
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:20'
 ice_hockey:
 - id: 72078440
   teams:
@@ -1324,7 +1360,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73823704
   teams:
@@ -1333,7 +1369,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73823678
   teams:
@@ -1342,7 +1378,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73823728
   teams:
@@ -1351,5 +1387,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
