@@ -235,7 +235,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73823612
   teams:
@@ -244,7 +244,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73823614
   teams:
@@ -262,7 +262,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73823646
   teams:
@@ -271,16 +271,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73823734
   teams:
     home: Heczko, David
     away: Byrtus, Samuel
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 06:30
 - id: 73823642
   teams:
@@ -289,7 +289,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: 06:30
 - id: 73823674
   teams:
@@ -297,8 +297,8 @@ table_tennis:
     away: Sobisek, Martin
   score:
     home: 2
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 06:30
 - id: 73823752
   teams:
@@ -306,15 +306,105 @@ table_tennis:
     away: Wawrosz, Pavel
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:30
 - id: 73823644
   teams:
     home: Vondrak, Michal
     away: Zuzanek, Jiri
   score:
-    home: 2
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 73823610
+  teams:
+    home: Chalupnicek, Milan
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 07:00
+- id: 73823628
+  teams:
+    home: Hofman, Denis
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 73823652
+  teams:
+    home: Hradecky, Jakub
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:00
+- id: 73823756
+  teams:
+    home: Machander, Dalimil
+    away: Heczko, David
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 07:00
+- id: 73823676
+  teams:
+    home: Polasek, Radovan
+    away: Vavrecka, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 07:00
+- id: 73823698
+  teams:
+    home: Bohac, Martin
+    away: Havel, Ladislav
+  score:
+    home: 0
     away: 2
   status: live
-  time: 06:30
+  time: 07:30
+- id: 73823666
+  teams:
+    home: Byrtus, Samuel
+    away: Walek, Adrian
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 07:30
+- id: 73823750
+  teams:
+    home: Sobisek, Martin
+    away: Tuma, Daniel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 07:30
+- id: 73823638
+  teams:
+    home: Wawrosz, Pavel
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 07:30
+- id: 73823790
+  teams:
+    home: Zuzanek, Jiri
+    away: Klement, Milan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 07:30
