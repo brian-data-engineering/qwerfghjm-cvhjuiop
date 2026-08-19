@@ -15,11 +15,47 @@ tennis:
     home: Jodar, Rafael
     away: Cobolli, Flavio
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '15:00'
-ice_hockey: []
+ice_hockey:
+- id: 72078440
+  teams:
+    home: Mountfield HK
+    away: Bili Tygri
+  score:
+    home: 4
+    away: 3
+  status: live
+  time: '15:00'
+- id: 72078552
+  teams:
+    home: Jokerit
+    away: Tappara
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72078500
+  teams:
+    home: Sparta Prague
+    away: Vitkovice
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 73498582
+  teams:
+    home: Zubr Prerov
+    away: Cracovia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73792760
   teams:
@@ -1054,7 +1090,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73825592
   teams:
@@ -1063,7 +1099,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73823700
   teams:
@@ -1072,7 +1108,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73823738
   teams:
@@ -1081,7 +1117,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73823736
   teams:
@@ -1090,7 +1126,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73837462
   teams:
@@ -1098,42 +1134,132 @@ table_tennis:
     away: Wolf, Filip
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '15:30'
 - id: 73825624
   teams:
     home: Levicky, Jakub
     away: Hutnik, Jakub
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:30'
 - id: 73823672
   teams:
     home: Nohejl, Vaclav (2005)
     away: Huk, Martin
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:30'
 - id: 73823606
   teams:
     home: Pagac, Zbynek
     away: Hudeczek, Roman
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:30'
 - id: 73823656
   teams:
     home: Prikasky, Libor
     away: Zajicek, Jan
   score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73823682
+  teams:
+    home: Hudeczek, Roman
+    away: Chalupa, Michal
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73823722
+  teams:
+    home: Huk, Martin
+    away: Kolar, Vlastimil
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73825588
+  teams:
+    home: Hutnik, Jakub
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:00'
+- id: 73837464
+  teams:
+    home: Wolf, Filip
+    away: Zahradka, Michal
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73823630
+  teams:
+    home: Zajicek, Jan
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73833250
+  teams:
+    home: Gireth, Pavel
+    away: Barton, Ales
+  score:
     home: 0
     away: 0
   status: live
-  time: '15:30'
+  time: '16:30'
+- id: 73825542
+  teams:
+    home: Heczko, Marcel
+    away: Levicky, Jakub
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73823780
+  teams:
+    home: Postelt, Tomas
+    away: Prikasky, Libor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73823632
+  teams:
+    home: Szotek, David
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73823714
+  teams:
+    home: Urbaniec, Radim
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
