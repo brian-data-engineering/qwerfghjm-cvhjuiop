@@ -6,9 +6,9 @@ tennis:
     home: Tien, Learner
     away: Tiafoe, Frances
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: 00:20
 ice_hockey: []
 table_tennis:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73792696
   teams:
@@ -73,16 +73,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73792716
   teams:
     home: Grohsgott, Jiri
     away: Strnad, Jaroslav (1964)
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:00
 - id: 73792494
   teams:
@@ -90,6 +90,87 @@ table_tennis:
     away: Wolf, Filip
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:00
+- id: 73792780
+  teams:
+    home: Bruzek, Petr
+    away: Picek, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73792500
+  teams:
+    home: Huk, Martin
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 73792516
+  teams:
+    home: Syroha, Michal
+    away: Mazanek, Stanislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 73792748
+  teams:
+    home: Bernat, Jan
+    away: Svoboda, Adam
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73792652
+  teams:
+    home: Grohsgott, Jiri
+    away: Hruska, Vaclav Senior
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73792804
+  teams:
+    home: Svacha, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73792498
+  teams:
+    home: Mazanek, Stanislav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 02:30
+- id: 73792774
+  teams:
+    home: Picek, Petr
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 02:30
+- id: 73792794
+  teams:
+    home: Ruzicka, Jiri
+    away: Wolf, Filip
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 02:30
