@@ -568,7 +568,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:30'
 - id: 73823744
   teams:
@@ -595,7 +595,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73823670
   teams:
@@ -603,8 +603,8 @@ table_tennis:
     away: Plachy, Jiri
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '11:00'
 - id: 73823792
   teams:
@@ -613,7 +613,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73823748
   teams:
@@ -622,7 +622,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73823588
   teams:
@@ -631,23 +631,140 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73823648
   teams:
     home: Danko, Petr
     away: Skacelik, Richard
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '11:30'
 - id: 73823616
   teams:
     home: Hofman, Denis
     away: Kasnik, Sebastian
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '11:30'
+- id: 73823664
+  teams:
+    home: Kolar, Milan
+    away: Postelt, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 73823668
+  teams:
+    home: Tuma, Daniel
+    away: Just, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 73823766
+  teams:
+    home: Zika, Tadeas
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 73823694
+  teams:
+    home: Just, Frantisek
+    away: Sobisek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:00'
+- id: 73823594
+  teams:
+    home: Kasnik, Sebastian
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 73823794
+  teams:
+    home: Paril, Ondrej
+    away: Cabis, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 73823600
+  teams:
+    home: Postelt, Vladimir
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '12:00'
+- id: 73823592
+  teams:
+    home: Skacelik, Richard
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 73823720
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '12:30'
+- id: 73823602
+  teams:
+    home: Prokupek, Jaroslav
+    away: Kolar, Milan
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '12:30'
+- id: 73823596
+  teams:
+    home: Stolfa, Jakub
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '12:30'
+- id: 73823802
+  teams:
+    home: Tazler, Jakub
+    away: Hofman, Denis
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '12:30'
+- id: 73823706
+  teams:
+    home: Vavrecka, Radomir
+    away: Danko, Petr
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:30'
