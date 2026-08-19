@@ -8,7 +8,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: 00:20
 ice_hockey: []
 table_tennis:
@@ -127,7 +127,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73792652
   teams:
@@ -136,7 +136,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73792804
   teams:
@@ -145,32 +145,86 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73792498
   teams:
     home: Mazanek, Stanislav
     away: Strnad, Jaroslav (1964)
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:30
 - id: 73792774
   teams:
     home: Picek, Petr
     away: Stefek, Martin
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:30
 - id: 73792794
   teams:
     home: Ruzicka, Jiri
     away: Wolf, Filip
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 02:30
+- id: 73843878
+  teams:
+    home: Bernat, Jan
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 73843902
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Mazanek, Stanislav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 03:00
+- id: 73843718
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 73843818
+  teams:
+    home: Bruzek, Petr
+    away: Picek, Petr
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 03:30
+- id: 73843904
+  teams:
+    home: Syroha, Michal
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 03:30
+- id: 73843720
+  teams:
+    home: Wolf, Filip
+    away: Svacha, Ondrej
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 03:30
