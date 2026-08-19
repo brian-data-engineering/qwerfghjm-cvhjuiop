@@ -5,8 +5,8 @@ basketball:
     home: Mitteldeutscher BC
     away: Braunschweig
   score:
-    home: 25
-    away: 26
+    home: 46
+    away: 41
   status: live
   time: '17:00'
 - id: 73441320
@@ -14,8 +14,8 @@ basketball:
     home: US Laval
     away: Aurore Vitre Basketball
   score:
-    home: 17
-    away: 25
+    home: 37
+    away: 48
   status: live
   time: '17:00'
 - id: 68096120
@@ -52,8 +52,8 @@ tennis:
     away: Cobolli, Flavio
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '15:00'
 - id: 73465920
   teams:
@@ -61,7 +61,7 @@ tennis:
     away: Mensik, Jakub
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '16:55'
 ice_hockey:
@@ -72,15 +72,15 @@ ice_hockey:
   score:
     home: 6
     away: 4
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72078552
   teams:
     home: Jokerit
     away: Tappara
   score:
-    home: 2
-    away: 1
+    home: 3
+    away: 3
   status: live
   time: '15:30'
 - id: 72078500
@@ -90,7 +90,7 @@ ice_hockey:
   score:
     home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '15:30'
 - id: 73498582
   teams:
@@ -98,7 +98,7 @@ ice_hockey:
     away: Cracovia
   score:
     home: 2
-    away: 1
+    away: 2
   status: live
   time: '15:30'
 table_tennis:
