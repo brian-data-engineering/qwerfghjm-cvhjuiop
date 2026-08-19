@@ -27,6 +27,15 @@ basketball:
     away: 88
   status: result
   time: '16:30'
+- id: 73441376
+  teams:
+    home: Slovenia
+    away: Latvia
+  score:
+    home: 89
+    away: 86
+  status: result
+  time: '18:00'
 - id: 73441326
   teams:
     home: Mitteldeutscher BC
@@ -97,17 +106,17 @@ tennis:
     away: Paul, Tommy
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:00'
 - id: 73465922
   teams:
     home: Fils, Arthur
     away: de Minaur, Alex
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '19:20'
 ice_hockey:
 - id: 72078440
@@ -1353,6 +1362,96 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 73865788
+  teams:
+    home: Hudeczek, Roman
+    away: Szotek, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 73865766
+  teams:
+    home: Huk, Martin
+    away: Kolar, Vlastimil
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 73865780
+  teams:
+    home: Oborny, Dominik
+    away: Levicky, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73865784
+  teams:
+    home: Prikasky, Libor
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73865796
+  teams:
+    home: Gireth, Pavel
+    away: Barton, Ales
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:07'
+- id: 73865782
+  teams:
+    home: Hutnik, Jakub
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 73865768
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 73865790
+  teams:
+    home: Pagac, Zbynek
+    away: Chalupa, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 73865798
+  teams:
+    home: Wolf, Filip
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 73865786
+  teams:
+    home: Zajicek, Jan
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
 - id: 73825572
   teams:
     home: Adamczyk, Vladimir
@@ -1378,6 +1477,15 @@ table_tennis:
   score:
     home: 3
     away: 1
+  status: result
+  time: '18:00'
+- id: 73856504
+  teams:
+    home: Louda, Jiri
+    away: Svechota, Vojtech
+  score:
+    home: 1
+    away: 3
   status: result
   time: '18:00'
 - id: 73823728
