@@ -503,9 +503,9 @@ table_tennis:
     home: Just, Frantisek
     away: Stolfa, Jakub
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: recentlyended
   time: '10:00'
 - id: 73823702
   teams:
@@ -514,7 +514,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73823650
   teams:
@@ -523,7 +523,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73823732
   teams:
@@ -532,7 +532,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73823680
   teams:
@@ -541,5 +541,50 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
+- id: 73823724
+  teams:
+    home: Byrtus, Samuel
+    away: Danko, Petr
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:30'
+- id: 73823796
+  teams:
+    home: Cabis, Michal
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:30'
+- id: 73823712
+  teams:
+    home: Plachy, Jiri
+    away: Kolar, Milan
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '10:30'
+- id: 73823744
+  teams:
+    home: Sobisek, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '10:30'
+- id: 73823746
+  teams:
+    home: Vondrak, Michal
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '10:30'
