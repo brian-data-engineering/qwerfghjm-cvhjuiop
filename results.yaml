@@ -712,7 +712,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:00'
 - id: 73823592
   teams:
@@ -729,8 +729,8 @@ table_tennis:
     away: Zika, Tadeas
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 73823602
   teams:
@@ -738,8 +738,8 @@ table_tennis:
     away: Kolar, Milan
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 73823596
   teams:
@@ -748,7 +748,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73823802
   teams:
@@ -757,14 +757,14 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73823706
   teams:
     home: Vavrecka, Radomir
     away: Danko, Petr
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '12:30'
