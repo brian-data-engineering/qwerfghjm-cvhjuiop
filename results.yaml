@@ -4,7 +4,7 @@ soccer:
     home: FC Dinamo Minsk
     away: FC Torpedo Belaz Zhodino
   score:
-    home: 1
+    home: 4
     away: 0
   status: live
   time: '15:45'
@@ -27,6 +27,15 @@ basketball:
     away: 107
   status: result
   time: '14:00'
+- id: 73722762
+  teams:
+    home: Lithuania
+    away: Estonia
+  score:
+    home: 41
+    away: 48
+  status: live
+  time: '16:30'
 tennis:
 - id: 73465924
   teams:
@@ -90,7 +99,7 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73531692
   teams:
@@ -107,26 +116,26 @@ ice_hockey:
     away: HV 71
   score:
     home: 1
-    away: 3
-  status: live
+    away: 4
+  status: recentlyended
   time: '15:00'
 - id: 73271470
   teams:
     home: Ilves
     away: KalPa
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: recentlyended
   time: '15:00'
 - id: 72078828
   teams:
     home: JYP
     away: Karpat
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '15:00'
 - id: 72156548
   teams:
@@ -134,16 +143,16 @@ ice_hockey:
     away: Slavia Prague
   score:
     home: 0
-    away: 3
-  status: live
+    away: 4
+  status: recentlyended
   time: '15:00'
 - id: 72078820
   teams:
     home: Budejovice
     away: Slovan Bratislava
   score:
-    home: 1
-    away: 1
+    home: 4
+    away: 4
   status: live
   time: '15:30'
 - id: 72078826
@@ -152,7 +161,7 @@ ice_hockey:
     away: Banik Sokolov
   score:
     home: 3
-    away: 1
+    away: 3
   status: live
   time: '15:30'
 - id: 72156520
@@ -171,15 +180,15 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '15:30'
 - id: 73565404
   teams:
     home: Lipt. Mikulas
     away: Michalovce
   score:
-    home: 3
-    away: 1
+    home: 4
+    away: 3
   status: live
   time: '16:00'
 - id: 72156560
@@ -187,8 +196,8 @@ ice_hockey:
     home: Litomerice
     away: HC Dynamo Pardubice B
   score:
-    home: 0
-    away: 2
+    home: 2
+    away: 4
   status: live
   time: '16:00'
 - id: 72156502
@@ -197,7 +206,7 @@ ice_hockey:
     away: Dukla
   score:
     home: 0
-    away: 0
+    away: 2
   status: live
   time: '16:00'
 - id: 72156510
@@ -206,7 +215,7 @@ ice_hockey:
     away: Cracovia
   score:
     home: 2
-    away: 0
+    away: 1
   status: live
   time: '16:00'
 - id: 73511716
@@ -214,8 +223,8 @@ ice_hockey:
     home: Zlin
     away: Trencin
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '16:00'
 - id: 73488956
@@ -224,7 +233,7 @@ ice_hockey:
     away: Horacka
   score:
     home: 0
-    away: 1
+    away: 4
   status: live
   time: '16:00'
 - id: 73488958
@@ -233,9 +242,18 @@ ice_hockey:
     away: Frydek Mistek
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '16:00'
+- id: 73849458
+  teams:
+    home: Frisk/Asker
+    away: Ringerike
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
 table_tennis:
 - id: 73825586
   teams:
@@ -1360,7 +1378,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73853450
   teams:
@@ -1369,7 +1387,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73853810
   teams:
@@ -1378,7 +1396,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73853402
   teams:
@@ -1387,7 +1405,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73853390
   teams:
@@ -1396,34 +1414,34 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73853426
   teams:
     home: Kanera, Jan
     away: Simecek, Jan
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '16:30'
 - id: 73853592
   teams:
     home: Kos, Tomas
     away: Koubek, Vojtech
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 73853820
   teams:
     home: Pagac, Zbynek
     away: Holub, Marek
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:30'
 - id: 73853492
   teams:
@@ -1431,15 +1449,15 @@ table_tennis:
     away: Hradecky, Jakub
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:30'
 - id: 73853468
   teams:
     home: Wawrosz, Pavel
     away: Zika, Tadeas
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '16:30'
