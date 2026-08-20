@@ -469,7 +469,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73853572
   teams:
@@ -478,7 +478,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73853434
   teams:
@@ -487,7 +487,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73853602
   teams:
@@ -496,7 +496,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73853378
   teams:
@@ -505,50 +505,95 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 73853614
   teams:
     home: Cabis, Michal
     away: Zika, Tadeas
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
 - id: 73853528
   teams:
     home: Kos, Tomas
     away: Zahradka, Michal
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '10:30'
 - id: 73853562
   teams:
     home: Kulhanek, Pavel
     away: Hasmanda, Rostislav
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '10:30'
 - id: 73853506
   teams:
     home: Skacelik, Richard
     away: Heczko, David
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '10:30'
 - id: 73853372
   teams:
     home: Zuzanek, Jiri
     away: Cermak, Vladimir
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
+- id: 73853384
+  teams:
+    home: Klement, Milan
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:00'
+- id: 73853498
+  teams:
+    home: Paril, Ondrej
+    away: Cabis, Michal
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73853490
+  teams:
+    home: Postelt, Tomas
+    away: Kos, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73853538
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Kulhanek, Pavel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73853370
+  teams:
+    home: Walek, Adrian
+    away: Skacelik, Richard
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
