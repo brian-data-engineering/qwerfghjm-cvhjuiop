@@ -199,7 +199,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73853586
   teams:
@@ -208,7 +208,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 73853620
   teams:
@@ -244,7 +244,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73853504
   teams:
@@ -253,16 +253,16 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73853364
   teams:
     home: Guliak, Roman
     away: Zurek, Filip
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:30
 - id: 73853548
   teams:
@@ -271,7 +271,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 73853612
   teams:
@@ -280,5 +280,95 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:30
+- id: 73853500
+  teams:
+    home: Adam, Radim
+    away: Milota, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 73853366
+  teams:
+    home: Hradecky, Jakub
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 73853444
+  teams:
+    home: Madle, Ludek
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:00
+- id: 73853606
+  teams:
+    home: Stolfa, Jakub
+    away: Tuma, Daniel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 73853428
+  teams:
+    home: Tobola, Daniel
+    away: Guliak, Roman
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 73853416
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Chalupnicek, Milan
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 07:30
+- id: 73853588
+  teams:
+    home: Pozarsky, Jiri
+    away: Zuzanek, Jiri
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 07:30
+- id: 73853462
+  teams:
+    home: Taichman, Ivo
+    away: Langer, Daniel
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 07:30
+- id: 73853618
+  teams:
+    home: Vesely, Michal
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 07:30
+- id: 73853406
+  teams:
+    home: Zurek, Filip
+    away: Blejchar, Marek
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 07:30
