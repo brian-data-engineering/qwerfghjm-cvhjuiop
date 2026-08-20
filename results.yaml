@@ -6,10 +6,28 @@ tennis:
     home: Fritz, Taylor
     away: O'Connell, Christopher
   score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:30
+- id: 73465914
+  teams:
+    home: Tiafoe, Frances
+    away: Auger-Aliassime, Felix
+  score:
     home: 1
     away: 0
   status: live
-  time: 00:30
+  time: 01:05
+- id: 73465912
+  teams:
+    home: Faria, Jaime
+    away: Musetti, Lorenzo
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 01:15
 ice_hockey: []
 table_tennis:
 - id: 73825586
@@ -55,7 +73,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73871440
   teams:
@@ -73,7 +91,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73825602
   teams:
@@ -81,15 +99,96 @@ table_tennis:
     away: Huk, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 73825556
   teams:
     home: Tazler, Jakub
     away: Kasnik, Sebastian
   score:
-    home: 1
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 73825598
+  teams:
+    home: Skakal, Martin
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 73825606
+  teams:
+    home: Urbaniec, Radim
+    away: Svechota, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 73825548
+  teams:
+    home: Vitrovyj, Oleg
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 73825622
+  teams:
+    home: Barton, David
+    away: Regner, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73825566
+  teams:
+    home: Ruzicka, Jiri
+    away: Pikous, Marcel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 02:00
+- id: 73871438
+  teams:
+    home: Tazler, Jakub
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 02:00
+- id: 73825584
+  teams:
+    home: Didi, Julius
+    away: Dolezal, Vaclav
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 02:30
+- id: 73825552
+  teams:
+    home: Svechota, Vojtech
+    away: Huk, Martin
+  score:
+    home: 0
     away: 2
   status: live
-  time: 01:00
+  time: 02:30
+- id: 73825558
+  teams:
+    home: Wagner, Mark Robin
+    away: Kasnik, Sebastian
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 02:30
