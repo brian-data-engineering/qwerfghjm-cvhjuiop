@@ -34,16 +34,16 @@ basketball:
   score:
     home: 108
     away: 110
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73488960
   teams:
     home: Serbia
     away: France
   score:
-    home: 72
-    away: 62
-  status: live
+    home: 90
+    away: 87
+  status: recentlyended
   time: '18:00'
 - id: 72154640
   teams:
@@ -109,6 +109,87 @@ tennis:
     away: 2
   status: result
   time: 01:15
+- id: 73465916
+  teams:
+    home: Paul, Tommy
+    away: Cobolli, Flavio
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:40'
+- id: 73587404
+  teams:
+    home: Melo M / Zverev A
+    away: Luz O / Matos R
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 00:10
+- id: 73587382
+  teams:
+    home: Heliovaara H / Patten H
+    away: Nys H / Roger-Vasselin E
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 73587408
+  teams:
+    home: Arribage T / Olivetti A
+    away: Arevalo M / Pavic M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:10'
+- id: 73587386
+  teams:
+    home: Bolelli S / Vavassori A
+    away: Pavlasek A / Rikl P
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:40'
+- id: 73587406
+  teams:
+    home: Ram R / Salisbury J
+    away: Frantzen C / Haase R
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:40'
+- id: 73850410
+  teams:
+    home: Magadan, Alan
+    away: Hernandez, Alex
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 01:15
+- id: 73850406
+  teams:
+    home: Blanch, Darwin
+    away: Harris, Lloyd
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:35
+- id: 73850404
+  teams:
+    home: Meligeni Alves, Felipe
+    away: Kouame, Moise
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:40
 ice_hockey:
 - id: 73531690
   teams:
