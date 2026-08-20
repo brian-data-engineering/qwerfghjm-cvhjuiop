@@ -379,7 +379,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73853522
   teams:
@@ -388,7 +388,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73853524
   teams:
@@ -397,7 +397,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73853442
   teams:
@@ -406,7 +406,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73853574
   teams:
@@ -415,16 +415,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 73853478
   teams:
     home: Adam, Radim
     away: Taichman, Ivo
   score:
-    home: 0
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 08:30
 - id: 73853544
   teams:
@@ -433,7 +433,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 73853508
   teams:
@@ -441,8 +441,8 @@ table_tennis:
     away: Hruska, Vaclav Senior
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:30
 - id: 73853542
   teams:
@@ -450,15 +450,15 @@ table_tennis:
     away: Vesely, Michal
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 08:30
 - id: 73853596
   teams:
     home: Tobola, Daniel
     away: Zurek, Filip
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 08:30
