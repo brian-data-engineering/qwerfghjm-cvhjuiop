@@ -43,10 +43,19 @@ ice_hockey:
     home: HC Dynamo
     away: Bars Kazan
   score:
-    home: 2
+    home: 5
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 73565400
+  teams:
+    home: Stavanger
+    away: Banska Bystrica
+  score:
+    home: 1
     away: 2
   status: live
-  time: '11:00'
+  time: '12:30'
 table_tennis:
 - id: 73825586
   teams:
@@ -856,7 +865,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73853396
   teams:
@@ -865,7 +874,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73853558
   teams:
@@ -874,7 +883,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73853600
   teams:
@@ -882,8 +891,8 @@ table_tennis:
     away: Hasmanda, Rostislav
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '12:30'
 - id: 73853550
   teams:
@@ -892,5 +901,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
