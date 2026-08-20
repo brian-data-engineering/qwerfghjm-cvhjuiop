@@ -17,6 +17,15 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 68823170
+  teams:
+    home: Athletic Club Sjdr
+    away: Cr Brasil AL
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:30'
 basketball:
 - id: 73832540
   teams:
@@ -197,7 +206,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '21:00'
 - id: 73688126
   teams:
@@ -205,8 +214,8 @@ tennis:
     away: Hurkacz, Hubert
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '21:00'
 - id: 73688102
   teams:
@@ -214,7 +223,7 @@ tennis:
     away: Wong, Coleman
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '22:45'
 - id: 73688122
