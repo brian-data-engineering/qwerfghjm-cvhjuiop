@@ -45,15 +45,15 @@ ice_hockey:
   score:
     home: 5
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73565400
   teams:
     home: Stavanger
     away: Banska Bystrica
   score:
-    home: 1
-    away: 2
+    home: 3
+    away: 3
   status: live
   time: '12:30'
 table_tennis:
@@ -903,3 +903,102 @@ table_tennis:
     away: 3
   status: result
   time: '12:30'
+- id: 73888434
+  teams:
+    home: Kulhanek, Pavel
+    away: Hasmanda, Rostislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73853560
+  teams:
+    home: Biolek, Martin
+    away: Wawrosz, Pavel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73853576
+  teams:
+    home: Jindrak, Lukas
+    away: Kos, Tomas
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '14:00'
+- id: 73853814
+  teams:
+    home: Nadymacek, Frantisek
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73853570
+  teams:
+    home: Prikasky, Libor
+    away: Kanera, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '14:00'
+- id: 73853376
+  teams:
+    home: Tuma, Daniel
+    away: Vinter, Tomas
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:00'
+- id: 73853466
+  teams:
+    home: Mares, Erik
+    away: Koubek, Vojtech
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73853414
+  teams:
+    home: Sedlak, Marek
+    away: Hradecky, Jakub
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:30'
+- id: 73853808
+  teams:
+    home: Szotek, David
+    away: Holub, Marek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:30'
+- id: 73853412
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '14:30'
+- id: 73853368
+  teams:
+    home: Zahradka, Michal
+    away: Simecek, Jan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:30'
