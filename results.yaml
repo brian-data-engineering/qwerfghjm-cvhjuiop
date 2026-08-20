@@ -6,7 +6,7 @@ soccer:
   score:
     home: 4
     away: 0
-  status: live
+  status: recentlyended
   time: '15:45'
 - id: 68823166
   teams:
@@ -32,8 +32,8 @@ basketball:
     home: Lithuania
     away: Estonia
   score:
-    home: 41
-    away: 48
+    home: 55
+    away: 59
   status: live
   time: '16:30'
 tennis:
@@ -117,7 +117,7 @@ ice_hockey:
   score:
     home: 1
     away: 4
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73271470
   teams:
@@ -126,7 +126,7 @@ ice_hockey:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72078828
   teams:
@@ -135,7 +135,7 @@ ice_hockey:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72156548
   teams:
@@ -144,7 +144,7 @@ ice_hockey:
   score:
     home: 0
     away: 4
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72078820
   teams:
@@ -152,26 +152,26 @@ ice_hockey:
     away: Slovan Bratislava
   score:
     home: 4
-    away: 4
-  status: live
+    away: 5
+  status: recentlyended
   time: '15:30'
 - id: 72078826
   teams:
     home: Chomutov
     away: Banik Sokolov
   score:
-    home: 3
+    home: 4
     away: 3
-  status: live
+  status: recentlyended
   time: '15:30'
 - id: 72156520
   teams:
     home: HPK
     away: Assat
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '15:30'
 - id: 73843114
   teams:
@@ -187,7 +187,7 @@ ice_hockey:
     home: Lipt. Mikulas
     away: Michalovce
   score:
-    home: 4
+    home: 6
     away: 3
   status: live
   time: '16:00'
@@ -196,7 +196,7 @@ ice_hockey:
     home: Litomerice
     away: HC Dynamo Pardubice B
   score:
-    home: 2
+    home: 3
     away: 4
   status: live
   time: '16:00'
@@ -205,8 +205,8 @@ ice_hockey:
     home: Olomouc
     away: Dukla
   score:
-    home: 0
-    away: 2
+    home: 1
+    away: 3
   status: live
   time: '16:00'
 - id: 72156510
@@ -223,8 +223,8 @@ ice_hockey:
     home: Zlin
     away: Trencin
   score:
-    home: 1
-    away: 2
+    home: 2
+    away: 3
   status: live
   time: '16:00'
 - id: 73488956
@@ -233,7 +233,7 @@ ice_hockey:
     away: Horacka
   score:
     home: 0
-    away: 4
+    away: 8
   status: live
   time: '16:00'
 - id: 73488958
@@ -241,7 +241,7 @@ ice_hockey:
     home: Zvolen
     away: Frydek Mistek
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '16:00'
@@ -251,7 +251,7 @@ ice_hockey:
     away: Ringerike
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: '16:30'
 table_tennis:
@@ -1461,3 +1461,93 @@ table_tennis:
     away: 1
   status: result
   time: '16:30'
+- id: 73892050
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:00'
+- id: 73892678
+  teams:
+    home: Kanera, Jan
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 73892718
+  teams:
+    home: Szotek, David
+    away: Holub, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73891992
+  teams:
+    home: Vinter, Tomas
+    away: Sedlak, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 73892688
+  teams:
+    home: Zika, Tadeas
+    away: Biolek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73892054
+  teams:
+    home: Hradecky, Jakub
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '17:30'
+- id: 73892052
+  teams:
+    home: Kos, Tomas
+    away: Koubek, Vojtech
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 73892736
+  teams:
+    home: Nadymacek, Frantisek
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 73892682
+  teams:
+    home: Prikasky, Libor
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '17:30'
+- id: 73892690
+  teams:
+    home: Wawrosz, Pavel
+    away: Szotkowski, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '17:30'
