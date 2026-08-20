@@ -32,17 +32,17 @@ basketball:
     home: Lithuania
     away: Estonia
   score:
-    home: 96
-    away: 97
-  status: live
+    home: 108
+    away: 110
+  status: recentlyended
   time: '16:30'
 - id: 73488960
   teams:
     home: Serbia
     away: France
   score:
-    home: 46
-    away: 42
+    home: 72
+    away: 62
   status: live
   time: '18:00'
 - id: 72154640
@@ -288,7 +288,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73849458
   teams:
@@ -297,7 +297,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 table_tennis:
 - id: 73825586
@@ -1639,16 +1639,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73853496
   teams:
     home: Fojt, Pavel
     away: Dousa, Tomas
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '18:30'
 - id: 73853824
   teams:
@@ -1656,8 +1656,8 @@ table_tennis:
     away: Blaha, Michal
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:30'
 - id: 73853580
   teams:
@@ -1666,7 +1666,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '18:30'
 - id: 73853410
   teams:
@@ -1674,6 +1674,6 @@ table_tennis:
     away: Banot, Petr
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:30'
