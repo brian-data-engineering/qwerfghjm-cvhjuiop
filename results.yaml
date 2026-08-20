@@ -28,7 +28,16 @@ tennis:
     away: 2
   status: result
   time: 01:15
-ice_hockey: []
+ice_hockey:
+- id: 73780320
+  teams:
+    home: HC Dynamo
+    away: Bars Kazan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '11:00'
 table_tennis:
 - id: 73825586
   teams:
@@ -559,7 +568,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73853498
   teams:
@@ -568,7 +577,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73853490
   teams:
@@ -577,7 +586,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73853538
   teams:
@@ -586,7 +595,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 73853370
   teams:
@@ -595,5 +604,50 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 73853430
+  teams:
+    home: Cermak, Vladimir
+    away: Kasnik, Sebastian
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '11:30'
+- id: 73853494
+  teams:
+    home: Hasmanda, Rostislav
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:30'
+- id: 73853610
+  teams:
+    home: Heczko, David
+    away: Martinak, Lukas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '11:30'
+- id: 73853420
+  teams:
+    home: Zahradka, Michal
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 73853564
+  teams:
+    home: Zika, Tadeas
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:30'
