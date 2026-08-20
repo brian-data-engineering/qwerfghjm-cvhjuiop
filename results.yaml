@@ -15,9 +15,9 @@ tennis:
     home: Tiafoe, Frances
     away: Auger-Aliassime, Felix
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 01:05
 - id: 73465912
   teams:
@@ -26,7 +26,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: 01:15
 ice_hockey: []
 table_tennis:
@@ -145,7 +145,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73825566
   teams:
@@ -154,7 +154,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73871438
   teams:
@@ -163,16 +163,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73825584
   teams:
     home: Didi, Julius
     away: Dolezal, Vaclav
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 02:30
 - id: 73825552
   teams:
@@ -180,8 +180,8 @@ table_tennis:
     away: Huk, Martin
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 02:30
 - id: 73825558
   teams:
@@ -189,6 +189,6 @@ table_tennis:
     away: Kasnik, Sebastian
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 02:30
