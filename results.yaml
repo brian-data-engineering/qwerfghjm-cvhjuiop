@@ -6,7 +6,7 @@ soccer:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '15:45'
 - id: 68823166
   teams:
@@ -32,10 +32,55 @@ basketball:
     home: Lithuania
     away: Estonia
   score:
-    home: 55
-    away: 59
+    home: 96
+    away: 97
   status: live
   time: '16:30'
+- id: 73488960
+  teams:
+    home: Serbia
+    away: France
+  score:
+    home: 46
+    away: 42
+  status: live
+  time: '18:00'
+- id: 72154640
+  teams:
+    home: Dorados de Chihuahua
+    away: Abejas
+  score:
+    home: 97
+    away: 81
+  status: result
+  time: 02:00
+- id: 72154642
+  teams:
+    home: Freseros de Irapuato
+    away: El Calor de Cancun
+  score:
+    home: 93
+    away: 89
+  status: result
+  time: 02:00
+- id: 72154644
+  teams:
+    home: Fuerza Regia
+    away: Gambusinos De Fresnillo
+  score:
+    home: 74
+    away: 82
+  status: result
+  time: 02:15
+- id: 68096244
+  teams:
+    home: Golden State
+    away: Minnesota
+  score:
+    home: 66
+    away: 77
+  status: result
+  time: 02:00
 tennis:
 - id: 73465924
   teams:
@@ -153,7 +198,7 @@ ice_hockey:
   score:
     home: 4
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72078826
   teams:
@@ -162,7 +207,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72156520
   teams:
@@ -171,7 +216,7 @@ ice_hockey:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73843114
   teams:
@@ -180,16 +225,16 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73565404
   teams:
     home: Lipt. Mikulas
     away: Michalovce
   score:
-    home: 6
-    away: 3
-  status: live
+    home: 7
+    away: 4
+  status: result
   time: '16:00'
 - id: 72156560
   teams:
@@ -197,8 +242,8 @@ ice_hockey:
     away: HC Dynamo Pardubice B
   score:
     home: 3
-    away: 4
-  status: live
+    away: 6
+  status: result
   time: '16:00'
 - id: 72156502
   teams:
@@ -207,7 +252,7 @@ ice_hockey:
   score:
     home: 1
     away: 3
-  status: live
+  status: result
   time: '16:00'
 - id: 72156510
   teams:
@@ -216,7 +261,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '16:00'
 - id: 73511716
   teams:
@@ -225,7 +270,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '16:00'
 - id: 73488956
   teams:
@@ -234,7 +279,7 @@ ice_hockey:
   score:
     home: 0
     away: 8
-  status: live
+  status: result
   time: '16:00'
 - id: 73488958
   teams:
@@ -242,17 +287,17 @@ ice_hockey:
     away: Frydek Mistek
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '16:00'
 - id: 73849458
   teams:
     home: Frisk/Asker
     away: Ringerike
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: recentlyended
   time: '16:30'
 table_tennis:
 - id: 73825586
@@ -1513,7 +1558,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73892052
   teams:
@@ -1522,7 +1567,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73892736
   teams:
@@ -1531,7 +1576,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73892682
   teams:
@@ -1540,7 +1585,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73892690
   teams:
@@ -1549,5 +1594,86 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
+- id: 73853394
+  teams:
+    home: Darin, Kyryl
+    away: Kolenic, Tibor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73853812
+  teams:
+    home: Rybar, Vaclav
+    away: Derco, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73853360
+  teams:
+    home: Stefek, Martin
+    away: Briza, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73853452
+  teams:
+    home: Wolf, Filip
+    away: Simecek, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73853532
+  teams:
+    home: Zientek, Zbynek
+    away: Levicky, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:00'
+- id: 73853496
+  teams:
+    home: Fojt, Pavel
+    away: Dousa, Tomas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:30'
+- id: 73853824
+  teams:
+    home: Navrat, Tomas
+    away: Blaha, Michal
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:30'
+- id: 73853580
+  teams:
+    home: Prikasky, Libor
+    away: Jezek, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 73853410
+  teams:
+    home: Tyn, Daniel
+    away: Banot, Petr
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:30'
