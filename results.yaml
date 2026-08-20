@@ -1,13 +1,31 @@
-soccer: []
+soccer:
+- id: 73737942
+  teams:
+    home: FC Dinamo Minsk
+    away: FC Torpedo Belaz Zhodino
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:45'
+- id: 68823166
+  teams:
+    home: Botafogo SP
+    away: Criciuma EC
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:30
 basketball:
 - id: 73832540
   teams:
     home: Ukraine
     away: Arizona
   score:
-    home: 68
-    away: 80
-  status: live
+    home: 85
+    away: 107
+  status: result
   time: '14:00'
 tennis:
 - id: 73465924
@@ -70,9 +88,9 @@ ice_hockey:
     home: Khimik Voskresensk
     away: HC Akm Tula
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 3
+    away: 4
+  status: recentlyended
   time: '14:00'
 - id: 73531692
   teams:
@@ -80,8 +98,8 @@ ice_hockey:
     away: Amur Khabarovsk
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:00'
 - id: 72156552
   teams:
@@ -89,7 +107,7 @@ ice_hockey:
     away: HV 71
   score:
     home: 1
-    away: 1
+    away: 3
   status: live
   time: '15:00'
 - id: 73271470
@@ -106,7 +124,7 @@ ice_hockey:
     home: JYP
     away: Karpat
   score:
-    home: 0
+    home: 2
     away: 0
   status: live
   time: '15:00'
@@ -116,9 +134,108 @@ ice_hockey:
     away: Slavia Prague
   score:
     home: 0
-    away: 1
+    away: 3
   status: live
   time: '15:00'
+- id: 72078820
+  teams:
+    home: Budejovice
+    away: Slovan Bratislava
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72078826
+  teams:
+    home: Chomutov
+    away: Banik Sokolov
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72156520
+  teams:
+    home: HPK
+    away: Assat
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:30'
+- id: 73843114
+  teams:
+    home: Presov 07
+    away: GKS Tychy
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:30'
+- id: 73565404
+  teams:
+    home: Lipt. Mikulas
+    away: Michalovce
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '16:00'
+- id: 72156560
+  teams:
+    home: Litomerice
+    away: HC Dynamo Pardubice B
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '16:00'
+- id: 72156502
+  teams:
+    home: Olomouc
+    away: Dukla
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
+- id: 72156510
+  teams:
+    home: Vsetin
+    away: Cracovia
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '16:00'
+- id: 73511716
+  teams:
+    home: Zlin
+    away: Trencin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
+- id: 73488956
+  teams:
+    home: Znojmo
+    away: Horacka
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
+- id: 73488958
+  teams:
+    home: Zvolen
+    away: Frydek Mistek
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
 table_tennis:
 - id: 73825586
   teams:
@@ -1153,7 +1270,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73853470
   teams:
@@ -1162,7 +1279,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73853816
   teams:
@@ -1171,7 +1288,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73853464
   teams:
@@ -1180,7 +1297,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73853604
   teams:
@@ -1189,7 +1306,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73853826
   teams:
@@ -1197,35 +1314,35 @@ table_tennis:
     away: Nadymacek, Frantisek
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '15:30'
 - id: 73853474
   teams:
     home: Hradecky, Jakub
     away: Tuma, Daniel
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '15:30'
 - id: 73853502
   teams:
     home: Koubek, Vojtech
     away: Jindrak, Lukas
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '15:30'
 - id: 73853594
   teams:
     home: Simecek, Jan
     away: Prikasky, Libor
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '15:30'
 - id: 73853568
   teams:
@@ -1233,6 +1350,96 @@ table_tennis:
     away: Biolek, Martin
   score:
     home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 73853486
+  teams:
+    home: Biolek, Martin
+    away: Szotkowski, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 73853450
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73853810
+  teams:
+    home: Nadymacek, Frantisek
+    away: Szotek, David
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 73853402
+  teams:
+    home: Prikasky, Libor
+    away: Zahradka, Michal
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73853390
+  teams:
+    home: Tuma, Daniel
+    away: Sedlak, Marek
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 73853426
+  teams:
+    home: Kanera, Jan
+    away: Simecek, Jan
+  score:
+    home: 1
     away: 0
   status: live
-  time: '15:30'
+  time: '16:30'
+- id: 73853592
+  teams:
+    home: Kos, Tomas
+    away: Koubek, Vojtech
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73853820
+  teams:
+    home: Pagac, Zbynek
+    away: Holub, Marek
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73853492
+  teams:
+    home: Vinter, Tomas
+    away: Hradecky, Jakub
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '16:30'
+- id: 73853468
+  teams:
+    home: Wawrosz, Pavel
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
