@@ -5,9 +5,9 @@ basketball:
     home: Portugal
     away: Iceland
   score:
-    home: 52
-    away: 39
-  status: live
+    home: 66
+    away: 53
+  status: recentlyended
   time: '16:00'
 tennis:
 - id: 73465918
@@ -54,7 +54,7 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72156584
   teams:
@@ -63,7 +63,7 @@ ice_hockey:
   score:
     home: 6
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73374124
   teams:
@@ -71,36 +71,54 @@ ice_hockey:
     away: Kiekko-Espoo
   score:
     home: 2
-    away: 3
-  status: live
+    away: 4
+  status: recentlyended
   time: '15:30'
 - id: 73316882
   teams:
     home: Slovan Bratislava
     away: Vienna Capitals
   score:
-    home: 5
-    away: 4
-  status: live
+    home: 6
+    away: 5
+  status: recentlyended
   time: '15:30'
 - id: 72156586
   teams:
     home: Spisska NV
     away: GKS Tychy
   score:
-    home: 2
-    away: 3
-  status: live
+    home: 5
+    away: 4
+  status: recentlyended
   time: '15:30'
 - id: 73441446
   teams:
     home: Zvolen
     away: Banska Bystrica
   score:
-    home: 3
-    away: 2
+    home: 4
+    away: 3
   status: live
   time: '16:00'
+- id: 73441448
+  teams:
+    home: GKS Jastrzebie
+    away: Torax Poruba
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '17:15'
+- id: 73243162
+  teams:
+    home: Grenoble
+    away: Chaux-de-Fonds
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:15'
 table_tennis:
 - id: 73853436
   teams:
