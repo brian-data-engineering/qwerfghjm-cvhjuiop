@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73810320
+  teams:
+    home: Portugal
+    away: Iceland
+  score:
+    home: 24
+    away: 20
+  status: live
+  time: '16:00'
 tennis:
 - id: 73465918
   teams:
@@ -26,24 +35,24 @@ ice_hockey:
     away: Kosice
   score:
     home: 1
-    away: 2
-  status: live
+    away: 4
+  status: result
   time: '14:00'
 - id: 73888064
   teams:
     home: Martin
     away: Havirov
   score:
-    home: 2
-    away: 6
-  status: live
+    home: 4
+    away: 8
+  status: recentlyended
   time: '14:00'
 - id: 72156582
   teams:
     home: Karpat
     away: Lulea
   score:
-    home: 1
+    home: 2
     away: 1
   status: live
   time: '15:00'
@@ -52,10 +61,37 @@ ice_hockey:
     home: Mountfield HK
     away: Graz 99ers
   score:
-    home: 1
-    away: 0
+    home: 4
+    away: 1
   status: live
   time: '15:00'
+- id: 73374124
+  teams:
+    home: Pelicans
+    away: Kiekko-Espoo
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: '15:30'
+- id: 73316882
+  teams:
+    home: Slovan Bratislava
+    away: Vienna Capitals
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72156586
+  teams:
+    home: Spisska NV
+    away: GKS Tychy
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73853436
   teams:
