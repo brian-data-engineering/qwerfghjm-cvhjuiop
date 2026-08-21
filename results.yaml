@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 73265212
+  teams:
+    home: CA Aldosivi
+    away: Union de Santa Fe
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:30'
 basketball:
 - id: 73810320
   teams:
@@ -7,7 +16,7 @@ basketball:
   score:
     home: 66
     away: 53
-  status: recentlyended
+  status: result
   time: '16:00'
 tennis:
 - id: 73465918
@@ -72,7 +81,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73316882
   teams:
@@ -81,7 +90,7 @@ ice_hockey:
   score:
     home: 6
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72156586
   teams:
@@ -90,7 +99,7 @@ ice_hockey:
   score:
     home: 5
     away: 4
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73441446
   teams:
@@ -99,7 +108,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: live
+  status: result
   time: '16:00'
 - id: 73441448
   teams:
@@ -119,6 +128,15 @@ ice_hockey:
     away: 0
   status: live
   time: '17:15'
+- id: 73242862
+  teams:
+    home: Rapaces de Gap
+    away: Briancon
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:00'
 table_tennis:
 - id: 73853436
   teams:
