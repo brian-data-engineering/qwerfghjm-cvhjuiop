@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 basketball:
 - id: 73810320
@@ -23,8 +23,8 @@ basketball:
     home: Spain
     away: Nigeria
   score:
-    home: 36
-    away: 40
+    home: 66
+    away: 49
   status: live
   time: '19:00'
 - id: 73842840
@@ -136,6 +136,15 @@ tennis:
     away: 2
   status: result
   time: 00:30
+- id: 73465938
+  teams:
+    home: Fritz, Taylor
+    away: Nakashima, Brandon
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:05'
 ice_hockey:
 - id: 73802770
   teams:
@@ -225,7 +234,7 @@ ice_hockey:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '17:15'
 - id: 73243162
   teams:
@@ -234,14 +243,14 @@ ice_hockey:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '17:15'
 - id: 73242862
   teams:
     home: Rapaces de Gap
     away: Briancon
   score:
-    home: 1
+    home: 2
     away: 2
   status: live
   time: '18:00'
