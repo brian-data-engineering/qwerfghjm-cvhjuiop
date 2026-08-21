@@ -1,5 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72154646
+  teams:
+    home: Dorados de Chihuahua
+    away: Abejas
+  score:
+    home: 34
+    away: 53
+  status: live
+  time: 02:00
+- id: 72154648
+  teams:
+    home: Freseros de Irapuato
+    away: El Calor de Cancun
+  score:
+    home: 32
+    away: 33
+  status: live
+  time: 02:00
 tennis:
 - id: 73465918
   teams:
@@ -7,8 +25,8 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 00:30
 ice_hockey: []
 table_tennis:
@@ -46,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73853536
   teams:
