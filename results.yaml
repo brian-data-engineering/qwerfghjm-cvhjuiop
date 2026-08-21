@@ -18,15 +18,15 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 73526628
   teams:
     home: Fehervar
     away: Kosice
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '14:00'
 - id: 73888064
@@ -35,9 +35,27 @@ ice_hockey:
     away: Havirov
   score:
     home: 2
-    away: 3
+    away: 6
   status: live
   time: '14:00'
+- id: 72156582
+  teams:
+    home: Karpat
+    away: Lulea
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72156584
+  teams:
+    home: Mountfield HK
+    away: Graz 99ers
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 73853436
   teams:
