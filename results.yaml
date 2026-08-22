@@ -5,20 +5,83 @@ basketball:
     home: Lithuania
     away: Arizona
   score:
-    home: 41
-    away: 54
-  status: live
+    home: 74
+    away: 88
+  status: recentlyended
   time: '16:30'
 - id: 73669148
   teams:
     home: Greece
     away: Poland
   score:
-    home: 41
-    away: 37
+    home: 71
+    away: 61
   status: live
   time: '17:00'
-tennis: []
+- id: 73942780
+  teams:
+    home: Italy
+    away: Estonia
+  score:
+    home: 39
+    away: 37
+  status: live
+  time: '17:30'
+- id: 73810324
+  teams:
+    home: Portugal
+    away: Iceland
+  score:
+    home: 72
+    away: 63
+  status: result
+  time: '10:45'
+- id: 72154660
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Lobos Plateados de la Buap
+  score:
+    home: 84
+    away: 95
+  status: result
+  time: 02:15
+- id: 72154664
+  teams:
+    home: Panteras
+    away: Santos de San Luis
+  score:
+    home: 104
+    away: 88
+  status: result
+  time: 02:30
+- id: 72154666
+  teams:
+    home: Soles
+    away: Mineros de Zacatecas
+  score:
+    home: 78
+    away: 71
+  status: result
+  time: 03:00
+- id: 68096598
+  teams:
+    home: Toronto Tempo
+    away: Portland Fire
+  score:
+    home: 82
+    away: 79
+  status: result
+  time: 02:00
+tennis:
+- id: 73465942
+  teams:
+    home: Cobolli, Flavio
+    away: Fils, Arthur
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:10'
 ice_hockey:
 - id: 73790704
   teams:
@@ -53,7 +116,7 @@ ice_hockey:
     away: Havirov
   score:
     home: 2
-    away: 1
+    away: 4
   status: live
   time: '17:15'
 table_tennis:
