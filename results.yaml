@@ -5,10 +5,19 @@ basketball:
     home: Lithuania
     away: Arizona
   score:
-    home: 40
-    away: 43
+    home: 41
+    away: 54
   status: live
   time: '16:30'
+- id: 73669148
+  teams:
+    home: Greece
+    away: Poland
+  score:
+    home: 41
+    away: 37
+  status: live
+  time: '17:00'
 tennis: []
 ice_hockey:
 - id: 73790704
@@ -27,7 +36,7 @@ ice_hockey:
   score:
     home: 6
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73559712
   teams:
@@ -36,8 +45,17 @@ ice_hockey:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
+- id: 73888066
+  teams:
+    home: Torax Poruba
+    away: Havirov
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:15'
 table_tennis:
 - id: 73888382
   teams:
