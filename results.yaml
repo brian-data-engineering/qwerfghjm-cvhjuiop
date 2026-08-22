@@ -7,25 +7,25 @@ basketball:
   score:
     home: 74
     away: 88
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73669148
   teams:
     home: Greece
     away: Poland
   score:
-    home: 71
-    away: 61
-  status: live
+    home: 89
+    away: 81
+  status: result
   time: '17:00'
 - id: 73942780
   teams:
     home: Italy
     away: Estonia
   score:
-    home: 39
-    away: 37
-  status: live
+    home: 83
+    away: 61
+  status: recentlyended
   time: '17:30'
 - id: 73810324
   teams:
@@ -79,7 +79,7 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 0
+    away: 1
   status: live
   time: '18:10'
 ice_hockey:
@@ -115,7 +115,7 @@ ice_hockey:
     home: Torax Poruba
     away: Havirov
   score:
-    home: 2
+    home: 4
     away: 4
   status: live
   time: '17:15'
