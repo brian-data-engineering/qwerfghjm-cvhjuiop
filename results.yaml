@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 73265214
+  teams:
+    home: Atletico Tucuman
+    away: Instituto AC Cordoba
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:00'
+- id: 73265218
+  teams:
+    home: Gimnasia Y Esgrima La Plata
+    away: Gimnasia y Esgrima Mendoza
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '19:00'
 basketball:
 - id: 73832712
   teams:
@@ -80,7 +98,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '18:10'
 ice_hockey:
 - id: 73790704
@@ -117,7 +135,7 @@ ice_hockey:
   score:
     home: 4
     away: 5
-  status: recentlyended
+  status: result
   time: '17:15'
 table_tennis:
 - id: 73888382
