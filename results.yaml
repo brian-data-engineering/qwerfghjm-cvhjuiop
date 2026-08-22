@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73832712
+  teams:
+    home: Lithuania
+    away: Arizona
+  score:
+    home: 40
+    away: 43
+  status: live
+  time: '16:30'
 tennis: []
 ice_hockey:
 - id: 73790704
@@ -16,9 +25,9 @@ ice_hockey:
     home: Budejovice
     away: Vienna Capitals
   score:
-    home: 5
-    away: 0
-  status: live
+    home: 6
+    away: 2
+  status: recentlyended
   time: '15:00'
 - id: 73559712
   teams:
@@ -27,7 +36,7 @@ ice_hockey:
   score:
     home: 4
     away: 1
-  status: live
+  status: recentlyended
   time: '15:00'
 table_tennis:
 - id: 73888382
