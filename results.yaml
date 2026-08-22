@@ -25,7 +25,7 @@ basketball:
   score:
     home: 83
     away: 61
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 73810324
   teams:
@@ -79,8 +79,8 @@ tennis:
     away: Fils, Arthur
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '18:10'
 ice_hockey:
 - id: 73790704
@@ -116,8 +116,8 @@ ice_hockey:
     away: Havirov
   score:
     home: 4
-    away: 4
-  status: live
+    away: 5
+  status: recentlyended
   time: '17:15'
 table_tennis:
 - id: 73888382
