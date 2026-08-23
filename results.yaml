@@ -42,7 +42,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: live
+  status: recentlyended
   time: '20:00'
 basketball:
 - id: 73924604
@@ -113,9 +113,9 @@ basketball:
     home: Dallas
     away: Seattle
   score:
-    home: 88
-    away: 68
-  status: live
+    home: 92
+    away: 70
+  status: result
   time: '20:00'
 tennis:
 - id: 73465928
@@ -123,9 +123,9 @@ tennis:
     home: Fils, Arthur
     away: Tiafoe, Frances
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '20:40'
 - id: 73587394
   teams:
@@ -161,7 +161,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '20:05'
 - id: 73941568
   teams:
