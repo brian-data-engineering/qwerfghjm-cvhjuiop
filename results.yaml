@@ -23,10 +23,19 @@ basketball:
     home: Georgia
     away: Israel
   score:
-    home: 43
-    away: 41
+    home: 68
+    away: 69
   status: live
   time: '15:15'
+- id: 73658646
+  teams:
+    home: France
+    away: Serbia
+  score:
+    home: 44
+    away: 28
+  status: live
+  time: '16:00'
 tennis: []
 ice_hockey:
 - id: 73903178
@@ -36,7 +45,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73903184
   teams:
@@ -45,7 +54,7 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73706196
   teams:
@@ -54,7 +63,7 @@ ice_hockey:
   score:
     home: 2
     away: 5
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 73559710
   teams:
