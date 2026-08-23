@@ -17,6 +17,24 @@ soccer:
     away: 1
   status: result
   time: 00:00
+- id: 73265198
+  teams:
+    home: Barracas Central
+    away: CA Platense
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:45'
+- id: 73265202
+  teams:
+    home: CA Sarmiento Junin
+    away: Estudiantes de la Plata
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:45'
 basketball:
 - id: 73924604
   teams:
@@ -34,8 +52,53 @@ basketball:
   score:
     home: 91
     away: 90
-  status: recentlyended
+  status: result
   time: '16:00'
+- id: 73565736
+  teams:
+    home: Spain
+    away: Belgium
+  score:
+    home: 29
+    away: 18
+  status: live
+  time: '19:00'
+- id: 73917090
+  teams:
+    home: Storks
+    away: Hokkaido
+  score:
+    home: 69
+    away: 81
+  status: result
+  time: 05:00
+- id: 73566042
+  teams:
+    home: Angers BC
+    away: Aurore Vitre Basketball
+  score:
+    home: 72
+    away: 71
+  status: result
+  time: '14:00'
+- id: 68096074
+  teams:
+    home: LA Sparks
+    away: Connecticut
+  score:
+    home: 77
+    away: 68
+  status: result
+  time: 01:00
+- id: 68096098
+  teams:
+    home: Phoenix
+    away: Atlanta
+  score:
+    home: 89
+    away: 99
+  status: result
+  time: 02:00
 tennis: []
 ice_hockey:
 - id: 73903178
