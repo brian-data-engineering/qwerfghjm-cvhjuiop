@@ -23,17 +23,17 @@ soccer:
     away: CA Platense
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '17:45'
 - id: 73265202
   teams:
     home: CA Sarmiento Junin
     away: Estudiantes de la Plata
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: recentlyended
   time: '17:45'
 basketball:
 - id: 73924604
@@ -59,8 +59,8 @@ basketball:
     home: Spain
     away: Belgium
   score:
-    home: 29
-    away: 18
+    home: 45
+    away: 42
   status: live
   time: '19:00'
 - id: 73917090
