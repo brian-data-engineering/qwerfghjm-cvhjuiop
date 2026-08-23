@@ -19,5 +19,32 @@ soccer:
   time: 00:00
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 73903178
+  teams:
+    home: Lorenskog
+    away: Gjovik
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '14:00'
+- id: 73903184
+  teams:
+    home: Sparta
+    away: Stjernen
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:00'
+- id: 73706196
+  teams:
+    home: Troja/Ljungby
+    away: Visby-Roma
+  score:
+    home: 0
+    away: 4
+  status: live
+  time: '14:00'
 table_tennis: []
