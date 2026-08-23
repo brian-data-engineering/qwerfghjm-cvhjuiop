@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 73265222
+  teams:
+    home: CA Huracan
+    away: Deportivo Riestra
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: 00:00
+- id: 73265224
+  teams:
+    home: Newells Old Boys
+    away: CA Banfield
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:00
 basketball:
 - id: 73924604
   teams:
@@ -14,9 +32,9 @@ basketball:
     home: France
     away: Serbia
   score:
-    home: 70
-    away: 71
-  status: live
+    home: 91
+    away: 90
+  status: recentlyended
   time: '16:00'
 tennis: []
 ice_hockey:
@@ -54,6 +72,6 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: recentlyended
+  status: result
   time: '15:00'
 table_tennis: []
