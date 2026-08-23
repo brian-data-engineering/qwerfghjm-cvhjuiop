@@ -42,7 +42,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '20:00'
 basketball:
 - id: 73924604
@@ -125,7 +125,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '20:40'
 - id: 73587394
   teams:
@@ -172,6 +172,15 @@ tennis:
     away: 1
   status: live
   time: '20:55'
+- id: 73941570
+  teams:
+    home: Carreno Busta, Pablo
+    away: Vallejo, Adolfo Daniel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
 ice_hockey:
 - id: 73903178
   teams:
