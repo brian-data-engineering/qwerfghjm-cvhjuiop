@@ -17,7 +17,16 @@ soccer:
     away: 1
   status: result
   time: 00:00
-basketball: []
+basketball:
+- id: 73924604
+  teams:
+    home: Georgia
+    away: Israel
+  score:
+    home: 43
+    away: 41
+  status: live
+  time: '15:15'
 tennis: []
 ice_hockey:
 - id: 73903178
@@ -25,9 +34,9 @@ ice_hockey:
     home: Lorenskog
     away: Gjovik
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '14:00'
 - id: 73903184
   teams:
@@ -35,8 +44,8 @@ ice_hockey:
     away: Stjernen
   score:
     home: 3
-    away: 2
-  status: live
+    away: 4
+  status: recentlyended
   time: '14:00'
 - id: 73706196
   teams:
@@ -44,16 +53,16 @@ ice_hockey:
     away: Visby-Roma
   score:
     home: 2
-    away: 4
-  status: live
+    away: 5
+  status: recentlyended
   time: '14:00'
 - id: 73559710
   teams:
     home: Spartiates
     away: Nice Aigles
   score:
-    home: 2
-    away: 0
+    home: 3
+    away: 1
   status: live
   time: '15:00'
 table_tennis: []
