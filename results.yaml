@@ -35,6 +35,15 @@ soccer:
     away: 0
   status: result
   time: '17:45'
+- id: 73265204
+  teams:
+    home: CA Belgrano de Cordoba
+    away: Defensa Y Justicia
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '20:00'
 basketball:
 - id: 73924604
   teams:
@@ -59,9 +68,9 @@ basketball:
     home: Spain
     away: Belgium
   score:
-    home: 81
-    away: 58
-  status: live
+    home: 95
+    away: 67
+  status: recentlyended
   time: '19:00'
 - id: 73917090
   teams:
@@ -104,11 +113,56 @@ basketball:
     home: Dallas
     away: Seattle
   score:
-    home: 34
-    away: 17
+    home: 56
+    away: 35
   status: live
   time: '20:00'
-tennis: []
+tennis:
+- id: 73465928
+  teams:
+    home: Fils, Arthur
+    away: Tiafoe, Frances
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:40'
+- id: 73587394
+  teams:
+    home: Luz O / Matos R
+    away: Frantzen C / Haase R
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:00'
+- id: 73941584
+  teams:
+    home: Mpetshi Perricard, Giovanni
+    away: Brooksby, Jenson
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '19:10'
+- id: 73941590
+  teams:
+    home: Shimabukuro, Sho
+    away: Kecmanovic, Miomir
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '19:15'
+- id: 73941578
+  teams:
+    home: Comesana, Francisco
+    away: Wu, Yibing
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:05'
 ice_hockey:
 - id: 73903178
   teams:
