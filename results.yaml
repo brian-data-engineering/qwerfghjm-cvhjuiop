@@ -40,8 +40,8 @@ soccer:
     home: CA Belgrano de Cordoba
     away: Defensa Y Justicia
   score:
-    home: 0
-    away: 1
+    home: 1
+    away: 2
   status: live
   time: '20:00'
 basketball:
@@ -70,7 +70,7 @@ basketball:
   score:
     home: 95
     away: 67
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 73917090
   teams:
@@ -113,8 +113,8 @@ basketball:
     home: Dallas
     away: Seattle
   score:
-    home: 56
-    away: 35
+    home: 73
+    away: 58
   status: live
   time: '20:00'
 tennis:
@@ -123,7 +123,7 @@ tennis:
     home: Fils, Arthur
     away: Tiafoe, Frances
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:40'
@@ -152,17 +152,26 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:15'
 - id: 73941578
   teams:
     home: Comesana, Francisco
     away: Wu, Yibing
   score:
-    home: 0
+    home: 1
     away: 0
   status: live
   time: '20:05'
+- id: 73941568
+  teams:
+    home: Landaluce, Martin
+    away: Bellucci, Mattia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:55'
 ice_hockey:
 - id: 73903178
   teams:
