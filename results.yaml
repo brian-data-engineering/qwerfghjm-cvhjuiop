@@ -50,7 +50,7 @@ soccer:
     away: Velez Sarsfield
   score:
     home: 2
-    away: 0
+    away: 1
   status: live
   time: '22:15'
 - id: 67117894
@@ -171,6 +171,33 @@ basketball:
     away: 70
   status: result
   time: '20:00'
+- id: 68096328
+  teams:
+    home: Chicago
+    away: Indiana
+  score:
+    home: 36
+    away: 38
+  status: live
+  time: '23:00'
+- id: 68096160
+  teams:
+    home: Portland Fire
+    away: Washington
+  score:
+    home: 39
+    away: 40
+  status: live
+  time: '23:00'
+- id: 68096590
+  teams:
+    home: Toronto Tempo
+    away: Las Vegas Aces
+  score:
+    home: 33
+    away: 39
+  status: live
+  time: '23:00'
 tennis:
 - id: 73465928
   teams:
@@ -223,17 +250,17 @@ tennis:
     away: Bellucci, Mattia
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: recentlyended
   time: '20:55'
 - id: 73941570
   teams:
     home: Carreno Busta, Pablo
     away: Vallejo, Adolfo Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: null
+    away: null
+  status: recentlyended
   time: '22:30'
 ice_hockey:
 - id: 73903178
