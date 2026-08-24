@@ -42,9 +42,9 @@ tennis:
     home: Arevalo M / Mladenovic K
     away: Glasspool L / Routliffe E
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: recentlyended
   time: '18:00'
 ice_hockey:
 - id: 73377758
@@ -72,7 +72,7 @@ ice_hockey:
   score:
     home: 0
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 table_tennis:
 - id: 73946954
