@@ -14,8 +14,8 @@ basketball:
     home: Greece
     away: Cyprus
   score:
-    home: 31
-    away: 32
+    home: 77
+    away: 67
   status: live
   time: '15:00'
 tennis:
@@ -24,10 +24,19 @@ tennis:
     home: Glasspool L / Routliffe E
     away: Skupski N / Stefani L
   score:
-    home: 1
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '15:00'
+- id: 73997834
+  teams:
+    home: Heliovaara H / Dabrowski G
+    away: Arevalo M / Mladenovic K
+  score:
+    home: 0
     away: 0
   status: live
-  time: '15:00'
+  time: '16:35'
 ice_hockey:
 - id: 73377758
   teams:
@@ -38,6 +47,15 @@ ice_hockey:
     away: 3
   status: result
   time: '10:00'
+- id: 73595888
+  teams:
+    home: Banska Bystrica
+    away: Oswiecim
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 73946954
   teams:
