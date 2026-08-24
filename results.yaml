@@ -1,302 +1,77 @@
 soccer:
-- id: 73265222
+- id: 73265208
   teams:
-    home: CA Huracan
-    away: Deportivo Riestra
+    home: Racing Club Avellaneda
+    away: Boca Juniors
   score:
-    home: 0
+    home: 1
+    away: 1
+  status: live
+  time: 00:30
+basketball: []
+tennis: []
+ice_hockey: []
+table_tennis:
+- id: 73946954
+  teams:
+    home: Plachy, Jiri
+    away: Dedek, Jiri
+  score:
+    home: 3
     away: 0
   status: result
   time: 00:00
-- id: 73265224
+- id: 73947048
   teams:
-    home: Newells Old Boys
-    away: CA Banfield
+    home: Smrcek, Milan
+    away: Bruzek, Petr
   score:
     home: 2
-    away: 1
+    away: 3
   status: result
   time: 00:00
-- id: 73265198
+- id: 73946870
   teams:
-    home: Barracas Central
-    away: CA Platense
+    home: Sobisek, Martin
+    away: Chlebecek, Marek
   score:
     home: 1
-    away: 2
+    away: 3
   status: result
-  time: '17:45'
-- id: 73265202
+  time: 00:00
+- id: 73946922
   teams:
-    home: CA Sarmiento Junin
-    away: Estudiantes de la Plata
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '17:45'
-- id: 73265204
-  teams:
-    home: CA Belgrano de Cordoba
-    away: Defensa Y Justicia
+    home: Andrle, Tomas
+    away: Vitrovyj, Oleg
   score:
     home: 1
-    away: 2
+    away: 3
   status: result
-  time: '20:00'
-- id: 73265196
+  time: 00:30
+- id: 73947080
   teams:
-    home: CA River Plate (Arg)
-    away: Velez Sarsfield
-  score:
-    home: 2
-    away: 1
-  status: live
-  time: '22:15'
-- id: 67117894
-  teams:
-    home: CA Central Norte Salta
-    away: CA Estudiantes
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: 01:00
-- id: 67118610
-  teams:
-    home: CA Chacarita Juniors
-    away: San Martin de Tucuman
+    home: Prokupek, Jaroslav
+    away: Holovatiuk, Yurii
   score:
     home: 1
-    away: 2
+    away: 3
   status: result
-  time: '18:00'
-- id: 67118602
+  time: 00:30
+- id: 73946940
   teams:
-    home: CD Maipu
-    away: Quilmes AC
-  score:
-    home: 1
-    away: 0
-  status: result
-  time: '18:30'
-- id: 67117888
-  teams:
-    home: Club Ciudad de Bolivar
-    away: Racing de Cordoba
-  score:
-    home: 1
-    away: 1
-  status: result
-  time: '18:30'
-- id: 67118604
-  teams:
-    home: CA Temperley
-    away: Ferrocarril Midland
+    home: Regner, Michal
+    away: Cermak, Vladimir
   score:
     home: 2
-    away: 1
-  status: result
-  time: '19:00'
-basketball:
-- id: 73924604
-  teams:
-    home: Georgia
-    away: Israel
-  score:
-    home: 101
-    away: 90
-  status: result
-  time: '15:15'
-- id: 73658646
-  teams:
-    home: France
-    away: Serbia
-  score:
-    home: 91
-    away: 90
-  status: result
-  time: '16:00'
-- id: 73565736
-  teams:
-    home: Spain
-    away: Belgium
-  score:
-    home: 95
-    away: 67
-  status: result
-  time: '19:00'
-- id: 73917090
-  teams:
-    home: Storks
-    away: Hokkaido
-  score:
-    home: 69
-    away: 81
-  status: result
-  time: 05:00
-- id: 73566042
-  teams:
-    home: Angers BC
-    away: Aurore Vitre Basketball
-  score:
-    home: 72
-    away: 71
-  status: result
-  time: '14:00'
-- id: 68096074
-  teams:
-    home: LA Sparks
-    away: Connecticut
-  score:
-    home: 77
-    away: 68
-  status: result
-  time: 01:00
-- id: 68096098
-  teams:
-    home: Phoenix
-    away: Atlanta
-  score:
-    home: 89
-    away: 99
-  status: result
-  time: 02:00
-- id: 68096174
-  teams:
-    home: Dallas
-    away: Seattle
-  score:
-    home: 92
-    away: 70
-  status: result
-  time: '20:00'
-- id: 68096328
-  teams:
-    home: Chicago
-    away: Indiana
-  score:
-    home: 36
-    away: 38
-  status: live
-  time: '23:00'
-- id: 68096160
-  teams:
-    home: Portland Fire
-    away: Washington
-  score:
-    home: 39
-    away: 40
-  status: live
-  time: '23:00'
-- id: 68096590
-  teams:
-    home: Toronto Tempo
-    away: Las Vegas Aces
-  score:
-    home: 33
-    away: 39
-  status: live
-  time: '23:00'
-tennis:
-- id: 73465928
-  teams:
-    home: Fils, Arthur
-    away: Tiafoe, Frances
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '20:40'
-- id: 73587394
-  teams:
-    home: Luz O / Matos R
-    away: Frantzen C / Haase R
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '18:00'
-- id: 73941584
-  teams:
-    home: Mpetshi Perricard, Giovanni
-    away: Brooksby, Jenson
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '19:10'
-- id: 73941590
-  teams:
-    home: Shimabukuro, Sho
-    away: Kecmanovic, Miomir
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '19:15'
-- id: 73941578
-  teams:
-    home: Comesana, Francisco
-    away: Wu, Yibing
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '20:05'
-- id: 73941568
-  teams:
-    home: Landaluce, Martin
-    away: Bellucci, Mattia
-  score:
-    home: 1
-    away: 2
+    away: 3
   status: recentlyended
-  time: '20:55'
-- id: 73941570
+  time: 00:30
+- id: 73946858
   teams:
-    home: Carreno Busta, Pablo
-    away: Vallejo, Adolfo Daniel
+    home: Bruzek, Petr
+    away: Bartunek, Radek
   score:
-    home: null
-    away: null
+    home: 2
+    away: 3
   status: recentlyended
-  time: '22:30'
-ice_hockey:
-- id: 73903178
-  teams:
-    home: Lorenskog
-    away: Gjovik
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '14:00'
-- id: 73903184
-  teams:
-    home: Sparta
-    away: Stjernen
-  score:
-    home: 3
-    away: 4
-  status: result
-  time: '14:00'
-- id: 73706196
-  teams:
-    home: Troja/Ljungby
-    away: Visby-Roma
-  score:
-    home: 2
-    away: 5
-  status: result
-  time: '14:00'
-- id: 73559710
-  teams:
-    home: Spartiates
-    away: Nice Aigles
-  score:
-    home: 3
-    away: 4
-  status: result
-  time: '15:00'
-table_tennis: []
+  time: 01:00
