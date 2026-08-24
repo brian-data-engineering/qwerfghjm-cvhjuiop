@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: recentlyended
   time: 00:30
 basketball: []
 tennis: []
@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73946858
   teams:
@@ -73,5 +73,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
