@@ -8,6 +8,24 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 73265220
+  teams:
+    home: CA Tigre
+    away: CA Central Cordoba SE
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '22:00'
+- id: 67118612
+  teams:
+    home: CA Guemes
+    away: Atletico de Rafaela
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:00'
 basketball:
 - id: 73596108
   teams:
@@ -71,7 +89,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '21:40'
 - id: 73997588
   teams:
