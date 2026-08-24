@@ -8,8 +8,26 @@ soccer:
     away: 1
   status: result
   time: 00:30
-basketball: []
-tennis: []
+basketball:
+- id: 73596108
+  teams:
+    home: Greece
+    away: Cyprus
+  score:
+    home: 31
+    away: 32
+  status: live
+  time: '15:00'
+tennis:
+- id: 73997832
+  teams:
+    home: Glasspool L / Routliffe E
+    away: Skupski N / Stefani L
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
 ice_hockey:
 - id: 73377758
   teams:
