@@ -35,8 +35,17 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:35'
+- id: 74028600
+  teams:
+    home: Arevalo M / Mladenovic K
+    away: Glasspool L / Routliffe E
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 ice_hockey:
 - id: 73377758
   teams:
@@ -53,8 +62,8 @@ ice_hockey:
     away: Oswiecim
   score:
     home: 2
-    away: 3
-  status: live
+    away: 4
+  status: result
   time: '15:30'
 - id: 73377760
   teams:
@@ -62,8 +71,8 @@ ice_hockey:
     away: Omskie Kryliya
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: recentlyended
   time: '16:00'
 table_tennis:
 - id: 73946954
