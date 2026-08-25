@@ -4,20 +4,38 @@ soccer:
     home: Atletico Lanus
     away: Argentinos Juniors
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 1
+  status: result
   time: 00:15
 - id: 73265200
   teams:
     home: CA Talleres de Cordoba
     away: CA Rosario Central
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 2
+  status: recentlyended
   time: 00:15
-basketball: []
+basketball:
+- id: 72154668
+  teams:
+    home: Correcaminos
+    away: Soles
+  score:
+    home: 40
+    away: 57
+  status: live
+  time: 01:15
+- id: 72154670
+  teams:
+    home: El Calor de Cancun
+    away: Astros Jalisco
+  score:
+    home: 36
+    away: 58
+  status: live
+  time: 01:15
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -64,7 +82,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 73975990
   teams:
@@ -82,16 +100,16 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 73975936
   teams:
     home: Krejci, Richard
     away: Tuma, Daniel
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 01:00
 - id: 73976024
   teams:
@@ -100,5 +118,86 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 73975876
+  teams:
+    home: Sychra, Martin
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 73975808
+  teams:
+    home: Syroha, Michal
+    away: Kosar, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 73975996
+  teams:
+    home: Vesely, Michal
+    away: Just, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 73975886
+  teams:
+    home: Hradecky, Jakub
+    away: Vejvoda, Viktor
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73976036
+  teams:
+    home: Krejci, Richard
+    away: Hlawatschke, Ales
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73976074
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Havel, Ladislav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 02:00
+- id: 73975850
+  teams:
+    home: Just, Frantisek
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 02:30
+- id: 73976064
+  teams:
+    home: Kosar, Vaclav
+    away: Pleskot, Jan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 02:30
+- id: 73976050
+  teams:
+    home: Regner, Michal
+    away: Klement, Milan
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 02:30
