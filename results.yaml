@@ -1,356 +1,104 @@
 soccer:
-- id: 73265208
+- id: 73265206
   teams:
-    home: Racing Club Avellaneda
-    away: Boca Juniors
+    home: Atletico Lanus
+    away: Argentinos Juniors
   score:
-    home: 1
-    away: 1
-  status: result
-  time: 00:30
-- id: 73265220
-  teams:
-    home: CA Tigre
-    away: CA Central Cordoba SE
-  score:
-    home: 2
-    away: 1
+    home: 0
+    away: 0
   status: live
-  time: '22:00'
-- id: 67118612
+  time: 00:15
+- id: 73265200
   teams:
-    home: CA Guemes
-    away: Atletico de Rafaela
+    home: CA Talleres de Cordoba
+    away: CA Rosario Central
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 00:15
+basketball: []
+tennis: []
+ice_hockey: []
+table_tennis:
+- id: 73976002
+  teams:
+    home: Just, Frantisek
+    away: Krejci, Richard
   score:
     home: 0
-    away: 0
-  status: result
-  time: '19:00'
-basketball:
-- id: 73596108
-  teams:
-    home: Greece
-    away: Cyprus
-  score:
-    home: 82
-    away: 75
-  status: result
-  time: '15:00'
-tennis:
-- id: 73997832
-  teams:
-    home: Glasspool L / Routliffe E
-    away: Skupski N / Stefani L
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '15:00'
-- id: 73997834
-  teams:
-    home: Heliovaara H / Dabrowski G
-    away: Arevalo M / Mladenovic K
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '16:35'
-- id: 74028600
-  teams:
-    home: Arevalo M / Mladenovic K
-    away: Glasspool L / Routliffe E
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '18:00'
-- id: 73997836
-  teams:
-    home: Harrison C / Stearns P
-    away: Pavic M / Krunic A
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '19:30'
-- id: 73997838
-  teams:
-    home: Patten H / Siniakova K
-    away: Vacherot V / Maria T
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '20:30'
-- id: 74033678
-  teams:
-    home: Patten H / Siniakova K
-    away: Harrison C / Stearns P
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '21:40'
-- id: 73997588
-  teams:
-    home: Coppejans, Kimmer
-    away: Rodionov, Jurij
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:00'
-- id: 73997590
-  teams:
-    home: Dedura-Palomero, Diego
-    away: Ferreira Silva, Frederico
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '15:00'
-- id: 73997586
-  teams:
-    home: Droguet, Titouan
-    away: Rincon, Daniel
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '15:00'
-- id: 73997594
-  teams:
-    home: Fearnley, Jacob
-    away: Carballes Baena, Roberto
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '15:00'
-- id: 73997584
-  teams:
-    home: Lajal, Mark
-    away: Lee, Jordan
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '15:00'
-- id: 73997592
-  teams:
-    home: Pavlovic, Luka
-    away: Varillas, Juan Pablo
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '15:05'
-- id: 73997580
-  teams:
-    home: Prado Angelo, Juan Carlos
-    away: Barrios Vera, Tomas
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '16:40'
-- id: 73997564
-  teams:
-    home: Johnson, Spencer
-    away: Garin, Cristian
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '16:50'
-- id: 73997582
-  teams:
-    home: Den Ouden, Guy
-    away: Olivieri, Genaro Alberto
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '16:55'
-- id: 73997544
-  teams:
-    home: Gomez, Federico Agustin
-    away: Dougaz, Aziz
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '16:55'
-- id: 73997514
-  teams:
-    home: Gaubas, Vilius
-    away: Feldbausch, Kilian
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '17:05'
-- id: 73997512
-  teams:
-    home: Cecchinato, Marco
-    away: Broady, Liam
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '17:35'
-- id: 73997540
-  teams:
-    home: Schwaerzler, Joel
-    away: Heide, Gustavo
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '17:40'
-- id: 73997546
-  teams:
-    home: Jacquet, Kyrian
-    away: Midon, Lautaro
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:25'
-- id: 73997566
-  teams:
-    home: Roncadelli, Franco
-    away: Ymer, Elias
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '18:30'
-- id: 73997542
-  teams:
-    home: Guerrieri, Andrea
-    away: Holmgren, August
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '18:35'
-- id: 73997510
-  teams:
-    home: Bertola, Remy
-    away: Moro Canas, Alejandro
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '18:45'
-- id: 73997570
-  teams:
-    home: Samuel, Toby
-    away: Maestrelli, Francesco
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '18:55'
-- id: 73997568
-  teams:
-    home: Bueno, Gonzalo
-    away: Harris, Billy
-  score:
-    home: 0
-    away: 2
-  status: result
-  time: '19:05'
-ice_hockey:
-- id: 73377758
-  teams:
-    home: Neftekamsk
-    away: Metallurg
-  score:
-    home: 2
     away: 3
   status: result
-  time: '10:00'
-- id: 73595888
+  time: 00:00
+- id: 73975954
   teams:
-    home: Banska Bystrica
-    away: Oswiecim
+    home: Kosar, Vaclav
+    away: Strnad, Jaroslav (1964)
   score:
-    home: 2
-    away: 4
+    home: 1
+    away: 3
   status: result
-  time: '15:30'
-- id: 73377760
+  time: 00:00
+- id: 73975868
   teams:
-    home: Din. St. Petersburg
-    away: Omskie Kryliya
+    home: Regner, Michal
+    away: Hradecky, Jakub
   score:
-    home: 0
-    away: 1
+    home: 3
+    away: 2
   status: result
-  time: '16:00'
-table_tennis:
-- id: 73946954
+  time: 00:00
+- id: 73975878
   teams:
-    home: Plachy, Jiri
-    away: Dedek, Jiri
+    home: Havel, Ladislav
+    away: Syroha, Michal
   score:
     home: 3
     away: 0
   status: result
-  time: 00:00
-- id: 73947048
+  time: 00:30
+- id: 73975874
   teams:
-    home: Smrcek, Milan
-    away: Bruzek, Petr
+    home: Hlawatschke, Ales
+    away: Vesely, Michal
   score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:00
-- id: 73946870
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 00:30
+- id: 73975990
   teams:
-    home: Sobisek, Martin
-    away: Chlebecek, Marek
+    home: Vejvoda, Viktor
+    away: Sychra, Martin
   score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:00
-- id: 73946922
-  teams:
-    home: Andrle, Tomas
-    away: Vitrovyj, Oleg
-  score:
-    home: 1
+    home: 0
     away: 3
   status: result
   time: 00:30
-- id: 73947080
+- id: 73975840
   teams:
-    home: Prokupek, Jaroslav
-    away: Holovatiuk, Yurii
+    home: Hradecky, Jakub
+    away: Klement, Milan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 01:00
+- id: 73975936
+  teams:
+    home: Krejci, Richard
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 01:00
+- id: 73976024
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Pleskot, Jan
   score:
     home: 1
     away: 3
-  status: result
-  time: 00:30
-- id: 73946940
-  teams:
-    home: Regner, Michal
-    away: Cermak, Vladimir
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:30
-- id: 73946858
-  teams:
-    home: Bruzek, Petr
-    away: Bartunek, Radek
-  score:
-    home: 2
-    away: 3
-  status: result
+  status: recentlyended
   time: 01:00
