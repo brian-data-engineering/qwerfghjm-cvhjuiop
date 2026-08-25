@@ -115,8 +115,8 @@ ice_hockey:
     home: Omskie Kryliya
     away: Gornyak Uchaly
   score:
-    home: 1
-    away: 1
+    home: 2
+    away: 2
   status: live
   time: '10:00'
 table_tennis:
@@ -649,7 +649,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 74016392
   teams:
@@ -658,7 +658,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 74017228
   teams:
@@ -666,8 +666,8 @@ table_tennis:
     away: Havrda, Cesta
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: recentlyended
   time: '11:00'
 - id: 74016356
   teams:
@@ -676,7 +676,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '11:00'
 - id: 74017178
   teams:
@@ -685,5 +685,50 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '11:00'
+- id: 74016334
+  teams:
+    home: Kasnik, Sebastian
+    away: Wagner, Richard
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 74016358
+  teams:
+    home: Polasek, Radovan
+    away: Szotkowski, Jan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 74017260
+  teams:
+    home: Smesny, Milan
+    away: Novotny, Ladislav
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '11:30'
+- id: 74017276
+  teams:
+    home: Stach, Jiri
+    away: Cerny, Vojtech
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
+- id: 74016402
+  teams:
+    home: Svec, Jiri
+    away: Madle, Ludek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:30'
