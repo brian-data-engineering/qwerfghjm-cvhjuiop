@@ -114,9 +114,9 @@ tennis:
     home: Monfils G / Svitolina E
     away: Auger-Aliassime F / Eala A
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:00'
 ice_hockey:
 - id: 74027770
@@ -146,6 +146,51 @@ ice_hockey:
     away: 2
   status: result
   time: '10:00'
+- id: 73843130
+  teams:
+    home: Khimik Voskresensk
+    away: Chekhov
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '12:00'
+- id: 73588852
+  teams:
+    home: Zauralye
+    away: Chelyabinsk
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '13:30'
+- id: 73588826
+  teams:
+    home: Magnitogorsk
+    away: Amur Khabarovsk
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '14:00'
+- id: 73811678
+  teams:
+    home: Banik Sokolov
+    away: Slavia Prague
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 73626814
+  teams:
+    home: HC Dynamo Pardubice B
+    away: Dukla
+  score:
+    home: 0
+    away: 3
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 73976002
   teams:
@@ -993,6 +1038,33 @@ table_tennis:
     away: 2
   status: result
   time: '12:30'
+- id: 74061620
+  teams:
+    home: Kasnik, Sebastian
+    away: Tazler, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 74061654
+  teams:
+    home: Paril, Ondrej
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 74061580
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Novotny, Ladislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
 - id: 74061604
   teams:
     home: Svec, Jiri
@@ -1002,6 +1074,60 @@ table_tennis:
     away: 1
   status: result
   time: '13:00'
+- id: 74061674
+  teams:
+    home: Zurek, Filip
+    away: Varecha, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:03'
+- id: 74061676
+  teams:
+    home: Cerny, Vojtech
+    away: Stach, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 74061606
+  teams:
+    home: Madle, Ludek
+    away: Lubas, Miloslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 74061582
+  teams:
+    home: Smesny, Milan
+    away: Havrda, Cesta
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 74061622
+  teams:
+    home: Wagner, Richard
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 74061658
+  teams:
+    home: Zika, Tadeas
+    away: Szotkowski, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
 - id: 74016306
   teams:
     home: Biolek, Martin
@@ -1009,7 +1135,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 74017270
   teams:
@@ -1036,7 +1162,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 74017224
   teams:
@@ -1052,9 +1178,9 @@ table_tennis:
     home: Cernik, Jan
     away: Koubek, Vojtech
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '14:30'
 - id: 74017266
   teams:
@@ -1062,17 +1188,17 @@ table_tennis:
     away: Chalupa, Michal
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 74016346
   teams:
     home: Nohejl, Vaclav (2005)
     away: Jezek, Michal
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '14:30'
 - id: 74017194
   teams:
@@ -1080,8 +1206,8 @@ table_tennis:
     away: Sobisek, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 74016424
   teams:
@@ -1089,6 +1215,96 @@ table_tennis:
     away: Szotkowski, Jan
   score:
     home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 74016404
+  teams:
+    home: Dzida, Jan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 74017176
+  teams:
+    home: Pagac, Zbynek
+    away: Holub, Marek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 74016442
+  teams:
+    home: Ruzicka, Jiri
+    away: Nohejl, Vaclav (2005)
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 74017230
+  teams:
+    home: Sedlak, Marek
+    away: Vizek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 74016302
+  teams:
+    home: Zajicek, Jan
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 74017244
+  teams:
+    home: Chalupa, Michal
+    away: Szotek, David
+  score:
+    home: 1
     away: 1
   status: live
-  time: '14:30'
+  time: '15:30'
+- id: 74016438
+  teams:
+    home: Jezek, Michal
+    away: Svacha, Ondrej
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '15:30'
+- id: 74016436
+  teams:
+    home: Koubek, Vojtech
+    away: Medek, Josef
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 74017216
+  teams:
+    home: Sobisek, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '15:30'
+- id: 74016332
+  teams:
+    home: Szotkowski, Jan
+    away: Biolek, Martin
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '15:30'
