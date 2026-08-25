@@ -18,6 +18,15 @@ soccer:
   status: result
   time: 00:15
 basketball:
+- id: 73842300
+  teams:
+    home: Sonicboom
+    away: Phoebus
+  score:
+    home: 74
+    away: 76
+  status: result
+  time: 06:30
 - id: 72154668
   teams:
     home: Correcaminos
@@ -370,7 +379,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 74016394
   teams:
@@ -379,7 +388,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 74016304
   teams:
@@ -397,16 +406,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:00
 - id: 74017254
   teams:
     home: Byrtus, Samuel
     away: Heczko, David
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 07:30
 - id: 74016452
   teams:
@@ -414,8 +423,8 @@ table_tennis:
     away: Mecl Jr, Jan
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 74016444
   teams:
@@ -423,17 +432,17 @@ table_tennis:
     away: Dousek, Tomas
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:30
 - id: 74017246
   teams:
     home: Vrabec, Milan
     away: Grohsgott, Jiri
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 07:30
 - id: 74016280
   teams:
@@ -441,6 +450,96 @@ table_tennis:
     away: Kasnik, Sebastian
   score:
     home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 74016418
+  teams:
+    home: Dousek, Tomas
+    away: Polasek, Radovan
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 74017236
+  teams:
+    home: Grohsgott, Jiri
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:00
+- id: 74017268
+  teams:
+    home: Heczko, David
+    away: Walek, Adrian
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 74016312
+  teams:
+    home: Kasnik, Sebastian
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:00
+- id: 74016410
+  teams:
+    home: Mecl Jr, Jan
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 74017280
+  teams:
+    home: Cabak, Josef
+    away: Byrtus, Samuel
+  score:
+    home: 1
     away: 2
   status: live
-  time: 07:30
+  time: 08:30
+- id: 74017238
+  teams:
+    home: Forman, Lubos
+    away: Vrabec, Milan
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 08:30
+- id: 74016336
+  teams:
+    home: Prikasky, Libor
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:30
+- id: 74016284
+  teams:
+    home: Tazler, Jakub
+    away: Wagner, Richard
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 08:30
+- id: 74016298
+  teams:
+    home: Wawrosz, Pavel
+    away: Vavrecka, Michal
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 08:30
