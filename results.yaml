@@ -115,7 +115,7 @@ ice_hockey:
     home: Omskie Kryliya
     away: Gornyak Uchaly
   score:
-    home: 0
+    home: 1
     away: 1
   status: live
   time: '10:00'
@@ -559,7 +559,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 74016412
   teams:
@@ -568,7 +568,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 74017256
   teams:
@@ -577,7 +577,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 74016272
   teams:
@@ -586,7 +586,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 74016430
   teams:
@@ -595,43 +595,43 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 74017166
   teams:
     home: Havrda, Cesta
     away: Smesny, Milan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '10:30'
 - id: 74016274
   teams:
     home: Lubas, Miloslav
     away: Svec, Jiri
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '10:30'
 - id: 74016348
   teams:
     home: Szotkowski, Jan
     away: Zika, Tadeas
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
 - id: 74016426
   teams:
     home: Tazler, Jakub
     away: Kasnik, Sebastian
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '10:30'
 - id: 74017172
   teams:
@@ -639,6 +639,51 @@ table_tennis:
     away: Stach, Jiri
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '10:30'
+- id: 74016382
+  teams:
+    home: Regner, Milan
+    away: Lubas, Miloslav
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '11:00'
+- id: 74016392
+  teams:
+    home: Saleny, Petr
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 74017228
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Havrda, Cesta
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '11:00'
+- id: 74016356
+  teams:
+    home: Zika, Tadeas
+    away: Paril, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '11:00'
+- id: 74017178
+  teams:
+    home: Zurek, Filip
+    away: Varecha, Pavel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '11:00'
