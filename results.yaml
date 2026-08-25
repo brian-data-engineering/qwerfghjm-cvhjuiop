@@ -27,6 +27,96 @@ basketball:
     away: 76
   status: result
   time: 06:30
+- id: 73626734
+  teams:
+    home: Union Rennes Basket 35
+    away: CEP Lorient
+  score:
+    home: 25
+    away: 26
+  status: live
+  time: '18:00'
+- id: 72154668
+  teams:
+    home: Correcaminos
+    away: Soles
+  score:
+    home: 74
+    away: 101
+  status: result
+  time: 01:15
+- id: 72154670
+  teams:
+    home: El Calor de Cancun
+    away: Astros Jalisco
+  score:
+    home: 50
+    away: 89
+  status: result
+  time: 01:15
+- id: 72154676
+  teams:
+    home: Abejas
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 81
+    away: 73
+  status: result
+  time: 02:00
+- id: 72154672
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Freseros de Irapuato
+  score:
+    home: 73
+    away: 77
+  status: result
+  time: 02:00
+- id: 72154674
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Fuerza Regia
+  score:
+    home: 98
+    away: 88
+  status: result
+  time: 02:00
+- id: 72154678
+  teams:
+    home: Santos de San Luis
+    away: Dorados de Chihuahua
+  score:
+    home: 87
+    away: 63
+  status: result
+  time: 02:00
+- id: 72154680
+  teams:
+    home: Mineros de Zacatecas
+    away: Panteras
+  score:
+    home: 93
+    away: 95
+  status: result
+  time: 02:05
+- id: 68096364
+  teams:
+    home: Minnesota
+    away: Golden State
+  score:
+    home: 66
+    away: 80
+  status: result
+  time: 00:00
+- id: 68096456
+  teams:
+    home: LA Sparks
+    away: Atlanta
+  score:
+    home: 71
+    away: 78
+  status: result
+  time: 02:00
 tennis:
 - id: 73998312
   teams:
@@ -99,7 +189,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73626814
   teams:
@@ -108,7 +198,7 @@ ice_hockey:
   score:
     home: 1
     away: 5
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73374132
   teams:
@@ -117,7 +207,7 @@ ice_hockey:
   score:
     home: 7
     away: 0
-  status: live
+  status: result
   time: '15:30'
 - id: 73943138
   teams:
@@ -126,7 +216,7 @@ ice_hockey:
   score:
     home: 2
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73904510
   teams:
@@ -135,25 +225,25 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: live
+  status: result
   time: '15:30'
 - id: 73669140
   teams:
     home: Spisska NV
     away: Debreceni Egyetem AC
   score:
-    home: 9
-    away: 3
-  status: live
+    home: 10
+    away: 5
+  status: result
   time: '15:30'
 - id: 73271670
   teams:
     home: TPS
     away: Jokerit
   score:
-    home: 3
+    home: 4
     away: 2
-  status: live
+  status: result
   time: '15:30'
 - id: 73377764
   teams:
@@ -161,8 +251,8 @@ ice_hockey:
     away: Metallurg
   score:
     home: 2
-    away: 4
-  status: live
+    away: 5
+  status: recentlyended
   time: '16:00'
 table_tennis:
 - id: 73976002
@@ -1378,7 +1468,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 74067094
   teams:
@@ -1387,7 +1477,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 74067134
   teams:
@@ -1396,7 +1486,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 74067112
   teams:
@@ -1405,7 +1495,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 74067102
   teams:
@@ -1414,50 +1504,122 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 74067122
   teams:
     home: Cermak, Vladimir
     away: Sobisek, Martin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '17:30'
 - id: 74067104
   teams:
     home: Cernik, Jan
     away: Medek, Josef
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '17:30'
 - id: 74067096
   teams:
     home: Chalupa, Michal
     away: Szotek, David
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '17:30'
 - id: 74067136
   teams:
     home: Nohejl, Vaclav (2005)
     away: Ruzicka, Jiri
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '17:30'
 - id: 74067100
   teams:
     home: Szotkowski, Jan
     away: Zika, Tadeas
   score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 74017232
+  teams:
+    home: Adamczyk, Vladimir
+    away: Schwan, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 74016400
+  teams:
+    home: Hudeczek, Roman
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 74016338
+  teams:
+    home: Mares, Erik
+    away: Cernik, Jan
+  score:
     home: 0
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 74016390
+  teams:
+    home: Pavelka, Radim
+    away: Dedek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '18:00'
+- id: 74017212
+  teams:
+    home: Stolfa, Jakub
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 74017278
+  teams:
+    home: Langer, Daniel
+    away: Vavrecka, Radomir
+  score:
+    home: 2
     away: 0
   status: live
-  time: '17:30'
+  time: '18:30'
+- id: 74016342
+  teams:
+    home: Pagac, Zbynek
+    away: Szotek, David
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '18:30'
+- id: 74017200
+  teams:
+    home: Sobisek, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:30'
