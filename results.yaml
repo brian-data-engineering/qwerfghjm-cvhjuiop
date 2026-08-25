@@ -460,7 +460,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 74017236
   teams:
@@ -469,7 +469,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 74017268
   teams:
@@ -478,7 +478,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 74016312
   teams:
@@ -487,7 +487,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 74016410
   teams:
@@ -496,7 +496,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 74017280
   teams:
@@ -504,26 +504,26 @@ table_tennis:
     away: Byrtus, Samuel
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 08:30
 - id: 74017238
   teams:
     home: Forman, Lubos
     away: Vrabec, Milan
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 08:30
 - id: 74016336
   teams:
     home: Prikasky, Libor
     away: Ruzicka, Jiri
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 08:30
 - id: 74016284
   teams:
@@ -532,7 +532,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 74016298
   teams:
@@ -540,6 +540,6 @@ table_tennis:
     away: Vavrecka, Michal
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 08:30
