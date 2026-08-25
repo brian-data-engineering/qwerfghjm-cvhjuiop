@@ -15,7 +15,7 @@ soccer:
   score:
     home: 2
     away: 2
-  status: recentlyended
+  status: result
   time: 00:15
 basketball:
 - id: 72154668
@@ -23,19 +23,82 @@ basketball:
     home: Correcaminos
     away: Soles
   score:
-    home: 40
-    away: 57
-  status: live
+    home: 74
+    away: 101
+  status: recentlyended
   time: 01:15
 - id: 72154670
   teams:
     home: El Calor de Cancun
     away: Astros Jalisco
   score:
-    home: 36
-    away: 58
-  status: live
+    home: 50
+    away: 89
+  status: result
   time: 01:15
+- id: 72154676
+  teams:
+    home: Abejas
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 59
+    away: 61
+  status: live
+  time: 02:00
+- id: 72154672
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Freseros de Irapuato
+  score:
+    home: 61
+    away: 67
+  status: live
+  time: 02:00
+- id: 72154674
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Fuerza Regia
+  score:
+    home: 80
+    away: 67
+  status: live
+  time: 02:00
+- id: 72154678
+  teams:
+    home: Santos de San Luis
+    away: Dorados de Chihuahua
+  score:
+    home: 72
+    away: 59
+  status: live
+  time: 02:00
+- id: 72154680
+  teams:
+    home: Mineros de Zacatecas
+    away: Panteras
+  score:
+    home: 84
+    away: 82
+  status: live
+  time: 02:05
+- id: 68096364
+  teams:
+    home: Minnesota
+    away: Golden State
+  score:
+    home: 66
+    away: 80
+  status: result
+  time: 00:00
+- id: 68096456
+  teams:
+    home: LA Sparks
+    away: Atlanta
+  score:
+    home: 55
+    away: 66
+  status: live
+  time: 02:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -154,7 +217,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73976036
   teams:
@@ -163,7 +226,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73976074
   teams:
@@ -172,7 +235,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 73975850
   teams:
@@ -180,24 +243,24 @@ table_tennis:
     away: Tuma, Daniel
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 02:30
 - id: 73976064
   teams:
     home: Kosar, Vaclav
     away: Pleskot, Jan
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 02:30
 - id: 73976050
   teams:
     home: Regner, Michal
     away: Klement, Milan
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 02:30
