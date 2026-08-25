@@ -109,7 +109,16 @@ basketball:
   status: result
   time: 02:00
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 73377762
+  teams:
+    home: Omskie Kryliya
+    away: Gornyak Uchaly
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
 table_tennis:
 - id: 73976002
   teams:
@@ -543,3 +552,93 @@ table_tennis:
     away: 3
   status: result
   time: 08:30
+- id: 74017262
+  teams:
+    home: Cerny, Vojtech
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 74016412
+  teams:
+    home: Madle, Ludek
+    away: Regner, Milan
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 74017256
+  teams:
+    home: Novotny, Ladislav
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '10:00'
+- id: 74016272
+  teams:
+    home: Paril, Ondrej
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '10:00'
+- id: 74016430
+  teams:
+    home: Wagner, Richard
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '10:00'
+- id: 74017166
+  teams:
+    home: Havrda, Cesta
+    away: Smesny, Milan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:30'
+- id: 74016274
+  teams:
+    home: Lubas, Miloslav
+    away: Svec, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:30'
+- id: 74016348
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:30'
+- id: 74016426
+  teams:
+    home: Tazler, Jakub
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:30'
+- id: 74017172
+  teams:
+    home: Varecha, Pavel
+    away: Stach, Jiri
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:30'
