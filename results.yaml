@@ -9,6 +9,105 @@ basketball:
     away: 56
   status: result
   time: 02:00
+- id: 74003842
+  teams:
+    home: Angers BC
+    away: C Chartres BM
+  score:
+    home: 47
+    away: 41
+  status: live
+  time: '17:00'
+- id: 73669076
+  teams:
+    home: Pallacanestro 2.015 Forli
+    away: Raggisolaris Faenza
+  score:
+    home: 40
+    away: 36
+  status: live
+  time: '17:00'
+- id: 72154682
+  teams:
+    home: Correcaminos
+    away: Soles
+  score:
+    home: 78
+    away: 74
+  status: result
+  time: 01:15
+- id: 72154684
+  teams:
+    home: El Calor de Cancun
+    away: Astros Jalisco
+  score:
+    home: 79
+    away: 88
+  status: result
+  time: 01:15
+- id: 72154690
+  teams:
+    home: Abejas
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 73
+    away: 75
+  status: result
+  time: 02:00
+- id: 72154686
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Freseros de Irapuato
+  score:
+    home: 87
+    away: 84
+  status: result
+  time: 02:00
+- id: 72154688
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Fuerza Regia
+  score:
+    home: 90
+    away: 91
+  status: result
+  time: 02:00
+- id: 72154692
+  teams:
+    home: Santos de San Luis
+    away: Dorados de Chihuahua
+  score:
+    home: 94
+    away: 102
+  status: result
+  time: 02:00
+- id: 72154694
+  teams:
+    home: Mineros de Zacatecas
+    away: Panteras
+  score:
+    home: 98
+    away: 78
+  status: result
+  time: 02:05
+- id: 68096414
+  teams:
+    home: Dallas
+    away: Portland Fire
+  score:
+    home: 96
+    away: 78
+  status: result
+  time: 00:00
+- id: 68096342
+  teams:
+    home: Phoenix
+    away: Washington
+  score:
+    home: 84
+    away: 94
+  status: result
+  time: 02:00
 tennis: []
 ice_hockey:
 - id: 74078776
@@ -63,7 +162,7 @@ ice_hockey:
   score:
     home: 2
     away: 5
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 73588860
   teams:
@@ -81,7 +180,7 @@ ice_hockey:
   score:
     home: 3
     away: 1
-  status: live
+  status: result
   time: '14:00'
 - id: 73242494
   teams:
@@ -90,17 +189,35 @@ ice_hockey:
   score:
     home: 5
     away: 1
-  status: live
+  status: result
   time: '14:00'
 - id: 73271478
   teams:
     home: Ilves
     away: Karpat
   score:
-    home: 1
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 73377768
+  teams:
+    home: Omskie Kryliya
+    away: Metallurg
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 73585340
+  teams:
+    home: Kalmar HC
+    away: Tingsryd
+  score:
+    home: 4
     away: 0
   status: live
-  time: '15:00'
+  time: '17:00'
 table_tennis:
 - id: 74016286
   teams:
