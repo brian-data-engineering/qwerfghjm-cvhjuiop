@@ -1,4 +1,31 @@
-soccer: []
+soccer:
+- id: 73803398
+  teams:
+    home: CA Chaco For Ever
+    away: CA San Miguel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 73026672
+  teams:
+    home: Club Atletico Acassuso
+    away: San Telmo
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '18:00'
+- id: 73803476
+  teams:
+    home: CA Patronato Parana
+    away: Club Atletico Atlanta
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '18:30'
 basketball:
 - id: 73992666
   teams:
@@ -14,18 +41,18 @@ basketball:
     home: Angers BC
     away: C Chartres BM
   score:
-    home: 47
-    away: 41
-  status: live
+    home: 81
+    away: 66
+  status: result
   time: '17:00'
 - id: 73669076
   teams:
     home: Pallacanestro 2.015 Forli
     away: Raggisolaris Faenza
   score:
-    home: 40
-    away: 36
-  status: live
+    home: 76
+    away: 69
+  status: result
   time: '17:00'
 - id: 72154682
   teams:
@@ -207,16 +234,16 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73585340
   teams:
     home: Kalmar HC
     away: Tingsryd
   score:
-    home: 4
-    away: 0
-  status: live
+    home: 6
+    away: 1
+  status: result
   time: '17:00'
 table_tennis:
 - id: 74016286
