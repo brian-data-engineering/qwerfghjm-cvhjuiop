@@ -10,7 +10,25 @@ basketball:
   status: result
   time: 02:00
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 74078776
+  teams:
+    home: Chelyabinsk
+    away: HC Yugra
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:00
+- id: 73843010
+  teams:
+    home: Lok Yaroslavl
+    away: Neftekhimik
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 09:00
 table_tennis:
 - id: 74016286
   teams:
