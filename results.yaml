@@ -17,7 +17,7 @@ ice_hockey:
     away: HC Yugra
   score:
     home: 1
-    away: 0
+    away: 1
   status: live
   time: 09:00
 - id: 73843010
@@ -25,10 +25,37 @@ ice_hockey:
     home: Lok Yaroslavl
     away: Neftekhimik
   score:
-    home: 0
+    home: 3
     away: 1
   status: live
   time: 09:00
+- id: 73588822
+  teams:
+    home: Amur Khabarovsk
+    away: Lada Togliatti
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '10:00'
+- id: 73377766
+  teams:
+    home: Neftekamsk
+    away: Gornyak Uchaly
+  score:
+    home: 4
+    away: 1
+  status: live
+  time: '10:00'
+- id: 73588842
+  teams:
+    home: Neftjanik
+    away: HC Magnitka Magnitogorsk
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '10:00'
 table_tennis:
 - id: 74016286
   teams:
