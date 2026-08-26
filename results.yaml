@@ -18,7 +18,7 @@ ice_hockey:
   score:
     home: 4
     away: 5
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 73843010
   teams:
@@ -27,7 +27,7 @@ ice_hockey:
   score:
     home: 4
     away: 2
-  status: recentlyended
+  status: result
   time: 09:00
 - id: 73588822
   teams:
@@ -35,26 +35,26 @@ ice_hockey:
     away: Lada Togliatti
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '10:00'
 - id: 73377766
   teams:
     home: Neftekamsk
     away: Gornyak Uchaly
   score:
-    home: 5
-    away: 2
-  status: live
+    home: 6
+    away: 3
+  status: result
   time: '10:00'
 - id: 73588842
   teams:
     home: Neftjanik
     away: HC Magnitka Magnitogorsk
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: recentlyended
   time: '10:00'
 table_tennis:
 - id: 74016286
