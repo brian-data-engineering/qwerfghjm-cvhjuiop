@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73992666
+  teams:
+    home: National Taiwan University of Arts
+    away: National Taiwan University
+  score:
+    home: 48
+    away: 21
+  status: live
+  time: 02:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -37,7 +46,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74017180
   teams:
