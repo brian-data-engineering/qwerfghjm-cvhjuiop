@@ -61,25 +61,25 @@ ice_hockey:
     home: Avangard Omsk
     away: HC Sibir
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 5
+  status: recentlyended
   time: '13:30'
 - id: 73588860
   teams:
     home: Zauralye
     away: R. Tyumen
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '13:30'
 - id: 73588808
   teams:
     home: Magnitogorsk
     away: Traktor Chelyabinsk
   score:
-    home: 1
+    home: 3
     away: 1
   status: live
   time: '14:00'
@@ -88,10 +88,19 @@ ice_hockey:
     home: Trinec
     away: Kometa
   score:
+    home: 5
+    away: 1
+  status: live
+  time: '14:00'
+- id: 73271478
+  teams:
+    home: Ilves
+    away: Karpat
+  score:
     home: 1
     away: 0
   status: live
-  time: '14:00'
+  time: '15:00'
 table_tennis:
 - id: 74016286
   teams:
