@@ -1,293 +1,59 @@
-soccer:
-- id: 73803398
+soccer: []
+basketball: []
+tennis: []
+ice_hockey: []
+table_tennis:
+- id: 74053030
   teams:
-    home: CA Chaco For Ever
-    away: CA San Miguel
+    home: Hradecky, Jakub
+    away: Sobisek, Martin
   score:
     home: 3
-    away: 0
-  status: result
-  time: '18:00'
-- id: 73026672
+    away: 1
+  status: recentlyended
+  time: 00:00
+- id: 74053274
   teams:
-    home: Club Atletico Acassuso
-    away: San Telmo
+    home: Kosar, Vaclav
+    away: Mazanek, Stanislav
   score:
-    home: 1
-    away: 2
-  status: result
-  time: '18:00'
-- id: 73803476
-  teams:
-    home: CA Patronato Parana
-    away: Club Atletico Atlanta
-  score:
-    home: 2
+    home: 3
     away: 0
   status: recentlyended
-  time: '18:30'
-basketball:
-- id: 73992666
-  teams:
-    home: National Taiwan University of Arts
-    away: National Taiwan University
-  score:
-    home: 91
-    away: 56
-  status: result
-  time: 02:00
-- id: 74003842
-  teams:
-    home: Angers BC
-    away: C Chartres BM
-  score:
-    home: 81
-    away: 66
-  status: result
-  time: '17:00'
-- id: 73669076
-  teams:
-    home: Pallacanestro 2.015 Forli
-    away: Raggisolaris Faenza
-  score:
-    home: 76
-    away: 69
-  status: result
-  time: '17:00'
-- id: 72154682
-  teams:
-    home: Correcaminos
-    away: Soles
-  score:
-    home: 78
-    away: 74
-  status: result
-  time: 01:15
-- id: 72154684
-  teams:
-    home: El Calor de Cancun
-    away: Astros Jalisco
-  score:
-    home: 79
-    away: 88
-  status: result
-  time: 01:15
-- id: 72154690
-  teams:
-    home: Abejas
-    away: Diablos Rojos Del Mexico
-  score:
-    home: 73
-    away: 75
-  status: result
-  time: 02:00
-- id: 72154686
-  teams:
-    home: Gambusinos De Fresnillo
-    away: Freseros de Irapuato
-  score:
-    home: 87
-    away: 84
-  status: result
-  time: 02:00
-- id: 72154688
-  teams:
-    home: Lobos Plateados de la Buap
-    away: Fuerza Regia
-  score:
-    home: 90
-    away: 91
-  status: result
-  time: 02:00
-- id: 72154692
-  teams:
-    home: Santos de San Luis
-    away: Dorados de Chihuahua
-  score:
-    home: 94
-    away: 102
-  status: result
-  time: 02:00
-- id: 72154694
-  teams:
-    home: Mineros de Zacatecas
-    away: Panteras
-  score:
-    home: 98
-    away: 78
-  status: result
-  time: 02:05
-- id: 68096414
-  teams:
-    home: Dallas
-    away: Portland Fire
-  score:
-    home: 96
-    away: 78
-  status: result
   time: 00:00
-- id: 68096342
+- id: 74054390
   teams:
-    home: Phoenix
-    away: Washington
+    home: Steffan, Jan
+    away: Horak, David
   score:
-    home: 84
-    away: 94
-  status: result
-  time: 02:00
-tennis: []
-ice_hockey:
-- id: 74078776
-  teams:
-    home: Chelyabinsk
-    away: HC Yugra
-  score:
-    home: 4
-    away: 5
-  status: result
-  time: 09:00
-- id: 73843010
-  teams:
-    home: Lok Yaroslavl
-    away: Neftekhimik
-  score:
-    home: 4
-    away: 2
-  status: result
-  time: 09:00
-- id: 73588822
-  teams:
-    home: Amur Khabarovsk
-    away: Lada Togliatti
-  score:
-    home: 1
+    home: 2
     away: 3
-  status: result
-  time: '10:00'
-- id: 73377766
+  status: recentlyended
+  time: 00:00
+- id: 74054452
   teams:
-    home: Neftekamsk
-    away: Gornyak Uchaly
-  score:
-    home: 6
-    away: 3
-  status: result
-  time: '10:00'
-- id: 73588842
-  teams:
-    home: Neftjanik
-    away: HC Magnitka Magnitogorsk
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '10:00'
-- id: 73843012
-  teams:
-    home: Avangard Omsk
-    away: HC Sibir
-  score:
-    home: 2
-    away: 5
-  status: result
-  time: '13:30'
-- id: 73588860
-  teams:
-    home: Zauralye
-    away: R. Tyumen
-  score:
-    home: 1
-    away: 2
-  status: result
-  time: '13:30'
-- id: 73588808
-  teams:
-    home: Magnitogorsk
-    away: Traktor Chelyabinsk
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '14:00'
-- id: 73242494
-  teams:
-    home: Trinec
-    away: Kometa
-  score:
-    home: 5
-    away: 1
-  status: result
-  time: '14:00'
-- id: 73271478
-  teams:
-    home: Ilves
-    away: Karpat
-  score:
-    home: 2
-    away: 0
-  status: result
-  time: '15:00'
-- id: 73377768
-  teams:
-    home: Omskie Kryliya
-    away: Metallurg
-  score:
-    home: 2
-    away: 1
-  status: result
-  time: '16:00'
-- id: 73585340
-  teams:
-    home: Kalmar HC
-    away: Tingsryd
-  score:
-    home: 6
-    away: 1
-  status: result
-  time: '17:00'
-table_tennis:
-- id: 74016286
-  teams:
-    home: Bartunek, Radek
-    away: Andrle, Tomas
+    home: Kucirek, Ondrej
+    away: Holovatiuk, Yurii
   score:
     home: 0
-    away: 3
-  status: result
-  time: 00:00
-- id: 74016416
-  teams:
-    home: Hejduk, Alexander
-    away: Kucera, Tomas
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:00
-- id: 74017188
-  teams:
-    home: Trefny, Jan
-    away: Plachy, Jiri
-  score:
-    home: 3
     away: 0
-  status: result
-  time: 00:00
-- id: 74016454
-  teams:
-    home: Grohsgott, Jiri
-    away: Martinek, Jaroslav
-  score:
-    home: 3
-    away: 2
-  status: result
+  status: live
   time: 00:30
-- id: 74017180
+- id: 74053074
   teams:
-    home: Prokupek, Jaroslav
-    away: Vedmoch, Michal
+    home: Regner, Michal
+    away: Cermak, Vladimir
   score:
-    home: 3
+    home: 0
     away: 0
-  status: result
+  status: live
+  time: 00:30
+- id: 74053342
+  teams:
+    home: Syroha, Michal
+    away: Pleskot, Jan
+  score:
+    home: 0
+    away: 0
+  status: live
   time: 00:30
