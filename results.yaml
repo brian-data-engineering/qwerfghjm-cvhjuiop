@@ -1,6 +1,33 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 74072278
+  teams:
+    home: Dongbu Promy
+    away: Phoebus
+  score:
+    home: 90
+    away: 85
+  status: result
+  time: 07:00
+tennis:
+- id: 73960596
+  teams:
+    home: Mensik J / Muchova K
+    away: Rublev A / Andreeva M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:40
+- id: 73960598
+  teams:
+    home: Cobolli F / Bencic B
+    away: Mensik J / Muchova K
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 02:35
 ice_hockey: []
 table_tennis:
 - id: 74053030
@@ -10,7 +37,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 74053274
   teams:
@@ -19,7 +46,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 74054390
   teams:
@@ -28,16 +55,16 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 74054452
   teams:
     home: Kucirek, Ondrej
     away: Holovatiuk, Yurii
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 00:30
 - id: 74053074
   teams:
@@ -45,8 +72,8 @@ table_tennis:
     away: Cermak, Vladimir
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 00:30
 - id: 74053342
   teams:
@@ -54,6 +81,123 @@ table_tennis:
     away: Pleskot, Jan
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 00:30
+- id: 74054492
+  teams:
+    home: Horak, David
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 74053312
+  teams:
+    home: Mazanek, Stanislav
+    away: Priesol, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 74053020
+  teams:
+    home: Sobisek, Martin
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 74053072
+  teams:
+    home: Cermak, Vladimir
+    away: Hradecky, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74054450
+  teams:
+    home: Holovatiuk, Yurii
+    away: Steffan, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74053288
+  teams:
+    home: Pleskot, Jan
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74054454
+  teams:
+    home: Horak, David
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74053354
+  teams:
+    home: Mazanek, Stanislav
+    away: Syroha, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74053060
+  teams:
+    home: Sobisek, Martin
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74053036
+  teams:
+    home: Hradecky, Jakub
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 74053350
+  teams:
+    home: Kosar, Vaclav
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 74054368
+  teams:
+    home: Steffan, Jan
+    away: Briza, Frantisek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 74089936
+  teams:
+    home: Byrtus, Samuel
+    away: Cabak, Josef
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
