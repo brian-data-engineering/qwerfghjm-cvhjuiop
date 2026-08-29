@@ -14,20 +14,110 @@ basketball:
     home: Legnano
     away: Pavia
   score:
-    home: 61
-    away: 41
-  status: live
+    home: 89
+    away: 62
+  status: result
   time: '16:30'
 - id: 74103858
   teams:
     home: Astrostars Bochum
     away: EPG Baskets Koblenz
   score:
-    home: 44
-    away: 46
-  status: live
+    home: 88
+    away: 96
+  status: result
   time: '17:00'
-tennis: []
+- id: 74036832
+  teams:
+    home: Chocolates Trapa
+    away: Coruna
+  score:
+    home: 91
+    away: 93
+  status: live
+  time: '18:30'
+- id: 72641724
+  teams:
+    home: Ivory Coast
+    away: Egypt
+  score:
+    home: 72
+    away: 66
+  status: result
+  time: '12:30'
+- id: 72641728
+  teams:
+    home: Congo Dem. Rep.
+    away: Mali
+  score:
+    home: 74
+    away: 101
+  status: result
+  time: '15:30'
+- id: 73048386
+  teams:
+    home: Senegal
+    away: Angola
+  score:
+    home: 81
+    away: 82
+  status: live
+  time: '18:30'
+- id: 72154696
+  teams:
+    home: Panteras
+    away: Correcaminos
+  score:
+    home: 111
+    away: 78
+  status: result
+  time: 02:30
+tennis:
+- id: 73853074
+  teams:
+    home: Fery, Arthur
+    away: Buse, Ignacio
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
+- id: 73853112
+  teams:
+    home: Miedler L / Polmans M
+    away: Nouza P / Oberleitner N
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 00:40
+- id: 73853114
+  teams:
+    home: Krajicek A / Mektic N
+    away: Nouza P / Oberleitner N
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:30'
+- id: 73862822
+  teams:
+    home: Mena, Facundo
+    away: Cretu, Cezar
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 73862886
+  teams:
+    home: Recek D / Siniakov D
+    away: La Serna J M / Ribeiro E
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:00
 ice_hockey:
 - id: 73588828
   teams:
@@ -107,8 +197,8 @@ ice_hockey:
     away: Davos
   score:
     home: 1
-    away: 2
-  status: live
+    away: 4
+  status: result
   time: '16:00'
 - id: 73242514
   teams:
@@ -116,27 +206,36 @@ ice_hockey:
     away: Slovan Bratislava
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '16:00'
 - id: 74150776
   teams:
     home: Spartak Moscow
     away: Bars Kazan
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '16:30'
 - id: 73588896
   teams:
     home: Poprad
     away: HC 19 Humenne
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 4
+    away: 2
+  status: result
   time: '17:00'
+- id: 73762044
+  teams:
+    home: HC Panter
+    away: Riga
+  score:
+    home: 6
+    away: 2
+  status: recentlyended
+  time: '18:00'
 table_tennis:
 - id: 74115704
   teams:
