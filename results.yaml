@@ -32,9 +32,9 @@ basketball:
     home: Chocolates Trapa
     away: Coruna
   score:
-    home: 91
-    away: 93
-  status: live
+    home: 102
+    away: 104
+  status: result
   time: '18:30'
 - id: 72641724
   teams:
@@ -59,9 +59,9 @@ basketball:
     home: Senegal
     away: Angola
   score:
-    home: 81
+    home: 84
     away: 82
-  status: live
+  status: result
   time: '18:30'
 - id: 72154696
   teams:
@@ -72,6 +72,15 @@ basketball:
     away: 78
   status: result
   time: 02:30
+- id: 72154698
+  teams:
+    home: Fuerza Regia
+    away: Abejas
+  score:
+    home: 36
+    away: 30
+  status: live
+  time: '22:15'
 tennis:
 - id: 73853074
   teams:
@@ -79,8 +88,8 @@ tennis:
     away: Buse, Ignacio
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '20:00'
 - id: 73853112
   teams:
@@ -234,7 +243,7 @@ ice_hockey:
   score:
     home: 6
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 table_tennis:
 - id: 74115704
