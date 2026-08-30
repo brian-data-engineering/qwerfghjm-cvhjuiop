@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: 00:30
 - id: 73265230
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: 00:30
 basketball: []
 tennis: []
@@ -82,7 +82,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74139160
   teams:
@@ -91,7 +91,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74140076
   teams:
@@ -100,5 +100,230 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 74139166
+  teams:
+    home: Mutl, David
+    away: Pelikan, Josef
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74140090
+  teams:
+    home: Plachy, Jiri
+    away: Krejci, Richard
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74140144
+  teams:
+    home: Sulava, Lubor
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 74140070
+  teams:
+    home: Berdych, Pavel
+    away: Pleskot, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 74139158
+  teams:
+    home: Grohsgott, Jiri
+    away: Stach, Vojtech
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 74140178
+  teams:
+    home: Vedmoch, Michal
+    away: Pavelka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74140212
+  teams:
+    home: Krejci, Richard
+    away: Postelt, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74139188
+  teams:
+    home: Pelikan, Josef
+    away: Havrda, Leos
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 74140104
+  teams:
+    home: Priesol, Daniel
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 74135444
+  teams:
+    home: Fomin, Andriej
+    away: Kubiak, Artur
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:00
+- id: 74135446
+  teams:
+    home: Chmielowski, Jakub
+    away: Jendrzejewski, Patryk
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:10
+- id: 74135450
+  teams:
+    home: Janus Slawomir
+    away: Mucha, Grzegorz
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:10
+- id: 74135448
+  teams:
+    home: Stapor Rafal
+    away: Misiak, Mateusz
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:10
+- id: 74135452
+  teams:
+    home: Juszczyk, Krzysztof
+    away: Wiza, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:20
+- id: 74135454
+  teams:
+    home: Kocik, Tomasz
+    away: Skorupa, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:25
+- id: 74135456
+  teams:
+    home: Brud, Szymon
+    away: Mlynarski, Filip
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:35
+- id: 74135460
+  teams:
+    home: Gesiarz, Piotr
+    away: Michalik, Jerzy
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:35
+- id: 74135458
+  teams:
+    home: Myszewski, Adrian
+    away: Kufel, Karol
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:35
+- id: 74135462
+  teams:
+    home: Pawlik, Cezary
+    away: Kubiak, Artur
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:45
+- id: 74135464
+  teams:
+    home: Polok, Pawel
+    away: Sawicki, Grzegorz
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:45
+- id: 74135466
+  teams:
+    home: Oracz, Jacek
+    away: Janus Slawomir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 74135468
+  teams:
+    home: Fomin, Andriej
+    away: Kocik, Tomasz
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:10
+- id: 74135470
+  teams:
+    home: Wiza, Roman
+    away: Michalski, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:10
+- id: 74135472
+  teams:
+    home: Mucha, Grzegorz
+    away: Malcher, Krzysztof
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:25
+- id: 74135474
+  teams:
+    home: Juszczyk, Krzysztof
+    away: Nowak, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
