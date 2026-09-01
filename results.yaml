@@ -33,7 +33,7 @@ soccer:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 72630700
   teams:
@@ -44,6 +44,15 @@ soccer:
     away: 0
   status: result
   time: '16:30'
+- id: 72630692
+  teams:
+    home: HSK Zrinjski Mostar
+    away: FK BSK Banja Luka
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:45'
 basketball:
 - id: 74151596
   teams:
@@ -98,17 +107,17 @@ ice_hockey:
     away: Rungsted
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '17:00'
 - id: 73350324
   teams:
     home: Frederikshavn
     away: Rodovre
   score:
-    home: 4
+    home: 5
     away: 1
-  status: live
+  status: result
   time: '17:30'
 - id: 72116156
   teams:
@@ -268,9 +277,9 @@ ice_hockey:
     home: Biasca
     away: GCK Lions
   score:
-    home: 0
-    away: 4
-  status: live
+    home: 2
+    away: 6
+  status: result
   time: '18:15'
 table_tennis:
 - id: 74243034
