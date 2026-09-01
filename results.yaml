@@ -1,6 +1,42 @@
-soccer: []
+soccer:
+- id: 73265252
+  teams:
+    home: CA Tigre
+    away: Barracas Central
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: 00:15
+- id: 73265228
+  teams:
+    home: Instituto AC Cordoba
+    away: CA San Lorenzo Almagro
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 00:15
+- id: 74066046
+  teams:
+    home: Gimnasia Jujuy
+    away: Agropecuario Argentino
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:00
 basketball: []
-tennis: []
+tennis:
+- id: 74124742
+  teams:
+    home: Damm Jr, Martin
+    away: Tiafoe, Frances
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
 ice_hockey: []
 table_tennis:
 - id: 74243034
@@ -19,5 +55,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
