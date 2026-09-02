@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73842852
+  teams:
+    home: Cukier Torun
+    away: Norrkoping
+  score:
+    home: 44
+    away: 41
+  status: live
+  time: '16:00'
 tennis:
 - id: 74124796
   teams:
@@ -10,7 +19,106 @@ tennis:
     away: 2
   status: result
   time: 01:00
-ice_hockey: []
+- id: 73992398
+  teams:
+    home: Medvedev, Daniil
+    away: Gorzny, Sebastian
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:00'
+- id: 73992360
+  teams:
+    home: Merida, Daniel
+    away: Rublev, Andrey
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73992400
+  teams:
+    home: Munar, Jaume
+    away: Rinderknech, Arthur
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 73992358
+  teams:
+    home: Nakashima, Brandon
+    away: Michelsen, Alex
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '15:00'
+- id: 74124776
+  teams:
+    home: Choinski, Jan
+    away: Van de Zandschulp, Botic
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:40'
+- id: 74124770
+  teams:
+    home: Molcan, Alex
+    away: Bonzi, Benjamin
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:40'
+- id: 74124782
+  teams:
+    home: Svajda, Zachary
+    away: Altmaier, Daniel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:40'
+- id: 74124768
+  teams:
+    home: Giron, Marcos
+    away: Buse, Ignacio
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:45'
+ice_hockey:
+- id: 73350326
+  teams:
+    home: Esbjerg
+    away: Herlev
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
+- id: 73843124
+  teams:
+    home: Frydek Mistek
+    away: Vsetin
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:00'
+- id: 73843128
+  teams:
+    home: BW Linz
+    away: Villach
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:30'
 table_tennis:
 - id: 74223094
   teams:
