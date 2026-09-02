@@ -5,9 +5,9 @@ basketball:
     home: Cukier Torun
     away: Norrkoping
   score:
-    home: 44
-    away: 41
-  status: live
+    home: 73
+    away: 89
+  status: result
   time: '16:00'
 tennis:
 - id: 74124796
@@ -24,18 +24,18 @@ tennis:
     home: Medvedev, Daniil
     away: Gorzny, Sebastian
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '15:00'
 - id: 73992360
   teams:
     home: Merida, Daniel
     away: Rublev, Andrey
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 73992400
   teams:
@@ -43,8 +43,8 @@ tennis:
     away: Rinderknech, Arthur
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 73992358
   teams:
@@ -52,8 +52,8 @@ tennis:
     away: Michelsen, Alex
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 74124776
   teams:
@@ -61,25 +61,25 @@ tennis:
     away: Van de Zandschulp, Botic
   score:
     home: 0
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: '16:40'
 - id: 74124770
   teams:
     home: Molcan, Alex
     away: Bonzi, Benjamin
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '16:40'
 - id: 74124782
   teams:
     home: Svajda, Zachary
     away: Altmaier, Daniel
   score:
-    home: 0
-    away: 0
+    home: 2
+    away: 1
   status: live
   time: '16:40'
 - id: 74124768
@@ -87,19 +87,73 @@ tennis:
     home: Giron, Marcos
     away: Buse, Ignacio
   score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:45'
+- id: 73992350
+  teams:
+    home: Shelton, Ben
+    away: Hurkacz, Hubert
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:10'
+- id: 73992362
+  teams:
+    home: Etcheverry, Tomas Martin
+    away: Fearnley, Jacob
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:20'
+- id: 74267154
+  teams:
+    home: Jodar, Rafael
+    away: Bu, Yunchaokete
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '17:20'
+- id: 74124778
+  teams:
+    home: Bergs, Zizou
+    away: Taberner, Carlos
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:50'
+- id: 74150362
+  teams:
+    home: Guerrieri, Andrea
+    away: de Minaur, Alex
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:10'
+- id: 74124784
+  teams:
+    home: Marozsan, Fabian
+    away: Zheng, Michael
+  score:
     home: 0
     away: 0
   status: live
-  time: '16:45'
+  time: '18:30'
 ice_hockey:
 - id: 73350326
   teams:
     home: Esbjerg
     away: Herlev
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 73843124
   teams:
@@ -107,18 +161,27 @@ ice_hockey:
     away: Vsetin
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 73843128
   teams:
     home: BW Linz
     away: Villach
   score:
-    home: 0
+    home: 4
     away: 0
-  status: live
+  status: result
   time: '16:30'
+- id: 73999650
+  teams:
+    home: Tranaas
+    away: Vita Hasten
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '17:00'
 table_tennis:
 - id: 74223094
   teams:
