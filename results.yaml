@@ -78,36 +78,36 @@ tennis:
     home: Svajda, Zachary
     away: Altmaier, Daniel
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '16:40'
 - id: 74124768
   teams:
     home: Giron, Marcos
     away: Buse, Ignacio
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: recentlyended
   time: '16:45'
 - id: 73992350
   teams:
     home: Shelton, Ben
     away: Hurkacz, Hubert
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '17:10'
 - id: 73992362
   teams:
     home: Etcheverry, Tomas Martin
     away: Fearnley, Jacob
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: recentlyended
   time: '17:20'
 - id: 74267154
   teams:
@@ -115,8 +115,8 @@ tennis:
     away: Bu, Yunchaokete
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '17:20'
 - id: 74124778
   teams:
@@ -133,8 +133,8 @@ tennis:
     away: de Minaur, Alex
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '18:10'
 - id: 74124784
   teams:
@@ -142,9 +142,45 @@ tennis:
     away: Zheng, Michael
   score:
     home: 0
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 73992352
+  teams:
+    home: Shapovalov, Denis
+    away: Van Assche, Luca
+  score:
+    home: 2
     away: 0
   status: live
-  time: '18:30'
+  time: '20:45'
+- id: 73992356
+  teams:
+    home: Harris, Lloyd
+    away: Tsitsipas, Stefanos
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '21:20'
+- id: 74150364
+  teams:
+    home: De Jong, Jesper
+    away: Passaro, Francesco
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '21:30'
+- id: 73992354
+  teams:
+    home: Lehecka, Jiri
+    away: Samuel, Toby
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:05'
 ice_hockey:
 - id: 73350326
   teams:
