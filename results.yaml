@@ -107,7 +107,7 @@ tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:20'
 - id: 73992386
   teams:
@@ -116,7 +116,7 @@ tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:25'
 - id: 73992432
   teams:
@@ -124,8 +124,8 @@ tennis:
     away: Tabilo, Alejandro
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '18:40'
 - id: 73992412
   teams:
@@ -133,27 +133,63 @@ tennis:
     away: Cobolli, Flavio
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:55'
 - id: 73992410
   teams:
     home: Blockx, Alexander
     away: Trungelliti, Marco
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '19:20'
 - id: 73992384
   teams:
     home: Bonzi, Benjamin
     away: Buse, Ignacio
   score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '20:55'
+- id: 73992396
+  teams:
+    home: Van de Zandschulp, Botic
+    away: de Minaur, Alex
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:05'
+- id: 73992394
+  teams:
+    home: Bergs, Zizou
+    away: De Jong, Jesper
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:15'
+- id: 73992392
+  teams:
+    home: Svajda, Zachary
+    away: Gea, Arthur
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:30'
+- id: 73992388
+  teams:
+    home: Monfils, Gael
+    away: Tien, Learner
+  score:
     home: 0
     away: 0
   status: live
-  time: '20:55'
+  time: '23:05'
 ice_hockey:
 - id: 73241734
   teams:
