@@ -6,9 +6,9 @@ tennis:
     home: Faria, Jaime
     away: Alcaraz, Carlos
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 00:30
 ice_hockey: []
 table_tennis:
@@ -46,7 +46,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74259882
   teams:
@@ -55,7 +55,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74259962
   teams:
@@ -64,5 +64,113 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
+- id: 74260104
+  teams:
+    home: Bruzek, Petr
+    away: Didi, Julius
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 74260026
+  teams:
+    home: Mazanek, Stanislav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 74260106
+  teams:
+    home: Varcl Jr, Jan
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 74260112
+  teams:
+    home: Dolezal, Vaclav
+    away: Vitrovyj, Oleg
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74259936
+  teams:
+    home: Kulhanek, Pavel
+    away: Framberk, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 74260086
+  teams:
+    home: Mikuska, Alexander
+    away: Fojt, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74259858
+  teams:
+    home: Bruzek, Petr
+    away: Hasmanda, Rostislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74259886
+  teams:
+    home: Mazanek, Stanislav
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 74260024
+  teams:
+    home: Varcl Jr, Jan
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 74260032
+  teams:
+    home: Fojt, Pavel
+    away: Parhomenko, Dmitro
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 74259852
+  teams:
+    home: Framberk, Jan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 74260074
+  teams:
+    home: Vitrovyj, Oleg
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
