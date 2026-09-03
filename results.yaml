@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 74288256
+  teams:
+    home: Fenerbahce Gelisim
+    away: Goztepe SK
+  score:
+    home: 67
+    away: 80
+  status: result
+  time: '11:00'
 tennis:
 - id: 73992380
   teams:
@@ -460,5 +469,5 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '10:00'
