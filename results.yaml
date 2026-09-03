@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 74122546
+  teams:
+    home: ES Setif
+    away: Ben Aknoun
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '18:00'
 basketball:
 - id: 74288256
   teams:
@@ -16,8 +25,35 @@ basketball:
   score:
     home: 76
     away: 97
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 74036834
+  teams:
+    home: Zamora
+    away: Chocolates Trapa
+  score:
+    home: 74
+    away: 64
+  status: result
+  time: '18:00'
+- id: 73904488
+  teams:
+    home: Joventut
+    away: Basquet Manresa
+  score:
+    home: 78
+    away: 84
+  status: result
+  time: '18:30'
+- id: 73904486
+  teams:
+    home: Rinascita Basket Rimini
+    away: Bologna
+  score:
+    home: 79
+    away: 83
+  status: result
+  time: '18:30'
 tennis:
 - id: 73992380
   teams:
@@ -33,9 +69,9 @@ tennis:
     home: Darderi, Luciano
     away: Svrcina, Dalibor
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 73992408
   teams:
@@ -43,8 +79,8 @@ tennis:
     away: Cerundolo, Francisco
   score:
     home: 2
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '15:00'
 - id: 73992382
   teams:
@@ -52,18 +88,72 @@ tennis:
     away: Khachanov, Karen
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '15:05'
 - id: 73992406
   teams:
     home: Fritz, Taylor
     away: Bellucci, Mattia
   score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:10'
+- id: 73992436
+  teams:
+    home: Sweeny, Dane
+    away: Musetti, Lorenzo
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:20'
+- id: 73992386
+  teams:
+    home: Mensik, Jakub
+    away: Rodionov, Jurij
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '18:25'
+- id: 73992432
+  teams:
+    home: Popyrin, Alexei
+    away: Tabilo, Alejandro
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:40'
+- id: 73992412
+  teams:
+    home: Schoolkate, Tristan
+    away: Cobolli, Flavio
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:55'
+- id: 73992410
+  teams:
+    home: Blockx, Alexander
+    away: Trungelliti, Marco
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:20'
+- id: 73992384
+  teams:
+    home: Bonzi, Benjamin
+    away: Buse, Ignacio
+  score:
     home: 0
     away: 0
   status: live
-  time: '18:10'
+  time: '20:55'
 ice_hockey:
 - id: 73241734
   teams:
@@ -81,7 +171,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73242710
   teams:
@@ -117,7 +207,7 @@ ice_hockey:
   score:
     home: 3
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73904484
   teams:
@@ -135,7 +225,7 @@ ice_hockey:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74205904
   teams:
@@ -144,7 +234,7 @@ ice_hockey:
   score:
     home: 7
     away: 5
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73241764
   teams:
@@ -153,7 +243,7 @@ ice_hockey:
   score:
     home: 2
     away: 5
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74201906
   teams:
@@ -161,17 +251,17 @@ ice_hockey:
     away: Stavanger
   score:
     home: 1
-    away: 4
-  status: live
+    away: 6
+  status: result
   time: '16:30'
 - id: 74111908
   teams:
     home: Zurich Lions
     away: Villingen-Schwenning
   score:
-    home: 3
+    home: 5
     away: 2
-  status: live
+  status: result
   time: '17:00'
 - id: 72067392
   teams:
@@ -189,7 +279,7 @@ ice_hockey:
   score:
     home: 6
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72067394
   teams:
@@ -198,34 +288,34 @@ ice_hockey:
   score:
     home: 6
     away: 0
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72067396
   teams:
     home: Graz 99ers
     away: Fribourg Gotteron
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 4
+  status: result
   time: '16:30'
 - id: 72067398
   teams:
     home: Klagenfurt
     away: Bordeaux
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:15'
 - id: 72067400
   teams:
     home: Salzburg
     away: Cologne
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 5
+  status: result
   time: '17:15'
 table_tennis:
 - id: 74259952
