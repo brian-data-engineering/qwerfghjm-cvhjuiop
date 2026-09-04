@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 73992430
+  teams:
+    home: Zverev, Alexander
+    away: Halys, Quentin
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 01:40
 ice_hockey: []
 table_tennis:
 - id: 74287952
@@ -37,7 +46,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74286702
   teams:
@@ -46,7 +55,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74288070
   teams:
@@ -63,8 +72,8 @@ table_tennis:
     away: Vedmoch, Michal
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 74286646
   teams:
@@ -72,8 +81,8 @@ table_tennis:
     away: Vaclavik, Miroslav
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:00
 - id: 74286682
   teams:
@@ -81,6 +90,186 @@ table_tennis:
     away: Wagner, Mark Robin
   score:
     home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 74286614
+  teams:
+    home: Franek, Tomas
+    away: Simecek, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 74286578
+  teams:
+    home: Grohsgott, Jiri
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 74288054
+  teams:
+    home: Trefny, Jan
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 74287988
+  teams:
+    home: Plachy, Jiri
+    away: Prokupek, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74286610
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Cernik, Jaromir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74286662
+  teams:
+    home: Sychra, Martin
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 74288068
+  teams:
+    home: Dedek, Jiri
+    away: Vedmoch, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 74286700
+  teams:
+    home: Hejduk, Alexander
+    away: Vaclavik, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 74286666
+  teams:
+    home: Simecek, Jan
+    away: Wagner, Mark Robin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 74327458
+  teams:
+    home: Dedek, Jiri
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 74327642
+  teams:
+    home: Franek, Tomas
+    away: Klement, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 74327738
+  teams:
+    home: Hejduk, Alexander
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:06
+- id: 74327740
+  teams:
+    home: Grohsgott, Jiri
+    away: Vaclavik, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
+- id: 74327644
+  teams:
+    home: Simecek, Jan
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 74327460
+  teams:
+    home: Trefny, Jan
+    away: Vedmoch, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 74313402
+  teams:
+    home: Chalupnicek, Milan
+    away: Svec, Jiri
+  score:
+    home: 1
     away: 2
   status: live
-  time: 01:00
+  time: 06:00
+- id: 74313386
+  teams:
+    home: Heczko, Marcel
+    away: Rinka, Alfred
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 06:00
+- id: 74312480
+  teams:
+    home: Kasnik, Sebastian
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 06:00
+- id: 74313376
+  teams:
+    home: Polasek, Radovan
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 74313176
+  teams:
+    home: Stolfa, Jakub
+    away: Regner, Michal
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:00
