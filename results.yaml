@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 74136180
+  teams:
+    home: USM Khenchela
+    away: USM Alger
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '16:00'
 basketball:
 - id: 71036214
   teams:
@@ -9,6 +18,24 @@ basketball:
     away: 97
   status: result
   time: 09:30
+- id: 71036216
+  teams:
+    home: Spain
+    away: Germany
+  score:
+    home: 83
+    away: 53
+  status: result
+  time: '15:45'
+- id: 71036274
+  teams:
+    home: Republic of Korea
+    away: Nigeria
+  score:
+    home: 99
+    away: 81
+  status: result
+  time: '12:30'
 tennis:
 - id: 73992430
   teams:
@@ -19,7 +46,169 @@ tennis:
     away: 2
   status: result
   time: 01:40
-ice_hockey: []
+- id: 73992444
+  teams:
+    home: Medvedev, Daniil
+    away: Rinderknech, Arthur
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:45'
+- id: 73992472
+  teams:
+    home: Bublik, Alexander
+    away: Paul, Tommy
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:55'
+- id: 73992474
+  teams:
+    home: Wu, Yibing
+    away: Alcaraz, Carlos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:15'
+ice_hockey:
+- id: 72116172
+  teams:
+    home: KalPa
+    away: Jukurit
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72116174
+  teams:
+    home: Pelicans
+    away: Vaasan
+  score:
+    home: 6
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72116176
+  teams:
+    home: Assat
+    away: Ilves
+  score:
+    home: 5
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 72116170
+  teams:
+    home: HIFK
+    away: HPK
+  score:
+    home: 4
+    away: 3
+  status: live
+  time: '16:30'
+- id: 74325852
+  teams:
+    home: Yunost
+    away: Mogilev
+  score:
+    home: 6
+    away: 4
+  status: result
+  time: '10:00'
+- id: 74205926
+  teams:
+    home: Presov 07
+    away: Katowice
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '12:00'
+- id: 74205942
+  teams:
+    home: Spisska NV
+    away: Miskolci
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: '15:30'
+- id: 74206092
+  teams:
+    home: Frisk/Asker
+    away: Stavanger
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '16:00'
+- id: 73586284
+  teams:
+    home: Valerenga
+    away: Farjestad
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72067402
+  teams:
+    home: Nitra
+    away: Skelleftea
+  score:
+    home: 1
+    away: 6
+  status: result
+  time: '16:00'
+- id: 72067406
+  teams:
+    home: Frolunda
+    away: SaiPa
+  score:
+    home: 5
+    away: 1
+  status: live
+  time: '17:00'
+- id: 72067404
+  teams:
+    home: Herning
+    away: KooKoo
+  score:
+    home: 1
+    away: 5
+  status: live
+  time: '17:00'
+- id: 72067408
+  teams:
+    home: Mannheim
+    away: Vaxjo
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:30'
+- id: 72067410
+  teams:
+    home: Davos
+    away: Storhamar
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '17:45'
+- id: 72067412
+  teams:
+    home: Geneva Servette
+    away: Berlin
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:45'
 table_tennis:
 - id: 74287952
   teams:
@@ -3099,6 +3288,24 @@ table_tennis:
     away: 3
   status: result
   time: '13:50'
+- id: 74317330
+  teams:
+    home: Szlubowski, Dariusz
+    away: Strus, Piotr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:50'
+- id: 74317356
+  teams:
+    home: Szurgot, Andrzej
+    away: Baron, Mariusz
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:55'
 - id: 74318980
   teams:
     home: Karlsson K / Karlsson M
