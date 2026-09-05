@@ -132,28 +132,118 @@ tennis:
     home: Darderi, Luciano
     away: Sweeny, Dane
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 73992452
   teams:
     home: Khachanov, Karen
     away: Bonzi, Benjamin
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:05'
 - id: 73992370
   teams:
     home: Zheng, Michael
     away: Gea, Arthur
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '20:45'
+- id: 73992372
+  teams:
+    home: Bergs, Zizou
+    away: Van de Zandschulp, Botic
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '21:40'
+- id: 74301676
+  teams:
+    home: Demoliner M / Ho R
+    away: Lammons N / Withrow J
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:00'
+- id: 74301618
+  teams:
+    home: Jebens H / Reyes-Varela M A
+    away: Granollers M / Zeballos H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 74301658
+  teams:
+    home: Pieczonka F / Stevens B
+    away: Krajicek A / Mektic N
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 74301660
+  teams:
+    home: Seggerman R / Trhac P
+    away: Bhambri Y / Venus M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:10'
+- id: 74301668
+  teams:
+    home: Bublik A / Shang J
+    away: Baez S / Marozsan F
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:30'
+- id: 74301654
+  teams:
+    home: Alvarez Y / Johnston N
+    away: Schnaitter J / Wallner M
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:05'
+- id: 74301650
+  teams:
+    home: Reymond A / Sanchez L
+    away: Harrison C / Skupski N
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:30'
+- id: 74301666
+  teams:
+    home: Reynolds F / Watt J
+    away: Andreozzi G / Guinard M
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:35'
+- id: 74301656
+  teams:
+    home: Doumbia S / Reboul F
+    away: Stevenson D / Willis M
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:45'
 ice_hockey:
 - id: 72116178
   teams:
@@ -205,9 +295,9 @@ ice_hockey:
     home: Saginaw
     away: Erie
   score:
-    home: 2
-    away: 2
-  status: live
+    home: 4
+    away: 6
+  status: recentlyended
   time: '20:00'
 - id: 72067414
   teams:
@@ -1747,7 +1837,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 74338938
   teams:
@@ -1756,7 +1846,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 74339018
   teams:
@@ -1765,7 +1855,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 74339088
   teams:
@@ -1774,7 +1864,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 74339098
   teams:
@@ -1783,5 +1873,113 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:30'
+- id: 74375776
+  teams:
+    home: Hofman, Denis
+    away: Schopf, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '21:00'
+- id: 74375780
+  teams:
+    home: Holovatiuk, Yurii
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '21:00'
+- id: 74375788
+  teams:
+    home: Jasek, Milan
+    away: Stach, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '21:00'
+- id: 74375760
+  teams:
+    home: Mecl Jr, Jan
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:00'
+- id: 74375808
+  teams:
+    home: Blejchar, Marek
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '21:06'
+- id: 74375810
+  teams:
+    home: Cerny, Vojtech
+    away: Guliak, Roman
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '21:30'
+- id: 74375782
+  teams:
+    home: Plachy, Jiri
+    away: Krok, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '21:30'
+- id: 74375790
+  teams:
+    home: Taichman, Ivo
+    away: Kraninger, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '21:30'
+- id: 74375778
+  teams:
+    home: Wagner, Richard
+    away: Pacha, Robin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:30'
+- id: 74375762
+  teams:
+    home: Zahradka, Michal
+    away: Kanera, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:30'
+- id: 74339898
+  teams:
+    home: Berdych, Pavel
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '22:00'
+- id: 74348572
+  teams:
+    home: Holovatiuk, Yurii
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
