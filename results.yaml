@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 73992468
+  teams:
+    home: Shelton, Ben
+    away: Shapovalov, Denis
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 02:45
 ice_hockey: []
 table_tennis:
 - id: 74313366
@@ -46,7 +55,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74313168
   teams:
@@ -64,16 +73,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74313384
   teams:
     home: Krejci, Richard
     away: Kouble, Daniel
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 01:00
 - id: 74313218
   teams:
@@ -82,5 +91,131 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 74313220
+  teams:
+    home: Horak, David
+    away: Holovatiuk, Yurii
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74313322
+  teams:
+    home: Janata, Tomas
+    away: Kadavy, Simon
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74313392
+  teams:
+    home: Stefek, Martin
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74313200
+  teams:
+    home: Darin, Kyryl
+    away: Bartunek, Radek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 74313296
+  teams:
+    home: Krejci, Richard
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 74313172
+  teams:
+    home: Svoboda, Adam
+    away: Urban, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74313226
+  teams:
+    home: Dolezal, Vaclav
+    away: Kucirek, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 74313408
+  teams:
+    home: Holovatiuk, Yurii
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74313198
+  teams:
+    home: Kadavy, Simon
+    away: Kouble, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74338922
+  teams:
+    home: Drabek, Zbynek
+    away: Chalupnicek, Milan
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
+- id: 74338958
+  teams:
+    home: Holik, Tomas
+    away: Svoboda, Jan
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 06:00
+- id: 74339046
+  teams:
+    home: Martinak, Lukas
+    away: Walek, Adrian
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 06:00
+- id: 74338970
+  teams:
+    home: Nohejl, Vaclav (2005)
+    away: Vejvoda, Viktor
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
+- id: 74339002
+  teams:
+    home: Vavrecka, Michal
+    away: Wawrosz, Pavel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 06:00
