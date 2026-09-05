@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 74136190
+  teams:
+    home: CR Temouchent
+    away: CS Constantine
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:00'
 basketball:
 - id: 71036220
   teams:
@@ -14,9 +23,9 @@ basketball:
     home: Germany
     away: Japan
   score:
-    home: 34
-    away: 27
-  status: live
+    home: 74
+    away: 58
+  status: result
   time: '16:00'
 - id: 71036276
   teams:
@@ -42,10 +51,19 @@ tennis:
     home: Fritz, Taylor
     away: Cerundolo, Francisco
   score:
-    home: 1
-    away: 0
+    home: 2
+    away: 2
   status: live
   time: '15:30'
+- id: 73992458
+  teams:
+    home: Blockx, Alexander
+    away: Cobolli, Flavio
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:05'
 ice_hockey:
 - id: 72116178
   teams:
@@ -54,7 +72,7 @@ ice_hockey:
   score:
     home: 4
     away: 0
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72116182
   teams:
@@ -63,7 +81,7 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72116180
   teams:
@@ -72,7 +90,7 @@ ice_hockey:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72116184
   teams:
@@ -81,7 +99,7 @@ ice_hockey:
   score:
     home: 7
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 72116186
   teams:
@@ -90,7 +108,7 @@ ice_hockey:
   score:
     home: 5
     away: 1
-  status: live
+  status: result
   time: '14:00'
 table_tennis:
 - id: 74313366
@@ -1117,7 +1135,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74339160
   teams:
@@ -1126,7 +1144,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74338946
   teams:
@@ -1135,7 +1153,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74339138
   teams:
@@ -1144,7 +1162,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74338974
   teams:
@@ -1153,16 +1171,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74339120
   teams:
     home: Blejchar, Marek
     away: Guliak, Roman
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 74339066
   teams:
@@ -1170,8 +1188,8 @@ table_tennis:
     away: Hofman, Denis
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '16:30'
 - id: 74338928
   teams:
@@ -1179,17 +1197,17 @@ table_tennis:
     away: Zika, Tadeas
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '16:30'
 - id: 74339128
   teams:
     home: Regner, Milan
     away: Grohsgott, Jiri
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '16:30'
 - id: 74339030
   teams:
@@ -1197,6 +1215,96 @@ table_tennis:
     away: Medek, Josef
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '16:30'
+- id: 74339176
+  teams:
+    home: Cerny, Vojtech
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 74339054
+  teams:
+    home: Krok, Lukas
+    away: Darin, Kyryl
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 74338972
+  teams:
+    home: Mecl Jr, Jan
+    away: Kanera, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 74339140
+  teams:
+    home: Taichman, Ivo
+    away: Jasek, Milan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:00'
+- id: 74339026
+  teams:
+    home: Wagner, Richard
+    away: Pacha, Robin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 74339084
+  teams:
+    home: Blejchar, Marek
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '18:30'
+- id: 74339028
+  teams:
+    home: Holovatiuk, Yurii
+    away: Plachy, Jiri
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:30'
+- id: 74339162
+  teams:
+    home: Kraninger, Tomas
+    away: Stach, Jiri
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:30'
+- id: 74339096
+  teams:
+    home: Schopf, Karel
+    away: Hofman, Denis
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 74339006
+  teams:
+    home: Zahradka, Michal
+    away: Kolisnyk, Oleksandr
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:30'
