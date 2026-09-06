@@ -18,6 +18,24 @@ basketball:
     away: 87
   status: result
   time: 09:30
+- id: 71036290
+  teams:
+    home: Puerto Rico
+    away: Belgium
+  score:
+    home: 40
+    away: 48
+  status: live
+  time: '15:45'
+- id: 71036306
+  teams:
+    home: China
+    away: Czech Republic
+  score:
+    home: 74
+    away: 70
+  status: result
+  time: '12:30'
 tennis:
 - id: 73992454
   teams:
@@ -37,7 +55,16 @@ tennis:
     away: 0
   status: result
   time: 02:40
-ice_hockey: []
+ice_hockey:
+- id: 73974226
+  teams:
+    home: Manchester S.
+    away: Sheffield
+  score:
+    home: 4
+    away: 3
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 74339926
   teams:
