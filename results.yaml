@@ -14,9 +14,27 @@ soccer:
     away: Newells Old Boys
   score:
     home: 1
+    away: 1
+  status: result
+  time: '17:45'
+- id: 73265262
+  teams:
+    home: Atletico Lanus
+    away: Defensa Y Justicia
+  score:
+    home: 0
     away: 0
   status: live
-  time: '17:45'
+  time: '20:00'
+- id: 73265266
+  teams:
+    home: CA Central Cordoba SE
+    away: CA Independiente Avellaneda
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:00'
 basketball:
 - id: 71036292
   teams:
@@ -45,6 +63,87 @@ basketball:
     away: 70
   status: result
   time: '12:30'
+- id: 71036304
+  teams:
+    home: Italy
+    away: USA
+  score:
+    home: 52
+    away: 55
+  status: result
+  time: '18:45'
+- id: 74182098
+  teams:
+    home: Kagoshima
+    away: Orions
+  score:
+    home: 92
+    away: 102
+  status: result
+  time: 04:00
+- id: 74312266
+  teams:
+    home: Taoyuan Taiwan Beer Leopards
+    away: Lake Stars
+  score:
+    home: 87
+    away: 97
+  status: result
+  time: 06:00
+- id: 74182100
+  teams:
+    home: Saga Ballooners
+    away: Altiri Chiba
+  score:
+    home: 95
+    away: 79
+  status: result
+  time: 08:00
+- id: 74193898
+  teams:
+    home: Chemnitz
+    away: Warszawa
+  score:
+    home: 68
+    away: 74
+  status: result
+  time: '13:00'
+- id: 74337328
+  teams:
+    home: SCM Univ. Craiova
+    away: Pitesti
+  score:
+    home: 84
+    away: 89
+  status: result
+  time: '14:00'
+- id: 74401180
+  teams:
+    home: Sporting Cp
+    away: Benfica Lisboa
+  score:
+    home: 78
+    away: 91
+  status: result
+  time: '14:00'
+- id: 74375802
+  teams:
+    home: Milano
+    away: Fenerbahce Istanbul
+  score:
+    home: 79
+    away: 81
+  status: result
+  time: '15:00'
+- id: 74385126
+  teams:
+    home: CZ MTS
+    away: Olympiakos Piraeus
+  score:
+    home: 77
+    away: 87
+  status: result
+  time: '17:30'
 tennis:
 - id: 73992454
   teams:
@@ -70,9 +169,27 @@ tennis:
     away: Alcaraz, Carlos
   score:
     home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 73992424
+  teams:
+    home: Michelsen, Alex
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 1
     away: 0
   status: live
-  time: '18:00'
+  time: '19:15'
+- id: 73992422
+  teams:
+    home: Medvedev, Daniil
+    away: Tiafoe, Frances
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:35'
 ice_hockey:
 - id: 73974226
   teams:
@@ -89,8 +206,8 @@ ice_hockey:
     away: Hamilton
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:00'
 - id: 72067426
   teams:
