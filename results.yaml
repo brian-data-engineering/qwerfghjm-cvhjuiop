@@ -8,6 +8,15 @@ soccer:
     away: 0
   status: result
   time: 00:15
+- id: 73265256
+  teams:
+    home: CA Rosario Central
+    away: Newells Old Boys
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:45'
 basketball:
 - id: 71036292
   teams:
@@ -23,9 +32,9 @@ basketball:
     home: Puerto Rico
     away: Belgium
   score:
-    home: 40
-    away: 48
-  status: live
+    home: 64
+    away: 76
+  status: result
   time: '15:45'
 - id: 71036306
   teams:
@@ -55,16 +64,106 @@ tennis:
     away: 0
   status: result
   time: 02:40
+- id: 73992428
+  teams:
+    home: Paul, Tommy
+    away: Alcaraz, Carlos
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:00'
 ice_hockey:
 - id: 73974226
   teams:
     home: Manchester S.
     away: Sheffield
   score:
-    home: 4
-    away: 3
-  status: live
+    home: 5
+    away: 6
+  status: result
   time: '15:00'
+- id: 74276156
+  teams:
+    home: Niagara
+    away: Hamilton
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:00'
+- id: 72067426
+  teams:
+    home: Geneva Servette
+    away: Storhamar
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 72067428
+  teams:
+    home: Frolunda
+    away: KooKoo
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '13:00'
+- id: 72067430
+  teams:
+    home: Herning
+    away: SaiPa
+  score:
+    home: 2
+    away: 7
+  status: result
+  time: '13:00'
+- id: 72067432
+  teams:
+    home: Davos
+    away: Berlin
+  score:
+    home: 8
+    away: 2
+  status: result
+  time: '13:45'
+- id: 72067436
+  teams:
+    home: Mannheim
+    away: Skelleftea
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 72067434
+  teams:
+    home: Nitra
+    away: Vaxjo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 72166062
+  teams:
+    home: Magnitogorsk
+    away: Amur Khabarovsk
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '11:30'
+- id: 72166060
+  teams:
+    home: Neftekhimik
+    away: Red Star Kunlun
+  score:
+    home: 4
+    away: 5
+  status: result
+  time: '14:00'
 table_tennis:
 - id: 74339926
   teams:
