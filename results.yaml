@@ -8,7 +8,16 @@ soccer:
     away: 0
   status: result
   time: 00:15
-basketball: []
+basketball:
+- id: 71036292
+  teams:
+    home: Turkey
+    away: Australia
+  score:
+    home: 30
+    away: 40
+  status: live
+  time: 09:30
 tennis:
 - id: 73992454
   teams:
@@ -17,7 +26,7 @@ tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:10
 - id: 73992366
   teams:
@@ -26,7 +35,7 @@ tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:40
 ice_hockey: []
 table_tennis:
