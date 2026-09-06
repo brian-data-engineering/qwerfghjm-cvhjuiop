@@ -22,9 +22,9 @@ soccer:
     home: Atletico Lanus
     away: Defensa Y Justicia
   score:
-    home: 0
+    home: 1
     away: 0
-  status: live
+  status: result
   time: '20:00'
 - id: 73265266
   teams:
@@ -32,8 +32,8 @@ soccer:
     away: CA Independiente Avellaneda
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '20:00'
 basketball:
 - id: 71036292
@@ -177,9 +177,9 @@ tennis:
     home: Michelsen, Alex
     away: Etcheverry, Tomas Martin
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:15'
 - id: 73992422
   teams:
@@ -187,8 +187,8 @@ tennis:
     away: Tiafoe, Frances
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: recentlyended
   time: '19:35'
 ice_hockey:
 - id: 73974226
