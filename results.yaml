@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 73265280
+  teams:
+    home: Racing Club Avellaneda
+    away: Atletico Tucuman
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:30
 basketball: []
 tennis: []
 ice_hockey: []
@@ -37,7 +46,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74365106
   teams:
@@ -46,7 +55,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74365140
   teams:
@@ -55,5 +64,113 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
+- id: 74365166
+  teams:
+    home: Bruzek, Petr
+    away: Hasmanda, Rostislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 74365160
+  teams:
+    home: Schopf, Karel
+    away: Vejvoda, Viktor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 74365036
+  teams:
+    home: Sobisek, Martin
+    away: Volf, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 74365032
+  teams:
+    home: Cermak, Vladimir
+    away: Chlebecek, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74364982
+  teams:
+    home: Novak, Martin
+    away: Svoboda, Adam
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74365078
+  teams:
+    home: Sychra, Martin
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 74364976
+  teams:
+    home: Bruzek, Petr
+    away: Sulava, Lubor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74365126
+  teams:
+    home: Schopf, Karel
+    away: Tazler, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 74365070
+  teams:
+    home: Sobisek, Martin
+    away: Krejci, Richard
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74365046
+  teams:
+    home: Chlebecek, Marek
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 74364988
+  teams:
+    home: Louda, Jiri
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74364986
+  teams:
+    home: Svoboda, Adam
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
