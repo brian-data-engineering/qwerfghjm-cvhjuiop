@@ -23,9 +23,9 @@ basketball:
     home: Germany
     away: Republic of Korea
   score:
-    home: 46
-    away: 29
-  status: live
+    home: 94
+    away: 56
+  status: result
   time: '18:45'
 - id: 74345758
   teams:
@@ -87,10 +87,46 @@ tennis:
     home: Tiafoe, Frances
     away: Michelsen, Alex
   score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:25'
+- id: 74133828
+  teams:
+    home: Carpico B / Filin N S
+    away: Ram R / Salisbury J
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:05'
+- id: 74133830
+  teams:
+    home: Gonzalez M / Molteni A
+    away: Granollers M / Zeballos H
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '20:25'
+- id: 74133842
+  teams:
+    home: Miedler L / Polmans M
+    away: Arevalo M / Pavic M
+  score:
     home: 0
     away: 1
   status: live
-  time: '18:25'
+  time: '21:05'
+- id: 74133838
+  teams:
+    home: Schnaitter J / Wallner M
+    away: Harrison C / Skupski N
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:05'
 ice_hockey:
 - id: 73350330
   teams:
@@ -99,16 +135,16 @@ ice_hockey:
   score:
     home: 3
     away: 5
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 73350332
   teams:
     home: Rungsted
     away: Frederikshavn
   score:
-    home: 3
-    away: 3
-  status: live
+    home: 4
+    away: 5
+  status: result
   time: '17:30'
 - id: 72116188
   teams:
