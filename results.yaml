@@ -4,9 +4,9 @@ soccer:
     home: Union de Santa Fe
     away: Instituto AC Cordoba
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:15
 basketball: []
 tennis:
@@ -15,9 +15,9 @@ tennis:
     home: Zverev, Alexander
     away: Darderi, Luciano
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 01:15
 ice_hockey: []
 table_tennis:
@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 74393310
   teams:
