@@ -14,10 +14,64 @@ basketball:
     home: Hungary
     away: Japan
   score:
-    home: 24
-    away: 15
-  status: live
+    home: 84
+    away: 63
+  status: result
   time: '15:45'
+- id: 71036312
+  teams:
+    home: Germany
+    away: Republic of Korea
+  score:
+    home: 46
+    away: 29
+  status: live
+  time: '18:45'
+- id: 74345758
+  teams:
+    home: Jets
+    away: Perth
+  score:
+    home: 45
+    away: 98
+  status: result
+  time: '10:35'
+- id: 74302014
+  teams:
+    home: Kazan
+    away: Samara-2
+  score:
+    home: 55
+    away: 76
+  status: result
+  time: '13:00'
+- id: 74457942
+  teams:
+    home: Zenit St P.
+    away: Parma Permsky Kray
+  score:
+    home: 89
+    away: 78
+  status: result
+  time: '13:30'
+- id: 74457944
+  teams:
+    home: Uniks Kazan
+    away: MBA Moscow
+  score:
+    home: 92
+    away: 96
+  status: result
+  time: '16:30'
+- id: 74036812
+  teams:
+    home: Mitteldeutscher BC
+    away: Bayreuth
+  score:
+    home: 108
+    away: 56
+  status: result
+  time: '17:00'
 tennis:
 - id: 73992460
   teams:
@@ -28,7 +82,106 @@ tennis:
     away: 0
   status: result
   time: 01:15
-ice_hockey: []
+- id: 73992418
+  teams:
+    home: Tiafoe, Frances
+    away: Michelsen, Alex
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:25'
+ice_hockey:
+- id: 73350330
+  teams:
+    home: Sonderjyske
+    away: Rodovre
+  score:
+    home: 3
+    away: 5
+  status: recentlyended
+  time: '17:00'
+- id: 73350332
+  teams:
+    home: Rungsted
+    away: Frederikshavn
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '17:30'
+- id: 72116188
+  teams:
+    home: HPK
+    away: Ilves
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: '15:30'
+- id: 73242492
+  teams:
+    home: Mlada Bo.
+    away: Litvinov
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:00'
+- id: 73242506
+  teams:
+    home: Kometa
+    away: Olomouc
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 74225790
+  teams:
+    home: Rebel
+    away: Hhk Velke Mezirici
+  score:
+    home: 7
+    away: 2
+  status: result
+  time: '16:00'
+- id: 74272148
+  teams:
+    home: Znojmo
+    away: Hodonin
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72166080
+  teams:
+    home: Magnitogorsk
+    away: Amur Khabarovsk
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 72166082
+  teams:
+    home: Neftekhimik
+    away: Sochi
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72166084
+  teams:
+    home: Lok Yaroslavl
+    away: Red Star Kunlun
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
 table_tennis:
 - id: 74393260
   teams:
