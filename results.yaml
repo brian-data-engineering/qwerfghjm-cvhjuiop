@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 71036334
+  teams:
+    home: Puerto Rico
+    away: China
+  score:
+    home: 72
+    away: 75
+  status: result
+  time: '15:45'
 tennis:
 - id: 73992420
   teams:
@@ -10,7 +19,205 @@ tennis:
     away: 2
   status: result
   time: 03:05
-ice_hockey: []
+ice_hockey:
+- id: 72118714
+  teams:
+    home: Dukla
+    away: Frydek Mistek
+  score:
+    home: 4
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 72118718
+  teams:
+    home: Horacka
+    away: Tabor
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '15:30'
+- id: 72118716
+  teams:
+    home: Zlin
+    away: Chomutov
+  score:
+    home: 6
+    away: 3
+  status: recentlyended
+  time: '15:30'
+- id: 72118724
+  teams:
+    home: HC Dynamo Pardubice B
+    away: Zubr Prerov
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:00'
+- id: 72118896
+  teams:
+    home: Kolin
+    away: Havirov
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '16:00'
+- id: 72118726
+  teams:
+    home: Litomerice
+    away: Banik Sokolov
+  score:
+    home: 3
+    away: 4
+  status: live
+  time: '16:00'
+- id: 72118722
+  teams:
+    home: Slavia Prague
+    away: Vsetin
+  score:
+    home: 0
+    away: 4
+  status: live
+  time: '16:00'
+- id: 73350334
+  teams:
+    home: Herlev
+    away: Esbjerg
+  score:
+    home: 5
+    away: 2
+  status: live
+  time: '17:00'
+- id: 72116200
+  teams:
+    home: Assat
+    away: Jokerit
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72116190
+  teams:
+    home: Jukurit
+    away: HIFK
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '15:30'
+- id: 72116192
+  teams:
+    home: Kiekko-Espoo
+    away: KooKoo
+  score:
+    home: 6
+    away: 2
+  status: recentlyended
+  time: '15:30'
+- id: 72116194
+  teams:
+    home: Lukko
+    away: JYP
+  score:
+    home: 0
+    away: 5
+  status: recentlyended
+  time: '15:30'
+- id: 72116196
+  teams:
+    home: Pelicans
+    away: KalPa
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72116198
+  teams:
+    home: Vaasan
+    away: TPS
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '15:30'
+- id: 73242564
+  teams:
+    home: Trinec
+    away: Vitkovice
+  score:
+    home: 6
+    away: 3
+  status: result
+  time: '15:00'
+- id: 73585590
+  teams:
+    home: Sodertalje
+    away: Visby-Roma
+  score:
+    home: 3
+    away: 3
+  status: live
+  time: '16:00'
+- id: 72166090
+  teams:
+    home: Barys Astana
+    away: Salavat UFA
+  score:
+    home: 8
+    away: 6
+  status: result
+  time: '14:00'
+- id: 72166092
+  teams:
+    home: Bars Kazan
+    away: Traktor Chelyabinsk
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '16:30'
+- id: 72166088
+  teams:
+    home: CSKA Moscow
+    away: Torpedo NN
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 72166086
+  teams:
+    home: HC Dynamo
+    away: Admiral
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:30'
+- id: 72166166
+  teams:
+    home: SKA
+    away: Lada Togliatti
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
+- id: 72119452
+  teams:
+    home: Frolunda HC
+    away: Farjestad
+  score:
+    home: 5
+    away: 1
+  status: live
+  time: '17:00'
 table_tennis:
 - id: 74434960
   teams:
@@ -874,5 +1081,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
