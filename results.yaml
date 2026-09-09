@@ -8,6 +8,51 @@ soccer:
     away: 1
   status: result
   time: '18:30'
+- id: 74322880
+  teams:
+    home: Deportivo Riestra
+    away: CA Banfield
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:00'
+- id: 73721700
+  teams:
+    home: FK Zeljeznicar Sarajevo
+    away: FK Sarajevo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 68823258
+  teams:
+    home: Criciuma EC
+    away: EC Juventude
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 00:00
+- id: 68823246
+  teams:
+    home: Botafogo SP
+    away: Novorizontino
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
+- id: 68823254
+  teams:
+    home: Fortaleza EC
+    away: Avai
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
 basketball:
 - id: 71036334
   teams:
@@ -25,7 +70,7 @@ basketball:
   score:
     home: 80
     away: 82
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 74272154
   teams:
@@ -70,7 +115,7 @@ basketball:
   score:
     home: 74
     away: 83
-  status: recentlyended
+  status: result
   time: '19:00'
 tennis:
 - id: 73992420
@@ -82,6 +127,15 @@ tennis:
     away: 2
   status: result
   time: 03:05
+- id: 73992416
+  teams:
+    home: Khachanov, Karen
+    away: Blockx, Alexander
+  score:
+    home: null
+    away: null
+  status: result
+  time: '21:05'
 ice_hockey:
 - id: 72118714
   teams:
