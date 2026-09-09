@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 73804342
+  teams:
+    home: Defensores de Belgrano
+    away: Club Atletico Los Andes
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '18:30'
 basketball:
 - id: 71036334
   teams:
@@ -9,6 +18,60 @@ basketball:
     away: 75
   status: result
   time: '15:45'
+- id: 71036316
+  teams:
+    home: Italy
+    away: Australia
+  score:
+    home: 80
+    away: 82
+  status: recentlyended
+  time: '18:45'
+- id: 74272154
+  teams:
+    home: Lleida
+    away: Joventut
+  score:
+    home: 89
+    away: 84
+  status: result
+  time: '16:30'
+- id: 74073132
+  teams:
+    home: Albacete Basket
+    away: U. Murcia
+  score:
+    home: 65
+    away: 108
+  status: result
+  time: '17:00'
+- id: 74249850
+  teams:
+    home: Milano
+    away: Auxilium Torino
+  score:
+    home: 70
+    away: 89
+  status: result
+  time: '17:00'
+- id: 74073126
+  teams:
+    home: Fuenlabrada
+    away: Gran Canaria
+  score:
+    home: 80
+    away: 87
+  status: result
+  time: '18:30'
+- id: 74272158
+  teams:
+    home: Andorra
+    away: Basquet Manresa
+  score:
+    home: 74
+    away: 83
+  status: recentlyended
+  time: '19:00'
 tennis:
 - id: 73992420
   teams:
@@ -27,7 +90,7 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72118718
   teams:
@@ -36,7 +99,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72118716
   teams:
@@ -45,7 +108,7 @@ ice_hockey:
   score:
     home: 6
     away: 3
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72118724
   teams:
@@ -54,25 +117,25 @@ ice_hockey:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 72118896
   teams:
     home: Kolin
     away: Havirov
   score:
-    home: 3
+    home: 4
     away: 3
-  status: live
+  status: result
   time: '16:00'
 - id: 72118726
   teams:
     home: Litomerice
     away: Banik Sokolov
   score:
-    home: 3
+    home: 5
     away: 4
-  status: live
+  status: result
   time: '16:00'
 - id: 72118722
   teams:
@@ -81,16 +144,16 @@ ice_hockey:
   score:
     home: 0
     away: 4
-  status: live
+  status: result
   time: '16:00'
 - id: 73350334
   teams:
     home: Herlev
     away: Esbjerg
   score:
-    home: 5
+    home: 7
     away: 2
-  status: live
+  status: result
   time: '17:00'
 - id: 72116200
   teams:
@@ -108,7 +171,7 @@ ice_hockey:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72116192
   teams:
@@ -117,7 +180,7 @@ ice_hockey:
   score:
     home: 6
     away: 2
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72116194
   teams:
@@ -126,7 +189,7 @@ ice_hockey:
   score:
     home: 0
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72116196
   teams:
@@ -144,7 +207,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 73242564
   teams:
@@ -161,8 +224,8 @@ ice_hockey:
     away: Visby-Roma
   score:
     home: 3
-    away: 3
-  status: live
+    away: 4
+  status: result
   time: '16:00'
 - id: 72166090
   teams:
@@ -180,34 +243,34 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 72166088
   teams:
     home: CSKA Moscow
     away: Torpedo NN
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 72166086
   teams:
     home: HC Dynamo
     away: Admiral
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 72166166
   teams:
     home: SKA
     away: Lada Togliatti
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '16:30'
 - id: 72119452
   teams:
@@ -215,8 +278,8 @@ ice_hockey:
     away: Farjestad
   score:
     home: 5
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '17:00'
 table_tennis:
 - id: 74434960
