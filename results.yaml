@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 73992420
+  teams:
+    home: Shelton, Ben
+    away: Alcaraz, Carlos
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 03:05
 ice_hockey: []
 table_tennis:
 - id: 74434960
@@ -8,25 +17,160 @@ table_tennis:
     home: Krejci, Richard
     away: Pavelka, Radim
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 00:00
 - id: 74433104
   teams:
     home: Sopko, Martin
     away: Hlawatschke, Ales
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 74436460
   teams:
     home: Svoboda, Adam
     away: Novak, Martin
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
+- id: 74436472
+  teams:
+    home: Kosar, Vaclav
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 74434892
+  teams:
+    home: Postelt, Vladimir
+    away: Trefny, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 74433132
+  teams:
+    home: Sobisek, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 74433116
+  teams:
+    home: Hlawatschke, Ales
+    away: Tuma, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 74436530
+  teams:
+    home: Novak, Martin
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 74434928
+  teams:
+    home: Pavelka, Radim
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 74433098
+  teams:
+    home: Cermak, Vladimir
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74436498
+  teams:
+    home: Sulava, Lubor
+    away: Svoboda, Adam
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 74434922
+  teams:
+    home: Trefny, Jan
+    away: Krejci, Richard
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74433094
+  teams:
+    home: Hlawatschke, Ales
+    away: Sobisek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 74436462
+  teams:
+    home: Novak, Martin
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74435020
+  teams:
+    home: Pavelka, Radim
+    away: Postelt, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74434916
+  teams:
+    home: Krejci, Richard
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74433068
+  teams:
+    home: Sopko, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74436474
+  teams:
+    home: Svoboda, Adam
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
