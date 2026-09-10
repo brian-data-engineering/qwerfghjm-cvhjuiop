@@ -1,5 +1,95 @@
-soccer: []
-basketball: []
+soccer:
+- id: 74136258
+  teams:
+    home: Ben Aknoun
+    away: US Biskra
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '18:00'
+basketball:
+- id: 73373948
+  teams:
+    home: Crailsheim
+    away: Hagen
+  score:
+    home: 86
+    away: 93
+  status: result
+  time: '16:30'
+- id: 73373950
+  teams:
+    home: Bremerhaven
+    away: Braunschweig
+  score:
+    home: 24
+    away: 42
+  status: live
+  time: '18:00'
+- id: 71036342
+  teams:
+    home: USA
+    away: Hungary
+  score:
+    home: 108
+    away: 56
+  status: result
+  time: 09:30
+- id: 71036338
+  teams:
+    home: China
+    away: France
+  score:
+    home: 61
+    away: 90
+  status: result
+  time: '12:30'
+- id: 71036340
+  teams:
+    home: Belgium
+    away: Germany
+  score:
+    home: 74
+    away: 93
+  status: result
+  time: '15:45'
+- id: 71036336
+  teams:
+    home: Australia
+    away: Spain
+  score:
+    home: 17
+    away: 31
+  status: live
+  time: '18:45'
+- id: 74406164
+  teams:
+    home: Golden Kings
+    away: Perth
+  score:
+    home: 82
+    away: 110
+  status: result
+  time: '10:35'
+- id: 74457972
+  teams:
+    home: Trabzonspor
+    away: Bordo
+  score:
+    home: 65
+    away: 87
+  status: result
+  time: '15:00'
+- id: 74272326
+  teams:
+    home: Basquet Girona
+    away: Lleida
+  score:
+    home: 88
+    away: 98
+  status: result
+  time: '16:30'
 tennis:
 - id: 73992414
   teams:
@@ -25,10 +115,190 @@ ice_hockey:
     home: Karlovy Vary
     away: Sparta Prague
   score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 74111978
+  teams:
+    home: Kosice
+    away: Michalovce
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '15:30'
+- id: 73241768
+  teams:
+    home: Mlada Bo.
+    away: Rytiri Kladno
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:30'
+- id: 74346798
+  teams:
+    home: Skalica
+    away: Znojmo
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '15:30'
+- id: 74346796
+  teams:
+    home: Torax Poruba
+    away: Katowice
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:00'
+- id: 74516372
+  teams:
+    home: Frisk/Asker
+    away: Stavanger
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '17:00'
+- id: 74406138
+  teams:
+    home: Karlskrona
+    away: Morrum Gois
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '17:00'
+- id: 74111840
+  teams:
+    home: Ambri Piotta
+    away: Rapperswil
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:45'
+- id: 72067438
+  teams:
+    home: KooKoo
+    away: Nitra
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '15:30'
+- id: 72067440
+  teams:
+    home: SaiPa
+    away: Pardubice
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72067442
+  teams:
+    home: GKS Tychy
+    away: Davos
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '16:00'
+- id: 72067444
+  teams:
+    home: Skelleftea
+    away: Geneva Servette
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '17:00'
+- id: 72067446
+  teams:
+    home: Storhamar
+    away: Klagenfurt
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:00'
+- id: 72067448
+  teams:
+    home: Cologne
+    away: Frolunda
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '17:30'
+- id: 72166100
+  teams:
+    home: HC Sibir
+    away: Amur Khabarovsk
+  score:
     home: 2
     away: 0
-  status: live
-  time: '15:00'
+  status: result
+  time: '12:30'
+- id: 72166094
+  teams:
+    home: Avangard Omsk
+    away: Sochi
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '13:30'
+- id: 72166096
+  teams:
+    home: Lok Yaroslavl
+    away: Sev. Cherepovec
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72166102
+  teams:
+    home: Dinamo Minsk
+    away: Red Star Kunlun
+  score:
+    home: 3
+    away: 4
+  status: recentlyended
+  time: '16:10'
+- id: 72166098
+  teams:
+    home: Spartak Moscow
+    away: SKA
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '16:30'
+- id: 73705868
+  teams:
+    home: Spartak Dubnica
+    away: Slovakia
+  score:
+    home: 7
+    away: 0
+  status: result
+  time: 09:00
+- id: 72119454
+  teams:
+    home: Djurgardens
+    away: SDE Hockey
+  score:
+    home: 4
+    away: 1
+  status: recentlyended
+  time: '17:00'
 table_tennis:
 - id: 74474352
   teams:
