@@ -4,10 +4,46 @@ soccer:
     home: Ben Aknoun
     away: US Biskra
   score:
-    home: 1
+    home: 2
     away: 2
-  status: live
+  status: result
   time: '18:00'
+- id: 74136372
+  teams:
+    home: USM Alger
+    away: Js El Biar
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '20:00'
+- id: 73675430
+  teams:
+    home: Al Riffa
+    away: AL-Khaldiya
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '16:00'
+- id: 73675432
+  teams:
+    home: Al-Muharraq SC
+    away: Manama Club
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 68823256
+  teams:
+    home: AC Goianiense
+    away: Ceara SC
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:30
 basketball:
 - id: 73373948
   teams:
@@ -23,9 +59,9 @@ basketball:
     home: Bremerhaven
     away: Braunschweig
   score:
-    home: 24
-    away: 42
-  status: live
+    home: 67
+    away: 87
+  status: result
   time: '18:00'
 - id: 71036342
   teams:
@@ -59,9 +95,9 @@ basketball:
     home: Australia
     away: Spain
   score:
-    home: 17
-    away: 31
-  status: live
+    home: 66
+    away: 89
+  status: result
   time: '18:45'
 - id: 74406164
   teams:
@@ -90,6 +126,42 @@ basketball:
     away: 98
   status: result
   time: '16:30'
+- id: 74517438
+  teams:
+    home: Unicaja
+    away: Iberostar
+  score:
+    home: 80
+    away: 76
+  status: result
+  time: '18:00'
+- id: 74282172
+  teams:
+    home: Barcelona
+    away: Andorra
+  score:
+    home: 88
+    away: 84
+  status: result
+  time: '19:00'
+- id: 74534116
+  teams:
+    home: Paris Basketball
+    away: Zalgiris
+  score:
+    home: 83
+    away: 82
+  status: recentlyended
+  time: '19:30'
+- id: 72154724
+  teams:
+    home: Mineros de Zacatecas
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 75
+    away: 81
+  status: result
+  time: 02:05
 tennis:
 - id: 73992414
   teams:
@@ -109,6 +181,15 @@ tennis:
     away: 2
   status: result
   time: 02:45
+- id: 74133788
+  teams:
+    home: Krawietz K / Puetz T
+    away: Ram R / Salisbury J
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '20:05'
 ice_hockey:
 - id: 73241750
   teams:
@@ -162,25 +243,25 @@ ice_hockey:
   score:
     home: 1
     away: 3
-  status: live
+  status: result
   time: '17:00'
 - id: 74406138
   teams:
     home: Karlskrona
     away: Morrum Gois
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '17:00'
 - id: 74111840
   teams:
     home: Ambri Piotta
     away: Rapperswil
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '17:45'
 - id: 72067438
   teams:
@@ -214,9 +295,9 @@ ice_hockey:
     home: Skelleftea
     away: Geneva Servette
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '17:00'
 - id: 72067446
   teams:
@@ -225,16 +306,16 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: live
+  status: result
   time: '17:00'
 - id: 72067448
   teams:
     home: Cologne
     away: Frolunda
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 5
+    away: 2
+  status: result
   time: '17:30'
 - id: 72166100
   teams:
@@ -270,7 +351,7 @@ ice_hockey:
   score:
     home: 3
     away: 4
-  status: recentlyended
+  status: result
   time: '16:10'
 - id: 72166098
   teams:
@@ -279,7 +360,7 @@ ice_hockey:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 73705868
   teams:
@@ -297,7 +378,7 @@ ice_hockey:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 table_tennis:
 - id: 74474352
