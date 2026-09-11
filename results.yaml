@@ -1,24 +1,222 @@
-soccer: []
-basketball: []
-tennis: []
+soccer:
+- id: 74136376
+  teams:
+    home: MC Oran
+    away: CR Temouchent
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:00'
+basketball:
+- id: 73373952
+  teams:
+    home: Hamburg
+    away: Rostock Seawolves
+  score:
+    home: 82
+    away: 77
+  status: live
+  time: '18:00'
+- id: 74481976
+  teams:
+    home: Alba
+    away: Oberwart
+  score:
+    home: 89
+    away: 76
+  status: result
+  time: '14:30'
+- id: 74584742
+  teams:
+    home: Aris
+    away: Maccabi Tel-Aviv
+  score:
+    home: 87
+    away: 92
+  status: result
+  time: '15:00'
+- id: 74193896
+  teams:
+    home: Cukier Torun
+    away: Sopot
+  score:
+    home: 100
+    away: 86
+  status: result
+  time: '15:30'
+- id: 74073462
+  teams:
+    home: Ford Burgos
+    away: Gran Canaria
+  score:
+    home: 95
+    away: 115
+  status: result
+  time: '16:00'
+- id: 74293456
+  teams:
+    home: Burgos
+    away: Bilbao
+  score:
+    home: 72
+    away: 79
+  status: result
+  time: '16:30'
+- id: 74282174
+  teams:
+    home: Joventut
+    away: Basquet Girona
+  score:
+    home: 95
+    away: 84
+  status: result
+  time: '16:30'
+- id: 74496564
+  teams:
+    home: KK Partizan
+    away: Fuenlabrada
+  score:
+    home: 98
+    away: 55
+  status: recentlyended
+  time: '18:00'
+- id: 74457996
+  teams:
+    home: KK Split
+    away: Dubrovnik
+  score:
+    home: 74
+    away: 59
+  status: recentlyended
+  time: '18:00'
+- id: 74073440
+  teams:
+    home: Pesaro
+    away: Bologna
+  score:
+    home: 67
+    away: 110
+  status: recentlyended
+  time: '18:00'
+- id: 74293386
+  teams:
+    home: Real Madrid
+    away: Iberostar
+  score:
+    home: 92
+    away: 82
+  status: live
+  time: '18:00'
+- id: 74073460
+  teams:
+    home: Chocolates Trapa
+    away: Estudiantes
+  score:
+    home: 73
+    away: 73
+  status: live
+  time: '18:30'
+- id: 74272298
+  teams:
+    home: Sheffield
+    away: Cheshire
+  score:
+    home: 63
+    away: 78
+  status: live
+  time: '18:30'
+- id: 74293078
+  teams:
+    home: Basquet Manresa
+    away: Barcelona
+  score:
+    home: 40
+    away: 38
+  status: live
+  time: '19:00'
+- id: 72154732
+  teams:
+    home: Abejas
+    away: Gambusinos De Fresnillo
+  score:
+    home: 83
+    away: 87
+  status: result
+  time: 01:00
+- id: 72154726
+  teams:
+    home: Correcaminos
+    away: Dorados de Chihuahua
+  score:
+    home: 79
+    away: 86
+  status: result
+  time: 01:15
+- id: 72154728
+  teams:
+    home: El Calor de Cancun
+    away: Panteras
+  score:
+    home: 103
+    away: 88
+  status: result
+  time: 01:15
+- id: 72154730
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Freseros de Irapuato
+  score:
+    home: 71
+    away: 82
+  status: result
+  time: 02:00
+- id: 72154734
+  teams:
+    home: Santos de San Luis
+    away: Fuerza Regia
+  score:
+    home: 89
+    away: 101
+  status: result
+  time: 02:00
+- id: 72154736
+  teams:
+    home: Mineros de Zacatecas
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 98
+    away: 85
+  status: result
+  time: 02:05
+tennis:
+- id: 73992438
+  teams:
+    home: Zverev, Alexander
+    away: Khachanov, Karen
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:15'
 ice_hockey:
 - id: 72118740
   teams:
     home: Chomutov
     away: Slavia Prague
   score:
-    home: 1
+    home: 2
     away: 3
-  status: live
+  status: result
   time: '15:00'
 - id: 72117306
   teams:
     home: Hermes
     away: Keupa
   score:
-    home: 3
+    home: 5
     away: 0
-  status: live
+  status: result
   time: '15:30'
 - id: 72117308
   teams:
@@ -26,35 +224,35 @@ ice_hockey:
     away: Iisalmen Peli-Karhut
   score:
     home: 1
-    away: 1
-  status: live
+    away: 5
+  status: result
   time: '15:30'
 - id: 72117310
   teams:
     home: Kettera
     away: K-Vantaa
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 3
+    away: 4
+  status: result
   time: '15:30'
 - id: 72117312
   teams:
     home: TuTo
     away: Pyry
   score:
-    home: 2
+    home: 4
     away: 3
-  status: live
+  status: result
   time: '15:30'
 - id: 73242770
   teams:
     home: Mountfield HK
     away: Straubing
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '15:00'
 - id: 74479456
   teams:
@@ -63,8 +261,26 @@ ice_hockey:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '16:30'
+- id: 74497258
+  teams:
+    home: Hanvikens SK
+    away: Vallentuna
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '17:00'
+- id: 74106906
+  teams:
+    home: Ravensburg
+    away: Villingen-Schwenning
+  score:
+    home: 3
+    away: 5
+  status: live
+  time: '18:00'
 table_tennis:
 - id: 74509816
   teams:
