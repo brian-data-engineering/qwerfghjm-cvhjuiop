@@ -6,17 +6,35 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '18:00'
+- id: 74136378
+  teams:
+    home: CR Belouizdad
+    away: ES Setif
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '20:00'
+- id: 73265300
+  teams:
+    home: Newells Old Boys
+    away: Velez Sarsfield
+  score:
+    home: 1
+    away: 1
+  status: recentlyended
+  time: '20:00'
 basketball:
 - id: 73373952
   teams:
     home: Hamburg
     away: Rostock Seawolves
   score:
-    home: 82
-    away: 77
-  status: live
+    home: 90
+    away: 81
+  status: result
   time: '18:00'
 - id: 74481976
   teams:
@@ -79,7 +97,7 @@ basketball:
   score:
     home: 98
     away: 55
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 74457996
   teams:
@@ -88,7 +106,7 @@ basketball:
   score:
     home: 74
     away: 59
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 74073440
   teams:
@@ -97,43 +115,43 @@ basketball:
   score:
     home: 67
     away: 110
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 74293386
   teams:
     home: Real Madrid
     away: Iberostar
   score:
-    home: 92
-    away: 82
-  status: live
+    home: 97
+    away: 90
+  status: result
   time: '18:00'
 - id: 74073460
   teams:
     home: Chocolates Trapa
     away: Estudiantes
   score:
-    home: 73
-    away: 73
-  status: live
+    home: 93
+    away: 86
+  status: result
   time: '18:30'
 - id: 74272298
   teams:
     home: Sheffield
     away: Cheshire
   score:
-    home: 63
-    away: 78
-  status: live
+    home: 80
+    away: 115
+  status: result
   time: '18:30'
 - id: 74293078
   teams:
     home: Basquet Manresa
     away: Barcelona
   score:
-    home: 40
-    away: 38
-  status: live
+    home: 77
+    away: 90
+  status: result
   time: '19:00'
 - id: 72154732
   teams:
@@ -195,9 +213,9 @@ tennis:
     home: Zverev, Alexander
     away: Khachanov, Karen
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: recentlyended
   time: '19:15'
 ice_hockey:
 - id: 72118740
@@ -278,8 +296,8 @@ ice_hockey:
     away: Villingen-Schwenning
   score:
     home: 3
-    away: 5
-  status: live
+    away: 6
+  status: result
   time: '18:00'
 table_tennis:
 - id: 74509816
