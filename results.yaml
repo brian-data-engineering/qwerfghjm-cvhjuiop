@@ -13,9 +13,9 @@ soccer:
     home: CS Constantine
     away: ASO Chlef
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '20:00'
 - id: 73265292
   teams:
@@ -49,9 +49,9 @@ soccer:
     home: Atletico Tucuman
     away: CA River Plate (Arg)
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '20:30'
 basketball:
 - id: 73373954
@@ -223,7 +223,7 @@ basketball:
   score:
     home: 52
     away: 85
-  status: recentlyended
+  status: result
   time: '18:45'
 - id: 72154744
   teams:
@@ -330,9 +330,9 @@ tennis:
     home: Seyboth Wild, Thiago
     away: Dodig, Matej
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '19:40'
 - id: 74283782
   teams:
@@ -422,7 +422,7 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '20:20'
 - id: 74284010
   teams:
@@ -631,6 +631,24 @@ tennis:
     away: 2
   status: result
   time: '17:40'
+- id: 74609102
+  teams:
+    home: Nguyen, Andy
+    away: Krishna, Rishvanth
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:30'
+- id: 74609104
+  teams:
+    home: van Loben Sels, Emon
+    away: Cruz, Cesar
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '21:30'
 ice_hockey:
 - id: 72118728
   teams:
@@ -2386,7 +2404,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '20:30'
 - id: 74585882
   teams:
@@ -2397,3 +2415,84 @@ table_tennis:
     away: 2
   status: result
   time: '20:30'
+- id: 74585974
+  teams:
+    home: Louda, Jiri
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '22:00'
+- id: 74585988
+  teams:
+    home: Placek, Marek
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '22:00'
+- id: 74585874
+  teams:
+    home: Tuma, Daniel
+    away: Pycha, Patrik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '22:00'
+- id: 74585894
+  teams:
+    home: Briza, Frantisek
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:30'
+- id: 74586072
+  teams:
+    home: Rose, Radek
+    away: Wagner, Richard
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '22:30'
+- id: 74586134
+  teams:
+    home: Vizek, Martin
+    away: Krejci, Richard
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:30'
+- id: 74586102
+  teams:
+    home: Kolar, Milan
+    away: Mikuska, Alexander
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '23:00'
+- id: 74586024
+  teams:
+    home: Pycha, Patrik
+    away: Sobisek, Martin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '23:00'
+- id: 74585870
+  teams:
+    home: Regner, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '23:00'
