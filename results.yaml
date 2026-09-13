@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 73265302
+  teams:
+    home: CA Sarmiento Junin
+    away: CA Belgrano de Cordoba
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:45'
+- id: 73265314
+  teams:
+    home: CA Tigre
+    away: CA Rosario Central
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '17:45'
 basketball:
 - id: 73373958
   teams:
@@ -23,9 +41,9 @@ basketball:
     home: Heidelberg
     away: Oldenburg
   score:
-    home: 35
-    away: 37
-  status: live
+    home: 63
+    away: 82
+  status: result
   time: '16:00'
 - id: 71036348
   teams:
@@ -36,7 +54,565 @@ basketball:
     away: 58
   status: result
   time: '14:30'
-tennis: []
+- id: 71036350
+  teams:
+    home: USA
+    away: France
+  score:
+    home: 60
+    away: 53
+  status: live
+  time: '18:00'
+- id: 74628254
+  teams:
+    home: Big Bulls
+    away: Fire Bonds
+  score:
+    home: 81
+    away: 94
+  status: result
+  time: 03:00
+- id: 74529448
+  teams:
+    home: B-Corsairs
+    away: Dongbu Promy
+  score:
+    home: 54
+    away: 95
+  status: result
+  time: 06:00
+- id: 74422232
+  teams:
+    home: Povoa
+    away: Ovarense
+  score:
+    home: 95
+    away: 64
+  status: result
+  time: '15:00'
+- id: 74193240
+  teams:
+    home: Fenerbahce Istanbul
+    away: Balkan Botevgrad
+  score:
+    home: 102
+    away: 66
+  status: result
+  time: '16:00'
+- id: 74629452
+  teams:
+    home: Buducnost
+    away: Turk Telekom
+  score:
+    home: 49
+    away: 56
+  status: live
+  time: '18:00'
+- id: 72154750
+  teams:
+    home: Astros Jalisco
+    away: Soles
+  score:
+    home: 81
+    away: 74
+  status: result
+  time: 00:15
+tennis:
+- id: 73992442
+  teams:
+    home: Zverev, Alexander
+    away: Shelton, Ben
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '18:15'
+- id: 74628088
+  teams:
+    home: Bosio, Gabriele
+    away: Campana Lee, Gerard
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 74628076
+  teams:
+    home: Carpano, Cesare
+    away: Ferrari, Gianmarco
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 74628074
+  teams:
+    home: La Vela, Giuseppe
+    away: D`Agostino, Stefano
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 74628090
+  teams:
+    home: Martin Manzano, Juan Cruz
+    away: Mecarelli, Michele
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:10
+- id: 74628078
+  teams:
+    home: Almazan Valiente, Izan
+    away: Covato, Matteo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:30
+- id: 74628072
+  teams:
+    home: Iannaccone, Federico
+    away: Wiedenmann, Luca
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:35
+- id: 74628080
+  teams:
+    home: Marterer, Maximilian
+    away: Arnaboldi, Federico
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:20'
+- id: 74628070
+  teams:
+    home: Marti Pujolras, Alex
+    away: Zeitune, Maximo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:05'
+- id: 74628068
+  teams:
+    home: Beraldo, Lorenzo
+    away: Sakellaridis, Dimitris
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:45'
+- id: 74628082
+  teams:
+    home: Lagutin, Pavel
+    away: Roehrich, Matthieu
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:55'
+- id: 74628086
+  teams:
+    home: Donald, M. W.
+    away: Oradini, Giovanni
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:55'
+- id: 74628084
+  teams:
+    home: Oetzbach, Adrian
+    away: Basile, Pierluigi
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:40'
+- id: 74286314
+  teams:
+    home: Droguet, Titouan
+    away: Lajal, Mark
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 74283544
+  teams:
+    home: Seyboth Wild, Thiago
+    away: Martinez, Pedro
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:10'
+- id: 74625530
+  teams:
+    home: Honda, Naoya
+    away: Duan, Hao
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 74625542
+  teams:
+    home: Leong, Mitsuki Wei Kang
+    away: Hongyu, Ye
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 74625540
+  teams:
+    home: Liu, Hanyi
+    away: Demin, Yaroslav
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 74625528
+  teams:
+    home: Trongcharoenchaikul, Wishaya
+    away: Flores, Jesse
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 08:00
+- id: 74625532
+  teams:
+    home: Haliak, Mikalai
+    away: Kikuchi, Yuta
+  score:
+    home: null
+    away: null
+  status: result
+  time: 09:15
+- id: 74625538
+  teams:
+    home: Binda, Alexander
+    away: Uesugi, Kaito
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:25
+- id: 74625534
+  teams:
+    home: Huang, Tsung-Hao
+    away: Chen, Xing Dao
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:40
+- id: 74625550
+  teams:
+    home: Trotter, James Kent
+    away: Liu, Ziyu
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 74625536
+  teams:
+    home: Sumizawa, Daisuke
+    away: Ogura, Kosuke
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:20'
+- id: 74625544
+  teams:
+    home: Delaney, Jesse
+    away: Takahashi, Yusuke
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:30'
+- id: 74625546
+  teams:
+    home: Zhukov, Maxim
+    away: Loof, Thijmen
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:35'
+- id: 74625548
+  teams:
+    home: Yang, Zijiang
+    away: Fancutt, Thomas
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:30'
+- id: 74287650
+  teams:
+    home: Friend, Jay
+    away: Basing, Max
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:00'
+- id: 74285090
+  teams:
+    home: Weber, Arthur
+    away: Simakin, Ilia
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 03:00
+- id: 74626384
+  teams:
+    home: Balsekar, Aditya
+    away: Charlton, Joshua
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 03:00
+- id: 74626386
+  teams:
+    home: Dzhavakian, Yurii
+    away: Lomakin, Grigoriy
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 03:00
+- id: 74626398
+  teams:
+    home: Kawahashi, Yuta
+    away: Borisiouk, Martin
+  score:
+    home: null
+    away: null
+  status: result
+  time: 03:00
+- id: 74626400
+  teams:
+    home: Cook, Ethan
+    away: Heck, Hunter
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:20
+- id: 74626406
+  teams:
+    home: Peliwo, Filip
+    away: Rathi, Arjun
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:00
+- id: 74626396
+  teams:
+    home: Cuong, Tran Quoc
+    away: Kim, Dong Ju
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:20
+- id: 74626392
+  teams:
+    home: Nguyen, Minh Phat
+    away: Matsuda, Ryuki
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:20
+- id: 74626404
+  teams:
+    home: Suksumrarn, Thantub
+    away: Ryan Ziegann, Sam
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:40
+- id: 74626394
+  teams:
+    home: Agafonov, Egor
+    away: Yamanaka, Taiyo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:20
+- id: 74626402
+  teams:
+    home: Dev, S D Prajwal
+    away: Hoang, Thanh-Trung
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:00
+- id: 74626390
+  teams:
+    home: Derepasko, Timofei
+    away: Storch, Stefan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:05
+- id: 74626388
+  teams:
+    home: Ianin, Nikita
+    away: Ichikawa, Taisei
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:25
+- id: 74628270
+  teams:
+    home: Brouwer, Gijs
+    away: Ghazouani Durand, Yanis
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 08:00
+- id: 74628272
+  teams:
+    home: Poling, Karl
+    away: Slavic, Nikola
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 08:00
+- id: 74628286
+  teams:
+    home: Brady, Patrick
+    away: Sahtali, Toufik
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:15'
+- id: 74628288
+  teams:
+    home: Schoenhaus, Max
+    away: Ganesan, Adhithya
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:20'
+- id: 74628274
+  teams:
+    home: Reymond, Arthur
+    away: Janvier, Maxime
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:40'
+- id: 74628266
+  teams:
+    home: De Schepper, Kenny
+    away: Barroso Campos, Alberto
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '13:05'
+- id: 74628276
+  teams:
+    home: Zahraj, Patrick
+    away: Sheehy, Joshua
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:15'
+- id: 74628268
+  teams:
+    home: Potenza, Luca
+    away: Bass, Finn
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:10'
+- id: 74628282
+  teams:
+    home: Sanchez, Luca
+    away: de Jonge, Daniel
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:55'
+- id: 74628284
+  teams:
+    home: Masur, Daniel
+    away: Gobat, Adrien
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:25'
+- id: 74628278
+  teams:
+    home: Kobelt, Alex
+    away: Bobichon, Matisse
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '17:40'
+- id: 74628280
+  teams:
+    home: Boulais, Justin
+    away: Arribage, Theo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '18:55'
+- id: 74283882
+  teams:
+    home: Diaz Acosta, Facundo
+    away: Lajovic, Dusan
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '17:30'
+- id: 74284302
+  teams:
+    home: Ivashka, Ilya
+    away: Sharipov, Marat
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 08:00
 ice_hockey:
 - id: 72118742
   teams:
@@ -52,9 +628,9 @@ ice_hockey:
     home: Kolin
     away: Banik Sokolov
   score:
-    home: 4
+    home: 5
     away: 4
-  status: live
+  status: result
   time: '14:00'
 table_tennis:
 - id: 74586090
