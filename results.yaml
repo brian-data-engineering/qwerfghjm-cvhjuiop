@@ -1,7 +1,61 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73373958
+  teams:
+    home: Kirchheim
+    away: Ludwigsburg
+  score:
+    home: 73
+    away: 98
+  status: result
+  time: '13:00'
+- id: 73373960
+  teams:
+    home: Fraport Skyliners
+    away: Jena
+  score:
+    home: 94
+    away: 63
+  status: result
+  time: '14:30'
+- id: 73373962
+  teams:
+    home: Heidelberg
+    away: Oldenburg
+  score:
+    home: 35
+    away: 37
+  status: live
+  time: '16:00'
+- id: 71036348
+  teams:
+    home: Spain
+    away: Germany
+  score:
+    home: 81
+    away: 58
+  status: result
+  time: '14:30'
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 72118742
+  teams:
+    home: Horacka
+    away: Frydek Mistek
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '13:00'
+- id: 72118746
+  teams:
+    home: Kolin
+    away: Banik Sokolov
+  score:
+    home: 4
+    away: 4
+  status: live
+  time: '14:00'
 table_tennis:
 - id: 74586090
   teams:
