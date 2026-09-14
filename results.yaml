@@ -8,6 +8,42 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 73265310
+  teams:
+    home: CA Banfield
+    away: Barracas Central
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '22:00'
+- id: 73265296
+  teams:
+    home: Deportivo Riestra
+    away: Atletico Lanus
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:00'
+- id: 74272024
+  teams:
+    home: Defensores de Belgrano
+    away: Deportivo Madryn
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:30'
+- id: 74234414
+  teams:
+    home: Safa
+    away: Sabah Masazir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
 basketball:
 - id: 74600134
   teams:
@@ -52,7 +88,7 @@ basketball:
   score:
     home: 73
     away: 74
-  status: recentlyended
+  status: result
   time: '18:15'
 tennis:
 - id: 74628302
@@ -348,9 +384,9 @@ tennis:
     home: Cassone, Murphy
     away: Montes-de la Torre, Inaki
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '19:55'
 - id: 74657202
   teams:
