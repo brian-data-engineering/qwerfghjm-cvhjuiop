@@ -17,6 +17,24 @@ soccer:
     away: 1
   status: result
   time: 00:30
+- id: 68823272
+  teams:
+    home: Londrina EC
+    away: Ponte Preta
+  score:
+    home: 3
+    away: 0
+  status: live
+  time: '22:30'
+- id: 68823280
+  teams:
+    home: Nautico PE
+    away: Operario
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '22:30'
 basketball:
 - id: 74600160
   teams:
@@ -81,6 +99,15 @@ basketball:
     away: 85
   status: result
   time: 02:00
+- id: 72154762
+  teams:
+    home: Diablos Rojos Del Mexico
+    away: Correcaminos
+  score:
+    home: 107
+    away: 79
+  status: recentlyended
+  time: '21:00'
 tennis:
 - id: 74702306
   teams:
