@@ -17,8 +17,44 @@ soccer:
     away: 1
   status: result
   time: 00:30
-basketball: []
-tennis: []
+basketball:
+- id: 74600160
+  teams:
+    home: Bangkok University
+    away: Tar Umt Wolverine
+  score:
+    home: 72
+    away: 65
+  status: result
+  time: 07:00
+tennis:
+- id: 74702306
+  teams:
+    home: Almazan Valiente, Izan
+    away: Agamenone, Franco
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 74702298
+  teams:
+    home: Campana Lee, Gerard
+    away: Taberner, Carlos
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 08:00
+- id: 74628306
+  teams:
+    home: Piraino, Gabriele
+    away: Pieri, Samuele
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 08:00
 ice_hockey: []
 table_tennis:
 - id: 74643944
@@ -183,6 +219,60 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 74718618
+  teams:
+    home: Bartunek, Radek
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 74718642
+  teams:
+    home: Kucirek, Ondrej
+    away: Vitrovyj, Oleg
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 74718952
+  teams:
+    home: Volf, Matej
+    away: Hlawatschke, Ales
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:06
+- id: 74718620
+  teams:
+    home: Dolezal, Vaclav
+    away: Kosar, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 74718646
+  teams:
+    home: Klusacek, Patrik
+    away: Steffan, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 74718954
+  teams:
+    home: Pycha, Patrik
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
 - id: 74684342
   teams:
     home: Kolisnyk, Oleksandr
