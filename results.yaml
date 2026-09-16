@@ -27,6 +27,15 @@ basketball:
     away: 46
   status: result
   time: 07:00
+- id: 74525118
+  teams:
+    home: Sloboda
+    away: Kk Primorje Hn 1945
+  score:
+    home: 62
+    away: 52
+  status: live
+  time: '16:00'
 tennis:
 - id: 74533182
   teams:
@@ -60,9 +69,9 @@ tennis:
     home: Roca Batalla, Oriol
     away: Napolitano, Stefano
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '12:35'
 - id: 74626434
   teams:
@@ -73,7 +82,169 @@ tennis:
     away: 1
   status: result
   time: 08:00
-ice_hockey: []
+ice_hockey:
+- id: 72019102
+  teams:
+    home: Budejovice
+    away: Mlada Bo.
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '15:30'
+- id: 72019104
+  teams:
+    home: Litvinov
+    away: Kometa
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72019108
+  teams:
+    home: Plzen
+    away: Bili Tygri
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72019106
+  teams:
+    home: Vitkovice
+    away: Rytiri Kladno
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72019112
+  teams:
+    home: Olomouc
+    away: Sparta Prague
+  score:
+    home: 1
+    away: 3
+  status: live
+  time: '16:00'
+- id: 72019110
+  teams:
+    home: Pardubice
+    away: Mountfield HK
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '16:00'
+- id: 72118882
+  teams:
+    home: Frydek Mistek
+    away: Slavia Prague
+  score:
+    home: 4
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 72118884
+  teams:
+    home: Vsetin
+    away: Zlin
+  score:
+    home: 6
+    away: 0
+  status: live
+  time: '15:30'
+- id: 72118892
+  teams:
+    home: Banik Sokolov
+    away: Dukla
+  score:
+    home: 4
+    away: 2
+  status: live
+  time: '16:00'
+- id: 72118890
+  teams:
+    home: Kolin
+    away: HC Dynamo Pardubice B
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
+- id: 72118888
+  teams:
+    home: Litomerice
+    away: Horacka
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:00'
+- id: 72118894
+  teams:
+    home: Tabor
+    away: Havirov
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:00'
+- id: 72118886
+  teams:
+    home: Zubr Prerov
+    away: Chomutov
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:00'
+- id: 72116212
+  teams:
+    home: HIFK
+    away: Jukurit
+  score:
+    home: 4
+    away: 5
+  status: live
+  time: '15:30'
+- id: 72116216
+  teams:
+    home: Karpat
+    away: Ilves
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:30'
+- id: 72116214
+  teams:
+    home: KooKoo
+    away: JYP
+  score:
+    home: 2
+    away: 4
+  status: live
+  time: '15:30'
+- id: 72117322
+  teams:
+    home: K-Vantaa
+    away: Jokipojat
+  score:
+    home: 4
+    away: 2
+  status: live
+  time: '15:30'
+- id: 72117324
+  teams:
+    home: Pyry
+    away: Keupa
+  score:
+    home: 4
+    away: 1
+  status: live
+  time: '15:30'
 table_tennis:
 - id: 74686336
   teams:
