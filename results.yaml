@@ -1,6 +1,240 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 74533130
+  teams:
+    home: Caniato, Carlo Alberto
+    away: Almazan Valiente, Izan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 74533124
+  teams:
+    home: Forti, Francesco
+    away: Brunold, Mika
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:00'
+- id: 74533214
+  teams:
+    home: Compagnucci, Tommaso
+    away: Martin Manzano, Juan Cruz
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:25'
+- id: 74533136
+  teams:
+    home: Barrena, Alex
+    away: Pieri, Samuele
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:45'
+- id: 74533172
+  teams:
+    home: Blancaneaux G / Chazal M
+    away: Agamenone F / Zeitune M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '11:00'
+- id: 74533146
+  teams:
+    home: Forti F / Romano F
+    away: Lock B / Lock C J
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:00'
+- id: 74533164
+  teams:
+    home: Caniato C A / Giunta M
+    away: Campana Lee G / Marti Pujolras A
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:30'
+- id: 74533110
+  teams:
+    home: Bar Biryukov, Petr
+    away: Honda, Naoya
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:30
+- id: 74533054
+  teams:
+    home: Binda, Alexander
+    away: Sun, Fajing
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 07:30
+- id: 74533060
+  teams:
+    home: Trotter, James Kent
+    away: Leong, Mitsuki Wei Kang
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:30
+- id: 74533078
+  teams:
+    home: Tomic, Bernard
+    away: Delaney, Jake
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:55'
+- id: 74533080
+  teams:
+    home: Hsu J C E / Zheng B
+    away: Loof T / Uesugi K
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:05
+- id: 74533114
+  teams:
+    home: Fancutt T / Watanabe S
+    away: Hsieh C-P / Huang T-H
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:10
+- id: 74533066
+  teams:
+    home: Trotter J K / Uchida K
+    away: Bayldon B / Kadhe A
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:30'
+- id: 74533104
+  teams:
+    home: Reyes-Varela M A / Stalder R
+    away: Santillan A / Sun F
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '12:15'
+- id: 74533230
+  teams:
+    home: Borisiouk, Martin
+    away: Bax, Florent
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 03:00
+- id: 74533238
+  teams:
+    home: Hewitt, Cruz
+    away: Bittoun Kouzmine, Constantin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 03:00
+- id: 74533178
+  teams:
+    home: Kouame, Moise
+    away: Peliwo, Filip
+  score:
+    home: null
+    away: null
+  status: result
+  time: 03:00
+- id: 74533212
+  teams:
+    home: Ellis, Blake
+    away: Simakin, Ilia
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:40
+- id: 74612838
+  teams:
+    home: Alcantara F C / Papa C
+    away: Heck H / Miyoshi K
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 03:00
+- id: 74533210
+  teams:
+    home: Ichikawa T / Imamura M
+    away: Heck H / Miyoshi K
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 04:15
+- id: 74533204
+  teams:
+    home: Charlton J / Shimizu Y
+    away: Masabayashi T / Suksumrarn T
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:20
+- id: 74533222
+  teams:
+    home: Matsuda R / Sharma A
+    away: Bittoun Kouzmine C / Dev S D P
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:10
+- id: 74533216
+  teams:
+    home: Borisiouk M / Ianin N
+    away: Jeong Y S / Matsuda K
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:35
+- id: 74533086
+  teams:
+    home: Matusevich, Anton
+    away: Schoolkate, Tristan
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 74533100
+  teams:
+    home: Maestrelli, Francesco
+    away: Ghazouani Durand, Yanis
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '11:30'
 ice_hockey: []
 table_tennis:
 - id: 74733156
@@ -469,7 +703,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 74761690
   teams:
@@ -478,7 +712,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
 - id: 74776644
   teams:
@@ -487,5 +721,176 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:30
+- id: 74791842
+  teams:
+    home: Kolek, Matyas
+    away: Varecha, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 74791726
+  teams:
+    home: Rybar, Vaclav
+    away: Levicky, Matej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 74791946
+  teams:
+    home: Stolfa, Jakub
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 74791732
+  teams:
+    home: Vaclavik, Miroslav
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 74791752
+  teams:
+    home: Zuzanek, Jiri
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 74791734
+  teams:
+    home: Hruska, Vaclav Senior
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 74791728
+  teams:
+    home: Kaspar, Michal
+    away: Banot, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 74791896
+  teams:
+    home: Koral, Michal
+    away: Zurek, Filip
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 74791754
+  teams:
+    home: Wagner, Richard
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 74791788
+  teams:
+    home: Zmuda, Petr
+    away: Volf, Matej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 74776692
+  teams:
+    home: Koch, Jiri
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 74761876
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 74762854
+  teams:
+    home: Sionkala, Eduard
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 74761874
+  teams:
+    home: Urbaniec, Radim
+    away: Wagner, Richard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 74761786
+  teams:
+    home: Varcl, Matej
+    away: Kasinski, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 74762866
+  teams:
+    home: Koral, Michal
+    away: Kolek, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 74761746
+  teams:
+    home: Kubat, Vladimir
+    away: Stary, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 74795420
+  teams:
+    home: Sychra, Martin
+    away: Zuzanek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 74761700
+  teams:
+    home: Szotkowski, Jan
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
