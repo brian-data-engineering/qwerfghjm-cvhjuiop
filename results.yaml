@@ -5,9 +5,18 @@ soccer:
     away: CR Belouizdad
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '17:00'
+- id: 74506142
+  teams:
+    home: CR Temouchent
+    away: JS Kabylie
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '19:00'
 basketball:
 - id: 72626958
   teams:
@@ -16,7 +25,7 @@ basketball:
   score:
     home: 79
     away: 109
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 74702286
   teams:
@@ -61,8 +70,71 @@ basketball:
   score:
     home: 94
     away: 93
-  status: recentlyended
+  status: result
   time: '15:45'
+- id: 74748384
+  teams:
+    home: Benfica Lisboa
+    away: Vechta
+  score:
+    home: 88
+    away: 98
+  status: result
+  time: '18:00'
+- id: 73658918
+  teams:
+    home: Gargzdai
+    away: Zalgiris
+  score:
+    home: 77
+    away: 98
+  status: result
+  time: '15:50'
+- id: 72154774
+  teams:
+    home: Fuerza Regia
+    away: Mineros de Zacatecas
+  score:
+    home: 87
+    away: 84
+  status: result
+  time: 01:15
+- id: 72154766
+  teams:
+    home: Dorados de Chihuahua
+    away: El Calor de Cancun
+  score:
+    home: 97
+    away: 86
+  status: result
+  time: 02:00
+- id: 72154768
+  teams:
+    home: Gambusinos De Fresnillo
+    away: Santos de San Luis
+  score:
+    home: 78
+    away: 109
+  status: result
+  time: 02:00
+- id: 72154770
+  teams:
+    home: Lobos Plateados de la Buap
+    away: Abejas
+  score:
+    home: 80
+    away: 67
+  status: result
+  time: 02:00
+- id: 72154776
+  teams:
+    home: Panteras
+    away: Astros Jalisco
+  score:
+    home: 95
+    away: 83
+  status: result
+  time: 02:30
 tennis:
 - id: 74533130
   teams:
@@ -117,7 +189,7 @@ ice_hockey:
   score:
     home: 2
     away: 4
-  status: recentlyended
+  status: result
   time: '15:30'
 - id: 72116220
   teams:
@@ -142,9 +214,9 @@ ice_hockey:
     home: Berlin
     away: Straubing
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 4
+    away: 2
+  status: result
   time: '17:30'
 - id: 72122016
   teams:
@@ -153,7 +225,7 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '16:30'
 - id: 72122018
   teams:
@@ -161,8 +233,8 @@ ice_hockey:
     away: Stjernen
   score:
     home: 2
-    away: 4
-  status: live
+    away: 7
+  status: result
   time: '16:30'
 table_tennis:
 - id: 74733156
