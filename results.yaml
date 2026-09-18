@@ -26,6 +26,141 @@ soccer:
     away: 0
   status: result
   time: '18:00'
+- id: 74506150
+  teams:
+    home: ASO Chlef
+    away: MC Oran
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '20:00'
+- id: 73265324
+  teams:
+    home: CA Central Cordoba SE
+    away: Defensa Y Justicia
+  score:
+    home: 3
+    away: 2
+  status: live
+  time: '21:00'
+- id: 72345510
+  teams:
+    home: SK Rapid
+    away: WSG Tirol
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 72440670
+  teams:
+    home: FAC Wien
+    away: FC Liefering
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '16:30'
+- id: 72440676
+  teams:
+    home: KSV 1919
+    away: SKU Amstetten
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '16:30'
+- id: 72440674
+  teams:
+    home: SPG Hogo Wels
+    away: First Vienna FC
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72440666
+  teams:
+    home: Blau-Weiss Linz
+    away: FC Admira Wacker Modling
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:30'
+- id: 73409260
+  teams:
+    home: Gabala FK
+    away: Neftchi Baku PFC
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 73409264
+  teams:
+    home: Qarabag FK
+    away: Safa
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '15:45'
+- id: 74111100
+  teams:
+    home: FC Belshina Bobruisk
+    away: FC Minsk
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:30'
+- id: 74111102
+  teams:
+    home: Maxline Vitebsk
+    away: FK Arsenal Dzerzhinsk
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72203056
+  teams:
+    home: KAA Gent
+    away: Standard Liege
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:45'
+- id: 72302142
+  teams:
+    home: Club Brugge KV U23
+    away: KAA Gent U23
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '18:00'
+- id: 72302144
+  teams:
+    home: Royal Francs Borains
+    away: RSC Anderlecht U23
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 74448058
+  teams:
+    home: FK Zeljeznicar Sarajevo
+    away: NK Celik Zenica
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '18:00'
 basketball:
 - id: 73451716
   teams:
@@ -97,7 +232,7 @@ basketball:
   score:
     home: 90
     away: 69
-  status: recentlyended
+  status: result
   time: '18:15'
 - id: 74023060
   teams:
@@ -149,9 +284,9 @@ basketball:
     home: Rinascita Basket Rimini
     away: Pesaro
   score:
-    home: 60
-    away: 47
-  status: live
+    home: 82
+    away: 80
+  status: result
   time: '19:15'
 - id: 72154778
   teams:
@@ -386,7 +521,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '19:25'
 - id: 74533148
   teams:
@@ -467,8 +602,26 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
+- id: 74532976
+  teams:
+    home: Zheng, Michael
+    away: Krueger, Mitchell
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '20:30'
+- id: 74532980
+  teams:
+    home: Shelbayh, Abdullah
+    away: Mmoh, Michael
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '22:15'
 ice_hockey:
 - id: 73238290
   teams:
@@ -522,7 +675,7 @@ ice_hockey:
   score:
     home: 4
     away: 2
-  status: recentlyended
+  status: result
   time: '17:45'
 - id: 73238302
   teams:
@@ -531,7 +684,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:45'
 - id: 72019116
   teams:
