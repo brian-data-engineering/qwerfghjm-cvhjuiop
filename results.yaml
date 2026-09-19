@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 74506152
+  teams:
+    home: Olympique Akbou
+    away: USM Alger
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
 basketball:
 - id: 72016760
   teams:
@@ -23,10 +32,19 @@ basketball:
     home: JIP Pardubice
     away: Brno BC
   score:
-    home: 28
-    away: 17
-  status: live
+    home: 85
+    away: 79
+  status: result
   time: '14:00'
+- id: 72626964
+  teams:
+    home: Opava
+    away: NH Ostrava
+  score:
+    home: 68
+    away: 79
+  status: live
+  time: '16:00'
 tennis:
 - id: 74533152
   teams:
@@ -42,9 +60,9 @@ tennis:
     home: Moro Canas, Alejandro
     away: Clarke, Jay
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: '13:10'
 - id: 74533138
   teams:
@@ -61,10 +79,19 @@ ice_hockey:
     home: Fehervar
     away: Olimpija Ljubljana
   score:
-    home: 0
-    away: 3
-  status: live
+    home: 2
+    away: 6
+  status: result
   time: '14:00'
+- id: 73238306
+  teams:
+    home: Innsbruck
+    away: Vienna Capitals
+  score:
+    home: 4
+    away: 5
+  status: recentlyended
+  time: '15:30'
 table_tennis:
 - id: 74791596
   teams:
