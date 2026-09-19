@@ -8,6 +8,42 @@ soccer:
     away: 3
   status: result
   time: '15:00'
+- id: 74506154
+  teams:
+    home: ES Setif
+    away: CS Constantine
+  score:
+    home: 5
+    away: 1
+  status: recentlyended
+  time: '17:55'
+- id: 73265342
+  teams:
+    home: Racing Club Avellaneda
+    away: CA Sarmiento Junin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:15
+- id: 73265334
+  teams:
+    home: Gimnasia Y Esgrima La Plata
+    away: CA Banfield
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '17:30'
+- id: 73265322
+  teams:
+    home: Gimnasia y Esgrima Mendoza
+    away: Deportivo Riestra
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '17:30'
 basketball:
 - id: 72016760
   teams:
@@ -41,10 +77,217 @@ basketball:
     home: Opava
     away: NH Ostrava
   score:
-    home: 68
-    away: 79
-  status: live
+    home: 77
+    away: 89
+  status: result
   time: '16:00'
+- id: 72626962
+  teams:
+    home: Praha
+    away: SK Slavia Prague
+  score:
+    home: 80
+    away: 88
+  status: recentlyended
+  time: '18:00'
+- id: 73451720
+  teams:
+    home: Braunschweig
+    away: Trier
+  score:
+    home: 116
+    away: 107
+  status: result
+  time: '16:30'
+- id: 73451718
+  teams:
+    home: Rostock Seawolves
+    away: Hagen
+  score:
+    home: 102
+    away: 92
+  status: result
+  time: '16:30'
+- id: 73451722
+  teams:
+    home: Bonn
+    away: Hamburg
+  score:
+    home: 96
+    away: 72
+  status: recentlyended
+  time: '18:00'
+- id: 74282152
+  teams:
+    home: Ford Burgos
+    away: CD Estela
+  score:
+    home: 79
+    away: 88
+  status: result
+  time: '10:00'
+- id: 74835334
+  teams:
+    home: Trabzonspor
+    away: Bursaspor
+  score:
+    home: 87
+    away: 74
+  status: result
+  time: '12:00'
+- id: 74835336
+  teams:
+    home: Tofas Bursa
+    away: Galatasaray
+  score:
+    home: 81
+    away: 76
+  status: result
+  time: '14:30'
+- id: 74326432
+  teams:
+    home: Galitos Barreiro
+    away: Abc Santo Andre
+  score:
+    home: 77
+    away: 65
+  status: result
+  time: '15:30'
+- id: 74832256
+  teams:
+    home: Panathinaikos
+    away: PAOK
+  score:
+    home: 87
+    away: 81
+  status: result
+  time: '17:00'
+- id: 74352096
+  teams:
+    home: Estudiantes
+    away: Fuenlabrada
+  score:
+    home: 100
+    away: 90
+  status: recentlyended
+  time: '17:45'
+- id: 74732946
+  teams:
+    home: Viana / Nortaluga
+    away: Basq. de Barcelos
+  score:
+    home: 26
+    away: 34
+  status: live
+  time: '19:30'
+- id: 74235652
+  teams:
+    home: Fenerbahce Istanbul
+    away: Dubai
+  score:
+    home: 85
+    away: 77
+  status: result
+  time: '14:00'
+- id: 74235654
+  teams:
+    home: Olympiakos Piraeus
+    away: Real Madrid
+  score:
+    home: 89
+    away: 93
+  status: result
+  time: '17:00'
+- id: 74803790
+  teams:
+    home: Dziki Warszawa
+    away: L. Rio Breogan
+  score:
+    home: 113
+    away: 110
+  status: result
+  time: '15:00'
+- id: 74803786
+  teams:
+    home: Promitheas Patras
+    away: Vechta
+  score:
+    home: 73
+    away: 103
+  status: result
+  time: '17:30'
+- id: 72905538
+  teams:
+    home: Derthona
+    away: Venezia
+  score:
+    home: 90
+    away: 98
+  status: result
+  time: '15:00'
+- id: 72905536
+  teams:
+    home: Milano
+    away: Bologna
+  score:
+    home: 80
+    away: 71
+  status: recentlyended
+  time: '17:45'
+- id: 73658920
+  teams:
+    home: Lietkabelis
+    away: Juventus
+  score:
+    home: 84
+    away: 82
+  status: result
+  time: '13:50'
+- id: 73658922
+  teams:
+    home: Taurages Taurage
+    away: BC Jonava
+  score:
+    home: 95
+    away: 90
+  status: result
+  time: '16:10'
+- id: 73062050
+  teams:
+    home: Joventut
+    away: Baskonia
+  score:
+    home: 96
+    away: 84
+  status: result
+  time: '16:00'
+- id: 73062052
+  teams:
+    home: Valencia
+    away: Barcelona
+  score:
+    home: 40
+    away: 45
+  status: live
+  time: '19:00'
+- id: 68096146
+  teams:
+    home: Golden State
+    away: Portland Fire
+  score:
+    home: 82
+    away: 66
+  status: result
+  time: 02:00
+- id: 68096190
+  teams:
+    home: Dallas
+    away: Phoenix
+  score:
+    home: 87
+    away: 82
+  status: result
+  time: '17:00'
 tennis:
 - id: 74533152
   teams:
@@ -90,8 +333,17 @@ ice_hockey:
   score:
     home: 4
     away: 5
-  status: recentlyended
+  status: result
   time: '15:30'
+- id: 73238308
+  teams:
+    home: Pioneers Vorarlberg
+    away: Graz 99ers
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
 table_tennis:
 - id: 74791596
   teams:
