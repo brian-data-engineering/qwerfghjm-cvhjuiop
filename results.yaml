@@ -15,7 +15,7 @@ soccer:
   score:
     home: 5
     away: 1
-  status: recentlyended
+  status: result
   time: '17:55'
 - id: 73265342
   teams:
@@ -44,6 +44,15 @@ soccer:
     away: 0
   status: result
   time: '17:30'
+- id: 73265328
+  teams:
+    home: Union de Santa Fe
+    away: CA Independiente Avellaneda
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '19:45'
 basketball:
 - id: 72016760
   teams:
@@ -88,7 +97,7 @@ basketball:
   score:
     home: 80
     away: 88
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73451720
   teams:
@@ -115,7 +124,7 @@ basketball:
   score:
     home: 96
     away: 72
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 74282152
   teams:
@@ -169,16 +178,16 @@ basketball:
   score:
     home: 100
     away: 90
-  status: recentlyended
+  status: result
   time: '17:45'
 - id: 74732946
   teams:
     home: Viana / Nortaluga
     away: Basq. de Barcelos
   score:
-    home: 26
-    away: 34
-  status: live
+    home: 58
+    away: 75
+  status: result
   time: '19:30'
 - id: 74235652
   teams:
@@ -232,7 +241,7 @@ basketball:
   score:
     home: 80
     away: 71
-  status: recentlyended
+  status: result
   time: '17:45'
 - id: 73658920
   teams:
@@ -266,9 +275,9 @@ basketball:
     home: Valencia
     away: Barcelona
   score:
-    home: 40
-    away: 45
-  status: live
+    home: 86
+    away: 87
+  status: result
   time: '19:00'
 - id: 68096146
   teams:
