@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74791768
   teams:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74791890
   teams:
@@ -82,5 +82,131 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 74791908
+  teams:
+    home: Hampl, Michal
+    away: Ruzicka, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74791876
+  teams:
+    home: Holubec, Jiri
+    away: Sychra, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74791544
+  teams:
+    home: Kucirek, Ondrej
+    away: Placek, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74791552
+  teams:
+    home: Horak, David
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 74791826
+  teams:
+    home: Pycha, Patrik
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74791926
+  teams:
+    home: Urbaniec, Radim
+    away: Rose, Radek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 74791560
+  teams:
+    home: Placek, Marek
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 74791766
+  teams:
+    home: Ruzicka, Jiri
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 74791798
+  teams:
+    home: Sychra, Martin
+    away: Hradecky, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 74819506
+  teams:
+    home: Hrabec, Jan
+    away: Hanel, Patrik
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 06:00
+- id: 74819348
+  teams:
+    home: Saleny, Petr
+    away: Tazler, Jakub
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
+- id: 74819636
+  teams:
+    home: Simecek, Jakub
+    away: Walek, Adrian
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 06:00
+- id: 74819446
+  teams:
+    home: Syroha, Michal
+    away: Hyrsl, Jiri
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:00
+- id: 74819436
+  teams:
+    home: Vejvoda, Viktor
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:00
