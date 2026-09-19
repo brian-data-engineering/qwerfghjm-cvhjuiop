@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016760
+  teams:
+    home: Melbourne Utd.
+    away: Adelaide
+  score:
+    home: 90
+    away: 93
+  status: live
+  time: 09:30
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -170,9 +179,9 @@ table_tennis:
     home: Hrabec, Jan
     away: Hanel, Patrik
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 06:00
 - id: 74819348
   teams:
@@ -180,17 +189,17 @@ table_tennis:
     away: Tazler, Jakub
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 06:00
 - id: 74819636
   teams:
     home: Simecek, Jakub
     away: Walek, Adrian
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 06:00
 - id: 74819446
   teams:
@@ -199,7 +208,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:00
 - id: 74819436
   teams:
@@ -208,5 +217,5 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 06:00
