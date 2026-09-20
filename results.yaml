@@ -33,10 +33,37 @@ tennis:
     home: Caniato, Carlo Alberto
     away: Moro Canas, Alejandro
   score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:30
+- id: 74861370
+  teams:
+    home: Descotte, Matias Franco
+    away: De la Fuente, Santiago
+  score:
     home: 0
     away: 0
   status: live
-  time: 09:30
+  time: '13:00'
+- id: 74861356
+  teams:
+    home: Fernandez, Bruno
+    away: Pagani, Dante
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:00'
+- id: 74861354
+  teams:
+    home: Garcia Longo, Nicolas
+    away: Farjat, Tomas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '13:00'
 ice_hockey: []
 table_tennis:
 - id: 74819472
@@ -201,6 +228,60 @@ table_tennis:
     away: 0
   status: result
   time: 02:30
+- id: 74865250
+  teams:
+    home: Darin, Kyryl
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 74866560
+  teams:
+    home: Pavelka, Radim
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:02
+- id: 74866614
+  teams:
+    home: Berdych, Pavel
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:06
+- id: 74865252
+  teams:
+    home: Fojt, Pavel
+    away: Mikuska, Alexander
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 74866616
+  teams:
+    home: Pelikan, Josef
+    away: Novotny, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 74866562
+  teams:
+    home: Trefny, Jan
+    away: Kouble, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
 - id: 74849430
   teams:
     home: Horak, David
