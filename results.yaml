@@ -27,6 +27,78 @@ basketball:
     away: 90
   status: result
   time: 07:00
+- id: 72626966
+  teams:
+    home: BK Olomoucko
+    away: BK Gapa Hradec Kralove
+  score:
+    home: 81
+    away: 93
+  status: result
+  time: '15:00'
+- id: 72626968
+  teams:
+    home: Usti Nad Labem
+    away: Sokol Pisek
+  score:
+    home: 58
+    away: 48
+  status: live
+  time: '16:00'
+- id: 73451724
+  teams:
+    home: Oldenburg
+    away: Mitteldeutscher BC
+  score:
+    home: 96
+    away: 81
+  status: result
+  time: '13:00'
+- id: 73451726
+  teams:
+    home: Ulm
+    away: Ludwigsburg
+  score:
+    home: 86
+    away: 77
+  status: result
+  time: '14:30'
+- id: 73451728
+  teams:
+    home: B. Munich
+    away: Bamberg
+  score:
+    home: 98
+    away: 64
+  status: live
+  time: '16:00'
+- id: 74752896
+  teams:
+    home: National Taiwan Sport University
+    away: Shanghai Jiaotong University
+  score:
+    home: 55
+    away: 51
+  status: result
+  time: 02:30
+- id: 74458028
+  teams:
+    home: Iberostar
+    away: Bilbao
+  score:
+    home: 96
+    away: 89
+  status: result
+  time: '11:00'
+- id: 74779990
+  teams:
+    home: Uni. Surgut
+    away: BC Desna Bryansk
+  score:
+    home: 85
+    away: 73
+  status: result
+  time: '11:00'
 tennis:
 - id: 74533170
   teams:
@@ -42,18 +114,18 @@ tennis:
     home: Descotte, Matias Franco
     away: De la Fuente, Santiago
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '13:00'
 - id: 74861356
   teams:
     home: Fernandez, Bruno
     away: Pagani, Dante
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '13:00'
 - id: 74861354
   teams:
@@ -61,10 +133,262 @@ tennis:
     away: Farjat, Tomas
   score:
     home: 0
+    away: 2
+  status: result
+  time: '13:00'
+- id: 74861372
+  teams:
+    home: Aboian, Valerio
+    away: Cundom, Julian
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:15'
+- id: 74861352
+  teams:
+    home: Cigarran, Thiago
+    away: Pesino, Santiago
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '15:20'
+- id: 74861350
+  teams:
+    home: Ross, Jackson
+    away: Martinez, Tomas
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:20'
+- id: 74861366
+  teams:
+    home: Aguilar Cardozo, Federico
+    away: Dickerson, Ryan
+  score:
+    home: 0
     away: 0
   status: live
+  time: '17:05'
+ice_hockey:
+- id: 73238310
+  teams:
+    home: BW Linz
+    away: Rossoblu
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: '14:00'
+- id: 73238312
+  teams:
+    home: Klagenfurt
+    away: Pustertal
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '15:30'
+- id: 73238314
+  teams:
+    home: Sudtirol
+    away: Salzburg
+  score:
+    home: 5
+    away: 2
+  status: live
+  time: '16:00'
+- id: 72019130
+  teams:
+    home: Bili Tygri
+    away: Rytiri Kladno
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 72019138
+  teams:
+    home: Budejovice
+    away: Olomouc
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 72019134
+  teams:
+    home: Kometa
+    away: Mountfield HK
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '15:00'
+- id: 72019136
+  teams:
+    home: Pardubice
+    away: Karlovy Vary
+  score:
+    home: 5
+    away: 2
+  status: recentlyended
+  time: '15:00'
+- id: 72019140
+  teams:
+    home: Vitkovice
+    away: Litvinov
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '15:00'
+- id: 73350352
+  teams:
+    home: Frederikshavn
+    away: Esbjerg
+  score:
+    home: 4
+    away: 3
+  status: result
   time: '13:00'
-ice_hockey: []
+- id: 73350354
+  teams:
+    home: Sonderjyske
+    away: Rungsted
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 73350350
+  teams:
+    home: Herlev
+    away: Odense
+  score:
+    home: 1
+    away: 5
+  status: recentlyended
+  time: '15:00'
+- id: 72483902
+  teams:
+    home: Bremerhaven
+    away: Iserlohn
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
+- id: 72483904
+  teams:
+    home: Ingolstadt
+    away: Nuremberg
+  score:
+    home: 2
+    away: 6
+  status: result
+  time: '12:00'
+- id: 72483900
+  teams:
+    home: Mannheim
+    away: Berlin
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '12:00'
+- id: 72483910
+  teams:
+    home: Augsburg
+    away: Villingen-Schwenning
+  score:
+    home: 7
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72483906
+  teams:
+    home: Straubing
+    away: Krefeld
+  score:
+    home: 3
+    away: 6
+  status: result
+  time: '14:30'
+- id: 72483908
+  teams:
+    home: Wolfsburg
+    away: Munich
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '14:30'
+- id: 72483912
+  teams:
+    home: Cologne
+    away: Frankfurt
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '17:00'
+- id: 72677378
+  teams:
+    home: Bietigheim-Bissingen
+    away: "Wei\xDFwasser"
+  score:
+    home: 4
+    away: 3
+  status: live
+  time: '15:00'
+- id: 72677382
+  teams:
+    home: Crimmitschau
+    away: Freiburg
+  score:
+    home: 4
+    away: 1
+  status: recentlyended
+  time: '15:00'
+- id: 72677380
+  teams:
+    home: Landshut
+    away: Dusseldorf
+  score:
+    home: 5
+    away: 5
+  status: live
+  time: '15:00'
+- id: 72677388
+  teams:
+    home: Bad Nauheim
+    away: Weiden
+  score:
+    home: 0
+    away: 3
+  status: live
+  time: '16:30'
+- id: 72677384
+  teams:
+    home: Memmingen Indians
+    away: Dresden
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '16:30'
+- id: 72677386
+  teams:
+    home: Ravensburg
+    away: Regensburg
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '16:30'
 table_tennis:
 - id: 74819472
   teams:
