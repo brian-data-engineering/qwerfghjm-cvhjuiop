@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 73265330
+  teams:
+    home: Instituto AC Cordoba
+    away: CA Talleres de Cordoba
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:15
 basketball: []
 tennis: []
 ice_hockey: []
@@ -8,9 +17,9 @@ table_tennis:
     home: Berdych, Pavel
     away: Havrda, Leos
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 00:00
 - id: 74819556
   teams:
@@ -18,8 +27,8 @@ table_tennis:
     away: Trefny, Jan
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 74819410
   teams:
@@ -28,5 +37,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
+- id: 74819642
+  teams:
+    home: Fojt, Pavel
+    away: Mikuska, Alexander
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 74819510
+  teams:
+    home: Grohsgott, Jiri
+    away: Pelikan, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 74819432
+  teams:
+    home: Prokupek, Jaroslav
+    away: Kouble, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 74819640
+  teams:
+    home: Havrda, Leos
+    away: Novotny, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 74819568
+  teams:
+    home: Holovatiuk, Yurii
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 74819412
+  teams:
+    home: Trefny, Jan
+    away: Pavelka, Radim
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 74819534
+  teams:
+    home: Kouble, Daniel
+    away: Budinsky, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 74819658
+  teams:
+    home: Mikuska, Alexander
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 74819458
+  teams:
+    home: Pelikan, Josef
+    away: Berdych, Pavel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 74819614
+  teams:
+    home: Havrda, Leos
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 74819528
+  teams:
+    home: Holovatiuk, Yurii
+    away: Fojt, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74819590
+  teams:
+    home: Trefny, Jan
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74819612
+  teams:
+    home: Berdych, Pavel
+    away: Novotny, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 74819540
+  teams:
+    home: Budinsky, Petr
+    away: Pavelka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 74819486
+  teams:
+    home: Darin, Kyryl
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
