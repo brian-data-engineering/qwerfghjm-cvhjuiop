@@ -17,6 +17,24 @@ soccer:
     away: 2
   status: result
   time: '17:45'
+- id: 73265318
+  teams:
+    home: CA Platense
+    away: Newells Old Boys
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '20:00'
+- id: 73265332
+  teams:
+    home: CA Rosario Central
+    away: Argentinos Juniors
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '20:00'
 basketball:
 - id: 72016764
   teams:
@@ -149,9 +167,9 @@ basketball:
     home: Ueb Cividale
     away: Rinascita Basket Rimini
   score:
-    home: 67
-    away: 61
-  status: live
+    home: 85
+    away: 74
+  status: result
   time: '19:00'
 - id: 73658924
   teams:
@@ -180,6 +198,15 @@ basketball:
     away: 80
   status: result
   time: 00:15
+- id: 72154782
+  teams:
+    home: El Calor de Cancun
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 23
+    away: 16
+  status: live
+  time: '22:15'
 tennis:
 - id: 74533170
   teams:
@@ -244,33 +271,6 @@ tennis:
     away: 2
   status: result
   time: '15:20'
-- id: 74861366
-  teams:
-    home: Aguilar Cardozo, Federico
-    away: Dickerson, Ryan
-  score:
-    home: 1
-    away: 0
-  status: live
-  time: '17:05'
-- id: 74861360
-  teams:
-    home: Rodriguez, Lorenzo Joaquin
-    away: Meneo, Tadeo
-  score:
-    home: 0
-    away: 0
-  status: live
-  time: '17:35'
-- id: 74861364
-  teams:
-    home: Rodriguez Taverna, Santiago
-    away: Bruna, Nicolas
-  score:
-    home: 0
-    away: 0
-  status: live
-  time: '17:50'
 ice_hockey:
 - id: 73238310
   teams:
