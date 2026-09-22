@@ -1,23 +1,50 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016770
+  teams:
+    home: Brisbane
+    away: Breakers
+  score:
+    home: 88
+    away: 85
+  status: result
+  time: 09:30
+- id: 74630160
+  teams:
+    home: Egis
+    away: Knights
+  score:
+    home: 91
+    away: 80
+  status: result
+  time: 06:30
+- id: 74717812
+  teams:
+    home: Novosibirsk
+    away: Kupol-Rodniki Izhevsk
+  score:
+    home: 89
+    away: 72
+  status: result
+  time: 09:00
 tennis:
 - id: 74926896
   teams:
     home: Bar Biryukov, Petr
     away: Ilagan, Andre
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 05:00
 - id: 74926898
   teams:
     home: Muller, Alexandre
     away: Pavlovic, Luka
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: 05:00
 - id: 74926892
   teams:
@@ -25,9 +52,135 @@ tennis:
     away: Galarneau, Alexis
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: 05:00
+- id: 74926894
+  teams:
+    home: Harris, Lloyd
+    away: Miyoshi, Kenta (2004)
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 06:50
+- id: 74926902
+  teams:
+    home: Mochizuki, Shintaro
+    away: Xiao, Linang
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 07:30
+- id: 74926900
+  teams:
+    home: Castelnuovo, Luca
+    away: Kotov, Pavel
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 07:40
+- id: 74926888
+  teams:
+    home: Uchida, Kaichi
+    away: Cina, Federico
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:30
+- id: 74926890
+  teams:
+    home: Basilashvili, Nikoloz
+    away: Lu, Hanlei
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:25'
+- id: 74927266
+  teams:
+    home: Bolt, Alex
+    away: Jasika, Omar
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 04:00
+- id: 74927258
+  teams:
+    home: Daniel, Taro
+    away: Delaney, Jake
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 04:00
+- id: 74927264
+  teams:
+    home: Kang, Kaigaoge
+    away: Santillan, Akira
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:00
+- id: 74927262
+  teams:
+    home: Tomic, Bernard
+    away: TE, Rigele
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 05:30
+- id: 74927270
+  teams:
+    home: Svrcina, Dalibor
+    away: Sekulic, Philip
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:45
+- id: 74927256
+  teams:
+    home: Weber, Arthur
+    away: Matsuoka, Hayato
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:45
+- id: 74927268
+  teams:
+    home: Imamura, Masamichi
+    away: Noguchi, Rio
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:10
+- id: 74927260
+  teams:
+    home: Sun, Fajing
+    away: Dellavedova, Matthew
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 08:25
+- id: 74967948
+  teams:
+    home: Bouzkova, Marie
+    away: Kartal, Sonay
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: 09:00
 ice_hockey: []
 table_tennis:
 - id: 74874384
