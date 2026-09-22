@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 74136252
+  teams:
+    home: US Biskra
+    away: JS Saoura
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '16:00'
 basketball:
 - id: 72016770
   teams:
@@ -27,6 +36,15 @@ basketball:
     away: 72
   status: result
   time: 09:00
+- id: 74717814
+  teams:
+    home: Barnaul Altayskiy K.
+    away: Tobolsk
+  score:
+    home: 96
+    away: 75
+  status: result
+  time: '12:00'
 tennis:
 - id: 74926896
   teams:
@@ -179,9 +197,27 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: 09:00
-ice_hockey: []
+- id: 74967952
+  teams:
+    home: Noskova, Linda
+    away: Boulter, Katie
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:30'
+ice_hockey:
+- id: 72019434
+  teams:
+    home: Pardubice
+    away: Bili Tygri
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:00'
 table_tennis:
 - id: 74874384
   teams:
