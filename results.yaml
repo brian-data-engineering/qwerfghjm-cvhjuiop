@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 0
-  status: live
+  status: result
   time: '16:00'
 basketball:
 - id: 72016770
@@ -45,6 +45,15 @@ basketball:
     away: 75
   status: result
   time: '12:00'
+- id: 74657392
+  teams:
+    home: Iraklis 2022
+    away: AO Mykonoy
+  score:
+    home: 84
+    away: 73
+  status: result
+  time: '17:00'
 tennis:
 - id: 74926896
   teams:
@@ -214,10 +223,280 @@ ice_hockey:
     home: Pardubice
     away: Bili Tygri
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 4
+    away: 5
+  status: result
   time: '16:00'
+- id: 72019142
+  teams:
+    home: Sparta Prague
+    away: Mlada Bo.
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '16:30'
+- id: 73350356
+  teams:
+    home: Herning
+    away: Aalborg
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72116244
+  teams:
+    home: HPK
+    away: Lukko
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72116246
+  teams:
+    home: Jokerit
+    away: Pelicans
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72116248
+  teams:
+    home: Tappara
+    away: Karpat
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72484306
+  teams:
+    home: Nuremberg
+    away: Mannheim
+  score:
+    home: 5
+    away: 3
+  status: recentlyended
+  time: '17:30'
+- id: 72166194
+  teams:
+    home: HC Dynamo
+    away: Barys Astana
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '16:30'
+- id: 72166190
+  teams:
+    home: Red Star Kunlun
+    away: Avtomobilist
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72166192
+  teams:
+    home: Torpedo NN
+    away: Avangard Omsk
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '16:30'
+- id: 73705364
+  teams:
+    home: Levice
+    away: Indian Ziar Nad Hronom
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 71696372
+  teams:
+    home: Frolunda
+    away: Farjestad
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:00'
+- id: 71696368
+  teams:
+    home: Linkoping
+    away: Brynas
+  score:
+    home: 2
+    away: 9
+  status: result
+  time: '17:00'
+- id: 71696376
+  teams:
+    home: Rogle
+    away: Djurgaarden
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 71696370
+  teams:
+    home: Timraa
+    away: Orebro
+  score:
+    home: 1
+    away: 5
+  status: result
+  time: '17:00'
+- id: 71696374
+  teams:
+    home: Vaxjo
+    away: Malmo
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72123304
+  teams:
+    home: Ajoie
+    away: Zurich Lions
+  score:
+    home: 2
+    away: 4
+  status: recentlyended
+  time: '17:45'
+- id: 72123306
+  teams:
+    home: Biel
+    away: Ambri Piotta
+  score:
+    home: 3
+    away: 4
+  status: recentlyended
+  time: '17:45'
+- id: 72123316
+  teams:
+    home: Davos
+    away: Fribourg Gotteron
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '17:45'
+- id: 72123310
+  teams:
+    home: EHC Kloten
+    away: Bern
+  score:
+    home: 1
+    away: 4
+  status: recentlyended
+  time: '17:45'
+- id: 72123308
+  teams:
+    home: Geneva Servette
+    away: Rapperswil
+  score:
+    home: 4
+    away: 2
+  status: recentlyended
+  time: '17:45'
+- id: 72123312
+  teams:
+    home: Lugano
+    away: Zug
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:45'
+- id: 72123314
+  teams:
+    home: Tigers
+    away: Lausanne
+  score:
+    home: 3
+    away: 5
+  status: recentlyended
+  time: '17:45'
+- id: 72710352
+  teams:
+    home: Visp
+    away: Biasca
+  score:
+    home: 5
+    away: 2
+  status: recentlyended
+  time: '17:30'
+- id: 72710358
+  teams:
+    home: Chaux-de-Fonds
+    away: EHC Arosa
+  score:
+    home: 2
+    away: 5
+  status: recentlyended
+  time: '17:45'
+- id: 72710356
+  teams:
+    home: Olten
+    away: Basel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '17:45'
+- id: 72710354
+  teams:
+    home: Sierre-A.
+    away: GCK Lions
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '17:45'
+- id: 72710360
+  teams:
+    home: EHC Chur
+    away: Thurgau
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '18:00'
+- id: 73101456
+  teams:
+    home: Chicago
+    away: Minnesota
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: 00:00
+- id: 73101458
+  teams:
+    home: Dallas
+    away: St Louis
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:00
+- id: 73101454
+  teams:
+    home: Winnipeg
+    away: Colorado
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:00
 table_tennis:
 - id: 74874384
   teams:
