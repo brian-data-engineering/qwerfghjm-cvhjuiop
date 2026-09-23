@@ -9,6 +9,24 @@ basketball:
     away: 87
   status: result
   time: 09:30
+- id: 72627102
+  teams:
+    home: BK Olomoucko
+    away: JIP Pardubice
+  score:
+    home: 46
+    away: 92
+  status: live
+  time: '16:00'
+- id: 72626978
+  teams:
+    home: Decin
+    away: Praha
+  score:
+    home: 58
+    away: 48
+  status: live
+  time: '16:00'
 tennis:
 - id: 74923150
   teams:
@@ -78,9 +96,9 @@ tennis:
     home: Royer, Valentin
     away: Walton, Adam
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '11:30'
 - id: 74960280
   teams:
@@ -134,9 +152,36 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '10:10'
-ice_hockey: []
+- id: 74989938
+  teams:
+    home: Danilina A / Kulambayeva Z
+    away: Bucsa C / Sorribes Tormo S
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:20'
+- id: 74753050
+  teams:
+    home: Dellien, Murkel
+    away: Varillas, Juan Pablo
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+ice_hockey:
+- id: 73238318
+  teams:
+    home: Graz 99ers
+    away: Sudtirol
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
 table_tennis:
 - id: 74918312
   teams:
