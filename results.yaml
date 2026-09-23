@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 74695702
+  teams:
+    home: Curico Unido
+    away: D. Concepcion
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: '21:00'
 basketball:
 - id: 72016772
   teams:
@@ -186,10 +195,55 @@ tennis:
     home: Kicker, Nicolas
     away: Dellien, Hugo
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '20:40'
+- id: 74753048
+  teams:
+    home: Comesana, Francisco
+    away: Aguilar Cardozo, Joaquin
+  score:
     home: 0
     away: 0
   status: live
-  time: '20:40'
+  time: '23:15'
+- id: 74859030
+  teams:
+    home: Ribeiro E / Zormann M
+    away: Aguilar Cardozo J / De la Fuente S
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 00:00
+- id: 74859016
+  teams:
+    home: Azkara A / Dickerson R
+    away: Kestelboim M / Rodriguez Taverna S
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:00'
+- id: 74859022
+  teams:
+    home: Boscardin Dias P / Villanueva G
+    away: Hollender N / Meneo T
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75000346
+  teams:
+    home: Bruna N / Gagliardo L
+    away: Oliveira B (2002) / Rodrigues N
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:35'
 ice_hockey:
 - id: 73238318
   teams:
