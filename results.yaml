@@ -14,18 +14,18 @@ basketball:
     home: BK Olomoucko
     away: JIP Pardubice
   score:
-    home: 46
-    away: 92
-  status: live
+    home: 54
+    away: 100
+  status: result
   time: '16:00'
 - id: 72626978
   teams:
     home: Decin
     away: Praha
   score:
-    home: 58
-    away: 48
-  status: live
+    home: 74
+    away: 57
+  status: result
   time: '16:00'
 tennis:
 - id: 74923150
@@ -169,19 +169,91 @@ tennis:
     away: Varillas, Juan Pablo
   score:
     home: 1
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:00'
+- id: 74753046
+  teams:
+    home: Mena, Facundo
+    away: Justo, Guido Ivan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:20'
+- id: 74753062
+  teams:
+    home: Kicker, Nicolas
+    away: Dellien, Hugo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '20:40'
 ice_hockey:
 - id: 73238318
   teams:
     home: Graz 99ers
     away: Sudtirol
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 4
+    away: 3
+  status: result
   time: '16:30'
+- id: 73238324
+  teams:
+    home: BW Linz
+    away: Olimpija Ljubljana
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '17:15'
+- id: 73238322
+  teams:
+    home: Salzburg
+    away: Innsbruck
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:15'
+- id: 73238326
+  teams:
+    home: Vienna Capitals
+    away: Fehervar
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:15'
+- id: 73238320
+  teams:
+    home: Klagenfurt
+    away: Villach
+  score:
+    home: 6
+    away: 1
+  status: result
+  time: '17:30'
+- id: 73238328
+  teams:
+    home: Pioneers Vorarlberg
+    away: Rossoblu
+  score:
+    home: 4
+    away: 5
+  status: result
+  time: '17:30'
+- id: 74858772
+  teams:
+    home: Frydek Mistek
+    away: Havirov
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
 table_tennis:
 - id: 74918312
   teams:
