@@ -1,6 +1,60 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 74923150
+  teams:
+    home: Baez, Sebastian
+    away: Brooksby, Jenson
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:00
+- id: 74923154
+  teams:
+    home: Kopriva, Vit
+    away: Hu, Jia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 07:00
+- id: 74967944
+  teams:
+    home: Harris, Lloyd
+    away: Galarneau, Alexis
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:00
+- id: 74964834
+  teams:
+    home: Muller, Alexandre
+    away: Bar Biryukov, Petr
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:00
+- id: 74973062
+  teams:
+    home: Mochizuki, Shintaro
+    away: Kotov, Pavel
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:35
+- id: 74974180
+  teams:
+    home: Basilashvili, Nikoloz
+    away: Cina, Federico
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:55
 ice_hockey: []
 table_tennis:
 - id: 74918312
@@ -64,7 +118,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74918268
   teams:
@@ -73,7 +127,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74918274
   teams:
@@ -82,16 +136,16 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 74918068
   teams:
     home: Pleskot, Jan
     away: Bruzek, Petr
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 01:30
 - id: 74918240
   teams:
@@ -99,15 +153,141 @@ table_tennis:
     away: Skakal, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 01:30
 - id: 74918276
   teams:
     home: Regner, Tomas
     away: Dolezal, Vaclav
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:30
+- id: 74918112
+  teams:
+    home: Mazanek, Stanislav
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 74918086
+  teams:
+    home: Stefek, Martin
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 74918190
+  teams:
+    home: Sychra, Martin
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 74918138
+  teams:
+    home: Bruzek, Petr
+    away: Pelikan, Josef
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 74918052
+  teams:
+    home: Dolezal, Vaclav
+    away: Bartunek, Radek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 74918196
+  teams:
+    home: Skakal, Martin
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 74982408
+  teams:
+    home: Dolezal, Vaclav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 74982410
+  teams:
+    home: Grohsgott, Jiri
+    away: Bruzek, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 74982404
+  teams:
+    home: Klement, Milan
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:02
+- id: 74982414
+  teams:
+    home: Bartunek, Radek
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 74982406
+  teams:
+    home: Pleskot, Jan
+    away: Pelikan, Josef
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
+- id: 74982412
+  teams:
+    home: Sychra, Martin
+    away: Skakal, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 74967410
+  teams:
+    home: Forman, Lubos
+    away: Smesny, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 74967668
+  teams:
+    home: Mikula, Jiri
+    away: Heczko, Marcel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
