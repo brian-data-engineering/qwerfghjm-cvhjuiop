@@ -5,18 +5,45 @@ soccer:
     away: Club Atletico Acassuso
   score:
     home: 0
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '18:30'
 - id: 67117984
   teams:
     home: CA Estudiantes
     away: CA San Miguel
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:30'
+- id: 67117982
+  teams:
+    home: CA All Boys
+    away: Colon de Santa Fe
+  score:
     home: 0
     away: 0
-  status: live
-  time: '18:30'
+  status: result
+  time: '19:00'
+- id: 67117990
+  teams:
+    home: Club Ciudad de Bolivar
+    away: CA Chaco For Ever
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '19:00'
+- id: 67118696
+  teams:
+    home: Quilmes AC
+    away: CA Guemes
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:00'
 basketball:
 - id: 72016780
   teams:
@@ -86,9 +113,9 @@ basketball:
     home: Vienna United PSV
     away: Udw Alligators
   score:
-    home: 64
-    away: 61
-  status: live
+    home: 74
+    away: 78
+  status: result
   time: '18:00'
 - id: 72626982
   teams:
@@ -160,16 +187,16 @@ basketball:
   score:
     home: 106
     away: 103
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 74295634
   teams:
     home: Nanterre
     away: Pau Orthez
   score:
-    home: 45
-    away: 26
-  status: live
+    home: 78
+    away: 64
+  status: result
   time: '18:30'
 - id: 73452124
   teams:
@@ -194,9 +221,9 @@ basketball:
     home: Bamberg
     away: Ludwigsburg
   score:
-    home: 74
-    away: 72
-  status: live
+    home: 96
+    away: 103
+  status: result
   time: '18:00'
 - id: 74835666
   teams:
@@ -369,7 +396,7 @@ ice_hockey:
   score:
     home: 2
     away: 6
-  status: live
+  status: result
   time: '17:15'
 - id: 72118784
   teams:
@@ -1828,7 +1855,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 75039438
   teams:
@@ -1837,7 +1864,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 75039460
   teams:
@@ -1846,7 +1873,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 75037756
   teams:
@@ -1855,7 +1882,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 75037780
   teams:
@@ -1864,16 +1891,16 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 75039422
   teams:
     home: Fisera, Milan
     away: Didi, Julius
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '19:30'
 - id: 75037662
   teams:
@@ -1881,8 +1908,8 @@ table_tennis:
     away: Mecl Jr, Jan
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 75039434
   teams:
@@ -1890,24 +1917,141 @@ table_tennis:
     away: Chalupa, Michal
   score:
     home: 0
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '19:30'
 - id: 75036352
   teams:
     home: Stach, Vojtech
     away: Havrda, Leos
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '19:30'
 - id: 75037734
   teams:
     home: Walek, Adrian
     away: Machander, Dalimil
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '19:30'
+- id: 75039442
+  teams:
+    home: Chalupa, Michal
+    away: Szotek, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75039428
+  teams:
+    home: Didi, Julius
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:00'
+- id: 75036372
+  teams:
+    home: Havrda, Leos
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75037634
+  teams:
+    home: Machander, Dalimil
+    away: Langer, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75037740
+  teams:
+    home: Mecl Jr, Jan
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 75036342
+  teams:
+    home: Grohsgott, Jiri
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 75039502
+  teams:
+    home: Kosar, Vaclav
+    away: Fisera, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:30'
+- id: 75039462
+  teams:
+    home: Kypr, Tomas
+    away: Pagac, Zbynek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 75037738
+  teams:
+    home: Urbaniec, Radim
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 75037774
+  teams:
+    home: Vavrecka, Radomir
+    away: Walek, Adrian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 75036354
+  teams:
+    home: Skakal, Martin
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '22:00'
+- id: 75039498
+  teams:
+    home: Urban, Roman
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '22:00'
+- id: 75037670
+  teams:
+    home: Varnuska, Tomas
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '22:00'
