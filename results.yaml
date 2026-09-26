@@ -1,6 +1,33 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 74753332
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Davidovich Fokina, Alejandro
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:00
+- id: 74753330
+  teams:
+    home: Cina, Federico
+    away: Muller, Alexandre
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:25
+- id: 74753338
+  teams:
+    home: Damm Jr, Martin
+    away: Hurkacz, Hubert
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:40
 ice_hockey: []
 table_tennis:
 - id: 75012930
@@ -91,7 +118,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: 01:30
 - id: 75012866
   teams:
@@ -100,14 +127,203 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 75012944
   teams:
     home: Vedmoch, Michal
     away: Janata, Tomas
   score:
-    home: 2
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 75012838
+  teams:
+    home: Berdych, Pavel
+    away: Novotny, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75012950
+  teams:
+    home: Picek, Petr
+    away: Bartunek, Radek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75012846
+  teams:
+    home: Postelt, Vladimir
+    away: Kouble, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 75012972
+  teams:
+    home: Darin, Kyryl
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 75012896
+  teams:
+    home: Janata, Tomas
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 75012880
+  teams:
+    home: Pelikan, Josef
+    away: Bruzek, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 75039504
+  teams:
+    home: Adamczyk, Vladimir
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 75036822
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 75037660
+  teams:
+    home: Taichman, Ivo
+    away: Guliak, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 75036378
+  teams:
+    home: Tomasch, David
+    away: Novotny, Ladislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 75037646
+  teams:
+    home: Vondrak, Michal
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 75036338
+  teams:
+    home: Cernik, Jaromir
+    away: Martinek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:30
+- id: 75036828
+  teams:
+    home: Jindrak, Lukas
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:30
+- id: 75039446
+  teams:
+    home: Slavik, Petr
+    away: Velicka, Lukas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:30
+- id: 75037664
+  teams:
+    home: Zurek, Filip
+    away: Priesol, Daniel
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 75037760
+  teams:
+    home: Zuzanek, Jiri
+    away: Sopko, Martin
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:30
+- id: 75037742
+  teams:
+    home: Guliak, Roman
+    away: Zurek, Filip
+  score:
+    home: 0
     away: 2
   status: live
-  time: 01:30
+  time: 07:00
+- id: 75036826
+  teams:
+    home: Huk, Martin
+    away: Jindrak, Lukas
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 07:00
+- id: 75037752
+  teams:
+    home: Louda, Jiri
+    away: Zuzanek, Jiri
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 07:00
+- id: 75039436
+  teams:
+    home: Machander, Dalimil
+    away: Slavik, Petr
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 07:00
+- id: 75036366
+  teams:
+    home: Novotny, Ladislav
+    away: Cernik, Jaromir
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 07:00
