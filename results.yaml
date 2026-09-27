@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 74753322
+  teams:
+    home: Brooksby, Jenson
+    away: Basilashvili, Nikoloz
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 05:00
 ice_hockey: []
 table_tennis:
 - id: 75039464
@@ -10,7 +19,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75036358
   teams:
@@ -19,7 +28,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75037712
   teams:
@@ -28,25 +37,25 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75037648
   teams:
     home: Dedek, Jiri
     away: Mikuska, Alexander
   score:
-    home: 1
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 00:30
 - id: 75039406
   teams:
     home: Dolezal, Vaclav
     away: Stefek, Martin
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 00:30
 - id: 75036364
   teams:
@@ -55,5 +64,158 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: live
+  status: result
   time: 00:30
+- id: 75039484
+  teams:
+    home: Barton, David
+    away: Urban, Roman
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 75036350
+  teams:
+    home: Klement, Milan
+    away: Skakal, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 75037668
+  teams:
+    home: Kolar, Milan
+    away: Varnuska, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 75037754
+  teams:
+    home: Mikuska, Alexander
+    away: Plachy, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 75039430
+  teams:
+    home: Stefek, Martin
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 75036346
+  teams:
+    home: Tazler, Jakub
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 75039486
+  teams:
+    home: Barton, David
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75036388
+  teams:
+    home: Klement, Milan
+    away: Regner, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75037776
+  teams:
+    home: Kolar, Milan
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75039496
+  teams:
+    home: Didi, Julius
+    away: Urban, Roman
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 75036360
+  teams:
+    home: Franek, Tomas
+    away: Skakal, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 75037748
+  teams:
+    home: Plachy, Jiri
+    away: Varnuska, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75060068
+  teams:
+    home: Blejchar, Marek
+    away: Velicka, Lukas
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
+- id: 75059732
+  teams:
+    home: Levicky, Jakub
+    away: Zidek, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 75060092
+  teams:
+    home: Placek, Marek
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:00
+- id: 75059832
+  teams:
+    home: Schneeberger, Antonin
+    away: Pleskot, Jan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 75059706
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Hruska, Vaclav Senior
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
