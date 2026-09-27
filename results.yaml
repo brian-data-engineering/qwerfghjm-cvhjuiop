@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67118692
   teams:
@@ -15,16 +15,16 @@ soccer:
   score:
     home: 1
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 74745286
   teams:
     home: Club Atletico Los Andes
     away: Deportivo Moron
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 67117992
   teams:
@@ -33,16 +33,16 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '18:30'
 - id: 74799980
   teams:
     home: CA Patronato Parana
     away: San Martin de San Juan
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '19:00'
 - id: 67117986
   teams:
@@ -50,9 +50,45 @@ soccer:
     away: San Telmo
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '19:00'
+- id: 67118704
+  teams:
+    home: CD Maipu
+    away: CA Temperley
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '19:30'
+- id: 74569048
+  teams:
+    home: Ferrocarril Midland
+    away: Tristan Suarez
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '19:30'
+- id: 67117978
+  teams:
+    home: Racing de Cordoba
+    away: CD Godoy Cruz
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '20:00'
+- id: 67118690
+  teams:
+    home: Gimnasia Y Tiro de Salta
+    away: Atletico de Rafaela
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '21:00'
 basketball:
 - id: 72016782
   teams:
@@ -2386,7 +2422,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:30'
 - id: 75059844
   teams:
@@ -2402,18 +2438,18 @@ table_tennis:
     home: Dousek, Tomas
     away: Paril, Ondrej
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:00'
 - id: 75060080
   teams:
     home: Kocian, Vojtech
     away: Banot, Petr
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '20:00'
 - id: 75059738
   teams:
@@ -2422,16 +2458,16 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '20:00'
 - id: 75059842
   teams:
     home: Pusch, Frantisek
     away: Svacha, Ondrej
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: '20:00'
 - id: 75060090
   teams:
@@ -2440,5 +2476,68 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '20:00'
+- id: 75059822
+  teams:
+    home: Dzida, Jan
+    away: Biolek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 75060062
+  teams:
+    home: Levicky, Matej
+    away: Adamczyk, Radek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 75059780
+  teams:
+    home: Mecl Jr, Jan
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 75059816
+  teams:
+    home: Pacha, Robin
+    away: Sychra, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 75060074
+  teams:
+    home: Pavelka, Radim
+    away: Krticka, Lubos
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 75059834
+  teams:
+    home: Potensky, Jan
+    away: Cernik, Jaromir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '22:00'
+- id: 75060060
+  teams:
+    home: Tuma, Daniel
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '22:00'
