@@ -19,7 +19,79 @@ tennis:
     away: 2
   status: result
   time: 03:00
-ice_hockey: []
+ice_hockey:
+- id: 72019170
+  teams:
+    home: Sparta Prague
+    away: Karlovy Vary
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '14:00'
+- id: 72118798
+  teams:
+    home: Horacka
+    away: Chomutov
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72118800
+  teams:
+    home: Kolin
+    away: Zubr Prerov
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 72118808
+  teams:
+    home: Banik Sokolov
+    away: Frydek Mistek
+  score:
+    home: 1
+    away: 4
+  status: live
+  time: '15:00'
+- id: 72118804
+  teams:
+    home: Havirov
+    away: Dukla
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '15:00'
+- id: 72118802
+  teams:
+    home: HC Dynamo Pardubice B
+    away: Zlin
+  score:
+    home: 5
+    away: 3
+  status: live
+  time: '15:00'
+- id: 72118806
+  teams:
+    home: Litomerice
+    away: Slavia Prague
+  score:
+    home: 5
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72118810
+  teams:
+    home: Vsetin
+    away: Tabor
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 75059990
   teams:
@@ -388,7 +460,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 75080534
   teams:
@@ -397,7 +469,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 75080450
   teams:
@@ -422,9 +494,9 @@ table_tennis:
     home: Dolezal, Vaclav
     away: Sulava, Lubor
   score:
-    home: 2
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 08:00
 - id: 75080638
   teams:
@@ -433,7 +505,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 75080486
   teams:
@@ -442,7 +514,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 75099822
   teams:
@@ -451,7 +523,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 08:00
 - id: 75080454
   teams:
@@ -460,5 +532,158 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 08:00
+- id: 75080488
+  teams:
+    home: Madle, Ludek
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 75080558
+  teams:
+    home: Stefek, Martin
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 75083988
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Briska, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 75080616
+  teams:
+    home: Virag, Alexandr
+    away: Stach, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:30
+- id: 75080446
+  teams:
+    home: Zika, Tadeas
+    away: Revay, Radomir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 75107370
+  teams:
+    home: Kraninger, Tomas
+    away: Virag, Alexandr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:00
+- id: 75107354
+  teams:
+    home: Marjan, Marcel
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:00
+- id: 75107364
+  teams:
+    home: Moravek, Jiri
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 75107360
+  teams:
+    home: Sulava, Lubor
+    away: Briska, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 75107502
+  teams:
+    home: Szotkowski, Jan
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:07
+- id: 75107356
+  teams:
+    home: Madle, Ludek
+    away: Martinek, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 75107504
+  teams:
+    home: Revay, Radomir
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:30
+- id: 75107368
+  teams:
+    home: Stach, Jiri
+    away: Kolek, Matyas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 75107362
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:30
+- id: 75107366
+  teams:
+    home: Svoboda, Adam
+    away: Nohejl, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 75080464
+  teams:
+    home: Langer, Daniel
+    away: Martinak, Lukas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 75104578
+  teams:
+    home: Malek, Lukas
+    away: Novotny, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
