@@ -1,5 +1,158 @@
 soccer: []
-basketball: []
+basketball:
+- id: 73262958
+  teams:
+    home: Dubai
+    away: Barcelona
+  score:
+    home: 94
+    away: 87
+  status: result
+  time: '16:00'
+- id: 73262960
+  teams:
+    home: Efes Istanbul
+    away: Real Madrid
+  score:
+    home: 94
+    away: 84
+  status: result
+  time: '17:00'
+- id: 73262962
+  teams:
+    home: Zalgiris
+    away: Olympiakos Piraeus
+  score:
+    home: 91
+    away: 93
+  status: result
+  time: '17:00'
+- id: 73262964
+  teams:
+    home: Fenerbahce Istanbul
+    away: B. Munich
+  score:
+    home: 100
+    away: 76
+  status: result
+  time: '17:45'
+- id: 73262966
+  teams:
+    home: CZ MTS
+    away: Hapoel Tel-Aviv
+  score:
+    home: 80
+    away: 81
+  status: recentlyended
+  time: '18:00'
+- id: 73262970
+  teams:
+    home: Milano
+    away: Bologna
+  score:
+    home: 70
+    away: 69
+  status: live
+  time: '18:30'
+- id: 73262968
+  teams:
+    home: Valencia
+    away: Baskonia
+  score:
+    home: 96
+    away: 67
+  status: live
+  time: '18:30'
+- id: 73262972
+  teams:
+    home: Paris Basketball
+    away: KK Partizan
+  score:
+    home: 60
+    away: 61
+  status: live
+  time: '18:45'
+- id: 72902000
+  teams:
+    home: Hapoel Jerusalem
+    away: Rostock Seawolves
+  score:
+    home: 94
+    away: 73
+  status: result
+  time: '17:00'
+- id: 72902004
+  teams:
+    home: Le Mans
+    away: Aris
+  score:
+    home: 74
+    away: 87
+  status: recentlyended
+  time: '18:00'
+- id: 72902258
+  teams:
+    home: Venezia
+    away: Fraport Skyliners
+  score:
+    home: 91
+    away: 63
+  status: live
+  time: '18:30'
+- id: 72902422
+  teams:
+    home: N. Klaipeda
+    away: Trento
+  score:
+    home: 73
+    away: 76
+  status: result
+  time: '16:00'
+- id: 72902420
+  teams:
+    home: Tofas Bursa
+    away: Chemnitz
+  score:
+    home: 82
+    away: 69
+  status: result
+  time: '17:00'
+- id: 72016292
+  teams:
+    home: Hogsbo Basket
+    away: Boraas
+  score:
+    home: 96
+    away: 90
+  status: result
+  time: '17:04'
+- id: 72016288
+  teams:
+    home: Jamtland
+    away: LF Basket
+  score:
+    home: 96
+    away: 87
+  status: result
+  time: '17:04'
+- id: 72016290
+  teams:
+    home: Nassjo
+    away: Norrkoping
+  score:
+    home: 79
+    away: 89
+  status: result
+  time: '17:04'
+- id: 72016286
+  teams:
+    home: Umea
+    away: Sodertelje
+  score:
+    home: 64
+    away: 78
+  status: result
+  time: '17:04'
 tennis:
 - id: 75106520
   teams:
@@ -224,7 +377,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '13:25'
 - id: 75068806
   teams:
@@ -232,17 +385,17 @@ tennis:
     away: Lokoli, Laurent
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '13:40'
 - id: 75068802
   teams:
     home: Taberner, Carlos
     away: Moller, Elmer
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:15'
 - id: 75089490
   teams:
@@ -250,8 +403,8 @@ tennis:
     away: Gadamauri B / Sakellaridis D
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '15:15'
 - id: 75122078
   teams:
@@ -259,19 +412,181 @@ tennis:
     away: Ostapenkov, Daniil
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '14:00'
 - id: 75122080
   teams:
     home: Shelbayh, Abdullah
     away: Tu, Li
   score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 75072456
+  teams:
+    home: Blanch, Darwin
+    away: Maloney, Patrick
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:55'
+- id: 75122082
+  teams:
+    home: Okonkwo, Oliver
+    away: Staeheli, Luca
+  score:
     home: 1
+    away: 2
+  status: result
+  time: '16:35'
+- id: 75072450
+  teams:
+    home: Dietrich, Dylan
+    away: Wolf, Jeffrey John
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:35'
+- id: 75072452
+  teams:
+    home: Marcondes, Igor
+    away: Fenty, Andrew
+  score:
+    home: 0
     away: 1
   status: live
-  time: '14:00'
-ice_hockey: []
+  time: '19:05'
+- id: 75122076
+  teams:
+    home: Chan, Duncan
+    away: Smith, Colton
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:25'
+ice_hockey:
+- id: 72019172
+  teams:
+    home: Trinec
+    away: Rytiri Kladno
+  score:
+    home: 6
+    away: 4
+  status: result
+  time: '15:00'
+- id: 72019174
+  teams:
+    home: Litvinov
+    away: Bili Tygri
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '15:30'
+- id: 72019176
+  teams:
+    home: Mlada Bo.
+    away: Plzen
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '15:30'
+- id: 72019182
+  teams:
+    home: Mountfield HK
+    away: Sparta Prague
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '16:00'
+- id: 72019180
+  teams:
+    home: Olomouc
+    away: Vitkovice
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '16:00'
+- id: 72019178
+  teams:
+    home: Pardubice
+    away: Budejovice
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '16:00'
+- id: 73350374
+  teams:
+    home: Herning
+    away: Herlev
+  score:
+    home: 6
+    away: 4
+  status: result
+  time: '17:00'
+- id: 73350376
+  teams:
+    home: Rungsted
+    away: Odense
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '17:30'
+- id: 72116286
+  teams:
+    home: Ilves
+    away: Jukurit
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72116288
+  teams:
+    home: Jokerit
+    away: HPK
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72166250
+  teams:
+    home: Amur Khabarovsk
+    away: Neftekhimik
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: 09:00
+- id: 72166248
+  teams:
+    home: CSKA Moscow
+    away: SKA
+  score:
+    home: 6
+    away: 5
+  status: result
+  time: '16:30'
+- id: 72709752
+  teams:
+    home: Poprad
+    away: Zilina
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '15:00'
 table_tennis:
 - id: 75083992
   teams:
