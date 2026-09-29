@@ -6,18 +6,18 @@ tennis:
     home: Gille S / Verbeek S
     away: Reynolds F / Watt J
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 07:30
 - id: 75106518
   teams:
     home: Cui J / TE R
     away: Gonzalez M / Molteni A
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: 08:15
 - id: 75101640
   teams:
@@ -55,6 +55,222 @@ tennis:
     away: 2
   status: result
   time: 06:00
+- id: 74753316
+  teams:
+    home: Hurkacz, Hubert
+    away: Davidovich Fokina, Alejandro
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:00'
+- id: 74813914
+  teams:
+    home: Galloway R / Goransson A
+    away: Johnson L / Zielinski J
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 74753272
+  teams:
+    home: Medvedev, Daniil
+    away: Rublev, Andrey
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:30'
+- id: 74806954
+  teams:
+    home: Cabral F / Tracy J
+    away: Arends S / Pel D
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:30
+- id: 75107894
+  teams:
+    home: Gonzalez S / Jebens H
+    away: Stevenson D / Willis M
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:25
+- id: 75107896
+  teams:
+    home: Rojer J-J / Winegar T
+    away: Sakamoto R / Shimabukuro S
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 06:20
+- id: 75094670
+  teams:
+    home: Tsitsipas, Stefanos
+    away: Hijikata, Rinky
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 02:00
+- id: 75107496
+  teams:
+    home: Munar, Jaume
+    away: Kovacevic, Aleksandar
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 03:00
+- id: 75108012
+  teams:
+    home: Fils, Arthur
+    away: Majchrzak, Kamil
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 03:30
+- id: 75107964
+  teams:
+    home: Vallejo, Adolfo Daniel
+    away: Faria, Jaime
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 05:20
+- id: 75068810
+  teams:
+    home: Blancaneaux, Geoffrey
+    away: Kuzmanov, Dimitar
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 75068814
+  teams:
+    home: Cadenasso, Gianluca
+    away: Sanchez Martinez, Benito
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 75111820
+  teams:
+    home: Wallin, Olle
+    away: Donald, M. W.
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:00
+- id: 75111818
+  teams:
+    home: Wiskandt, Max
+    away: Basile, Pierluigi
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:35
+- id: 75111822
+  teams:
+    home: Giustino, Lorenzo
+    away: Sperle, John
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 09:40
+- id: 75111824
+  teams:
+    home: Andaloro, Fabrizio
+    away: Clarke, Jay
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:45
+- id: 75111816
+  teams:
+    home: Lopez Morillo, Imanol
+    away: Krumich, Martin
+  score:
+    home: null
+    away: null
+  status: result
+  time: '11:45'
+- id: 75111814
+  teams:
+    home: Giunta, Massimo
+    away: Arnaboldi, Federico
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:45'
+- id: 75068804
+  teams:
+    home: Pieri, Samuele
+    away: Martin, Andrej
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '13:25'
+- id: 75068806
+  teams:
+    home: Martin Tiffon, Pol
+    away: Lokoli, Laurent
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:40'
+- id: 75068802
+  teams:
+    home: Taberner, Carlos
+    away: Moller, Elmer
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:15'
+- id: 75089490
+  teams:
+    home: Perin R / Sciahbasi M
+    away: Gadamauri B / Sakellaridis D
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:15'
+- id: 75122078
+  teams:
+    home: Perot, Raphael
+    away: Ostapenkov, Daniil
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '14:00'
+- id: 75122080
+  teams:
+    home: Shelbayh, Abdullah
+    away: Tu, Li
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '14:00'
 ice_hockey: []
 table_tennis:
 - id: 75083992
@@ -264,273 +480,3 @@ table_tennis:
     away: 3
   status: result
   time: 03:30
-- id: 75106850
-  teams:
-    home: Machander, Dalimil
-    away: Koral, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:00
-- id: 75106830
-  teams:
-    home: Novotny, Ladislav
-    away: Hejduk, Alexander
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:00
-- id: 75106990
-  teams:
-    home: Stolfa, Jakub
-    away: Cermak, Vladimir
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:00
-- id: 75106896
-  teams:
-    home: Vales, Jakub
-    away: Mares, Erik
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:00
-- id: 75106958
-  teams:
-    home: Varecha, Pavel
-    away: Mikula, David
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 06:00
-- id: 75106992
-  teams:
-    home: Jindrak, Lukas
-    away: Kycelt, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 06:30
-- id: 75106900
-  teams:
-    home: Sobisek, Martin
-    away: Trefny, Jan
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 06:30
-- id: 75106970
-  teams:
-    home: Vaclavik, Miroslav
-    away: Forman, Lubos
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:30
-- id: 75106964
-  teams:
-    home: Virag, Alexandr
-    away: Zientek, Zbynek
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:30
-- id: 75107012
-  teams:
-    home: Volny, Marek
-    away: Blejchar, Marek
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 06:30
-- id: 75107060
-  teams:
-    home: Cermak, Vladimir
-    away: Sobisek, Martin
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:00
-- id: 75107078
-  teams:
-    home: Forman, Lubos
-    away: Novotny, Ladislav
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 07:00
-- id: 75106898
-  teams:
-    home: Koral, Michal
-    away: Volny, Marek
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:00
-- id: 75106956
-  teams:
-    home: Mares, Erik
-    away: Jindrak, Lukas
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:00
-- id: 75106872
-  teams:
-    home: Mikula, David
-    away: Virag, Alexandr
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:00
-- id: 75106944
-  teams:
-    home: Blejchar, Marek
-    away: Machander, Dalimil
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 07:30
-- id: 75107096
-  teams:
-    home: Hejduk, Alexander
-    away: Vaclavik, Miroslav
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:30
-- id: 75107054
-  teams:
-    home: Kycelt, Jakub
-    away: Vales, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:30
-- id: 75106846
-  teams:
-    home: Trefny, Jan
-    away: Stolfa, Jakub
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:30
-- id: 75106862
-  teams:
-    home: Zientek, Zbynek
-    away: Varecha, Pavel
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:30
-- id: 75107080
-  teams:
-    home: Machander, Dalimil
-    away: Volny, Marek
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:00
-- id: 75107026
-  teams:
-    home: Stolfa, Jakub
-    away: Sobisek, Martin
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 08:00
-- id: 75106880
-  teams:
-    home: Vaclavik, Miroslav
-    away: Novotny, Ladislav
-  score:
-    home: 3
-    away: 2
-  status: recentlyended
-  time: 08:00
-- id: 75106888
-  teams:
-    home: Vales, Jakub
-    away: Jindrak, Lukas
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:00
-- id: 75106984
-  teams:
-    home: Varecha, Pavel
-    away: Virag, Alexandr
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 08:00
-- id: 75106942
-  teams:
-    home: Cermak, Vladimir
-    away: Trefny, Jan
-  score:
-    home: 1
-    away: 3
-  status: recentlyended
-  time: 08:30
-- id: 75107016
-  teams:
-    home: Forman, Lubos
-    away: Hejduk, Alexander
-  score:
-    home: 1
-    away: 3
-  status: recentlyended
-  time: 08:30
-- id: 75107020
-  teams:
-    home: Koral, Michal
-    away: Blejchar, Marek
-  score:
-    home: 2
-    away: 2
-  status: live
-  time: 08:30
-- id: 75106914
-  teams:
-    home: Mares, Erik
-    away: Kycelt, Jakub
-  score:
-    home: 1
-    away: 3
-  status: recentlyended
-  time: 08:30
-- id: 75107028
-  teams:
-    home: Mikula, David
-    away: Zientek, Zbynek
-  score:
-    home: 0
-    away: 3
-  status: recentlyended
-  time: 08:30
