@@ -23,55 +23,226 @@ basketball:
     home: Decin
     away: Brno BC
   score:
-    home: 34
-    away: 23
-  status: live
+    home: 86
+    away: 78
+  status: result
   time: '16:00'
 - id: 72626994
   teams:
     home: Lokomotiva Plzen
     away: Praha
   score:
-    home: 37
-    away: 33
-  status: live
+    home: 81
+    away: 84
+  status: result
   time: '16:00'
 - id: 72626998
   teams:
     home: NH Ostrava
     away: BK Gapa Hradec Kralove
   score:
-    home: 44
-    away: 33
-  status: live
+    home: 89
+    away: 82
+  status: result
   time: '16:00'
 - id: 72627000
   teams:
     home: SK Slavia Prague
     away: BK Olomoucko
   score:
-    home: 47
-    away: 20
-  status: live
+    home: 88
+    away: 62
+  status: result
   time: '16:00'
 - id: 72626996
   teams:
     home: Sokol Pisek
     away: JIP Pardubice
   score:
-    home: 39
-    away: 42
-  status: live
+    home: 82
+    away: 92
+  status: result
   time: '16:00'
 - id: 72627004
   teams:
     home: Usti Nad Labem
     away: Opava
   score:
-    home: 44
-    away: 31
-  status: live
+    home: 86
+    away: 76
+  status: result
   time: '16:00'
+- id: 73262974
+  teams:
+    home: Maccabi Tel-Aviv
+    away: Besiktas
+  score:
+    home: 93
+    away: 109
+  status: result
+  time: '18:05'
+- id: 73262976
+  teams:
+    home: Panathinaikos
+    away: Asvel
+  score:
+    home: 102
+    away: 79
+  status: result
+  time: '18:15'
+- id: 72902002
+  teams:
+    home: Rigas Zelli
+    away: Derthona
+  score:
+    home: 86
+    away: 84
+  status: result
+  time: '16:00'
+- id: 72902006
+  teams:
+    home: Burgos
+    away: Olimpija Ljubljana
+  score:
+    home: 85
+    away: 81
+  status: recentlyended
+  time: '18:30'
+- id: 72902260
+  teams:
+    home: Siauliai
+    away: L. Lions
+  score:
+    home: 74
+    away: 71
+  status: result
+  time: '15:30'
+- id: 72902262
+  teams:
+    home: Iberostar
+    away: Turk Telekom
+  score:
+    home: 82
+    away: 74
+  status: live
+  time: '19:00'
+- id: 72902256
+  teams:
+    home: Maxima Roma
+    away: U-Banca Transilvania
+  score:
+    home: 89
+    away: 53
+  status: live
+  time: '19:00'
+- id: 72902424
+  teams:
+    home: Slask Wroclaw
+    away: Buducnost
+  score:
+    home: 75
+    away: 99
+  status: result
+  time: '17:00'
+- id: 72902418
+  teams:
+    home: Napoli Basket
+    away: Jeunesse Laique Bourg
+  score:
+    home: 84
+    away: 76
+  status: result
+  time: '18:00'
+- id: 72902534
+  teams:
+    home: Bahcesehir
+    away: BC Roma Spqr
+  score:
+    home: 91
+    away: 78
+  status: result
+  time: '16:00'
+- id: 74290202
+  teams:
+    home: Lietkabelis
+    away: Sarajevo
+  score:
+    home: 75
+    away: 72
+  status: result
+  time: '16:30'
+- id: 72902530
+  teams:
+    home: PAOK
+    away: Basquet Manresa
+  score:
+    home: 93
+    away: 78
+  status: result
+  time: '16:30'
+- id: 72902532
+  teams:
+    home: Ulm
+    away: Balkan Botevgrad
+  score:
+    home: 98
+    away: 84
+  status: result
+  time: '17:00'
+- id: 73734622
+  teams:
+    home: Avtodor Saratov
+    away: BK Uralmash Yekaterinburg
+  score:
+    home: 75
+    away: 80
+  status: result
+  time: '15:00'
+- id: 73734620
+  teams:
+    home: Uniks Kazan
+    away: Dinamo Vladivostok
+  score:
+    home: 117
+    away: 75
+  status: result
+  time: '16:00'
+- id: 74793278
+  teams:
+    home: CSM Ploiesti
+    away: Timisoara
+  score:
+    home: 74
+    away: 88
+  status: result
+  time: '16:00'
+- id: 74793276
+  teams:
+    home: Csm Targu Mures
+    away: Phoenix Galati
+  score:
+    home: 109
+    away: 83
+  status: result
+  time: '16:00'
+- id: 74793280
+  teams:
+    home: Steaua
+    away: Csm Corona Brasov
+  score:
+    home: 75
+    away: 98
+  status: result
+  time: '16:00'
+- id: 75047612
+  teams:
+    home: NY Liberty
+    away: Minnesota
+  score:
+    home: 87
+    away: 71
+  status: result
+  time: 00:30
 tennis:
 - id: 75103538
   teams:
@@ -286,10 +457,442 @@ tennis:
     away: Dietrich, Dylan
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '15:10'
-ice_hockey: []
+- id: 74983718
+  teams:
+    home: Shick, Braden
+    away: Rottgering, Mees
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:45'
+- id: 74983714
+  teams:
+    home: Blanch, Darwin
+    away: Milavsky, Daniel
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '17:05'
+- id: 74983720
+  teams:
+    home: Staeheli, Luca
+    away: Andrade, Andres
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:25'
+ice_hockey:
+- id: 73238360
+  teams:
+    home: Ferencvaros-Esmtk
+    away: BW Linz
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '16:30'
+- id: 73238362
+  teams:
+    home: Graz 99ers
+    away: Pustertal
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '16:30'
+- id: 73238370
+  teams:
+    home: Fehervar
+    away: Villach
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '17:15'
+- id: 73238368
+  teams:
+    home: Innsbruck
+    away: Pioneers Vorarlberg
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '17:15'
+- id: 73238364
+  teams:
+    home: Klagenfurt
+    away: Rossoblu
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '17:15'
+- id: 73238366
+  teams:
+    home: Salzburg
+    away: Sudtirol
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '17:15'
+- id: 72118824
+  teams:
+    home: Tabor
+    away: Banik Sokolov
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:15'
+- id: 72118812
+  teams:
+    home: Frydek Mistek
+    away: Litomerice
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '15:00'
+- id: 72118820
+  teams:
+    home: Chomutov
+    away: Kolin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72118814
+  teams:
+    home: Dukla
+    away: HC Dynamo Pardubice B
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72118816
+  teams:
+    home: Zlin
+    away: Horacka
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72118818
+  teams:
+    home: Zubr Prerov
+    away: Vsetin
+  score:
+    home: 0
+    away: 5
+  status: result
+  time: '15:30'
+- id: 72118822
+  teams:
+    home: Slavia Prague
+    away: Havirov
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '16:00'
+- id: 73350378
+  teams:
+    home: Esbjerg
+    away: Frederikshavn
+  score:
+    home: 5
+    away: 6
+  status: result
+  time: '16:30'
+- id: 72116292
+  teams:
+    home: Karpat
+    away: SaiPa
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '15:30'
+- id: 72116290
+  teams:
+    home: Kiekko-Espoo
+    away: TPS
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '15:30'
+- id: 72116294
+  teams:
+    home: Tappara
+    away: KooKoo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 72166258
+  teams:
+    home: Avtomobilist
+    away: Lada Togliatti
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 72166256
+  teams:
+    home: Bars Kazan
+    away: Barys Astana
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72166260
+  teams:
+    home: Lok Yaroslavl
+    away: HC Sibir
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72166262
+  teams:
+    home: Red Star Kunlun
+    away: Magnitogorsk
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72166254
+  teams:
+    home: Sochi
+    away: Salavat UFA
+  score:
+    home: 6
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72166252
+  teams:
+    home: Spartak Moscow
+    away: Traktor Chelyabinsk
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '16:30'
+- id: 73705398
+  teams:
+    home: Martin
+    away: Trnava
+  score:
+    home: 3
+    away: 7
+  status: result
+  time: '15:30'
+- id: 73705390
+  teams:
+    home: 95 Povazska
+    away: Levice
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 73705392
+  teams:
+    home: HK Detva
+    away: Nove Zamky
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '16:00'
+- id: 73705396
+  teams:
+    home: Indian Ziar Nad Hronom
+    away: HC TEBS Bratislava
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 73705388
+  teams:
+    home: Spartak Dubnica
+    away: Skalica
+  score:
+    home: 4
+    away: 9
+  status: result
+  time: '16:00'
+- id: 72005024
+  teams:
+    home: AIK
+    away: Visby-Roma
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: '17:00'
+- id: 72005022
+  teams:
+    home: Almtuna
+    away: Sodertalje
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '17:00'
+- id: 72005028
+  teams:
+    home: Leksand
+    away: Vasteraas
+  score:
+    home: 3
+    away: 7
+  status: result
+  time: '17:00'
+- id: 72005026
+  teams:
+    home: Mora
+    away: Nybro
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:00'
+- id: 72005032
+  teams:
+    home: Oskarshamn
+    away: Karlskoga
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '17:00'
+- id: 72005034
+  teams:
+    home: Ostersunds
+    away: Kalmar HC
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '17:00'
+- id: 72005030
+  teams:
+    home: Vimmerby
+    away: MODO
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 73741036
+  teams:
+    home: Boraas
+    away: Kungalvs IK
+  score:
+    home: 6
+    away: 1
+  status: result
+  time: '17:00'
+- id: 73741030
+  teams:
+    home: Boro/Vetlanda HC
+    away: Vita Hasten
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73741038
+  teams:
+    home: Dalen
+    away: Tingsryd
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '17:00'
+- id: 73741034
+  teams:
+    home: Grastorps
+    away: Halmstad
+  score:
+    home: 0
+    away: 6
+  status: result
+  time: '17:00'
+- id: 73741032
+  teams:
+    home: Mjolby
+    away: Nykopings
+  score:
+    home: 7
+    away: 1
+  status: result
+  time: '17:00'
+- id: 73741028
+  teams:
+    home: Troja/Ljungby
+    away: Morrum Gois
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '17:00'
+- id: 72123356
+  teams:
+    home: Lausanne
+    away: Geneva Servette
+  score:
+    home: 6
+    away: 5
+  status: result
+  time: '17:45'
+- id: 72886406
+  teams:
+    home: Boston
+    away: NY Rangers
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:00
+- id: 72886408
+  teams:
+    home: Edmonton
+    away: Vancouver
+  score:
+    home: 5
+    away: 6
+  status: result
+  time: 02:00
+- id: 72886410
+  teams:
+    home: Vegas Golden Knights
+    away: Chicago
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: 02:30
 table_tennis:
 - id: 75107260
   teams:
@@ -1236,1974 +1839,615 @@ table_tennis:
     away: 0
   status: result
   time: '14:00'
-- id: 75145232
+- id: 75134950
   teams:
-    home: Molka, Bartlomiej
-    away: Masternak, Jan
+    home: Holub, Marek
+    away: Unzeitig, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 75134768
+  teams:
+    home: Jezek, Michal
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 75134976
+  teams:
+    home: Kasnik, Sebastian
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 75134974
+  teams:
+    home: Brazda, Adam
+    away: Pikous, Marcel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75135048
+  teams:
+    home: Holubec, Jiri
+    away: Simecek, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75134770
+  teams:
+    home: Huk, Martin
+    away: Gireth, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 75134698
+  teams:
+    home: Novotny, Miroslav
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 75135008
+  teams:
+    home: Zika, Tadeas
+    away: Navedla, Matyas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75134990
+  teams:
+    home: Louda, Jiri
+    away: Brazda, Adam
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75135044
+  teams:
+    home: Pilch, Jakub
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75134718
+  teams:
+    home: Syroha, Michal
+    away: Novotny, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75135074
+  teams:
+    home: Unzeitig, Daniel
+    away: Holubec, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75134714
+  teams:
+    home: Urbaniec, Radim
+    away: Huk, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75134732
+  teams:
+    home: Gireth, Pavel
+    away: Jezek, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75134746
+  teams:
+    home: Havrda, Leos
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 75134934
+  teams:
+    home: Navedla, Matyas
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 75135002
+  teams:
+    home: Pikous, Marcel
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 75134916
+  teams:
+    home: Simecek, Jakub
+    away: Holub, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75135086
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 75134740
+  teams:
+    home: Grohsgott, Jiri
+    away: Novotny, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 75135106
+  teams:
+    home: Holub, Marek
+    away: Holubec, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 75134702
+  teams:
+    home: Jezek, Michal
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 75134924
+  teams:
+    home: Kasnik, Sebastian
+    away: Brazda, Adam
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:00'
+- id: 75134920
+  teams:
+    home: Louda, Jiri
+    away: Pikous, Marcel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 75134994
+  teams:
+    home: Pilch, Jakub
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 75134696
+  teams:
+    home: Syroha, Michal
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 75135014
+  teams:
+    home: Unzeitig, Daniel
+    away: Simecek, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75134760
+  teams:
+    home: Urbaniec, Radim
+    away: Gireth, Pavel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75177192
+  teams:
+    home: Brazda, Adam
+    away: Kasnik, Sebastian
   score:
     home: 3
     away: 0
   status: result
-  time: 05:00
-- id: 75145234
+  time: '17:00'
+- id: 75177076
   teams:
-    home: Wloszek, Sylwester
-    away: Chojnacki, Jakub
+    home: Gireth, Pavel
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 75177178
+  teams:
+    home: Havrda, Leos
+    away: Syroha, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 75177548
+  teams:
+    home: Unzeitig, Daniel
+    away: Holubec, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 75177372
+  teams:
+    home: Dousek, Tomas
+    away: Navedla, Matyas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:30'
+- id: 75177546
+  teams:
+    home: Holub, Marek
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 75177078
+  teams:
+    home: Huk, Martin
+    away: Jezek, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:30'
+- id: 75177180
+  teams:
+    home: Novotny, Miroslav
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 75177194
+  teams:
+    home: Pikous, Marcel
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
+- id: 75134936
+  teams:
+    home: Barta, Miroslav
+    away: Berdych, Pavel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75134694
+  teams:
+    home: Pelikan, Josef
+    away: Hruska Sr, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75135112
+  teams:
+    home: Revay, Radomir
+    away: Opanasiuk, Dmytro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75134948
+  teams:
+    home: Rose, Radek
+    away: Svacha, Ondrej
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75135104
+  teams:
+    home: Wollny, Michal
+    away: Szotek, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75135056
+  teams:
+    home: Bruzek, Petr
+    away: Novotny, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 75135028
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 75135050
+  teams:
+    home: Berdych, Pavel
+    away: Bruzek, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75134720
+  teams:
+    home: Hruska Sr, Vaclav
+    away: Framberk, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75135092
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Dousek, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75134980
+  teams:
+    home: Svacha, Ondrej
+    away: Skakal, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75135058
+  teams:
+    home: Szotek, David
+    away: Hudeczek, Roman
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:00'
+- id: 75134946
+  teams:
+    home: Chalupa, Michal
+    away: Wollny, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:30'
+- id: 75135000
+  teams:
+    home: Cmerda, Ondrej
+    away: Rose, Radek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 75178890
+  teams:
+    home: Dolezal, Vaclav
+    away: Pelikan, Josef
   score:
     home: 3
     away: 0
   status: result
-  time: 05:30
-- id: 75145236
+  time: '19:30'
+- id: 75135030
   teams:
-    home: Sedlacek, Radek
-    away: Pawlik, Dominik
+    home: Novotny, Miroslav
+    away: Barta, Miroslav
   score:
     home: 3
     away: 1
   status: result
-  time: 05:40
-- id: 75145238
+  time: '19:30'
+- id: 75135022
   teams:
-    home: Velky Jr, Dalibor
-    away: Kantor, Lukas
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 05:45
-- id: 75145240
-  teams:
-    home: Radlo, Szymon
-    away: Masternak, Jan
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:00
-- id: 75145242
-  teams:
-    home: Benes, Radek
-    away: Kindl, Tomas
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:10
-- id: 75145244
-  teams:
-    home: Heuman, Ivan
-    away: Krenek, Tomas
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:15
-- id: 75145246
-  teams:
-    home: Molka, Bartlomiej
-    away: Chojnacki, Jakub
+    home: Zika, Tadeas
+    away: Revay, Radomir
   score:
     home: 3
     away: 0
   status: result
-  time: 06:30
-- id: 75145248
+  time: '19:30'
+- id: 75135018
   teams:
-    home: Sedlacek, Radek
-    away: Kindl, Tomas
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:40
-- id: 75145250
-  teams:
-    home: Velky Jr, Dalibor
-    away: Krenek, Tomas
+    home: Barta, Miroslav
+    away: Bruzek, Petr
   score:
     home: 3
     away: 1
   status: result
-  time: 06:45
-- id: 75145252
+  time: '20:00'
+- id: 75134710
   teams:
-    home: Langer, Ales
-    away: Vonasek, Jan
+    home: Pelikan, Josef
+    away: Framberk, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75135064
+  teams:
+    home: Revay, Radomir
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 75135116
+  teams:
+    home: Rose, Radek
+    away: Skakal, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 75134986
+  teams:
+    home: Wollny, Michal
+    away: Hudeczek, Roman
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75134998
+  teams:
+    home: Berdych, Pavel
+    away: Novotny, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 75178892
+  teams:
+    home: Hruska Sr, Vaclav
+    away: Dolezal, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:30'
+- id: 75134968
+  teams:
+    home: Opanasiuk, Dmytro
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 75135052
+  teams:
+    home: Svacha, Ondrej
+    away: Cmerda, Ondrej
   score:
     home: 3
     away: 2
-  status: result
-  time: 06:55
-- id: 75145254
+  status: recentlyended
+  time: '20:30'
+- id: 75135078
   teams:
-    home: Galus, Mateusz
-    away: Radlo, Szymon
+    home: Szotek, David
+    away: Chalupa, Michal
   score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:00
-- id: 75145256
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '20:30'
+- id: 75179850
   teams:
-    home: Pawlik, Dominik
-    away: Benes, Radek
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:10
-- id: 75145258
-  teams:
-    home: Kantor, Lukas
-    away: Heuman, Ivan
+    home: Barta, Miroslav
+    away: Berdych, Pavel
   score:
     home: 2
-    away: 3
-  status: result
-  time: 07:15
-- id: 75145260
-  teams:
-    home: Hejda Jr, Vaclav
-    away: Fiklik, Ondrej
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:25
-- id: 75145262
-  teams:
-    home: Wloszek, Sylwester
-    away: Galus, Mateusz
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 07:30
-- id: 75145264
-  teams:
-    home: Sedlacek, Radek
-    away: Benes, Radek
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:40
-- id: 75145266
-  teams:
-    home: Velky Jr, Dalibor
-    away: Heuman, Ivan
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 07:45
-- id: 75145268
-  teams:
-    home: Langer, Ales
-    away: Fiklik, Ondrej
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:55
-- id: 75145270
-  teams:
-    home: Molka, Bartlomiej
-    away: Radlo, Szymon
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:00
-- id: 75145272
-  teams:
-    home: Kindl, Tomas
-    away: Pawlik, Dominik
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:10
-- id: 75145274
-  teams:
-    home: Krenek, Tomas
-    away: Kantor, Lukas
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:15
-- id: 75145276
-  teams:
-    home: Vonasek, Jan
-    away: Hejda Jr, Vaclav
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:25
-- id: 75145278
-  teams:
-    home: Galus, Mateusz
-    away: Chojnacki, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 08:30
-- id: 75166854
-  teams:
-    home: Kindl, Tomas
-    away: Pawlik, Dominik
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 08:40
-- id: 75167534
-  teams:
-    home: Heuman, Ivan
-    away: Krenek, Tomas
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:45
-- id: 75145280
-  teams:
-    home: Langer, Ales
-    away: Hejda Jr, Vaclav
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:55
-- id: 75145282
-  teams:
-    home: Wloszek, Sylwester
-    away: Masternak, Jan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:00
-- id: 75166856
-  teams:
-    home: Sedlacek, Radek
-    away: Benes, Radek
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 09:10
-- id: 75167536
-  teams:
-    home: Velky Jr, Dalibor
-    away: Kantor, Lukas
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 09:15
-- id: 75145284
-  teams:
-    home: Fiklik, Ondrej
-    away: Vonasek, Jan
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:25
-- id: 75145286
-  teams:
-    home: Molka, Bartlomiej
-    away: Galus, Mateusz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:30
-- id: 75145288
-  teams:
-    home: Moravec, Michal
-    away: Dzida, Lukas
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 09:40
-- id: 75145290
-  teams:
-    home: Slavik, Lukas
-    away: Kantor, Lukas
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 09:45
-- id: 75169684
-  teams:
-    home: Vonasek, Jan
-    away: Fiklik, Ondrej
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: '10:00'
-- id: 75145296
-  teams:
-    home: Wloszek, Sylwester
-    away: Radlo, Szymon
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '10:00'
-- id: 75145298
-  teams:
-    home: Benes, Radek
-    away: Kindl, Tomas
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:10'
-- id: 75145300
-  teams:
-    home: Skvrna, Jan
-    away: Krenek, Tomas
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:15'
-- id: 75145302
-  teams:
-    home: Cerveny Jr, Tomas
-    away: Dvorak, Frantisek
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:20'
-- id: 75145304
-  teams:
-    home: Chojnacki, Jakub
-    away: Masternak, Jan
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '10:30'
-- id: 75169686
-  teams:
-    home: Langer, Ales
-    away: Hejda Jr, Vaclav
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:30'
-- id: 75145306
-  teams:
-    home: Moravec, Michal
-    away: Kindl, Tomas
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: '10:40'
-- id: 75145308
-  teams:
-    home: Slavik, Lukas
-    away: Krenek, Tomas
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '10:45'
-- id: 75145310
-  teams:
-    home: Matousch, Simon
-    away: Rein, Tomas
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:50'
-- id: 75145314
-  teams:
-    home: Molka, Bartlomiej
-    away: Wloszek, Sylwester
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: '11:00'
-- id: 75145316
-  teams:
-    home: Dzida, Lukas
-    away: Benes, Radek
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '11:10'
-- id: 75145318
-  teams:
-    home: Kantor, Lukas
-    away: Skvrna, Jan
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:15'
-- id: 75145320
-  teams:
-    home: Cerveny Jr, Tomas
-    away: Rein, Tomas
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '11:20'
-- id: 75145322
-  teams:
-    home: Filipek, Martin
-    away: Jamrich, Robert
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:25'
-- id: 75145324
-  teams:
-    home: Galus, Mateusz
-    away: Masternak, Jan
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '11:30'
-- id: 75145326
-  teams:
-    home: Moravec, Michal
-    away: Benes, Radek
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '11:40'
-- id: 75145328
-  teams:
-    home: Slavik, Lukas
-    away: Skvrna, Jan
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '11:45'
-- id: 75145330
-  teams:
-    home: Dvorak, Frantisek
-    away: Matousch, Simon
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '11:50'
-- id: 75145332
-  teams:
-    home: Chlumsky, Petr
-    away: Jamrich, Robert
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '11:55'
-- id: 75145334
-  teams:
-    home: Radlo, Szymon
-    away: Chojnacki, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '12:00'
-- id: 75145336
-  teams:
-    home: Kindl, Tomas
-    away: Dzida, Lukas
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '12:10'
-- id: 75145338
-  teams:
-    home: Krenek, Tomas
-    away: Kantor, Lukas
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '12:15'
-- id: 75145340
-  teams:
-    home: Cerveny Jr, Tomas
-    away: Matousch, Simon
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '12:20'
-- id: 75112536
-  teams:
-    home: Adamus, Pawel
-    away: Lebek, Marian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:00
-- id: 75112540
-  teams:
-    home: Blocho, Przemyslaw
-    away: Nadolny, Jakub
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:10
-- id: 75112538
-  teams:
-    home: Skorski, Michal
-    away: Pruszkowski, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 00:10
-- id: 75112542
-  teams:
-    home: Slosarczyk, Pawel
-    away: Gumulinski, Piotr
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:10
-- id: 75112544
-  teams:
-    home: Kwiatkowski, Kacper
-    away: Brunner, Marian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:20
-- id: 75112546
-  teams:
-    home: Kurek, Pawel
-    away: Sokolowski, Oskar
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:25
-- id: 75112552
-  teams:
-    home: Koczyba, Mariusz
-    away: Sokolowski, Oliwier
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:35
-- id: 75112548
-  teams:
-    home: Mrugala, Bartlomiej
-    away: Klocek, Kamil
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 00:35
-- id: 75112550
-  teams:
-    home: Rudomina, Kamil
-    away: Mitas, Jacek
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 00:35
-- id: 75112556
-  teams:
-    home: Adamus, Mariusz
-    away: Lebek, Marian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 00:45
-- id: 75112554
-  teams:
-    home: Michalik, Jerzy
-    away: Fomin, Andriej
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 00:45
-- id: 75112558
-  teams:
-    home: Nowak, Jakub
-    away: Slosarczyk, Pawel
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:00
-- id: 75112562
-  teams:
-    home: Adamus, Pawel
-    away: Kurek, Pawel
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 01:10
-- id: 75112560
-  teams:
-    home: Brunner, Marian
-    away: Skorupa, Jakub
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:10
-- id: 75112564
-  teams:
-    home: Gumulinski, Piotr
-    away: Oracz, Lukasz
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 01:25
-- id: 75112566
-  teams:
-    home: Kwiatkowski, Kacper
-    away: Mucha, Grzegorz
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 01:30
-- id: 75112568
-  teams:
-    home: Sokolowski, Oskar
-    away: Tkocz, Marek
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 01:35
-- id: 75112570
-  teams:
-    home: Koczyba, Mariusz
-    away: Slosarczyk, Pawel
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 01:45
-- id: 75112572
-  teams:
-    home: Fomin, Andriej
-    away: Skorupa, Jakub
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 01:55
-- id: 75112574
-  teams:
-    home: Adamus, Mariusz
-    away: Kurek, Pawel
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 02:00
-- id: 75112576
-  teams:
-    home: Sokolowski, Oliwier
-    away: Oracz, Lukasz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 02:10
-- id: 75112580
-  teams:
-    home: Lebek, Marian
-    away: Tkocz, Marek
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 02:20
-- id: 75112578
-  teams:
-    home: Michalik, Jerzy
-    away: Kwiatkowski, Kacper
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 02:20
-- id: 75112642
-  teams:
-    home: Nowak, Jakub
-    away: Gumulinski, Piotr
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 02:35
-- id: 75112646
-  teams:
-    home: Adamus, Pawel
-    away: Sokolowski, Oskar
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 02:45
-- id: 75112644
-  teams:
-    home: Brunner, Marian
-    away: Mucha, Grzegorz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 02:45
-- id: 75138524
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Kuzmicz, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 03:00
-- id: 75138526
-  teams:
-    home: Szymanski, Igor
-    away: Brozek, Piotr
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 03:00
-- id: 75138522
-  teams:
-    home: Wiecek, Adrian
-    away: Miastowski, Maksymilian
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:00
-- id: 75138520
-  teams:
-    home: Zwolinski, Mariusz
-    away: Sulkowski, Karol
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 03:00
-- id: 75112648
-  teams:
-    home: Fomin, Andriej
-    away: Kwiatkowski, Kacper
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:05
-- id: 75138528
-  teams:
-    home: Cesarz, Milosz
-    away: Kaczmarek, Jakub
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 03:10
-- id: 75138530
-  teams:
-    home: Spychala, Adrian
-    away: Wisniewski, Karol
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:20
-- id: 75138536
-  teams:
-    home: Adamus, Kacper
-    away: Jadach, Oskar
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:25
-- id: 75138532
-  teams:
-    home: Warpas, Blazej
-    away: Kukawka, Milosz
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 03:25
-- id: 75138534
-  teams:
-    home: Wloczko, Krzysztof
-    away: David, Petr
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 03:25
-- id: 75112650
-  teams:
-    home: Michalik, Jerzy
-    away: Brunner, Marian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 03:30
-- id: 75138538
-  teams:
-    home: Adamus, Pawel
-    away: Guzik, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:35
-- id: 75138540
-  teams:
-    home: Jarocki, Lukasz
-    away: Olbrycht, Michal
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 03:40
-- id: 75138542
-  teams:
-    home: Grela, Artur
-    away: Jadczyk, Marcin
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:45
-- id: 75138546
-  teams:
-    home: Kowalski, Kamil
-    away: Przewlocki, Piotr
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:50
-- id: 75138544
-  teams:
-    home: Stapor Rafal
-    away: Lukaszewski, Mikolaj
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 03:50
-- id: 75112652
-  teams:
-    home: Mucha, Grzegorz
-    away: Skorupa, Jakub
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 03:55
-- id: 75138548
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Spychala, Adrian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 04:00
-- id: 75138550
-  teams:
-    home: Urban, Wojciech
-    away: Lebek, Marian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 04:00
-- id: 75138556
-  teams:
-    home: Szymanski, Igor
-    away: Adamus, Kacper
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 04:10
-- id: 75138554
-  teams:
-    home: Wiecek, Adrian
-    away: Wloczko, Krzysztof
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 04:10
-- id: 75138552
-  teams:
-    home: Zwolinski, Mariusz
-    away: Warpas, Blazej
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 04:10
-- id: 75112656
-  teams:
-    home: Kwiatkowski, Kacper
-    away: Skorupa, Jakub
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 04:20
-- id: 75138560
-  teams:
-    home: Cesarz, Milosz
-    away: Adamus, Pawel
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 04:25
-- id: 75138558
-  teams:
-    home: Olbrycht, Michal
-    away: Kuzmicz, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 04:25
-- id: 75138564
-  teams:
-    home: Jadczyk, Marcin
-    away: Miastowski, Maksymilian
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 04:30
-- id: 75138562
-  teams:
-    home: Lukaszewski, Mikolaj
-    away: Sulkowski, Karol
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 04:30
-- id: 75138566
-  teams:
-    home: Przewlocki, Piotr
-    away: Brozek, Piotr
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 04:30
-- id: 75112654
-  teams:
-    home: Fomin, Andriej
-    away: Brunner, Marian
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 04:40
-- id: 75138568
-  teams:
-    home: Jarocki, Lukasz
-    away: Wisniewski, Karol
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 04:50
-- id: 75138570
-  teams:
-    home: Lebek, Marian
-    away: Kaczmarek, Jakub
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 04:50
-- id: 75138574
-  teams:
-    home: Grela, Artur
-    away: David, Petr
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 04:55
-- id: 75138576
-  teams:
-    home: Kowalski, Kamil
-    away: Jadach, Oskar
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 04:55
-- id: 75138572
-  teams:
-    home: Stapor Rafal
-    away: Kukawka, Milosz
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 04:55
-- id: 75112658
-  teams:
-    home: Michalik, Jerzy
-    away: Mucha, Grzegorz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:05
-- id: 75138578
-  teams:
-    home: Urban, Wojciech
-    away: Guzik, Michal
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 05:10
-- id: 75138586
-  teams:
-    home: Adamus, Kacper
-    away: Brozek, Piotr
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:15
-- id: 75138584
-  teams:
-    home: Spychala, Adrian
-    away: Kuzmicz, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:15
-- id: 75138580
-  teams:
-    home: Warpas, Blazej
-    away: Sulkowski, Karol
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 05:15
-- id: 75138582
-  teams:
-    home: Wloczko, Krzysztof
-    away: Miastowski, Maksymilian
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 05:15
-- id: 75138588
-  teams:
-    home: Gajda, Rafal
-    away: Sikon, Mateusz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:30
-- id: 75138592
-  teams:
-    home: Adamus, Pawel
-    away: Kaczmarek, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 05:35
-- id: 75138590
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Jarocki, Lukasz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:35
-- id: 75138598
-  teams:
-    home: Szymanski, Igor
-    away: Kowalski, Kamil
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 05:40
-- id: 75138596
-  teams:
-    home: Wiecek, Adrian
-    away: Grela, Artur
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:40
-- id: 75138594
-  teams:
-    home: Zwolinski, Mariusz
-    away: Stapor Rafal
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 05:40
-- id: 75138600
-  teams:
-    home: Schaniel Krzysztof
-    away: Buczynski, Witold
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 05:55
-- id: 75138604
-  teams:
-    home: Cesarz, Milosz
-    away: Urban, Wojciech
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 06:00
-- id: 75138602
-  teams:
-    home: Olbrycht, Michal
-    away: Wisniewski, Karol
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:00
-- id: 75138608
-  teams:
-    home: Jadczyk, Marcin
-    away: David, Petr
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:05
-- id: 75138606
-  teams:
-    home: Lukaszewski, Mikolaj
-    away: Kukawka, Milosz
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:05
-- id: 75138610
-  teams:
-    home: Przewlocki, Piotr
-    away: Jadach, Oskar
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 06:05
-- id: 75138612
-  teams:
-    home: Madej, Boguslaw
-    away: Rus, Maksymilian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:20
-- id: 75138616
-  teams:
-    home: Lebek, Marian
-    away: Guzik, Michal
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:25
-- id: 75138614
-  teams:
-    home: Spychala, Adrian
-    away: Jarocki, Lukasz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:25
-- id: 75138622
-  teams:
-    home: Adamus, Kacper
-    away: Kowalski, Kamil
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 06:30
-- id: 75138618
-  teams:
-    home: Warpas, Blazej
-    away: Stapor Rafal
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:30
-- id: 75138620
-  teams:
-    home: Wloczko, Krzysztof
-    away: Grela, Artur
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:30
-- id: 75138626
-  teams:
-    home: Adamus, Pawel
-    away: Urban, Wojciech
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:45
-- id: 75138624
-  teams:
-    home: Gajda, Rafal
-    away: Schaniel Krzysztof
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:45
-- id: 75138628
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Olbrycht, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:50
-- id: 75138634
-  teams:
-    home: Szymanski, Igor
-    away: Przewlocki, Piotr
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 06:55
-- id: 75138632
-  teams:
-    home: Wiecek, Adrian
-    away: Jadczyk, Marcin
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 06:55
-- id: 75138630
-  teams:
-    home: Zwolinski, Mariusz
-    away: Lukaszewski, Mikolaj
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 06:55
-- id: 75138638
-  teams:
-    home: Cesarz, Milosz
-    away: Lebek, Marian
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:10
-- id: 75138636
-  teams:
-    home: Rus, Maksymilian
-    away: Sikon, Mateusz
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:10
-- id: 75138640
-  teams:
-    home: Wisniewski, Karol
-    away: Kuzmicz, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 07:15
-- id: 75138644
-  teams:
-    home: David, Petr
-    away: Miastowski, Maksymilian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 07:20
-- id: 75138646
-  teams:
-    home: Jadach, Oskar
-    away: Brozek, Piotr
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 07:20
-- id: 75138642
-  teams:
-    home: Kukawka, Milosz
-    away: Sulkowski, Karol
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 07:20
-- id: 75138648
-  teams:
-    home: Madej, Boguslaw
-    away: Buczynski, Witold
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:30
-- id: 75138650
-  teams:
-    home: Guzik, Michal
-    away: Kaczmarek, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 07:35
-- id: 75138654
-  teams:
-    home: Spychala, Adrian
-    away: Olbrycht, Michal
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:40
-- id: 75138652
-  teams:
-    home: Warpas, Blazej
-    away: Lukaszewski, Mikolaj
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 07:40
-- id: 75138658
-  teams:
-    home: Adamus, Kacper
-    away: Przewlocki, Piotr
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:45
-- id: 75138656
-  teams:
-    home: Wloczko, Krzysztof
-    away: Jadczyk, Marcin
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 07:45
-- id: 75138660
-  teams:
-    home: Schaniel Krzysztof
-    away: Sikon, Mateusz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 07:55
-- id: 75138662
-  teams:
-    home: Adamus, Pawel
-    away: Lebek, Marian
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:00
-- id: 75138664
-  teams:
-    home: Grela, Artur
-    away: Miastowski, Maksymilian
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:05
-- id: 75138666
-  teams:
-    home: Jarocki, Lukasz
-    away: Kuzmicz, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:05
-- id: 75138670
-  teams:
-    home: Kowalski, Kamil
-    away: Brozek, Piotr
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 08:10
-- id: 75138668
-  teams:
-    home: Stapor Rafal
-    away: Sulkowski, Karol
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 08:10
-- id: 75138672
-  teams:
-    home: Gajda, Rafal
-    away: Madej, Boguslaw
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 08:20
-- id: 75138674
-  teams:
-    home: Urban, Wojciech
-    away: Kaczmarek, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 08:20
-- id: 75138678
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Wisniewski, Karol
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:30
-- id: 75138676
-  teams:
-    home: Wiecek, Adrian
-    away: David, Petr
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 08:30
-- id: 75138682
-  teams:
-    home: Szymanski, Igor
-    away: Jadach, Oskar
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 08:35
-- id: 75138680
-  teams:
-    home: Zwolinski, Mariusz
-    away: Kukawka, Milosz
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 08:35
-- id: 75138686
-  teams:
-    home: Cesarz, Milosz
-    away: Guzik, Michal
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 08:45
-- id: 75138684
-  teams:
-    home: Rus, Maksymilian
-    away: Buczynski, Witold
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 08:45
-- id: 75138690
-  teams:
-    home: Grela, Artur
-    away: Miastowski, Maksymilian
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:00
-- id: 75138692
-  teams:
-    home: Olbrycht, Michal
-    away: Spychala, Adrian
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:00
-- id: 75138694
-  teams:
-    home: Przewlocki, Piotr
-    away: Brozek, Piotr
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:00
-- id: 75138688
-  teams:
-    home: Stapor Rafal
-    away: Minda, Michal
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:00
-- id: 75138696
-  teams:
-    home: Schaniel Krzysztof
-    away: Madej, Boguslaw
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 09:05
-- id: 75138700
-  teams:
-    home: Kolodziej, Krystian
-    away: Jarocki, Lukasz
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 09:20
-- id: 75138698
-  teams:
-    home: Wiecek, Adrian
-    away: Kuzmicz, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 09:20
-- id: 75138704
-  teams:
-    home: Adamus, Kacper
-    away: Jadach, Oskar
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 09:25
-- id: 75138702
-  teams:
-    home: Zwolinski, Mariusz
-    away: Zochniak, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:25
-- id: 75138706
-  teams:
-    home: Gajda, Rafal
-    away: Rus, Maksymilian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: 09:30
-- id: 75138708
-  teams:
-    home: David, Petr
-    away: Jadczyk, Marcin
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:40
-- id: 75138710
-  teams:
-    home: Rutkowski, Mateusz
-    away: Poliniewicz, Grzegorz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: 09:45
-- id: 75138712
-  teams:
-    home: Czerwinski, Bartosz
-    away: Kolek, Maciej
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: 09:50
-- id: 75138714
-  teams:
-    home: Kowalski, Kamil
-    away: Szymanski, Igor
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: 09:50
-- id: 75138716
-  teams:
-    home: Buczynski, Witold
-    away: Sikon, Mateusz
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: 09:55
-- id: 75138718
-  teams:
-    home: Grela, Artur
-    away: Wiecek, Adrian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:00'
-- id: 75138720
-  teams:
-    home: Olbrycht, Michal
-    away: Kolodziej, Krystian
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: '10:05'
-- id: 75138724
-  teams:
-    home: Przewlocki, Piotr
-    away: Adamus, Kacper
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:10'
-- id: 75138722
-  teams:
-    home: Stapor Rafal
-    away: Zwolinski, Mariusz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '10:10'
-- id: 75138726
-  teams:
-    home: Schaniel Krzysztof
-    away: Rus, Maksymilian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:20'
-- id: 75138728
-  teams:
-    home: Jadczyk, Marcin
-    away: Miastowski, Maksymilian
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '10:25'
-- id: 75138730
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Spychala, Adrian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:30'
-- id: 75138732
-  teams:
-    home: Kolek, Maciej
-    away: Minda, Michal
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:35'
-- id: 75138734
-  teams:
-    home: Szymanski, Igor
-    away: Brozek, Piotr
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '10:35'
-- id: 75138736
-  teams:
-    home: Madej, Boguslaw
-    away: Sikon, Mateusz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:40'
-- id: 75138738
-  teams:
-    home: David, Petr
-    away: Kuzmicz, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '10:50'
-- id: 75138740
-  teams:
-    home: Rutkowski, Mateusz
-    away: Jarocki, Lukasz
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '10:55'
-- id: 75138742
-  teams:
-    home: Czerwinski, Bartosz
-    away: Zochniak, Jakub
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '11:00'
-- id: 75138744
-  teams:
-    home: Kowalski, Kamil
-    away: Jadach, Oskar
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:00'
-- id: 75138746
-  teams:
-    home: Gajda, Rafal
-    away: Buczynski, Witold
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:05'
-- id: 75138748
-  teams:
-    home: Wiecek, Adrian
-    away: Miastowski, Maksymilian
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:15'
-- id: 75138750
-  teams:
-    home: Kolodziej, Krystian
-    away: Spychala, Adrian
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '11:20'
-- id: 75138754
-  teams:
-    home: Adamus, Kacper
-    away: Brozek, Piotr
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '11:25'
-- id: 75138752
-  teams:
-    home: Zwolinski, Mariusz
-    away: Minda, Michal
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:25'
-- id: 75138756
-  teams:
-    home: Rus, Maksymilian
-    away: Sikon, Mateusz
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:30'
-- id: 75138758
-  teams:
-    home: Grela, Artur
-    away: David, Petr
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '11:40'
-- id: 75138760
-  teams:
-    home: Olbrycht, Michal
-    away: Rutkowski, Mateusz
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '11:45'
-- id: 75138764
-  teams:
-    home: Przewlocki, Piotr
-    away: Kowalski, Kamil
-  score:
-    home: 3
-    away: 1
-  status: result
-  time: '11:50'
-- id: 75138762
-  teams:
-    home: Stapor Rafal
-    away: Czerwinski, Bartosz
-  score:
-    home: 0
-    away: 3
-  status: result
-  time: '11:50'
-- id: 75138766
-  teams:
-    home: Schaniel Krzysztof
-    away: Buczynski, Witold
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: '11:55'
-- id: 75138768
-  teams:
-    home: Jadczyk, Marcin
-    away: Kuzmicz, Jakub
-  score:
-    home: 2
-    away: 3
-  status: result
-  time: '12:05'
-- id: 75138770
-  teams:
-    home: Poliniewicz, Grzegorz
-    away: Jarocki, Lukasz
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: '12:10'
-- id: 75138772
-  teams:
-    home: Kolek, Maciej
-    away: Zochniak, Jakub
-  score:
-    home: 1
-    away: 3
-  status: result
-  time: '12:15'
-- id: 75138810
-  teams:
-    home: Kolodziej, Krystian
-    away: Poliniewicz, Grzegorz
-  score:
-    home: 3
-    away: 2
-  status: result
-  time: '13:50'
-- id: 75138822
-  teams:
-    home: Czerwinski, Bartosz
-    away: Minda, Michal
-  score:
-    home: 0
     away: 1
   status: live
-  time: '14:20'
+  time: '21:00'
+- id: 75180492
+  teams:
+    home: Hudeczek, Roman
+    away: Wollny, Michal
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '21:00'
+- id: 75180500
+  teams:
+    home: Svacha, Ondrej
+    away: Cmerda, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '21:00'
+- id: 75180486
+  teams:
+    home: Zika, Tadeas
+    away: Revay, Radomir
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: '21:00'
