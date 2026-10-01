@@ -9,6 +9,87 @@ basketball:
     away: 82
   status: result
   time: 09:30
+- id: 72653650
+  teams:
+    home: Oberwart
+    away: Hallmann Vienna
+  score:
+    home: 114
+    away: 58
+  status: result
+  time: '17:00'
+- id: 73451732
+  teams:
+    home: Jena
+    away: Vechta
+  score:
+    home: 70
+    away: 63
+  status: live
+  time: '18:00'
+- id: 73262978
+  teams:
+    home: Hapoel Tel-Aviv
+    away: Real Madrid
+  score:
+    home: 102
+    away: 98
+  status: result
+  time: '16:00'
+- id: 73262980
+  teams:
+    home: CZ MTS
+    away: Efes Istanbul
+  score:
+    home: 63
+    away: 61
+  status: live
+  time: '18:00'
+- id: 73262982
+  teams:
+    home: Bologna
+    away: Olympiakos Piraeus
+  score:
+    home: 65
+    away: 59
+  status: live
+  time: '18:30'
+- id: 73262984
+  teams:
+    home: Paris Basketball
+    away: Zalgiris
+  score:
+    home: 40
+    away: 38
+  status: live
+  time: '18:45'
+- id: 74999728
+  teams:
+    home: Rivne
+    away: Kharkivski Sokoly
+  score:
+    home: 93
+    away: 81
+  status: result
+  time: '15:00'
+- id: 74999730
+  teams:
+    home: Wog Lutsk
+    away: Kyiv
+  score:
+    home: 82
+    away: 89
+  status: result
+  time: '16:00'
+- id: 75047632
+  teams:
+    home: Dallas
+    away: Golden State
+  score:
+    home: 108
+    away: 100
+  status: result
+  time: 01:00
 tennis:
 - id: 75103548
   teams:
@@ -98,7 +179,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 75107686
   teams:
@@ -125,9 +206,54 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: '12:10'
-ice_hockey: []
+ice_hockey:
+- id: 72019186
+  teams:
+    home: Sparta Prague
+    away: Budejovice
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72117358
+  teams:
+    home: Kettera
+    away: Keupa
+  score:
+    home: 2
+    away: 5
+  status: result
+  time: '15:30'
+- id: 72483942
+  teams:
+    home: Mannheim
+    away: Iserlohn
+  score:
+    home: 6
+    away: 1
+  status: live
+  time: '17:30'
+- id: 72122054
+  teams:
+    home: Stavanger
+    away: Ringerike
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72122056
+  teams:
+    home: Frisk/Asker
+    away: Lillehammer
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
 table_tennis:
 - id: 75134932
   teams:
@@ -1027,7 +1153,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 75208232
   teams:
@@ -1045,7 +1171,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '13:30'
 - id: 75208226
   teams:
@@ -1072,25 +1198,25 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75164882
   teams:
     home: Holovatiuk, Yurii
     away: Kolar, Milan
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '14:00'
 - id: 75164870
   teams:
     home: Kapras, Karel
     away: Sobisek, Martin
   score:
-    home: 2
+    home: 3
     away: 1
-  status: live
+  status: result
   time: '14:00'
 - id: 75166704
   teams:
@@ -1099,14 +1225,419 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75166734
   teams:
     home: Vaclavik, Miroslav
     away: Stach, Vojtech
   score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 75166692
+  teams:
+    home: Cernik, Jaromir
+    away: Kasinski, Zdenek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 75164996
+  teams:
+    home: Dousa, Tomas
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75166660
+  teams:
+    home: Dzida, Jan
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:30'
+- id: 75164922
+  teams:
+    home: Vizek, Martin
+    away: Tuma, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75164960
+  teams:
+    home: Zika, Tadeas
+    away: Pilch, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75166640
+  teams:
+    home: Biolek, Martin
+    away: Dzida, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75165024
+  teams:
+    home: Kolar, Milan
+    away: Dousa, Tomas
+  score:
     home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75164876
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75164906
+  teams:
+    home: Sobisek, Martin
+    away: Vizek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 75166666
+  teams:
+    home: Stach, Vojtech
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75164928
+  teams:
+    home: Dedek, Jiri
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 75166628
+  teams:
+    home: Kasinski, Zdenek
+    away: Vaclavik, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75164954
+  teams:
+    home: Pilch, Jakub
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 75166714
+  teams:
+    home: Szotkowski, Jan
+    away: Niezgoda, Rostislav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75164892
+  teams:
+    home: Tuma, Daniel
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 75164952
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 75165018
+  teams:
+    home: Holovatiuk, Yurii
+    away: Dousa, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 75165040
+  teams:
+    home: Kapras, Karel
+    away: Vizek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 75166636
+  teams:
+    home: Niezgoda, Rostislav
+    away: Dzida, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:00'
+- id: 75166654
+  teams:
+    home: Vaclavik, Miroslav
+    away: Cernik, Jaromir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 75166686
+  teams:
+    home: Biolek, Martin
+    away: Szotkowski, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75164874
+  teams:
+    home: Kolar, Milan
+    away: Dedek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75165022
+  teams:
+    home: Polasek, Radovan
+    away: Pilch, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75164894
+  teams:
+    home: Sobisek, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:30'
+- id: 75166662
+  teams:
+    home: Stach, Vojtech
+    away: Kasinski, Zdenek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:30'
+- id: 75166630
+  teams:
+    home: Blejchar, Marek
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 75164944
+  teams:
+    home: Kasnik, Sebastian
+    away: Louda, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75165008
+  teams:
+    home: Stolfa, Jakub
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:00'
+- id: 75166658
+  teams:
+    home: Syroha, Michal
+    away: Lubas, Miloslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
+- id: 75164974
+  teams:
+    home: Wollny, Michal
+    away: Chalupa, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
+- id: 75166710
+  teams:
+    home: Adam, Radim
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 75164986
+  teams:
+    home: Hudeczek, Roman
+    away: Szotek, David
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:30'
+- id: 75200596
+  teams:
+    home: Pikous, Marcel
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:30'
+- id: 75165032
+  teams:
+    home: Sobisek, Martin
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '18:30'
+- id: 75166712
+  teams:
+    home: Varcl, Matej
+    away: Barta, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:30'
+- id: 75164976
+  teams:
+    home: Brozik, Karel
+    away: Sobisek, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 75164878
+  teams:
+    home: Chalupa, Michal
+    away: Hudeczek, Roman
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 75165020
+  teams:
+    home: Louda, Jiri
+    away: Pikous, Marcel
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '19:00'
+- id: 75166742
+  teams:
+    home: Lubas, Miloslav
+    away: Varcl, Matej
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:00'
+- id: 75166688
+  teams:
+    home: Taichman, Ivo
+    away: Adam, Radim
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:00'
+- id: 75166674
+  teams:
+    home: Barta, Miroslav
+    away: Syroha, Michal
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '19:30'
+- id: 75164926
+  teams:
+    home: Kapras, Karel
+    away: Stolfa, Jakub
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '19:30'
+- id: 75200602
+  teams:
+    home: Sychra, Martin
+    away: Kasnik, Sebastian
+  score:
+    home: 0
     away: 2
   status: live
-  time: '14:00'
+  time: '19:30'
+- id: 75165000
+  teams:
+    home: Szotek, David
+    away: Wollny, Michal
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:30'
+- id: 75166718
+  teams:
+    home: Zurek, Filip
+    away: Blejchar, Marek
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '19:30'
