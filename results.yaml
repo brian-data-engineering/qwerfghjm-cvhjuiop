@@ -1,6 +1,33 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 72016792
+  teams:
+    home: Illawarra
+    away: Adelaide
+  score:
+    home: 99
+    away: 72
+  status: live
+  time: 09:30
+tennis:
+- id: 75051394
+  teams:
+    home: Molcan, Alex
+    away: Khachanov, Karen
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 05:00
+- id: 75134816
+  teams:
+    home: Medvedev, Daniil
+    away: Carreno Busta, Pablo
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:00
 ice_hockey: []
 table_tennis:
 - id: 75164998
@@ -183,10 +210,28 @@ table_tennis:
     away: 3
   status: result
   time: 03:00
+- id: 75215768
+  teams:
+    home: Klement, Milan
+    away: Vondrak, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:08
 - id: 75215534
   teams:
     home: Darin, Kyryl
     away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 75215770
+  teams:
+    home: Kasnik, Sebastian
+    away: Sychra, Martin
   score:
     home: 3
     away: 1
