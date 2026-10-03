@@ -17,7 +17,25 @@ soccer:
     away: 1
   status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 72016796
+  teams:
+    home: Brisbane
+    away: Tasmania Jackjumpers
+  score:
+    home: 99
+    away: 109
+  status: result
+  time: 07:30
+- id: 72016798
+  teams:
+    home: Melbourne Utd.
+    away: Cairns
+  score:
+    home: 95
+    away: 107
+  status: recentlyended
+  time: 09:30
 tennis:
 - id: 75051374
   teams:
@@ -26,17 +44,35 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: 03:05
 - id: 75051376
   teams:
     home: Rublev, Andrey
     away: Safiullin, Roman
   score:
-    home: 0
+    home: 2
+    away: 1
+  status: result
+  time: 05:40
+- id: 75051370
+  teams:
+    home: Medvedev, Daniil
+    away: Struff, Jan-Lennard
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '10:10'
+- id: 75051380
+  teams:
+    home: Zverev, Alexander
+    away: Shang, Juncheng
+  score:
+    home: 1
     away: 0
   status: live
-  time: 05:40
+  time: '11:10'
 ice_hockey: []
 table_tennis:
 - id: 75199386
