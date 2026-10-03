@@ -1,6 +1,42 @@
-soccer: []
+soccer:
+- id: 73265350
+  teams:
+    home: Boca Juniors
+    away: Union de Santa Fe
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 73265370
+  teams:
+    home: Independiente Rivadavia
+    away: Gimnasia Y Esgrima La Plata
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:30
 basketball: []
-tennis: []
+tennis:
+- id: 75051374
+  teams:
+    home: de Minaur, Alex
+    away: Halys, Quentin
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: 03:05
+- id: 75051376
+  teams:
+    home: Rublev, Andrey
+    away: Safiullin, Roman
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 05:40
 ice_hockey: []
 table_tennis:
 - id: 75199386
@@ -10,7 +46,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75199378
   teams:
@@ -19,7 +55,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75200306
   teams:
@@ -28,14 +64,14 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75199252
   teams:
     home: Cernik, Jaromir
     away: Stach, Vojtech
   score:
-    home: 1
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:30
