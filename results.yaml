@@ -24,8 +24,80 @@ soccer:
   score:
     home: 3
     away: 0
-  status: live
+  status: result
   time: '17:45'
+- id: 73265368
+  teams:
+    home: Atletico Tucuman
+    away: Barracas Central
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: '20:00'
+- id: 73265358
+  teams:
+    home: Newells Old Boys
+    away: Atletico Lanus
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '20:00'
+- id: 67118006
+  teams:
+    home: CA San Miguel
+    away: Mitre Santiago Del Estero
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '18:00'
+- id: 67118706
+  teams:
+    home: CA Temperley
+    away: Gimnasia Jujuy
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:00'
+- id: 67118002
+  teams:
+    home: Club Atletico Acassuso
+    away: Club Ciudad de Bolivar
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '18:00'
+- id: 67118008
+  teams:
+    home: Colon de Santa Fe
+    away: CA Estudiantes
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '18:00'
+- id: 67118010
+  teams:
+    home: Deportivo Moron
+    away: CA All Boys
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:00'
+- id: 67118716
+  teams:
+    home: Tristan Suarez
+    away: Quilmes AC
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:00'
 basketball:
 - id: 72016796
   teams:
@@ -86,9 +158,9 @@ basketball:
     home: Young Lions Traiskirchen
     away: Salzburg
   score:
-    home: 109
+    home: 108
     away: 71
-  status: live
+  status: result
   time: '17:00'
 - id: 72627006
   teams:
@@ -167,9 +239,9 @@ basketball:
     home: Jeunesse Laique Bourg
     away: Chalon
   score:
-    home: 40
-    away: 19
-  status: live
+    home: 90
+    away: 77
+  status: result
   time: '18:30'
 - id: 73451772
   teams:
@@ -194,9 +266,9 @@ basketball:
     home: Mitteldeutscher BC
     away: Ulm
   score:
-    home: 42
-    away: 43
-  status: live
+    home: 89
+    away: 72
+  status: result
   time: '18:00'
 - id: 74750396
   teams:
@@ -250,7 +322,7 @@ basketball:
   score:
     home: 71
     away: 77
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 74131712
   teams:
@@ -284,9 +356,9 @@ basketball:
     home: Spartak Subotica
     away: Sarajevo
   score:
-    home: 71
-    away: 89
-  status: live
+    home: 79
+    away: 95
+  status: result
   time: '17:00'
 - id: 74781124
   teams:
@@ -297,6 +369,357 @@ basketball:
     away: 60
   status: result
   time: 00:40
+- id: 74781126
+  teams:
+    home: Mogi Das Cruzes
+    away: Alvarado
+  score:
+    home: 52
+    away: 44
+  status: live
+  time: '21:10'
+- id: 73734624
+  teams:
+    home: BC Lokomotiv Kuban
+    away: MBA Moscow
+  score:
+    home: 92
+    away: 87
+  status: result
+  time: '11:00'
+- id: 73432064
+  teams:
+    home: Trento
+    away: Treviso
+  score:
+    home: 90
+    away: 93
+  status: result
+  time: '18:00'
+- id: 73432068
+  teams:
+    home: Napoli Basket
+    away: Grissin Bon
+  score:
+    home: 99
+    away: 93
+  status: result
+  time: '18:30'
+- id: 73432620
+  teams:
+    home: Basket Mestre 1958
+    away: Libertas Livorno
+  score:
+    home: 49
+    away: 88
+  status: result
+  time: '18:30'
+- id: 73432618
+  teams:
+    home: Pallacanestro 2.015 Forli
+    away: Benedetto Xiv Cento
+  score:
+    home: 80
+    away: 73
+  status: result
+  time: '18:30'
+- id: 72695952
+  teams:
+    home: Susanoo Magic
+    away: Diamond Dolphins
+  score:
+    home: 73
+    away: 85
+  status: result
+  time: 04:35
+- id: 72695954
+  teams:
+    home: Altiri Chiba
+    away: Brave Thunders
+  score:
+    home: 99
+    away: 90
+  status: result
+  time: 05:05
+- id: 72695964
+  teams:
+    home: Evessa
+    away: Seahorses
+  score:
+    home: 57
+    away: 76
+  status: result
+  time: 05:05
+- id: 72695956
+  teams:
+    home: Hokkaido
+    away: 89Ers
+  score:
+    home: 108
+    away: 105
+  status: result
+  time: 05:05
+- id: 72695962
+  teams:
+    home: Lake Stars
+    away: Golden Kings
+  score:
+    home: 87
+    away: 94
+  status: result
+  time: 05:05
+- id: 72695966
+  teams:
+    home: Saga Ballooners
+    away: Hamamatsu
+  score:
+    home: 61
+    away: 97
+  status: result
+  time: 05:05
+- id: 72695958
+  teams:
+    home: Sunrockers
+    away: Happinets
+  score:
+    home: 90
+    away: 63
+  status: result
+  time: 05:05
+- id: 72695960
+  teams:
+    home: Toyama
+    away: Tochigi Brex
+  score:
+    home: 77
+    away: 67
+  status: result
+  time: 05:05
+- id: 72695968
+  teams:
+    home: Hannarizu
+    away: Nagasaki Velca
+  score:
+    home: 84
+    away: 76
+  status: result
+  time: 05:35
+- id: 72695972
+  teams:
+    home: B-Corsairs
+    away: Brave Warriors
+  score:
+    home: 85
+    away: 78
+  status: result
+  time: 06:05
+- id: 72695970
+  teams:
+    home: Crane Thunders
+    away: Ibaraki Robots
+  score:
+    home: 72
+    away: 71
+  status: result
+  time: 06:05
+- id: 73658942
+  teams:
+    home: L. Rytas
+    away: Gargzdai
+  score:
+    home: 102
+    away: 105
+  status: result
+  time: '13:50'
+- id: 73658944
+  teams:
+    home: N. Klaipeda
+    away: Nevezis
+  score:
+    home: 89
+    away: 62
+  status: result
+  time: '14:00'
+- id: 73658946
+  teams:
+    home: BC Jonava
+    away: Siauliai
+  score:
+    home: 63
+    away: 79
+  status: result
+  time: '16:10'
+- id: 72154848
+  teams:
+    home: Correcaminos
+    away: Lobos Plateados de la Buap
+  score:
+    home: 85
+    away: 90
+  status: result
+  time: 01:15
+- id: 72154850
+  teams:
+    home: El Calor de Cancun
+    away: Gambusinos De Fresnillo
+  score:
+    home: 74
+    away: 67
+  status: result
+  time: 01:15
+- id: 72154852
+  teams:
+    home: Santos de San Luis
+    away: Freseros de Irapuato
+  score:
+    home: 108
+    away: 87
+  status: result
+  time: 02:00
+- id: 72154854
+  teams:
+    home: Mineros de Zacatecas
+    away: Abejas
+  score:
+    home: 74
+    away: 81
+  status: result
+  time: 02:05
+- id: 72154856
+  teams:
+    home: Astros Jalisco
+    away: Fuerza Regia
+  score:
+    home: 74
+    away: 77
+  status: result
+  time: 02:15
+- id: 72154858
+  teams:
+    home: Panteras
+    away: Dorados de Chihuahua
+  score:
+    home: 81
+    away: 85
+  status: result
+  time: 02:30
+- id: 72154860
+  teams:
+    home: Soles
+    away: Diablos Rojos Del Mexico
+  score:
+    home: 86
+    away: 43
+  status: result
+  time: 03:00
+- id: 72676870
+  teams:
+    home: Cukier Torun
+    away: Morskie Szczecin
+  score:
+    home: 85
+    away: 104
+  status: result
+  time: '13:00'
+- id: 72676872
+  teams:
+    home: Bydgoszcz
+    away: Stelmet
+  score:
+    home: 105
+    away: 95
+  status: result
+  time: '15:30'
+- id: 72676878
+  teams:
+    home: Wikana Start
+    away: Stal Ostrow
+  score:
+    home: 79
+    away: 84
+  status: result
+  time: '17:30'
+- id: 73657418
+  teams:
+    home: Egis
+    away: Sakers
+  score:
+    home: 68
+    away: 103
+  status: result
+  time: 05:00
+- id: 73657420
+  teams:
+    home: Orions
+    away: Elephants
+  score:
+    home: 82
+    away: 73
+  status: result
+  time: 05:00
+- id: 73657422
+  teams:
+    home: Anyang
+    away: Phoebus
+  score:
+    home: 88
+    away: 85
+  status: result
+  time: 07:30
+- id: 73833322
+  teams:
+    home: CS Rapid Bucuresti
+    away: Dinamo Bucuresti
+  score:
+    home: 62
+    away: 87
+  status: result
+  time: '14:00'
+- id: 73833328
+  teams:
+    home: Cso Voluntari
+    away: CSM Ploiesti
+  score:
+    home: 103
+    away: 84
+  status: result
+  time: '15:00'
+- id: 73833330
+  teams:
+    home: Phoenix Galati
+    away: Oradea
+  score:
+    home: 74
+    away: 101
+  status: result
+  time: '15:00'
+- id: 73833326
+  teams:
+    home: Pitesti
+    away: Atlassib Sibiu
+  score:
+    home: 90
+    away: 86
+  status: result
+  time: '15:00'
+- id: 73833334
+  teams:
+    home: Csm Corona Brasov
+    away: SCM Univ. Craiova
+  score:
+    home: 98
+    away: 113
+  status: result
+  time: '15:30'
+- id: 75120386
+  teams:
+    home: Kk Nis 1996
+    away: Kk Hercegovac
+  score:
+    home: 65
+    away: 75
+  status: result
+  time: '14:00'
 tennis:
 - id: 75051374
   teams:
@@ -474,9 +897,9 @@ tennis:
     home: Shelbayh, Abdullah
     away: Krueger, Mitchell
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '17:40'
 - id: 74983754
   teams:
@@ -501,10 +924,28 @@ tennis:
     home: Heide, Gustavo
     away: Boscardin Dias, Pedro
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:25'
+- id: 74983712
+  teams:
+    home: Kestelboim M / Zormann M
+    away: Miguel L G / Ribeiro E
+  score:
+    home: 2
+    away: 1
+  status: recentlyended
+  time: '20:10'
+- id: 74983630
+  teams:
+    home: Harris, Lloyd
+    away: Bolt, Alex
+  score:
+    home: null
+    away: null
+  status: result
+  time: 03:00
 ice_hockey:
 - id: 73238388
   teams:
