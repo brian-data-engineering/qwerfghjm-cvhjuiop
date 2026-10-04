@@ -14,10 +14,19 @@ basketball:
     home: Adelaide
     away: Breakers
   score:
-    home: 69
-    away: 81
-  status: live
+    home: 72
+    away: 88
+  status: result
   time: 06:00
+- id: 73495910
+  teams:
+    home: Future Team Steiermark
+    away: Celovec/Klagenfurt
+  score:
+    home: 75
+    away: 105
+  status: result
+  time: '11:30'
 tennis:
 - id: 75051386
   teams:
@@ -33,11 +42,47 @@ tennis:
     home: de Minaur, Alex
     away: Rublev, Andrey
   score:
-    home: 0
+    home: 2
+    away: 1
+  status: result
+  time: 06:55
+- id: 75051398
+  teams:
+    home: Medvedev, Daniil
+    away: Cerundolo, Francisco
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:30
+- id: 75051396
+  teams:
+    home: Zverev, Alexander
+    away: Djokovic, Novak
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '11:00'
+- id: 75051434
+  teams:
+    home: Arends S / Pel D
+    away: Bublik A / Shang J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:20
+ice_hockey:
+- id: 73238390
+  teams:
+    home: Salzburg
+    away: Rossoblu
+  score:
+    home: 1
     away: 1
   status: live
-  time: 06:55
-ice_hockey: []
+  time: '13:00'
 table_tennis:
 - id: 75229056
   teams:
@@ -343,7 +388,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 75254774
   teams:
@@ -352,7 +397,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 07:30
 - id: 75255048
   teams:
@@ -361,16 +406,16 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: 07:30
 - id: 75254950
   teams:
     home: Martinek, Jaroslav
     away: Syroha, Michal
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:30
 - id: 75254982
   teams:
@@ -378,6 +423,366 @@ table_tennis:
     away: Langer, Daniel
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: 07:30
+- id: 75255248
+  teams:
+    home: Horak, David
+    away: Svoboda, Adam
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:00
+- id: 75254762
+  teams:
+    home: Hyrsl, Jiri
+    away: Vrabec, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 75255172
+  teams:
+    home: Langer, Daniel
+    away: Heczko, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 75255158
+  teams:
+    home: Levicky, Jakub
+    away: Byrtus, Samuel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 75254980
+  teams:
+    home: Syroha, Michal
+    away: Bohac, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 75255070
+  teams:
+    home: Kolar, Milan
+    away: Briza, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 75255156
+  teams:
+    home: Oborny, Dominik
+    away: Machander, Dalimil
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 08:30
+- id: 75254968
+  teams:
+    home: Skacelik, Richard
+    away: Rychlik, Evzen
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 75254760
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Cupec, Daniel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 75255020
+  teams:
+    home: Svec, Jiri
+    away: Martinek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:30
+- id: 75255094
+  teams:
+    home: Barta, Miroslav
+    away: Havel, Ladislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 75254984
+  teams:
+    home: Blejchar, Marek
+    away: Chovanec, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 75255076
+  teams:
+    home: Svoboda, Adam
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:00'
+- id: 75254770
+  teams:
+    home: Vinter, Tomas
+    away: Stolfa, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 75255060
+  teams:
+    home: Zidek, Vaclav
+    away: Volny, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 75254744
+  teams:
+    home: Cermak, Vladimir
+    away: Sobisek, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 75255084
+  teams:
+    home: Havrda, Leos
+    away: Hruska Sr, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 75254976
+  teams:
+    home: Horak, David
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 75255268
+  teams:
+    home: Levicky, Jakub
+    away: Oborny, Dominik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 75255130
+  teams:
+    home: Velicka, Lukas
+    away: Adam, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:30'
+- id: 75255036
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 75255208
+  teams:
+    home: Chovanec, Pavel
+    away: Velicka, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 75255082
+  teams:
+    home: Havel, Ladislav
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 75254754
+  teams:
+    home: Stolfa, Jakub
+    away: Cermak, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 75255022
+  teams:
+    home: Volny, Marek
+    away: Levicky, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 75255216
+  teams:
+    home: Adam, Radim
+    away: Blejchar, Marek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 75255110
+  teams:
+    home: Hruska Sr, Vaclav
+    away: Barta, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 75255064
+  teams:
+    home: Kolenic, Tibor
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75255000
+  teams:
+    home: Oborny, Dominik
+    away: Zidek, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75254766
+  teams:
+    home: Sobisek, Martin
+    away: Vinter, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75255122
+  teams:
+    home: Barta, Miroslav
+    away: Havrda, Leos
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 75255200
+  teams:
+    home: Blejchar, Marek
+    away: Velicka, Lukas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 75254974
+  teams:
+    home: Svoboda, Adam
+    away: Horak, David
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 75254746
+  teams:
+    home: Vinter, Tomas
+    away: Cermak, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 75255116
+  teams:
+    home: Zidek, Vaclav
+    away: Levicky, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 75255056
+  teams:
+    home: Briza, Frantisek
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 75255182
+  teams:
+    home: Chovanec, Pavel
+    away: Adam, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 75255196
+  teams:
+    home: Havel, Ladislav
+    away: Hruska Sr, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 75254752
+  teams:
+    home: Stolfa, Jakub
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 75255280
+  teams:
+    home: Volny, Marek
+    away: Oborny, Dominik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:30'
