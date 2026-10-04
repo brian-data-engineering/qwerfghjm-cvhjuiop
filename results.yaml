@@ -1,6 +1,42 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 72016800
+  teams:
+    home: SE Melbourne
+    away: Illawarra
+  score:
+    home: 113
+    away: 96
+  status: result
+  time: 04:00
+- id: 72016802
+  teams:
+    home: Adelaide
+    away: Breakers
+  score:
+    home: 69
+    away: 81
+  status: live
+  time: 06:00
+tennis:
+- id: 75051386
+  teams:
+    home: Hurkacz, Hubert
+    away: Khachanov, Karen
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 05:00
+- id: 75051384
+  teams:
+    home: de Minaur, Alex
+    away: Rublev, Andrey
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 06:55
 ice_hockey: []
 table_tennis:
 - id: 75229056
@@ -73,7 +109,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 75229104
   teams:
@@ -91,7 +127,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 75229084
   teams:
@@ -100,7 +136,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 75229100
   teams:
@@ -109,5 +145,239 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:30
+- id: 75229042
+  teams:
+    home: Dolezal, Vaclav
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 75228960
+  teams:
+    home: Plachy, Jiri
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75228916
+  teams:
+    home: Steffan, Jan
+    away: Didi, Julius
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75229136
+  teams:
+    home: Kucirek, Ondrej
+    away: Andrle, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75229148
+  teams:
+    home: Smrcek, Milan
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 75228962
+  teams:
+    home: Trefny, Jan
+    away: Vedmoch, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75255266
+  teams:
+    home: Horak, David
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 75254742
+  teams:
+    home: Hyrsl, Jiri
+    away: Strnad, Jaroslav (1961)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 75254972
+  teams:
+    home: Langer, Daniel
+    away: Skacelik, Richard
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:00
+- id: 75255016
+  teams:
+    home: Levicky, Jakub
+    away: Oborny, Dominik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 75255012
+  teams:
+    home: Syroha, Michal
+    away: Svec, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:00
+- id: 75255190
+  teams:
+    home: Bohac, Martin
+    away: Martinek, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 75255184
+  teams:
+    home: Byrtus, Samuel
+    away: Machander, Dalimil
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 75254952
+  teams:
+    home: Heczko, David
+    away: Rychlik, Evzen
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:30
+- id: 75255068
+  teams:
+    home: Svoboda, Adam
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 75254756
+  teams:
+    home: Vrabec, Milan
+    away: Cupec, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:30
+- id: 75255276
+  teams:
+    home: Kolar, Milan
+    away: Svoboda, Adam
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 75255206
+  teams:
+    home: Oborny, Dominik
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 75255152
+  teams:
+    home: Skacelik, Richard
+    away: Heczko, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 75254772
+  teams:
+    home: Strnad, Jaroslav (1961)
+    away: Vrabec, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 75255236
+  teams:
+    home: Svec, Jiri
+    away: Bohac, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 75255180
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 75254774
+  teams:
+    home: Cupec, Daniel
+    away: Hyrsl, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:30
+- id: 75255048
+  teams:
+    home: Machander, Dalimil
+    away: Levicky, Jakub
+  score:
+    home: 2
+    away: 3
+  status: live
+  time: 07:30
+- id: 75254950
+  teams:
+    home: Martinek, Jaroslav
+    away: Syroha, Michal
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 07:30
+- id: 75254982
+  teams:
+    home: Rychlik, Evzen
+    away: Langer, Daniel
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 07:30
