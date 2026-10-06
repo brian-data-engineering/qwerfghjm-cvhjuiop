@@ -118,7 +118,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 75278946
   teams:
@@ -127,7 +127,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 75278962
   teams:
@@ -136,5 +136,50 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 02:00
+- id: 75278948
+  teams:
+    home: Darin, Kyryl
+    away: Dedek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 75278886
+  teams:
+    home: Fejtek, Ondrej
+    away: Andrle, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 75278928
+  teams:
+    home: Regner, Tomas
+    away: Bartunek, Radek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 75172802
+  teams:
+    home: Mendes De Encarnacao
+    away: Loffler, Jeromy
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 75292424
+  teams:
+    home: Aguirre, Marcelo
+    away: Koloidenko, Pylyp
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
