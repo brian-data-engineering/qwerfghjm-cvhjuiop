@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016804
+  teams:
+    home: Adelaide
+    away: Melbourne Utd.
+  score:
+    home: 91
+    away: 96
+  status: result
+  time: 08:30
 tennis:
 - id: 75314408
   teams:
@@ -17,7 +26,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: 04:00
 - id: 75314406
   teams:
@@ -35,37 +44,127 @@ tennis:
   score:
     home: null
     away: null
-  status: recentlyended
+  status: result
   time: 05:30
 - id: 75364284
   teams:
     home: Molcan, Alex
     away: Cina, Federico
   score:
-    home: 0
+    home: 2
     away: 1
-  status: live
+  status: result
   time: 06:00
 - id: 75314400
   teams:
     home: Hanfmann, Yannick
     away: Majchrzak, Kamil
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: 06:25
 - id: 75314416
   teams:
     home: Zhang, Zhizhen
     away: Machac, Tomas
   score:
+    home: 1
+    away: 2
+  status: result
+  time: 06:35
+- id: 75364282
+  teams:
+    home: Trungelliti, Marco
+    away: Sakamoto, Rei
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:00
+- id: 75364278
+  teams:
+    home: Hijikata, Rinky
+    away: Safiullin, Roman
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 08:10
+- id: 75364286
+  teams:
+    home: Halys, Quentin
+    away: Wong, Coleman
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:40
+- id: 75364276
+  teams:
+    home: Bellucci, Mattia
+    away: Zhou, Yi
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:00'
+- id: 75364288
+  teams:
+    home: Wu, Yibing
+    away: Zheng, Michael
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 75314412
+  teams:
+    home: Fery, Arthur
+    away: Cilic, Marin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 75314410
+  teams:
+    home: Rune, Holger
+    away: Altmaier, Daniel
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '13:15'
+- id: 75152924
+  teams:
+    home: Seyboth Wild, Thiago
+    away: Dellien, Murkel
+  score:
     home: 0
     away: 0
   status: live
-  time: 06:35
+  time: '14:00'
 ice_hockey: []
 table_tennis:
+- id: 75387164
+  teams:
+    home: Zientek, Zbynek
+    away: Mikula, David
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 09:00
+- id: 75357476
+  teams:
+    home: Malek, Lukas
+    away: Fisera, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
 - id: 75358012
   teams:
     home: Chen J / Zhou Q
@@ -109,7 +208,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 05:55
 - id: 75358032
   teams:
@@ -118,5 +217,284 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
+  time: 06:00
+- id: 75363876
+  teams:
+    home: Allegro M / Rassenfosse A
+    away: Liang J / Xiang P
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 75358054
+  teams:
+    home: Ban I / Gacina A
+    away: Chan B H W / Wong C T
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:45'
+- id: 75358008
+  teams:
+    home: Feng, Yi-Hsin
+    away: Rassenfosse, Adrien
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 75358010
+  teams:
+    home: Liang, Jingkun
+    away: Kuo, Guan-Hong
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 75358006
+  teams:
+    home: Luu, Finn
+    away: Matsushima, Sora
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 75358024
+  teams:
+    home: Park, G.
+    away: Harimoto, Tomokazu
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 04:00
+- id: 75358050
+  teams:
+    home: Kallberg, Anton
+    away: Jang, Woojin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:40'
+- id: 75358018
+  teams:
+    home: Wang, Yang
+    away: Verdonschot, Wim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 75358048
+  teams:
+    home: Lebrun, Alexis
+    away: Thakkar, Manav Vikash
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:35'
+- id: 75358036
+  teams:
+    home: Zhou, Qihao
+    away: Xiang, Peng
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 75358016
+  teams:
+    home: Hursey A / Shi X
+    away: Chen Y / Li Y
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 04:20
+- id: 75358042
+  teams:
+    home: Moyland S / Zhang L
+    away: Kim N / Nagasaki M
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:45
+- id: 75358044
+  teams:
+    home: Joo C / Shin Y
+    away: Jiang Y / Wang Y
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 05:25
+- id: 75358060
+  teams:
+    home: Harimoto M / Hayata H
+    away: Lutz C / Pavade P
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 05:55
+- id: 75358052
+  teams:
+    home: Loy M Y / Ser L Q
+    away: Chien T-C / Li Y-J
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:35'
+- id: 75359786
+  teams:
+    home: Liu Y / Wan Y
+    away: Kuai M / Wang M
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:05'
+- id: 75358026
+  teams:
+    home: Samara E / Szocs B
+    away: Doo H K / Ng W L
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:15'
+- id: 75358062
+  teams:
+    home: Chitale D P / Ghorpade Y
+    away: Gao Y / Xiang J
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:20'
+- id: 75358056
+  teams:
+    home: Chen, Xingtong
+    away: Ser, Lin Qian
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 75358020
+  teams:
+    home: Zhu, Sibing
+    away: Chien, Tung-Chuan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:10
+- id: 75358046
+  teams:
+    home: Winter, Sabine
+    away: Szocs, Bernadette Cynthia
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:50
+- id: 75358022
+  teams:
+    home: Zong, Geman
+    away: Kuai, Man
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:55
+- id: 75358034
+  teams:
+    home: Kim, Nayeong
+    away: Odo, Satsuki
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:00'
+- id: 75358030
+  teams:
+    home: Liu, Ziling
+    away: Sato, Hitomi
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 75358058
+  teams:
+    home: Hashimoto, Honoka
+    away: Lutz, Charlotte
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:10'
+- id: 75358014
+  teams:
+    home: Paranang, Orawan
+    away: Sun, Yingsha
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:10'
+- id: 75364374
+  teams:
+    home: Lin / Cheng
+    away: Lebrun A / Lutz C
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 75364590
+  teams:
+    home: Shah M U / Chitale D P
+    away: Ionescu E / Szocs B C
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 75361876
+  teams:
+    home: Lim J / Shin Y
+    away: Lind A / Hursey A
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:50'
+- id: 75360908
+  teams:
+    home: Huang Yo / Chen Y
+    away: Matsushima S / Harimoto M
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 75361560
+  teams:
+    home: Wloczko, Krzysztof
+    away: Rutkowski, Mateusz
+  score:
+    home: 3
+    away: 2
+  status: result
   time: 06:00
