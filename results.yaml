@@ -1,5 +1,122 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 75314408
+  teams:
+    home: Gea, Arthur
+    away: Faria, Jaime
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 04:00
+- id: 75314414
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Berrettini, Matteo
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: 04:00
+- id: 75314406
+  teams:
+    home: Shimabukuro, Sho
+    away: Kecmanovic, Miomir
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:00
+- id: 75364280
+  teams:
+    home: Mannarino, Adrian
+    away: Basilashvili, Nikoloz
+  score:
+    home: null
+    away: null
+  status: recentlyended
+  time: 05:30
+- id: 75364284
+  teams:
+    home: Molcan, Alex
+    away: Cina, Federico
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 06:00
+- id: 75314400
+  teams:
+    home: Hanfmann, Yannick
+    away: Majchrzak, Kamil
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:25
+- id: 75314416
+  teams:
+    home: Zhang, Zhizhen
+    away: Machac, Tomas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:35
 ice_hockey: []
-table_tennis: []
+table_tennis:
+- id: 75358012
+  teams:
+    home: Chen J / Zhou Q
+    away: Shah M U / Thakkar M V
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:40
+- id: 75358038
+  teams:
+    home: Duda B / Qiu D
+    away: Kallberg A / Karlsson K
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:40
+- id: 75364102
+  teams:
+    home: Li H / Zhou G
+    away: Lim J / OH J
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 05:20
+- id: 75358040
+  teams:
+    home: Jorgic D / Kozul D
+    away: Pang Y E K / Quek I
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 05:30
+- id: 75358028
+  teams:
+    home: Wen R / Yuan L
+    away: Matsushima S / Togami S
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 05:55
+- id: 75358032
+  teams:
+    home: Lebrun A / Lebrun F
+    away: Feng Y-H / Kuo G-H
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:00
