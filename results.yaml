@@ -8,6 +8,15 @@ soccer:
     away: 2
   status: result
   time: 00:45
+- id: 73265398
+  teams:
+    home: Barracas Central
+    away: CA Huracan
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: '18:45'
 basketball:
 - id: 72016810
   teams:
@@ -41,10 +50,244 @@ basketball:
     home: Mistelbach
     away: Gussing Blackbirds
   score:
-    home: 63
-    away: 35
-  status: live
+    home: 97
+    away: 56
+  status: result
   time: '15:00'
+- id: 73495920
+  teams:
+    home: Mattersburg
+    away: Udw Alligators
+  score:
+    home: 62
+    away: 82
+  status: result
+  time: '16:00'
+- id: 73495924
+  teams:
+    home: Vienna United PSV
+    away: Timberwolves
+  score:
+    home: 58
+    away: 85
+  status: result
+  time: '16:00'
+- id: 73495922
+  teams:
+    home: Worthersee Piraten
+    away: Upper Austrian Ballers
+  score:
+    home: 96
+    away: 55
+  status: result
+  time: '16:00'
+- id: 72653668
+  teams:
+    home: Oberwart
+    away: Kapfenberg
+  score:
+    home: 80
+    away: 92
+  status: result
+  time: '17:00'
+- id: 72627018
+  teams:
+    home: SK Slavia Prague
+    away: JIP Pardubice
+  score:
+    home: 105
+    away: 60
+  status: result
+  time: '10:00'
+- id: 72627020
+  teams:
+    home: BK Gapa Hradec Kralove
+    away: Decin
+  score:
+    home: 99
+    away: 93
+  status: result
+  time: '16:00'
+- id: 72627022
+  teams:
+    home: Praha
+    away: Opava
+  score:
+    home: 88
+    away: 97
+  status: result
+  time: '16:00'
+- id: 74295658
+  teams:
+    home: Cholet
+    away: Pau Orthez
+  score:
+    home: 85
+    away: 79
+  status: result
+  time: '16:00'
+- id: 74295660
+  teams:
+    home: Nanterre
+    away: Gravelines
+  score:
+    home: 101
+    away: 73
+  status: result
+  time: '16:00'
+- id: 74295662
+  teams:
+    home: Chalon
+    away: Nancy
+  score:
+    home: 108
+    away: 67
+  status: result
+  time: '16:30'
+- id: 74295664
+  teams:
+    home: Boulazac
+    away: Jeunesse Laique Bourg
+  score:
+    home: 76
+    away: 65
+  status: live
+  time: '18:30'
+- id: 73451804
+  teams:
+    home: Chemnitz
+    away: B. Munich
+  score:
+    home: 83
+    away: 87
+  status: result
+  time: '14:00'
+- id: 73451792
+  teams:
+    home: Bamberg
+    away: Mitteldeutscher BC
+  score:
+    home: 74
+    away: 85
+  status: result
+  time: '16:30'
+- id: 73451790
+  teams:
+    home: Rostock Seawolves
+    away: Wurzburg
+  score:
+    home: 101
+    away: 62
+  status: result
+  time: '16:30'
+- id: 73451794
+  teams:
+    home: Oldenburg
+    away: Hagen
+  score:
+    home: 78
+    away: 87
+  status: recentlyended
+  time: '18:00'
+- id: 73451796
+  teams:
+    home: Trier
+    away: Alba
+  score:
+    home: 95
+    away: 75
+  status: recentlyended
+  time: '18:00'
+- id: 73451798
+  teams:
+    home: Vechta
+    away: Ulm
+  score:
+    home: 91
+    away: 86
+  status: live
+  time: '18:00'
+- id: 74750410
+  teams:
+    home: Peristeri Athens
+    away: Iraklis 2022
+  score:
+    home: 91
+    away: 89
+  status: result
+  time: '12:00'
+- id: 74750412
+  teams:
+    home: Maroussi
+    away: AO Mykonoy
+  score:
+    home: 79
+    away: 82
+  status: result
+  time: '13:00'
+- id: 74750414
+  teams:
+    home: PAOK
+    away: AE Doxa Lefkadas
+  score:
+    home: 86
+    away: 73
+  status: result
+  time: '13:00'
+- id: 74750416
+  teams:
+    home: AS Karditsas
+    away: Vikos Falcon BC
+  score:
+    home: 85
+    away: 74
+  status: result
+  time: '14:00'
+- id: 74750418
+  teams:
+    home: Aris
+    away: AEK Athens
+  score:
+    home: 88
+    away: 58
+  status: result
+  time: '14:30'
+- id: 74750420
+  teams:
+    home: Promitheas Patras
+    away: Panathinaikos
+  score:
+    home: 59
+    away: 84
+  status: result
+  time: '16:00'
+- id: 75408732
+  teams:
+    home: New Taipei Kings
+    away: Taoyuan Taiwan Beer Leopards
+  score:
+    home: 107
+    away: 93
+  status: result
+  time: 04:00
+- id: 75408842
+  teams:
+    home: Kaohsiung Poseidon Aquas
+    away: Hsinchu Lioneers
+  score:
+    home: 134
+    away: 110
+  status: result
+  time: 06:30
+- id: 75408844
+  teams:
+    home: New Taipei CTBC DEA
+    away: Formosa Dreamers
+  score:
+    home: 92
+    away: 97
+  status: result
+  time: 09:00
 tennis:
 - id: 75151648
   teams:
@@ -196,64 +439,109 @@ ice_hockey:
     home: Banik Sokolov
     away: Horacka
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '15:00'
 - id: 72118856
   teams:
     home: Havirov
     away: HC Dynamo Pardubice B
   score:
-    home: 3
-    away: 1
-  status: live
+    home: 4
+    away: 2
+  status: result
   time: '15:00'
 - id: 72118854
   teams:
     home: Kolin
     away: Dukla
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '15:00'
 - id: 72118858
   teams:
     home: Litomerice
     away: Zlin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '15:00'
 - id: 72118864
   teams:
     home: Tabor
     away: Frydek Mistek
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 4
+    away: 1
+  status: result
   time: '15:00'
 - id: 72118862
   teams:
     home: Vsetin
     away: Chomutov
   score:
-    home: 3
-    away: 1
-  status: live
+    home: 4
+    away: 3
+  status: result
   time: '15:00'
 - id: 72118866
   teams:
     home: Zubr Prerov
     away: Slavia Prague
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '15:00'
+- id: 73350402
+  teams:
+    home: Sonderjyske
+    away: Esbjerg
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '17:00'
+- id: 73350404
+  teams:
+    home: Herlev
+    away: Rungsted
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '17:30'
+- id: 72116348
+  teams:
+    home: HPK
+    away: KooKoo
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72116350
+  teams:
+    home: Jokerit
+    away: Ilves
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
+- id: 72116352
+  teams:
+    home: Jukurit
+    away: Karpat
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
 table_tennis:
 - id: 75407696
   teams:
