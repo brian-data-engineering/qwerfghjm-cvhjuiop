@@ -15,8 +15,62 @@ soccer:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '18:45'
+- id: 73265382
+  teams:
+    home: CA Central Cordoba SE
+    away: Estudiantes de la Plata
+  score:
+    home: 2
+    away: 2
+  status: result
+  time: '20:00'
+- id: 73265392
+  teams:
+    home: CA Tigre
+    away: CA Banfield
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '22:15'
+- id: 75090608
+  teams:
+    home: CA Colegiales
+    away: Tristan Suarez
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '18:00'
+- id: 67118736
+  teams:
+    home: Club Almagro
+    away: CA Chacarita Juniors
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:30'
+- id: 67118730
+  teams:
+    home: Quilmes AC
+    away: Agropecuario Argentino
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '19:00'
+- id: 75126908
+  teams:
+    home: Ferrocarril Midland
+    away: Atletico de Rafaela
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '19:30'
 basketball:
 - id: 72016810
   teams:
@@ -149,9 +203,9 @@ basketball:
     home: Boulazac
     away: Jeunesse Laique Bourg
   score:
-    home: 76
-    away: 65
-  status: live
+    home: 84
+    away: 73
+  status: result
   time: '18:30'
 - id: 73451804
   teams:
@@ -187,7 +241,7 @@ basketball:
   score:
     home: 78
     away: 87
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73451796
   teams:
@@ -196,16 +250,16 @@ basketball:
   score:
     home: 95
     away: 75
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73451798
   teams:
     home: Vechta
     away: Ulm
   score:
-    home: 91
-    away: 86
-  status: live
+    home: 97
+    away: 92
+  status: result
   time: '18:00'
 - id: 74750410
   teams:
@@ -288,6 +342,87 @@ basketball:
     away: 97
   status: result
   time: 09:00
+- id: 75455720
+  teams:
+    home: Minas
+    away: Cruzeiro Basquete
+  score:
+    home: 81
+    away: 73
+  status: result
+  time: '20:00'
+- id: 75455722
+  teams:
+    home: Flamengo
+    away: Brasilia
+  score:
+    home: 46
+    away: 39
+  status: live
+  time: '22:30'
+- id: 74131716
+  teams:
+    home: Igokea
+    away: Borac Cacak
+  score:
+    home: 83
+    away: 94
+  status: result
+  time: '17:00'
+- id: 74131722
+  teams:
+    home: CZ MTS
+    away: Buducnost
+  score:
+    home: 101
+    away: 91
+  status: result
+  time: '19:00'
+- id: 74131720
+  teams:
+    home: Siroki Wwin
+    away: Olimpija Ljubljana
+  score:
+    home: 70
+    away: 69
+  status: result
+  time: '19:00'
+- id: 74131920
+  teams:
+    home: Studentski Centar
+    away: Sarajevo
+  score:
+    home: 91
+    away: 100
+  status: result
+  time: '15:00'
+- id: 74131914
+  teams:
+    home: KD Ilirija
+    away: Spartak Subotica
+  score:
+    home: 76
+    away: 82
+  status: result
+  time: '15:30'
+- id: 74781154
+  teams:
+    home: CD Jorge Guzman
+    away: Corinthians
+  score:
+    home: 97
+    away: 96
+  status: result
+  time: 01:10
+- id: 74781156
+  teams:
+    home: Club Nacional
+    away: Corinthians
+  score:
+    home: 76
+    away: 73
+  status: live
+  time: '22:10'
 tennis:
 - id: 75151648
   teams:
