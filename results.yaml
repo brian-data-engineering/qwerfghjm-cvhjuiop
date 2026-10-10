@@ -8,25 +8,43 @@ soccer:
     away: 2
   status: result
   time: 00:45
-basketball: []
+basketball:
+- id: 72016810
+  teams:
+    home: SE Melbourne
+    away: Melbourne Utd.
+  score:
+    home: 99
+    away: 104
+  status: result
+  time: 08:30
+- id: 72016812
+  teams:
+    home: Perth
+    away: Breakers
+  score:
+    home: 21
+    away: 24
+  status: live
+  time: '10:30'
 tennis:
 - id: 75151648
   teams:
     home: Lehecka, Jiri
     away: Borges, Nuno
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: 04:00
 - id: 75413686
   teams:
     home: Medvedev, Daniil
     away: Struff, Jan-Lennard
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 1
+  status: result
   time: 04:00
 - id: 75408688
   teams:
@@ -34,18 +52,81 @@ tennis:
     away: Jodar, Rafael
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: 04:00
 - id: 75151642
   teams:
     home: Ugo Carabelli, Camilo
     away: Auger-Aliassime, Felix
   score:
+    home: 1
+    away: 2
+  status: result
+  time: 04:00
+- id: 75415416
+  teams:
+    home: Svrcina, Dalibor
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 05:30
+- id: 75151602
+  teams:
+    home: Arnaldi, Matteo
+    away: Fritz, Taylor
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:15
+- id: 75151640
+  teams:
+    home: Tabilo, Alejandro
+    away: Carreno Busta, Pablo
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 06:20
+- id: 75413690
+  teams:
+    home: Bu, Yunchaokete
+    away: Ruud, Casper
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 07:15
+- id: 75151628
+  teams:
+    home: Fils, Arthur
+    away: Kotov, Pavel
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:35
+- id: 75408692
+  teams:
+    home: Tien, Learner
+    away: Svajda, Zachary
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: 09:30
+- id: 75151600
+  teams:
+    home: Darderi, Luciano
+    away: Tsitsipas, Stefanos
+  score:
     home: 0
     away: 0
   status: live
-  time: 04:00
+  time: '10:15'
 ice_hockey: []
 table_tennis:
 - id: 75407696
