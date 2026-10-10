@@ -23,10 +23,28 @@ basketball:
     home: Perth
     away: Breakers
   score:
-    home: 21
-    away: 24
-  status: live
+    home: 100
+    away: 84
+  status: result
   time: '10:30'
+- id: 73495916
+  teams:
+    home: BK Rapid Wien
+    away: Young Lions Traiskirchen
+  score:
+    home: 81
+    away: 97
+  status: result
+  time: '13:00'
+- id: 73495914
+  teams:
+    home: Mistelbach
+    away: Gussing Blackbirds
+  score:
+    home: 63
+    away: 35
+  status: live
+  time: '15:00'
 tennis:
 - id: 75151648
   teams:
@@ -114,9 +132,9 @@ tennis:
     home: Tien, Learner
     away: Svajda, Zachary
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 09:30
 - id: 75151600
   teams:
@@ -124,10 +142,118 @@ tennis:
     away: Tsitsipas, Stefanos
   score:
     home: 0
+    away: 2
+  status: result
+  time: '10:15'
+- id: 75151594
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Alcaraz, Carlos
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:15'
+- id: 75408704
+  teams:
+    home: Paul, Tommy
+    away: Vallejo, Adolfo Daniel
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:20'
+- id: 75413688
+  teams:
+    home: Van de Zandschulp, Botic
+    away: Michelsen, Alex
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:35'
+- id: 75414076
+  teams:
+    home: Buse, Ignacio
+    away: Bergs, Zizou
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:50'
+- id: 75151586
+  teams:
+    home: Baez, Sebastian
+    away: Vacherot, Valentin
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:45'
+ice_hockey:
+- id: 72118860
+  teams:
+    home: Banik Sokolov
+    away: Horacka
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72118856
+  teams:
+    home: Havirov
+    away: HC Dynamo Pardubice B
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72118854
+  teams:
+    home: Kolin
+    away: Dukla
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72118858
+  teams:
+    home: Litomerice
+    away: Zlin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72118864
+  teams:
+    home: Tabor
+    away: Frydek Mistek
+  score:
+    home: 0
     away: 0
   status: live
-  time: '10:15'
-ice_hockey: []
+  time: '15:00'
+- id: 72118862
+  teams:
+    home: Vsetin
+    away: Chomutov
+  score:
+    home: 3
+    away: 1
+  status: live
+  time: '15:00'
+- id: 72118866
+  teams:
+    home: Zubr Prerov
+    away: Slavia Prague
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '15:00'
 table_tennis:
 - id: 75407696
   teams:
