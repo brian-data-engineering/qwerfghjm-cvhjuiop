@@ -1,6 +1,33 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 75476904
+  teams:
+    home: Carreno Busta, Pablo
+    away: Auger-Aliassime, Felix
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: 04:00
+- id: 75477394
+  teams:
+    home: Tien, Learner
+    away: Ruud, Casper
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: 04:00
+- id: 75466698
+  teams:
+    home: Lehecka, Jiri
+    away: Jodar, Rafael
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:10
 ice_hockey: []
 table_tennis:
 - id: 75468518
@@ -8,7 +35,259 @@ table_tennis:
     home: Cermak, Vladimir
     away: Trefny, Jan
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
+- id: 75468598
+  teams:
+    home: Svoboda, Adam
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:00
+- id: 75468424
+  teams:
+    home: Vondrak, Michal
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:00
+- id: 75468404
+  teams:
+    home: Dvorak, Vitek
+    away: Vejvoda, Viktor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 75468550
+  teams:
+    home: Krejci, Richard
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 75468492
+  teams:
+    home: Smrcek, Milan
+    away: Kosar, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 75468606
+  teams:
+    home: Briza, Frantisek
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 75468396
+  teams:
+    home: Sychra, Martin
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 75508602
+  teams:
+    home: Trefny, Jan
+    away: Brozik, Karel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 75468530
+  teams:
+    home: Kosar, Vaclav
+    away: Svoboda, Adam
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:30
+- id: 75468608
+  teams:
+    home: Sobisek, Martin
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 75468378
+  teams:
+    home: Vejvoda, Viktor
+    away: Vondrak, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 75468536
+  teams:
+    home: Briza, Frantisek
+    away: Smrcek, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 75468422
+  teams:
+    home: Sychra, Martin
+    away: Dvorak, Vitek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75468516
+  teams:
+    home: Trefny, Jan
+    away: Krejci, Richard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 75508600
+  teams:
+    home: Cermak, Vladimir
+    away: Brozik, Karel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75468670
+  teams:
+    home: Svoboda, Adam
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 75468328
+  teams:
+    home: Vondrak, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 75531382
+  teams:
+    home: Sobisek, Martin
+    away: Trefny, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 75530822
+  teams:
+    home: Vondrak, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 75531538
+  teams:
+    home: Smrcek, Milan
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:03
+- id: 75531384
+  teams:
+    home: Brozik, Karel
+    away: Krejci, Richard
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 75531540
+  teams:
+    home: Svoboda, Adam
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 75530824
+  teams:
+    home: Vejvoda, Viktor
+    away: Sychra, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 75499072
+  teams:
+    home: Adamczyk, Vladimir
+    away: Pagac, Zbynek
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
+- id: 75499020
+  teams:
+    home: Chalupnicek, Milan
+    away: Hruska Sr, Vaclav
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: 06:00
+- id: 75499064
+  teams:
+    home: Grohsgott, Jiri
+    away: Tkachenko, Andrii
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:00
+- id: 75498026
+  teams:
+    home: Jira, Jiri
+    away: Kubat, Vladimir
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 75501074
+  teams:
+    home: Wawrosz, Pavel
+    away: Revay, Radomir
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:00
