@@ -69,11 +69,65 @@ tennis:
     home: Caniato, Carlo Alberto
     away: Moeller, Marvin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '13:15'
-ice_hockey: []
+- id: 75371460
+  teams:
+    home: Cadenasso, Gianluca
+    away: Gulin, Svyatoslav
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:30'
+ice_hockey:
+- id: 72019248
+  teams:
+    home: Litvinov
+    away: Mountfield HK
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '15:30'
+- id: 72116366
+  teams:
+    home: SaiPa
+    away: HPK
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:30'
+- id: 72116368
+  teams:
+    home: Vaasan
+    away: KooKoo
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '15:30'
+- id: 72117390
+  teams:
+    home: K-Vantaa
+    away: Keupa
+  score:
+    home: 2
+    away: 5
+  status: result
+  time: '15:30'
+- id: 72483998
+  teams:
+    home: Wolfsburg
+    away: Krefeld
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '17:30'
 table_tennis:
 - id: 75627120
   teams:
@@ -775,7 +829,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75615770
   teams:
@@ -784,7 +838,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75616046
   teams:
@@ -793,7 +847,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75615986
   teams:
@@ -802,7 +856,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75615896
   teams:
@@ -811,25 +865,25 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '14:00'
 - id: 75616050
   teams:
     home: Grundel, Matej
     away: Navedla, Matyas
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '14:30'
 - id: 75615764
   teams:
     home: Kapras, Karel
     away: Dolejsi, Stanislav
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: '14:30'
 - id: 75615892
   teams:
@@ -837,17 +891,17 @@ table_tennis:
     away: Mikyska, Lubos
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '14:30'
 - id: 75615822
   teams:
     home: Saleny, Petr
     away: Pikous, Marcel
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: '14:30'
 - id: 75615948
   teams:
@@ -855,6 +909,204 @@ table_tennis:
     away: Szotkowski, Jan
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: '14:30'
+- id: 75616008
+  teams:
+    home: Biolek, Martin
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 75615964
+  teams:
+    home: Brazda, Adam
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75616002
+  teams:
+    home: Cabis, Michal
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 75615856
+  teams:
+    home: Vilhan, Martin
+    away: Novotny, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75615746
+  teams:
+    home: Zuzanek, Jiri
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75615756
+  teams:
+    home: Dolejsi, Stanislav
+    away: Holik, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 75615800
+  teams:
+    home: Mikyska, Lubos
+    away: Franc, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:30'
+- id: 75615872
+  teams:
+    home: Navedla, Matyas
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 75615910
+  teams:
+    home: Pikous, Marcel
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 75615926
+  teams:
+    home: Szotkowski, Jan
+    away: Niezgoda, Rostislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75616032
+  teams:
+    home: Franc, Petr
+    away: Novotny, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:00'
+- id: 75615750
+  teams:
+    home: Holik, Tomas
+    away: Kapras, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:00'
+- id: 75615982
+  teams:
+    home: Louda, Jiri
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 75615798
+  teams:
+    home: Niezgoda, Rostislav
+    away: Zika, Tadeas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 75616044
+  teams:
+    home: Pilch, Jakub
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:00'
+- id: 75615820
+  teams:
+    home: Biolek, Martin
+    away: Szotkowski, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75615880
+  teams:
+    home: Brazda, Adam
+    away: Pikous, Marcel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75615960
+  teams:
+    home: Cabis, Michal
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 75616052
+  teams:
+    home: Vilhan, Martin
+    away: Mikyska, Lubos
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '16:30'
+- id: 75615762
+  teams:
+    home: Zuzanek, Jiri
+    away: Dolejsi, Stanislav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:30'
+- id: 75615930
+  teams:
+    home: Holub, Marek
+    away: Simecek, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 75615802
+  teams:
+    home: Hudeczek, Roman
+    away: Szotek, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '18:00'
