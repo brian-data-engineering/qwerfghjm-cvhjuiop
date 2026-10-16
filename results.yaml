@@ -8,9 +8,9 @@ table_tennis:
     home: Franek, Tomas
     away: Skakal, Martin
   score:
-    home: 2
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
 - id: 75615904
   teams:
@@ -19,7 +19,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75616026
   teams:
@@ -28,5 +28,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
+- id: 75615834
+  teams:
+    home: Darin, Kyryl
+    away: Kouble, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 75615922
+  teams:
+    home: Kucirek, Ondrej
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 75615848
+  teams:
+    home: Vondrak, Michal
+    away: Kasnik, Sebastian
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:30
+- id: 75615824
+  teams:
+    home: Klusacek, Patrik
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 75615814
+  teams:
+    home: Prokupek, Jaroslav
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 75615958
+  teams:
+    home: Skakal, Martin
+    away: Klement, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 75615868
+  teams:
+    home: Kasnik, Sebastian
+    away: Franek, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 75615970
+  teams:
+    home: Kouble, Daniel
+    away: Krejci, Richard
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 75615884
+  teams:
+    home: Svoboda, Adam
+    away: Postelt, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 75616014
+  teams:
+    home: Klusacek, Patrik
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 75616042
+  teams:
+    home: Prokupek, Jaroslav
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 75615810
+  teams:
+    home: Skakal, Martin
+    away: Vondrak, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 75615924
+  teams:
+    home: Franek, Tomas
+    away: Klement, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 75615980
+  teams:
+    home: Krejci, Richard
+    away: Brozik, Karel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 75615898
+  teams:
+    home: Postelt, Vladimir
+    away: Dedek, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
