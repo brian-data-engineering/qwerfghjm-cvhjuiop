@@ -23,9 +23,9 @@ basketball:
     home: Dragons
     away: Swans Gmunden
   score:
-    home: 66
-    away: 60
-  status: live
+    home: 76
+    away: 77
+  status: result
   time: '17:00'
 - id: 74785222
   teams:
@@ -50,19 +50,136 @@ basketball:
     home: Strasbourg
     away: Roanne
   score:
-    home: 22
-    away: 24
-  status: live
+    home: 72
+    away: 70
+  status: result
   time: '18:00'
 - id: 74682432
   teams:
     home: Oldenburg
     away: Bonn
   score:
-    home: 16
-    away: 30
-  status: live
+    home: 61
+    away: 75
+  status: result
   time: '18:00'
+- id: 72466992
+  teams:
+    home: Stjarnan
+    away: Hottur
+  score:
+    home: 98
+    away: 103
+  status: result
+  time: '19:00'
+- id: 72466990
+  teams:
+    home: Valur Reykjavik
+    away: UMF Grindavik
+  score:
+    home: 81
+    away: 74
+  status: result
+  time: '19:30'
+- id: 73263046
+  teams:
+    home: Besiktas
+    away: B. Munich
+  score:
+    home: 95
+    away: 87
+  status: result
+  time: '17:00'
+- id: 73263048
+  teams:
+    home: Zalgiris
+    away: Efes Istanbul
+  score:
+    home: 70
+    away: 85
+  status: result
+  time: '17:00'
+- id: 73263050
+  teams:
+    home: CZ MTS
+    away: Paris Basketball
+  score:
+    home: 90
+    away: 81
+  status: result
+  time: '18:00'
+- id: 73263052
+  teams:
+    home: Panathinaikos
+    away: Hapoel Tel-Aviv
+  score:
+    home: 81
+    away: 91
+  status: result
+  time: '18:15'
+- id: 73263054
+  teams:
+    home: Barcelona
+    away: Olympiakos Piraeus
+  score:
+    home: 100
+    away: 105
+  status: result
+  time: '18:30'
+- id: 73263056
+  teams:
+    home: Bologna
+    away: Baskonia
+  score:
+    home: 86
+    away: 78
+  status: result
+  time: '18:30'
+- id: 75645218
+  teams:
+    home: Club Antonin Sportif
+    away: Aleppo Police Club
+  score:
+    home: 119
+    away: 62
+  status: result
+  time: '14:30'
+- id: 75645318
+  teams:
+    home: AL Ahly SC (Egy)
+    away: Angas Pilipinas
+  score:
+    home: 136
+    away: 75
+  status: result
+  time: '17:15'
+- id: 74131726
+  teams:
+    home: Cibona
+    away: Borac Cacak
+  score:
+    home: 94
+    away: 95
+  status: result
+  time: '16:30'
+- id: 74131922
+  teams:
+    home: Hallmann Vienna
+    away: Zadar
+  score:
+    home: 78
+    away: 63
+  status: result
+  time: '18:30'
+- id: 74781164
+  teams:
+    home: Boca Jrs
+    away: Leones Quilpue
+  score:
+    home: 101
+    away: 84
+  status: recentlyended
+  time: '20:10'
 tennis:
 - id: 75614834
   teams:
@@ -125,7 +242,7 @@ tennis:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:05'
 ice_hockey:
 - id: 73238430
@@ -135,25 +252,25 @@ ice_hockey:
   score:
     home: 4
     away: 3
-  status: live
+  status: result
   time: '16:30'
 - id: 73238434
   teams:
     home: Klagenfurt
     away: Vienna Capitals
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '17:15'
 - id: 73238438
   teams:
     home: Olimpija Ljubljana
     away: Sudtirol
   score:
-    home: 3
-    away: 1
-  status: live
+    home: 5
+    away: 4
+  status: result
   time: '17:15'
 - id: 73238436
   teams:
@@ -161,26 +278,26 @@ ice_hockey:
     away: BW Linz
   score:
     home: 0
-    away: 4
-  status: live
+    away: 6
+  status: result
   time: '17:15'
 - id: 73238432
   teams:
     home: Villach
     away: Graz 99ers
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 4
+  status: result
   time: '17:15'
 - id: 73238440
   teams:
     home: Pustertal
     away: Innsbruck
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '17:45'
 - id: 72019242
   teams:
@@ -1513,7 +1630,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 75653696
   teams:
@@ -1522,7 +1639,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 75653768
   teams:
@@ -1531,7 +1648,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 75653776
   teams:
@@ -1540,7 +1657,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 75653484
   teams:
@@ -1549,25 +1666,25 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 75653744
   teams:
     home: Hofman, Denis
     away: Sychra, Martin
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: '18:30'
 - id: 75653706
   teams:
     home: Horak, David
     away: Trinta, Mihail
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:30'
 - id: 75653874
   teams:
@@ -1575,24 +1692,204 @@ table_tennis:
     away: Taichman, Ivo
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '18:30'
 - id: 75653460
   teams:
     home: Postelt, Vladimir
     away: Krok, Lukas
   score:
-    home: 2
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '18:30'
 - id: 75653666
   teams:
     home: Rybar, Vaclav
     away: Kanak, Alois
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:30'
+- id: 75653718
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75653504
+  teams:
+    home: Darin, Kyryl
+    away: Postelt, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75653880
+  teams:
+    home: Jasek, Milan
+    away: Kowolowski, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75653674
+  teams:
+    home: Luksa, Zdenek
+    away: Rybar, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '19:00'
+- id: 75653728
+  teams:
+    home: Stolfa, Jakub
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
+- id: 75653810
+  teams:
+    home: Kanak, Alois
+    away: Kocian, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 75653496
+  teams:
+    home: Krok, Lukas
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 75653702
+  teams:
+    home: Sychra, Martin
+    away: Holik, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:30'
+- id: 75653876
+  teams:
+    home: Taichman, Ivo
+    away: Guliak, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:30'
+- id: 75653734
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:30'
+- id: 75653878
+  teams:
+    home: Guliak, Roman
+    away: Kowolowski, Miroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75653638
+  teams:
+    home: Holik, Tomas
+    away: Hofman, Denis
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 75653700
+  teams:
+    home: Kocian, Vojtech
+    away: Rybar, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 75653788
+  teams:
+    home: Kolenic, Tibor
+    away: Horak, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75653530
+  teams:
+    home: Prokupek, Jaroslav
+    away: Postelt, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 75653836
+  teams:
+    home: Briza, Frantisek
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 75653486
+  teams:
+    home: Darin, Kyryl
+    away: Krok, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:30'
+- id: 75653870
+  teams:
+    home: Jasek, Milan
+    away: Taichman, Ivo
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 75653764
+  teams:
+    home: Luksa, Zdenek
+    away: Kanak, Alois
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 75653792
+  teams:
+    home: Stolfa, Jakub
+    away: Sychra, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '20:30'
