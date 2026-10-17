@@ -1,6 +1,60 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 72016824
+  teams:
+    home: SE Melbourne
+    away: Cairns
+  score:
+    home: 115
+    away: 83
+  status: result
+  time: 06:30
+- id: 72016826
+  teams:
+    home: Sydney
+    away: Perth
+  score:
+    home: 37
+    away: 24
+  status: live
+  time: 08:30
+tennis:
+- id: 75696930
+  teams:
+    home: Diallo, Gabriel
+    away: Mayot, Harold
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 06:00
+- id: 75696928
+  teams:
+    home: Omarkhanov, Amir
+    away: Sakamoto, Rei
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:00
+- id: 75696938
+  teams:
+    home: Walton, Adam
+    away: Zhukayev, Beibit
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: 07:10
+- id: 75696936
+  teams:
+    home: Daniel, Taro
+    away: Basilashvili, Nikoloz
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 07:45
 ice_hockey: []
 table_tennis:
 - id: 75653678
@@ -165,3 +219,21 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 75688864
+  teams:
+    home: Urbaniec, Radim
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:00
+- id: 75688882
+  teams:
+    home: Kolek, Matyas
+    away: Schneeberger, Antonin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
