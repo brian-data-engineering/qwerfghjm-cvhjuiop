@@ -18,17 +18,179 @@ basketball:
     away: 91
   status: result
   time: 06:00
-tennis: []
+- id: 73495938
+  teams:
+    home: Timberwolves
+    away: Gussing Blackbirds
+  score:
+    home: 92
+    away: 80
+  status: result
+  time: '13:30'
+tennis:
+- id: 75713206
+  teams:
+    home: Diallo, Gabriel
+    away: Sakamoto, Rei
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 06:00
+- id: 75717028
+  teams:
+    home: Walton, Adam
+    away: Basilashvili, Nikoloz
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:00
+- id: 75719790
+  teams:
+    home: Safiullin, Roman
+    away: Simakin, Ilia
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 07:50
+- id: 75721258
+  teams:
+    home: Shevchenko, Alexander
+    away: Sakellaridis, Stefanos
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '10:00'
+- id: 75721288
+  teams:
+    home: Bertola, Remy
+    away: Cina, Federico
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '10:30'
+- id: 75723598
+  teams:
+    home: Basavareddy, Nishesh
+    away: Dougaz, Aziz
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:00'
+- id: 75721260
+  teams:
+    home: Chidekh, Clement
+    away: Onclin, Gauthier
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:20'
+- id: 75723596
+  teams:
+    home: Damm Jr, Martin
+    away: Guerrieri, Andrea
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:20'
+- id: 75722626
+  teams:
+    home: Rodionov, Jurij
+    away: Herbert, Pierre-Hugues
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 75722630
+  teams:
+    home: Virtanen, Otto
+    away: Sachko, Vitaliy
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 75722624
+  teams:
+    home: Mrva, Maxim
+    away: Lajovic, Dusan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:50'
+- id: 75722638
+  teams:
+    home: Jacquet, Kyrian
+    away: Gueymard Wayenburg, Sascha
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:35'
+- id: 75722628
+  teams:
+    home: Maestrelli, Francesco
+    away: Gojo, Borna
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '13:00'
+- id: 75722634
+  teams:
+    home: Royer, Valentin
+    away: Tabur, Clement
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '13:20'
+- id: 75722636
+  teams:
+    home: Kumstat, Jan
+    away: Mmoh, Michael
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '15:50'
 ice_hockey:
 - id: 73238446
   teams:
     home: Villach
     away: Pustertal
   score:
-    home: 1
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 73238448
+  teams:
+    home: Ferencvaros-Esmtk
+    away: Klagenfurt
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 73238450
+  teams:
+    home: Rossoblu
+    away: Fehervar
+  score:
+    home: 2
     away: 0
   status: live
-  time: '11:30'
+  time: '15:00'
 table_tennis:
 - id: 75689070
   teams:
@@ -208,17 +370,26 @@ table_tennis:
   score:
     home: 4
     away: 2
-  status: recentlyended
+  status: result
   time: '11:35'
 - id: 75720672
   teams:
     home: Kallberg, Anton
     away: Qiu, Dang
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 4
+    away: 2
+  status: result
   time: '12:20'
+- id: 75756024
+  teams:
+    home: Lebrun, Felix
+    away: Kallberg, Anton
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '16:00'
 - id: 75721372
   teams:
     home: Pavade, Prithika
@@ -237,6 +408,15 @@ table_tennis:
     away: 3
   status: result
   time: '10:40'
+- id: 75754720
+  teams:
+    home: Abraamian, Elizabet
+    away: Kaufmann, Annett
+  score:
+    home: 4
+    away: 3
+  status: recentlyended
+  time: '15:00'
 - id: 75723696
   teams:
     home: Moravec, Borek
