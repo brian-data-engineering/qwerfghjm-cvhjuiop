@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 1
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 75049050
   teams:
@@ -15,7 +15,7 @@ soccer:
   score:
     home: 4
     away: 1
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 75049056
   teams:
@@ -24,7 +24,7 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 73265406
   teams:
@@ -32,8 +32,8 @@ soccer:
     away: CA Independiente Avellaneda
   score:
     home: 1
-    away: 0
-  status: live
+    away: 1
+  status: result
   time: '17:45'
 basketball:
 - id: 72016828
@@ -135,6 +135,15 @@ basketball:
     away: 95
   status: result
   time: '11:35'
+- id: 72627036
+  teams:
+    home: Brno BC
+    away: Praha
+  score:
+    home: 91
+    away: 80
+  status: result
+  time: '16:00'
 - id: 74295682
   teams:
     home: Gravelines
@@ -158,9 +167,9 @@ basketball:
     home: Le Mans
     away: Jeunesse Laique Bourg
   score:
-    home: 81
-    away: 85
-  status: live
+    home: 91
+    away: 90
+  status: result
   time: '17:05'
 - id: 74682436
   teams:
@@ -266,10 +275,19 @@ basketball:
     home: Spartak Subotica
     away: U-Banca Transilvania
   score:
-    home: 61
-    away: 52
-  status: live
+    home: 89
+    away: 75
+  status: result
   time: '17:30'
+- id: 74781172
+  teams:
+    home: Leones Quilpue
+    away: Deportivo San Jose
+  score:
+    home: 93
+    away: 82
+  status: recentlyended
+  time: '19:10'
 tennis:
 - id: 75713206
   teams:
@@ -413,7 +431,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 75720868
   teams:
@@ -476,7 +494,7 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '16:35'
 - id: 75725398
   teams:
@@ -485,33 +503,33 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '16:55'
 - id: 75725406
   teams:
     home: Dedura, Diego
     away: Soriano Barrera, Adria
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '17:50'
 - id: 75725402
   teams:
     home: Alves, Mateus
     away: Munk Mesa, Bernardo
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '18:30'
 - id: 75725392
   teams:
     home: Hernandez Ramirez, Sergio Luis
     away: Leite, Wilson
   score:
-    home: 0
-    away: 0
+    home: 1
+    away: 1
   status: live
   time: '18:35'
 ice_hockey:
