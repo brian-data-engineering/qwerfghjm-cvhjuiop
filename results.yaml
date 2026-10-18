@@ -1,6 +1,51 @@
 soccer: []
-basketball: []
-tennis: []
+basketball:
+- id: 72016828
+  teams:
+    home: Tasmania Jackjumpers
+    away: Breakers
+  score:
+    home: 98
+    away: 92
+  status: result
+  time: 04:00
+- id: 72016830
+  teams:
+    home: Melbourne Utd.
+    away: Illawarra
+  score:
+    home: 89
+    away: 91
+  status: recentlyended
+  time: 06:00
+tennis:
+- id: 75713206
+  teams:
+    home: Diallo, Gabriel
+    away: Sakamoto, Rei
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: 06:00
+- id: 75717028
+  teams:
+    home: Walton, Adam
+    away: Basilashvili, Nikoloz
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 06:00
+- id: 75719790
+  teams:
+    home: Safiullin, Roman
+    away: Simakin, Ilia
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 07:50
 ice_hockey: []
 table_tennis:
 - id: 75689070
