@@ -42,9 +42,9 @@ tennis:
     home: Kukushkin, Mikhail
     away: Sakellaridis, Stefanos
   score:
-    home: 1
+    home: 2
     away: 0
-  status: live
+  status: result
   time: '14:35'
 - id: 75713186
   teams:
@@ -73,7 +73,70 @@ tennis:
     away: 2
   status: result
   time: '10:00'
-ice_hockey: []
+ice_hockey:
+- id: 73350422
+  teams:
+    home: Esbjerg
+    away: Rungsted
+  score:
+    home: 2
+    away: 6
+  status: result
+  time: '16:30'
+- id: 73350420
+  teams:
+    home: Odense
+    away: Herlev
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: '17:00'
+- id: 72166406
+  teams:
+    home: Amur Khabarovsk
+    away: Barys Astana
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: 09:00
+- id: 72166412
+  teams:
+    home: Admiral
+    away: Salavat UFA
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:30
+- id: 72166408
+  teams:
+    home: Sev. Cherepovec
+    away: Torpedo NN
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72166410
+  teams:
+    home: Sochi
+    away: Red Star Kunlun
+  score:
+    home: 2
+    away: 5
+  status: result
+  time: '16:30'
+- id: 72909112
+  teams:
+    home: Calgary
+    away: Carolina
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:00
 table_tennis:
 - id: 75715322
   teams:
