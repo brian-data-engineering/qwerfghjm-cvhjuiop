@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 73265412
+  teams:
+    home: Deportivo Riestra
+    away: Union de Santa Fe
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: 00:15
 basketball: []
 tennis: []
 ice_hockey: []
@@ -10,7 +19,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75746118
   teams:
@@ -19,7 +28,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75746116
   teams:
@@ -28,32 +37,140 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 00:00
 - id: 75746134
   teams:
     home: Smrcek, Milan
     away: Cerny, Vojtech
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:30
 - id: 75746132
   teams:
     home: Strnad, Jaroslav (1964)
     away: Dolezal, Vaclav
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:30
 - id: 75746090
   teams:
     home: Vaclavik, Miroslav
     away: Levicky, Matej
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: 00:30
+- id: 75746060
+  teams:
+    home: Andrle, Tomas
+    away: Parhomenko, Dmitro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 75746066
+  teams:
+    home: Mazanek, Stanislav
+    away: Sulava, Lubor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 75746104
+  teams:
+    home: Novak, Martin
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 75746120
+  teams:
+    home: Cerny, Vojtech
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 75746078
+  teams:
+    home: Dolezal, Vaclav
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 75746072
+  teams:
+    home: Levicky, Matej
+    away: Pleskot, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 75746058
+  teams:
+    home: Andrle, Tomas
+    away: Smrcek, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 75746124
+  teams:
+    home: Mazanek, Stanislav
+    away: Vaclavik, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75746092
+  teams:
+    home: Novak, Martin
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75746096
+  teams:
+    home: Kucirek, Ondrej
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75746062
+  teams:
+    home: Pleskot, Jan
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 75746074
+  teams:
+    home: Steffan, Jan
+    away: Hasmanda, Rostislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
