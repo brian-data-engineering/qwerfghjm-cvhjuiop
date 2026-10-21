@@ -64,7 +64,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 75795834
   teams:
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 75796850
   teams:
@@ -82,5 +82,131 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
+- id: 75795846
+  teams:
+    home: Kycelt, Jakub
+    away: Vales, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 75796798
+  teams:
+    home: Madle, Ludek
+    away: Mutl, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 75795902
+  teams:
+    home: Plachy, Jiri
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 75795866
+  teams:
+    home: Bilek, Zdenek
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 75795828
+  teams:
+    home: Dedek, Jiri
+    away: Darin, Kyryl
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 75796860
+  teams:
+    home: Grohsgott, Jiri
+    away: Potensky, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 75796914
+  teams:
+    home: Mutl, David
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 75795886
+  teams:
+    home: Prokupek, Jaroslav
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 75795848
+  teams:
+    home: Vales, Jakub
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 75822542
+  teams:
+    home: Cerny, Vojtech
+    away: Parhomenko, Dmitro
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 06:00
+- id: 75821840
+  teams:
+    home: Forman, Lubos
+    away: Novotny, Ladislav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:00
+- id: 75822518
+  teams:
+    home: Luksa, Zdenek
+    away: Palmi, Ivo
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:00
+- id: 75821800
+  teams:
+    home: Stefek, Martin
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 06:00
+- id: 75822512
+  teams:
+    home: Szotkowski, Jan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 06:00
