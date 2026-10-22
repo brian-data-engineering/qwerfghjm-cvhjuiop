@@ -7,7 +7,7 @@ basketball:
   score:
     home: 82
     away: 108
-  status: recentlyended
+  status: result
   time: 08:30
 tennis:
 - id: 75620020
@@ -24,10 +24,19 @@ tennis:
     home: Machac, Tomas
     away: Khachanov, Karen
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: 09:35
+- id: 75620032
+  teams:
+    home: Medvedev, Daniil
+    away: Shimabukuro, Sho
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:30'
 ice_hockey: []
 table_tennis:
 - id: 75821924
@@ -192,6 +201,60 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
+- id: 75887070
+  teams:
+    home: Regner, Tomas
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 75887050
+  teams:
+    home: Vejvoda, Viktor
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 75887100
+  teams:
+    home: Sobisek, Martin
+    away: Krejci, Richard
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:14
+- id: 75887072
+  teams:
+    home: Hasmanda, Rostislav
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
+- id: 75887052
+  teams:
+    home: Skakal, Martin
+    away: Sidletskyi, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 75887102
+  teams:
+    home: Tuma, Daniel
+    away: Zmuda, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
 - id: 75864782
   teams:
     home: Blejchar, Marek
@@ -462,6 +525,105 @@ table_tennis:
     away: 0
   status: result
   time: 08:30
+- id: 75903378
+  teams:
+    home: Blejchar, Marek
+    away: Osvald, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
+- id: 75902950
+  teams:
+    home: Mares, Erik
+    away: Vales, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:00
+- id: 75903058
+  teams:
+    home: Mikula, David
+    away: Zientek, Zbynek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 75903218
+  teams:
+    home: Plachy, Jiri
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
+- id: 75903382
+  teams:
+    home: Potensky, Jan
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:03
+- id: 75903220
+  teams:
+    home: Cerny, Vojtech
+    away: Pavelka, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 09:30
+- id: 75903384
+  teams:
+    home: Hejduk, Alexander
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 75902952
+  teams:
+    home: Huk, Martin
+    away: Zeman, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 09:30
+- id: 75903380
+  teams:
+    home: Machander, Dalimil
+    away: Chovanec, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 75903060
+  teams:
+    home: Sionkala, Eduard
+    away: Virag, Alexandr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:30
+- id: 75903880
+  teams:
+    home: Barton, Ales
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
 - id: 75864954
   teams:
     home: Chalupnicek, Milan
@@ -469,7 +631,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 75864980
   teams:
@@ -478,7 +640,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 75864894
   teams:
@@ -487,7 +649,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '10:00'
 - id: 75864778
   teams:
@@ -496,5 +658,5 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '10:00'
