@@ -1,6 +1,15 @@
 soccer: []
 basketball: []
-tennis: []
+tennis:
+- id: 75620036
+  teams:
+    home: Basilashvili, Nikoloz
+    away: Mannarino, Adrian
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 06:30
 ice_hockey: []
 table_tennis:
 - id: 75866940
@@ -64,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 75866902
   teams:
@@ -73,7 +82,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 75866928
   teams:
@@ -91,16 +100,16 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 75866894
   teams:
     home: Ruzicka, Jiri
     away: Zahradka, Michal
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:30
 - id: 75866930
   teams:
@@ -109,5 +118,77 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:30
+- id: 75866886
+  teams:
+    home: Placek, Marek
+    away: Kolar, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75866926
+  teams:
+    home: Svacha, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75866950
+  teams:
+    home: Trinta, Mihail
+    away: Dolezal, Vaclav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 75866904
+  teams:
+    home: Postelt, Vladimir
+    away: Mikuska, Alexander
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 75866910
+  teams:
+    home: Smrcek, Milan
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75866942
+  teams:
+    home: Zahradka, Michal
+    away: Wagner, Richard
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 75797366
+  teams:
+    home: Lindso, Daniel
+    away: Moreno, Alex
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 06:30
+- id: 75797368
+  teams:
+    home: Itagaki, Akito
+    away: Ostrovskyi, Andrii
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: 07:00
