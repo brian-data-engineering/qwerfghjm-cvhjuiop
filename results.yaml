@@ -1,15 +1,42 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016836
+  teams:
+    home: Perth
+    away: Melbourne Utd.
+  score:
+    home: 103
+    away: 102
+  status: recentlyended
+  time: '10:30'
 tennis:
 - id: 75620036
   teams:
     home: Basilashvili, Nikoloz
     away: Mannarino, Adrian
   score:
-    home: 0
+    home: 2
     away: 0
-  status: live
+  status: result
   time: 06:30
+- id: 75620038
+  teams:
+    home: Tsitsipas, Stefanos
+    away: Duckworth, James
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 75620048
+  teams:
+    home: Medvedev, Daniil
+    away: Atmane, Terence
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 09:30
 ice_hockey: []
 table_tennis:
 - id: 75866940
@@ -181,14 +208,365 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 06:30
 - id: 75797368
   teams:
     home: Itagaki, Akito
     away: Ostrovskyi, Andrii
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 07:00
+- id: 75797370
+  teams:
+    home: Zech, Damian
+    away: Cheaib, Dauud
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:30
+- id: 75797372
+  teams:
+    home: Echaveguren, Manuel
+    away: Itagaki, Akito
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 08:00
+- id: 75797374
+  teams:
+    home: Lindso, Daniel
+    away: Bertrand, Irvin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:30
+- id: 75938624
+  teams:
+    home: Bertrand, Irvin
+    away: Echaveguren, Manuel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 09:15
+- id: 75938626
+  teams:
+    home: Cheaib, Dauud
+    away: Itagaki, Akito
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:45
+- id: 75943722
+  teams:
+    home: Echaveguren, Manuel
+    away: Itagaki, Akito
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:30'
+- id: 75943724
+  teams:
+    home: Bertrand, Irvin
+    away: Cheaib, Dauud
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:00'
+- id: 75870236
+  teams:
+    home: Paszkiewicz, Michal
+    away: Jurowicz, Grzegorz
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:00
+- id: 75870238
+  teams:
+    home: Staniczek, Adam
+    away: Kubiak, Artur
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:10
+- id: 75870240
+  teams:
+    home: Stapor Rafal
+    away: Smoter, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:10
+- id: 75870242
+  teams:
+    home: Trela, Mateusz
+    away: Lukaszewski, Mikolaj
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:10
+- id: 75870244
+  teams:
+    home: Zmijewski, Artur
+    away: Zelezik, Jacek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:20
+- id: 75870246
+  teams:
+    home: Tkocz, Marek
+    away: Kurek, Pawel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:25
+- id: 75870342
+  teams:
+    home: Glanowski, Jakub
+    away: Solilo, Dominik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:35
+- id: 75870344
+  teams:
+    home: Mrugala, Bartlomiej
+    away: Golaszewski, Kuba
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:35
+- id: 75870326
+  teams:
+    home: Skupinski, Arkadiusz
+    away: Nocun, Zbigniew
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:35
+- id: 75870346
+  teams:
+    home: Barton, Aleksander
+    away: Michalik, Jerzy
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:45
+- id: 75870348
+  teams:
+    home: Bernacki, Lukasz
+    away: Jurowicz, Grzegorz
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:45
+- id: 75870350
+  teams:
+    home: Wolny, Michal
+    away: Staniczek, Adam
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 75870354
+  teams:
+    home: Paszkiewicz, Michal
+    away: Tkocz, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:10
+- id: 75870352
+  teams:
+    home: Zelezik, Jacek
+    away: Pyrek, Dawid
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:10
+- id: 75870356
+  teams:
+    home: Kubiak, Artur
+    away: Bartosik, Dominik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:25
+- id: 75870358
+  teams:
+    home: Zmijewski, Artur
+    away: Machelski, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:30
+- id: 75870360
+  teams:
+    home: Kurek, Pawel
+    away: Lebek, Marian
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:35
+- id: 75870362
+  teams:
+    home: Skupinski, Arkadiusz
+    away: Staniczek, Adam
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:45
+- id: 75870364
+  teams:
+    home: Michalik, Jerzy
+    away: Pyrek, Dawid
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:55
+- id: 75870366
+  teams:
+    home: Bernacki, Lukasz
+    away: Tkocz, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 75870368
+  teams:
+    home: Nocun, Zbigniew
+    away: Bartosik, Dominik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:10
+- id: 75870370
+  teams:
+    home: Barton, Aleksander
+    away: Zmijewski, Artur
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:20
+- id: 75870372
+  teams:
+    home: Jurowicz, Grzegorz
+    away: Lebek, Marian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:20
+- id: 75870374
+  teams:
+    home: Wolny, Michal
+    away: Kubiak, Artur
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:35
+- id: 75870378
+  teams:
+    home: Paszkiewicz, Michal
+    away: Kurek, Pawel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:45
+- id: 75870376
+  teams:
+    home: Zelezik, Jacek
+    away: Machelski, Michal
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:45
+- id: 75870380
+  teams:
+    home: Michalik, Jerzy
+    away: Zmijewski, Artur
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:05
+- id: 75870382
+  teams:
+    home: Barton, Aleksander
+    away: Zelezik, Jacek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 75870384
+  teams:
+    home: Machelski, Michal
+    away: Pyrek, Dawid
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:55
+- id: 75870386
+  teams:
+    home: Michalik, Jerzy
+    away: Zelezik, Jacek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 04:20
+- id: 75870388
+  teams:
+    home: Zmijewski, Artur
+    away: Pyrek, Dawid
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:40
+- id: 75870390
+  teams:
+    home: Barton, Aleksander
+    away: Machelski, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 05:05
