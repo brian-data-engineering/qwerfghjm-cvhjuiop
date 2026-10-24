@@ -24,7 +24,7 @@ soccer:
   score:
     home: 2
     away: 2
-  status: recentlyended
+  status: result
   time: '16:45'
 - id: 75049060
   teams:
@@ -33,16 +33,16 @@ soccer:
   score:
     home: 0
     away: 0
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 75049070
   teams:
     home: ES Setif
     away: CR Temouchent
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 2
+  status: result
   time: '18:00'
 - id: 73265454
   teams:
@@ -60,8 +60,17 @@ soccer:
   score:
     home: 1
     away: 1
-  status: live
+  status: result
   time: '17:45'
+- id: 73265448
+  teams:
+    home: CA Talleres de Cordoba
+    away: Defensa Y Justicia
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:00'
 basketball:
 - id: 72016838
   teams:
@@ -106,7 +115,7 @@ basketball:
   score:
     home: 105
     away: 94
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73495948
   teams:
@@ -215,7 +224,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '17:15'
 - id: 75953170
   teams:
@@ -305,7 +314,7 @@ tennis:
   score:
     home: 1
     away: 2
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 75621186
   teams:
@@ -1281,6 +1290,33 @@ table_tennis:
     away: 0
   status: result
   time: '13:30'
+- id: 75991848
+  teams:
+    home: Kowolowski, Miroslav
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
+- id: 75991864
+  teams:
+    home: Saleny, Petr
+    away: Vejvoda, Viktor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 75991868
+  teams:
+    home: Tyn, Daniel
+    away: Mikula, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
 - id: 75938056
   teams:
     home: Blabla, Simon
@@ -1551,6 +1587,96 @@ table_tennis:
     away: 3
   status: result
   time: '16:30'
+- id: 75993734
+  teams:
+    home: Blabla, Simon
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 75993730
+  teams:
+    home: Pilch, Jakub
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
+- id: 75993002
+  teams:
+    home: Plachy, Jiri
+    away: Darin, Kyryl
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:00'
+- id: 75993742
+  teams:
+    home: Zajicek, Jan
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 75993764
+  teams:
+    home: Sopko, Martin
+    away: Stolfa, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:03'
+- id: 75993732
+  teams:
+    home: Budinsky, Petr
+    away: Prokupek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 75993744
+  teams:
+    home: Medek, Josef
+    away: Boruvka, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:30'
+- id: 75993778
+  teams:
+    home: Regner, Michal
+    away: Dolejsi, Stanislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:30'
+- id: 75993736
+  teams:
+    home: Toth, Josef
+    away: Foltynek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 75993004
+  teams:
+    home: Zika, Tadeas
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:30'
 - id: 75937914
   teams:
     home: Adam, Radim
