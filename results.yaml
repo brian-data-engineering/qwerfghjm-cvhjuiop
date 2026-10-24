@@ -8,6 +8,60 @@ soccer:
     away: 3
   status: result
   time: '14:00'
+- id: 75049072
+  teams:
+    home: ASO Chlef
+    away: MB Rouisset
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '16:00'
+- id: 75049062
+  teams:
+    home: USM Alger
+    away: CR Belouizdad
+  score:
+    home: 2
+    away: 2
+  status: recentlyended
+  time: '16:45'
+- id: 75049060
+  teams:
+    home: JS Saoura
+    away: Ben Aknoun
+  score:
+    home: 0
+    away: 0
+  status: recentlyended
+  time: '17:00'
+- id: 75049070
+  teams:
+    home: ES Setif
+    away: CR Temouchent
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '18:00'
+- id: 73265454
+  teams:
+    home: CA Tigre
+    away: Atletico Tucuman
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 00:15
+- id: 73265436
+  teams:
+    home: CA Banfield
+    away: Atletico Lanus
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '17:45'
 basketball:
 - id: 72016838
   teams:
@@ -32,64 +86,91 @@ basketball:
     home: Udw Alligators
     away: Celovec/Klagenfurt
   score:
-    home: 65
-    away: 65
-  status: live
+    home: 80
+    away: 87
+  status: result
   time: '15:30'
 - id: 73495944
   teams:
     home: Mattersburg
     away: Garnets
   score:
-    home: 33
-    away: 30
-  status: live
+    home: 75
+    away: 62
+  status: result
   time: '16:00'
 - id: 73495946
   teams:
     home: Raiders Tirol
     away: Timberwolves
   score:
-    home: 42
-    away: 50
-  status: live
+    home: 105
+    away: 94
+  status: recentlyended
   time: '16:00'
 - id: 73495948
   teams:
     home: Worthersee Piraten
     away: Salzburg
   score:
-    home: 59
-    away: 41
-  status: live
+    home: 105
+    away: 81
+  status: result
   time: '16:00'
 - id: 72653686
   teams:
     home: WBC Wels
     away: Graz
   score:
-    home: 56
-    away: 46
-  status: live
+    home: 82
+    away: 77
+  status: result
   time: '15:30'
 - id: 72653688
   teams:
     home: Swans Gmunden
     away: Kapfenberg
   score:
-    home: 43
-    away: 39
-  status: live
+    home: 86
+    away: 72
+  status: result
   time: '16:00'
 - id: 72653692
   teams:
     home: Traiskirchen
     away: BBC Nord Dragonz
   score:
-    home: 46
-    away: 33
-  status: live
+    home: 83
+    away: 69
+  status: result
   time: '16:00'
+- id: 72653690
+  teams:
+    home: Dukes Klosterneuburg
+    away: Dragons
+  score:
+    home: 89
+    away: 69
+  status: result
+  time: '17:00'
+- id: 72653694
+  teams:
+    home: Oberwart
+    away: Kufstein Towers
+  score:
+    home: 111
+    away: 79
+  status: result
+  time: '17:00'
+- id: 74320658
+  teams:
+    home: Brasilia
+    away: Paulistano
+  score:
+    home: 91
+    away: 73
+  status: result
+  time: '14:15'
 tennis:
 - id: 75620028
   teams:
@@ -124,10 +205,172 @@ tennis:
     away: Reymond A / Sanchez L
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '16:10'
-ice_hockey: []
+- id: 75982704
+  teams:
+    home: Gille S / Verbeek S
+    away: Arneodo R / Jebens H
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '17:15'
+- id: 75953170
+  teams:
+    home: Giron, Marcos
+    away: Hanfmann, Yannick
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:00
+- id: 75953172
+  teams:
+    home: Kecmanovic, Miomir
+    away: Hijikata, Rinky
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 09:00
+- id: 75953178
+  teams:
+    home: Cerundolo, Juan Manuel
+    away: Svajda, Zachary
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:50'
+- id: 75953174
+  teams:
+    home: Faria, Jaime
+    away: Brunold, Mika
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:15'
+- id: 75953182
+  teams:
+    home: Baez, Sebastian
+    away: Mpetshi Perricard, Giovanni
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:30'
+- id: 75953176
+  teams:
+    home: Bernet, Henry
+    away: Altmaier, Daniel
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:50'
+- id: 75953180
+  teams:
+    home: Kovacevic, Aleksandar
+    away: Duckworth, James
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:20'
+- id: 75983100
+  teams:
+    home: Bertola, Remy
+    away: Paul, Jakub
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:45'
+- id: 75621148
+  teams:
+    home: Cerundolo, Francisco
+    away: Griekspoor, Tallon
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '14:00'
+- id: 75621146
+  teams:
+    home: Fils, Arthur
+    away: Struff, Jan-Lennard
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '16:30'
+- id: 75621186
+  teams:
+    home: Barrientos N / Pel D
+    away: Doumbia S / Stevens B
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:30'
+ice_hockey:
+- id: 73238482
+  teams:
+    home: Ferencvaros-Esmtk
+    away: Pustertal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72019284
+  teams:
+    home: Sparta Prague
+    away: Olomouc
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '14:00'
+- id: 72118910
+  teams:
+    home: Horacka
+    away: Vsetin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 72118912
+  teams:
+    home: Slavia Prague
+    away: Chomutov
+  score:
+    home: 6
+    away: 1
+  status: result
+  time: '13:00'
+- id: 72119096
+  teams:
+    home: Banik Sokolov
+    away: HC Dynamo Pardubice B
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '15:00'
+- id: 72118920
+  teams:
+    home: Havirov
+    away: Zubr Prerov
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '15:00'
 table_tennis:
 - id: 75899382
   teams:
@@ -1234,7 +1477,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 75937882
   teams:
@@ -1243,7 +1486,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 75937930
   teams:
@@ -1252,7 +1495,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 75938034
   teams:
@@ -1270,7 +1513,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 75937916
   teams:
@@ -1279,7 +1522,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 75937978
   teams:
@@ -1288,7 +1531,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '16:30'
 - id: 75938074
   teams:
@@ -1296,8 +1539,8 @@ table_tennis:
     away: Dolejsi, Stanislav
   score:
     home: 2
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:30'
 - id: 75937720
   teams:
@@ -1306,5 +1549,23 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '16:30'
+- id: 75937914
+  teams:
+    home: Adam, Radim
+    away: Guliak, Roman
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '18:00'
+- id: 75991546
+  teams:
+    home: Barta, Miroslav
+    away: Lubas, Miloslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '18:00'
