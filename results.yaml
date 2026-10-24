@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016838
+  teams:
+    home: Illawarra
+    away: Brisbane
+  score:
+    home: 81
+    away: 98
+  status: recentlyended
+  time: 06:30
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -165,12 +174,327 @@ table_tennis:
     away: 3
   status: result
   time: 02:30
-- id: 75908550
+- id: 75962968
   teams:
-    home: Jedrzejowski, Oskar
-    away: Wozniczka, Marcin
+    home: Cermak, Vladimir
+    away: Postelt, Vladimir
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 75963044
+  teams:
+    home: Regner, Michal
+    away: Vizek, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 75963248
+  teams:
+    home: Horak, David
+    away: Smrcek, Milan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:04
+- id: 75962970
+  teams:
+    home: Janata, Tomas
+    away: Tuma, Daniel
   score:
     home: 3
     away: 1
   status: result
-  time: 01:35
+  time: 03:30
+- id: 75963250
+  teams:
+    home: Kolar, Milan
+    away: Briza, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 75963046
+  teams:
+    home: Krejci, Richard
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 75937966
+  teams:
+    home: Kolek, Matyas
+    away: Mikula, David
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 75937972
+  teams:
+    home: Skacelik, Richard
+    away: Levicky, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 75937880
+  teams:
+    home: Tazler, Jakub
+    away: Klement, Milan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:00
+- id: 75937980
+  teams:
+    home: Tkachenko, Andrii
+    away: Tomasch, David
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 75937718
+  teams:
+    home: Vejvoda, Viktor
+    away: Urbaniec, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 75938076
+  teams:
+    home: Hejl, Petr Junior
+    away: Virag, Alexandr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 75937714
+  teams:
+    home: Pusch, Frantisek
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 06:30
+- id: 75937906
+  teams:
+    home: Rychlik, Evzen
+    away: Heczko, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 75938060
+  teams:
+    home: Saleny, Petr
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 06:30
+- id: 75937884
+  teams:
+    home: Stach, Vojtech
+    away: Pantak, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 75937986
+  teams:
+    home: Klement, Milan
+    away: Saleny, Petr
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 75937984
+  teams:
+    home: Levicky, Jakub
+    away: Rychlik, Evzen
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 75937944
+  teams:
+    home: Mikula, David
+    away: Hejl, Petr Junior
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 75938072
+  teams:
+    home: Tomasch, David
+    away: Stach, Vojtech
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 75937674
+  teams:
+    home: Urbaniec, Radim
+    away: Pusch, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 75937990
+  teams:
+    home: Heczko, David
+    away: Skacelik, Richard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 75938064
+  teams:
+    home: Louda, Jiri
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 75937886
+  teams:
+    home: Pantak, Josef
+    away: Tkachenko, Andrii
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 75937728
+  teams:
+    home: Svacha, Ondrej
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:30
+- id: 75937934
+  teams:
+    home: Virag, Alexandr
+    away: Kolek, Matyas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:30
+- id: 75938100
+  teams:
+    home: Kolek, Matyas
+    away: Hejl, Petr Junior
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 75938096
+  teams:
+    home: Skacelik, Richard
+    away: Rychlik, Evzen
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 08:00
+- id: 75937920
+  teams:
+    home: Tazler, Jakub
+    away: Saleny, Petr
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 75938092
+  teams:
+    home: Tkachenko, Andrii
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: 08:00
+- id: 75937726
+  teams:
+    home: Vejvoda, Viktor
+    away: Pusch, Frantisek
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 08:00
+- id: 75937922
+  teams:
+    home: Klement, Milan
+    away: Louda, Jiri
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 08:30
+- id: 75938102
+  teams:
+    home: Levicky, Jakub
+    away: Heczko, David
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 08:30
+- id: 75937982
+  teams:
+    home: Mikula, David
+    away: Virag, Alexandr
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 08:30
+- id: 75938094
+  teams:
+    home: Tomasch, David
+    away: Pantak, Josef
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:30
+- id: 75937690
+  teams:
+    home: Urbaniec, Radim
+    away: Svacha, Ondrej
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:30
