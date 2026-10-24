@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 75049068
+  teams:
+    home: USM Khenchela
+    away: JS Kabylie
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:00'
 basketball:
 - id: 72016838
   teams:
@@ -18,6 +27,69 @@ basketball:
     away: 94
   status: result
   time: 08:30
+- id: 73495942
+  teams:
+    home: Udw Alligators
+    away: Celovec/Klagenfurt
+  score:
+    home: 65
+    away: 65
+  status: live
+  time: '15:30'
+- id: 73495944
+  teams:
+    home: Mattersburg
+    away: Garnets
+  score:
+    home: 33
+    away: 30
+  status: live
+  time: '16:00'
+- id: 73495946
+  teams:
+    home: Raiders Tirol
+    away: Timberwolves
+  score:
+    home: 42
+    away: 50
+  status: live
+  time: '16:00'
+- id: 73495948
+  teams:
+    home: Worthersee Piraten
+    away: Salzburg
+  score:
+    home: 59
+    away: 41
+  status: live
+  time: '16:00'
+- id: 72653686
+  teams:
+    home: WBC Wels
+    away: Graz
+  score:
+    home: 56
+    away: 46
+  status: live
+  time: '15:30'
+- id: 72653688
+  teams:
+    home: Swans Gmunden
+    away: Kapfenberg
+  score:
+    home: 43
+    away: 39
+  status: live
+  time: '16:00'
+- id: 72653692
+  teams:
+    home: Traiskirchen
+    away: BBC Nord Dragonz
+  score:
+    home: 46
+    away: 33
+  status: live
+  time: '16:00'
 tennis:
 - id: 75620028
   teams:
@@ -28,6 +100,33 @@ tennis:
     away: 1
   status: result
   time: '10:00'
+- id: 75620040
+  teams:
+    home: Medvedev, Daniil
+    away: Bublik, Alexander
+  score:
+    home: null
+    away: null
+  status: result
+  time: '13:20'
+- id: 75621132
+  teams:
+    home: Miedler L / Oberleitner N
+    away: Balaji N S / King E
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 07:00
+- id: 75982702
+  teams:
+    home: Schiavone P / Virgili A
+    away: Reymond A / Sanchez L
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:10'
 ice_hockey: []
 table_tennis:
 - id: 75899382
@@ -838,7 +937,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 75938070
   teams:
@@ -847,7 +946,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 75937998
   teams:
@@ -856,7 +955,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 75937900
   teams:
@@ -865,7 +964,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
 - id: 75937918
   teams:
@@ -874,5 +973,338 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '12:30'
+- id: 75991866
+  teams:
+    home: Kolek, Matyas
+    away: Stach, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 75991872
+  teams:
+    home: Kulhanek, Pavel
+    away: Berdych, Pavel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 75991846
+  teams:
+    home: Schneeberger, Antonin
+    away: Kraninger, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:00'
+- id: 75991860
+  teams:
+    home: Tazler, Jakub
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 75991912
+  teams:
+    home: Cernik, Jan
+    away: Medek, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:06'
+- id: 75991914
+  teams:
+    home: Boruvka, Lukas
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 75991870
+  teams:
+    home: Hruska Sr, Vaclav
+    away: Svec, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 75938056
+  teams:
+    home: Blabla, Simon
+    away: Foltynek, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 75937704
+  teams:
+    home: Boruvka, Lukas
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 75938040
+  teams:
+    home: Budinsky, Petr
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 75937924
+  teams:
+    home: Stolfa, Jakub
+    away: Regner, Michal
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 75938066
+  teams:
+    home: Zika, Tadeas
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:00'
+- id: 75937712
+  teams:
+    home: Cernik, Jan
+    away: Medek, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '14:30'
+- id: 75938018
+  teams:
+    home: Grundel, Matej
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 75937946
+  teams:
+    home: Palmi, Ivo
+    away: Toth, Josef
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:30'
+- id: 75937964
+  teams:
+    home: Plachy, Jiri
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 75937954
+  teams:
+    home: Sopko, Martin
+    away: Dolejsi, Stanislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '14:30'
+- id: 75937936
+  teams:
+    home: Foltynek, Jiri
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75938028
+  teams:
+    home: Pilch, Jakub
+    away: Grundel, Matej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:00'
+- id: 75938010
+  teams:
+    home: Prokupek, Jaroslav
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:00'
+- id: 75938042
+  teams:
+    home: Regner, Michal
+    away: Sopko, Martin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '15:00'
+- id: 75937722
+  teams:
+    home: Zajicek, Jan
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:00'
+- id: 75937970
+  teams:
+    home: Darin, Kyryl
+    away: Budinsky, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75937962
+  teams:
+    home: Dolejsi, Stanislav
+    away: Stolfa, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '15:30'
+- id: 75937740
+  teams:
+    home: Medek, Josef
+    away: Boruvka, Lukas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 75937974
+  teams:
+    home: Polasek, Radovan
+    away: Zika, Tadeas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '15:30'
+- id: 75938004
+  teams:
+    home: Toth, Josef
+    away: Blabla, Simon
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '15:30'
+- id: 75937948
+  teams:
+    home: Blabla, Simon
+    away: Palmi, Ivo
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 75937684
+  teams:
+    home: Boruvka, Lukas
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 75937882
+  teams:
+    home: Budinsky, Petr
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '16:00'
+- id: 75937930
+  teams:
+    home: Stolfa, Jakub
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:00'
+- id: 75938034
+  teams:
+    home: Zika, Tadeas
+    away: Grundel, Matej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:00'
+- id: 75937910
+  teams:
+    home: Foltynek, Jiri
+    away: Toth, Josef
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: '16:30'
+- id: 75937916
+  teams:
+    home: Pilch, Jakub
+    away: Polasek, Radovan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:30'
+- id: 75937978
+  teams:
+    home: Prokupek, Jaroslav
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '16:30'
+- id: 75938074
+  teams:
+    home: Regner, Michal
+    away: Dolejsi, Stanislav
+  score:
+    home: 2
+    away: 2
+  status: live
+  time: '16:30'
+- id: 75937720
+  teams:
+    home: Zajicek, Jan
+    away: Medek, Josef
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '16:30'
