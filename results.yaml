@@ -27,8 +27,44 @@ basketball:
     away: 95
   status: result
   time: 06:00
-tennis: []
-ice_hockey: []
+- id: 73495950
+  teams:
+    home: Upper Austrian Ballers
+    away: Future Team Steiermark
+  score:
+    home: 44
+    away: 36
+  status: live
+  time: '13:30'
+tennis:
+- id: 75620030
+  teams:
+    home: Medvedev, Daniil
+    away: Basilashvili, Nikoloz
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '10:00'
+- id: 75621136
+  teams:
+    home: Miedler L / Oberleitner N
+    away: Bhambri Y / Seggerman R
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 07:00
+ice_hockey:
+- id: 73238486
+  teams:
+    home: Vienna Capitals
+    away: Graz 99ers
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: '13:45'
 table_tennis:
 - id: 75938046
   teams:
@@ -478,7 +514,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 75979238
   teams:
@@ -487,7 +523,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 75978216
   teams:
@@ -496,7 +532,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 75979246
   teams:
@@ -505,7 +541,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 75978194
   teams:
@@ -514,5 +550,365 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 09:30
+- id: 76018772
+  teams:
+    home: Blejchar, Marek
+    away: Osvald, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:00'
+- id: 76018974
+  teams:
+    home: Novotny, Ladislav
+    away: Martinek, Jaroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:00'
+- id: 76018594
+  teams:
+    home: Smrcek, Milan
+    away: Barton, David
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:00'
+- id: 76018650
+  teams:
+    home: Trinta, Mihail
+    away: Kolenic, Tibor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '10:00'
+- id: 76019522
+  teams:
+    home: Levicky, Jakub
+    away: Byrtus, Samuel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:03'
+- id: 76018652
+  teams:
+    home: Briza, Frantisek
+    away: Horak, David
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '10:30'
+- id: 76018788
+  teams:
+    home: Hradil, Oliver
+    away: Chovanec, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 76019030
+  teams:
+    home: Kostak, Matej
+    away: Syroha, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 76019662
+  teams:
+    home: Machander, Dalimil
+    away: Rinka, Alfred
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '10:30'
+- id: 76018596
+  teams:
+    home: Stefek, Martin
+    away: Dolezal, Vaclav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '10:30'
+- id: 75978160
+  teams:
+    home: Boruvka, Lukas
+    away: Medek, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 75979280
+  teams:
+    home: Dousek, Tomas
+    away: Navedla, Matyas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 75979172
+  teams:
+    home: Regner, Tomas
+    away: Kolenic, Tibor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 75979272
+  teams:
+    home: Schneeberger, Antonin
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:00'
+- id: 75978162
+  teams:
+    home: Tuma, Daniel
+    away: Vinter, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:00'
+- id: 75978234
+  teams:
+    home: Cernik, Jan
+    away: Zajicek, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75979160
+  teams:
+    home: Pilch, Jakub
+    away: Wawrosz, Pavel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75979134
+  teams:
+    home: Priesol, Daniel
+    away: Hrabec, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75979214
+  teams:
+    home: Trinta, Mihail
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:30'
+- id: 75978210
+  teams:
+    home: Volf, Matej
+    away: Sobisek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 75979212
+  teams:
+    home: Kolenic, Tibor
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:00'
+- id: 75978230
+  teams:
+    home: Medek, Josef
+    away: Cernik, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 75979184
+  teams:
+    home: Navedla, Matyas
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 75979336
+  teams:
+    home: Taichman, Ivo
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 75978208
+  teams:
+    home: Vinter, Tomas
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:00'
+- id: 75979140
+  teams:
+    home: Briza, Frantisek
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 75979230
+  teams:
+    home: Hrabec, Tomas
+    away: Schneeberger, Antonin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 75978214
+  teams:
+    home: Sobisek, Martin
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 75979208
+  teams:
+    home: Wawrosz, Pavel
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 75978226
+  teams:
+    home: Zajicek, Jan
+    away: Boruvka, Lukas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '12:30'
+- id: 75978242
+  teams:
+    home: Boruvka, Lukas
+    away: Cernik, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 75979242
+  teams:
+    home: Dousek, Tomas
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 75979224
+  teams:
+    home: Regner, Tomas
+    away: Trinta, Mihail
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:00'
+- id: 75979278
+  teams:
+    home: Schneeberger, Antonin
+    away: Priesol, Daniel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 75978206
+  teams:
+    home: Tuma, Daniel
+    away: Volf, Matej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 75979290
+  teams:
+    home: Kolenic, Tibor
+    away: Briza, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 75978228
+  teams:
+    home: Medek, Josef
+    away: Zajicek, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 75979164
+  teams:
+    home: Navedla, Matyas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 75979202
+  teams:
+    home: Taichman, Ivo
+    away: Hrabec, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:30'
+- id: 75978212
+  teams:
+    home: Vinter, Tomas
+    away: Sobisek, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:30'
