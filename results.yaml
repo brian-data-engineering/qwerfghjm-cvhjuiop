@@ -8,6 +8,15 @@ soccer:
     away: 0
   status: result
   time: 00:30
+- id: 73265462
+  teams:
+    home: CA Aldosivi
+    away: CA Belgrano de Cordoba
+  score:
+    home: 1
+    away: 0
+  status: result
+  time: '17:45'
 basketball:
 - id: 72016842
   teams:
@@ -41,18 +50,18 @@ basketball:
     home: BK Rapid Wien
     away: Gussing Blackbirds
   score:
-    home: 22
-    away: 41
-  status: live
+    home: 60
+    away: 91
+  status: result
   time: '17:00'
 - id: 73495954
   teams:
     home: Young Lions Traiskirchen
     away: Mistelbach
   score:
-    home: 17
-    away: 25
-  status: live
+    home: 83
+    away: 90
+  status: result
   time: '17:30'
 - id: 74786970
   teams:
@@ -133,8 +142,80 @@ basketball:
   score:
     home: 78
     away: 74
-  status: recentlyended
+  status: result
   time: '15:30'
+- id: 74295702
+  teams:
+    home: Pau Orthez
+    away: Limoges
+  score:
+    home: 85
+    away: 81
+  status: recentlyended
+  time: '18:00'
+- id: 73451816
+  teams:
+    home: Hagen
+    away: Braunschweig
+  score:
+    home: 88
+    away: 73
+  status: result
+  time: '14:00'
+- id: 73451818
+  teams:
+    home: B. Munich
+    away: Hamburg
+  score:
+    home: 96
+    away: 77
+  status: result
+  time: '15:30'
+- id: 73451820
+  teams:
+    home: Alba
+    away: Ulm
+  score:
+    home: 98
+    away: 82
+  status: result
+  time: '17:00'
+- id: 74750448
+  teams:
+    home: Kolossos Rhodes
+    away: Vikos Falcon BC
+  score:
+    home: 80
+    away: 70
+  status: result
+  time: '11:00'
+- id: 74750450
+  teams:
+    home: Promitheas Patras
+    away: Olympiakos Piraeus
+  score:
+    home: 45
+    away: 85
+  status: result
+  time: '11:00'
+- id: 74131936
+  teams:
+    home: Zadar
+    away: KD Ilirija
+  score:
+    home: 95
+    away: 70
+  status: result
+  time: '17:00'
+- id: 74781184
+  teams:
+    home: Obera Tenis Club
+    away: Paisas Basketball
+  score:
+    home: 26
+    away: 19
+  status: live
+  time: '20:10'
 tennis:
 - id: 75620030
   teams:
@@ -198,25 +279,25 @@ ice_hockey:
   score:
     home: 5
     away: 4
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 73238498
   teams:
     home: Klagenfurt
     away: Sudtirol
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 5
+  status: result
   time: '16:30'
 - id: 73238496
   teams:
     home: Villach
     away: Innsbruck
   score:
-    home: 1
+    home: 4
     away: 0
-  status: live
+  status: result
   time: '16:30'
 - id: 72019294
   teams:
@@ -234,7 +315,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72019286
   teams:
@@ -243,7 +324,7 @@ ice_hockey:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72019288
   teams:
@@ -252,7 +333,7 @@ ice_hockey:
   score:
     home: 2
     away: 1
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72019292
   teams:
@@ -261,7 +342,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 72019296
   teams:
@@ -269,8 +350,8 @@ ice_hockey:
     away: Kometa
   score:
     home: 1
-    away: 1
-  status: live
+    away: 4
+  status: result
   time: '16:30'
 - id: 72118926
   teams:
@@ -288,7 +369,7 @@ ice_hockey:
   score:
     home: 4
     away: 2
-  status: recentlyended
+  status: result
   time: '15:00'
 - id: 72118936
   teams:
@@ -297,7 +378,7 @@ ice_hockey:
   score:
     home: 2
     away: 0
-  status: live
+  status: result
   time: '16:00'
 - id: 72118930
   teams:
@@ -305,8 +386,8 @@ ice_hockey:
     away: Horacka
   score:
     home: 0
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '16:00'
 table_tennis:
 - id: 75938046
@@ -1441,7 +1522,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 75979288
   teams:
@@ -1459,7 +1540,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 75979196
   teams:
@@ -1468,7 +1549,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '17:00'
 - id: 75979276
   teams:
@@ -1476,8 +1557,8 @@ table_tennis:
     away: Derco, Michal
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '17:30'
 - id: 75978172
   teams:
@@ -1485,8 +1566,8 @@ table_tennis:
     away: Sobisek, Martin
   score:
     home: 1
-    away: 2
-  status: live
+    away: 3
+  status: result
   time: '17:30'
 - id: 75979258
   teams:
@@ -1495,7 +1576,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 75979204
   teams:
@@ -1504,7 +1585,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 75979326
   teams:
@@ -1513,5 +1594,23 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: '17:30'
+- id: 76034532
+  teams:
+    home: Zurek, Filip
+    away: Guliak, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '18:00'
+- id: 76034548
+  teams:
+    home: Hanel, Patrik
+    away: Adam, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
