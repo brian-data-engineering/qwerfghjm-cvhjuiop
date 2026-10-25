@@ -17,6 +17,15 @@ soccer:
     away: 0
   status: result
   time: '17:45'
+- id: 73265450
+  teams:
+    home: CA Independiente Avellaneda
+    away: Boca Juniors
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: '20:00'
 basketball:
 - id: 72016842
   teams:
@@ -151,7 +160,7 @@ basketball:
   score:
     home: 85
     away: 81
-  status: recentlyended
+  status: result
   time: '18:00'
 - id: 73451816
   teams:
@@ -212,9 +221,9 @@ basketball:
     home: Obera Tenis Club
     away: Paisas Basketball
   score:
-    home: 26
-    away: 19
-  status: live
+    home: 84
+    away: 83
+  status: result
   time: '20:10'
 tennis:
 - id: 75620030
