@@ -1,5 +1,23 @@
-soccer: []
-basketball: []
+soccer:
+- id: 73265456
+  teams:
+    home: CA Rosario Central
+    away: CA Huracan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 00:30
+basketball:
+- id: 72016842
+  teams:
+    home: Cairns
+    away: Breakers
+  score:
+    home: 43
+    away: 54
+  status: live
+  time: 04:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -9,24 +27,159 @@ table_tennis:
     away: Parhomenko, Dmitro
   score:
     home: 1
-    away: 0
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 75937996
   teams:
     home: Plachy, Jiri
     away: Budinsky, Petr
   score:
-    home: 0
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 75937710
   teams:
     home: Wagner, Richard
     away: Klimenta, Matous
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 00:00
+- id: 75938054
+  teams:
+    home: Prokupek, Jaroslav
+    away: Holovatiuk, Yurii
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 75937696
+  teams:
+    home: Rose, Radek
+    away: Svacha, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 75938030
+  teams:
+    home: Svoboda, Adam
+    away: Babicka, Lukas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 75937932
+  teams:
+    home: Budinsky, Petr
+    away: Dedek, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 75937688
+  teams:
+    home: Klimenta, Matous
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 75938014
+  teams:
+    home: Parhomenko, Dmitro
+    away: Jungman, Filip
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 75938080
+  teams:
+    home: Babicka, Lukas
+    away: Placek, Marek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 75938088
+  teams:
+    home: Holovatiuk, Yurii
+    away: Plachy, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 75937716
+  teams:
+    home: Svacha, Ondrej
+    away: Wagner, Richard
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 75937874
+  teams:
+    home: Budinsky, Petr
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75937676
+  teams:
+    home: Klimenta, Matous
+    away: Rose, Radek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 75937876
+  teams:
+    home: Parhomenko, Dmitro
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 75938052
+  teams:
+    home: Placek, Marek
+    away: Jungman, Filip
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 75938048
+  teams:
+    home: Plachy, Jiri
+    away: Dedek, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75937732
+  teams:
+    home: Wagner, Richard
+    away: Urbaniec, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
