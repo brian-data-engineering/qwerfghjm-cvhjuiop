@@ -1,4 +1,22 @@
-soccer: []
+soccer:
+- id: 73265460
+  teams:
+    home: Barracas Central
+    away: Estudiantes Rio Cuarto
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:30
+- id: 73265440
+  teams:
+    home: CA Central Cordoba SE
+    away: Velez Sarsfield
+  score:
+    home: 0
+    away: 5
+  status: result
+  time: 00:30
 basketball: []
 tennis: []
 ice_hockey: []
@@ -37,7 +55,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 75979152
   teams:
@@ -46,7 +64,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 75979180
   teams:
@@ -55,32 +73,167 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 75978184
   teams:
     home: Kosar, Vaclav
     away: Dolezal, Vaclav
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 01:00
 - id: 75979216
   teams:
     home: Krejci, Richard
     away: Tuma, Daniel
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:00
 - id: 75979174
   teams:
     home: Mares, Erik
     away: Postelt, Tomas
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 01:00
+- id: 75979256
+  teams:
+    home: Bilek, Zdenek
+    away: Zahradka, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 75979170
+  teams:
+    home: Brozik, Karel
+    away: Bayer, Ales
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 75978164
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Stefek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 75978202
+  teams:
+    home: Dolezal, Vaclav
+    away: Hasmanda, Rostislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 75979148
+  teams:
+    home: Postelt, Tomas
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 75979286
+  teams:
+    home: Tuma, Daniel
+    away: Zmuda, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 75979222
+  teams:
+    home: Bayer, Ales
+    away: Krejci, Richard
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 75978166
+  teams:
+    home: Stefek, Martin
+    away: Kosar, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 75979302
+  teams:
+    home: Zahradka, Michal
+    away: Mares, Erik
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 75978192
+  teams:
+    home: Dolezal, Vaclav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 75979188
+  teams:
+    home: Postelt, Tomas
+    away: Bilek, Zdenek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 75979282
+  teams:
+    home: Tuma, Daniel
+    away: Brozik, Karel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 75978246
+  teams:
+    home: Kosar, Vaclav
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 75979144
+  teams:
+    home: Krejci, Richard
+    away: Zmuda, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 75979162
+  teams:
+    home: Mares, Erik
+    away: Huk, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
