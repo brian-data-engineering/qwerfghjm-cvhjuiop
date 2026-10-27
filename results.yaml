@@ -6,7 +6,7 @@ soccer:
   score:
     home: 0
     away: 1
-  status: live
+  status: result
   time: '14:00'
 - id: 73265446
   teams:
@@ -19,7 +19,61 @@ soccer:
   time: 00:15
 basketball: []
 tennis: []
-ice_hockey: []
+ice_hockey:
+- id: 73238500
+  teams:
+    home: Fehervar
+    away: Milano HC
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:15'
+- id: 72019300
+  teams:
+    home: Budejovice
+    away: Mountfield HK
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '16:30'
+- id: 72019302
+  teams:
+    home: Plzen
+    away: Olomouc
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72019308
+  teams:
+    home: Karlovy Vary
+    away: Mlada Bo.
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:00'
+- id: 72019304
+  teams:
+    home: Pardubice
+    away: Litvinov
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72019486
+  teams:
+    home: Rytiri Kladno
+    away: Sparta Prague
+  score:
+    home: 5
+    away: 1
+  status: result
+  time: '17:00'
 table_tennis:
 - id: 76015400
   teams:
