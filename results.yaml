@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016846
+  teams:
+    home: Perth
+    away: Sydney
+  score:
+    home: 28
+    away: 41
+  status: live
+  time: '10:30'
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -228,39 +237,3 @@ table_tennis:
     away: 2
   status: result
   time: 04:00
-- id: 76128776
-  teams:
-    home: Hejduk, Alexander
-    away: Potensky, Jan
-  score:
-    home: 3
-    away: 0
-  status: result
-  time: 04:00
-- id: 76128782
-  teams:
-    home: Klusacek, Patrik
-    away: Holovatiuk, Yurii
-  score:
-    home: 3
-    away: 1
-  status: recentlyended
-  time: 04:30
-- id: 76128866
-  teams:
-    home: Krejci, Richard
-    away: Zmuda, Petr
-  score:
-    home: 1
-    away: 3
-  status: recentlyended
-  time: 04:30
-- id: 76128778
-  teams:
-    home: Madle, Ludek
-    away: Havrda, Leos
-  score:
-    home: 3
-    away: 2
-  status: recentlyended
-  time: 04:30
