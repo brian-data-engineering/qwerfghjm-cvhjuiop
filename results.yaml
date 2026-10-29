@@ -4,9 +4,9 @@ soccer:
     home: Atletico Tucuman
     away: CA Platense
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 5
+    away: 6
+  status: result
   time: 00:15
 basketball: []
 tennis: []
@@ -73,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 76112246
   teams:
@@ -82,7 +82,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 76112148
   teams:
@@ -91,32 +91,320 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 76112034
   teams:
     home: Brozik, Karel
     away: Tuma, Daniel
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:30
 - id: 76112208
   teams:
     home: Hasmanda, Rostislav
     away: Ulrych, Martin
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 1
+    away: 3
+  status: result
   time: 01:30
 - id: 76112110
   teams:
     home: Ruzicka, Jiri
     away: Zahradka, Michal
   score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 76112024
+  teams:
+    home: Janata, Tomas
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 76165616
+  teams:
+    home: Postelt, Tomas
+    away: Mares, Erik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 76112096
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Regner, Tomas
+  score:
     home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 76112138
+  teams:
+    home: Tuma, Daniel
+    away: Krejci, Richard
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 76112074
+  teams:
+    home: Ulrych, Martin
+    away: Stefek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 76112168
+  teams:
+    home: Zahradka, Michal
+    away: Bilek, Zdenek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:30
+- id: 76112008
+  teams:
+    home: Janata, Tomas
+    away: Brozik, Karel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:00
+- id: 76112060
+  teams:
+    home: Postelt, Tomas
+    away: Ruzicka, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 76112108
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 76165618
+  teams:
+    home: Bilek, Zdenek
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76112178
+  teams:
+    home: Krejci, Richard
+    away: Zmuda, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:30
+- id: 76112046
+  teams:
+    home: Stefek, Martin
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76168482
+  teams:
+    home: Brozik, Karel
+    away: Zmuda, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:00
+- id: 76168514
+  teams:
+    home: Zahradka, Michal
+    away: Postelt, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 04:00
+- id: 76168518
+  teams:
+    home: Regner, Tomas
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:04
+- id: 76168516
+  teams:
+    home: Bilek, Zdenek
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:30
+- id: 76168484
+  teams:
+    home: Janata, Tomas
+    away: Tuma, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:30
+- id: 76168520
+  teams:
+    home: Stefek, Martin
+    away: Ulrych, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 04:30
+- id: 76151646
+  teams:
+    home: Chalupnicek, Milan
+    away: Briska, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 76151660
+  teams:
+    home: Machander, Dalimil
+    away: Cabak, Josef
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 76151604
+  teams:
+    home: Stach, Vojtech
+    away: Madle, Ludek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 76151734
+  teams:
+    home: Varecha, Pavel
+    away: Taichman, Ivo
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:00
+- id: 76151106
+  teams:
+    home: Vedmoch, Michal
+    away: Holovatiuk, Yurii
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 76151510
+  teams:
+    home: Bohac, Martin
+    away: Hruska Sr, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 76151736
+  teams:
+    home: Bosak, Vitezslav
+    away: Kowolowski, Miroslav
+  score:
+    home: 2
     away: 2
   status: live
-  time: 01:30
+  time: 07:30
+- id: 76151636
+  teams:
+    home: Byrtus, Samuel
+    away: Heczko, Marcel
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 76151524
+  teams:
+    home: Hejduk, Alexander
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 76151128
+  teams:
+    home: Svoboda, Adam
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:30
+- id: 76151602
+  teams:
+    home: Briska, Jan
+    away: Bohac, Martin
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:00
+- id: 76151614
+  teams:
+    home: Cabak, Josef
+    away: Byrtus, Samuel
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:00
+- id: 76151150
+  teams:
+    home: Holovatiuk, Yurii
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 08:00
+- id: 76151582
+  teams:
+    home: Madle, Ludek
+    away: Hejduk, Alexander
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: 08:00
