@@ -8,6 +8,33 @@ soccer:
     away: 6
   status: result
   time: 00:15
+- id: 74411780
+  teams:
+    home: SC Austria Lustenau
+    away: SK Sturm Graz
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:00'
+- id: 66887136
+  teams:
+    home: Clube do Remo PA
+    away: Botafogo RJ
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 00:30
+- id: 66887134
+  teams:
+    home: EC Bahia
+    away: Sao Paulo FC
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
 basketball:
 - id: 72016848
   teams:
@@ -34,10 +61,91 @@ tennis:
     away: Fils, Arthur
   score:
     home: 1
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '14:00'
-ice_hockey: []
+- id: 75837572
+  teams:
+    home: Altmaier, Daniel
+    away: Lehecka, Jiri
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:15'
+- id: 75837582
+  teams:
+    home: Fritz, Taylor
+    away: Shapovalov, Denis
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:40'
+- id: 75837590
+  teams:
+    home: Djokovic, Novak
+    away: Struff, Jan-Lennard
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:20'
+ice_hockey:
+- id: 72117424
+  teams:
+    home: Iisalmen Peli-Karhut
+    away: Keupa
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72117426
+  teams:
+    home: Kettera
+    away: Pyry
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '16:30'
+- id: 72117428
+  teams:
+    home: TuTo
+    away: K-Vantaa
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:30'
+- id: 72484054
+  teams:
+    home: Augsburg
+    away: Frankfurt
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:30'
+- id: 72122134
+  teams:
+    home: Frisk/Asker
+    away: Stjernen
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '17:30'
+- id: 72122136
+  teams:
+    home: Narvik
+    away: Stavanger
+  score:
+    home: 1
+    away: 0
+  status: recentlyended
+  time: '17:30'
 table_tennis:
 - id: 76112044
   teams:
