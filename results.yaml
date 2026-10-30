@@ -6,7 +6,7 @@ soccer:
   score:
     home: 1
     away: 2
-  status: live
+  status: result
   time: '16:45'
 - id: 75049080
   teams:
@@ -15,8 +15,17 @@ soccer:
   score:
     home: 1
     away: 0
-  status: recentlyended
+  status: result
   time: '16:45'
+- id: 75049088
+  teams:
+    home: MC Oran
+    away: Olympique Akbou
+  score:
+    home: 0
+    away: 0
+  status: result
+  time: '19:00'
 basketball:
 - id: 72016850
   teams:
@@ -36,6 +45,15 @@ basketball:
     away: 71
   status: result
   time: 08:30
+- id: 74320694
+  teams:
+    home: Paulistano
+    away: Bauru
+  score:
+    home: 26
+    away: 23
+  status: live
+  time: '22:30'
 tennis:
 - id: 75837574
   teams:
@@ -62,35 +80,242 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '17:00'
+- id: 75837588
+  teams:
+    home: Struff, Jan-Lennard
+    away: Borges, Nuno
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:40'
+- id: 75837608
+  teams:
+    home: Frantzen C / Haase R
+    away: Cash J / Glasspool L
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '11:05'
+- id: 75837630
+  teams:
+    home: Mannarino, Adrian
+    away: Medvedev, Daniil
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:40'
+- id: 75837632
+  teams:
+    home: Paul, Tommy
+    away: Alcaraz, Carlos
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:35'
+- id: 75837626
+  teams:
+    home: Zverev, Alexander
+    away: Fery, Arthur
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:55'
+- id: 75837628
+  teams:
+    home: Berrettini, Matteo
+    away: de Minaur, Alex
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '19:00'
+- id: 75837664
+  teams:
+    home: Bolelli S / Vavassori A
+    away: Andreozzi G / Guinard M
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '12:10'
+- id: 75837666
+  teams:
+    home: Gonzalez M / Molteni A
+    away: Cerundolo F / Etcheverry T
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:15'
+- id: 75837662
+  teams:
+    home: Heliovaara H / Patten H
+    away: Miedler L / Oberleitner N
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '15:40'
+- id: 75837654
+  teams:
+    home: Seggerman R / Tien L
+    away: Harrison C / Skupski N
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:40'
+- id: 75837816
+  teams:
+    home: Cina, Federico
+    away: Prizmic, Dino
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:10'
+- id: 75837814
+  teams:
+    home: Damm Jr, Martin
+    away: Tabur, Clement
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '14:45'
+- id: 75837826
+  teams:
+    home: Kouame, Moise
+    away: Maestrelli, Francesco
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:30'
+- id: 75837812
+  teams:
+    home: Travaglia, Stefano
+    away: Virtanen, Otto
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '19:15'
+- id: 75837832
+  teams:
+    home: Balaji N S / King E
+    away: Kittay B / Yuzuki T
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:30'
+- id: 75837834
+  teams:
+    home: Liutarevich I / Paris J
+    away: Escobar G / Kaliyanda Poonacha N
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '11:30'
+- id: 75837880
+  teams:
+    home: Camacho, Emilio
+    away: Reis Da Silva, Joao Lucas
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '18:30'
+- id: 75837864
+  teams:
+    home: Aguilar Cardozo, Joaquin
+    away: Midon, Lautaro
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '19:40'
+- id: 75837868
+  teams:
+    home: Zarate, Carlos Maria
+    away: Dellien, Hugo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '19:45'
+- id: 75837866
+  teams:
+    home: Aboian, Valerio
+    away: Hardt, Nick
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '20:15'
+- id: 75837878
+  teams:
+    home: Ugo Carabelli, Camilo
+    away: Reis Da Silva, Joao Lucas
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '22:30'
+- id: 75837890
+  teams:
+    home: Hidalgo D / Kestelboim M
+    away: Britto L / Zormann M
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:30'
+- id: 75837894
+  teams:
+    home: Bagnis F / Gomez E
+    away: Magadan A / Zeballos F
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '19:50'
 ice_hockey:
 - id: 73238514
   teams:
     home: Graz 99ers
     away: Klagenfurt
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '17:30'
 - id: 73238518
   teams:
     home: Fehervar
     away: Sudtirol
   score:
-    home: 0
-    away: 0
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: '18:15'
 - id: 73238520
   teams:
     home: Olimpija Ljubljana
     away: Vienna Capitals
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 3
+    away: 1
+  status: result
   time: '18:15'
 table_tennis:
 - id: 76151634
