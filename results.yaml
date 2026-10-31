@@ -44,6 +44,15 @@ soccer:
     away: 1
   status: result
   time: 00:15
+- id: 73265470
+  teams:
+    home: Deportivo Riestra
+    away: CA Talleres de Cordoba
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '20:00'
 basketball:
 - id: 72016854
   teams:
@@ -87,8 +96,8 @@ basketball:
     away: Raiders Tirol
   score:
     home: 88
-    away: 92
-  status: live
+    away: 94
+  status: result
   time: '17:30'
 - id: 72653706
   teams:
@@ -106,7 +115,7 @@ basketball:
   score:
     home: 82
     away: 94
-  status: recentlyended
+  status: result
   time: '17:30'
 - id: 74787402
   teams:
@@ -187,8 +196,8 @@ tennis:
     away: Bernet H / Stricker D
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '18:25'
 - id: 76229600
   teams:
@@ -312,9 +321,9 @@ tennis:
     home: Vallejo, Adolfo Daniel
     away: Dimitrov, Grigor
   score:
-    home: 1
+    home: 2
     away: 1
-  status: live
+  status: result
   time: '17:05'
 - id: 75837622
   teams:
@@ -1585,7 +1594,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 76216734
   teams:
@@ -1594,7 +1603,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 76216716
   teams:
@@ -1603,7 +1612,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 76216634
   teams:
@@ -1612,7 +1621,7 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
 - id: 76216688
   teams:
@@ -1621,5 +1630,230 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: '19:00'
+- id: 76216756
+  teams:
+    home: Briza, Frantisek
+    away: Briska, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 76216670
+  teams:
+    home: Byrtus, Samuel
+    away: Volny, Marek
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '19:30'
+- id: 76216640
+  teams:
+    home: Grohsgott, Jiri
+    away: Cernik, Jaromir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 76216662
+  teams:
+    home: Pikous, Marcel
+    away: Louda, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '19:30'
+- id: 76218366
+  teams:
+    home: Zurek, Filip
+    away: Schneeberger, Antonin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:30'
+- id: 76216754
+  teams:
+    home: Blejchar, Marek
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:00'
+- id: 76218302
+  teams:
+    home: Guliak, Roman
+    away: Zurek, Filip
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:00'
+- id: 76216624
+  teams:
+    home: Hyrsl, Jiri
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 76216694
+  teams:
+    home: Regner, Tomas
+    away: Briza, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:00'
+- id: 76216604
+  teams:
+    home: Stolfa, Jakub
+    away: Pikous, Marcel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:00'
+- id: 76216652
+  teams:
+    home: Briska, Jan
+    away: Kolenic, Tibor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '20:30'
+- id: 76216746
+  teams:
+    home: Cernik, Jaromir
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '20:30'
+- id: 76216780
+  teams:
+    home: Louda, Jiri
+    away: Tazler, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '20:30'
+- id: 76218354
+  teams:
+    home: Schneeberger, Antonin
+    away: Jemelka, Libor
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 76216750
+  teams:
+    home: Volny, Marek
+    away: Rychlik, Evzen
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '20:30'
+- id: 76218336
+  teams:
+    home: Jemelka, Libor
+    away: Zurek, Filip
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:00'
+- id: 76216758
+  teams:
+    home: Kolenic, Tibor
+    away: Briza, Frantisek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '21:00'
+- id: 76216638
+  teams:
+    home: Rychlik, Evzen
+    away: Byrtus, Samuel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:00'
+- id: 76216724
+  teams:
+    home: Stach, Vojtech
+    away: Grohsgott, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '21:00'
+- id: 76216676
+  teams:
+    home: Tazler, Jakub
+    away: Pikous, Marcel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '21:00'
+- id: 76216644
+  teams:
+    home: Blejchar, Marek
+    away: Volny, Marek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:30'
+- id: 76218278
+  teams:
+    home: Guliak, Roman
+    away: Schneeberger, Antonin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '21:30'
+- id: 76216614
+  teams:
+    home: Hyrsl, Jiri
+    away: Cernik, Jaromir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '21:30'
+- id: 76216690
+  teams:
+    home: Regner, Tomas
+    away: Briska, Jan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '21:30'
+- id: 76216664
+  teams:
+    home: Stolfa, Jakub
+    away: Louda, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '21:30'
