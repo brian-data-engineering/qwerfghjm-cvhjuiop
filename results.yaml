@@ -4,11 +4,29 @@ soccer:
     home: Estudiantes de la Plata
     away: Instituto AC Cordoba
   score:
-    home: 1
+    home: 3
     away: 3
-  status: live
+  status: result
   time: 00:30
-basketball: []
+basketball:
+- id: 72016858
+  teams:
+    home: SE Melbourne
+    away: Tasmania Jackjumpers
+  score:
+    home: 89
+    away: 98
+  status: result
+  time: 04:00
+- id: 72016860
+  teams:
+    home: Adelaide
+    away: Brisbane
+  score:
+    home: 89
+    away: 96
+  status: result
+  time: 06:00
 tennis: []
 ice_hockey: []
 table_tennis:
