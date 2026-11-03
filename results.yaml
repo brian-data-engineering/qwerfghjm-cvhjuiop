@@ -18,7 +18,34 @@ soccer:
   status: result
   time: 00:15
 basketball: []
-tennis: []
+tennis:
+- id: 76229262
+  teams:
+    home: Halys, Quentin
+    away: Fery, Arthur
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '10:00'
+- id: 76229268
+  teams:
+    home: Rinderknech, Arthur
+    away: Cerundolo, Francisco
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
+- id: 76229272
+  teams:
+    home: Rublev, Andrey
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '10:00'
 ice_hockey: []
 table_tennis:
 - id: 76292128
@@ -75,3 +102,84 @@ table_tennis:
     away: 3
   status: result
   time: 00:30
+- id: 76370992
+  teams:
+    home: Regner, Michal
+    away: Sopko, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:00
+- id: 76336004
+  teams:
+    home: Stefanidis, Marco
+    away: Colvin, Tom
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:30
+- id: 76336006
+  teams:
+    home: Schmitt, Cosmo
+    away: Moreno, Alex
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:00
+- id: 76336008
+  teams:
+    home: Koloidenko, Pylyp
+    away: Loffler, Jeromy
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 08:30
+- id: 76336010
+  teams:
+    home: Misal, John Russel
+    away: Schmitt, Cosmo
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
+- id: 76336012
+  teams:
+    home: Stefanidis, Marco
+    away: Felippi, Lucca
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:30
+- id: 76393912
+  teams:
+    home: Loffler, Jeromy
+    away: Koloidenko, Pylyp
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '10:15'
+- id: 76394008
+  teams:
+    home: Misal, John Russel
+    away: Stefanidis, Marco
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '10:45'
+- id: 76395714
+  teams:
+    home: Koloidenko, Pylyp
+    away: Misal, John Russel
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '11:30'
