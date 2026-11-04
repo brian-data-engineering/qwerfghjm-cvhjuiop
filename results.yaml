@@ -8,25 +8,268 @@ table_tennis:
     home: Potensky, Jan
     away: Vaclavik, Miroslav
   score:
-    home: 1
-    away: 0
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 00:00
 - id: 76347808
   teams:
     home: Strnad, Jaroslav (1964)
     away: Regner, Tomas
   score:
-    home: 0
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 00:00
 - id: 76367296
   teams:
     home: Trefny, Jan
     away: Vedmoch, Michal
   score:
-    home: 0
+    home: 3
     away: 1
-  status: live
+  status: result
   time: 00:00
+- id: 76347896
+  teams:
+    home: Dolezal, Vaclav
+    away: Steffan, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 00:30
+- id: 76347894
+  teams:
+    home: Hejduk, Alexander
+    away: Madle, Ludek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:30
+- id: 76347928
+  teams:
+    home: Zmuda, Petr
+    away: Tuma, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 76347952
+  teams:
+    home: Regner, Tomas
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 76347780
+  teams:
+    home: Vaclavik, Miroslav
+    away: Grohsgott, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:00
+- id: 76367294
+  teams:
+    home: Vedmoch, Michal
+    away: Hlawatschke, Ales
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 76347940
+  teams:
+    home: Potensky, Jan
+    away: Madle, Ludek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 76347776
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Steffan, Jan
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 76347862
+  teams:
+    home: Trefny, Jan
+    away: Tuma, Daniel
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 76347838
+  teams:
+    home: Grohsgott, Jiri
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 76347790
+  teams:
+    home: Hasmanda, Rostislav
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 76347816
+  teams:
+    home: Hlawatschke, Ales
+    away: Zmuda, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 76347852
+  teams:
+    home: Madle, Ludek
+    away: Vaclavik, Miroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 76347778
+  teams:
+    home: Steffan, Jan
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 76367298
+  teams:
+    home: Tuma, Daniel
+    away: Vedmoch, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 76347888
+  teams:
+    home: Grohsgott, Jiri
+    away: Potensky, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 76347794
+  teams:
+    home: Hasmanda, Rostislav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 76347820
+  teams:
+    home: Hlawatschke, Ales
+    away: Trefny, Jan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 76347866
+  teams:
+    home: Regner, Tomas
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 76347870
+  teams:
+    home: Vaclavik, Miroslav
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76367286
+  teams:
+    home: Vedmoch, Michal
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76414306
+  teams:
+    home: Steffan, Jan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:00
+- id: 76414312
+  teams:
+    home: Trefny, Jan
+    away: Zmuda, Petr
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:00
+- id: 76414472
+  teams:
+    home: Vaclavik, Miroslav
+    away: Potensky, Jan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:05
+- id: 76414308
+  teams:
+    home: Hasmanda, Rostislav
+    away: Regner, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:30
+- id: 76414474
+  teams:
+    home: Madle, Ludek
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 04:30
+- id: 76414314
+  teams:
+    home: Tuma, Daniel
+    away: Vedmoch, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:30
