@@ -5,12 +5,66 @@ basketball:
     home: Cairns
     away: Illawarra
   score:
-    home: 44
-    away: 42
-  status: live
+    home: 95
+    away: 107
+  status: result
   time: 08:30
-tennis: []
-ice_hockey: []
+tennis:
+- id: 76142898
+  teams:
+    home: Paul, Tommy
+    away: Halys, Quentin
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:00'
+- id: 76142896
+  teams:
+    home: Shelton, Ben
+    away: Rinderknech, Arthur
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '11:55'
+- id: 76142894
+  teams:
+    home: Hijikata, Rinky
+    away: Etcheverry, Tomas Martin
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '13:30'
+- id: 76142892
+  teams:
+    home: Musetti, Lorenzo
+    away: Van Assche, Luca
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '14:20'
+- id: 76142886
+  teams:
+    home: Borges, Nuno
+    away: Buse, Ignacio
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '16:00'
+ice_hockey:
+- id: 75450562
+  teams:
+    home: Switzerland
+    away: Finland
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '16:30'
 table_tennis:
 - id: 76391054
   teams:
