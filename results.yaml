@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016866
+  teams:
+    home: Cairns
+    away: Illawarra
+  score:
+    home: 44
+    away: 42
+  status: live
+  time: 08:30
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -64,7 +73,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 76391030
   teams:
@@ -73,7 +82,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 01:00
 - id: 76391500
   teams:
@@ -91,23 +100,203 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 01:30
 - id: 76391512
   teams:
     home: Sulava, Lubor
     away: Framberk, Jan
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 01:30
 - id: 76391012
   teams:
     home: Vejvoda, Viktor
     away: Skakal, Martin
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 01:30
+- id: 76391140
+  teams:
+    home: Klement, Milan
+    away: Franek, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 76391504
+  teams:
+    home: Pleskot, Jan
+    away: Havel, Ladislav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 76391044
+  teams:
+    home: Regner, Tomas
+    away: Picek, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 76391510
+  teams:
+    home: Framberk, Jan
+    away: Trinta, Mihail
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 76391148
+  teams:
+    home: Skakal, Martin
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 76391036
+  teams:
+    home: Stefek, Martin
+    away: Kucirek, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 76391116
+  teams:
+    home: Klement, Milan
+    away: Vejvoda, Viktor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 76391568
+  teams:
+    home: Pleskot, Jan
+    away: Sulava, Lubor
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 76391112
+  teams:
+    home: Regner, Tomas
+    away: Smrcek, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 76391020
+  teams:
+    home: Kucirek, Ondrej
+    away: Picek, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 76391158
+  teams:
+    home: Svacha, Ondrej
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76391538
+  teams:
+    home: Trinta, Mihail
+    away: Havel, Ladislav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:30
+- id: 76454868
+  teams:
+    home: Framberk, Jan
+    away: Trinta, Mihail
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 04:30
+- id: 76454878
+  teams:
+    home: Stefek, Martin
+    away: Picek, Petr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:30
+- id: 76454874
+  teams:
+    home: Vejvoda, Viktor
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:30
+- id: 76431290
+  teams:
+    home: Musil, Milan
+    away: Parhomenko, Dmitro
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 76431258
+  teams:
+    home: Schwan, Jaroslav
+    away: Mikula, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:00
+- id: 76430810
+  teams:
+    home: Steffan, Jan
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:00
+- id: 76431278
+  teams:
+    home: Taichman, Ivo
+    away: Adam, Radim
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 07:00
+- id: 76430840
+  teams:
+    home: Trefny, Jan
+    away: Cermak, Vladimir
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:00
