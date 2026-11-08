@@ -1,5 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016874
+  teams:
+    home: Sydney
+    away: SE Melbourne
+  score:
+    home: 110
+    away: 99
+  status: result
+  time: 04:00
+- id: 72016876
+  teams:
+    home: Perth
+    away: Cairns
+  score:
+    home: 82
+    away: 87
+  status: live
+  time: 06:00
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -37,7 +55,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 76499990
   teams:
@@ -46,7 +64,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 76500002
   teams:
@@ -55,32 +73,257 @@ table_tennis:
   score:
     home: 0
     away: 3
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 76499992
   teams:
     home: Darin, Kyryl
     away: Parhomenko, Dmitro
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 01:00
 - id: 76500008
   teams:
     home: Pycha, Patrik
     away: Brozik, Karel
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 01:00
 - id: 76499956
   teams:
     home: Vejvoda, Viktor
     away: Pacha, Robin
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 01:00
+- id: 76500016
+  teams:
+    home: Janata, Tomas
+    away: Schopf, Karel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:30
+- id: 76499982
+  teams:
+    home: Plachy, Jiri
+    away: Svoboda, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 76499998
+  teams:
+    home: Regner, Michal
+    away: Klement, Milan
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 76500006
+  teams:
+    home: Brozik, Karel
+    away: Vizek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:00
+- id: 76499952
+  teams:
+    home: Pacha, Robin
+    away: Franek, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 76499966
+  teams:
+    home: Parhomenko, Dmitro
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 76499984
+  teams:
+    home: Klement, Milan
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 76499976
+  teams:
+    home: Schopf, Karel
+    away: Pycha, Patrik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:30
+- id: 76499960
+  teams:
+    home: Svoboda, Adam
+    away: Darin, Kyryl
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 02:30
+- id: 76499958
+  teams:
+    home: Brozik, Karel
+    away: Janata, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 76499946
+  teams:
+    home: Pacha, Robin
+    away: Regner, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 76499930
+  teams:
+    home: Parhomenko, Dmitro
+    away: Plachy, Jiri
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:00
+- id: 76500000
+  teams:
+    home: Darin, Kyryl
+    away: Fojt, Pavel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76499936
+  teams:
+    home: Pycha, Patrik
+    away: Vizek, Martin
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 76499972
+  teams:
+    home: Vejvoda, Viktor
+    away: Franek, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 76536966
+  teams:
+    home: Barton, David
+    away: Sulava, Lubor
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 76537044
+  teams:
+    home: Grohsgott, Jiri
+    away: Stach, Vojtech
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 07:00
+- id: 76537162
+  teams:
+    home: Guliak, Roman
+    away: Kvasnicka, Radim
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 76537028
+  teams:
+    home: Mecl Jr, Jan
+    away: Prosa, Tomas
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 76537092
+  teams:
+    home: Skacelik, Richard
+    away: Machander, Dalimil
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 76537120
+  teams:
+    home: Byrtus, Samuel
+    away: Heczko, David
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 07:30
+- id: 76537130
+  teams:
+    home: Huk, Martin
+    away: Pusch, Frantisek
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 76537046
+  teams:
+    home: Martinek, Jaroslav
+    away: Cupec, Daniel
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:30
+- id: 76537212
+  teams:
+    home: Tacinec, Martin
+    away: Pleskot, Jan
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 07:30
+- id: 76537108
+  teams:
+    home: Zurek, Filip
+    away: Jasek, Milan
+  score:
+    home: 1
+    away: 2
+  status: live
+  time: 07:30
