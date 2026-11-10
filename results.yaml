@@ -181,7 +181,7 @@ table_tennis:
   score:
     home: 2
     away: 3
-  status: recentlyended
+  status: result
   time: 03:00
 - id: 76570070
   teams:
@@ -190,32 +190,68 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 03:00
 - id: 76570054
   teams:
     home: Placek, Marek
     away: Bartunek, Radek
   score:
-    home: 1
-    away: 1
-  status: live
+    home: 3
+    away: 2
+  status: result
   time: 03:30
 - id: 76570092
   teams:
     home: Trefny, Jan
     away: Just, Frantisek
   score:
-    home: 0
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 03:30
 - id: 76570078
   teams:
     home: Wagner, Richard
     away: Klimenta, Matous
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 03:30
+- id: 76548714
+  teams:
+    home: Colvin, Tom
+    away: Happek, Sven
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 76548716
+  teams:
+    home: Naplokov, Oleksii
+    away: Pellny, Thomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 08:00
+- id: 76548718
+  teams:
+    home: Luu, Finn
+    away: Lama, Jaime
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:30
+- id: 76548720
+  teams:
+    home: Almeida, Siddharta
+    away: Naplokov, Oleksii
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 09:00
