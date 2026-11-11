@@ -1,5 +1,446 @@
-soccer: []
-basketball: []
-tennis: []
+soccer:
+- id: 75878960
+  teams:
+    home: FC Orsha
+    away: Bate Borisov
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:30'
+basketball:
+- id: 72016878
+  teams:
+    home: SE Melbourne
+    away: Illawarra
+  score:
+    home: 110
+    away: 120
+  status: result
+  time: 08:30
+tennis:
+- id: 76430130
+  teams:
+    home: Sonego, Lorenzo
+    away: Tabilo, Alejandro
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '12:00'
 ice_hockey: []
-table_tennis: []
+table_tennis:
+- id: 76660642
+  teams:
+    home: Danko, Petr
+    away: Skacelik, Richard
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:00
+- id: 76660694
+  teams:
+    home: Martinak, Lukas
+    away: Adamczyk, Vladimir
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 76660826
+  teams:
+    home: Stefek, Martin
+    away: Smrcek, Milan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '11:00'
+- id: 76660768
+  teams:
+    home: Steffan, Jan
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 76660680
+  teams:
+    home: Sudek, Petr
+    away: Svec, Jiri
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 76660698
+  teams:
+    home: Wawrosz, Pavel
+    away: Paril, Ondrej
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 76660732
+  teams:
+    home: Dolezal, Vaclav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 76660682
+  teams:
+    home: Dousek, Tomas
+    away: Zika, Tadeas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:30'
+- id: 76660628
+  teams:
+    home: Kulhanek, Pavel
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '11:30'
+- id: 76660714
+  teams:
+    home: Pecka, Vlastimil
+    away: Nohejl, Tomas
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '11:30'
+- id: 76660756
+  teams:
+    home: Schwan, Jaroslav
+    away: Cabak, Josef
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '11:30'
+- id: 76660776
+  teams:
+    home: Adamczyk, Vladimir
+    away: Schwan, Jaroslav
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:00'
+- id: 76660710
+  teams:
+    home: Hasmanda, Rostislav
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '12:00'
+- id: 76660700
+  teams:
+    home: Paril, Ondrej
+    away: Dousek, Tomas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:00'
+- id: 76660812
+  teams:
+    home: Smrcek, Milan
+    away: Pecka, Vlastimil
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 76660786
+  teams:
+    home: Svec, Jiri
+    away: Kulhanek, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:00'
+- id: 76660596
+  teams:
+    home: Cabak, Josef
+    away: Martinak, Lukas
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 76660654
+  teams:
+    home: Madle, Ludek
+    away: Sudek, Petr
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:30'
+- id: 76660652
+  teams:
+    home: Nohejl, Tomas
+    away: Stefek, Martin
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '12:30'
+- id: 76660718
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Steffan, Jan
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '12:30'
+- id: 76660550
+  teams:
+    home: Zika, Tadeas
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:30'
+- id: 76660736
+  teams:
+    home: Martinak, Lukas
+    away: Schwan, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '13:00'
+- id: 76660644
+  teams:
+    home: Stefek, Martin
+    away: Pecka, Vlastimil
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 76660624
+  teams:
+    home: Steffan, Jan
+    away: Dolezal, Vaclav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:00'
+- id: 76660570
+  teams:
+    home: Sudek, Petr
+    away: Kulhanek, Pavel
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:00'
+- id: 76660612
+  teams:
+    home: Wawrosz, Pavel
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '13:00'
+- id: 76660822
+  teams:
+    home: Adamczyk, Vladimir
+    away: Cabak, Josef
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '13:30'
+- id: 76660660
+  teams:
+    home: Hasmanda, Rostislav
+    away: Strnad, Jaroslav (1964)
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 76660840
+  teams:
+    home: Paril, Ondrej
+    away: Zika, Tadeas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '13:30'
+- id: 76660728
+  teams:
+    home: Smrcek, Milan
+    away: Nohejl, Tomas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '13:30'
+- id: 76660690
+  teams:
+    home: Svec, Jiri
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:30'
+- id: 76706310
+  teams:
+    home: Adamczyk, Vladimir
+    away: Schwan, Jaroslav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 76706370
+  teams:
+    home: Kulhanek, Pavel
+    away: Madle, Ludek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 76706374
+  teams:
+    home: Paril, Ondrej
+    away: Wawrosz, Pavel
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '14:00'
+- id: 76706306
+  teams:
+    home: Stefek, Martin
+    away: Pecka, Vlastimil
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '14:00'
+- id: 76706426
+  teams:
+    home: Steffan, Jan
+    away: Hasmanda, Rostislav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:00'
+- id: 76706312
+  teams:
+    home: Martinak, Lukas
+    away: Cabak, Josef
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 76706308
+  teams:
+    home: Smrcek, Milan
+    away: Nohejl, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:30'
+- id: 76706428
+  teams:
+    home: Strnad, Jaroslav (1964)
+    away: Dolezal, Vaclav
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '14:30'
+- id: 76706372
+  teams:
+    home: Svec, Jiri
+    away: Sudek, Petr
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: '14:30'
+- id: 76706376
+  teams:
+    home: Zika, Tadeas
+    away: Dousek, Tomas
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: '14:30'
+- id: 76660662
+  teams:
+    home: Blejchar, Marek
+    away: Stoch, Jan
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 76660592
+  teams:
+    home: Chalupa, Michal
+    away: Pagac, Zbynek
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 76660582
+  teams:
+    home: Dedek, Jiri
+    away: Prokupek, Jaroslav
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 76660796
+  teams:
+    home: Regner, Tomas
+    away: Kolenic, Tibor
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
+- id: 76660632
+  teams:
+    home: Syroha, Michal
+    away: Havel, Ladislav
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:00'
