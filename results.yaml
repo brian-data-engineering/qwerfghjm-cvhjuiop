@@ -1,5 +1,14 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016884
+  teams:
+    home: Breakers
+    away: Brisbane
+  score:
+    home: 49
+    away: 48
+  status: live
+  time: 06:30
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -37,7 +46,7 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 76692866
   teams:
@@ -46,7 +55,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: 00:30
 - id: 76693008
   teams:
@@ -55,5 +64,311 @@ table_tennis:
   score:
     home: 3
     away: 1
-  status: recentlyended
+  status: result
   time: 00:30
+- id: 76692894
+  teams:
+    home: Mazanek, Stanislav
+    away: Hejduk, Alexander
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:00
+- id: 76692912
+  teams:
+    home: Postelt, Vladimir
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 76693090
+  teams:
+    home: Wagner, Mark Robin
+    away: Skakal, Martin
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 76692970
+  teams:
+    home: Grohsgott, Jiri
+    away: Madle, Ludek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 76692814
+  teams:
+    home: Klement, Milan
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 76693060
+  teams:
+    home: Klusacek, Patrik
+    away: Plachy, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 76693054
+  teams:
+    home: Hejduk, Alexander
+    away: Vaclavik, Miroslav
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:00
+- id: 76693072
+  teams:
+    home: Prokupek, Jaroslav
+    away: Kouble, Daniel
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 76693084
+  teams:
+    home: Skakal, Martin
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 76692898
+  teams:
+    home: Madle, Ludek
+    away: Mazanek, Stanislav
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 76692968
+  teams:
+    home: Plachy, Jiri
+    away: Postelt, Vladimir
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 76693040
+  teams:
+    home: Svacha, Ondrej
+    away: Wagner, Mark Robin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
+- id: 76693094
+  teams:
+    home: Hejduk, Alexander
+    away: Grohsgott, Jiri
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 76693020
+  teams:
+    home: Prokupek, Jaroslav
+    away: Klusacek, Patrik
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 76692888
+  teams:
+    home: Skakal, Martin
+    away: Klement, Milan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 76692856
+  teams:
+    home: Mazanek, Stanislav
+    away: Vaclavik, Miroslav
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76692960
+  teams:
+    home: Postelt, Vladimir
+    away: Kouble, Daniel
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:30
+- id: 76692870
+  teams:
+    home: Wagner, Mark Robin
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 76744296
+  teams:
+    home: Hejduk, Alexander
+    away: Madle, Ludek
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:00
+- id: 76744218
+  teams:
+    home: Klement, Milan
+    away: Urbaniec, Radim
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 04:00
+- id: 76744288
+  teams:
+    home: Postelt, Vladimir
+    away: Plachy, Jiri
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 04:00
+- id: 76744290
+  teams:
+    home: Kouble, Daniel
+    away: Prokupek, Jaroslav
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 04:30
+- id: 76744298
+  teams:
+    home: Mazanek, Stanislav
+    away: Vaclavik, Miroslav
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:30
+- id: 76744220
+  teams:
+    home: Skakal, Martin
+    away: Wagner, Mark Robin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:30
+- id: 76730052
+  teams:
+    home: Bayer, Ales
+    away: Svoboda, Jan
+  score:
+    home: 2
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 76731766
+  teams:
+    home: Danko, Petr
+    away: Vavrecka, Radomir
+  score:
+    home: 3
+    away: 0
+  status: recentlyended
+  time: 07:00
+- id: 76731688
+  teams:
+    home: Polasek, Radovan
+    away: Navedla, Matyas
+  score:
+    home: 1
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 76731648
+  teams:
+    home: Saleny, Petr
+    away: Vejvoda, Viktor
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: 07:00
+- id: 76731798
+  teams:
+    home: Stefek, Martin
+    away: Smrcek, Milan
+  score:
+    home: 0
+    away: 3
+  status: recentlyended
+  time: 07:00
+- id: 76730038
+  teams:
+    home: Krejci, Richard
+    away: Sobisek, Martin
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 07:30
+- id: 76731560
+  teams:
+    home: Machander, Dalimil
+    away: Koral, Michal
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: 07:30
+- id: 76731820
+  teams:
+    home: Paril, Ondrej
+    away: Wawrosz, Pavel
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: 07:30
+- id: 76731794
+  teams:
+    home: Steffan, Jan
+    away: Havlicek, Vladimir
+  score:
+    home: 2
+    away: 1
+  status: live
+  time: 07:30
+- id: 76731690
+  teams:
+    home: Sychra, Martin
+    away: Tazler, Jakub
+  score:
+    home: 2
+    away: 0
+  status: live
+  time: 07:30
