@@ -5,11 +5,92 @@ basketball:
     home: Melbourne Utd.
     away: SE Melbourne
   score:
-    home: 30
-    away: 22
-  status: live
+    home: 102
+    away: 95
+  status: result
   time: 08:30
-tennis: []
+- id: 72016890
+  teams:
+    home: Perth
+    away: Illawarra
+  score:
+    home: 111
+    away: 100
+  status: result
+  time: '10:30'
+tennis:
+- id: 76430190
+  teams:
+    home: Fritz, Taylor
+    away: Tirante, Thiago Agustin
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '12:00'
+- id: 76430626
+  teams:
+    home: Mektic N / Roger-Vasselin E
+    away: Grevelius E / Heinonen A
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '15:15'
+- id: 76431692
+  teams:
+    home: Gorzny, Sebastian
+    away: Holmgren, August
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 03:10
+- id: 76431690
+  teams:
+    home: Shang, Juncheng
+    away: Langmo, Christian
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 04:55
+- id: 76431720
+  teams:
+    home: Ellis B / Tu L
+    away: Ayeni A / Isomura K
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: 05:30
+- id: 76415486
+  teams:
+    home: Ribecai, Michele
+    away: Searle, Henry
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: 08:00
+- id: 76415484
+  teams:
+    home: Maestrelli, Francesco
+    away: Henning, Philip
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: 09:30
+- id: 76415598
+  teams:
+    home: Ganchev A / Maes S
+    away: Tsitsipas P / Tsitsipas PE
+  score:
+    home: 0
+    away: 2
+  status: recentlyended
+  time: '13:25'
 ice_hockey: []
 table_tennis:
 - id: 76731784
