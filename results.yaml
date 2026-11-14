@@ -18,6 +18,69 @@ basketball:
     away: 100
   status: result
   time: '10:30'
+- id: 73495984
+  teams:
+    home: Mistelbach
+    away: Mattersburg
+  score:
+    home: 65
+    away: 63
+  status: result
+  time: '16:00'
+- id: 73495986
+  teams:
+    home: Udw Alligators
+    away: Upper Austrian Ballers
+  score:
+    home: 107
+    away: 78
+  status: result
+  time: '16:30'
+- id: 73495988
+  teams:
+    home: Garnets
+    away: Young Lions Traiskirchen
+  score:
+    home: 80
+    away: 102
+  status: result
+  time: '17:00'
+- id: 73495994
+  teams:
+    home: Vienna United PSV
+    away: Gussing Blackbirds
+  score:
+    home: 73
+    away: 79
+  status: result
+  time: '17:00'
+- id: 73495990
+  teams:
+    home: Worthersee Piraten
+    away: Raiders Tirol
+  score:
+    home: 85
+    away: 90
+  status: result
+  time: '17:00'
+- id: 73495992
+  teams:
+    home: Salzburg
+    away: Celovec/Klagenfurt
+  score:
+    home: 94
+    away: 84
+  status: result
+  time: '17:30'
+- id: 74320758
+  teams:
+    home: Corinthians
+    away: Osasco
+  score:
+    home: 73
+    away: 60
+  status: live
+  time: '19:00'
 tennis:
 - id: 76430190
   teams:
@@ -34,8 +97,8 @@ tennis:
     away: Grevelius E / Heinonen A
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '15:15'
 - id: 76431692
   teams:
@@ -89,9 +152,126 @@ tennis:
   score:
     home: 0
     away: 2
-  status: recentlyended
+  status: result
   time: '13:25'
-ice_hockey: []
+- id: 76430856
+  teams:
+    home: Shelbayh, Abdullah
+    away: Milavsky, Daniel
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:50'
+- id: 76430874
+  teams:
+    home: Chidekh, Clement
+    away: Zheng, Michael
+  score:
+    home: 1
+    away: 1
+  status: live
+  time: '18:45'
+- id: 76430898
+  teams:
+    home: Jans J / Vliegen J
+    away: Andrade A / Ingildsen J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:00'
+- id: 76431544
+  teams:
+    home: Olivieri, Genaro Alberto
+    away: Reis Da Silva, Joao Lucas
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: 01:05
+- id: 76431548
+  teams:
+    home: Roncadelli, Franco
+    away: Alcala Gurri, Max
+  score:
+    home: 1
+    away: 0
+  status: live
+  time: '19:25'
+ice_hockey:
+- id: 73238598
+  teams:
+    home: Villach
+    away: Milano HC
+  score:
+    home: 6
+    away: 5
+  status: result
+  time: '16:00'
+- id: 73238556
+  teams:
+    home: Olimpija Ljubljana
+    away: Innsbruck
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: '17:00'
+- id: 72119008
+  teams:
+    home: Slavia Prague
+    away: Kolin
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '14:00'
+- id: 72119010
+  teams:
+    home: Zlin
+    away: Havirov
+  score:
+    home: 5
+    away: 0
+  status: result
+  time: '15:00'
+- id: 72119020
+  teams:
+    home: Chomutov
+    away: Banik Sokolov
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 72119014
+  teams:
+    home: Frydek Mistek
+    away: Vsetin
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '16:00'
+- id: 72119012
+  teams:
+    home: HC Dynamo Pardubice B
+    away: Horacka
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '16:00'
+- id: 72119192
+  teams:
+    home: Tabor
+    away: Zubr Prerov
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:00'
 table_tennis:
 - id: 76731784
   teams:
