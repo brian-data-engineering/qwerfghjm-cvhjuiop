@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 76737670
+  teams:
+    home: Quindio
+    away: Cartagena
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 01:10
 basketball: []
 tennis: []
 ice_hockey: []
@@ -9,24 +18,141 @@ table_tennis:
     away: Skakal, Martin
   score:
     home: 1
-    away: 1
-  status: live
+    away: 3
+  status: result
   time: 00:00
 - id: 76793798
   teams:
     home: Postelt, Tomas
     away: Ruzicka, Jiri
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
 - id: 76793782
   teams:
     home: Sobisek, Martin
     away: Brozik, Karel
   score:
-    home: 2
+    home: 3
     away: 0
-  status: live
+  status: result
   time: 00:00
+- id: 76793854
+  teams:
+    home: Mares, Erik
+    away: Zeman, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:30
+- id: 76793670
+  teams:
+    home: Svacha, Ondrej
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 76793850
+  teams:
+    home: Zmuda, Petr
+    away: Chlebecek, Marek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:30
+- id: 76793742
+  teams:
+    home: Brozik, Karel
+    away: Bayer, Ales
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:00
+- id: 76793856
+  teams:
+    home: Ruzicka, Jiri
+    away: Huk, Martin
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:00
+- id: 76793714
+  teams:
+    home: Skakal, Martin
+    away: Franek, Tomas
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:00
+- id: 76793778
+  teams:
+    home: Louda, Jiri
+    away: Urbaniec, Radim
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 01:30
+- id: 76793678
+  teams:
+    home: Postelt, Tomas
+    away: Zeman, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:30
+- id: 76793728
+  teams:
+    home: Sobisek, Martin
+    away: Chlebecek, Marek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 01:30
+- id: 76793836
+  teams:
+    home: Bayer, Ales
+    away: Zmuda, Petr
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:00
+- id: 76793788
+  teams:
+    home: Franek, Tomas
+    away: Svacha, Ondrej
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:00
+- id: 76793764
+  teams:
+    home: Huk, Martin
+    away: Mares, Erik
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 02:00
+- id: 76793848
+  teams:
+    home: Bayer, Ales
+    away: Sobisek, Martin
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:30
