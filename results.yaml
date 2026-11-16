@@ -9,7 +9,34 @@ soccer:
   status: result
   time: 01:10
 basketball: []
-tennis: []
+tennis:
+- id: 76736474
+  teams:
+    home: Granollers M / Zeballos H
+    away: Bolelli S / Vavassori A
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '10:30'
+- id: 76736466
+  teams:
+    home: Harrison C / Skupski N
+    away: Krawietz K / Puetz T
+  score:
+    home: 0
+    away: 0
+  status: live
+  time: '17:00'
+- id: 76736458
+  teams:
+    home: Alcaraz, Carlos
+    away: Tiafoe, Frances
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:00'
 ice_hockey: []
 table_tennis:
 - id: 76793664
