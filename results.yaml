@@ -1,4 +1,31 @@
-soccer: []
+soccer:
+- id: 75049110
+  teams:
+    home: ASO Chlef
+    away: USM Khenchela
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 75049108
+  teams:
+    home: ES Setif
+    away: US Biskra
+  score:
+    home: 1
+    away: 1
+  status: result
+  time: '16:00'
+- id: 75049118
+  teams:
+    home: MC Oran
+    away: JS Saoura
+  score:
+    home: 3
+    away: 1
+  status: recentlyended
+  time: '19:00'
 basketball:
 - id: 72016900
   teams:
@@ -9,6 +36,24 @@ basketball:
     away: 90
   status: result
   time: 08:30
+- id: 74320784
+  teams:
+    home: Bauru
+    away: Caxias Do Sul
+  score:
+    home: 22
+    away: 16
+  status: live
+  time: '21:00'
+- id: 74320786
+  teams:
+    home: Cearense
+    away: Botafogo
+  score:
+    home: 17
+    away: 18
+  status: live
+  time: '21:00'
 tennis:
 - id: 76736476
   teams:
@@ -19,7 +64,466 @@ tennis:
     away: 0
   status: result
   time: '10:30'
-ice_hockey: []
+- id: 76736472
+  teams:
+    home: Bolelli S / Vavassori A
+    away: Krawietz K / Puetz T
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '17:00'
+- id: 76736454
+  teams:
+    home: Alcaraz, Carlos
+    away: Cobolli, Flavio
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:00'
+- id: 76736456
+  teams:
+    home: Medvedev, Daniil
+    away: Tiafoe, Frances
+  score:
+    home: 2
+    away: 0
+  status: recentlyended
+  time: '19:30'
+- id: 76965322
+  teams:
+    home: Jakupovic, Dalila
+    away: Goenadi, Mischka Sinclaire
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '12:00'
+- id: 76965332
+  teams:
+    home: Zidansek, Tamara
+    away: Naswardhani, Lulwa
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:10'
+- id: 76965636
+  teams:
+    home: Feistel, Gina
+    away: Rinaldo Persson, Kajsa
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '16:00'
+- id: 76965292
+  teams:
+    home: Leme Da Silva, Nauhany Vitoria
+    away: Andreescu, Bianca
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:00'
+- id: 76965642
+  teams:
+    home: Kubka, Martyna
+    away: Hennemann, Caijsa Wilda
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:15'
+- id: 77000098
+  teams:
+    home: CE, Gabriela
+    away: Cross, Kayla
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '18:50'
+- id: 76683740
+  teams:
+    home: Tarvet, Oliver
+    away: Johnson, Spencer
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '16:00'
+- id: 76683754
+  teams:
+    home: Wendelken, Harry
+    away: Lee, Jordan
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '17:35'
+- id: 76683742
+  teams:
+    home: Young, Gavin
+    away: Artnak, Bor
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:50'
+ice_hockey:
+- id: 73238570
+  teams:
+    home: Ferencvaros-Esmtk
+    away: Sudtirol
+  score:
+    home: 6
+    away: 8
+  status: result
+  time: '17:30'
+- id: 73238578
+  teams:
+    home: Fehervar
+    away: Pioneers Vorarlberg
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: '18:15'
+- id: 73238576
+  teams:
+    home: Innsbruck
+    away: BW Linz
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '18:15'
+- id: 73238574
+  teams:
+    home: Salzburg
+    away: Graz 99ers
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '18:15'
+- id: 73238572
+  teams:
+    home: Villach
+    away: Olimpija Ljubljana
+  score:
+    home: 2
+    away: 6
+  status: result
+  time: '18:15'
+- id: 73238580
+  teams:
+    home: Pustertal
+    away: Klagenfurt
+  score:
+    home: 3
+    away: 2
+  status: recentlyended
+  time: '18:45'
+- id: 72019378
+  teams:
+    home: Karlovy Vary
+    away: Vitkovice
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:00'
+- id: 72019368
+  teams:
+    home: Litvinov
+    away: Trinec
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72019372
+  teams:
+    home: Mlada Bo.
+    away: Kometa
+  score:
+    home: 0
+    away: 4
+  status: result
+  time: '16:30'
+- id: 75014892
+  teams:
+    home: Plzen
+    away: Pardubice
+  score:
+    home: 3
+    away: 4
+  status: result
+  time: '16:30'
+- id: 72019374
+  teams:
+    home: Mountfield HK
+    away: Rytiri Kladno
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '17:00'
+- id: 72019380
+  teams:
+    home: Olomouc
+    away: Bili Tygri
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '17:00'
+- id: 73350482
+  teams:
+    home: Odense
+    away: Sonderjyske
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '18:00'
+- id: 73350484
+  teams:
+    home: Herlev
+    away: Rungsted
+  score:
+    home: 6
+    away: 3
+  status: result
+  time: '18:30'
+- id: 73350486
+  teams:
+    home: Rodovre
+    away: Aalborg
+  score:
+    home: 1
+    away: 4
+  status: result
+  time: '18:30'
+- id: 72116536
+  teams:
+    home: KooKoo
+    away: Karpat
+  score:
+    home: 5
+    away: 4
+  status: result
+  time: '16:00'
+- id: 72116538
+  teams:
+    home: HPK
+    away: Jokerit
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '16:30'
+- id: 72116540
+  teams:
+    home: JYP
+    away: HIFK
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72116542
+  teams:
+    home: Pelicans
+    away: Lukko
+  score:
+    home: 2
+    away: 5
+  status: result
+  time: '16:30'
+- id: 72116544
+  teams:
+    home: SaiPa
+    away: TPS
+  score:
+    home: 7
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72116546
+  teams:
+    home: Ilves
+    away: Tappara
+  score:
+    home: 6
+    away: 2
+  status: result
+  time: '17:30'
+- id: 72117464
+  teams:
+    home: Jokipojat
+    away: TuTo
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72117466
+  teams:
+    home: Keupa
+    away: RoKi
+  score:
+    home: 1
+    away: 5
+  status: result
+  time: '16:30'
+- id: 72484116
+  teams:
+    home: Augsburg
+    away: Nuremberg
+  score:
+    home: 4
+    away: 4
+  status: recentlyended
+  time: '18:30'
+- id: 72484112
+  teams:
+    home: Berlin
+    away: Ingolstadt
+  score:
+    home: 5
+    away: 3
+  status: result
+  time: '18:30'
+- id: 72484118
+  teams:
+    home: Bremerhaven
+    away: Mannheim
+  score:
+    home: 6
+    away: 3
+  status: recentlyended
+  time: '18:30'
+- id: 72484114
+  teams:
+    home: Frankfurt
+    away: Villingen-Schwenning
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '18:30'
+- id: 72484120
+  teams:
+    home: Munich
+    away: Cologne
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '18:30'
+- id: 72484122
+  teams:
+    home: Wolfsburg
+    away: Iserlohn
+  score:
+    home: 7
+    away: 2
+  status: result
+  time: '18:30'
+- id: 72677608
+  teams:
+    home: Bietigheim-Bissingen
+    away: Crimmitschau
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '18:30'
+- id: 72677606
+  teams:
+    home: Dresden
+    away: Dusseldorf
+  score:
+    home: 2
+    away: 6
+  status: recentlyended
+  time: '18:30'
+- id: 72677612
+  teams:
+    home: Kassel
+    away: Bad Nauheim
+  score:
+    home: 0
+    away: 5
+  status: recentlyended
+  time: '18:30'
+- id: 72677614
+  teams:
+    home: Landshut
+    away: Memmingen Indians
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '18:30'
+- id: 72677610
+  teams:
+    home: Rosenheim
+    away: Freiburg
+  score:
+    home: 4
+    away: 0
+  status: result
+  time: '18:30'
+- id: 72677604
+  teams:
+    home: "Wei\xDFwasser"
+    away: Regensburg
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '18:30'
+- id: 72677616
+  teams:
+    home: Ravensburg
+    away: Weiden
+  score:
+    home: 8
+    away: 0
+  status: recentlyended
+  time: '19:00'
+- id: 72122178
+  teams:
+    home: Stjernen
+    away: Nidaros
+  score:
+    home: 6
+    away: 8
+  status: result
+  time: '17:00'
+- id: 72122182
+  teams:
+    home: Narvik
+    away: Valerenga
+  score:
+    home: 3
+    away: 5
+  status: result
+  time: '17:30'
+- id: 72122180
+  teams:
+    home: Ringerike
+    away: Lillehammer
+  score:
+    home: 4
+    away: 3
+  status: result
+  time: '17:30'
 table_tennis:
 - id: 76921494
   teams:
@@ -561,6 +1065,24 @@ table_tennis:
     away: 3
   status: result
   time: 09:30
+- id: 76956778
+  teams:
+    home: Holovatiuk, Yurii
+    away: Parhomenko, Dmitro
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:00'
+- id: 76956822
+  teams:
+    home: Zahradka, Michal
+    away: Pusch, Frantisek
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '17:30'
 - id: 76940946
   teams:
     home: Fuchs, Michael
@@ -640,7 +1162,7 @@ table_tennis:
   score:
     home: 3
     away: 2
-  status: recentlyended
+  status: result
   time: '12:10'
 - id: 76966510
   teams:
@@ -930,6 +1452,33 @@ table_tennis:
     away: 1
   status: result
   time: '10:00'
+- id: 77000206
+  teams:
+    home: Kadavy, Ondrej
+    away: Soucek, Lukas
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:00'
+- id: 76981596
+  teams:
+    home: Przybyla, Jan
+    away: Vanous, Jiri
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:10'
+- id: 76981598
+  teams:
+    home: Vitasek, Daniel
+    away: Heuman, Ivan
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '19:15'
 - id: 76922874
   teams:
     home: Machelski, Michal
@@ -2091,3 +2640,264 @@ table_tennis:
     away: 1
   status: result
   time: '10:00'
+- id: 76960022
+  teams:
+    home: Pawlik, Cezary
+    away: Francka, Lukasz
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '19:00'
+- id: 76965500
+  teams:
+    home: Lim J / OH J
+    away: Shah M U / Thakkar M V
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '16:45'
+- id: 76965120
+  teams:
+    home: Seyfried, Joe
+    away: Togami, Shunsuke
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 06:00
+- id: 76965286
+  teams:
+    home: Sun, Yang
+    away: Park, G.
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:25
+- id: 76964434
+  teams:
+    home: Lim, Jonghoon
+    away: OH, Junsung
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:30
+- id: 76959570
+  teams:
+    home: Shinozuka, H.
+    away: Chen, Yuanyu
+  score:
+    home: 0
+    away: 1
+  status: result
+  time: 07:00
+- id: 76965302
+  teams:
+    home: Yuan, Licen
+    away: Li, Tianyang
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:05
+- id: 76965326
+  teams:
+    home: Pucar, Tomislav
+    away: Coton, Flavien
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 07:30
+- id: 76964538
+  teams:
+    home: Sidorenko, Vladimir
+    away: Chirita, Iulian
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:40
+- id: 76965592
+  teams:
+    home: Ovtcharov, Dimitrij
+    away: Kwon, Hyuk
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 08:50
+- id: 76980500
+  teams:
+    home: Park, G.
+    away: Coton, Flavien
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '11:35'
+- id: 76980572
+  teams:
+    home: Sidorenko, Vladimir
+    away: OH, Junsung
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '12:40'
+- id: 76979906
+  teams:
+    home: Chen, Yuanyu
+    away: Yuan, Licen
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '14:45'
+- id: 76984242
+  teams:
+    home: Ovtcharov, Dimitrij
+    away: Togami, Shunsuke
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '15:25'
+- id: 76965534
+  teams:
+    home: Joo C / Kim N
+    away: Odo S / Yokoi S
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '16:05'
+- id: 76965112
+  teams:
+    home: Odo, Satsuki
+    away: Zarif, Audrey
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:00
+- id: 76965202
+  teams:
+    home: Wang, Xiaotong
+    away: Joo, Cheonhui
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 06:00
+- id: 76965244
+  teams:
+    home: Yokoi, Sakura
+    away: Cheng, I-Ching
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 06:00
+- id: 76965220
+  teams:
+    home: Szocs, Bernadette Cynthia
+    away: Aoki, Sachi
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 06:30
+- id: 76964608
+  teams:
+    home: Akae, Kaho
+    away: Qin, Yuxuan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:10
+- id: 76959566
+  teams:
+    home: Nagasaki, Miyu
+    away: Yang, Xiaoxin
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 07:15
+- id: 76965738
+  teams:
+    home: Kim, Seongjin
+    away: Hashimoto, Honoka
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:40
+- id: 76965498
+  teams:
+    home: Kim, Nayeong
+    away: Abraamian, Elizabet
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 07:55
+- id: 76980532
+  teams:
+    home: Cheng, I-Ching
+    away: Hashimoto, Honoka
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: '11:00'
+- id: 76981490
+  teams:
+    home: Odo, Satsuki
+    away: Kim, Nayeong
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: '12:20'
+- id: 76977552
+  teams:
+    home: Szocs, Bernadette Cynthia
+    away: Joo, Cheonhui
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '13:15'
+- id: 76978468
+  teams:
+    home: Nagasaki, Miyu
+    away: Akae, Kaho
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '14:00'
+- id: 76960880
+  teams:
+    home: Dorr E / Yuan J N
+    away: Ionescu E / Szocs B C
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 08:15
+- id: 76962172
+  teams:
+    home: Lum N / Liu Y
+    away: Togami S / Odo S
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 09:00
