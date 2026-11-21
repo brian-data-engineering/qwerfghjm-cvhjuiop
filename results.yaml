@@ -1,5 +1,23 @@
 soccer: []
-basketball: []
+basketball:
+- id: 72016902
+  teams:
+    home: Tasmania Jackjumpers
+    away: Illawarra
+  score:
+    home: 95
+    away: 82
+  status: result
+  time: 06:30
+- id: 72016904
+  teams:
+    home: Melbourne Utd.
+    away: Breakers
+  score:
+    home: 94
+    away: 91
+  status: recentlyended
+  time: 08:30
 tennis: []
 ice_hockey: []
 table_tennis:
@@ -118,7 +136,7 @@ table_tennis:
   score:
     home: 3
     away: 0
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 76956762
   teams:
@@ -127,7 +145,7 @@ table_tennis:
   score:
     home: 1
     away: 3
-  status: recentlyended
+  status: result
   time: 02:00
 - id: 76957358
   teams:
@@ -143,25 +161,493 @@ table_tennis:
     home: Bayer, Ales
     away: Kadavy, Simon
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 02:30
 - id: 76956876
   teams:
     home: Szotek, David
     away: Urbaniec, Radim
   score:
-    home: 1
+    home: 3
     away: 2
-  status: live
+  status: result
   time: 02:30
 - id: 76957352
   teams:
     home: Zika, Tadeas
     away: Mares, Erik
   score:
-    home: 1
-    away: 2
-  status: live
+    home: 2
+    away: 3
+  status: result
   time: 02:30
+- id: 76957338
+  teams:
+    home: Cernik, Jan
+    away: Pilch, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:00
+- id: 76956988
+  teams:
+    home: Regner, Michal
+    away: Chalupa, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 03:00
+- id: 76957344
+  teams:
+    home: Sobisek, Martin
+    away: Pycha, Patrik
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:00
+- id: 76957370
+  teams:
+    home: Kadavy, Simon
+    away: Tuma, Daniel
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:30
+- id: 76957374
+  teams:
+    home: Mares, Erik
+    away: Szotkowski, Jan
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:30
+- id: 76956800
+  teams:
+    home: Urbaniec, Radim
+    away: Louda, Jiri
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:30
+- id: 76960150
+  teams:
+    home: Wiza, Roman
+    away: Guzik, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:05
+- id: 76960152
+  teams:
+    home: Francka, Lukasz
+    away: Oracz, Jacek
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:10
+- id: 76960154
+  teams:
+    home: Rudomina, Kamil
+    away: Wozniak, Jakub
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:15
+- id: 76960158
+  teams:
+    home: Bernacki, Lukasz
+    away: Cesarz, Milosz
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:20
+- id: 76960156
+  teams:
+    home: Skorski, Michal
+    away: Piecowski, Miroslaw
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 00:20
+- id: 76960160
+  teams:
+    home: Orszulik, Jan
+    away: Szymanski, Igor
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:30
+- id: 76960164
+  teams:
+    home: Kubiak, Artur
+    away: Jedrzejowski, Oskar
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:35
+- id: 76960162
+  teams:
+    home: Malinowski, Radoslaw
+    away: Rudomina, Kamil
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 00:35
+- id: 76960166
+  teams:
+    home: Eliasz, Adrian
+    away: Mugowski, Arkadiusz
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 00:45
+- id: 76960168
+  teams:
+    home: Szymik, Robert
+    away: Grabowski, Piotr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:45
+- id: 76960170
+  teams:
+    home: Filbrandt, Tomasz
+    away: Wozniak, Jakub
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 00:55
+- id: 76960172
+  teams:
+    home: Fira, Damian
+    away: Guzik, Michal
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 00:55
+- id: 76960174
+  teams:
+    home: Skorupa, Jakub
+    away: Francka, Lukasz
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:00
+- id: 76960178
+  teams:
+    home: Juszczyk, Krzysztof
+    away: Ruszkiewicz, Adam
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:10
+- id: 76960176
+  teams:
+    home: Skorski, Michal
+    away: Eliasz, Adrian
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 01:10
+- id: 76960180
+  teams:
+    home: Lamperski, Jakub
+    away: Rudomina, Kamil
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:20
+- id: 76960182
+  teams:
+    home: Michalski, Jakub
+    away: Wiza, Roman
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:20
+- id: 76960184
+  teams:
+    home: Pawlik, Cezary
+    away: Oracz, Jacek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:25
+- id: 76960188
+  teams:
+    home: Bernacki, Lukasz
+    away: Grabowski, Piotr
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:35
+- id: 76960190
+  teams:
+    home: Filbrandt, Tomasz
+    away: Malinowski, Radoslaw
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 01:45
+- id: 76960194
+  teams:
+    home: Kubiak, Artur
+    away: Francka, Lukasz
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 01:45
+- id: 76960192
+  teams:
+    home: Orszulik, Jan
+    away: Fira, Damian
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 01:45
+- id: 76960196
+  teams:
+    home: Szymik, Robert
+    away: Juszczyk, Krzysztof
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:00
+- id: 76960198
+  teams:
+    home: Lamperski, Jakub
+    away: Filbrandt, Tomasz
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:10
+- id: 76960202
+  teams:
+    home: Skorupa, Jakub
+    away: Pawlik, Cezary
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:10
+- id: 76960200
+  teams:
+    home: Wiza, Roman
+    away: Szymanski, Igor
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:10
+- id: 76960204
+  teams:
+    home: Ruszkiewicz, Adam
+    away: Cesarz, Milosz
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:25
+- id: 76960206
+  teams:
+    home: Malinowski, Radoslaw
+    away: Wozniak, Jakub
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 02:30
+- id: 76960208
+  teams:
+    home: Michalski, Jakub
+    away: Guzik, Michal
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 02:30
+- id: 76960210
+  teams:
+    home: Oracz, Jacek
+    away: Jedrzejowski, Oskar
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:35
+- id: 76960212
+  teams:
+    home: Bernacki, Lukasz
+    away: Juszczyk, Krzysztof
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 02:45
+- id: 76960214
+  teams:
+    home: Fira, Damian
+    away: Szymanski, Igor
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 02:55
+- id: 76960216
+  teams:
+    home: Kubiak, Artur
+    away: Pawlik, Cezary
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:00
+- id: 76960218
+  teams:
+    home: Grabowski, Piotr
+    away: Cesarz, Milosz
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:10
+- id: 76960222
+  teams:
+    home: Francka, Lukasz
+    away: Jedrzejowski, Oskar
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 03:20
+- id: 76960220
+  teams:
+    home: Orszulik, Jan
+    away: Michalski, Jakub
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: 03:20
+- id: 76960224
+  teams:
+    home: Szymik, Robert
+    away: Ruszkiewicz, Adam
+  score:
+    home: 3
+    away: 0
+  status: result
+  time: 03:35
+- id: 76960228
+  teams:
+    home: Skorupa, Jakub
+    away: Oracz, Jacek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 03:45
+- id: 76960226
+  teams:
+    home: Wiza, Roman
+    away: Guzik, Michal
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 03:45
+- id: 76992352
+  teams:
+    home: Michna, Dawid
+    away: Adamiak, Grzegorz
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:00
+- id: 76992358
+  teams:
+    home: Sobkow, Zbigniew
+    away: Jesiek, Jakub
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 04:00
+- id: 76992354
+  teams:
+    home: Suchecki, Waclaw
+    away: Przewlocki, Jacek
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: 04:00
+- id: 76992356
+  teams:
+    home: Szurlej, Kacper
+    away: Kesik, Gracjan
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 04:00
+- id: 76960230
+  teams:
+    home: Fira, Damian
+    away: Michalski, Jakub
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: 04:05
+- id: 76999632
+  teams:
+    home: Chen, Yuanyu
+    away: Togami, Shunsuke
+  score:
+    home: 0
+    away: 3
+  status: result
+  time: 07:50
+- id: 76998618
+  teams:
+    home: Park, G.
+    away: OH, Junsung
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: 09:00
