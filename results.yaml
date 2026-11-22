@@ -1,4 +1,13 @@
-soccer: []
+soccer:
+- id: 76649188
+  teams:
+    home: CA Rosario Central
+    away: Gimnasia y Esgrima Mendoza
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '19:00'
 basketball:
 - id: 72016906
   teams:
@@ -41,10 +50,226 @@ basketball:
     home: Timberwolves
     away: Future Team Steiermark
   score:
-    home: 67
-    away: 47
-  status: live
+    home: 110
+    away: 62
+  status: result
   time: '17:00'
+- id: 73496008
+  teams:
+    home: BK Rapid Wien
+    away: Mistelbach
+  score:
+    home: 65
+    away: 109
+  status: result
+  time: '18:00'
+- id: 74320794
+  teams:
+    home: Dos Campos
+    away: Corinthians
+  score:
+    home: 67
+    away: 86
+  status: result
+  time: '14:00'
+- id: 74320796
+  teams:
+    home: Brasilia
+    away: Pato
+  score:
+    home: 86
+    away: 74
+  status: result
+  time: '14:15'
+- id: 74320792
+  teams:
+    home: Cearense
+    away: Flamengo
+  score:
+    home: 66
+    away: 92
+  status: result
+  time: '19:00'
+- id: 74320798
+  teams:
+    home: Mogi Das Cruzes
+    away: Paulistano
+  score:
+    home: 89
+    away: 76
+  status: result
+  time: '20:00'
+- id: 74320800
+  teams:
+    home: Bauru
+    away: EC Uniao Corinthians
+  score:
+    home: 89
+    away: 94
+  status: result
+  time: '21:00'
+- id: 77027616
+  teams:
+    home: Beijing Ducks
+    away: Shenzhen Leopards
+  score:
+    home: 84
+    away: 57
+  status: result
+  time: 07:30
+- id: 77027618
+  teams:
+    home: Rong Gang
+    away: Guangsha Lions
+  score:
+    home: 93
+    away: 102
+  status: result
+  time: '11:30'
+- id: 77027622
+  teams:
+    home: Quingdao Eagles
+    away: Quanzhou Bank
+  score:
+    home: 96
+    away: 81
+  status: result
+  time: 07:30
+- id: 77027624
+  teams:
+    home: Beijing Konggu
+    away: Jiangxi Ganchi
+  score:
+    home: 85
+    away: 55
+  status: result
+  time: '12:00'
+- id: 77027626
+  teams:
+    home: Brave Dragons
+    away: Ningbo Rockets
+  score:
+    home: 115
+    away: 79
+  status: result
+  time: 07:30
+- id: 77027628
+  teams:
+    home: Flying Tigers
+    away: Flying Leopards
+  score:
+    home: 94
+    away: 63
+  status: result
+  time: '12:00'
+- id: 77027634
+  teams:
+    home: Shandong Hi-Speed
+    away: Z. Chouzhou Bank
+  score:
+    home: 83
+    away: 92
+  status: result
+  time: 07:30
+- id: 77027636
+  teams:
+    home: Guangzhou L.L.
+    away: Hong Kong Bulls
+  score:
+    home: 74
+    away: 91
+  status: result
+  time: '12:00'
+- id: 72627122
+  teams:
+    home: Sokol Pisek
+    away: Lokomotiva Plzen
+  score:
+    home: 105
+    away: 83
+  status: result
+  time: '17:00'
+- id: 72627124
+  teams:
+    home: Usti Nad Labem
+    away: Praha
+  score:
+    home: 82
+    away: 76
+  status: result
+  time: '17:00'
+- id: 74295762
+  teams:
+    home: Paris Basketball
+    away: Gravelines
+  score:
+    home: 113
+    away: 87
+  status: result
+  time: '15:30'
+- id: 74295766
+  teams:
+    home: Asvel
+    away: Jeunesse Laique Bourg
+  score:
+    home: 91
+    away: 101
+  status: result
+  time: '18:00'
+- id: 73451892
+  teams:
+    home: Hamburg
+    away: Hagen
+  score:
+    home: 97
+    away: 94
+  status: result
+  time: '15:30'
+- id: 73451888
+  teams:
+    home: Ludwigsburg
+    away: Mitteldeutscher BC
+  score:
+    home: 96
+    away: 87
+  status: result
+  time: '15:30'
+- id: 73451894
+  teams:
+    home: Alba
+    away: B. Munich
+  score:
+    home: 79
+    away: 90
+  status: result
+  time: '17:00'
+- id: 73451890
+  teams:
+    home: Bonn
+    away: Ulm
+  score:
+    home: 89
+    away: 72
+  status: result
+  time: '17:30'
+- id: 74750504
+  teams:
+    home: AO Mykonoy
+    away: Vikos Falcon BC
+  score:
+    home: 96
+    away: 83
+  status: result
+  time: '11:00'
+- id: 74750746
+  teams:
+    home: AS Karditsas
+    away: Olympiakos Piraeus
+  score:
+    home: 75
+    away: 81
+  status: result
+  time: '13:00'
 tennis:
 - id: 77030940
   teams:
@@ -52,8 +277,8 @@ tennis:
     away: Alcaraz, Carlos
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '17:10'
 - id: 77028668
   teams:
@@ -126,16 +351,16 @@ ice_hockey:
   score:
     home: 2
     away: 6
-  status: recentlyended
+  status: result
   time: '16:00'
 - id: 73238594
   teams:
     home: BW Linz
     away: Villach
   score:
-    home: 4
-    away: 2
-  status: live
+    home: 7
+    away: 4
+  status: result
   time: '16:30'
 - id: 73238592
   teams:
@@ -144,17 +369,80 @@ ice_hockey:
   score:
     home: 2
     away: 3
-  status: live
+  status: result
   time: '16:30'
 - id: 73238590
   teams:
     home: Klagenfurt
     away: Ferencvaros-Esmtk
   score:
+    home: 5
+    away: 4
+  status: result
+  time: '16:30'
+- id: 73238596
+  teams:
+    home: Olimpija Ljubljana
+    away: Pustertal
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '18:00'
+- id: 72019384
+  teams:
+    home: Bili Tygri
+    away: Mlada Bo.
+  score:
+    home: 5
+    away: 2
+  status: result
+  time: '15:00'
+- id: 72019386
+  teams:
+    home: Rytiri Kladno
+    away: Litvinov
+  score:
     home: 2
     away: 3
-  status: live
-  time: '16:30'
+  status: result
+  time: '15:00'
+- id: 72019388
+  teams:
+    home: Plzen
+    away: Karlovy Vary
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '15:30'
+- id: 72019394
+  teams:
+    home: Kometa
+    away: Budejovice
+  score:
+    home: 2
+    away: 4
+  status: result
+  time: '16:00'
+- id: 72019392
+  teams:
+    home: Vitkovice
+    away: Mountfield HK
+  score:
+    home: 4
+    away: 1
+  status: result
+  time: '16:00'
+- id: 72019390
+  teams:
+    home: Pardubice
+    away: Sparta Prague
+  score:
+    home: 3
+    away: 1
+  status: result
+  time: '17:00'
 table_tennis:
 - id: 76982542
   teams:
