@@ -35,7 +35,7 @@ tennis:
   score:
     home: 2
     away: 0
-  status: recentlyended
+  status: result
   time: 09:30
 - id: 76916748
   teams:
@@ -43,8 +43,8 @@ tennis:
     away: Kirkin, Ergi
   score:
     home: 0
-    away: 1
-  status: live
+    away: 2
+  status: result
   time: '10:10'
 - id: 76916804
   teams:
@@ -52,10 +52,199 @@ tennis:
     away: Bianchi J J / Sheehy J
   score:
     home: 0
-    away: 0
-  status: live
+    away: 2
+  status: result
   time: '11:10'
-ice_hockey: []
+- id: 76916800
+  teams:
+    home: Ozdemir S M / Turker M N
+    away: Gulin S / Obradovic D
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '11:55'
+- id: 76916802
+  teams:
+    home: Poritskyy A / Ursu V
+    away: Agafonov E / Binda A
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '12:40'
+- id: 76916798
+  teams:
+    home: Oetzbach A / Wiskandt M
+    away: Funk A / Maute J
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:20'
+- id: 76914734
+  teams:
+    home: Alcala Gurri, Max
+    away: Ribeiro, Eduardo
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:00'
+- id: 76914730
+  teams:
+    home: Barranco Cosano, Javier
+    away: Justo, Guido Ivan
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '13:00'
+- id: 76914724
+  teams:
+    home: La Serna, Juan Manuel
+    away: Cigarran, Thiago
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '13:00'
+- id: 76914736
+  teams:
+    home: Nijboer, Ryan
+    away: Roncadelli, Franco
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:35'
+- id: 76914746
+  teams:
+    home: Zarate, Carlos Maria
+    away: Meligeni Alves, Felipe
+  score:
+    home: 0
+    away: 2
+  status: result
+  time: '14:55'
+- id: 76914728
+  teams:
+    home: Marcondes, Igor
+    away: Nikles, Johan
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '15:35'
+- id: 76914726
+  teams:
+    home: Aguilar Cardozo, Joaquin
+    away: Olivieri, Genaro Alberto
+  score:
+    home: 1
+    away: 2
+  status: result
+  time: '16:45'
+- id: 76914748
+  teams:
+    home: Zanellato, Nicolas
+    away: Moller, Elmer
+  score:
+    home: 2
+    away: 1
+  status: result
+  time: '17:10'
+- id: 76914770
+  teams:
+    home: Barrientos N / Ribeiro E
+    away: Bagnis F / Kestelboim M
+  score:
+    home: 1
+    away: 2
+  status: recentlyended
+  time: '18:10'
+- id: 76914760
+  teams:
+    home: Sakamoto P / Saraiva Dos Santos P A
+    away: Merino A / Ribero F
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:25'
+- id: 76914758
+  teams:
+    home: Arias B / Carou I
+    away: Loureiro J V C / Ribeiro Marcondes I
+  score:
+    home: 0
+    away: 1
+  status: live
+  time: '19:30'
+ice_hockey:
+- id: 72119074
+  teams:
+    home: HC Dynamo Pardubice B
+    away: Kolin
+  score:
+    home: 4
+    away: 2
+  status: result
+  time: '17:15'
+- id: 72116574
+  teams:
+    home: Vaasan
+    away: Ilves
+  score:
+    home: 2
+    away: 3
+  status: result
+  time: '16:30'
+- id: 72117476
+  teams:
+    home: Pyry
+    away: Kettera
+  score:
+    home: 3
+    away: 2
+  status: result
+  time: '16:30'
+- id: 72484152
+  teams:
+    home: Frankfurt
+    away: Mannheim
+  score:
+    home: 0
+    away: 2
+  status: live
+  time: '18:30'
+- id: 72122208
+  teams:
+    home: Lillehammer
+    away: Frisk/Asker
+  score:
+    home: 0
+    away: 7
+  status: result
+  time: '17:30'
+- id: 72122210
+  teams:
+    home: Ringerike
+    away: Valerenga
+  score:
+    home: 1
+    away: 3
+  status: result
+  time: '17:30'
+- id: 72122212
+  teams:
+    home: Stjernen
+    away: Stavanger
+  score:
+    home: 2
+    away: 0
+  status: result
+  time: '17:30'
 table_tennis:
 - id: 77138750
   teams:
